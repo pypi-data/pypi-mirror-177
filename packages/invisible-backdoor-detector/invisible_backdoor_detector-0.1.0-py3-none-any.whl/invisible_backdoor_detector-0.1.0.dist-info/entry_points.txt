@@ -1,0 +1,3 @@
+[console_scripts]
+invisible-backdoor-detector=invisible_backdoor_detector.main:app
+
