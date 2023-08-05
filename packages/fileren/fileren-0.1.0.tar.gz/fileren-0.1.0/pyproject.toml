@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fileren"
+version = "0.1.0"
+description = "Simple tool for renaming files in a directory"
+authors = ["Mikołaj Badyl <contact@hawier.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rich = "^12.6.0"
+
+[tool.poetry.scripts]
+fileren = 'fileren.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
