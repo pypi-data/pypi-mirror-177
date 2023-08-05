@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "naveeen"
+version = "0.0.1"
+authors = [
+  { name="naveen v", email="navpypi@gmail.com" },
+]
+description = "See the difference, if you use threading and without."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/navawspy/mod"
+"Bug Tracker" = "https://github.com/navawspy/mod"
