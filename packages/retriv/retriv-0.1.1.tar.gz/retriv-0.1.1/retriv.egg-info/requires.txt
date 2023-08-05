@@ -1,0 +1,9 @@
+numpy
+nltk
+numba>=0.54.1
+rich
+optuna
+krovetzstemmer
+ranx
+indxr
+oneliner_utils
