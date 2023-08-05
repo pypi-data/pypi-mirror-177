@@ -1,0 +1,7 @@
+[console_scripts]
+db = piva.main:db
+h5_to_pickle = piva.main:pickle_h5
+piva2d = piva.main:open2D
+piva3d = piva.main:open3D
+reshape_pickled = piva.main:reshape_pickled
+
