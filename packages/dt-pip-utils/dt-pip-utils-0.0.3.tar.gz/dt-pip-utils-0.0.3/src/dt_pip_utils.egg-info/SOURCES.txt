@@ -1,0 +1,12 @@
+setup.py
+src/dt_pip_utils/__init__.py
+src/dt_pip_utils/update.py
+src/dt_pip_utils/versions.py
+src/dt_pip_utils.egg-info/PKG-INFO
+src/dt_pip_utils.egg-info/SOURCES.txt
+src/dt_pip_utils.egg-info/dependency_links.txt
+src/dt_pip_utils.egg-info/entry_points.txt
+src/dt_pip_utils.egg-info/requires.txt
+src/dt_pip_utils.egg-info/top_level.txt
+src/dt_pip_utils/cli/__init__.py
+src/dt_pip_utils/cli/resolve.py
