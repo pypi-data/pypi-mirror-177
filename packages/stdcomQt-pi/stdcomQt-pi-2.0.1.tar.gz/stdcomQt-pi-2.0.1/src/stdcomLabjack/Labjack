@@ -1,0 +1,8 @@
+[General]
+freg=50
+ipaddress=127.0.0.1
+multiverse=true
+nbradc=8
+port=4897
+sub=Labjacku6.adcs
+trendtime=1

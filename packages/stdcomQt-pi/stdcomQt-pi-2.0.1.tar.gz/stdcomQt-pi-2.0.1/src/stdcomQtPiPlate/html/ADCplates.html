@@ -1,0 +1,658 @@
+<!DOCTYPE html><html>
+<head>
+<title></title>
+<style type="text/css">
+<!--
+.xflip {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph;
+}
+.yflip {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv;
+}
+.xyflip {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+    filter: fliph + flipv;
+}
+-->
+</style>
+</head>
+<body>
+<a name=1></a><img src="ADCplate-1_1.png"/><br/>
+<img src="ADCplate-1_2.png"/><br/>
+<img class="xflip" src="ADCplate-1_3.png"/><br/>
+<img class="yflip" src="ADCplate-1_4.png"/><br/>
+<img class="xyflip" src="ADCplate-1_5.png"/><br/>
+ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+<a href="https://pi-plates.com/">Pi-Plates</a><br/>
+Search...<br/>
+search<br/>
+<a href="https://pi-plates.com/">•&#160;Home<br/></a><a href="https://pi-plates.com/general-purpose-catalog/">•&#160;GP Products<br/></a><a href="https://pi-plates.com/scientific-and-industrial-catalog/">•&#160;S&amp;I Products<br/></a><a href="https://pi-plates.com/documentation/">•&#160;Documentation<br/></a><a href="https://pi-plates.com/series-toc/">•&#160;Posts<br/></a><a href="https://pi-plates.com/examples/">•&#160;Applications<br/></a><a href="https://pi-plates.com/cart/">•&#160;Cart</a><br/>
+Navigation&#160;--- Navigation ---<br/>
+ADCplate Users Guide<br/>
+Table of Contents<br/>
+<a href="https://pi-plates.com/adcplate-users-guide/#"></a><br/>
+Overview<br/>
+This page describes all of the features and functions of the Pi-Plates ADCplate. This Pi-Plate operates in two fundamental modes:<br/>Easy add Advanced. <br/>
+All of the examples below were written for Python 3 and require that the ADCplate module is imported with the following<br/>statement:<br/>
+import piplates.ADCplate as ADC<br/>
+Board Layout<br/>
+The terminal blocks and their functions along with the address select&#160;header are shown below:<br/>
+ <br/>
+Address Selection Header<br/>
+Up to eight ADCplates can be used in a single stack of Pi-Plates. To do this, each board has to be set to a unique address. When<br/>shipped, the ADCplate is set to address zero. The address is set by positioning jumpers on the small, six pin header on the lower<br/>left of board as shown in the image above.&#160;Use the diagram below to set the address:<br/>
+1 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=2></a><img src="ADCplate-2_1.png"/><br/>
+<img src="ADCplate-2_2.png"/><br/>
+ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+<a href="https://i0.wp.com/pi-plates.com/wp-content/uploads/2022/03/AddressSelect.jpg?ssl=1">The address headers can be changed at any time an</a>d do not require that the ADCplate be powered oﬀ.<br/>
+Basic Operation<br/>
+Modes<br/>
+At power up or after a reset, the ADCplate operates in “Easy” mode. In this mode, data from each analog input is continuously<br/>acquired and available to read at any&#160;time. This makes it easy to bring up your code and start collecting data quickly. There are<br/>advantages and disadvantages to this mode which are covered in more detail below. &#160;The other mode is “Advanced.” This mode<br/>requires a better understanding of the ADCplate and some extra coding but allows you to conﬁgure channels for diﬀerent sample<br/>rates, read large blocks of acquired values, continuously stream data, and trigger measurements.<br/>
+Events<br/>
+For the ADCplate, the term “events” is somewhat analogous to the “interrupts” and “service requests” used in previous Pi-Plates.<br/>However, when using Advanced mode, they are a&#160;necessary method of signaling the Raspberry Pi after a lengthy process has<br/>completed. For example, when using block mode or streaming at high precision sample rates, it can take many&#160;seconds or even<br/>minutes before data is available to read. Since it would consume too much bandwidth to just wait for these measurements to<br/>complete, the ADCplate asserts a GPIO pin on the Raspberry Pi to signal when the data is ready.<br/>
+Events can also be used in Easy mode to signal when a “fresh” set of values is available. This is covered in more detail in the next<br/>section.<br/>
+Voltage Input Conﬁguration<br/>
+The ADCplate can support a combination of eight ground referenced single ended inputs or four, true diﬀerential inputs. A<br/>diﬀerential input is the combination of two single ended inputs. We have attempted to illustrate this in the&#160;ﬁgure below. Here we<br/>see that diﬀerential input D0 is the measurement of&#160;S0-S1, D1 is S2-S3, and so on.<br/>
+2 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=3></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+Easy Mode<br/>
+Operation<br/>
+After power up or a reset, the ADCplate defaults to Easy mode. In this mode, the ADCplate continually collects data from all of the<br/>single ended voltage inputs (8 values), diﬀerential voltage inputs (4 values), and 4-20mA inputs (4 values). This data can be read at<br/>any time using either the getADC command for a&#160;single channel or the getADCall command for all the&#160;channels. Easy, right? In<br/>addition, you can select three diﬀerent Easy modes that tradeoﬀ&#160;accuracy for speed. These modes are:<br/>
+Accuracy/Speed<br/>“HIGH”/SLOW”<br/>“MEDium”/”MEDium”<br/>“LOW”/”FAST”<br/>
+To change the Easy mode, simply send the&#160;setMODE(addr,mode) command to the ADCplate where&#160;addr&#160;is the board address and<br/>mode&#160;is&#160;“HIGH”, “SLOW”, “MED”, “LOW”, or “FAST”. The mode arguments can be lower case or upper case. The&#160;performance of<br/>each of the Easy modes is shown in the table below:<br/>
+Search:<br/>
+Equivalent<br/>
+Equivalent<br/>
+rms<br/>
+Cutoﬀ<br/>
+50Hz<br/>
+60Hz<br/>
+Easy<br/>
+Update<br/>
+Number of<br/>
+Number of<br/>
+Noise<br/>
+<br/>
+<br/>
+Frequency<br/>
+<br/>
+Rejection<br/>
+<br/>
+Rejection<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Mode<br/>
+Rate (Hz)<br/>
+Bits<br/>
+Bits<br/>
+(uV /<br/>
+(Hz)<br/>
+(dB)<br/>
+(dB)<br/>
+Voltage<br/>
+Current<br/>
+nA)<br/>
+High<br/>
+1.25<br/>
+10<br/>
+-62<br/>
+-62<br/>
+21.6<br/>
+23.6<br/>
+6.09 /<br/>
+Precision<br/>
+7.68<br/>
+Slow Speed<br/>
+Medium<br/>
+26.32<br/>
+174.2<br/>
+NA<br/>
+NA<br/>
+20.2<br/>
+19.9<br/>
+17 / 21<br/>
+Precision<br/>Medium<br/>Speed<br/>
+Low<br/>
+125<br/>
+6776<br/>
+NA<br/>
+NA<br/>
+17.5<br/>
+17<br/>
+106 / 155<br/>
+Precision<br/>High Speed<br/>
+Showing 1 to 3 of 3 entries<br/>
+The values in the&#160;“Update Rate” column reﬂect how frequently the ADCplate updates all of the analog measurements. You should<br/>try to avoid reading data faster than the Update Rate because you will likely read the same value more than&#160;once. This is called<br/>“stale” data. To avoid “stale” data and always read “fresh” data, ensure&#160;that you execute your read functions at a frequency less<br/>than the Update rate. To ensure that you are always get fresh data at the maximum&#160;rate, refer to the Events section below.<br/>
+Functions<br/>
+The following read functions are available in Easy mode:<br/>
+getADC(addr, input)&#160;– returns the value of the speciﬁed analog input. Valid input arguments are ‘S0’, ‘S1’, ‘S2’, ‘S3’, ‘S4’,<br/>‘S5’, ‘S6’, ‘S7’ for single ended measurements, ‘D0’, ‘D1’, ‘D2’, ‘D3’ for diﬀerential measurements, and ‘I0’, ‘I1’, ‘I2’,&#160;‘I3’ for<br/>4-20mA measurements. The&#160;returned values of current measurements will be in units of milliamps.<br/>getADCall(addr)&#160;– returns a list with all 12 analog input combinations with a format of<br/>[S0,S1,S2,S3,S4,S5,S6,S7,D0,D1,D2,D3,I0,I1,I2,I3]<br/>getSall(addr)&#160;– a convenience function that only returns a list of all 8 single ended voltage inputs with the format<br/>[S0,S1,S2,S3,S4,S5,S6,S7]. It does not aﬀect the data acquisition time<br/>getDall(addr)&#160;– a convenience function that only returns a list of all 4 diﬀerential voltage inputs with the format<br/>[D0,D1,D2,D3]. It does not aﬀect the data acquisition time<br/>getIall(addr)&#160;– a convenience function that only returns a list of all 4 current inputs in mA&#160;with the format [I0,I1,I2,I3]. It<br/>does not aﬀect the data acquisition time<br/>
+Here is an simple example of&#160;collecting 10 sets of readings using Easy mode:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+print(ADC.getID(0))<br/>for&#160;i&#160;in&#160;range(10):<br/>    print(ADC.getADCall(0))<br/>    time.sleep(0.038)<br/>
+Running the above script produces the following results:<br/>pi@raspberrypi:~ $ python easyMode.py<br/>Pi-Plate ADCplate<br/>[10.0013375, 2.3930788, 2.4846822, 2.4843127, 2.5980353, 2.3715436, 2.4842441, 2.4842173, 7.598716, -8.05e-05,<br/>0.2267867, -3.28e-05, 20.0560182, 0.0, 0.0, 0.0]<br/>[10.0013375, 2.3927897, 2.4841368, 2.4841338, 2.598089, 2.371639, 2.4843782,&#160;2.4843097, 7.5986713, -2.68e-05,<br/>
+3 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=4></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+0.2267838, 6e-06, 20.0561255, 0.0, 0.0, 0.0]<br/>[10.0013435, 2.3927093, 2.484557, 2.4847329, 2.598092, 2.3716629, 2.4843663,&#160;2.4842083, 7.5989157, -3.28e-05,<br/>0.2268165, 3.28e-05, 20.0557888, 0.0, 0.0, 0.0]<br/>[10.0013107, 2.3930281, 2.4849683, 2.4846852, 2.5980651, 2.3715734, 2.4841815, 2.4841875, 7.5986594, -2.98e-05,<br/>0.226754, 6e-06, 20.0562477, 0.0, 0.0, 0.0]<br/>[10.0013018, 2.392593, 2.4843782, 2.4840653, 2.5980055, 2.3715824, 2.4843037,&#160;2.4842799, 7.6005042, -3e-06,<br/>0.2268046, -1.79e-05, 20.0561106, 0.0, 0.0, 0.0]<br/>[10.0013405, 2.3926258, 2.484253, 2.4843425, 2.5980532, 2.3716658, 2.484408,&#160;2.484268, 7.5989574, -4.77e-05,<br/>0.2268195, -2.98e-05, 20.056662, 0.0, 0.0, 0.0]<br/>[10.0013405, 2.3929328, 2.4848282, 2.484861, 2.5980771, 2.3716331, 2.4842501,&#160;2.4841428, 7.5988322, 0.0,<br/>0.2267689, -8.9e-06, 20.056349, 0.0, 0.0, 0.0]<br/>[10.0012839, 2.3930192, 2.4847627, 2.4844378, 2.5980264, 2.3715705, 2.484256,&#160;2.4842322, 7.5986773, -5.96e-05,<br/>0.2268106, 6e-06, 20.0562656, 0.0, 0.0, 0.0]<br/>[10.0013763, 2.3927867, 2.4842083, 2.4840683, 2.5979877, 2.3715913, 2.4843752, 2.4842739, 7.5988233, -2.38e-05,<br/>0.2267867, 1.19e-05, 20.0559109, 0.0, 0.0, 0.0]<br/>[10.0012988, 2.3927063, 2.4844795, 2.4846226, 2.598089, 2.371642, 2.4843276,&#160;2.4841875, 7.5989515, -3.28e-05,<br/>0.2268016, 8.9e-06, 20.0566173, 0.0, 0.0, 0.0]<br/>pi@raspberrypi:~ $<br/>
+For the above example, we connected a 10V power supply across&#160;S0, a short across D1 and D3, and a 20mA current source into I0.<br/>The script collected and printed 10 lists of analog readings using the default MEDium settings in Easy mode. The format of each<br/>list is [S0,S1,S2,S3,S4,S5,S6,S7,D0,D1,D2,D3,I0,I1,I2,I3]. Note that if a voltage input is left&#160;ﬂoating, the ADC measures the bias<br/>voltage on an internal&#160;resistive divider. This is why there are a&#160;series of measurements in the 2.5V range in the data above. If this<br/>is undesirable, then you will need to short out unused inputs or only read the input channels with valid inputs using the<br/>getADC(addr,input)&#160;command.<br/>
+Events<br/>
+When we issue read instructions in Easy mode faster than the Update Rate, we run the risk of reading “stale” data, If we go slower<br/>than the Update Rate, we may miss “fresh” data. However, by enabling and monitoring events, it is possible to read data at<br/>precisely the Update Rate – no more “stale” data and no missed “fresh” data. We will be using three functions for event<br/>monitoring. They are:<br/>
+enableEVENTS(addr,signal – optional)&#160;– the ADCplate will pull down the selected GPIO pin if an enabled event occurs. If<br/>included, the signal argument can be either&#160;SHARED&#160;(use GPIO22) or&#160;DEDICATED&#160;(more on this later). If the optional signal<br/>argument is omitted, the ADCplate will use the last selected signal. At power up or after an&#160;initADC, this will default to&#160;SHARED.<br/>check4EVENTS(addr)&#160;– reads the status of the enabled event pin and returns True if an event has occurred or a False if there is no<br/>change.<br/>getEVENTS(addr)&#160;– this returns the event status register of the addressed ADCplate. This function must be used after every<br/>detected event to clear the selected pin. The bits in the events status register are mapped as follows:<br/>
+| bit7 | bit6 | bit5 | bit4 | bit3 | bit2 | bit1 | bit0 |<br/>| ADC &#160;| &#160;NA &#160;| &#160;NA &#160;| &#160;NA&#160; | DIN3 | DIN2 | DIN1 | DIN0 |<br/>
+The following script demonstrates how to use the event functions:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/>addr=0<br/>print(ADC.getID(addr))<br/>ADC.enableEVENTS(addr)  &#160;#Enable events and used default of SHARED<br/>
+ADC.getEVENTS(addr)      #Clear our residual events<br/>
+for&#160;i&#160;in&#160;range(10):<br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#2nd while loop to check for events<br/>            pass                              &#160;#if no event then pass and&#160;check again<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;detected<br/>            go=False                          &#160;#if the event is == ADC complete (0x80) then get out of while loop and fetch data<br/>    print(ADC.getADCall(addr))                &#160;#Collect data and print<br/>
+Advanced Mode<br/>
+Advanced mode enables a number of powerful functions that allow you to tailor ADCplate data collection to&#160;ﬁt your needs. To enter<br/>Advanced mode, issue the command&#160;setMODE(addr,’ADV’). The ADCplate will remain&#160;in Advanced mode until another setMode<br/>command is issued or a reset or initADC command is issued. Note that events are automatically&#160;enabled when the ADCplate enters<br/>Advanced mode.<br/>
+Channel Conﬁguration<br/>
+In Advanced mode, you can conﬁgure each of the analog inputs with a unique sample rate. But, you are&#160;limited to a maximum of<br/>eight “enabled” inputs. This can be any combination of single-ended, diﬀerential, or current inputs as long as the number of<br/>enabled inputs does not exceed eight. The ADCplate Python module will issue an error if you attempt to enable too many input<br/>channels.<br/>
+There are three primary functions related to input channel conﬁguration. They&#160;are:<br/>
+configINPUT(addr,channel,sampleRate,enable – optional)&#160;– this function sets the sample rate (0-18) of the speciﬁed analog<br/>
+4 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=5></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+channel. See the able below for the ADC characteristics for each Sample Rate. If included, the optional enable argument (True or<br/>False) will set the enable status of the channel. If&#160;excluded, the status will be unchanged – the default is False. Note that each of<br/>the 16 possible analog channels can be conﬁgured but only a maximum of eight can be enabled at a time.&#160;The channel input<br/>arguments are ‘S0’, ‘S1’, ‘S2’, ‘S3’, ‘S4’, ‘S5’, ‘S6’, ‘S7’ for single ended measurements, ‘D0’, ‘D1’, ‘D2’, ‘D3’ for diﬀerential<br/>measurements, and ‘I0’, ‘I1’, ‘I2’, ‘I3’ for 4-20mA measurements. Numeric values 0 through 15 can be used for channel selection as<br/>well.<br/>
+enableINPUT(addr,input)&#160;– enable a conﬁgured input<br/>
+disableINPUT(addr,input)&#160;– disable a conﬁgured input<br/>
+Below is a table showing the characteristics of each sample rate. Note how the precision of the measurements improves with<br/>slower sample rates. This is a characteristic of the Sigma-Delta A2D converter used on the ADCplate. Also note that when&#160;more<br/>than channel is enabled, the multiplexer inside the A2D chip requires additional settling time – this reduces the overall throughput.<br/>To obtain the fastest sample rate (Fdata in the table), only a&#160;single input can be enabled.<br/>
+Search:<br/>
+Single<br/>
+Multi<br/>
+Equivalent<br/>
+Equivalent<br/>
+rms<br/>
+Sample<br/>
+Channel<br/>
+Settling<br/>
+Channel<br/>
+Cutoﬀ<br/>
+50Hz<br/>
+60Hz<br/>
+Number<br/>
+Number<br/>
+Noise<br/>
+Rate<br/>
+<br/>
+Sample&#160;<br/>
+Time<br/>
+<br/>
+Sample&#160;&#160;Frequency&#160;&#160;Rejection&#160;&#160;Rejection&#160;<br/>
+<br/>
+<br/>
+<br/>
+of Bits<br/>
+of Bits<br/>
+(uV /<br/>
+Value<br/>
+Rate<br/>
+(msec)<br/>
+Rate<br/>
+(Hz)<br/>
+(dB)<br/>
+(dB)<br/>
+Voltage<br/>
+Current<br/>
+nA)<br/>
+(SPS)<br/>
+(SPS)<br/>
+0<br/>
+1.25<br/>
+2400<br/>
+1.25<br/>
+0.3<br/>
+-125.63<br/>
+-130.43<br/>
+22.7<br/>
+24<br/>
+2.9 /<br/>
+2.4<br/>
+1<br/>
+2.5<br/>
+1200<br/>
+2.5<br/>
+0.6<br/>
+-108.66<br/>
+-113.49<br/>
+22.7<br/>
+24<br/>
+3.0 /<br/>
+2.6<br/>
+2<br/>
+5<br/>
+600<br/>
+5<br/>
+1.3<br/>
+-103.09<br/>
+-107.92<br/>
+22.4<br/>
+24<br/>
+3.5 /<br/>
+3.1<br/>
+3<br/>
+10<br/>
+300<br/>
+10<br/>
+2.6<br/>
+-101.71<br/>
+-106.52<br/>
+22.4<br/>
+24<br/>
+3.7 /<br/>
+3.8<br/>
+4<br/>
+16.67<br/>
+60<br/>
+16.67<br/>
+10<br/>
+-90<br/>
+-90<br/>
+21.9<br/>
+24<br/>
+5.38 /<br/>
+7.25<br/>
+5<br/>
+20<br/>
+50<br/>
+20<br/>
+10<br/>
+-85<br/>
+-85<br/>
+21.8<br/>
+24<br/>
+5.54 /<br/>
+7.26<br/>
+6<br/>
+25<br/>
+40<br/>
+25<br/>
+10<br/>
+-62<br/>
+-62<br/>
+21.6<br/>
+23.6<br/>
+6.09 /<br/>
+7.68<br/>
+7<br/>
+50<br/>
+60<br/>
+49.68<br/>
+12.8<br/>
+-100.76<br/>
+-46.95<br/>
+21.8<br/>
+23.7<br/>
+5.3 /<br/>
+7.2<br/>
+8<br/>
+59.98<br/>
+50.02<br/>
+59.52<br/>
+15.4<br/>
+-40.34<br/>
+-105.8<br/>
+21.6<br/>
+23.6<br/>
+6.2 /<br/>
+7.6<br/>
+9<br/>
+100.2<br/>
+10<br/>
+100.2<br/>
+44<br/>
+NA<br/>
+NA<br/>
+21.3<br/>
+20.6<br/>
+8.0 / 13<br/>
+10<br/>
+200.3<br/>
+5<br/>
+200.3<br/>
+89.4<br/>
+NA<br/>
+NA<br/>
+20.6<br/>
+20.1<br/>
+13 / 18<br/>
+11<br/>
+381<br/>
+2.63<br/>
+380.95<br/>
+174.2<br/>
+NA<br/>
+NA<br/>
+20.2<br/>
+19.9<br/>
+17 / 21<br/>
+12<br/>
+504<br/>
+1.99<br/>
+503.8<br/>
+234<br/>
+NA<br/>
+NA<br/>
+19.9<br/>
+19.4<br/>
+21 / 29<br/>
+13<br/>
+1007<br/>
+0.993<br/>
+1007<br/>
+502<br/>
+NA<br/>
+NA<br/>
+19.5<br/>
+18.8<br/>
+27 / 43<br/>
+14<br/>
+2597<br/>
+0.385<br/>
+2597<br/>
+1664<br/>
+NA<br/>
+NA<br/>
+19.7<br/>
+18<br/>
+47 / 75<br/>
+15<br/>
+5208<br/>
+0.321<br/>
+3115<br/>
+2182<br/>
+NA<br/>
+NA<br/>
+18.3<br/>
+17.9<br/>
+62 / 84<br/>
+16<br/>
+10415<br/>
+0.225<br/>
+4444<br/>
+3944<br/>
+NA<br/>
+NA<br/>
+17.9<br/>
+17.4<br/>
+82 /<br/>113<br/>
+17<br/>
+15625<br/>
+0.193<br/>
+5181<br/>
+5164<br/>
+NA<br/>
+NA<br/>
+17.7<br/>
+17.2<br/>
+94 /<br/>136<br/>
+18<br/>
+31250<br/>
+0.161<br/>
+6211<br/>
+6776<br/>
+NA<br/>
+NA<br/>
+17.5<br/>
+17<br/>
+106 /<br/>
+155<br/>
+Showing 1 to 19 of 19 entries<br/>
+In the table above:<br/>
+•&#160;SR: the sample rate index passed to the ADCplate<br/>
+5 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=6></a><img src="ADCplate-6_1.png"/><br/>
+ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+•&#160;Fdata: the sample rate IF&#160;ONLY ONE CHANNEL IS ENABLED<br/>•&#160;Ts: the settling time in milliseconds<br/>•&#160;Fmux: the&#160;sample rate if more than one&#160;channel is enabled<br/>•&#160;fc: the 3dB cutoﬀ&#160;frequency of the digital&#160;ﬁlter internal to the A2D converter<br/>•&#160;50Hz Rej: the amount of attenuation (in dB) at 50 Hz<br/>•&#160;60Hz Rej: the amount of attenuation (in dB) at 60 Hz<br/>•&#160;Venb: the equivalent number of voltage measurement bits<br/>•&#160;Ienb: the equivalent number of current measurement bits<br/>
+Note that after entering the Advanced mode, the&#160;default input channel sample rate is 10SPS (SR=3) and all channels are disabled.<br/>
+Finally, there’s a helper function in the Python module that prints the key speciﬁcations for each sample rate.&#160;Just enter srTable()<br/>from the command console like this:<br/>
+Read Single Channel<br/>
+The single channel read functions in Advanced mode can be used at any time independently of&#160;the state of the other channels.<br/>Before executing, these functions save the state (sample rate and enable status) of all input channels. After execution, all of&#160;the<br/>channel states are restored. The following functions are available for a single channel&#160;read:<br/>
+readSINGLE(addr,input,sampleRate-optional)&#160;– reads a single analog input even if it is not enabled. If the&#160;optional sample rate<br/>argument is not included in the function call, the&#160;ADCplate will use the existing conﬁguration. This function saves the state of&#160;all<br/>the channels, performs a measurement, then restores the state of all the channels to their initial conﬁgurations.<br/>
+The&#160;readSINGLE&#160;function is actually a combination of&#160;two other functions:<br/>
+startSINGLE(addr,input,sampleRate-optional)&#160;– starts the measurement of a single analog input even&#160;if it is not enabled.<br/>When combined with event monitoring and the&#160;getSINGLE&#160;function, this is the recommended method of performing long, high<br/>precision measurements. If the optional sample rate argument is not included in the function call, the ADCplate will use the<br/>existing conﬁguration. This function does not aﬀect any&#160;other preconﬁgured channels.<br/>
+getSINGLE(addr,input)&#160;– returns the value of a single analog input initiated by the&#160;startSINGLE&#160;function.<br/>
+Care must be taken when using readSINGLE with slow, high precision sample rates since these can cause your code to get stuck in<br/>long delays while waiting for the ADCplate to complete a measurement. For example, the script below sets the ‘S0’ sample rate<br/>argument to 0 which requires 2400mSec of settling time for each reading.<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(0,'ADV')  <br/>
+ADC.configINPUT(0,'s0',0)  #Configure S0 input for highest precision<br/>
+for&#160;i&#160;in&#160;range(10):        #High precision causes BW&#160;wasting loop<br/>    t0=time.time()        &#160;#Record start time<br/>    print('Index:',i,'S0:',ADC.readSINGLE(addr,'S0'),'Measurement Time:',time.time()-t0)<br/>
+The above script produces the following output:<br/>
+pi@raspberrypi:~ $ python readSingle.py<br/>Pi-Plate ADCplate<br/>
+6 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=7></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+Index: 0 S0: 10.001227 Measurement Time: 2.4031224250793457<br/>Index: 1 S0: 10.001212 Measurement Time: 2.4030823707580566<br/>Index: 2 S0: 10.001165 Measurement Time: 2.4030888080596924<br/>Index: 3 S0: 10.001168 Measurement Time: 2.403085231781006<br/>Index: 4 S0: 10.001141 Measurement Time: 2.403075695037842<br/>Index: 5 S0: 10.001138 Measurement Time: 2.403092861175537<br/>Index: 6 S0: 10.001132 Measurement Time: 2.4030826091766357<br/>Index: 7 S0: 10.001099 Measurement Time: 2.4030978679656982<br/>Index: 8 S0: 10.001096 Measurement Time: 2.4030776023864746<br/>Index: 9 S0: 10.001156 Measurement Time: 2.403125047683716<br/>
+Note how it takes 2.4 seconds for each measurement to complete.<br/>
+Using&#160;startSINGLE, event monitoring, and&#160;getSINGLE&#160;allows you to run other tasks while the ADCplate performs a lengthy<br/>measurement. The&#160;script below shows an example where we make a series of calls to a function to calculate Fibonacci numbers<br/>while waiting for the ADCplate to complete a high resolution measurement on a 10V power supply:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/> <br/>
+N=0<br/>F0=0<br/>F1=1<br/>FN=0<br/>def&#160;Fibonacci():<br/>    global&#160;N,&#160;F0,&#160;F1,&#160;FN<br/>    FN=F0+F1<br/>    F0=F1<br/>    F1=FN<br/>    N=N+1<br/>    return&#160;N<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(0,'ADV')  <br/>
+ADC.configINPUT(0,'s0',0)  #Configure S0 input for highest precision<br/>
+ADC.enableEVENTS(addr)    &#160;#Enable events and used default of SHARED<br/>
+ADC.getEVENTS(addr)        #Clear out any resual events<br/> <br/>
+for&#160;i&#160;in&#160;range(10):<br/>    ADC.startSINGLE(0,'S0')    <br/>    go=True<br/>    Fcount=0<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for event<br/>            #Your code starts here:<br/>            Fcount=Fibonacci()                &#160;#if no event then calculate the next Fibonacci number<br/>            #Your code ends here<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is == ADCcomplete then get out of while loop and fetch data<br/>    print('Channel S0:',ADC.getSINGLE(addr,'S0'),'Total Fibbonacci Values Calculated:',Fcount)<br/>
+The output from the above script looks like:<br/>
+pi@raspberrypi:~ $ python SingleWithEvent.py<br/>Pi-Plate ADCplate<br/>Channel S0: 10.001078 Total Fibonacci Values Calculated: 151035<br/>Channel S0: 10.001069 Total Fibonacci Values Calculated: 225574<br/>Channel S0: 10.001159 Total Fibonacci Values Calculated: 283345<br/>Channel S0: 10.001132 Total Fibonacci Values Calculated: 332209<br/>Channel S0: 10.001147 Total Fibonacci Values Calculated: 375421<br/>Channel S0: 10.00115 Total Fibonacci Values Calculated: 414490<br/>Channel S0: 10.001153 Total Fibonacci Values Calculated: 450472<br/>Channel S0: 10.001144 Total Fibonacci Values Calculated: 483968<br/>Channel S0: 10.001108 Total Fibonacci Values Calculated: 515359<br/>Channel S0: 10.001162 Total Fibonacci Values Calculated: 545064<br/>
+Note the area in the script where you can place your own code that executes while waiting for the ADCplate to&#160;ﬁnish the long<br/>measurement.<br/>
+Reading a Scan<br/>
+A scan is a single read of all the enable input channels on the ADCplate. After a scan is read, the Python code returns a list that<br/>contains 16 values. The data will be arranged in the list in the following order: [S0,S1,S2,S3,S4,S5,S6,S7,D0,D1,D2,D3,I0,I1,I2,I3]. <br/>Channels that have been&#160;enabled will be populated with their measured values. Channels that are disabled will say ‘None.’&#160;The<br/>simplest way to read a scan is with the readSCAN function:The following functions are available for reading a scan:<br/>
+readSCAN(addr)&#160;– performs a scan and returns a list of all 16 possible analog inputs. The value of each enabled channel will<br/>appear in the list. All disabled channels will have have a value of&#160;‘None’.<br/>
+ <br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>
+7 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=8></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+import&#160;time<br/> <br/>
+addr=0<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'S0',10,True)  #Configure S0 input<br/>
+ADC.configINPUT(addr,'I0',2,True)  &#160;#Configure I0 input<br/>
+ADC.configINPUT(addr,'D3',18,True)  #Configure D3 input<br/>
+ADC.configINPUT(addr,'D1',18,True)  #Configure D1 input<br/>
+for&#160;i&#160;in&#160;range(10):        <br/>    t0=time.time()        &#160;#Record start time<br/>    print('Index:',i,'Scan:',ADC.readSCAN(addr),'Scan Measurement Time:',time.time()-t0)<br/>
+The output of the above script is:<br/>
+pi@raspberrypi:~ $ python readSCAN.py<br/>Pi-Plate ADCplate<br/>Index: 0 Scan: [10.001266, None, None, None, None, None, None, None, None, -0.000194, None, -4.5e-05,<br/>20.055681, None, None, None] Scan Measurement Time: 0.6124236583709717<br/>Index: 1 Scan: [10.001317, None, None, None, None, None, None, None, None, -0.000274, None, 9.2e-05, 20.055607,<br/>None, None, None] Scan Measurement Time: 0.6124956607818604<br/>Index: 2 Scan: [10.00126, None, None, None, None, None, None, None, None, -0.000119, None, -0.000235,<br/>20.055598, None, None, None] Scan Measurement Time: 0.6118607521057129<br/>Index: 3 Scan: [10.001287, None, None, None, None, None, None, None, None, 2.4e-05, None, -1.5e-05, 20.055586,<br/>None, None, None] Scan Measurement Time: 0.6118383407592773<br/>Index: 4 Scan: [10.001329, None, None, None, None, None, None, None, None, -0.00017, None, 7.7e-05, 20.055664,<br/>None, None, None] Scan Measurement Time: 0.6118028163909912<br/>Index: 5 Scan: [10.001254, None, None, None, None, None, None, None, None, 5.7e-05, None, -9e-06, 20.055568,<br/>None, None, None] Scan Measurement Time: 0.611842155456543<br/>Index: 6 Scan: [10.001287, None, None, None, None, None, None, None, None, -8e-05, None, -6e-05, 20.055613,<br/>None, None, None] Scan Measurement Time: 0.6118278503417969<br/>Index: 7 Scan: [10.001296, None, None, None, None, None, None, None, None, -3.6e-05, None, -3.6e-05, 20.055571,<br/>None, None, None] Scan Measurement Time: 0.611842155456543<br/>Index: 8 Scan: [10.001278, None, None, None, None, None, None, None, None, -1.8e-05, None, -0.000134,<br/>20.055577, None, None, None] Scan Measurement Time: 0.6118307113647461<br/>Index: 9 Scan: [10.001311, None, None, None, None, None, None, None, None, -0.000215, None, 6e-05, 20.055643,<br/>None, None, None] Scan Measurement Time: 0.6118578910827637<br/>pi@raspberrypi:~ $<br/>
+The data displayed above shows how the string “None” is used to indicate a disabled channel. Also of note is the scan<br/>measurement time. This can become a large value when one are more channels are conﬁgured for high accuracy. readSCAN&#160;is<br/>actually a combination of the following two functions. Similar to readSINGLE these should be used&#160;with event monitoring to minimize wasted bandwith: <br/>
+startSCAN(addr)&#160;– starts a scan of all of the enabled channels. When combined with event monitoring and the getSCAN function,<br/>this is the recommended method of performing high precision measurements on multiple channels.<br/>
+getSCAN(addr)&#160;– returns a list of all 16 possible analog inputs collected by the startSCAN function. The value of each enabled<br/>channel will appear in the list. All disabled channels will have have a value of ‘None’<br/>
+Here’s a script that starts a scan and then calculates the Fibonacci sequence while waiting for the ADC complete event to occur:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/> <br/>
+N=0<br/>F0=0<br/>F1=1<br/>FN=0<br/>def&#160;Fibonacci():<br/>    global&#160;N,&#160;F0,&#160;F1,&#160;FN<br/>    FN=F0+F1<br/>    F0=F1<br/>    F1=FN<br/>    N=N+1<br/>    return&#160;N<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'S0',10,True)  <br/>
+ADC.configINPUT(addr,'I0',1,True)<br/>ADC.configINPUT(addr,'D3',18,True)<br/>ADC.configINPUT(addr,'D1',18,True)<br/>for&#160;i&#160;in&#160;range(10):<br/>    ADC.startSCAN(0)<br/>    go=True<br/>    Fcount=0<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for event<br/>        # Start of foreground tasks<br/>            Fcount=Fibonacci()                &#160;#if no event then calculate the next Fibonacci number<br/>        # End of foreground tasks<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is == ADCcomplete then get out of while loop and fetch data<br/>
+8 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=9></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+    print('Count:',i+1,'Scanned Data:',ADC.getSCAN(addr),'Total Fibonacci Values Calculated:',Fcount)<br/>
+The output from the above was:<br/>
+pi@raspberrypi:~ $ python ScanWithEvent.py<br/>Pi-Plate ADCplate<br/>Count: 1 Scanned Data: [2.363315, None, None, None, None, None, None, None, None, -4.8e-05, None, -1.2e-05,<br/>20.056468, None, None, None] Total Fibonacci Values Calculated: 99188<br/>Count: 2 Scanned Data: [2.363342, None, None, None, None, None, None, None, None, 6.9e-05, None, -5.1e-05,<br/>20.056477, None, None, None] Total Fibonacci Values Calculated: 151077<br/>Count: 3 Scanned Data: [2.363634, None, None, None, None, None, None, None, None, -0.00014, None, -6.3e-05,<br/>20.056453, None, None, None] Total Fibonacci Values Calculated: 191221<br/>Count: 4 Scanned Data: [2.362815, None, None, None, None, None, None, None, None, -0.000137, None, -0.000173,<br/>20.056471, None, None, None] Total Fibonacci Values Calculated: 225370<br/>Count: 5 Scanned Data: [2.362889, None, None, None, None, None, None, None, None, -7.5e-05, None, 4.2e-05,<br/>20.056516, None, None, None] Total Fibonacci Values Calculated: 255653<br/>Count: 6 Scanned Data: [2.363643, None, None, None, None, None, None, None, None, -0.000149, None, 0.000143,<br/>20.056492, None, None, None] Total Fibonacci Values Calculated: 283154<br/>Count: 7 Scanned Data: [2.363122, None, None, None, None, None, None, None, None, -0.000152, None, -0.000218,<br/>20.05648, None, None, None] Total Fibonacci Values Calculated: 308488<br/>Count: 8 Scanned Data: [2.362666, None, None, None, None, None, None, None, None, -1.2e-05, None, -0.000137,<br/>20.056379, None, None, None] Total Fibonacci Values Calculated: 331985<br/>Count: 9 Scanned Data: [2.363452, None, None, None, None, None, None, None, None, -0.000259, None, -2.4e-05,<br/>20.056447, None, None, None] Total Fibonacci Values Calculated: 354177<br/>Count: 10 Scanned Data: [2.363443, None, None, None, None, None, None, None,&#160;None, -0.00014, None, -4.2e-05,<br/>20.056465, None, None, None] Total Fibonacci Values Calculated: 375248<br/>
+Reading a Block<br/>
+The ADCplate can collect data in blocks as large as 8192 readings independently of the Raspberry Pi. This operation requires<br/>following two functions:<br/>
+startBLOCK(addr,num)&#160;– initiates a block read of all enabled channels. The&#160;num&#160;argument can range from 1 to 8192. This function<br/>must be used with event monitoring and the getBLOCK function. This is the most eﬀective method for high speed measurements of<br/>a single channel.<br/>
+getBLOCK(addr)&#160;– returns a list of all of the measurements collected by the&#160;startBLOCK&#160;function. The returned data is a sequential<br/>list of all the enabled channels. If&#160;more than one channel is enabled then the ADCplate will sequence the data from S0, S1, S2, S3,<br/>S4, S5, S6, S7, D0, D1, D2, D3, I0, I1, I2, and I3. For example, if S0, I0, D1, and D3 are enabled for a block read, then the data<br/>sequence in the returned list will be : S0, D1, D3, I0, S0, D1, D3, I0, S0, D1, D3, I0 and so.<br/>
+In the following script, we will do a block read of a single diﬀerential channel with a sample rate of&#160;31250 samples per second:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'D0',18,True)  #Configure S0 input for highest speed<br/>
+#ADC.configINPUT(addr,'I0',18,True)  #Configure I0 input&#160;for highest speed<br/>
+N=2048<br/>block=[0]*N    #initialize the list<br/>
+for&#160;i&#160;in&#160;range(10):<br/>    ADC.startBLOCK(0,N)  #start the block<br/>    go=True<br/>    t0=time.time()<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for events<br/>        # Start of foreground tasks<br/>            pass<br/>        # End of foreground tasks<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is == ADCcomplete then get out of while loop and fetch data<br/>    block&#160;=&#160;ADC.getBLOCK(addr)    &#160;<br/>    print('Count:',i+1,'Block Length:',len(block),'Block Data:',block[0:4],'Time Required:',time.time()-t0)<br/>
+To keep the listing simple we placed a “pass” statement where foreground code would normally go. And to keep the rest of this<br/>example short, we only print the&#160;ﬁrst four values of each block:<br/>
+pi@raspberrypi:~ $ python OneChannelBlock.py<br/>Pi-Plate ADCplate<br/>Count: 1 Block Length: 2048 Block Data: [6.00771, 6.007716, 6.007779, 6.00771] Time Required:<br/>0.08788800239562988<br/>Count: 2 Block Length: 2048 Block Data: [6.007522, 6.00771, 6.007865, 6.007814] Time Required:<br/>0.0882728099822998<br/>Count: 3 Block Length: 2048 Block Data: [6.00754, 6.007856, 6.00794, 6.007999] Time Required:<br/>0.08726310729980469<br/>Count: 4 Block Length: 2048 Block Data: [6.007624, 6.007698, 6.007817, 6.007797] Time Required:<br/>0.08809161186218262<br/>
+9 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=10></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+Count: 5 Block Length: 2048 Block Data: [6.007531, 6.007594, 6.007618, 6.007692] Time Required:<br/>0.0883338451385498<br/>Count: 6 Block Length: 2048 Block Data: [6.007701, 6.007692, 6.007811, 6.007901] Time Required:<br/>0.08880352973937988<br/>Count: 7 Block Length: 2048 Block Data: [6.007418, 6.007552, 6.007656, 6.007481] Time Required:<br/>0.08847951889038086<br/>Count: 8 Block Length: 2048 Block Data: [6.007877, 6.007573, 6.007594, 6.007814] Time Required:<br/>0.08814883232116699<br/>Count: 9 Block Length: 2048 Block Data: [6.007668, 6.007648, 6.007576, 6.007737] Time Required:<br/>0.08852410316467285<br/>Count: 10 Block Length: 2048 Block Data: [6.007677, 6.007779, 6.007591, 6.007543] Time Required:<br/>0.08782434463500977<br/>
+One&#160;ﬁnal note:&#160;if you calculate the total time to collect 2048 samples at 31,250sps the you get 65.5msec. However, the above data<br/>shows around 85msec. The diﬀerence is the time required to convert the 24bit values to&#160;ﬂoating point and the time required to<br/>transfer the block data from the ADCplate to the RPi.<br/>
+In our next example we will enable I0 by uncommenting the conﬁg line:&#160;ADC.configINPUT(addr,’I0′,18,True)<br/>
+pi@raspberrypi:~ $ python OneChannelBlock.py<br/>Pi-Plate ADCplate<br/>Count: 1 Block Length: 2048 Block Data: [6.00785, 19.989416, 6.007805, 19.991696] Time Required:<br/>0.3614692687988281<br/>Count: 2 Block Length: 2048 Block Data: [6.007752, 19.991463, 6.00785, 19.989896] Time Required:<br/>0.3519153594970703<br/>Count: 3 Block Length: 2048 Block Data: [6.007975, 19.992656, 6.007659, 19.990417] Time Required:<br/>0.35117053985595703<br/>Count: 4 Block Length: 2048 Block Data: [6.007975, 19.992498, 6.007877, 19.992286] Time Required:<br/>0.3515782356262207<br/>Count: 5 Block Length: 2048 Block Data: [6.007946, 19.989592, 6.008103, 19.990775] Time Required:<br/>0.351391077041626<br/>Count: 6 Block Length: 2048 Block Data: [6.007996, 19.992948, 6.007999, 19.991937] Time Required:<br/>0.3514230251312256<br/>Count: 7 Block Length: 2048 Block Data: [6.007963, 19.989383, 6.007987, 19.990093] Time Required:<br/>0.3514888286590576<br/>Count: 8 Block Length: 2048 Block Data: [6.007648, 19.991571, 6.007898, 19.990832] Time Required:<br/>0.351654052734375<br/>Count: 9 Block Length: 2048 Block Data: [6.00777, 19.991404, 6.007937, 19.990465] Time Required:<br/>0.3512444496154785<br/>Count: 10 Block Length: 2048 Block Data: [6.00771, 19.991964, 6.007904, 19.993803] Time Required:<br/>0.351564884185791<br/>
+The block data now shows the alternating values of D0 and I0. In addition, the total time to collect 2048 readings has increased<br/>from 85msec to 351msec. This is because every time the multiplexor switches to a diﬀerent input, it requires a certain amount of<br/>time to settle before it can perform the conversion. This aﬀects the overall sample rate which, in this case has been reduced to<br/>6,211SPS.<br/>
+Streaming<br/>
+In streaming mode, the ADCplate collects data from each enabled channel&#160;indeﬁnitely and places it in a FIFO (First In First Out)<br/>buﬀer. The ADCplate will generate an event when the FIFO is half&#160;full. Streaming mode can be used to continuously monitor a<br/>process or as a method to collect an arbitrarily large block of data.<br/>
+The basic&#160;ﬂow of initiating and collection streamed data is:<br/>
+1. Enable inputs<br/>2. Start stream<br/>3. Wait for event<br/>4. When even occurs get the buﬀered stream data<br/>5. Store and/or act on data<br/>6. GOTO step 3<br/>
+The streaming functions are:<br/>
+startSTREAM(addr,num)&#160;– places the ADCplate in streaming mode. The ADC continuously samples and generates an event<br/>whenever the FIFO is half full. The ‘num‘ argument informs the ADC plate the amount of data in the FIFO that triggers an event.<br/>This value can range from 1 to 4096 values. A smaller buﬀer will produce “fresher” data but requires more overhead. A large<br/>buﬀer will require less overhead since reads of the ADCplate occur less often. Note that startSTREAM must be used with the<br/>getSTREAM function and event monitoring.<br/>
+getSTREAM(addr)&#160;– returns an N-sized list of streamed values. The number of values is set by the&#160;num&#160;argument in the<br/>startSTREAM function. The returned data is a sequential list of all the enabled channels.<br/>
+stopSTREAM(addr)&#160;– stops the stream and places the ADCplate in idle mode.<br/>
+Below is a simple example that uses the above functions to stream 10240 contiguous readings:<br/>
+10 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=11></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/>N=1024<br/>data=list()  &#160;#initialize the list<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'s0',18,True)  #Configure S0 input for highest speed<br/>
+ADC.configINPUT(addr,'I0',18,True)  #Configure I0 input for highest speed<br/>
+ADC.startSTREAM(addr,N)            &#160;#start the STREAM<br/>
+t0=time.time()<br/>for&#160;i&#160;in&#160;range(10):              <br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for events<br/>        # Start of foreground tasks<br/>            pass<br/>        # End of foreground tasks<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is == ADCcomplete then get out of while loop and fetch data<br/>    data.extend(ADC.getSTREAM(addr))  &#160;<br/>
+ADC.stopSTREAM(addr)              &#160;#stop the STREAM    <br/>
+print('Number of readings collected:',len(data),'Measurement Time:',time.time()-t0)<br/>print('First 8 values:',data[0:8])<br/>
+The output of the above is:<br/>
+pi@raspberrypi:~ $ python basicStream.py<br/>Pi-Plate ADCplate<br/>Number of readings collected: 10240 Measurement Time: 1.6614093780517578<br/>First 8 values: [6.007805, 20.026991, 6.007326, 20.027798, 6.007588, 20.025557, 6.007379, 20.028439]<br/>
+It’s very easy to collect a large amount of data very quickly while streaming. And, while you can keep this data in a long list, you<br/>might want to save it to a&#160;ﬁle instead. The following example does this by saving the collected values to a&#160;ﬁle using the CSV<br/>(Comma Separated Values) format. The CSV format is readable by LibreOﬀice Calc and excel:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/>N=1024<br/>data=N*[]  &#160;#initialize the list<br/>
+lCount&#160;=&#160;10<br/> <br/>
+print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'s0',18,True)  #Configure S0 input for highest speed<br/>
+ADC.configINPUT(addr,'I0',18,True)  #Configure I0 input for highest speed<br/>
+cCount&#160;=&#160;2                          #cCount is the number of enabled channels<br/>
+f=open('myLog.csv','w')            #create a log file<br/>
+f.write('Index,Channel 0 Voltage In,Channel 0 Loop Current'+'\n')&#160;#Write the header to the file<br/>ADC.startSTREAM(addr,N)            &#160;#start the STREAM<br/>
+t0=time.time()<br/>index=1<br/>for&#160;i&#160;in&#160;range(lCount):              <br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for events<br/>        # Start of foreground tasks<br/>            pass<br/>        # End of foreground tasks<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is == ADCcomplete then get out of while loop and fetch data<br/>    data=ADC.getSTREAM(addr)<br/>    for&#160;k&#160;in&#160;range(N//cCount):<br/>        f.write(str(index)+','+str(data[2*k])+','+str(data[2*k+1])+'\n')&#160;#Convert data to a string&#160;and write<br/>        index&#160;=&#160;index&#160;+&#160;1<br/>
+ADC.stopSTREAM(addr)                          &#160;#stop the STREAM    <br/>
+f.close()<br/>
+The above script creates a&#160;ﬁle called myLog.csv and writes 10,240 values to it. Opening the&#160;ﬁle with a text editor we see the<br/>following:<br/>Index,Channel 0 Voltage In,Channel 0 Loop Current<br/>1,6.007707,20.027736<br/>2,6.007645,20.027232<br/>3,6.007883,20.028049<br/>4,6.00782,20.027491<br/>5,6.007674,20.026824<br/>6,6.007853,20.027804<br/>7,6.007683,20.027325<br/>.<br/>.<br/>.<br/>5120,6.007695,20.027494<br/>
+Using the code above, we connected a function generator with a 4Hz stairway signal to S0 and a 6Hz sinc signal to S1. Then, we<br/>collected 5120 samples from each (2*5120=10,240), opened the CSV&#160;ﬁle with LibreOﬀice Calc, and plotted this data:<br/>
+11 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=12></a><img src="ADCplate-12_1.png"/><br/>
+ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+Trigger Mode<br/>
+The ADCplate includes a set of functions that allow Scan measurements to be initiated either with an internal clock, a software<br/>command, or with an external input. With triggering, it is possible to:<br/>
+•&#160;Start an ADC conversion within 5 microseconds of an external&#160;event<br/>•&#160;Synchronize the ADC conversion of multiple ADC plates<br/>•&#160;Sample data at programmable rates between 0 and 1Khz<br/>•&#160;Start a conversion based on the value of&#160;an analog measurement<br/>
+The functions available for trigger mode include:<br/>
+configTRIG(addr,mode,primary – optional)&#160;– conﬁgures the trigger mode of the ADCplate at the assigned address. Modes<br/>include:<br/>
+‘EXT’ – the scan will start when a low to high pulse occurs on the trigger pin.<br/>‘SW’ – the scan starts when the swTRIGGER function is called<br/>‘CLOCKED’ – an internal clock triggers scans at a rate conﬁgured by the triggerFREQ function.<br/>‘OFF’ – disables the trigger mode.<br/>
+If the optional primary argument is set to True, the ADCplate will output a clock signal to the trigger terminal when in ‘CLOCKED’<br/>mode or a pulse when in ‘SW’ mode. Setting the primary argument to True&#160;is only valid in CLOCKED and SW modes.<br/>
+startTRIG(addr)&#160;– places the addressed ADCplate in trigger mode. A call to conﬁgTRIG must occur before calling this function.<br/>Once trigger mode has been initiated, a combination of event monitoring and getSCAN calls should be used to read the data<br/>collected by the ADCplate.<br/>
+stopTRIG(addr)&#160;– stops trigger mode on the addressed ADCplate.<br/>
+triggerFREQ(addr,freq)&#160;– sets the internally generated trigger clock rate and returns the actual value set (the clock has a limited<br/>16-bit resolution). The frequency should be greater than zero and less than 1000Hz. The user must be careful not to clock faster<br/>than scans can be performed.<br/>
+maxTRIGfreq(addr)&#160;– a helper function that returns an&#160;approximate value of the highest possible trigger rate based on the<br/>currently enabled channels.<br/>
+swTRIGGER(addr)&#160;– if conﬁgured in ‘SW’ mode, this instructs the addressed ADCplate to immediately trigger a scan. If the<br/>ADCplate is the trigger primary, a 1-2msec pulse will be issued on the trigger terminal to signal other ADCplates<br/>
+When using an external&#160;trigger, connect a digital signal to the TRIG terminals on the left side of the&#160;ADCplate (see picture below).<br/>This pin has a 100K resistor to ground and tolerates voltages as high as 30 volts so it is compatible with PNP switching in an<br/>industrial application. And since the switching voltage is 2.4V, it will work with digital logic as well. If multiple ADCplates are on<br/>the stack, they can share a common&#160;trigger input and be synchronized within 5usec of each other. Or each ADCplate can receive a<br/>unique trigger.<br/>
+Here is an example where&#160;the trigger is enabled in EXT mode and a digital signal is applied to the TRIG input:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/>tData=list()<br/>N=10<br/>#ADC.initADC(addr)<br/>print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'I0',12,True)  #Configure I0 input<br/>
+ADC.enableEVENTS(addr)              #Enable events and used default of SHARED<br/>
+ADC.configTRIG(addr,'EXT')<br/> <br/>
+print('Max trigger rate:',ADC.maxTRIGfreq(addr))<br/>ADC.getEVENTS(addr)      #Clear our residual events<br/>
+12 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=13></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+ADC.startTRIG(addr)<br/>t0=time.time()<br/>for&#160;i&#160;in&#160;range(N):<br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for event<br/>            pass                              &#160;#if no even then check again<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is = ADCcomplete then get out of while loop&#160;and fetch data<br/>    tData.append(ADC.getSCAN(addr))<br/>    t1=time.time()<br/>    dt=t1-t0<br/>    t0=t1<br/>    print('External Trigger Frequency:',1/dt)<br/>
+ADC.stopTRIG(addr)<br/>print('Sample Value:',tData[N-1])<br/>
+The output from the above with a&#160;100Hz trigger clock looks like:<br/>pi@raspberrypi:~ $ python externalTRIGGER.py<br/>Pi-Plate ADCplate<br/>Max trigger rate: 504.0<br/>External Trigger Frequency: 129.46981108778863<br/>External Trigger Frequency: 106.51118616521497<br/>External Trigger Frequency: 100.14335171788076<br/>External Trigger Frequency: 99.5940542337465<br/>External Trigger Frequency: 99.54914200270572<br/>External Trigger Frequency: 100.52497363627648<br/>External Trigger Frequency: 100.10988853617204<br/>External Trigger Frequency: 99.95005242588886<br/>External Trigger Frequency: 97.37890044576523<br/>External Trigger Frequency: 103.10481809242872<br/>Sample Value: [None, None, None, None, None, None, None, None, None, None, None, None, 20.026341, None, None,<br/>None]<br/>
+Recall that the output of a scan read is a list showing all possible analog inputs. For our example, only&#160;the I0 input is enabled. And,<br/>note in the above data that the&#160;timing in the&#160;ﬁrst two readings is a bit oﬀ&#160;due to the way the code&#160;ﬁrst starts out.<br/>
+Let’s repeat the above example but with an internal 100Hz clock signal:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/>tData=list()<br/>N=10<br/>#ADC.initADC(addr)<br/>print(ADC.getID(addr))<br/>ADC.setMODE(addr,'ADV')  <br/>
+ADC.configINPUT(addr,'I0',12,True)  #Configure I0 input<br/>
+ADC.enableEVENTS(addr)              #Enable events and used default of SHARED<br/>
+ADC.configTRIG(addr,'CLOCKED',True)<br/>print('Set Trigger Frequency:',ADC.triggerFREQ(addr,100))<br/>print('Max trigger rate:',ADC.maxTRIGfreq(addr))<br/>ADC.getEVENTS(addr)      #Clear our residual events<br/>
+ADC.startTRIG(addr)<br/>t0=time.time()<br/>for&#160;i&#160;in&#160;range(N):<br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for event<br/>            pass                              &#160;#if no even then check again<br/>        if&#160;(ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x80):      &#160;#read event register when&#160;event detected<br/>            go=False                          &#160;#if the event is = ADCcomplete then get out of while loop&#160;and fetch data<br/>    tData.append(ADC.getSCAN(addr))<br/>    t1=time.time()<br/>    dt=t1-t0<br/>    t0=t1<br/>    print('External Trigger Frequency:',1/dt)<br/>
+ADC.stopTRIG(addr)<br/>print('Sample Value:',tData[N-1])<br/>
+And again the output:<br/>
+pi@raspberrypi:~ $ python clockedTRIGGER.py<br/>Pi-Plate ADCplate<br/>Set Trigger Frequency: 100.0<br/>Max trigger rate: 504.0<br/>External Trigger Frequency: 298.187402246552<br/>External Trigger Frequency: 88.8134502181002<br/>External Trigger Frequency: 103.83996831055654<br/>External Trigger Frequency: 97.75793031115255<br/>External Trigger Frequency: 102.6958523088977<br/>External Trigger Frequency: 100.22471265741117<br/>External Trigger Frequency: 100.1600916993027<br/>External Trigger Frequency: 100.36621201244317<br/>External Trigger Frequency: 98.58280449395949<br/>
+13 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=14></a><img src="ADCplate-14_1.png"/><br/>
+ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+External Trigger Frequency: 100.67215514965316<br/>Sample Value: [None, None, None, None, None, None, None, None, None, None, None, None, 20.026779, None, None,<br/>None]<br/>
+The above data is very similar to the previous conﬁguration. And, if you have an oscilloscope or a frequency counter, you will be<br/>able to observe a 100Hz square wave on the TRIG connector terminals.<br/>
+Digital Inputs<br/>
+The ADCplate includes four digital inputs on the left side for general purpose signal monitoring. These signals are tolerant to input<br/>voltages as high as 30V but will also work with signals from digital logic as low as 3.3 volts. The have 33V transient protection and<br/>10K resistors connected to ground making them ideal for PNP switching in an industrial environment. They&#160;can be read<br/>asynchronously and can also generate&#160;events. Note that the TRIG input can also be use as general purpose input as long as the<br/>ADCplate is not conﬁgured as the primary in trigger mode.<br/>
+The following functions are provided for these inputs:<br/>
+getDINbit(addr,bit)&#160;– returns the value of the digital input on the specified&#160;bit input. Allowable bit values<br/>are 0-4. The returned value is 1 for a high input and 0 for a low input.<br/>
+getDINall(addr)&#160;– returns all of the digital inputs as an 8-bit number. Bit 0&#160;is the least significant bit<br/>(LSB) and bit 7 is the most significant bit:<br/>
+————————————————————<br/>|NA|NA|NA|4|3|2|1|0|<br/>————————————————————&#160; <br/>
+enableDINevent(addr, bit) – enables the specific digital input to generate an&#160;event on a low to high<br/>transition. Allowable bit values are 0-3.<br/>
+disableDINevent(addr, bit) – disables the specified digital input from generating events. Allowable bit values<br/>are 0-3.<br/>
+The above “get” functions can issued at any time&#160;and are independent of ADC operations. But, to avoid too much traﬀic on the<br/>signals used to control the Pi-Plates, it is also possible to monitor the D0 through D3 inputs using events:<br/>
+import&#160;piplates.ADCplate&#160;as&#160;ADC<br/>import&#160;time<br/> <br/>
+addr=0<br/>N=10<br/>print(ADC.getID(addr))<br/>ADC.enableEVENTS(addr)              #Enable events and used default of SHARED<br/>
+ADC.enableDINevent(addr,0)<br/>ADC.getEVENTS(addr)                &#160;#Clear our residual events<br/>
+for&#160;i&#160;in&#160;range(N):<br/>    go=True<br/>    while(go):<br/>        while(ADC.check4EVENTS(addr)!=True):  &#160;#Check for event<br/>            pass<br/>            #YOUR CODE HERE                            <br/>        eV=ADC.getEVENTS(addr)&#160;&amp;amp;&#160;0x0F<br/>        if&#160;(eV):                        #read event register when&#160;event detected<br/>            go=False                    #if the event is a digital&#160;input then get out of while loop<br/>    print('Event on DIN0 Detected at&#160;t=',time.asctime())<br/>
+ <br/>
+In this example we enable DIN0 to generate an event when a low to high transition occurs. Once detected, we print out the time.<br/>Below is the output when a 1Hz clock is applied to DIN0:<br/>
+pi@raspberrypi:~ $ python digiEVENT.py<br/>Pi-Plate ADCplate<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:48 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:49 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:50 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:51 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:52 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:53 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:54 2022<br/>
+14 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+<a name=15></a>ADCplate Users Guide – Pi-Plates<br/>
+https://pi-plates.com/adcplate-users-guide/<br/>
+Event on DIN0 Detected at t= Sat Mar 26 08:36:55 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:56 2022<br/>Event on DIN0 Detected at t= Sat Mar 26 08:36:57 2022<br/>
+LED Control<br/>
+The ADCplate has a single, green LED that normally reﬂects the power-on state. However, it is possible to control it using the<br/>following commands:<br/>
+setLED(addr) – turn on the LED<br/>clrLED(addr) – turn off the LED<br/>toggleLED(addr) – if LED is on, turn off. If LED is off, turn on.<br/>
+System Functions<br/>
+The ADCplate supports the following common functions:<br/>
+help() – returns a concise list of the ADCplate functions along with explanations<br/>getID(addr) – return Pi-Plate descriptor string, “Pi-Plates ADCplate”<br/>getFWrev(addr) – return FW revision in decimal format<br/>getHWrev(addr) – return HW revision in decimal format<br/>getVersion() – returns revision of python module<br/>getADDR(addr) – returns address of pi-plate. Used for polling available boards at power up.<br/>RESET(addr) – set ADCplate to power on state.<br/>
+<a href="https://pi-plates.com/support/">•&#160;Support<br/></a><a href="https://pi-plates.com/faq-2/">•&#160;FAQ<br/></a><a href="https://pi-plates.com/shipping-and-returns/">•&#160;Shipping and Returns<br/></a><a href="https://pi-plates.com/privacy-policy/">•&#160;Privacy Policy<br/></a><a href="https://pi-plates.com/about-us/">•&#160;About Us</a><br/>
+You have no choice but to operate in a&#160;world shaped by globalization and the information revolution. There are two options: adapt<br/>or die. Andy Grove<br/>
+© 2022 WallyWare, inc.<br/><a href="https://pi-plates.com/adcplate-users-guide/#">Back to Top</a><br/>
+15 of 15<br/>
+9/6/22, 14:02<br/>
+<hr/>
+</body>
+</html>
