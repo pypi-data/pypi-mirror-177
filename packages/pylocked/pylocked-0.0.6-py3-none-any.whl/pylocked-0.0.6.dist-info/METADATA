@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pylocked
+Version: 0.0.6
+Summary: pyLocked provides utility classes to `[R]Lock` resources.
+Author-email: Eyal Halpern Shalev <eyalsh@gmail.com>
+Requires-Python: >=3.10
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: build (~=0.9) ; extra == 'build'
+Requires-Dist: semver (~=2.13) ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: pylocked[build,publish,test] ; extra == 'dev'
+Requires-Dist: ipython (~=8.6) ; extra == 'dev'
+Provides-Extra: publish
+Requires-Dist: twine (~=4.0) ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest (~=7.2) ; extra == 'test'
+Requires-Dist: pytest-asyncio (~=0.20) ; extra == 'test'
+Requires-Dist: black (~=22.10) ; extra == 'test'
+Requires-Dist: mypy (~=0.990) ; extra == 'test'
+Requires-Dist: isort (~=5.10) ; extra == 'test'
+
