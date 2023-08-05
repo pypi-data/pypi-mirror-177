@@ -1,0 +1,8 @@
+cryptography~=3.3.2
+bcrypt~=3.2.2
+iso8601~=0.1.16
+setuptools~=60.0.0
+Deprecated==1.2.13
+
+[redis]
+redis~=3.3.11
