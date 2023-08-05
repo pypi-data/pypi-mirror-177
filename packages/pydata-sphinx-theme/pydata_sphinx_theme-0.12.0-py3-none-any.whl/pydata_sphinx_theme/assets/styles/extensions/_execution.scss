@@ -1,0 +1,30 @@
+/**
+ * Styles for various Sphinx execution libraries.
+ * For now, where these define output sections, we simply revert their background
+ * to be a "light theme" background. This ensures that inputs/outputs behave similarly,
+ * because the CSS is often controlled by each package.
+ * In the future, we might add dark theme support for specific packages.
+ */
+
+/******************************************************************************
+ * Jupyter Sphinx
+ */
+
+// Dark theme special-cases
+html[data-theme="dark"] .bd-content {
+  div.jupyter_container {
+    // Background has slightly more custom background behavior because of hard-coded color
+    border: 1px solid var(--pst-color-border);
+    background-color: var(--pst-color-surface);
+    border-radius: 0.25rem;
+
+    div.output,
+    div.highlight {
+      border-radius: 0.25rem;
+    }
+
+    div.highlight {
+      background-color: var(--pst-color-surface);
+    }
+  }
+}
