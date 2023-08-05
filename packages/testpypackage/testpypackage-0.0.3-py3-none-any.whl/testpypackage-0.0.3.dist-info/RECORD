@@ -1,0 +1,7 @@
+module/__init__.py,sha256=X_KuUj5xpphtU3iGJSkDm0VQ4hr-42orQKHflEGr4sQ,27
+module/hello.py,sha256=ShjWVRYCim_E3fUkqShwoJYLMYas7FA-EvvmvICKPas,67
+testpypackage-0.0.3.dist-info/LICENSE.md,sha256=zO9dRbcLPsJ9HTX3IrLxCL4ENhzN1RVxLmLwNRnbX_0,1045
+testpypackage-0.0.3.dist-info/METADATA,sha256=9XKy3U1C-TgymgxwyPYmGJ9gAepERkS9B7AWjioGF-E,520
+testpypackage-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+testpypackage-0.0.3.dist-info/top_level.txt,sha256=rCVQUTc7DucbyvV1vRKPlp8MRkSTuDqKf-ZCJsPhQHc,7
+testpypackage-0.0.3.dist-info/RECORD,,
