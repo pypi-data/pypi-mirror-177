@@ -1,0 +1,13 @@
+tp_timesheet/__init__.py,sha256=sCZ3ArljVIPh8YchHR9xJRBZE7XYcicQcrwVYuZG44A,170
+tp_timesheet/__main__.py,sha256=IVfN8QGqGrQsKqk4NSnEq6M-G-QY-nJoOPAjiD67xNc,7520
+tp_timesheet/config.py,sha256=bFHbGiFWOccSbv2JKipeFpTZ1vGMQD6JMg-HWqFjy-E,5046
+tp_timesheet/date_utils.py,sha256=VIfBo1vYakqGQFFTkUXoRXa3ZxxU8cuQoRui5VoFuro,3334
+tp_timesheet/docker_handler.py,sha256=f7AhYF0nmJHDLk8N489tMcPTcTlqgGIwXdV04mTUHs0,6093
+tp_timesheet/schedule.py,sha256=hMZDc9IrFQsqqRqtiod7wyzaWPx8qWboWpNzuYaTOZI,2864
+tp_timesheet/submit_form.py,sha256=lMdHP2Q6AFosQVgDAjnnPohXOm_KAN6fwLBMX6RBVnw,3201
+tp_timesheet-0.4.0.dist-info/LICENSE,sha256=oqgwKZQKxsVdOPQYezOsMP23_9p1xqsJKpbnAT4KKqE,1068
+tp_timesheet-0.4.0.dist-info/METADATA,sha256=mUyWJ9iLVPSDHNig4qOjCppcDMMZZVVnZXAWh5dZUyk,2854
+tp_timesheet-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tp_timesheet-0.4.0.dist-info/entry_points.txt,sha256=hpXyHbxuNJv68Bgx9d9JRUFyRx9f2BThawetoztcvGM,55
+tp_timesheet-0.4.0.dist-info/top_level.txt,sha256=l-q2T6M6QCK5avMKcORzEN3hCpo0WMJTeKBVy3J2uGY,13
+tp_timesheet-0.4.0.dist-info/RECORD,,
