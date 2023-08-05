@@ -1,0 +1,7 @@
+setup.py
+my-test-package/__init__.py
+my-test-package/test.py
+test_wheel_wheel_test.egg-info/PKG-INFO
+test_wheel_wheel_test.egg-info/SOURCES.txt
+test_wheel_wheel_test.egg-info/dependency_links.txt
+test_wheel_wheel_test.egg-info/top_level.txt
