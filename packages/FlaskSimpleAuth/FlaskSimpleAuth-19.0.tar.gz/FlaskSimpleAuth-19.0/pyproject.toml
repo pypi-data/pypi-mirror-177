@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FlaskSimpleAuth"
+version = "19.0"
+authors = [{name="Fabien Coelho", email="flask.auth@coelho.net"}]
+description = "Simple authentication, authorization and parameters for Flask, emphasizing configurability"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Programming Language :: Python",
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+homepage = "https://..."
+repository = "https://..."
