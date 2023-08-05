@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: djtodo_jake0318
+Version: 0.0.1
+Summary: CLI todo application in Python
+Project-URL: Homepage, https://github.com/dongjin2008/djtodo
+Project-URL: Bug Tracker, https://github.com/dongjin2008/djtodo/issues
+Author-email: jake0318 <gimdongjin2008@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# djtodo
+
+djtodo is a CLI todo application.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install djtodo.
+
+```bash
+pip install djtodo
+```
+
+## Usage
+
+```python
+
+$ djtodo add homework
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
