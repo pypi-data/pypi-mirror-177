@@ -1,0 +1,2 @@
+prefect>=2.0.0
+prefect_shell>=0.1.0
