@@ -1,0 +1,9 @@
+myaws/__init__.py,sha256=XlKfwzXFtO9ugJQIxbYigkaA8Ki1DggJUN_lgeBkKxE,116
+myaws/aws_helper.py,sha256=4TxOB8GV3ut65l4GBN6aLbabcpa0cP1QK7ie4WsB2e0,10054
+mylogging/__init__.py,sha256=a6OA-ZeZtTCrNR1ZbORC2vm40NXnHiPaeoB4Jb46oqU,38
+mylogging/logger.py,sha256=OzR0BWRUe3iB5KFbLJyUlQ7FO055ZOyg_bXCCExOKH4,2275
+common_py_lib-1.6.0.dist-info/LICENSE,sha256=ymdrXKT6AnqGvd7V3QmX4SVjVgOXoaROWgmPWd5_u6A,1068
+common_py_lib-1.6.0.dist-info/METADATA,sha256=uz0xgL5L_SpsjB4LIkCDMJllQuwSN4xwKnmvJsXzF8I,1406
+common_py_lib-1.6.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+common_py_lib-1.6.0.dist-info/top_level.txt,sha256=RvwcVMrD4r1d9Lml3k2VHb5XyGPLJIrktasb1jWJV1s,16
+common_py_lib-1.6.0.dist-info/RECORD,,

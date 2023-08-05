@@ -1,0 +1,1 @@
+from mylogging.logger import getLogger

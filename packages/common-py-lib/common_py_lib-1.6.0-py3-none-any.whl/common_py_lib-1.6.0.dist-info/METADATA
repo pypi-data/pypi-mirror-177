@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: common-py-lib
+Version: 1.6.0
+Summary: Python Library
+Author: Steve Zheng
+Author-email: steve.zheng@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (>=1.26.0)
+Requires-Dist: botocore (>=1.29.0)
+Requires-Dist: jmespath (>=1.0.1)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: s3transfer (>=0.6.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: urllib3 (>=1.26.12)
+
+# Python libraries #
+
+![Release PyPi](https://github.com/SteveZhengMe/common_py_lib/actions/workflows/release.yml/badge.svg)
+[![PyPI version](https://badge.fury.io/py/common-py-lib.svg)](https://badge.fury.io/py/common-py-lib)
+
+## Command line ##
+
+- Build a package: `python setup.py sdist bdist_wheel`
+- Install to AWS CodeArtifact: `./install_AWS_CodeArtifacts.sh [Domain Name] [Repo Name] [AWS profile name if has multiple]`
+- Install to PyPi: `./install_pypi.sh [PyPi username] [PyPi password]`
+- Use the package (You need to login to the AWS CodeArtifacts using CLI): `pip install common-py-lib`
+
+## Change Notes
+
+- 2022-11-02 (v1.4): Initial release with logging and aws services support
+- 2022-11-04 (v1.5.0): Easy maintenance of the Version
+- 2022-11-15 (v1.5.0): Refactor logging and AWS helper
