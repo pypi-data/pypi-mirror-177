@@ -1,0 +1,10 @@
+foamclient/__init__.py,sha256=KuCU1dxXD067I0zmu7hhpusMauMgGqEvJA4SD0IW2jk,73
+foamclient/client.py,sha256=Fzv92f9keZdbqJCHiEPvaummS_9SkzIByvajyFvUzk8,2380
+foamclient/deserializer.py,sha256=LwoxnWh9SE_R5tvme4eIWGPBS5rwDBPpFL6DRTxXP7s,675
+foamclient/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foamclient/tests/test_client.py,sha256=GjCNa3oio8tdPBcGeU0UjaMSXWamZHvxuAZqL0CVqvI,155
+foamclient-0.1.0.dist-info/LICENSE,sha256=oCsmt8OIScdHYA5apQ_K0HA_TkZBRFC4jME_8HNqdIU,1511
+foamclient-0.1.0.dist-info/METADATA,sha256=BQeQZFv6JsSt3KqXRGpd0PSalBQor8-Le3DQ8K3ktPA,3136
+foamclient-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+foamclient-0.1.0.dist-info/top_level.txt,sha256=dNV5Fzg2bv_KJhNss8IrwwSEvsuuGh4ePKuZVIlH-uY,11
+foamclient-0.1.0.dist-info/RECORD,,
