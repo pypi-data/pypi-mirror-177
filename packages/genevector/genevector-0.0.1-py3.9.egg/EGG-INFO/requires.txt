@@ -1,0 +1,12 @@
+scipy
+leidenalg
+numpy
+notebook
+sklearn
+cython
+pandas
+scanpy
+umap-learn
+tqdm
+seaborn
+matplotlib
