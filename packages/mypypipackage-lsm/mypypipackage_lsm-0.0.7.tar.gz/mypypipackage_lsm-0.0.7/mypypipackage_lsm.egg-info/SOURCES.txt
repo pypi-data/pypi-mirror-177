@@ -1,0 +1,8 @@
+pyproject.toml
+mypypipackage_lsm/__init__.py
+mypypipackage_lsm/global_variable.py
+mypypipackage_lsm/greet.py
+mypypipackage_lsm.egg-info/PKG-INFO
+mypypipackage_lsm.egg-info/SOURCES.txt
+mypypipackage_lsm.egg-info/dependency_links.txt
+mypypipackage_lsm.egg-info/top_level.txt
