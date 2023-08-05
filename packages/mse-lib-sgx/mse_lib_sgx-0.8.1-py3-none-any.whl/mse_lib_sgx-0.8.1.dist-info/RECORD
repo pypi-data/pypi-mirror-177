@@ -1,0 +1,14 @@
+mse_lib_sgx/__init__.py,sha256=kaRvlK5YYD2Re8FTpgIzXmKgyY4gss9Eq9mS5D3CD6A,26
+mse_lib_sgx/base64url.py,sha256=ZivZQPPC6pgJ9YB-ZSQk05tfauWzGpxE729UkW6nk_U,887
+mse_lib_sgx/certificate.py,sha256=zOMTjFHGaAmeS00Q8ITxqDDhB05HWlOvjPMh8KSePgc,6903
+mse_lib_sgx/cli.py,sha256=awkijrpRU40usO2yIvpyfRJFX-zZigmZL2Y2k2wDlX8,7365
+mse_lib_sgx/error.py,sha256=go9gS1PHkCHlKGo4TQBUVgpmuhlo5Jo_pxB4iJ8cbLw,449
+mse_lib_sgx/globs.py,sha256=YgNoIJNt-Zt_hUrBecNM0QdaotPbTeOxdSbRhXMmcGA,278
+mse_lib_sgx/http_server.py,sha256=D6lkNu42BuCNRWa_bfW6jpeIvRPYxEtW1NnWGb8SYvY,3027
+mse_lib_sgx/import_hook.py,sha256=avdWpVfkpxtZ7HXrBWmLXDocALZtixFRUkLERSSvUps,3790
+mse_lib_sgx/sgx_quote.py,sha256=2zdggHmIpo37v_Gd8Uh7EGYclreP_ohUz7zlMVW1SF8,914
+mse_lib_sgx-0.8.1.dist-info/METADATA,sha256=5J2rqfY1pKfkrBe38qHDWpaqs-5pZ-viaDqZk92hB-Y,1746
+mse_lib_sgx-0.8.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mse_lib_sgx-0.8.1.dist-info/entry_points.txt,sha256=swHKzrZZOIeaDL24nJe3vQejTkXaEut9Lh3llD-2798,48
+mse_lib_sgx-0.8.1.dist-info/top_level.txt,sha256=8wW9hhrjbbiMw1wOAhBZrEzW4B-QbK6yaM-rNJVQ2vk,12
+mse_lib_sgx-0.8.1.dist-info/RECORD,,
