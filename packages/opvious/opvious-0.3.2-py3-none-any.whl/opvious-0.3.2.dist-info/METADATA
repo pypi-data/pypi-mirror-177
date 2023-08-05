@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: opvious
+Version: 0.3.2
+Summary: Opvious Python SDK
+Home-page: https://github.com/opvious/sdk.py
+Author: Opvious Engineering
+Author-email: oss@opvious.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: aio
+Requires-Dist: aiohttp (>=3.8,<4.0); extra == "aio"
+Requires-Dist: backoff (>=2.2,<3.0)
+Requires-Dist: pandas (>=1.5,<2.0)
+Project-URL: Repository, https://github.com/opvious/sdk.py
+Description-Content-Type: text/markdown
+
+# Opvious Python SDK  [![CI](https://github.com/opvious/sdk.py/actions/workflows/ci.yml/badge.svg)](https://github.com/opvious/sdk.py/actions/workflows/ci.yml) [![Pypi badge](https://badge.fury.io/py/opvious.svg)](https://pypi.python.org/pypi/opvious/)
+
+This package provides a lightweight client for interacting with the [Opvious
+API][api]. This SDK's functionality is focused on running attempts; for other
+operations consider the [TypeScript CLI or SDK][cli].
+
+## Quickstart
+
+First, install this package and have an API access token handy (these can be
+generated [here][token]).
+
+```sh
+pip install opvious[aio]
+```
+
+With these steps out of the way, you are ready to solve any of your optimization
+models!
+
+```python
+import opvious
+
+# Instantiate an API client from an API token
+client = opvious.Client(TOKEN)
+
+# Assemble inputs for a registered formulation
+builder = await client.create_inputs_builder('my-formulation')
+# Add dimensions and parameters...
+
+# Start an attempt
+attempt = await client.start_attempt(builder.build())
+
+# Wait for the attempt to complete
+outcome = await attempt.wait_for_outcome()
+```
+
+[api]: https://www.opvious.io
+[cli]: https://www.opvious.io/sdk.ts
+[token]: https://hub.opvious.io/authorizations
+
