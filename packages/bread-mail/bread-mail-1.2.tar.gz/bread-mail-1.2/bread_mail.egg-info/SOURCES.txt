@@ -1,0 +1,11 @@
+setup.py
+bread/__init__.py
+bread/function.py
+bread/gui.py
+bread/main.py
+bread/tempCodeRunnerFile.py
+bread_mail.egg-info/PKG-INFO
+bread_mail.egg-info/SOURCES.txt
+bread_mail.egg-info/dependency_links.txt
+bread_mail.egg-info/not-zip-safe
+bread_mail.egg-info/top_level.txt
