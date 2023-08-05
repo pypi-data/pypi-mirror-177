@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: opensamd
+Version: 0.1.0
+Summary: 
+License: AGPL-3.0-or-later
+Author: Simon Biggs
+Author-email: simon@opensamd.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# OpenSaMD
