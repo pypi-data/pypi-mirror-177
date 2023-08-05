@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dataframe-data-validation
+Version: 0.1.1
+Summary: Demo library
+Home-page: https://dataframe_data_validation.readthedocs.io/
+Author: Ahmad Karrabi
+Author-email: ahmad@karrabi.com
+License: MIT
+Requires-Dist: pandas
+
+Data Validation
+
+
