@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+genevector/__init__.py
+genevector/data.py
+genevector/embedding.py
+genevector/model.py
+genevector_nceglia.egg-info/PKG-INFO
+genevector_nceglia.egg-info/SOURCES.txt
+genevector_nceglia.egg-info/dependency_links.txt
+genevector_nceglia.egg-info/requires.txt
+genevector_nceglia.egg-info/top_level.txt
