@@ -1,0 +1,4 @@
+include a_pandas_ex_read_sql/requirements.txt
+include a_pandas_ex_read_sql/thirdparty.json
+include a_pandas_ex_read_sql/README.MD
+include a_pandas_ex_read_sql/LICENSE
