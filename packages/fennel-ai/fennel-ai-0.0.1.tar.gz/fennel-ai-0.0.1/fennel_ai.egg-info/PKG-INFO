@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fennel-ai
+Version: 0.0.1
+Summary: Client package for working with fennel.ai
+Author-email: Fennel Developers <abhay@fennel.ai>
+Project-URL: Homepage, https://fennel.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Place holder for client from https://fennel.ai

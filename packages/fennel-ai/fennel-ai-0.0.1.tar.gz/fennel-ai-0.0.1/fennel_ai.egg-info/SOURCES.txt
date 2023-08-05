@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+fennel_ai.egg-info/PKG-INFO
+fennel_ai.egg-info/SOURCES.txt
+fennel_ai.egg-info/dependency_links.txt
+fennel_ai.egg-info/top_level.txt
