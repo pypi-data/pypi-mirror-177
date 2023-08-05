@@ -1,0 +1,3 @@
+[console_scripts]
+create_rmd = eplus_rmd.runner:run
+
