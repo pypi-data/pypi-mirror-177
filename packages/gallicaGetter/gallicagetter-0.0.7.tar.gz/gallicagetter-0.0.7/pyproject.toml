@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "lxml", "beautifulsoup4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gallicaGetter"
+version = "0.0.7"
+authors = [
+  { name="Will Gleason", email="wgleason9@gmail.com" },
+]
+description = "A Python wrapper for multi-threaded retrieval from Gallica API endpoints" 
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gleasonw/gallica-getter"
+"Bug Tracker" = "https://github.com/gleasonw/gallica-getter/issues"
