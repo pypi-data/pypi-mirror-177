@@ -1,0 +1,15 @@
+setup.py
+mytgbotlib/__init__.py
+mytgbotlib.egg-info/PKG-INFO
+mytgbotlib.egg-info/SOURCES.txt
+mytgbotlib.egg-info/dependency_links.txt
+mytgbotlib.egg-info/requires.txt
+mytgbotlib.egg-info/top_level.txt
+mytgbotlib/src/__init__.py
+mytgbotlib/src/bot.py
+mytgbotlib/src/handlers/__init__.py
+mytgbotlib/src/handlers/command_handler.py
+mytgbotlib/src/handlers/handler.py
+mytgbotlib/src/handlers/message_handler.py
+mytgbotlib/tests/__init__.py
+mytgbotlib/tests/test.py
