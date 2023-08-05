@@ -1,0 +1,9 @@
+kube_debug_pod/__init__.py,sha256=dm4pLWilS4qZuOGS5wGmMLQ8lmI3aiWQtZx34EjuCFM,101
+kube_debug_pod/__main__.py,sha256=U74OaO4IbZfWiFaokoq0bJJ9dlVEYA1LUc_BdvEeaXo,3759
+kube_debug_pod-0.0.5.dist-info/LICENSE,sha256=_bWPzLML3GaS6nSpReb9eXk15R_B79rAwJ-4JAlzkv0,1048
+kube_debug_pod-0.0.5.dist-info/METADATA,sha256=Ny7JvA5LF5LBM2n9Mj6q87le56NEQTa7OxmS5oLMkOA,1680
+kube_debug_pod-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kube_debug_pod-0.0.5.dist-info/entry_points.txt,sha256=o39Enf3DRMkISdgAx6ewwLhi25Yqs8-dQCSEKD8lYNE,52
+kube_debug_pod-0.0.5.dist-info/top_level.txt,sha256=Vz1expBd8idzt6jjAFE24SJONpcYM0qE1esFAw4m8e8,15
+kube_debug_pod-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kube_debug_pod-0.0.5.dist-info/RECORD,,
