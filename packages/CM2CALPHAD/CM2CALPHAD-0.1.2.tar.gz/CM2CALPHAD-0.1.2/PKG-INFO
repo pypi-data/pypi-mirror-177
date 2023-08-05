@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: CM2CALPHAD
+Version: 0.1.2
+Summary: Computational Methods to CALPHAD
+Home-page: https://CM2CALPHAD.readthedocs.io/
+Author: Javier Jofre
+Author-email: javier.jofre@polymtl.ca
+License: GPLv3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CM2CALPHAD
+Python package for the generation of thermodynamic databases for compounds from First Principles and classical atomistic simulations.
