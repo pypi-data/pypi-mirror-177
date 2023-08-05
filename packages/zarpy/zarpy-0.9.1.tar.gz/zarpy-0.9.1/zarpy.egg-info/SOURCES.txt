@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test/test.py
+zarpy/__init__.py
+zarpy/zarpy.so
+zarpy.egg-info/PKG-INFO
+zarpy.egg-info/SOURCES.txt
+zarpy.egg-info/dependency_links.txt
+zarpy.egg-info/top_level.txt
