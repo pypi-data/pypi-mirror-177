@@ -1,0 +1,2 @@
+[console_scripts]
+gencode = gencode.main:run
