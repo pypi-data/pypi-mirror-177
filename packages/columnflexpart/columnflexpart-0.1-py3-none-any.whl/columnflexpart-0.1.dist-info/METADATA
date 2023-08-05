@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: columnflexpart
+Version: 0.1
+License-File: LICENCE
+Requires-Dist: Cartopy (==0.20.2)
+Requires-Dist: dask (==2022.2.0)
+Requires-Dist: filelock (==3.7.1)
+Requires-Dist: geopandas (==0.10.2)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: numpy (==1.21.6)
+Requires-Dist: pandas (==1.4.0)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: setuptools (>=59.8.0)
+Requires-Dist: timezonefinder (==6.1.6)
+Requires-Dist: tqdm (==4.63.1)
+Requires-Dist: xarray (==0.21.1)
+
