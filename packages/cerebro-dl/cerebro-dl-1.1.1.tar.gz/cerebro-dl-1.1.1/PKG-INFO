@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cerebro-dl
+Version: 1.1.1
+Summary: Resource-efficient Deep Learning Model Selection on Data Systems
+Home-page: https://github.com/ADALabUCSD/cerebro-system
+Author: Supun Nakandala
+Author-email: snakanda@eng.ucsd.edu
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+Provides-Extra: cpu
+Provides-Extra: gpu
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,4 @@
+[console_scripts]
+cerebro-api = cerebro.api.cerebro_server:main
+cerebro-standalone-worker = cerebro.standalone.worker:main
+
