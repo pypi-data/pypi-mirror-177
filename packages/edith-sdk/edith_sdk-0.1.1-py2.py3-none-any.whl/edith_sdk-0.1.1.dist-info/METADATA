@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: edith-sdk
+Version: 0.1.1
+Summary: SDK for Edith MLops platform
+Home-page: UNKNOWN
+Author: Niraj Kale
+Author-email: niraj.kale@wolterskluwer.com
+License: GNU General Public License v3 (GPLv3)
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: psutil (==5.9.2)
+Requires-Dist: python-dotenv (==0.20.0)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.5.4)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: urllib3 (==1.26.12)
+
+UNKNOWN
+
