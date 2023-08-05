@@ -1,0 +1,14 @@
+sentencepiece
+gensim==4.0.1
+nltk
+numpy
+scipy
+sklearn-crfsuite
+wasabi
+tqdm
+
+[fasttext]
+fasttext==0.9.2
+
+[spacy]
+spacy==3.4.3
