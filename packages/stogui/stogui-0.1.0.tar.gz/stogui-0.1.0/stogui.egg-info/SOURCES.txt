@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+stogui/__init__.py
+stogui.egg-info/PKG-INFO
+stogui.egg-info/SOURCES.txt
+stogui.egg-info/dependency_links.txt
+stogui.egg-info/not-zip-safe
+stogui.egg-info/requires.txt
+stogui.egg-info/top_level.txt
+stogui/pipeline_maker/__init__.py
