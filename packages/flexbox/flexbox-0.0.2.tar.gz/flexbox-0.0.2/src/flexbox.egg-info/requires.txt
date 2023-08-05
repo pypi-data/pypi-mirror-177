@@ -1,0 +1,6 @@
+domtree>=0.0.4
+typing_extensions>=4
+numpy
+
+[test]
+pytest
