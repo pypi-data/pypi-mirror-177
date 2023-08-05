@@ -1,0 +1,21 @@
+[
+  "test_aiodataloader.py::test_allows_priming_the_cache",
+  "test_aiodataloader.py::test_batches_loads_occuring_within_promises",
+  "test_aiodataloader.py::test_batches_multiple_requests",
+  "test_aiodataloader.py::test_batches_multiple_requests_with_max_batch_sizes",
+  "test_aiodataloader.py::test_build_a_simple_data_loader",
+  "test_aiodataloader.py::test_caches_failed_fetches",
+  "test_aiodataloader.py::test_caches_failed_fetches_2",
+  "test_aiodataloader.py::test_caches_repeated_requests",
+  "test_aiodataloader.py::test_can_build_a_data_loader_from_a_partial",
+  "test_aiodataloader.py::test_can_call_a_loader_from_a_loader",
+  "test_aiodataloader.py::test_can_represent_failures_and_successes_simultaneously",
+  "test_aiodataloader.py::test_catches_error_if_loader_resolver_fails",
+  "test_aiodataloader.py::test_clears_all_values_in_loader",
+  "test_aiodataloader.py::test_clears_single_value_in_loader",
+  "test_aiodataloader.py::test_coalesces_identical_requests",
+  "test_aiodataloader.py::test_dataloader_clear_with_missing_key_works",
+  "test_aiodataloader.py::test_does_not_prime_keys_that_already_exist",
+  "test_aiodataloader.py::test_resolves_to_error_to_indicate_failure",
+  "test_aiodataloader.py::test_supports_loading_multiple_keys_in_one_call"
+]
