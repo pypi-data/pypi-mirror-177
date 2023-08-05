@@ -1,0 +1,14 @@
+siwi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siwi/app/__init__.py,sha256=QuXLOeKlq0lhNel9odF74cIcPb8dEtfrzLQwpyhIh0U,1431
+siwi/app/app.py,sha256=fxGvCxMDAQofU4Xjo9hlzM9Xq8ZEZRvPj_1kgBP3l4k,49
+siwi/bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siwi/bot/actions/__init__.py,sha256=6h0gshoc3IohpvHNAfXggDu7VHv-Ncotfx5wjc1sZiY,9474
+siwi/bot/bot/__init__.py,sha256=7q21x51OGE80oChObgovcxXVAT8mU5BJ3lFNLtTqNOc,456
+siwi/bot/classifier/__init__.py,sha256=WLxNLqLwe_LMVpxSfFbpXGjXFV61itXfPLgMgjwbENY,3174
+siwi/bot/test/data/example_intents.yaml,sha256=zhyVzBluPw8z0_h7o_rPcPinPH8kW8LVq7_1YOLxfNU,478
+siwi/bot/test/data/example_players.yaml,sha256=P1AX8b0hZfk08BLmHu6LsNFTbR83NMtWX8--oPavims,1247
+siwi/bot/test/data/example_teams.yaml,sha256=7rjqaNJeCM535JA5mY2qNTt4WQmNE5XRSRW1eZWeef0,505
+siwi-0.3.dist-info/METADATA,sha256=P4FUZH4uL-f6mq-nd0Vk8q1LdFz4kk8nOZBq_W4934U,20281
+siwi-0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+siwi-0.3.dist-info/top_level.txt,sha256=OXPsj8vWyNcqPnGCIZEwyOsCNfKLzZPOCXtA687jwfE,5
+siwi-0.3.dist-info/RECORD,,
