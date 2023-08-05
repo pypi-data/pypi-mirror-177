@@ -1,0 +1,12 @@
+hatch_semver/__about__.py,sha256=iT2F6xqDIBpuFTqyUl-hh38ZM5h6gtf1TAJQ1_-oZyY,279
+hatch_semver/__init__.py,sha256=Lsuc-J9er_bfkSXAz-6ZK-b-rw5JLu_bx16bcaqyXRY,204
+hatch_semver/bump_instruction.py,sha256=Tl-O4UG2Auw1eZY-cKBtOujqdycNPsgLAD6gUGUZn5o,5856
+hatch_semver/errors.py,sha256=XWPGewYXjUHqQaXJFCUXNRFaVkBUcR0DUO0xOd_xQLo,341
+hatch_semver/semver_scheme.py,sha256=whlsFScDpg5ZNZoNnRKKMEO-Na0Pp3CV3lXq8X6uWuE,6014
+hatch_semver/plugin/__init__.py,sha256=CyLa44eSrt1FsbCKYCX4GrQjX-SkBzik2NUUurl-QuI,23
+hatch_semver/plugin/hooks.py,sha256=vCQGG4qZuxcw05jWpfcBOz6-CHuBXLz7fXagUeOAsgU,467
+hatch_semver-1.0.1.dist-info/METADATA,sha256=ANL81n4VJev3BpKribLLLaIifv8Nk53MKPtvMrw1g4M,3988
+hatch_semver-1.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+hatch_semver-1.0.1.dist-info/entry_points.txt,sha256=3LcCm6Dktr_hXlBdlqNtXMU5CizinMcvbbTPwqzuEtA,43
+hatch_semver-1.0.1.dist-info/licenses/LICENSE,sha256=vtj5fuGyWRCbehrxA2_6rDx8QGFHhRsnmVXMddQUBGM,1064
+hatch_semver-1.0.1.dist-info/RECORD,,
