@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nf2
+Version: 0.2
+Summary: Neural Network Force Free magnetic field extrapolation
+Home-page: https://github.com/RobertJaro/NF2
+Author: Robert Jarolim
+Author-email: 
+License: GNU GENERAL PUBLIC LICENSE
+License-File: LICENSE
