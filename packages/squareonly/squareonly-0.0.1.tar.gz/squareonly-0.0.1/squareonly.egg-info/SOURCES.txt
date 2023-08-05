@@ -1,0 +1,8 @@
+setup.py
+squareonly/__init__.py
+squareonly/functions.py
+squareonly.egg-info/PKG-INFO
+squareonly.egg-info/SOURCES.txt
+squareonly.egg-info/dependency_links.txt
+squareonly.egg-info/not-zip-safe
+squareonly.egg-info/top_level.txt
