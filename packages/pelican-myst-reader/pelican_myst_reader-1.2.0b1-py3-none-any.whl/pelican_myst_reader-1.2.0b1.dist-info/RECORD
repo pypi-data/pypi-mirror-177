@@ -1,0 +1,8 @@
+pelican/plugins/myst_reader/__init__.py,sha256=BiaYm6GuZdCGpcoJPFNXLq9tdTI_vXf8DzOhr9--QKA,72
+pelican/plugins/myst_reader/_docutils_renderer.py,sha256=8pb8RJM2Eg3myqrOcAnv7_u19KDincjs5RYpCqEX6MM,586
+pelican/plugins/myst_reader/_sphinx_renderer.py,sha256=x_dJrCiHNY4A7A2F0mWFrEVxMOs1Qt_iwqyAifXts2M,2581
+pelican/plugins/myst_reader/myst_reader.py,sha256=twpWun4FfrC0oHu8Gc12D1wq9z7fi2FRpaT6KQy3iy0,8320
+pelican_myst_reader-1.2.0b1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pelican_myst_reader-1.2.0b1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pelican_myst_reader-1.2.0b1.dist-info/METADATA,sha256=uKnQyL1BN1Hi_U4G2Is1f6aQ3q46cTiJJy53XjOPpsI,6987
+pelican_myst_reader-1.2.0b1.dist-info/RECORD,,
