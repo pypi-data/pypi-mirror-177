@@ -1,0 +1,5 @@
+jupyterlab
+matplotlib
+mlflow==1.26.1
+rikai==0.1.14
+scikit-learn
