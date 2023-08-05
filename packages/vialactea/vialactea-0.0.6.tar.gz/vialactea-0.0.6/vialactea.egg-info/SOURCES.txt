@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+vialactea/__init__.py
+vialactea/bifrost.py
+vialactea/sandbox.py
+vialactea/sirius.py
+vialactea.egg-info/PKG-INFO
+vialactea.egg-info/SOURCES.txt
+vialactea.egg-info/dependency_links.txt
+vialactea.egg-info/top_level.txt
