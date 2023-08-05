@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/signal_analyzer/__init__.py
+src/signal_analyzer/main.py
+src/signal_analyzer.egg-info/PKG-INFO
+src/signal_analyzer.egg-info/SOURCES.txt
+src/signal_analyzer.egg-info/dependency_links.txt
+src/signal_analyzer.egg-info/top_level.txt
