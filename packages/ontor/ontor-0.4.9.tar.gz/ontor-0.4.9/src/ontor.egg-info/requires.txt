@@ -1,0 +1,4 @@
+networkx
+owlready2
+pandas
+pyvis==0.1.9
