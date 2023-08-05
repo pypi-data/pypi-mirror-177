@@ -1,0 +1,2 @@
+[console_scripts]
+redirect-webfinger = redirect_webfinger.__main__:main

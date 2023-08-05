@@ -1,0 +1,12 @@
+COPYING
+README.rst
+pyproject.toml
+setup.cfg
+redirect_webfinger/__init__.py
+redirect_webfinger/__main__.py
+redirect_webfinger.egg-info/PKG-INFO
+redirect_webfinger.egg-info/SOURCES.txt
+redirect_webfinger.egg-info/dependency_links.txt
+redirect_webfinger.egg-info/entry_points.txt
+redirect_webfinger.egg-info/requires.txt
+redirect_webfinger.egg-info/top_level.txt
