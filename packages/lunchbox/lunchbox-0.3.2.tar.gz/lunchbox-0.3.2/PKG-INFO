@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: lunchbox
+Version: 0.3.2
+Summary: A library of various tools for common python tasks
+License: MIT
+Keywords: tool,tools,general,slack,enforce
+Author-email: Alex Braun <alexander.g.braun@gmail.com>
+Requires-Python: >=3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Project-URL: documentation, https://thenewflesh.github.io/lunchbox
+Project-URL: repository, https://github.com/theNewFlesh/lunchbox
+Description-Content-Type: text/markdown
+
+# Introduction
+Lunchbox is a library of various tools for common python tasks.
+
+See [documentation](https://theNewFlesh.github.io/lunchbox/) for details.
+
+# Installation
+### Python
+`pip install lunchbox`
+
+### Docker
+1. Install [docker-desktop](https://docs.docker.com/desktop/)
+2. `docker pull thenewflesh/lunchbox:latest`
+
+### Docker For Developers
+1. Install [docker-desktop](https://docs.docker.com/desktop/)
+2. Ensure docker-desktop has at least 4 GB of memory allocated to it.
+4. `git clone git@github.com:theNewFlesh/lunchbox.git`
+5. `cd lunchbox`
+6. `chmod +x bin/lunchbox`
+7. `bin/lunchbox start`
+
+The service should take a few minutes to start up.
+
+Run `bin/lunchbox --help` for more help on the command line tool.
+
