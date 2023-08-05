@@ -1,0 +1,9 @@
+star-chart-spherical-projection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+star-chart-spherical-projection/declination_r_axis.py,sha256=7u2RbYgmjiSgkZ8j_1qzkdeQXf7-nvIeLZdT9Ot1vMQ,368
+star-chart-spherical-projection/generate_star_chart.py,sha256=8YHdVN2t1eQjoLwBUZ0sVmxGSTh2Y3tktvkIjHp7aRg,508
+star-chart-spherical-projection/ra_dec_precession_python27.py,sha256=CaEhvXKzCAcK6c6459uVHlXjswugK5qGSkOexY3dJHo,219
+star_chart_spherical_projection-0.0.1.dist-info/LICENSE,sha256=MjEk0g256LmqoshS8SucA0G59VeG3I054MRxA3Xvcto,1066
+star_chart_spherical_projection-0.0.1.dist-info/METADATA,sha256=2bh-vzcNpV9kWn7KXhUQOreMaj6gf2LgECq13i1jl0Q,1029
+star_chart_spherical_projection-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+star_chart_spherical_projection-0.0.1.dist-info/top_level.txt,sha256=ltX6JMrGjH5iE5HJamSn3j36M5vut9VFejLXj43HKwk,32
+star_chart_spherical_projection-0.0.1.dist-info/RECORD,,
