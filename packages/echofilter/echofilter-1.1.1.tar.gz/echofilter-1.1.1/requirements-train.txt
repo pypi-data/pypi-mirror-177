@@ -1,0 +1,4 @@
+apex
+seaborn
+tensorboard
+torch_lr_finder>=0.2.0
