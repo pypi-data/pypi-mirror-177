@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+dm_cli/__init__.py
+dm_cli/application.py
+dm_cli/dmss.py
+dm_cli/domain.py
+dm_cli/enums.py
+dm_cli/import_package.py
+dm_cli/zip_all.py
+dm_cli.egg-info/PKG-INFO
+dm_cli.egg-info/SOURCES.txt
+dm_cli.egg-info/dependency_links.txt
+dm_cli.egg-info/requires.txt
+dm_cli.egg-info/top_level.txt
+dm_cli/bin/dm
