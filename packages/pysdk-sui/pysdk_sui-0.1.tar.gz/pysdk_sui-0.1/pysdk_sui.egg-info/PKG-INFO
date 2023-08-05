@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pysdk-sui
+Version: 0.1
+Summary: Python SDK for SUI
+Home-page: https://github.com/Jaammerr/python_sui_sdk
+Download-URL: https://github.com/Jaammerr/python_sui_sdk/archive/refs/tags/v1.tar.gz
+Author: Jammer
+Author-email: andlolkek@gmail.com
+License: Open Software License 3.0
+Keywords: SUI
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
