@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/managedatabase.egg-info/PKG-INFO
+src/managedatabase.egg-info/SOURCES.txt
+src/managedatabase.egg-info/dependency_links.txt
+src/managedatabase.egg-info/requires.txt
+src/managedatabase.egg-info/top_level.txt
+src/managedb/__init__.py
