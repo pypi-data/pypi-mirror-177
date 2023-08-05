@@ -1,0 +1,13 @@
+requests_toolkit/__init__.py,sha256=feQ3ZXOZu-B3lkv3AqOmU6rbuge1Mbhs2krA5klbMrw,365
+requests_toolkit/_academic.py,sha256=RpeXG6QAYSCBUFm2Lid9lpz0uxikOoorQr4MsWG2P9Y,4394
+requests_toolkit/_air_quality.py,sha256=LbEzNBDvKWoq1NzWe_f5vKvRImkizms0pITVhV4atcg,5596
+requests_toolkit/_exchange_rate_cn.py,sha256=02syN1uy4se9Dx3CGGfii4hbCcVSxwIYSU2KTqsqsYM,638
+requests_toolkit/_realpython_news.py,sha256=rQKtd2-BXEySSLyJFtNskknk6qm1iTNXclYSc6SKMDY,1169
+requests_toolkit/_thesis_info.py,sha256=1vy2PsYlIJ5kyMv8TIZ_gNEiNYihVYyjpAR32ItQbkg,931
+requests_toolkit/_weather_query.py,sha256=xPBwloc1o6tj9JYNqk6s1fZId0Pz6Ev1jmSL8RTbCzI,1381
+requests_toolkit/_ytb_channel_info.py,sha256=BIBV2qXhWXD0aTE2Cl8xVC8gdo41mcDYX6zZSKYGUIw,1771
+requests_toolkit_stable-0.13.0.dist-info/LICENSE,sha256=PUwJjjIWkBYcj8ro77-XgS6lq1WLHtdQduwrh8SOqy0,1087
+requests_toolkit_stable-0.13.0.dist-info/METADATA,sha256=_Mv-7xhW4Tyizvp8BCh7bL47rVeb9yPVgOP7X0YzbJg,2197
+requests_toolkit_stable-0.13.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+requests_toolkit_stable-0.13.0.dist-info/top_level.txt,sha256=bejDrFFP5Vz-3u6ybkqJ86Kl0zglEJ7QNP7GxfiAwns,17
+requests_toolkit_stable-0.13.0.dist-info/RECORD,,
