@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: algmoninfra
+Version: 0.0.1
+Summary: the algmon infra python lib
+Home-page: 
+Author: algmon
+Author-email: support@algmon.com
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# the Algmon Infra lib
+
+## company intro
+
+* https://algmon.com/
+
+## **lib intro**
+
+* https://algmon.com/docs/infra/intro
+
+## lib source code
+
+* github
+* 
+* gitee
+* https://gitee.com/algmon/public/tree/master/src/algmon-brain
+
+## lib features
+
+* be stable
+* at scale
+* in intelligent
+
+## dependencies
+
+* 
+
+## the license
+
+* This package is released under the Apache License v2
