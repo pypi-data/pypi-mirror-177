@@ -1,0 +1,9 @@
+port_forward_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+port_forward_manager/cli.py,sha256=d1KfLv23te2TjtLbMCmrPZ2Dr_Ss2CYCSZQdSqwcIW4,7127
+port_forward_manager/cli_autocomplete.py,sha256=0cfXJZ_AzLl7-u0G5Sa-llroWqaPmLuAB0Kw1SaFJsU,1946
+port_forward_manager/forward_sessions.py,sha256=MJnY2j_hrKPBj8cdnj5TE4_2NTPT6DQxxZjDTBEhZWQ,7623
+port_forward_manager/tools.py,sha256=jyyuLi-MaQ5zn4syNvUBu5QD1pgTaMRmhJULBrCKEqA,3008
+port_forward_manager-1.5.3.dist-info/entry_points.txt,sha256=piBj-4FygRCiU61BUbqywz8-J-4pvIwSysOWhTmvP2I,52
+port_forward_manager-1.5.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+port_forward_manager-1.5.3.dist-info/METADATA,sha256=7ujG2vZk3K272cRrr_6qA-kyUSaOQM8JJtxOdOFI_Yw,3255
+port_forward_manager-1.5.3.dist-info/RECORD,,
