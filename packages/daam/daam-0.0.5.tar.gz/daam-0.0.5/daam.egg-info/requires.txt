@@ -1,0 +1,11 @@
+transformers
+diffusers==0.3.0
+spacy
+gradio
+ftfy
+transformers
+pandas
+numba
+nltk
+inflect
+joblib
