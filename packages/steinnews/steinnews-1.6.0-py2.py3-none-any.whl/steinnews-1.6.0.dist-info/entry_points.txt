@@ -1,0 +1,3 @@
+[console_scripts]
+steinnews = steinnews.main:cli
+

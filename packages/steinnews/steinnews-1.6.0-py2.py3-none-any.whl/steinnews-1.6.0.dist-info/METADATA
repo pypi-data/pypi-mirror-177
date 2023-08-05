@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: steinnews
+Version: 1.6.0
+Summary: Tool for writing new version to rst file
+Home-page: https://github.com/steinwurf/
+Author: Steinwurf ApS
+Author-email: contact@steinwurf.com
+License: BSD 3-clause "New" or "Revised" License
+Keywords: steinnews
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: colorama
+
+steinnews
+=========
+
+Helper library to ease news.rst writing
+
+
+Usages
+--------------------------------
+
+Import the module. There is (atm) only a single function named::
+
+    write_next_version(file_in, file_out)
+
+This takes an input file and an output file (that does not have to exist yet). These 2 files **can** be the same.
+For example, if you would call it with a 'NEWS.rst' file you cond::
+    
+    write_next_version('NEWS.rst', 'NEWS.rst')
+
+The result will be that any future changes in that NEWS.rst will be collected into a new version sections.
+
+
+Building wheel and running tests
+--------------------------------
+
+To build the wheel and run the unit tests::
+
+    python waf configure
+    python waf build --run_tests
+
+
+
+
+
