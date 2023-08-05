@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tid-pec2-model
+Version: 0.0.15
+Summary: model package.
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+model package.
