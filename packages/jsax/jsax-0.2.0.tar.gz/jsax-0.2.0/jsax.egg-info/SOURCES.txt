@@ -1,0 +1,16 @@
+README.rst
+setup.py
+jsax/__init__.py
+jsax/agg.py
+jsax/aggmem.pyx
+jsax/comp.py
+jsax/compmem.pyx
+jsax/fkmns.py
+jsax/inverset.py
+jsax/inversetc.pyx
+jsax/jsax.py
+jsax.egg-info/PKG-INFO
+jsax.egg-info/SOURCES.txt
+jsax.egg-info/dependency_links.txt
+jsax.egg-info/requires.txt
+jsax.egg-info/top_level.txt
