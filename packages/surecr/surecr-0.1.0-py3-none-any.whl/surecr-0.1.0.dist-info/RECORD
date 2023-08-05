@@ -1,0 +1,10 @@
+surecr/__init__.py,sha256=6WSF9IPaItKrn9uUIm_lwnl2TUzzf4G5BhFzd_ax5KM,104
+surecr/divergence.py,sha256=HBHfahG1bjYuz5UMq3WvP3rxWmnzBEFZNjwC_vXfsjQ,2113
+surecr/prox_lib.py,sha256=VRwsK_sGiEckOSpNQGVvPofPTHjbsn1YS_HLKWzuSKI,4565
+surecr/solver.py,sha256=E3g0EP3b8hIz5-vPdN0bgACSKi7WqKmzZRe5-Kp0kOY,6912
+surecr/sure.py,sha256=pyLojF9gjq5wHmdpPD_GjCLO6fVrIMJPb1E3vINJ72c,3141
+surecr-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+surecr-0.1.0.dist-info/METADATA,sha256=MLP5-tsPJSL37WMyd5SFQWxKl9yFRAbYDhP8q9ZgAIw,8673
+surecr-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+surecr-0.1.0.dist-info/top_level.txt,sha256=Si0lU1l6DdQlWaew7CoudXcQXumTp0Lxq5beqlXF6OQ,7
+surecr-0.1.0.dist-info/RECORD,,
