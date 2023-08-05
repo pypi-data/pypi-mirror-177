@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rikai-sklearn
+Version: 0.1.0
+License: Apache License, Version 2.0
+Requires-Python: <3.9,>=3.8
+Requires-Dist: jupyterlab
+Requires-Dist: matplotlib
+Requires-Dist: mlflow (==1.26.1)
+Requires-Dist: rikai (==0.1.14)
+Requires-Dist: scikit-learn
+
