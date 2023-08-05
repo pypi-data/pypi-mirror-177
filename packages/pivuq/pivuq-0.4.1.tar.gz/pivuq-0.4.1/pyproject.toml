@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "pivuq"
+version = "0.4.1"
+description = "A library for PIV Uncertainty Quantification"
+authors = ["MrLento234 <lento.manickathan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/lento234/pivuq"
+documentation = "https://pivuq.readthedocs.io"
+keywords = ["PIV", "UQ"]
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numba = "^0.56.3"
+scipy = "^1.9.3"
+scikit-image = "^0.19.3"
+numpy = "^1.23.4"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+pytest = "^7.2.0"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
