@@ -1,0 +1,7 @@
+msgpack
+numpy
+pyzmq
+
+[test]
+pytest
+pytest-cov

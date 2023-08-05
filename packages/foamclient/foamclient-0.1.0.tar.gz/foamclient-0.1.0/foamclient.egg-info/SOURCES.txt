@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+foamclient/__init__.py
+foamclient/client.py
+foamclient/deserializer.py
+foamclient.egg-info/PKG-INFO
+foamclient.egg-info/SOURCES.txt
+foamclient.egg-info/dependency_links.txt
+foamclient.egg-info/requires.txt
+foamclient.egg-info/top_level.txt
+foamclient/tests/__init__.py
+foamclient/tests/test_client.py
