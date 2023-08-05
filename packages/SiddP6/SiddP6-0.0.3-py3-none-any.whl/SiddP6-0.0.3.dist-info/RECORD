@@ -1,0 +1,11 @@
+sidd/__init__.py,sha256=r3L02-Js5jCg0exqedcN2-01Hcv7BkZtkZ1nfsh4URQ,61
+sidd/sidd.py,sha256=LtPFMwZlHCczqZEzTSN2XjdU611UCuXxGZDLw1ORp6c,41
+sidd/bye/__init__.py,sha256=-jxREGzZp6eeuejV5kcQWRrLsuJBdnDYvneiJQCSQJk,18
+sidd/bye/bye.py,sha256=OCckuKl8psTz18n-K-T_TMok9XzuKsbE_HGsNLctEGw,35
+sidd/hello/__init__.py,sha256=VWr08R_CdgfhKvdCe2AWejuwxgxrguAIErl6dpW4Y6k,20
+sidd/hello/hello.py,sha256=OAjJ8zo1K4BnF5dI61XwPaIcH3sm9bLF1heEOwsbgM8,39
+SiddP6-0.0.3.dist-info/LICENSE,sha256=q0ObVbL23E6vUq4o44x9fbQYOZFFcMe_g1ounvqltxk,1095
+SiddP6-0.0.3.dist-info/METADATA,sha256=PuoW3emO-npJtaWiK1VpHNaace91GpRp5bapx-RI_u4,1014
+SiddP6-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SiddP6-0.0.3.dist-info/top_level.txt,sha256=z3FU7htKL6MFKJBzPgEfv_ttGNDNU0Hb7kKk07cWdbo,5
+SiddP6-0.0.3.dist-info/RECORD,,
