@@ -1,0 +1,69 @@
+# YAML
+# Configuration file example, based on IJCLab configuration.
+
+teams:
+  aliases:
+    accueil-et-ressources-humaines: service-accueil-rh
+    cao-prototypage: support
+    support: services-support
+
+  email_domain: ijclab.in2p3.fr
+
+  reserved_names:
+    - direction
+    - support
+
+  short_names:
+    accelerateurs: accel
+    accueil-et-ressources-humaines:
+    support:
+
+  # Hack to fix list description for parent teams without members (thus the description
+  # is not part of the Hito export)
+  descriptions:
+    theorie: Physique théorique
+
+  # Lists ignored when generating the list of lists (--created-lists)
+  # Values are interpreted as regex matched against the list description
+  index_disabled:
+    - Administration.*
+    - Direction.*
+    - Support.*
+
+  #sublist_disabled:
+
+# List the list to produce with all the persons in the input CSV
+general_lists:
+  email_domain: in2p3.fr
+  format: listserv
+  lists:
+    - ijclab-forum-l
+    - ijclab-seminaires-l
+
+csv_columns:
+  hito_team_format: True
+  names:
+    name: "Nom"
+    givenname: "Prénom"
+    email: "email"
+    service: "Équipe"
+    team_fullname: "Description"
+    secondary_teams: "Équipe Secondaire"
+
+exclusion_list:
+  columns:
+    email: "E_MAIL"
+
+zimbra:
+  server: zadmin.lab.example.com
+  port: '22'
+  user: ijclab
+  ssh_key_path: /path/to/zimbra_ssh_key
+  command: '/usr/bin/sudo /opt/zadm/bin/zmprov.sh -a zimbra@lab.example.com '
+
+listserv:
+  smtp_relay: 'smtp.lab.example.com'
+  server: listserv@in2p3.fr
+  mail_subject: LISTSERV update from Hito
+  admin_email: list-mgrs@lab.example.com
+  admin_password: LISTERV_pwd

@@ -1,0 +1,81 @@
+# YAML
+
+hito:
+  database: hitoorsay
+  db_user: to_be_set
+  db_password: to_be_set
+  server: ccmysqlvip.in2p3.fr
+  request: |
+    SELECT
+        DISTINCT(agent.id)                                     AS 'Agent ID'
+      , coalesce(team.nom, '')                                 AS 'Équipe'
+      , coalesce(team.description, '')                         AS 'Description'
+      , agent.nom                                              AS 'Nom'
+      , agent.prenom                                           AS 'Prénom'
+      , t2.team_list                                           AS "Équipe Secondaire"
+      , agent.email                                            AS "email"
+      , TRIM(LEADING 'statut_' FROM agent.statut)              AS 'Statut'
+      , TRIM(LEADING 'cem_' FROM agent.corps_exercice_metier)  AS 'Métier'
+      , coalesce(agent.telephone_professionnel, '')            AS "Téléphone"
+      , coalesce(CONCAT(agent.localisation, '-', agent.bureau), '') AS "Bureau"
+      , coalesce(agent.type, '')                               AS 'Type'
+      , coalesce(agent.categorie, '')                          AS 'Catégorie'
+      , CASE
+        WHEN agent.email_auth IS NULL THEN agent.email
+        ELSE agent.email_auth
+        END                            AS "ID Connexion"
+    FROM
+        agent
+        LEFT JOIN team ON agent.team_id = team.id
+        LEFT JOIN (SELECT agent_id,
+                       GROUP_CONCAT(nom SEPARATOR ", ") AS team_list
+                   FROM
+                       agent_team AS a
+                       INNER JOIN team AS t ON t.id=a.team_id
+                   GROUP BY agent_id)      AS t2 ON t2.agent_id = agent.id
+        JOIN carriere on carriere.agent_id = agent.id
+    WHERE
+         agent.archive = 0
+         AND
+         carriere.date_debut = (
+             SELECT MAX(c.date_debut)
+             FROM carriere AS c
+             WHERE
+                 agent.id = c.agent_id
+                 AND
+                 (c.type IN ("cdd", "visiteur", "apprenti", "emeritat", "stagiaire") OR c.type LIKE "arrivee%")
+             )
+         AND
+           carriere.date_debut <= NOW()
+    ORDER BY
+        team.nom
+      , agent.nom
+      , agent.prenom
+    ;
+
+hito2annuaire:
+  email-fixes: /path/to/ijclab_email_fixes.csv
+  hito-reseda-mappings: /path/to/hito_reseda_mappings.csv
+  check-emails-script: /tmp/nsip-emails-check.sh
+  dry-run: False
+
+hito2lists:
+  additional_lists: /path/to/additional-lists.yaml
+  csv_file: /path/to/HitoExtraction.csv
+  reset_lists: True
+  # update_zimbra is a 3-state variable:
+  #   - True: update Zimbra directly, do not define zimbra_script.
+  #   - None: if zimbra_script is defined, produce a script to define Zimbra
+  #   - False: Skip Zimbra update
+  update_zimbra: False
+  zimbra_script: /tmp/update_lists.script
+  update_listserv: True
+
+git:
+  author_name: Hito export script
+  author_email: noreply@listmgt.lab.example.com
+  commit_message: Hito export updated
+  # if push_remote is not defined, commited changes are not pushed
+  push_remote: origin
+  # ssh_key is required if push is enabled (clone must be done through ssh)
+  ssh_key: /pdisk/hito2zimbra/etc/zimbra_ssh_key
