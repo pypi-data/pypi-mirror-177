@@ -1,0 +1,10 @@
+pytest_git_selector/cmd.py,sha256=vi6ZJskEgGF2os9U8NneLd1y2NEr6YGBPd5FIZdjqio,3613
+pytest_git_selector/errors.py,sha256=8OczcJtmlSpPOKTYEj90o0K4kB2W1vUbdbzSbBkqe_8,57
+pytest_git_selector/plugin.py,sha256=aY92Qxak8mERoamxLtiHggpVay3XQjp1rbVdWAuPKcc,3313
+pytest_git_selector/selector.py,sha256=sbrLmrIovFhqZJuRqZNy-EMkFpI_Zp4NCjH4vA_u0fk,5368
+pytest_git_selector/util.py,sha256=7aiVcfx2PYBTHEztw4GcnIbR5P90pfiudlzIf04-VDI,650
+pytest_git_selector-0.0.1.dist-info/METADATA,sha256=dH5sVT-8gweuWc_7T9GEbMlwIOABqiKzBhn1sC_lboM,4672
+pytest_git_selector-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytest_git_selector-0.0.1.dist-info/entry_points.txt,sha256=QP0YixdroPw3_3yYz3ftBNCb6aP2Kche1Rc16kpZZEc,120
+pytest_git_selector-0.0.1.dist-info/top_level.txt,sha256=G1bQGHDuQxGOU8_HOEhvax59YPzo87oytpzVq1YDudM,20
+pytest_git_selector-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+git-select-tests = pytest_git_selector.cmd:main
+
+[pytest11]
+git-selector = pytest_git_selector.plugin
