@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+daiasataraiabauataiaoanasa/Binomialdistribution.py
+daiasataraiabauataiaoanasa/Gaussiandistribution.py
+daiasataraiabauataiaoanasa/Generaldistribution.py
+daiasataraiabauataiaoanasa/__init__.py
+daiasataraiabauataiaoanasa.egg-info/PKG-INFO
+daiasataraiabauataiaoanasa.egg-info/SOURCES.txt
+daiasataraiabauataiaoanasa.egg-info/dependency_links.txt
+daiasataraiabauataiaoanasa.egg-info/not-zip-safe
+daiasataraiabauataiaoanasa.egg-info/top_level.txt
