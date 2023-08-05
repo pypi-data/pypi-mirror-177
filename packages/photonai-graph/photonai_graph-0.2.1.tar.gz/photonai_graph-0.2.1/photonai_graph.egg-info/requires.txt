@@ -1,0 +1,14 @@
+photonai
+networkx
+pydot
+dgl
+nxt-gem
+grakel
+pandas
+numpy
+scipy
+tensorflow
+torch
+tqdm
+pbr
+igraph
