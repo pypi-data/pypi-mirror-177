@@ -1,0 +1,15 @@
+[package]
+name = "commonfate-access-python"
+version = "0.1.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "commonfate_access"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1.0.66"
+cf-core-alpha = "0.1.1"
+pyo3 = { version = "0.17.1", features = ["extension-module"] }
+tokio = { version = "1.21.2", features = ["full"] }
