@@ -1,0 +1,11 @@
+click
+lxml
+requests
+rich
+
+[test]
+black
+flake8
+isort
+pytest
+pytest-recording
