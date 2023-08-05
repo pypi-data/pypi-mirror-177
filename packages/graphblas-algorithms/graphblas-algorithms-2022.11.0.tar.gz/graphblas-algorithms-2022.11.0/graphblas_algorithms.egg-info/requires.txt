@@ -1,0 +1,11 @@
+python-graphblas>=2022.10.1
+
+[complete]
+networkx
+pytest
+scipy
+
+[test]
+networkx
+pytest
+scipy
