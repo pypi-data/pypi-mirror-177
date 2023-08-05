@@ -1,0 +1,37 @@
+{
+  "created": "2022-11-11T00:03:58.821154+00:00",
+  "created_at": 1668125038000,
+  "creator": {
+    "email": "martin.matusiak@nearmap.com",
+    "handle": "martin.matusiak@nearmap.com",
+    "id": 2707638,
+    "name": "Martin Matusiak"
+  },
+  "deleted": null,
+  "id": 102697882,
+  "message": "..",
+  "modified": "2022-11-11T00:21:14.331755+00:00",
+  "multi": true,
+  "name": "mmtry2",
+  "options": {
+    "enable_logs_sample": true,
+    "groupby_simple_monitor": false,
+    "include_tags": true,
+    "new_group_delay": 60,
+    "notify_audit": false,
+    "on_missing_data": "default",
+    "restriction_query": null,
+    "silenced": {},
+    "thresholds": {
+      "critical": 1.0
+    }
+  },
+  "org_id": 109292,
+  "overall_state": "OK",
+  "overall_state_modified": "2022-11-11T00:22:52+00:00",
+  "priority": null,
+  "query": "events(\"status:error *slow*\").rollup(\"count\").by(\"cluster,namespace\").last(\"10m\") > 1",
+  "restricted_roles": null,
+  "tags": [],
+  "type": "event-v2 alert"
+}

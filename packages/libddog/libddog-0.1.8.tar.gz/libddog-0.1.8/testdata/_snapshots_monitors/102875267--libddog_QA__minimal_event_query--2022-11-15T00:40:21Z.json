@@ -1,0 +1,35 @@
+{
+  "created": "2022-11-14T04:02:25.311533+00:00",
+  "created_at": 1668398545000,
+  "creator": {
+    "email": "martin.matusiak@nearmap.com",
+    "handle": "martin.matusiak@nearmap.com",
+    "id": 2707638,
+    "name": "Martin Matusiak"
+  },
+  "deleted": null,
+  "id": 102875267,
+  "message": "Integration test case: minimal event query\n\n---\n\nThis monitor is defined in code as part of the [libddog](https://github.com/nearmap/libddog) project and is maintained automatically using the [libddog](https://github.com/nearmap/libddog) tool. If you make manual changes to it your changes may be lost.",
+  "modified": "2022-11-15T00:40:01.672581+00:00",
+  "multi": false,
+  "name": "libddog QA: minimal event query",
+  "options": {
+    "groupby_simple_monitor": false,
+    "include_tags": true,
+    "new_host_delay": 300,
+    "notify_audit": false,
+    "notify_no_data": false,
+    "silenced": {}
+  },
+  "org_id": 109292,
+  "overall_state": "Alert",
+  "overall_state_modified": "2022-11-14T04:04:20+00:00",
+  "priority": null,
+  "query": "events(\"status:error\").rollup(\"count\").last(\"5m\") > 0",
+  "restricted_roles": null,
+  "tags": [
+    "owner:libddog",
+    "type:event"
+  ],
+  "type": "event-v2 alert"
+}

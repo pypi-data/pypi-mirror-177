@@ -1,0 +1,46 @@
+{
+  "created": "2022-11-15T02:10:37.243295+00:00",
+  "created_at": 1668478237000,
+  "creator": {
+    "email": "martin.matusiak@nearmap.com",
+    "handle": "martin.matusiak@nearmap.com",
+    "id": 2707638,
+    "name": "Martin Matusiak"
+  },
+  "deleted": null,
+  "id": 103000196,
+  "message": "Integration test case: metric query with weekly time aggregation\n\n---\n\nThis monitor is defined in code as part of the [libddog](https://github.com/nearmap/libddog) project and is maintained automatically using the [libddog](https://github.com/nearmap/libddog) tool. If you make manual changes to it your changes may be lost.",
+  "modified": "2022-11-17T00:54:58.022555+00:00",
+  "multi": false,
+  "name": "libddog QA: metric query with weekly time aggregation",
+  "options": {
+    "enable_logs_sample": null,
+    "escalation_message": null,
+    "evaluation_delay": null,
+    "groupby_simple_monitor": false,
+    "include_tags": true,
+    "new_group_delay": null,
+    "new_host_delay": 300,
+    "no_data_timeframe": null,
+    "notify_audit": false,
+    "notify_no_data": false,
+    "renotify_interval": null,
+    "renotify_occurrences": null,
+    "renotify_statuses": null,
+    "require_full_window": false,
+    "silenced": {},
+    "threshold_windows": null,
+    "timeout_h": null
+  },
+  "org_id": 109292,
+  "overall_state": "No Data",
+  "overall_state_modified": "2022-11-15T02:41:07+00:00",
+  "priority": null,
+  "query": "avg(last_1w):sum:aws.elb.requests{*} == 90",
+  "restricted_roles": null,
+  "tags": [
+    "owner:libddog",
+    "type:metric"
+  ],
+  "type": "query alert"
+}
