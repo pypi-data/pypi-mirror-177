@@ -1,0 +1,9 @@
+requests
+pandas
+boto3
+s3fs
+pyspark
+io
+json
+datetime
+psycopg2
