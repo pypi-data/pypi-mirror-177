@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_secsdk.egg-info/PKG-INFO
+shopee_secsdk.egg-info/SOURCES.txt
+shopee_secsdk.egg-info/dependency_links.txt
+shopee_secsdk.egg-info/top_level.txt
