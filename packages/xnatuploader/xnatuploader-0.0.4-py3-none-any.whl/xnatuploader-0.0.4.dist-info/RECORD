@@ -1,0 +1,11 @@
+xnatuploader/__init__.py,sha256=Bs14snCQfkRZPxYfLq-haC5mArtZpKcML3Sa9y9LRYs,72
+xnatuploader/matcher.py,sha256=EzITASTo_fNc8XGSlKxoQO-NJIbhGSxMRbx4GRFK3n4,17387
+xnatuploader/put.py,sha256=E0OiUAY34M0Vv2bSOw88e2Pq8P3wTZ58BEDpMgIxTqI,8900
+xnatuploader/upload.py,sha256=NahoN-l_Q9Dt4b98n5vQQQVPnNvbQNCh-8Klz7jkH58,3627
+xnatuploader/workbook.py,sha256=MAWh6oimH8AA7dxpN8K32ZGeQ5s5JtkX9jGi3MaWOgY,3116
+xnatuploader/xnatuploader.py,sha256=6yzB0pndQUrk7aOimi2d7UI4lq4FDC_028RUOh9-Wag,11184
+xnatuploader-0.0.4.dist-info/METADATA,sha256=46nqqNyJZ9YwTYHr3LIMNoDtc3hQeiMmR9Kt_URLUJ8,4766
+xnatuploader-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xnatuploader-0.0.4.dist-info/entry_points.txt,sha256=qo05NJCdLG1l1i_3pgpbbNifgwMjr9hQlfXG3wH5gBE,64
+xnatuploader-0.0.4.dist-info/top_level.txt,sha256=jkaGe4EJIjqhp4xP4xSS1GXc0kFRJ1DXJ4f5VtKWP-8,13
+xnatuploader-0.0.4.dist-info/RECORD,,
