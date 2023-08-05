@@ -1,0 +1,5 @@
+jsonschema
+pyroute2
+
+[wireguard]
+wgnlpy
