@@ -1,0 +1,16 @@
+eth-account~=0.7.0
+cfx-address>=1.0.0b16
+cfx-utils>=1.0.0b14
+
+[dev]
+pytest<7,>=6.2.5
+mypy==0.910
+wheel
+
+[docs]
+
+[linter]
+mypy==0.910
+
+[tester]
+pytest<7,>=6.2.5
