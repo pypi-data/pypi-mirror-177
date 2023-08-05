@@ -1,0 +1,374 @@
+CHANGES
+=======
+
+v0.2.0
+------
+
+* fixed missing wheel dependency
+* rmoved build isolation for versioning
+* trying to fix deployment
+* Fix/deploy (#101)
+* Fix/deploy (#100)
+* Rc/v0.0.2 (#91)
+* Remove Google fonts
+
+v0.1.0
+------
+
+* Prepared for v0.1.0 release (#89)
+* fixed links in documentation (#90)
+* rename master branch to main
+* Added publication action (#88)
+* Release preparation (#86)
+* Coverage change (#85)
+* Controllability overhaul. (#84)
+* Added badges to readme, activated coveralls
+* Updated automation rules
+* Fixed examples
+* Update issue templates
+* Removed unneeded assignment
+* Fixed GrakelTransformer, minor action change
+* Minor updates for actions
+* Updated github actions, minor documentation changes
+* Rewrote getting started #42
+* Updated documentation
+* Updated examples
+* Fixed tests
+* Fixed graph constructor docstrings
+* Added another test
+* Added additional unit tests for parameter combinations
+* Added indents, so that zscroe and fisher absolutes will only be applied if the respective transformation has been applied beforehand
+* Added an additional dimension, so that output dimensionality matches input dimensionality
+* Added unit\_tests for the graph constructors
+* Added an use\_abs parameter to all constructors
+* Added minor change in accordance with new networkx function documentation
+* Minor edit to remove warning in utility test
+* Finished GrakelTransformer implementation, added tests
+* Added the ho\_atlas coords from Ktena et al and the added minor documentation
+* Reimplemented test\_drawing\_weight corrected. A minor change needed to be made because the dense\_to\_networkx function was updated
+* Added import tries to all GCN files
+* Added documentation for Utilities
+* Added individual tests for fisher transform, and value check
+* Added GrakelTransformer
+* removed dask dependency
+* Added notebooks
+* Added simpler dense\_to\_networkx function, fixed tests
+* Fixed graph measure transform
+* Removed graph saving and loading functions
+* Removed non internally used conversions
+* Added notebooks
+* Minor changes
+* Added type hints for graph\_constructor\*
+* Added type hints for graph\_embedding\_\*
+* Refactored graph embeddings
+* Updated readme for new constraint
+* Updated graph constructors. Added constraint: Graphs have to have 4 dimensions
+* Dropped support for yaml loading
+* Added another example
+* Added another example
+* Updated github action for documentation building
+* added notebook support for documentation
+* Updated networkx example
+* Added example for usage of nx graphs closes #32
+* modified abstract methods
+* removed doublicated function
+* Fixed GraphUtilities.py
+* Updated documentation
+* Seperated GraphIO from GraphConversions. Added Documentation
+* Fixed tests and explorer visualization for regression
+* Fixed photon explorer visualization error
+* Fixed dense\_to\_dgl, added test, renamed GATModel, updated json
+* Fixed test, activated automation for PRs on dev
+* Removed double code, modified test
+* Refactored NNs
+* Changed graph conversion for dense to dgl
+* Added self loops to predict functions
+* 1. Reformed GATLayer to GATConv layer 2. Added in\_degree option for all GCN architectures 3. Removed NNLayers (not needed due to 1) 4. Debugged case where no self loops are added in dgl\_base
+* Update dgl\_base.py
+* Minor documentation update
+* Added initial icon
+* Added documentation for not implemented error
+* Added documentation for extending photonai #26
+* Added PopulationAveraging
+* updated exception handling
+* Updated examples
+* Changed graph generator to avoid disconnected graphs in test
+* Fixed tests
+* Added graph conversion documentation
+* Cleanup GraphConversions - added tests
+* Fixed error in graph construction
+* Fixed extract\_measures. UNTESTED!
+* Added example multiprocessing test
+* cleanup
+* Fixed GraphMeasureTransform error if one metric cannot be calculated
+* Updated Getting Started #26
+* Added and modified some documentation #26
+* Minor changes, #26
+* Fixed setup.py
+* Update update\_documentation.yml
+* Updated documentation
+* Updated documentation
+* Updated setup.py requirements (#37)
+* Updated setup.py requirements (#37)
+* Finished documentation cleanup (#22)
+* Finished documentation cleanup
+* Updated update\_documentation.yml
+* Update README.md
+* Fixed tests
+* Updated documentation
+* Added allow\_zero\_in\_degree parameter
+* Updated mkdocs, added mkdocstrings-python, added demo documentation
+* Updated to nxt\_gem and fixed networkx
+* Added coverage calculation
+* Delete update\_docs.yml
+* Changed GEM version
+* Fixed requirements
+* Update update\_docs.yml
+* Added documentation update action
+* Fixed most linting errors
+* Removed missing tests
+* Removed version requirements
+* Fixed python version
+* Added github action
+* Fixed error in GCNClassifier
+* Added a self-loop in the Graph Convolutional Net
+* Added Switched DataLoader to GraphDataLoader
+* Added example code to reproduce error with GraphDataLoader
+* Fix dask parallization issue
+* Add dask parallelization for graph measures
+* removed is\_connected test
+* removed is\_connected check
+* improved readability
+* Added controllability module with tests
+* added check for unconnected undirected graphs -> raises type error
+* added metric "number\_of\_edges"
+* fixed test
+* Add average metrics
+* Update mkdocs.yml
+* Update mkdocs.yml
+* Update mkdocs.yml
+* Update graph\_utilities.md
+* Update graph\_convnets.md
+* Update graph\_embeddings.md
+* Update dynamic\_utils.md
+* Update dynamic\_utils.md
+* Create dynamic\_utils.md
+* Update graph\_kernels.md
+* Create graph\_kernels.md
+* added raise value error on NaN in input
+* Update graph\_constructor\_percentage.py
+* Update graph\_measures.md
+* Update graph\_measures.md
+* Update index.md
+* Update requirements.txt
+* Update setup.py
+* Update setup.py
+* Update README.md
+* Added cofluct module with unit tests
+* Removed unnecessary imports and added import checks
+* Updated test due to updated hope embedding
+* Added import checks for graph embeddings
+* Added import check to grakel adapter
+* Added check statements to Conversions
+* Update util.py
+* Added a test for the spatial graph constructor with self-written atlas
+* Update README.md
+* Update requirements.txt
+* Update setup.py
+* Update README.md
+* Update README.md
+* import numpy in eigenmaps
+* Remove SDNE and GraphFactorization
+* test changing name
+* Update setup.py
+* Update requirements.txt
+* Removed sdne embedding
+* Deleted Graph factorization
+* Force graph to use real numbers
+* Fixed setup.py, added graph\_embedding test
+* Fix setup requirements
+* Fix requirements
+* Changed asteroidal test, so it evaluates a path graph
+* Overhauled some tests
+* Added overhauled GrakelAdapter
+* Minor changes to Graph Conversions
+* Changed default settings for faster testing
+* Added self loop to graphs to avoid zero in degree situation
+* Renamed tests and small fixes
+* Added \_\_init\_\_.py to test folder
+* Added tests for graph measures
+* Refactored Graph measures slightly
+* refactored GraphMeasureTransform
+* Added \_\_init\_\_.py to each test module
+* modified hope embedding from array to list
+* Added nn-regressor tests
+* Cleared predict function
+* added utility and conversion tests
+* Changed or to and in check dgl
+* Corrected sparse\_to\_dense function
+* Corrected if to elif
+* if to elif
+* added tolist statement I accidentally deleted earlier
+* updated dense to networkx single array part
+* Corrected elif statement
+* Fixed range statement
+* Specified exceptions
+* changed to pydot from pygraphviz
+* Specified Exception to TypeError
+* Removed unnecessary print statement
+* Minor changes to save path
+* Added a gnn regression example
+* A few overhauls for the Neural Nets
+* Added a tiny few tests
+* Updated edge and dense feature functions
+* Added mechanism specific tests
+* greater to greater equals
+* Added baseic tests for every constructor except spatial, specific test cases to follow
+* Minor code cleanup
+* Create test\_graph\_constructor\_percentage.py
+* Better handling for mean matrix construction
+* Added examples for the different photonai-graph modules
+* Converted the last function to a dict function
+* reviewed GraphConversions.py
+* Added show parameter to visualization functions
+* Changed init of the regresors and classifiers for better sklearn compatibility
+* Renamed GrakelAdapter in file
+* renamed the grakel adapter file
+* refactored graph embedding for better sklearn compatibility
+* reviewed GraphConversions.py
+* refactored the construction init for sklearn conformity in the photon pipeline
+* Update util.py
+* Fixed import statement
+* Expanded sparse\_to\_dgl function
+* Expanded docstring documentation
+* changed dim to ndims
+* Corrected missing comma
+* Corrected spelling mistake, added new classes to json
+* Overhauled Conversions and Utilities
+* added np.squeeze for later unit tests
+* Updated the embedding loop
+* renamend transform\_test to transform, sklearn compatible
+* Added warnings to conversion which will be removed in the future
+* Overhauled GraphConversions and GraphUtilities
+* Update getting\_started.md
+* Update setup.py
+* Update requirements.txt
+* Small changes
+* Added \_\_init\_\_.py files for new packages
+* Swapped GraphSAGE vor sgconv, refactored classifiers
+* Updated GraphConvNet file with SAGE model (still under development)
+* Added an Adapter (converter) for Grakel transformers and updated the neural networks
+* Reviewed GraphConversions.py
+* reviewed graph\_embedding\*
+* reviewed graph\_constructor\*
+* removed dummy test
+* removed legacy code file
+* Add dgl conversions
+* Refactored the Graph Embedding Module
+* Refactored the Graph Construction Module
+* Removed Stellargraph due to problematic Tensorflow requirements and slower runtime, exchanged for dgl + pytorch based graph nets
+* Update setup.py
+* Update requirements.txt
+* Added Connectogram drawing
+* Added Graph Kernels
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update graph\_utilities.md
+* Update mkdocs.yml
+* Rename GraphConvNets.md to graph\_convnets.md
+* Create graph\_utilities.md
+* Create GraphConvNets.md
+* Added threshold comment
+* Finished refactoring
+* added pandas for requirements.txt and setup.py
+* Additional changes for GraphConvNet
+* refactored GraphMeasureTransform.py and GraphUtilities.py   - renamed some functions
+* refactored GraphConvNet.py
+* removed relative imports
+* Update mkdocs.yml
+* Update mkdocs.yml
+* Update index.md
+* Create API.md
+* Add files via upload
+* Update installation.md
+* Update index.md
+* Update graph\_construction.md
+* Update graph\_construction.md
+* Added examples
+* Update getting\_started.md
+* Update getting\_started.md
+* Update getting\_started.md
+* Update getting\_started.md
+* Update workflow.md
+* Uploaded workflow scheme
+* Update workflow.md
+* Update workflow.md
+* Create workflow.md
+* Update graph\_embeddings.md
+* Update graph\_measures.md
+* Fixed bug in save\_networkx\_to\_file
+* Fixed imports
+* Add graph construction test file
+* split single GraphConstruction.py file into mutliple smaller files for better code management
+* Refactored and commented (todo)
+* Update website URL
+* Updated utilities
+* Updated the getting started guide
+* Updated documentation for graph embedding methods
+* Update graph\_embeddings.md
+* Update graph\_embeddings.md
+* Update GraphEmbedding.py
+* Update graph\_construction.md
+* Update GraphConstruction.py
+* Update graph\_measures.md
+* Update graph\_measures.md
+* Update GraphConstruction.py
+* Update GraphUtilities.py
+* Update GraphConstruction.py
+* Updated GraphUtilities
+* Added 2 additional construction methods based on a percentage range and a treshold range (based of a paper by the Spoorns group)
+* Update graph\_measures.md
+* Fix image
+* Update documentation README
+* Add example documentation
+* Update graph\_measures.md
+* Update GraphMeasureTransform.py
+* Update GraphMeasureTransform.py
+* Update GraphMeasureTransform.py
+* Overhauled GraphConvNet for faster training and evaluation within the PHOTON framework
+* Overhauled the examples for the different PHOTON functions
+* Added visualization function for connectivity matrix
+* adjusted requirements to setup.py
+* add gem github repo as dependecy
+* removed RegisterGraph\_force
+* adjusted too small sample size in example
+* removed RegisterGraph\_force
+* fixed path to json
+* updated ignore
+* fixed imports
+* added manifest for pip package
+* fixed imports
+* added .gitignore
+* Overhauled the structure of the graph module added registration
+* Update requirements.txt
+* Update setup.py
+* Changed dot format handling, pygraphviz not needed anymore
+* Create setup.cfg
+* Update requirements.txt
+* Create setup.py
+* Create requirements.txt
+* Added A graph convnet example, added additional features to some of the networkx methods, added regression neural networks
+* Added Graph Convolutional Neural Nets, many functions for transforming graph formats, allowed for individual construction of knn-graphs (can not be used with spectral methods)
+* Added a superfunction handling the writing of graph files
+* Added new utilities for writing and reading graphs
+* Add documentation website to README.md
+* Add documentation
+* Added fisher transform and absolute values to Graph Construction
+* Added function to write and handle graphviz files
+* Build a force\_register function, debugged GraphConstruction, enhanced example code
+* Add files via upload
+* Initial commit
