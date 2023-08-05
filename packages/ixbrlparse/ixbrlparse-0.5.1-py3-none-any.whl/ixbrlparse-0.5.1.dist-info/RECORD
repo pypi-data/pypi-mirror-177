@@ -1,0 +1,15 @@
+ixbrlparse/__init__.py,sha256=14t0JWJpgBemOOX_TsTM1GBlvSUc8l2WYDnKZIhQ7Hg,97
+ixbrlparse/__main__.py,sha256=4PbYSIZeqSVIDxcoChAtT2uSw2WZHakeTJ2l2V8UyaY,1907
+ixbrlparse/core.py,sha256=OHSOtyxEShoIz5Ddvj5nA9WQ7ImTvlzpITm_KzYEX5M,12776
+ixbrlparse/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ixbrlparse/version.py,sha256=qSmox37Y9AVma7EF6squiwj6SeCYoAOKJyA2gwoJKMI,23
+ixbrlparse/components/__init__.py,sha256=np9s8ibqWv1xBHoL7psQShhAGIP4SjdQTP5KESwpWWM,176
+ixbrlparse/components/context.py,sha256=r549bCgtvvt8GyknndAvgahvrIxAWTLE8Q-noGoM6Ls,1644
+ixbrlparse/components/nonnumeric.py,sha256=7xw881UShLkydHqQ9j6QbbMXOezboiagZABIA9IAHyA,910
+ixbrlparse/components/numeric.py,sha256=3lc6b61uFjkR7H6s3PkDiaCsSpZiekCz1seQhPgmhS0,2261
+ixbrlparse/components/transform.py,sha256=QTHXijEfmNOxsTR1iQCspi7U72gua-4fm0V47Ba_uZI,4066
+ixbrlparse-0.5.1.dist-info/LICENSE,sha256=6qPv1qfs4dp2mHCbrWjIXfqPrubNdNzfCgmhZUhgFeU,1088
+ixbrlparse-0.5.1.dist-info/METADATA,sha256=jkytJsdc8-3XGahiMy1Yk-uy-QWkXhaHroyRFOBRSig,7244
+ixbrlparse-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ixbrlparse-0.5.1.dist-info/top_level.txt,sha256=cwZmO7tO9Cw3fp-YtY26mwdia6xzGMPF-sCzWwdh55g,11
+ixbrlparse-0.5.1.dist-info/RECORD,,
