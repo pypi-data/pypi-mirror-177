@@ -1,0 +1,18 @@
+---
+title: WPC Device Information
+devices:
+  ECC608-TFLXWPC:
+    basePart: ATECC608B
+    partLink:
+    provisioningFlow: TrustFLEX
+    partType: Silicon
+    productCategory: Secure Element
+    tpdsRelease: Yes
+parts:
+  - partNumber: ECC608-TFLXWPCU
+    deviceName: ECC608-TFLXWPCU
+    packagePin: UDFN-8
+    memory: N/A
+    media:
+    moq: 2000
+    status:
