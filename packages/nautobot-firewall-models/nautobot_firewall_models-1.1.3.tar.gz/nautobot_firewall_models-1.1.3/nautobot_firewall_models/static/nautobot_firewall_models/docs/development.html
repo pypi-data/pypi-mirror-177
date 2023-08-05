@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://nautobot-plugin-firewall-models.readthedocs.io/development.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Development Environment - Nautobot Firewall Models Documentation</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Development Environment";
+        var mkdocs_page_input_path = "development.md";
+        var mkdocs_page_url = "/development.html";
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Nautobot Firewall Models Documentation
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="example.html">Examples</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="development.html">Development Environment</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#invoke">Invoke</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#local-poetry-development-environment">Local Poetry Development Environment</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#docker-development-environment">Docker Development Environment</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#cli-helper-commands">CLI Helper Commands</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#docker-dev-environment">Docker dev environment</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#utility">Utility</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#testing">Testing</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-documentation">Project Documentation</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="models.html">Models</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="capirca.html">Capirca Usage</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nautobot Firewall Models Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Development Environment</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/nautobot/nautobot-plugin-firewall-models/edit/main/docs/development.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="development-environment">Development Environment<a class="headerlink" href="#development-environment" title="Permanent link">&para;</a></h1>
+<p>The development environment can be used in 2 ways. First, with a local Poetry environment if you wish to develop outside of Docker with the caveat of using external services provided by Docker for PostgresQL and Redis. Second, all services are spun up using Docker and a local mount so you can develop locally, but Nautobot is spun up within the Docker container.</p>
+<p>Below is a quick start guide if you're already familiar with the development environment provided, but if you're not familiar, please read the Getting Started guide in the repo.</p>
+<h2 id="invoke">Invoke<a class="headerlink" href="#invoke" title="Permanent link">&para;</a></h2>
+<p>The <a href="http://www.pyinvoke.org/">Invoke</a> library is used to provide some helper commands based on the environment. There are a few configuration parameters which can be passed to Invoke to override the default configuration:</p>
+<ul>
+<li><code>nautobot_ver</code>: the version of Nautobot to use as a base for any built Docker containers (default: 1.1.4)</li>
+<li><code>project_name</code>: the Docker Compose project name (default: nautobot_firewall_models)</li>
+<li><code>python_ver</code>: the version of Python to use as a base for any built Docker containers (default: 3.6)</li>
+<li><code>local</code>: a boolean flag indicating if Invoke tasks should be run on the host or inside the Docker containers (default: False, commands will be run in Docker containers)</li>
+<li><code>compose_dir</code>: the full path to a directory containing the project Compose files</li>
+<li><code>compose_files</code>: a list of Compose files applied in order (see <a href="https://docs.docker.com/compose/extends/#multiple-compose-files">Multiple Compose files</a> for more information)</li>
+</ul>
+<p>Using <strong>Invoke</strong> these configuration options can be overridden using <a href="http://docs.pyinvoke.org/en/stable/concepts/configuration.html">several methods</a>. Perhaps the simplest is simply setting an environment variable <code>INVOKE_NAUTOBOT_FIREWALL_MODELS_VARIABLE_NAME</code> where <code>VARIABLE_NAME</code> is the variable you are trying to override. The only exception is <code>compose_files</code>, because it is a list it must be overridden in a YAML file. There is an example <code>invoke.yml</code> (<code>invoke.example.yml</code>) in this directory which can be used as a starting point.</p>
+<h2 id="local-poetry-development-environment">Local Poetry Development Environment<a class="headerlink" href="#local-poetry-development-environment" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Copy <code>development/creds.example.env</code> to <code>development/creds.env</code> (This file will be ignored by Git and Docker)</li>
+<li>Uncomment the <code>POSTGRES_HOST</code>, <code>REDIS_HOST</code>, and <code>NAUTOBOT_ROOT</code> variables in <code>development/creds.env</code></li>
+<li>Create an <code>invoke.yml</code> file with the following contents at the root of the repo (you can also copy the file with <code>cp invoke.example.yml invoke.yml</code> and edit as necessary):</li>
+</ol>
+<pre><code class="language-yaml">---
+nautobot_firewall_models:
+  local: true
+  compose_files:
+    - &quot;docker-compose.requirements.yml&quot;
+</code></pre>
+<ol>
+<li>Run the following commands:</li>
+</ol>
+<pre><code class="language-shell">poetry shell
+poetry install --extras nautobot
+export $(cat development/dev.env | xargs)
+export $(cat development/creds.env | xargs) 
+invoke start &amp;&amp; sleep 5
+nautobot-server migrate
+</code></pre>
+<blockquote>
+<p>If you want to develop on the latest develop branch of Nautobot, run the following command: <code>poetry add --optional git+https://github.com/nautobot/nautobot@develop</code>. The string after the <code>@</code> symbol must match either a branch or a tag.</p>
+</blockquote>
+<ol>
+<li>You can now run <code>nautobot-server</code> commands as you would from the <a href="https://nautobot.readthedocs.io/en/latest/">Nautobot documentation</a> for example to start the development server:</li>
+</ol>
+<pre><code class="language-shell">nautobot-server runserver 0.0.0.0:8080 --insecure
+</code></pre>
+<p>Nautobot server can now be accessed at <a href="http://localhost:8080">http://localhost:8080</a>.</p>
+<p>It is typically recommended to launch the Nautobot <strong>runserver</strong> command in a separate shell so you can keep developing and manage the webserver separately.</p>
+<h2 id="docker-development-environment"><a name="docker"></a>Docker Development Environment<a class="headerlink" href="#docker-development-environment" title="Permanent link">&para;</a></h2>
+<p>This project is managed by <a href="https://python-poetry.org/">Python Poetry</a> and has a few requirements to setup your development environment:</p>
+<ol>
+<li>Install Poetry, see the <a href="https://python-poetry.org/docs/#installation">Poetry Documentation</a> for your operating system.</li>
+<li>Install Docker, see the <a href="https://docs.docker.com/get-docker/">Docker documentation</a> for your operating system.</li>
+</ol>
+<p>Once you have Poetry and Docker installed you can run the following commands to install all other development dependencies in an isolated python virtual environment:</p>
+<pre><code class="language-shell">poetry shell
+poetry install
+invoke start
+</code></pre>
+<p>Nautobot server can now be accessed at <a href="http://localhost:8080">http://localhost:8080</a>.</p>
+<p>To either stop or destroy the development environment use the following options.</p>
+<ul>
+<li><strong>invoke stop</strong> - Stop the containers, but keep all underlying systems intact</li>
+<li><strong>invoke destroy</strong> - Stop and remove all containers, volumes, etc. (This results in data loss due to the volume being deleted)</li>
+</ul>
+<h3 id="cli-helper-commands">CLI Helper Commands<a class="headerlink" href="#cli-helper-commands" title="Permanent link">&para;</a></h3>
+<p>The project comes with a CLI helper based on <a href="http://www.pyinvoke.org/">Invoke</a> to help setup the development environment. The commands are listed below in 3 categories <code>dev environment</code>, <code>utility</code> and <code>testing</code>.</p>
+<p>Each command can be executed with <code>invoke &lt;command&gt;</code>. Environment variables <code>INVOKE_NAUTOBOT_FIREWALL_MODELS_PYTHON_VER</code> and <code>INVOKE_NAUTOBOT_FIREWALLS_MODEL_NAUTOBOT_VER</code> may be specified to override the default versions. Each command also has its own help <code>invoke &lt;command&gt; --help</code></p>
+<h2 id="docker-dev-environment">Docker dev environment<a class="headerlink" href="#docker-dev-environment" title="Permanent link">&para;</a></h2>
+<pre><code class="language-no-highlight">  build            Build all docker images.
+  debug            Start Nautobot and its dependencies in debug mode.
+  destroy          Destroy all containers and volumes.
+  restart          Restart Nautobot and its dependencies.
+  start            Start Nautobot and its dependencies in detached mode.
+  stop             Stop Nautobot and its dependencies.
+</code></pre>
+<h2 id="utility">Utility<a class="headerlink" href="#utility" title="Permanent link">&para;</a></h2>
+<pre><code class="language-no-highlight">  cli              Launch a bash shell inside the running Nautobot container.
+  create-user      Create a new user in django (default: admin), will prompt for password.
+  makemigrations   Run Make Migration in Django.
+  nbshell          Launch a nbshell session.
+  shell-plus       Launch a shell_plus session, which uses iPython and automatically imports all models.
+</code></pre>
+<h2 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h2>
+<pre><code class="language-no-highlight">  bandit           Run bandit to validate basic static code security analysis.
+  black            Run black to check that Python files adhere to its style standards.
+  flake8           This will run flake8 for the specified name and Python version.
+  pydocstyle       Run pydocstyle to validate docstring formatting adheres to NTC defined standards.
+  pylint           Run pylint code analysis.
+  tests            Run all tests for this plugin.
+  unittest         Run Django unit tests for the plugin.
+</code></pre>
+<h2 id="project-documentation">Project Documentation<a class="headerlink" href="#project-documentation" title="Permanent link">&para;</a></h2>
+<p>Project documentation is generated by <a href="https://www.mkdocs.org/">mkdocs</a> from the documentation located in the docs folder.  You can configure <a href="https://readthedocs.io/">readthedocs.io</a> to point at this folder in your repo.  A container hosting the docs will be started using the invoke commands on <a href="http://localhost:8001">http://localhost:8001</a>, as changes are saved the docs will be automatically reloaded.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="example.html" class="btn btn-neutral float-left" title="Examples"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="models.html" class="btn btn-neutral float-right" title="Models">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/nautobot/nautobot-plugin-firewall-models" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="example.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="models.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
