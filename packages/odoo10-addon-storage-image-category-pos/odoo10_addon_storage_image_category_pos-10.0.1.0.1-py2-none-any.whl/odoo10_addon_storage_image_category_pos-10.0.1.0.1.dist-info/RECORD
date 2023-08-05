@@ -1,0 +1,12 @@
+odoo10_addon_storage_image_category_pos-10.0.1.0.1-py3.8-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/storage_image_category_pos/README.rst,sha256=_JjzhQ196NF7jF1ZSrhlJ7roBwSuDRRrb1GQUXUJxRI,518
+odoo/addons/storage_image_category_pos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/storage_image_category_pos/__manifest__.py,sha256=vB4KXAFSjP5cR4h3AVWkfxNppk0aaqzetdWUVoVLd6w,655
+odoo/addons/storage_image_category_pos/i18n/storage_image_category_pos.pot,sha256=tYuE3-MLMMQJE5mpVzIg_IKWcTGkn4R0qtWo-2n_0q0,344
+odoo/addons/storage_image_category_pos/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/storage_image_category_pos/views/product_category.xml,sha256=hyTJvh6ZDYxJ3SzJ0pFaHO4oSXceC0AFT6vhMsSB0Xo,479
+odoo10_addon_storage_image_category_pos-10.0.1.0.1.dist-info/METADATA,sha256=O_SlL46Mm9rZ-q9DbeDReASFslfru4dPett0fA8nwAc,1198
+odoo10_addon_storage_image_category_pos-10.0.1.0.1.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+odoo10_addon_storage_image_category_pos-10.0.1.0.1.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_storage_image_category_pos-10.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_storage_image_category_pos-10.0.1.0.1.dist-info/RECORD,,

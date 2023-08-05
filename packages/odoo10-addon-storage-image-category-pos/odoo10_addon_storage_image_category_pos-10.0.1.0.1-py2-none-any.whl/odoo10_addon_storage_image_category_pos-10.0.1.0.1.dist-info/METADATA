@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: odoo10-addon-storage-image-category-pos
+Version: 10.0.1.0.1
+Summary: Add image handling to product category and use it for POS
+Home-page: https://github.com/OCA/storage
+Author: Akretion, Odoo Community Association (OCA)
+Author-email: support@odoo-community.org
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 10.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: ~=2.7
+Requires-Dist: odoo10-addon-pos-remove-pos-category
+Requires-Dist: odoo10-addon-storage-image-product-pos
+Requires-Dist: odoo (<10.1dev,>=10.0)
+
+
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
+
+===========================
+Storage Image Category POS
+===========================
+
+
+Simple module installing the remove Category POS module and removing the image
+field in the form view
+
+Known issues / Roadmap
+======================
+
+Credits
+=======
+
+
+Contributors
+------------
+
+* Pierrick Brun <pierrick.brun@akretion.com>
+
+
+Maintainer
+----------
+
+* Akretion
+
+
