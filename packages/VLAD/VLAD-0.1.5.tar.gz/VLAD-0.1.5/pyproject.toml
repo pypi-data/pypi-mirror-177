@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "VLAD"
+version = "0.1.5"
+description = "VLAD (Vector of Locally Aggregated Descriptors) implementation using opencv's SIFT and sklearn's KMeans" 
+authors = [{name = "ginofft", email = "ntnghia.andrei@gmail.com"}]
+license = {file="LICENSE"}
+
+keywords = ["vlad", "image retrieval", "computer vision"]
+
+dependencies = [
+    "opencv-python",
+    "torch",
+    "scikit-learn",
+    "numpy",
+    "h5py",
+    "matplotlib"
+]
