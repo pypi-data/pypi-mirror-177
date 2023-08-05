@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/remotable/__init__.py
+src/remotable/__main__.py
+src/remotable.egg-info/PKG-INFO
+src/remotable.egg-info/SOURCES.txt
+src/remotable.egg-info/dependency_links.txt
+src/remotable.egg-info/requires.txt
+src/remotable.egg-info/top_level.txt
