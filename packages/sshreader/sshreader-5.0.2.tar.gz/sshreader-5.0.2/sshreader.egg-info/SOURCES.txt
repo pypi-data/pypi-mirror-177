@@ -1,0 +1,16 @@
+LICENSE
+LICENSE.lesser
+README.md
+setup.py
+sshreader/__init__.py
+sshreader/ssh.py
+sshreader/types.py
+sshreader/utils.py
+sshreader.egg-info/PKG-INFO
+sshreader.egg-info/SOURCES.txt
+sshreader.egg-info/dependency_links.txt
+sshreader.egg-info/entry_points.txt
+sshreader.egg-info/requires.txt
+sshreader.egg-info/top_level.txt
+sshreader/scripts/__init__.py
+sshreader/scripts/pydsh.py
