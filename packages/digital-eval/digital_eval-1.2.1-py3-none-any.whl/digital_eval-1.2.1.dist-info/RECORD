@@ -1,0 +1,13 @@
+digital_eval/VERSION,sha256=IGYgplfxzMivcrhm_c7yDmQcSPOc4n8zjOgxOUnGPlM,5
+digital_eval/__init__.py,sha256=kMmii0E5XdkAymYr12ev0PpGHUipaGBfy-5GjoPqtOM,556
+digital_eval/cli.py,sha256=JAASPUFzX4MyDiXSqNDzqQItX5SY_pA2fi07BpRBpnY,7484
+digital_eval/evaluation.py,sha256=NDBdq4rcWN9Ur7Qpi2kugryRK8s8Ae0x5-gnnD_gnGE,28550
+digital_eval/metrics.py,sha256=_8qY92dx5Wi_zTj7LxiL1GHa6rJfBNYjBm5D7pEPMEc,14661
+digital_eval/model.py,sha256=C9VBIdpfHZJ2G9aSVbmc-EFvS85cVKsteGVSbf8gmdM,14348
+digital_eval/model_legacy.py,sha256=Jxlh1usGO4IuivZBkZNMz4nDZWrLGDq32vb3xBQwtlI,14939
+digital_eval-1.2.1.dist-info/LICENSE,sha256=DItBhE1p6-xBDCSH8zFN-Lzx3oXrOtGAKuwMTlvV_9E,1107
+digital_eval-1.2.1.dist-info/METADATA,sha256=Mt1sr_Srnrlt1gPG9HE_3rRvPwT6XoWd3rlgBHYcO0Y,4639
+digital_eval-1.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+digital_eval-1.2.1.dist-info/entry_points.txt,sha256=2rYSv_lDbMS3hhs60UY5zXmt7y6Gtd6DFq8Le2t-ibE,56
+digital_eval-1.2.1.dist-info/top_level.txt,sha256=c6C3YHXYInx0qKp_DCCkX4L4Adr6Jb3Hm_WsA7t4cVg,13
+digital_eval-1.2.1.dist-info/RECORD,,
