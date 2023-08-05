@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: onnxprofile
+Version: 0.0.1
+Summary: A general and accurate MACs / FLOPs profiler for ONNX models
+Home-page: UNKNOWN
+Author: Artexety
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: onnx
+Requires-Dist: numpy
+Requires-Dist: tabulate
+
+# onnxprofile
+A general and accurate MACs / FLOPs profiler for ONNX models
+

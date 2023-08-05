@@ -1,0 +1,3 @@
+[console_scripts]
+onnxprofile = onnxprofile.__main__:main
+
