@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: a-pandas-ex-read-sql
+Version: 0.10
+Summary: Convert any SQL Database to a Pandas DataFrame
+Home-page: https://github.com/hansalemaos/a_pandas_ex_read_sql
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: sql,pandas,SQLite,mysql,DataFrame
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: pandas
+
+
+# Read any SQL database 
+
+
+
+
+
+```python
+
+$ pip install a-pandas-ex-read-sql
+
+from a_pandas_ex_read_sql import pd_add_read_sql_file
+
+pd_add_read_sql_file()
+
+import pandas as pd
+
+dict_with_dfs = pd.Q_read_sql(r"F:\msgstorexxxxxxxxxxxxxxxxx.db")
+
+```
