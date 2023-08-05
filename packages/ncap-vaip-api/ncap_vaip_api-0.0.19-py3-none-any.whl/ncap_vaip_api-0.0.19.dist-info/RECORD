@@ -1,0 +1,8 @@
+vaip/models.py,sha256=xESxKLOTRsrGbkNYNNH-InuXXbFBUwwF50FwNXiMtOY,11595
+vaip/utils.py,sha256=3uibDfXzOyrQokKE_ylqIus8RQwY9fZxljgy50_DJlU,5492
+vaip/data/vaip_core_model.owl,sha256=P3brWXY_ey8kDslrd1KM_NKawEZhDuGZIt7p6oMsavE,54567
+vaip/data/shacl/vaip_core_shapes.shacl,sha256=1r2_dQYKuMJmkW-uTPyvl9rLM-VayxSCUkKq1VB-gQA,20725
+ncap_vaip_api-0.0.19.dist-info/METADATA,sha256=p5UdKLutOH0V6xb2tM1qceWf0vDCXsCOcoG1AJtT0Ww,516
+ncap_vaip_api-0.0.19.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+ncap_vaip_api-0.0.19.dist-info/licenses/LICENSE,sha256=77wbx3PvKpCETlR0qMLhpHusVFPwtrIQfJTtrjRzAUU,521
+ncap_vaip_api-0.0.19.dist-info/RECORD,,
