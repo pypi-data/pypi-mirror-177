@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: serenipy
+Version: 0.1.0
+Summary: A small package for handling ip2 related files
+Home-page: UNKNOWN
+Author: Patrick Garrett
+Author-email: pgarrett@scripps.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## serenipy
+
+SERializer/ENcoder for IP2 related files: MS2, SQT, DTASelect-filter, DTASelect, Census
+
