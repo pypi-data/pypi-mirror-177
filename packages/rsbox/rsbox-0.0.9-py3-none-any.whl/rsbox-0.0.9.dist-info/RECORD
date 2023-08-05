@@ -1,0 +1,8 @@
+rsbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rsbox/example.py,sha256=4jmMHhLtpVZLgqbV-0Hbtl94TMsSTEYRp2F71UWVRTI,128
+rsbox/misc.py,sha256=jPZ0H5zdHjkpAcvwwmJgyrPOM9NWKz6GLsjXa7XXaDw,1210
+rsbox/ml.py,sha256=_CHeoGtWxINbgi8ndi63KUEdRlJ9Zz5BY96WudG1MFg,7496
+rsbox-0.0.9.dist-info/METADATA,sha256=DpN8zA9Zu_fTCa_Rd679rkBGbq_wMiHCK24rQpjTyKc,2955
+rsbox-0.0.9.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+rsbox-0.0.9.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+rsbox-0.0.9.dist-info/RECORD,,
