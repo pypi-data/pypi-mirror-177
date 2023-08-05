@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pulumiverse_unifi
+Version: 0.0.1a1668675417
+Summary: A Pulumi package for creating and managing Unifi network resources.
+Home-page: https://github.com/pulumiverse
+License: Apache-2.0
+Project-URL: Repository, https://github.com/pulumiverse/pulumi-unifi
+Description: # Unifi Resource Provider
+        
+        The Unifi Resource Provider lets you manage [Unifi](https://www.ui.com) networks.
+        
+        ## Installing
+        
+        This package is available for several languages/platforms:
+        
+        ### Node.js (JavaScript/TypeScript)
+        
+        To use from JavaScript or TypeScript in Node.js, install using either `npm`:
+        
+        ```bash
+        npm install @pulumiverse/unifi
+        ```
+        
+        or `yarn`:
+        
+        ```bash
+        yarn add @pulumiverse/unifi
+        ```
+        
+        ### Python
+        
+        To use from Python, install using `pip`:
+        
+        ```bash
+        pip install pulumiverse_unifi
+        ```
+        
+        ### Go
+        
+        To use from Go, use `go get` to grab the latest version of the library:
+        
+        ```bash
+        go get github.com/pulumiverse/pulumi-unifi/sdk/go/...
+        ```
+        
+        ### .NET
+        
+        To use from .NET, install using `dotnet add package`:
+        
+        ```bash
+        dotnet add package Pulumiverse.Unifi
+        ```
+        
+        ## Configuration
+        
+        The following configuration points are available for the `unifi` provider:
+        
+        - `unifi:apiKey` (environment: `UNIFI_API_KEY`) - the API key for `unifi`
+        - `unifi:region` (environment: `UNIFI_REGION`) - the region in which to deploy resources
+        
+        ## Reference
+        
+        For detailed reference documentation, please visit [the Pulumi registry](https://www.pulumi.com/registry/packages/unifi/api-docs/).
+        
+Keywords: pulumi unifi category/network
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
