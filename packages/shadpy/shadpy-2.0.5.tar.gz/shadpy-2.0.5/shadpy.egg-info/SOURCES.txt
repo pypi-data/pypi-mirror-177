@@ -1,0 +1,14 @@
+setup.py
+shadpy/__init__.py
+shadpy/shad.py
+shadpy.egg-info/PKG-INFO
+shadpy.egg-info/SOURCES.txt
+shadpy.egg-info/dependency_links.txt
+shadpy.egg-info/requires.txt
+shadpy.egg-info/top_level.txt
+shadpy/connections/__init__.py
+shadpy/connections/requests.py
+shadpy/connections/websocket.py
+shadpy/encryption/__init__.py
+shadpy/exceptions/__init__.py
+shadpy/tools/__init__.py
