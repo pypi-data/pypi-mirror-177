@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "jelastic-client"
+version = "7.0.3.1"
+description = "A client library for Jelastic"
+authors = ["softozor <softozor@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jelastic_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = {version = ">=0.18", extras = ["http2"]}
+requests = "2.28.1"
+dataclasses-json = "0.5.7"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "0.991"
+pytest = "^7.2.0"
+pytest-xdist = "^3.0.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{ serialize_pep440(base, stage, revision) }}
+    {%- elif revision is not none -%}
+        {{ serialize_pep440(base, stage, revision + 1, dev=distance, metadata=[commit]) }}
+    {%- else -%}
+        {{ serialize_pep440(bump_version(base), stage, revision, dev=distance, metadata=[commit]) }}
+    {%- endif -%}
+"""
+
+[tool.isort]
+profile = "black"
+atomic = true
+combine_as_imports = true
+
+[tool.mypy]
+python_version = 3.8
+ignore_missing_imports = true
+warn_unused_ignores = true
+no_implicit_optional = true
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
