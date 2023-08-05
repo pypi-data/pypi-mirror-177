@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "uiuc_apartments"
+version = "0.0.5"
+
+dependencies = [
+    "requests",
+    "bs4"
+]
+
+authors = [
+  { name="Pete Stenger", email="pete@stenger.io" },
+  { name="Richard Liu", email="richy.liu.2002@gmail.com" }
+]
+description = "A wrapper around a webscraper for popular rental agencies on UIUC campus"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/reteps/uiuc_apartments"
+"Bug Tracker" = "https://github.com/reteps/uiuc_apartments/issues"
