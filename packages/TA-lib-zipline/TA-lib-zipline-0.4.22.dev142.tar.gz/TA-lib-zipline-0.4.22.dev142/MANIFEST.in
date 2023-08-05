@@ -1,0 +1,5 @@
+prune *
+include LICENSE COPYRIGHT README.md
+graft src
+graft tests
+global-exclude __pycache__ *.py[cod] .*
