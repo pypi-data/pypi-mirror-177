@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+annotatable_properties/__init__.py
+annotatable_properties/apps.py
+annotatable_properties/managers.py
+django_annotatable_properties.egg-info/PKG-INFO
+django_annotatable_properties.egg-info/SOURCES.txt
+django_annotatable_properties.egg-info/dependency_links.txt
+django_annotatable_properties.egg-info/requires.txt
+django_annotatable_properties.egg-info/top_level.txt
