@@ -1,0 +1,12 @@
+apfel-0.0.4.data/scripts/apfel,sha256=6CHKgd3UCLUw-7HB4DKHI3fKYbccU7Y82UtviAt4G_w,5853
+apfel-0.0.4.data/scripts/apfel-runqemu,sha256=0eTqD9-uLsfY3G14CpFXw7FsqM7W4cVZa5yeKNRMluk,1566
+apfel-0.0.4.data/scripts/vm_bundle.sh,sha256=T0I28neolCv-RzQiISeV7YuHhOVJFfrXSd7u4YvI0Jg,811
+apfel-0.0.4.data/scripts/vm_create.sh.template,sha256=wp5xBJ5hfpwlGqrBFCk2m4jDnvEZ9XynCd3MC2PL6PY,404
+bumper/__init__.py,sha256=xxfJc4uecUUtO9QxLLOoU2D3IGQpn4rZA104D_zGRUE,110
+bumper/__main__.py,sha256=qIMMeA8yzRgB8rf03lAamJryo6n0tFUuvshcQZ-NsCY,4006
+apfel-0.0.4.dist-info/LICENSE,sha256=FMH7tTD6Urp-4k81nujS8IJYymYIZdsTnDhsAggkn9w,32879
+apfel-0.0.4.dist-info/METADATA,sha256=fYda1pD5GDjK0dQsI8cmTqCHDsEdcJp7DF0ZkY6RzXU,8473
+apfel-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apfel-0.0.4.dist-info/entry_points.txt,sha256=pMrYhg-FSbXngFr1j2GWM-SruL-GaqdLvdv-V-clMgY,48
+apfel-0.0.4.dist-info/top_level.txt,sha256=CQc7dpYsixEUX7S9FgbgsfQ2GH2ewAoz57xKwTyKMCU,7
+apfel-0.0.4.dist-info/RECORD,,

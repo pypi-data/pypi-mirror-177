@@ -1,0 +1,19 @@
+#!/bin/sh
+# SPDX-FileCopyrightText: (C) 2022 Avnet Embedded GmbH
+# SPDX-License-Identifier: GPL-3.0-only
+
+
+set -e
+
+if [ $# -eq 1 ];
+then
+    VMNAME=$1
+else
+    VMNAME="@@VMNAME@@"
+fi
+
+KERNEL="@@KERNEL@@"
+DISK="@@DISK@@"
+
+virt-install --name "${VMNAME}" --import --memory 4096 --boot kernel="${KERNEL}",cmdline=root=/dev/vda --disk "${DISK}" --import --noautoconsole --destroy-on-exit --osinfo linux2022
+
