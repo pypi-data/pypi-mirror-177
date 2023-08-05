@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pypierrat
+Version: 0.0.19
+Summary: My Personnal Python3 Package
+Home-page: https://github.com/JulesPierrat/pypierrat
+Author: Jules Pierrat
+Author-email: jules.pierrat.98@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyPierrat
+My Personal Python Librairie
+
+## Use
+```bash
+pip install pypierrat
+```
+
+## References
+https://packaging.python.org/tutorials/packaging-projects/
+
+## Installation
+
+Clone repositry
+```bash
+git clone https://github.com/JulesPierrat/pypierrat
+```
+
+Create virtual environnement
+```bash
+# Create
+python3 -m venv env
+
+# Setup
+pip install -r requirements.txt
+```
+
+Activate / deactivate virtual env
+```bash
+source env/bin/activate
+deactivate
+```
+
+## Organisation
+
+TO COMPLETE
+
+## UPLOAD
+
+Change number of version in the file `setup.cfg`
+	
+Upload to Pypi
+```bash
+sudo ./upload-pypi
+```
