@@ -1,0 +1,13 @@
+sphinx
+sphinx-click
+sphinx-codeautolink
+sphinx-copybutton
+sphinx-rtd-theme
+nbsphinx
+pandoc
+ipython
+ipykernel
+jupyter_client
+sphinx-click
+numpydoc
+autodoc_pydantic
