@@ -1,0 +1,12 @@
+keyboardsounds/audio_manager.py,sha256=y8HwiXcmB__FIuhTD-BSNxRJYZbkF3ZYLZWmvPiOf9w,2475
+keyboardsounds/daemon.py,sha256=R9W3FPHhfooc2-bdqdDgqvbCWCX5zXtcbcrYFl8dLFE,730
+keyboardsounds/daemon_manager.py,sha256=Zs-uNj8c27l9TfsMXx673ofKu5YhQzg2TmflUou2SyU,4471
+keyboardsounds/main.py,sha256=kDSDo7AxgPtLa3QiAD0_ysUyXVXk3TOyoAxmJ5T-AmA,3902
+keyboardsounds/profile.py,sha256=KvMQ5eKYZ4vMLpkJDuCwRFTNJ3r-eH51wi54ckuL9Yo,5534
+keyboardsounds/root.py,sha256=2CZsxCt_LEDpak1erfyZzECRAxw9cFOQtvM8hpxupkY,61
+keyboardsounds-3.0.0.dist-info/LICENSE,sha256=QkKAJgsUe745YnACGl0uf9bXjc3Kcjda-PhTMRY1Kzg,1095
+keyboardsounds-3.0.0.dist-info/METADATA,sha256=FtE9epgCdGaKxZeT7N6QNXPhFxcI7v-T9oSk2ivYXqA,6265
+keyboardsounds-3.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+keyboardsounds-3.0.0.dist-info/entry_points.txt,sha256=bnwVpCJE-6Ld5JjbaAVa2nX4uGdcNGAK_P-IitN12VU,60
+keyboardsounds-3.0.0.dist-info/top_level.txt,sha256=1yzxhkZx-DlYVV_HoAi_PAjR4Sj-CHGqM8zley4YKzM,15
+keyboardsounds-3.0.0.dist-info/RECORD,,
