@@ -1,0 +1,17 @@
+MANIFEST.in
+backend_shim.py
+setup.py
+rikai_sklearn/__init__.py
+rikai_sklearn/mlflow.py
+rikai_sklearn/numpy.py
+rikai_sklearn.egg-info/PKG-INFO
+rikai_sklearn.egg-info/SOURCES.txt
+rikai_sklearn.egg-info/dependency_links.txt
+rikai_sklearn.egg-info/namespace_packages.txt
+rikai_sklearn.egg-info/requires.txt
+rikai_sklearn.egg-info/top_level.txt
+rikai_sklearn/models/__init__.py
+rikai_sklearn/models/classifier.py
+rikai_sklearn/models/cluster.py
+rikai_sklearn/models/regressor.py
+rikai_sklearn/models/transformer.py

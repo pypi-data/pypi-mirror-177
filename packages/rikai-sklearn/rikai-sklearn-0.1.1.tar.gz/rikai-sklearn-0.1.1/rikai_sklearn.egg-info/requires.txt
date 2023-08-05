@@ -1,0 +1,2 @@
+rikai==0.1.14
+scikit-learn
