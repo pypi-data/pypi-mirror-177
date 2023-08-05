@@ -1,0 +1,3 @@
+[console_scripts]
+hito2lists = hito_mail.hito2lists:main
+hito_export = hito_mail.hito_export:main

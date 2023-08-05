@@ -1,0 +1,4 @@
+hito-tools>=22.11
+pexpect
+pyyaml
+unidecode

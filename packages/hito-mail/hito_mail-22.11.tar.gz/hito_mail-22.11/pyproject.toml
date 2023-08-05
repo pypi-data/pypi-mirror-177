@@ -1,0 +1,35 @@
+[build-system]
+requires = [ "setuptools", "setuptools-scm",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hito_mail"
+version = "22.11"
+description = "Gestion de listes d'email Zimbra ou LISTSERV à partir de Hito"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [ "hito-tools>=22.11", "pexpect", "pyyaml", "unidecode",]
+dynamic = []
+
+[[project.authors]]
+name = "Michel Jouvin"
+email = "michel.jouvin@ijclab.in2p3.fr"
+
+
+[tool]
+
+[project.license]
+text = "BSD 3-Clause License"
+
+[project.urls]
+Homepage = "https://gitlab.in2p3.fr/hito/mail_tools"
+"Bug Tracker" = "https://gitlab.in2p3.fr/hito/mail_tools/-/issues"
+
+[project.scripts]
+hito2lists = "hito_mail.hito2lists:main"
+hito_export = "hito_mail.hito_export:main"
