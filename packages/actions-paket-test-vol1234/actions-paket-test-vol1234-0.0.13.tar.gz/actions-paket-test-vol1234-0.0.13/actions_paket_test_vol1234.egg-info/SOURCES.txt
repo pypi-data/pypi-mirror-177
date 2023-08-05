@@ -1,0 +1,8 @@
+README.md
+setup.py
+actions_paket_test_vol1234.egg-info/PKG-INFO
+actions_paket_test_vol1234.egg-info/SOURCES.txt
+actions_paket_test_vol1234.egg-info/dependency_links.txt
+actions_paket_test_vol1234.egg-info/not-zip-safe
+actions_paket_test_vol1234.egg-info/requires.txt
+actions_paket_test_vol1234.egg-info/top_level.txt
