@@ -1,0 +1,4 @@
+bip_utils
+requests
+pyuseragents
+mnemonic
