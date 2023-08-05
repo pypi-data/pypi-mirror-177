@@ -1,0 +1,12 @@
+owmpy/__init__.py,sha256=mrHKT7lIL1fVNfA8IKzxLrNwnzWYsKzqILwXc4gV1pQ,197
+owmpy/current/__init__.py,sha256=Cf4Ayg-6AbfaoaOuXhZs27Al9YJaow4sJu9lzIW9gLM,48
+owmpy/current/_classes.py,sha256=4FVr8z6QIQTiuVqOByfadZo20M8URywB7vOCT6yPtPE,1211
+owmpy/current/response.py,sha256=BVg5IByDuq7dwls3IxAtDzDRZeXxZbb9wzZ22NPgDAY,3004
+owmpy/utils/__init__.py,sha256=qzTPvvw0LXCcTkVlqWfLR2Vdw8HbqJbgjWP0uqAW4OM,68
+owmpy/utils/_classes.py,sha256=scKPx4mEm_F9GyzmiyZklJdtcjFD8vZp-mxGbG2jCP0,727
+owmpy/utils/units.py,sha256=oW6dMA6CFeSzGhEERc2cXiKmLoEFbrqLMdgesJZCoWI,2531
+owmpy-0.4.1.dist-info/LICENSE,sha256=W_n1gd4Mvvwg_-tYp0jWR7SeVlLIhlOSS77SlIBSc5Y,1081
+owmpy-0.4.1.dist-info/METADATA,sha256=Dwq_yplsPm9P9ukyZw4jYvbmlxQQWS5DcnfpP91qmE0,1447
+owmpy-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+owmpy-0.4.1.dist-info/top_level.txt,sha256=6BrjXq1qknFK8H5ey6qV6h2ll_vC8XdU5G-JmjMWY-c,6
+owmpy-0.4.1.dist-info/RECORD,,
