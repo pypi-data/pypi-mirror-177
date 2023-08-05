@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+The_Lord_of_the_Rings_SDK.egg-info/PKG-INFO
+The_Lord_of_the_Rings_SDK.egg-info/SOURCES.txt
+The_Lord_of_the_Rings_SDK.egg-info/dependency_links.txt
+The_Lord_of_the_Rings_SDK.egg-info/requires.txt
+The_Lord_of_the_Rings_SDK.egg-info/top_level.txt
+lotr/__init__.py
+lotr/client.py
+lotr/decorators.py
+lotr/endpoints.py
+lotr/errors.py
+lotr/models.py
