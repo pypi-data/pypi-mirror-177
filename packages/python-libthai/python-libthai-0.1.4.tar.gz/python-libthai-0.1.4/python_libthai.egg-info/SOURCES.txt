@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pythai/__init__.py
+pythai/libthai.c
+pythai/pythai.py
+pythai/tests.py
+python_libthai.egg-info/PKG-INFO
+python_libthai.egg-info/SOURCES.txt
+python_libthai.egg-info/dependency_links.txt
+python_libthai.egg-info/requires.txt
+python_libthai.egg-info/top_level.txt
