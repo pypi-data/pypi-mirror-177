@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: webull-python-sdk-quotes-core
+Version: 0.1.1
+Summary: The quotes core module of Webull Python SDK.
+Home-page: 
+Author: Webull
+Author-email: 
+License: Apache License 2.0
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: paho-mqtt (==1.6.1)
+Requires-Dist: grpcio (==1.43.0)
+Requires-Dist: grpcio-tools (==1.43.0)
+Requires-Dist: protobuf (==3.19.3)
+Requires-Dist: webull-python-sdk-core (==0.1.1)
+
