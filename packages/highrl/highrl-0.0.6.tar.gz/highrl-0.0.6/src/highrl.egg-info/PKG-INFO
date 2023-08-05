@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: highrl
+Version: 0.0.6
+Summary: Two level RL for robots navigation
+Author-email: Ahmed Heakl <ahmed.heakl@ejust.edu.eg>
+Project-URL: repository, https://github.com/ahmedheakl/multi-level-rl-for-robotics
+Keywords: reinforcement learning,robots,robot navigation,hierarchical reinforcement learning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: dev
+License-File: LICENSE
+
+[![Main Tests](https://github.com/ahmedheakl/Mutli_Level_RL_Robotics/workflows/test/badge.svg)](https://github.com/ahmedheakl/Mutli_Level_RL_Robotics/actions)
+
+# Multi-Level RL for Robotics
+
+Our Multi-Level Deep Reinforcement Learning for robots navigation code repoyy
