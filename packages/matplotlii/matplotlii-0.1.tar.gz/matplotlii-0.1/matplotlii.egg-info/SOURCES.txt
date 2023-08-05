@@ -1,0 +1,8 @@
+setup.py
+matplotlii/__init__.py
+matplotlii/operation.py
+matplotlii.egg-info/PKG-INFO
+matplotlii.egg-info/SOURCES.txt
+matplotlii.egg-info/dependency_links.txt
+matplotlii.egg-info/not-zip-safe
+matplotlii.egg-info/top_level.txt
