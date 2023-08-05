@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ml-mosaic
+Version: 0.0.3
+Summary: Mosaic is a framework dedicated to the comparison of AI models.
+Home-page: https://llrogcid.in2p3.fr/the-mosaic-framework/
+Author: Frederic Magniette
+Author-email: magniette@llr.in2p3.fr
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
