@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "name": "Amsterdam",
+      "slug": "amsterdam",
+      "coordinates": {
+        "latitude": 52.3667,
+        "longitude": 4.8945
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Delft",
+      "slug": "delft",
+      "coordinates": {
+        "latitude": 52.0116,
+        "longitude": 4.3571
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Leiden",
+      "slug": "leiden",
+      "coordinates": {
+        "latitude": 52.1601,
+        "longitude": 4.497
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Rotterdam",
+      "slug": "rotterdam",
+      "coordinates": {
+        "latitude": 51.9244,
+        "longitude": 4.4777
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "The Hague",
+      "slug": "the-hague",
+      "coordinates": {
+        "latitude": 52.0705,
+        "longitude": 4.3007
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Barcelona",
+      "slug": "barcelona",
+      "coordinates": {
+        "latitude": 41.2744,
+        "longitude": 1.9852
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Copenhagen",
+      "slug": "copenhagen",
+      "coordinates": {
+        "latitude": 55.6761,
+        "longitude": 12.5683
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Innsbruck",
+      "slug": "inssbruck",
+      "coordinates": {
+        "latitude": 47.263,
+        "longitude": 11.3844
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name":"Paris",
+      "slug":"paris",
+      "coordinates": {
+        "latitude": 48.8302,
+        "longitude": 2.3816
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Eindhoven",
+      "slug": "eindhoven",
+      "coordinates": {
+        "latitude": 51.4416,
+        "longitude": 5.4697
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    },
+    {
+      "name": "Enschede",
+      "slug": "enschede",
+      "coordinates": {
+        "latitude": 52.2215,
+        "longitude": 6.8937
+      },
+      "node_parameters": [
+        "gate-fidelity"
+      ],
+      "number_of_qubits": 3,
+      "qubit_parameters": [
+        "relaxation-time",
+        "dephasing-time"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "file:experiment.json",
+  "title": "Experiment",
+  "description": "Experiment consisting of an asset and meta",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "application": {
+          "type": "object",
+          "properties": {
+            "slug": {
+              "type": "string"
+            },
+            "app_version": {
+              "type": "string",
+              "format": "uri-reference"
+            },
+            "multi_round": {
+              "type": "boolean"
+            },
+            "application_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "slug",
+            "app_version",
+            "multi_round"
+          ]
+        },
+        "backend": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string"
+            },
+            "experiment_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "location",
+            "type"
+          ]
+        },
+        "number_of_rounds": {
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "experiment_id": {
+          "type": "string"
+        },
+        "round_set": {
+          "type": "string",
+          "format": "uri-reference"
+        }
+      },
+      "required": [
+        "application",
+        "backend",
+        "number_of_rounds",
+        "description",
+        "name"
+      ]
+    },
+    "asset": {
+      "$ref": "file:asset.json"
+    },
+    "experiment": {
+      "type": "string",
+      "format": "uri-reference"
+    }
+  },
+  "required": [
+    "meta",
+    "asset"
+  ],
+  "additionalProperties": false
+}
