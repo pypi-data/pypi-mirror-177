@@ -1,0 +1,2 @@
+[console_scripts]
+qojpca = qojpca.__main__:main

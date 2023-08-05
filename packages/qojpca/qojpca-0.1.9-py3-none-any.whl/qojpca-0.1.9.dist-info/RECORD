@@ -1,0 +1,13 @@
+qojpca/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qojpca/__main__.py,sha256=4vB6Nz5_Wj8TrWoggPkms1yWPFz9j2J9EK4X31J-bSQ,132
+qojpca/base.py,sha256=Aq0QeSuFnFI_5WA2OwuzZ2P6SzDDyINnNcHfd2dcjF4,3739
+qojpca/cli.py,sha256=gL9cp8bQk4ac34v1XEctXoTgiXg6um5crZCqtYhuS-4,6095
+qojpca/experiment_0.py,sha256=-ioCb9K9rLhjjCO1SAPu80ERLWztkqBtOrfOAjIkkig,5406
+qojpca/experiment_1.py,sha256=C93EM7jV-zZtoGgfBr2qPqHYX1_8IJu4mm8w8C-RGao,4749
+qojpca/extractFeatures.py,sha256=phhxFOsNpFANhJE5PBmDK8dbR8GJs_dQsJUdBV7XX1I,4356
+qojpca-0.1.9.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+qojpca-0.1.9.dist-info/METADATA,sha256=sZibKNlD9NHwEr8puVegEF_20szEzhOAPzC94m8a7wA,2075
+qojpca-0.1.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qojpca-0.1.9.dist-info/entry_points.txt,sha256=HBJ79XNBKtdRgkXdd4Hzz7Hp8c1m9eg5cgPxqmhuRU8,48
+qojpca-0.1.9.dist-info/top_level.txt,sha256=1e_JPJ73niBB0hjUt0jUxg2kAAtaRgTxeIEAqijjA9A,7
+qojpca-0.1.9.dist-info/RECORD,,
