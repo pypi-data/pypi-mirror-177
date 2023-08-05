@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: neon-tts-plugin-audiofiles
+Version: 0.0.2a3
+Summary: A "TTS" plugin for Neon
+Home-page: https://github.com/NeonGeckoCom/neon-tts-plugin-audiofiles
+Author: Neongecko
+Author-email: developers@neon.ai
+License: BSD-3.0
+Keywords: mycroft plugin tts
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: neon-utils (~=1.0)
+Requires-Dist: ovos-plugin-manager (~=0.0.2)
+Requires-Dist: ovos-utils (~=0.0.25)
+Requires-Dist: ovos-config (~=0.0.4)
+Requires-Dist: ovos-workshop (~=0.0.9)
+
+# NeonAI Template TTS Plugin  # TODO: Name
+[Mycroft](https://mycroft-ai.gitbook.io/docs/mycroft-technologies/mycroft-core/plugins) compatible
+TTS Plugin for playing back static audio files. Plugin will look for a file whose name matches the requested
+TTS string and play it back.
+
+# Configuration:
+```yaml
+tts:
+    module: neon-tts-plugin-audiofiles
+    neon-tts-plugin-audiofiles:
+      audio_file_path: /home/$USER/tts_audio_files
+```
+
