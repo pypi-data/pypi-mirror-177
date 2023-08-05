@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "factoryos_lib"
+version = "0.0.13"
+authors = [
+  { name="FactoryOS Team", email="factoryos@valiot.io" },
+]
+description = "A generic and reusabe package of machine learning models to use for Valiot prodicts"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Scientific/Engineering",
+]
+
+
+
+dependencies = [
+    "deprecated>=1.2.13",
+    "numpy>=1.21.0,<1.23",
+    "pandas>=1.1.0,<1.5.0",
+    "scikit-learn>=0.24.0,<1.2.0",
+    "valiotworker>=4.0.1",
+    "pygqlc>=3.0.1",
+    "tensorflow>=2.8.1",
+    "retrying>=1.3.3",
+    "boto3>=1.22.8",
+    "protobuf>=3.20.1",
+    "fuzzylab>=0.13",
+    "matplotlib>=3.6.1"
+    ]
+
+
+
