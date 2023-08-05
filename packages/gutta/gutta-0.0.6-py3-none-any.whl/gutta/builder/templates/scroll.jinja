@@ -1,0 +1,10 @@
+<div>
+    <div>
+        {{innerbody}}
+    </div>
+    {%if navigation_destination is defined %}
+    <div>
+        <a href="{{sroot}}{{navigation_destination.url}}">{{navigation_destination.title}}</a>
+    </div>
+    {% endif %}
+</div>
