@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python-rmap
+Version: 0.0.4
+Summary: Another automated enumeration tool
+Author: syspuke
+Author-email: syspuke@pm.me
+License: gpl-3.0
+Requires-Python: >=3.6
+License-File: LICENSE
