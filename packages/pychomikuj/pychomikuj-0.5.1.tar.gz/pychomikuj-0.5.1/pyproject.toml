@@ -1,0 +1,29 @@
+[project]
+name="pychomikuj"
+version="0.5.1"
+description="Unofficial Chomikuj.pl API written in Python"
+readme="README.md"
+license={file="LICENSE.txt"}
+classifiers=[
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries"
+]
+
+dependencies=[
+    "requests"
+]
+
+[tool.setuptools]
+py-modules=["pychomikuj"]
+
+[project.urls]
+homepage="https://github.com/Oreeeee/pyChomikuj"
+repository="https://github.com/Oreeeee/pyChomikuj"

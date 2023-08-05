@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: pychomikuj
+Version: 0.5.1
+Summary: Unofficial Chomikuj.pl API written in Python
+License: This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any
+        means.
+        
+        In jurisdictions that recognize copyright laws, the author or authors
+        of this software dedicate any and all copyright interest in the
+        software to the public domain. We make this dedication for the benefit
+        of the public at large and to the detriment of our heirs and
+        successors. We intend this dedication to be an overt act of
+        relinquishment in perpetuity of all present and future rights to this
+        software under copyright law.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+        IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+        OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+        ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+        OTHER DEALINGS IN THE SOFTWARE.
+        
+        For more information, please refer to <https://unlicense.org>
+Project-URL: homepage, https://github.com/Oreeeee/pyChomikuj
+Project-URL: repository, https://github.com/Oreeeee/pyChomikuj
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pyChomikuj
+![python](https://img.shields.io/pypi/pyversions/pychomikuj?style=plastic) ![open issues](https://img.shields.io/github/issues-raw/Oreeeee/pychomikuj?style=plastic) ![open pull requests](https://img.shields.io/github/issues-pr/Oreeeee/pychomikuj?style=plastic) ![version](https://img.shields.io/pypi/v/pychomikuj?style=plastic) ![code style](https://img.shields.io/badge/code%20style-black-black?style=plastic) ![star count](https://img.shields.io/github/stars/Oreeeee/pychomikuj?style=social)
+
+(W.I.P) Chomikuj API written in Python
+
+## Features
+- Support for Mobile API, which means that you can use infinite transfer from Chomikuj mobile app
+- Really thin wrapper over Chomikuj's API, in most cases responses that this package gives are the same as what Chomikuj gives.
+
+## TODO:
+- [x] Support for Mobile API (Chomikuj Android) (partially for now)
+- [ ] Support for Windows API (ChomikBox)
+- [ ] Support for Web API (Chomikuj.pl Website)
+- [ ] API documentation for every of them
+
+## Status
+This project is in very early development, here is a list of features that work as of the latest commit
+1. Mobile API
+- [x] Logging in
+- [x] Searching for files
+- [x] Listing directories, including password protected ones
+- [x] Getting download links
+- [x] Creating directories
+- [x] Private messages
+- [x] Listing friends
+- [x] Getting a list of copied files
+- [ ] Uploading files
+- [X] Deleting files
+- [x] Messaging people --- FOR SOME UNKNOWN REASON BROKEN AT THE MOMENT
+- [ ] Adding someone as a friend
+2. Windows API
+- Nothing
+3. Web API
+- Nothing
+
+## Additional plans
+1. Mobile API
+- [ ] Recursively get download links
+- [ ] Better logging

@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pychomikuj/ChomikujMobile.py
+pychomikuj/__init__.py
+pychomikuj/pychomikuj_exceptions.py
+pychomikuj/set_up_logging.py
+pychomikuj.egg-info/PKG-INFO
+pychomikuj.egg-info/SOURCES.txt
+pychomikuj.egg-info/dependency_links.txt
+pychomikuj.egg-info/requires.txt
+pychomikuj.egg-info/top_level.txt
