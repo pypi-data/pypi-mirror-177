@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: obelisk-py
+Version: 0.2.0
+Summary: Python client for Obelisk (v3)
+Home-page: https://github.com/predict-idlab/obelisk-python
+Keywords: obelisk,client,graphql,https
+Author: Pieter Moens
+Author-email: pieter.moens@ugent.be
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Rx (>=1.6.1,<2.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: sgqlc (>=14.1,<15.0)
+Requires-Dist: sseclient-py (>=1.7,<2.0)
+Project-URL: Documentation, https://predict-idlab.github.io/obelisk-python/
+Project-URL: Repository, https://github.com/predict-idlab/obelisk-python
+Description-Content-Type: text/markdown
+
+# Obelisk Python Client
+
+![version](https://img.shields.io/pypi/v/obelisk-py)
+![build-docs](https://img.shields.io/github/workflow/status/predict-idlab/obelisk-python/pages%20build%20and%20deployment?label=docs)
+
+## Installation
+
+```
+pip install obelisk-py
+```
+
+## Documentation
+
+[Read the docs](https://predict-idlab.github.io/obelisk-python/)
