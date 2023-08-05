@@ -1,0 +1,13 @@
+{% include 'header.html' %}
+
+<body>
+  <div id='hs-nav'>
+
+  </div>
+  <main>
+    <div hx-get="/content" hx-trigger="load, update_content_event from:body" hx-swap="morph">
+    </div>
+  </main>
+</body>
+
+</html>
