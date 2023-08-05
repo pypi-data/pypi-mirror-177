@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cwbplot
+Version: 0.0.4
+Summary: Central weather bureau rfs team and open data useful tool for daily wrok.
+Home-page: https://github.com/Liu-CWB/cwbplot
+Author: cwbrfsteam
+Author-email: littlepon4@hotmail.com
+License: MIT
+Project-URL: Source, https://github.com/Liu-CWB/cwbplot
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: geotiff
+License-File: LICENSE
+
+## cwbplot: Useful tools for weather data
+
+Several python useful tools for meteorology data visualization and data processing are supplied in this project.
+
+
+This package includes
+
+ * Tools for CWB rfs team daily work  
+ * CWB open data (https://opendata.cwb.gov.tw/index) IO and visualization
+ * Others
+
+
+這個套件包含
+
+ * 氣象局區域模式小組日常工作工具
+ * 氣象局開放資料(https://opendata.cwb.gov.tw/index) 讀取及視覺化
+ * 其它
+
+Documentation: https://cwbplot.readthedocs.io/en/dev/index.html
+
+參考文件: https://cwbplot.readthedocs.io/en/dev/index.html
