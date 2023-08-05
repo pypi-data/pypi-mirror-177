@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling","owlready2","pyshacl"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ncap-vaip-api"
+version = "0.0.19"
+authors = [
+  { name="NCEI", email="ncap.support@noaa.gov" },
+]
+description = "A package representing an API implementation of the vAIP ontology"
+readme = "README.md"
+
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build]
+include = [
+  "vaip/*",
+]
+exclude = [
+  "vaip/tests",
+]
