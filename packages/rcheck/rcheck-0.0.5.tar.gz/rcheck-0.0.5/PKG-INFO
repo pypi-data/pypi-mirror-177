@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: rcheck
+Version: 0.0.5
+Summary: Runtime type checking
+Home-page: https://www.github.com/alrudolph/rcheck
+License: MIT
+Author: Alex Rudolph
+Author-email: alex3rudolph@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://www.github.com/alrudolph/rcheck
+Description-Content-Type: text/markdown
+
+# `rcheck`
+
+Runtime type checking.
+
+---
+
+Functions that return a boolean:
+* `is_<type>` such as `is_int`, `is_bool`, etc...
+* `is_opt_<type>` such as `is_opt_int`, `is_opt_bool`, etc.. for optional types
+
+Functions that raise exceptions:
+* `assert_<type>` such as `assert_int`, `assert_bool`, etc...
+* `assert_opt_<type>` such as `assert_opt_int`, `assert_opt_bool`, etc... for optional types
+
