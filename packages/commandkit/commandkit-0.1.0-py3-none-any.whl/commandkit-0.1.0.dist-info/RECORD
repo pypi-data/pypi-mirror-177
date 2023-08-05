@@ -1,0 +1,11 @@
+commandkit/__init__.py,sha256=qIOq9WzehtYY7UzAY3Pz9AR1saIeprsu2WLoN08udWE,98
+commandkit/_parser.py,sha256=U9tiLq89zYxb-gs0SM9u5jA_9IpwkwJ-m6lSPALFZco,1751
+commandkit/commander.py,sha256=porCzOPTm26eFdU62xQ5FuMao4OQURudWtK973wxqKU,5765
+commandkit/core.py,sha256=gpv2DNloNgV9Pe-qsoFij1L0DPpFfi9V7NRR6DNYyWA,2887
+commandkit/eventer.py,sha256=D3FElA0kSb-Th4i5Zd9r5DLgJbPwOPJU2d09_D5jodc,1039
+commandkit/parser.py,sha256=AEVkg0PYglQlreTd-2o-p1rGGqjunA7z3HVb9wDtGo8,4043
+commandkit-0.1.0.dist-info/LICENSE.txt,sha256=XXes0_WaQwTA6PEOpdvZjhiaxoKxzecXmfZ1wDCI0fg,1105
+commandkit-0.1.0.dist-info/METADATA,sha256=d6h8MGLQsbgZTXuoyTCn72y6DnjmQqw9DzMKdoM6QcE,1239
+commandkit-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+commandkit-0.1.0.dist-info/top_level.txt,sha256=ssnoDNEml2bWfYiT_X4gxfFxEaMjSGJK1Fzcta0nJTU,11
+commandkit-0.1.0.dist-info/RECORD,,
