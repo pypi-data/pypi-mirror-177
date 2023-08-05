@@ -1,0 +1,3 @@
+pandas
+plotnine
+versuchung>=1.4.1

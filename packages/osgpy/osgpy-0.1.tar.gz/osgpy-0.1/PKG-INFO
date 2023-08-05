@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: osgpy
+Version: 0.1
+Summary: Python utilities of the Operating System Group
+Home-page: http://github.com/tuhhosg/osgpy
+Author: Christian Dietrich
+Author-email: christian.dietrich@tuhh.de
+License: MIT
