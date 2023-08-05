@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: xpubsub
+Version: 0.1.0
+Summary: Basic PubSub for python app.
+Home-page: https://github.com/treborg/xpubsub
+License: MIT
+Author: treborg
+Author-email: treborg@atomix.uk
+Requires-Python: >=3.9.15
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://github.com/xpubsub
+Project-URL: Repository, https://github.com/treborg/xpubsub
+Description-Content-Type: text/markdown
+
+# xpubsub
+A basic pubsub module for communications within an app.
+
