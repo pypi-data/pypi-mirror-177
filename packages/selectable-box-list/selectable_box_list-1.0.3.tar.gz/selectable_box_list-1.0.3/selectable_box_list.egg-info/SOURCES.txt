@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+selectable_box_list/SelectableBoxList.py
+selectable_box_list/__init__.py
+selectable_box_list/_imports_.py
+selectable_box_list/metadata.json
+selectable_box_list/package.json
+selectable_box_list/selectable_box_list.dev.js
+selectable_box_list/selectable_box_list.min.js
+selectable_box_list.egg-info/PKG-INFO
+selectable_box_list.egg-info/SOURCES.txt
+selectable_box_list.egg-info/dependency_links.txt
+selectable_box_list.egg-info/top_level.txt
