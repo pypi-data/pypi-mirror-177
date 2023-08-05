@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools", "wheel", "trove-classifiers"]
+
+[project]
+name = "setuptools-wrapper"
+version = "0.2.2"
+description = "A simple interface to setuptools's setup function."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+  {name = "Vaughn Kottler", email = "vaughnkottler@gmail.com"}
+]
+maintainers = [
+  {name = "Vaughn Kottler", email = "vaughnkottler@gmail.com"}
+]
+classifiers = [
+  "Topic :: Software Development :: Build Tools",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: Unix",
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: MIT License"
+]
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+test = [
+  "pylint",
+  "flake8",
+  "pytest",
+  "pytest-cov",
+  "mypy",
+  "black",
+  "isort",
+  "types-setuptools",
+  "vcorelib"
+]
