@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: kube-debug-pod
+Version: 0.0.4
+Summary: CLI to easily create k8s debug pod.
+Home-page: https://github.com/skymoore/kube-debug-pod
+Author: Sky Moore
+Author-email: i@msky.me
+License: MIT
+Keywords: k8s,debug
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+Requires-Dist: cloup (==2.0.0)
+
+# kube-debug-pod
+
+## CLI for easy kube debug pod
+
+## Install:
+```bash
+python -m pip install kube-debug-pod
+```
+## Usage:
+```bash
+kdb [OPTIONS]
+
+Options:
+  -n, --namespace TEXT  Namespace to start pod in, default: default.
+  -c, --command TEXT    Command to run in container, default: /bin/bash.
+  -p, --pod-name TEXT   The name for the debug pod, default: kdb.
+  -v, --version         Display version info and exit.
+  -a, --arch-linux      Use archlinux:latest image.
+  -s, --sky-tools       Use skymoore/tools:latest image.
+  -i, --image TEXT      Image for debug container, default: debian:latest.
+  --help                Show this message and exit.
+
+Constraints:
+  {--arch-linux, --sky-tools, --image}
+    mutually exclusive               Show this message and exit.
+```
+
+## Example Usage:
+```bash
+kdb -n myapp
+```
