@@ -1,0 +1,12 @@
+login_gmail_selenium/__init__.py,sha256=VVtdg3AYFdiXFfBUlzhKd90LPbn1MWRyzE0V4_VkHwQ,42
+login_gmail_selenium/common/__init__.py,sha256=1IgrUKJBBHHBzibFcavAQH48y292ndppH2LWP5o3YH4,24
+login_gmail_selenium/common/constant.py,sha256=SkAYtd5q8ALc9tNur_XT9-r9PJuKUzxwg7nvi49FQzE,934
+login_gmail_selenium/extension/always_active.zip,sha256=hPGvDbp1m-Vdvj3VBsubynoLKprxLtZbNzoNITx9NVE,38852
+login_gmail_selenium/util/__init__.py,sha256=IU-ohzxgAoj6BHPh6vpRpIcy3cwhDwkggfjHY-wv9Uk,45
+login_gmail_selenium/util/helper.py,sha256=DON_jCCdPHRXZD2Q-j24eVBdp3lqSjBFDBl4w3c4c2E,3936
+login_gmail_selenium/util/profile.py,sha256=ZVb9KqHvOFaWCn3SwtwsrC7fAn_q_hHcXRizgL5KwUo,7081
+login_gmail_selenium-0.0.5.dist-info/LICENSE,sha256=RgGx5bTOjPJ43qvtTKKI6OZymA1_EQe3PghathXubLA,1078
+login_gmail_selenium-0.0.5.dist-info/METADATA,sha256=oc1RjT1VCuaJT31xFNBY7gKutiPptKVqV_tQn0K6fGo,3445
+login_gmail_selenium-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+login_gmail_selenium-0.0.5.dist-info/top_level.txt,sha256=xVdp31gvYMgyFD8S1-ZKAc65c90CSOmvq2rI9q7O-js,21
+login_gmail_selenium-0.0.5.dist-info/RECORD,,
