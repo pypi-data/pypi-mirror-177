@@ -1,0 +1,2 @@
+requests>=2.6.0
+python-waldur-client>=0.1.7
