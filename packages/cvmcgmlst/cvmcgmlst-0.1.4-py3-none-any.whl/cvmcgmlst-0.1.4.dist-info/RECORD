@@ -1,0 +1,11 @@
+cvmcgmlst/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+cvmcgmlst/__init__.py,sha256=s31qlMA_SuLHyxUbyiP-uta1szWqnBGAEd7tkuSrZHU,280
+cvmcgmlst/cgmlst_core.py,sha256=UgWWLtdKHGeNClucRyYUDfRXuzJcjrTRvO6EhLz7A6w,4393
+cvmcgmlst/cvmcgmlst.py,sha256=_k9rMANK4MLj4usxPlm4qzEm1ZWOf6AEH9bhrz_MXkU,5085
+cvmcgmlst/test.py,sha256=gxTuuaVUx_A3q25AhUdUiWaMCsi7etq1lXWXOWwucgg,655
+cvmcgmlst/__pycache__/cgmlst_core.cpython-39.pyc,sha256=wE3LEpMqOhwIteN-uVQfBw6SPrQYk0S5rA4qm9J7-BE,2758
+cvmcgmlst-0.1.4.dist-info/METADATA,sha256=_5Xn0ZlxDoqgW7p_2Dz_vCuRUpux3ncU9leRKB4jKEk,4483
+cvmcgmlst-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cvmcgmlst-0.1.4.dist-info/entry_points.txt,sha256=0QeGl8rJxP9TpGap4A4lNuIk1H_BkfaKIQ8qmW9N96Y,56
+cvmcgmlst-0.1.4.dist-info/top_level.txt,sha256=Cju8pfxUaDtEGDLgnV5cSHXoM68LAtBIeoE4P6qlMis,10
+cvmcgmlst-0.1.4.dist-info/RECORD,,
