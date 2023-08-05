@@ -1,0 +1,3 @@
+[console_scripts]
+dt-pip-utils = dt_pip_utils.cli:resolve
+
