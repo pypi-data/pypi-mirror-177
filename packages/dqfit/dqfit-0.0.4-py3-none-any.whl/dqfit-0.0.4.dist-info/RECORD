@@ -1,0 +1,12 @@
+dqfit/__init__.py,sha256=okQxm4mTcuvZuTTXs6tsVZkJEqB7SSLykpran3p9kIw,715
+dqfit/model.py,sha256=VaBXL62n_cAiadgQNda30ziQfs3A3kMaHgmWDVbvuNg,3533
+dqfit/models.py,sha256=U4WaFVacEOCPECqOWmnKbLwMtGO3Va0SK_gM-8VZcO8,2767
+dqfit/query.py,sha256=7ljh1CN5Zznx_eFDvYdbatMUM9m6EKYWgqE_DS7zH_M,1978
+dqfit/resource_level_feature_transformer.py,sha256=yMRwqQfJqCMeqES1PHkXZHFHH_-HUl7yL3hGxCsaQAs,1508
+dqfit/visualize.py,sha256=X0CoRGVGD_cOtnU6lwbKzBCLmGkFg1ueAr_IUlsvuSk,352
+dqfit/preprocessing/ResourceFeatures.py,sha256=VGsdz6Yfe6fXVMQNHb3uqHAOS4J7MxqK6IbU20Nm01c,2586
+dqfit/resource_helpers/r401.py,sha256=ICewP5wC6S_f_ONe_ODejcqWSoJtFXTXXwaehccLW40,3947
+dqfit-0.0.4.dist-info/METADATA,sha256=2DfnCQaN7GjBAsuljALzZ-KyepbgBZGYHWDcla542K8,210
+dqfit-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dqfit-0.0.4.dist-info/top_level.txt,sha256=00lhMsV0Ajvj_Bn_9DS9yhDLFqkDaYEafLm43FfTkpM,6
+dqfit-0.0.4.dist-info/RECORD,,
