@@ -1,0 +1,2 @@
+cygtrace
+cygtrace_lib

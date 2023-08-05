@@ -1,0 +1,2 @@
+[console_scripts]
+cygtrace = cygtrace_lib:cygtrace_main
