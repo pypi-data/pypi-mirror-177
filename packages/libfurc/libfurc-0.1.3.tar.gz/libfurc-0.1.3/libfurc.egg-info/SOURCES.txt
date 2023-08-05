@@ -1,0 +1,16 @@
+setup.py
+libfurc/__init__.py
+libfurc/account.py
+libfurc/archive.py
+libfurc/base.py
+libfurc/client.py
+libfurc/colors.py
+libfurc/dream.py
+libfurc/exceptions.py
+libfurc/fox5.py
+libfurc/furcbuffer.py
+libfurc/particles.py
+libfurc.egg-info/PKG-INFO
+libfurc.egg-info/SOURCES.txt
+libfurc.egg-info/dependency_links.txt
+libfurc.egg-info/top_level.txt
