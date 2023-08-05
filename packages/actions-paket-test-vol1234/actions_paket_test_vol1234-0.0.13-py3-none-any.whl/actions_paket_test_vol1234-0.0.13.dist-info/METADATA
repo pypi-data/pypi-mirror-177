@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: actions-paket-test-vol1234
+Version: 0.0.13
+Summary: Package Test
+Home-page: https://github.com/kycetin/actions-paket-test-vol1234.git
+Author: cetin
+Author-email: 
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Babel (>=2.10.3)
+Requires-Dist: chalice (>=1.26.6)
+Requires-Dist: Jinja2 (>=3.1.2)
+Requires-Dist: pytz (>=2022.5)
+Requires-Dist: Werkzeug (>=2.2.2)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+
+-auto-release
+Sample auto release repository to PyPi using Github actions
+
+Contains files for automatic deployment to PyPi using Github Actions and Github tags
+
