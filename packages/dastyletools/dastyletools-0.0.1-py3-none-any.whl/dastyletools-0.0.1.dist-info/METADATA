@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dastyletools
+Version: 0.0.1
+Summary: 一些简单的工具方法
+Home-page: UNKNOWN
+Author: da
+Author-email: 3205727707@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# d-tools
+
+```
+pip install d-tools
+```
+
+```python
+from d_tools import tools
+```
+
