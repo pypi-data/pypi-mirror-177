@@ -1,0 +1,79 @@
+# phm-feature
+
+#### 介绍
+使用torch torchaudio 构建PHM特征抽取功能层
+
+##### 功能层介绍
+torchphm.layers 将phm固定使用的数据操作，固化为如下层：
+
+1. STFT 离散傅立叶变换
+2. Spectrogram 谱图
+3. MelFilterbank mel譜过滤
+4. AmplitudeToDb 幅度取分贝
+5. TimeStretch 变速不变调
+6. ComplexNorm 复数输出取模'范数'
+7. ApplyFilterbank 过滤器应用
+
+##### 应用场景
+
+组合上述功能层，实现不同场景:
+
+1. STFT
+    分帧==>加窗==>短时离散傅立叶变换
+
+2. "变速不变调" Time scale modification
+    详细见 https://zhuanlan.zhihu.com/p/337193578
+    用于声谱图压缩、扩张处理，供后续分析
+
+3. 梅尔mel谱转换
+   对于语谱图进行mel谱转换
+
+4. HPSS
+    中值滤波，过滤出频率的谐波分量与冲击分量
+    为什么中值滤波，可以过滤出"数据轮廓"及发现"谐波分量和冲击分量"，参见
+    https://blog.csdn.net/qq_38131594/article/details/80758567
+
+#### 软件架构
+软件结构说明
+```
+.
+├── dist
+│   ├── torchphm-1.1.7.tar.gz
+│   └── torchphm-1.1.8.tar.gz
+├── draw
+│   ├── draw_functional.py
+│   ├── draw_layers.py
+│   ├── draw_torchphm_layers.ipynb
+│   ├── torchphm -> ../torchphm
+│   └── Untitled.ipynb
+├── examples_torchphm.ipynb
+├── README.md
+├── setup.cfg
+├── setup.py
+├── tests
+│   ├── test_functional.py
+│   └── test_layers.py
+├── torchphm
+│   ├── beta_hpss.py
+│   ├── functional.py
+│   ├── __init__.py
+│   ├── layers.py
+└── torchphm.egg-info
+    ├── PKG-INFO
+
+```
+dist pypi上传包
+draw 画图
+examples_torchphm.ipynb 应用例程
+tests 测试文件
+torchphm 实现源码
+
+#### 安装教程
+
+> 使用pip进行安装
+```
+
+#### 参与贡献
+
+#### 特技
+
