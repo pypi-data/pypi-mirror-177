@@ -1,0 +1,4 @@
+statsmodels>=0.13.2
+numpy>=1.23.2
+pandas>=1.4.4
+aligo>=5.4.0
