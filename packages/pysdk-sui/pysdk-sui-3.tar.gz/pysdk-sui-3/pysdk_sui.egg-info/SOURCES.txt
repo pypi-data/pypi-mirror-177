@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pysdk-sui/__init__.py
+pysdk-sui/client.py
+pysdk-sui/errors.py
+pysdk-sui/models.py
+pysdk-sui/rpc_details.py
+pysdk-sui/wallet.py
+pysdk_sui.egg-info/PKG-INFO
+pysdk_sui.egg-info/README.md
+pysdk_sui.egg-info/SOURCES.txt
+pysdk_sui.egg-info/dependency_links.txt
+pysdk_sui.egg-info/requires.txt
+pysdk_sui.egg-info/top_level.txt
