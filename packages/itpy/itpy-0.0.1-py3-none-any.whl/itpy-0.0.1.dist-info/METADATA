@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: itpy
+Version: 0.0.1
+Summary: Deep learning utils for information theory research
+Project-URL: Homepage, https://github.com/mh-lan/itpy
+Project-URL: Bug Tracker, https://github.com/pypa/itpy/issues
+Author-email: Muhang Lan <mhlan95@163.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+=====
+newtime
+=====
+​
+holle word
+
+-----------
+
+1.one
+2.two
