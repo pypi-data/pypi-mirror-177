@@ -1,0 +1,2 @@
+[console_scripts]
+automonkey = automonkey.cli:main
