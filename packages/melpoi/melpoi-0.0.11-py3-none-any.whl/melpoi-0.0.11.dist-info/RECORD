@@ -1,0 +1,12 @@
+melpoi/scraping/website-monitor/README.md,sha256=Bw-U5ip_vFGoKmphBJ0zh1vglcOIoumTiixFFJzSPmo,1942
+melpoi/scraping/website-monitor/website_monitor.py,sha256=szKFObobB3jMUacWubKoYyWIAda9dsbLVAiw9_U4G_0,6329
+melpoi/sql/SQLAnalyzer/README.md,sha256=CQJD9meH8TCBBjcUssZ_x6n5QGrIokZEXi20S_1LE7U,1469
+melpoi/sql/SQLAnalyzer/SQLAnalyzer.py,sha256=dkuXE0x-2Ln-v7UFqcc6plac39Rh1x1jbKRgrpAVg4M,6301
+melpoi/sql/SQLAnalyzer/example.ipynb,sha256=UYR50TUDHtomw6wATunCypM9EwmHlYGsYhf96z3qD3Q,84398
+melpoi/sql/SQLAnalyzer/example1.sql,sha256=wjr8Fw4yfu0pJsxHPGVTcDOvRR3QEF01YiZLHUT1MqI,235
+melpoi/sql/SQLAnalyzer/example2.sql,sha256=SPbgY0oVJN0BwmOdK0CcxMpV8xtZ--doQKELmThMjBE,107
+melpoi/sql/SQLAnalyzer/output.png,sha256=MqBsIohN6nQbGEznH_LhHg9no5VGSI2q7NAkW-ecYOw,62437
+melpoi-0.0.11.dist-info/LICENSE,sha256=Ht1Qk4OOc2hs0mF7fEjDowHJBpj1SWXLaIDVeQijdIc,1067
+melpoi-0.0.11.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+melpoi-0.0.11.dist-info/METADATA,sha256=wpOvI7mQttS8TouVqFS000JVz7dTc_I7tzH7LqO9M5Q,1166
+melpoi-0.0.11.dist-info/RECORD,,
