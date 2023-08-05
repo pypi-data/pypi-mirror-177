@@ -1,0 +1,2 @@
+[console_scripts]
+pbdg = pbdg.main:main
