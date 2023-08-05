@@ -1,0 +1,8 @@
+grpcio
+protobuf
+argcomplete
+coloredlogs
+pyyaml
+jsonschema
+rich
+requests
