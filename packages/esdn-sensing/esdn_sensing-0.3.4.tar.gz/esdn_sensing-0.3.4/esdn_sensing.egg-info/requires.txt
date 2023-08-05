@@ -1,0 +1,13 @@
+pyserial
+py-opc-ng
+pyusbiss
+sensirion_i2c_driver
+sensirion_i2c_sen5x
+adafruit-circuitpython-pm25
+adafruit-circuitpython-ltr329-ltr303
+adafruit-circuitpython-ltr390
+adafruit-circuitpython-gps
+adafruit-circuitpython-us100
+adafruit-circuitpython-vl6180x
+adafruit-circuitpython-bme280
+adafruit-circuitpython-ahtx0

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: esdn_sensing
+Version: 0.3.4
+Summary: Python library to deliver sensor specific support to ESDN infrastructure
+Home-page: https://github.com/ECU-Sensing/esdn_sensing
+Author: Colby Sawyer
+Author-email: sawyerco21@ecu.edu
+License: MIT
+Download-URL: https://github.com/ECU-Sensing/esdn_sensing/archive/refs/tags/v_0.3.4.tar.gz
+Description: UNKNOWN
+Keywords: sensor,hydros,cdt-10,water,generic,shim,LoRa,sensors,pm2,opc,sen,sen54,sen53,air,quality
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
