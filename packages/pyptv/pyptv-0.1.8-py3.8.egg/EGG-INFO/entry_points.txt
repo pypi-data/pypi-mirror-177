@@ -1,0 +1,3 @@
+[console_scripts]
+pyptv = pyptv.pyptv_gui:main
+
