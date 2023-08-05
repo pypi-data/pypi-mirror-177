@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: smartcitizen-connector
+Version: 0.1.0
+Summary: Python connector to download information collected in SmartCitizen API
+Home-page: https://github.com/fablabbcn/smartcitizen-connector
+Author: Óscar González
+License: GNU General Public License v3
+Project-URL: Documentation, https://docs.smartcitizen.me/
+Project-URL: Source Code, https://github.com/fablabbcn/smartcitizen-connector
+Keywords: sensors,Smart Citizen
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: tzwhere
+Requires-Dist: urllib3
+
+# Smart Citizen Connector
+
+This is a simple connector written in `python` to get data from the Smart Citizen API. It is only providing this functionality, to be used in conjunction with other scripts, and it does not aim to replace [scdata](https://github.com/fablabbcn/smartcitizen-data), which is a much more advanced data analysis framework.
+
+## Installation
+
+Simply do:
+
+```
+pip install smartcitizen-connector
+```
+
+### Development
+
+Or clone the repo and install in editable mode:
+
+```
+git clone git@github.com:fablabbcn/smartcitizen-connector.git
+cd smartcitizen-connector
+pip install -e .
+```
