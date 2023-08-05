@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+keyboardsounds/audio_manager.py
+keyboardsounds/daemon.py
+keyboardsounds/daemon_manager.py
+keyboardsounds/main.py
+keyboardsounds/profile.py
+keyboardsounds/root.py
+keyboardsounds.egg-info/PKG-INFO
+keyboardsounds.egg-info/SOURCES.txt
+keyboardsounds.egg-info/dependency_links.txt
+keyboardsounds.egg-info/entry_points.txt
+keyboardsounds.egg-info/requires.txt
+keyboardsounds.egg-info/top_level.txt
