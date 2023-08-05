@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+flexible_partial/LICENSE
+flexible_partial/README.MD
+flexible_partial/__init__.py
+flexible_partial/requirements.txt
+flexible_partial/thirdparty.json
+flexible_partial.egg-info/PKG-INFO
+flexible_partial.egg-info/SOURCES.txt
+flexible_partial.egg-info/dependency_links.txt
+flexible_partial.egg-info/top_level.txt
