@@ -1,0 +1,674 @@
+import _frozen_importlib # frozen
+import _imp # builtin
+import sys # builtin
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import _thread # previously loaded ('_thread')
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import _weakref # previously loaded ('_weakref')
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+# installing zipimport hook
+import 'zipimport' # <class '_frozen_importlib.BuiltinImporter'>
+# installed zipimport hook
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__init__.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/codecs.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/codecs.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/codecs.cpython-36.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c1b240>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/aliases.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c27be0>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c8fd68>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/utf_8.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c349e8>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/latin_1.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc'
+import 'encodings.latin_1' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c3a518>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/io.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/io.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/io.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/abc.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/abc.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/abc.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_weakrefset.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c41470>
+import 'abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c3ab00>
+import 'io' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c3a748>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_bootlocale.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import '_bootlocale' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c45be0>
+Python 3.6.2 (default, Aug  1 2017, 13:18:45) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/site.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/site.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/site.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/os.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/os.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/os.cpython-36.pyc'
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/stat.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/stat.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/stat.cpython-36.pyc'
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979e6518>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/posixpath.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/posixpath.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/posixpath.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/genericpath.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/genericpath.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/genericpath.cpython-36.pyc'
+import 'genericpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979eaef0>
+import 'posixpath' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979e6be0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_collections_abc.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc'
+import '_collections_abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979f4550>
+import 'os' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979d4e10>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_sitebuiltins.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc'
+import '_sitebuiltins' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979d9240>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/sysconfig.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc'
+import 'sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797983940>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc'
+import '_sysconfigdata_m_linux_x86_64-linux-gnu' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979951d0>
+import 'site' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797c53b70>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/__future__.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__future__.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/__future__.cpython-36.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797741e48>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__init__.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/result.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/traceback.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/traceback.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/traceback.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/__init__.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/operator.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/operator.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/operator.cpython-36.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797934ba8>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/keyword.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/keyword.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/keyword.cpython-36.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79793ee48>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/heapq.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/heapq.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/heapq.cpython-36.pyc'
+# extension module '_heapq' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_heapq' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so'
+import '_heapq' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe797944b00>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797944630>
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/reprlib.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/reprlib.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/reprlib.cpython-36.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797944ba8>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797757208>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/linecache.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/linecache.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/linecache.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/functools.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/functools.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/functools.cpython-36.pyc'
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/types.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/types.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/types.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/abc.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977577b8>
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797962d68>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/weakref.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/weakref.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/weakref.cpython-36.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797962f28>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79794dac8>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/tokenize.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/tokenize.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/tokenize.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/re.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/re.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/re.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/enum.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/enum.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/enum.cpython-36.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797908518>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/sre_compile.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/sre_parse.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/sre_constants.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc'
+import 'sre_constants' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797927b00>
+import 'sre_parse' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797920320>
+import 'sre_compile' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979165c0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/copyreg.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/copyreg.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/copyreg.cpython-36.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7978b4ba8>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7979055c0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/token.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/token.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/token.cpython-36.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7978b4e80>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797769748>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977575c0>
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79774efd0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/util.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc'
+import 'unittest.util' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79794d9e8>
+import 'unittest.result' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79774e860>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/case.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/difflib.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/difflib.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/difflib.cpython-36.pyc'
+import 'difflib' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7978e6438>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/logging/__init__.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc'
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/warnings.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/warnings.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/warnings.cpython-36.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79789e4e0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/string.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/string.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/string.cpython-36.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79789e940>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/threading.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/threading.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/threading.cpython-36.pyc'
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7978a5470>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797874ac8>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pprint.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/pprint.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pprint.cpython-36.pyc'
+import 'pprint' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977f9748>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/contextlib.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/contextlib.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/contextlib.cpython-36.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79780f9b0>
+import 'unittest.case' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797757160>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/suite.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc'
+import 'unittest.suite' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797821be0>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/loader.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/fnmatch.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc'
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977b0f98>
+import 'unittest.loader' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977b0470>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/main.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/argparse.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/argparse.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/argparse.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/copy.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/copy.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/copy.cpython-36.pyc'
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977ddb38>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/textwrap.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/textwrap.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/textwrap.cpython-36.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977ddf60>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/gettext.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/gettext.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/gettext.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/locale.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/locale.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/locale.cpython-36.pyc'
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797502278>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/struct.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/struct.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/struct.cpython-36.pyc'
+# extension module '_struct' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_struct' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so'
+import '_struct' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe79751c438>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79751c2b0>
+import 'gettext' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7974ee0f0>
+import 'argparse' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977bbac8>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/runner.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/signals.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/signal.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/signal.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/signal.cpython-36.pyc'
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797526668>
+import 'unittest.signals' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797526198>
+import 'unittest.runner' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79751ca90>
+import 'unittest.main' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977bb400>
+import 'unittest' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79774e320>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/site-packages/six.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc'
+import 'six' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7977bb978>
+# /cluster/home/markd/compbio/code/pipettor/tests/__pycache__/testCaseBase.cpython-36.pyc matches /cluster/home/markd/compbio/code/pipettor/tests/testCaseBase.py
+# code object from '/cluster/home/markd/compbio/code/pipettor/tests/__pycache__/testCaseBase.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/glob.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/glob.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/glob.cpython-36.pyc'
+import 'glob' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972b0b70>
+import 'testCaseBase' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972ab278>
+# ./../src/pipettor/__pycache__/__init__.cpython-36.pyc matches ./../src/pipettor/__init__.py
+# code object from './../src/pipettor/__pycache__/__init__.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/shlex.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/shlex.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/shlex.cpython-36.pyc'
+import 'shlex' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972beac8>
+# ./../src/pipettor/__pycache__/exceptions.cpython-36.pyc matches ./../src/pipettor/exceptions.py
+# code object from './../src/pipettor/__pycache__/exceptions.cpython-36.pyc'
+import 'pipettor.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972c9048>
+# bytecode is stale for 'pipettor.devices'
+# code object from ./../src/pipettor/devices.py
+# created './../src/pipettor/__pycache__/devices.cpython-36.pyc'
+# wrote './../src/pipettor/__pycache__/devices.cpython-36.pyc'
+# extension module 'fcntl' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'fcntl' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so'
+import 'fcntl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe79726ad68>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pickle.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/pickle.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pickle.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_compat_pickle.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972954e0>
+# extension module '_pickle' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_pickle' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so'
+import '_pickle' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe797295e80>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797275160>
+import 'pipettor.devices' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972c9358>
+# bytecode is stale for 'pipettor.processes'
+# code object from ./../src/pipettor/processes.py
+# created './../src/pipettor/__pycache__/processes.cpython-36.pyc'
+# wrote './../src/pipettor/__pycache__/processes.cpython-36.pyc'
+import 'gc' # <class '_frozen_importlib.BuiltinImporter'>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pipes.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/pipes.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/pipes.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/tempfile.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/tempfile.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/tempfile.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/shutil.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/shutil.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/shutil.cpython-36.pyc'
+# extension module 'zlib' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'zlib' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so'
+import 'zlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe797249c50>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/bz2.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/bz2.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/bz2.cpython-36.pyc'
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_compression.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/_compression.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/_compression.cpython-36.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797252860>
+# extension module '_bz2' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_bz2' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe79725b240>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797249f60>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/lzma.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lzma.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/lzma.cpython-36.pyc'
+# extension module '_lzma' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_lzma' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe79725be48>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe79725b400>
+import 'pwd' # <class '_frozen_importlib.BuiltinImporter'>
+# extension module 'grp' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'grp' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so'
+import 'grp' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d0d208>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797242278>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/random.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/random.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/random.cpython-36.pyc'
+# extension module 'math' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so'
+# extension module 'math' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so'
+import 'math' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d13f28>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/hashlib.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/hashlib.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/hashlib.cpython-36.pyc'
+# extension module '_hashlib' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_hashlib' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d1a1d0>
+# extension module '_blake2' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_blake2' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so'
+import '_blake2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d1a860>
+# extension module '_sha3' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_sha3' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so'
+import '_sha3' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d1a978>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972567b8>
+# /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/bisect.cpython-36.pyc matches /cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/bisect.py
+# code object from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/__pycache__/bisect.cpython-36.pyc'
+# extension module '_bisect' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_bisect' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so'
+import '_bisect' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe796d1a748>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797256c88>
+# extension module '_random' loaded from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so'
+# extension module '_random' executed from '/cluster/home/markd/opt/centos6.0/x86_64/lib/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so'
+import '_random' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7fe797256c50>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797242390>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972286d8>
+import 'pipes' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797237cf8>
+import 'pipettor.processes' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe797279c50>
+import 'pipettor' # <_frozen_importlib_external.SourceFileLoader object at 0x7fe7972be860>
+E
+======================================================================
+ERROR: testReadAsAsciiReplace (__main__.PopenTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "pipettorTests.py", line 454, in testReadAsAsciiReplace
+    with Popen(["cat", inf], error="replace") as fh:
+TypeError: __init__() got an unexpected keyword argument 'error'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.037s
+
+FAILED (errors=1)
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing builtins
+# cleanup[2] removing sys
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _warnings
+# cleanup[2] removing _thread
+# cleanup[2] removing _weakref
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing posix
+# cleanup[2] removing zipimport
+# cleanup[2] removing encodings
+# cleanup[2] removing codecs
+# cleanup[2] removing _codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing _signal
+# cleanup[2] removing __main__
+# cleanup[2] removing encodings.latin_1
+# cleanup[2] removing io
+# cleanup[2] removing abc
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing _bootlocale
+# destroy _bootlocale
+# cleanup[2] removing _locale
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing os
+# cleanup[2] removing errno
+# cleanup[2] removing stat
+# cleanup[2] removing _stat
+# cleanup[2] removing posixpath
+# cleanup[2] removing genericpath
+# cleanup[2] removing os.path
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing sysconfig
+# destroy sysconfig
+# cleanup[2] removing _sysconfigdata_m_linux_x86_64-linux-gnu
+# destroy _sysconfigdata_m_linux_x86_64-linux-gnu
+# cleanup[2] removing __future__
+# destroy __future__
+# cleanup[2] removing unittest
+# cleanup[2] removing unittest.result
+# cleanup[2] removing traceback
+# cleanup[2] removing collections
+# cleanup[2] removing operator
+# cleanup[2] removing _operator
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing heapq
+# cleanup[2] removing _heapq
+# cleanup[2] removing itertools
+# cleanup[2] removing reprlib
+# destroy reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing linecache
+# cleanup[2] removing functools
+# cleanup[2] removing _functools
+# cleanup[2] removing types
+# cleanup[2] removing collections.abc
+# cleanup[2] removing weakref
+# cleanup[2] removing tokenize
+# cleanup[2] removing re
+# cleanup[2] removing enum
+# cleanup[2] removing sre_compile
+# cleanup[2] removing _sre
+# cleanup[2] removing sre_parse
+# cleanup[2] removing sre_constants
+# destroy sre_constants
+# cleanup[2] removing copyreg
+# cleanup[2] removing token
+# destroy token
+# cleanup[2] removing unittest.util
+# cleanup[2] removing unittest.case
+# cleanup[2] removing difflib
+# cleanup[2] removing logging
+# cleanup[2] removing time
+# cleanup[2] removing warnings
+# cleanup[2] removing string
+# destroy string
+# cleanup[2] removing _string
+# cleanup[2] removing threading
+# cleanup[2] removing atexit
+# cleanup[2] removing pprint
+# cleanup[2] removing contextlib
+# cleanup[2] removing unittest.suite
+# cleanup[2] removing unittest.loader
+# cleanup[2] removing fnmatch
+# cleanup[2] removing unittest.main
+# destroy unittest.main
+# cleanup[2] removing argparse
+# cleanup[2] removing copy
+# cleanup[2] removing textwrap
+# cleanup[2] removing gettext
+# destroy gettext
+# cleanup[2] removing locale
+# cleanup[2] removing struct
+# cleanup[2] removing _struct
+# cleanup[2] removing unittest.runner
+# cleanup[2] removing unittest.signals
+# cleanup[2] removing signal
+# cleanup[2] removing six
+# cleanup[2] removing testCaseBase
+# destroy testCaseBase
+# cleanup[2] removing glob
+# cleanup[2] removing pipettor
+# destroy pipettor
+# cleanup[2] removing shlex
+# cleanup[2] removing pipettor.exceptions
+# cleanup[2] removing pipettor.devices
+# cleanup[2] removing fcntl
+# cleanup[2] removing pickle
+# cleanup[2] removing _compat_pickle
+# cleanup[2] removing _pickle
+# cleanup[2] removing pipettor.processes
+# cleanup[2] removing gc
+# cleanup[2] removing pipes
+# cleanup[2] removing tempfile
+# cleanup[2] removing shutil
+# cleanup[2] removing zlib
+# cleanup[2] removing bz2
+# destroy bz2
+# cleanup[2] removing _compression
+# cleanup[2] removing _bz2
+# cleanup[2] removing lzma
+# destroy lzma
+# cleanup[2] removing _lzma
+# cleanup[2] removing pwd
+# cleanup[2] removing grp
+# cleanup[2] removing random
+# destroy random
+# cleanup[2] removing math
+# cleanup[2] removing hashlib
+# destroy hashlib
+# cleanup[2] removing _hashlib
+# cleanup[2] removing _blake2
+# cleanup[2] removing _sha3
+# cleanup[2] removing bisect
+# cleanup[2] removing _bisect
+# cleanup[2] removing _random
+# destroy _sha3
+# destroy _blake2
+# destroy _bz2
+# destroy zipimport
+# destroy _sitebuiltins
+# destroy zlib
+# destroy _compression
+# destroy _lzma
+# cleanup[3] wiping _frozen_importlib
+# destroy _frozen_importlib_external
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _io
+# cleanup[3] wiping marshal
+# cleanup[3] wiping posix
+# cleanup[3] wiping encodings
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# destroy encodings.latin_1
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping _signal
+# cleanup[3] wiping __main__
+# cleanup[3] wiping io
+# cleanup[3] wiping abc
+# cleanup[3] wiping _locale
+# cleanup[3] wiping os
+# cleanup[3] wiping errno
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# destroy _stat
+# cleanup[3] wiping posixpath
+# destroy genericpath
+# cleanup[3] wiping os.path
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping unittest
+# destroy unittest.signals
+# cleanup[3] wiping unittest.result
+# cleanup[3] wiping traceback
+# destroy linecache
+# cleanup[3] wiping collections
+# destroy heapq
+# cleanup[3] wiping operator
+# cleanup[3] wiping _operator
+# cleanup[3] wiping _heapq
+# cleanup[3] wiping itertools
+# cleanup[3] wiping _collections
+# destroy _collections
+# cleanup[3] wiping functools
+# cleanup[3] wiping _functools
+# cleanup[3] wiping types
+# destroy collections.abc
+# cleanup[3] wiping weakref
+# cleanup[3] wiping tokenize
+# cleanup[3] wiping re
+# destroy enum
+# destroy sre_compile
+# destroy copyreg
+# cleanup[3] wiping _sre
+# cleanup[3] wiping sre_parse
+# cleanup[3] wiping unittest.util
+# cleanup[3] wiping unittest.case
+# destroy pprint
+# destroy contextlib
+# cleanup[3] wiping difflib
+# cleanup[3] wiping logging
+# cleanup[3] wiping time
+# cleanup[3] wiping warnings
+# cleanup[3] wiping _string
+# cleanup[3] wiping threading
+# cleanup[3] wiping atexit
+# destroy atexit
+# cleanup[3] wiping unittest.suite
+# cleanup[3] wiping unittest.loader
+# destroy unittest.case
+# destroy unittest.suite
+# destroy unittest.util
+# cleanup[3] wiping fnmatch
+# destroy posixpath
+# cleanup[3] wiping argparse
+# destroy textwrap
+# cleanup[3] wiping copy
+# cleanup[3] wiping locale
+# destroy encodings
+# destroy _locale
+# cleanup[3] wiping struct
+# cleanup[3] wiping _struct
+# cleanup[3] wiping unittest.runner
+# destroy unittest.result
+# cleanup[3] wiping signal
+# destroy _signal
+# cleanup[3] wiping six
+# destroy six.moves.urllib
+# destroy operator
+# destroy six.moves
+# cleanup[3] wiping glob
+# cleanup[3] wiping shlex
+# cleanup[3] wiping pipettor.exceptions
+# destroy traceback
+# cleanup[3] wiping pipettor.devices
+# destroy pickle
+# cleanup[3] wiping fcntl
+# destroy fcntl
+# cleanup[3] wiping _compat_pickle
+# cleanup[3] wiping _pickle
+# cleanup[3] wiping pipettor.processes
+# destroy pipes
+# cleanup[3] wiping gc
+# destroy gc
+# cleanup[3] wiping tempfile
+# destroy warnings
+# destroy shutil
+# cleanup[3] wiping pwd
+# cleanup[3] wiping grp
+# cleanup[3] wiping math
+# cleanup[3] wiping _hashlib
+# cleanup[3] wiping bisect
+# cleanup[3] wiping _bisect
+# destroy _bisect
+# cleanup[3] wiping _random
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy _heapq
+# destroy functools
+# destroy tokenize
+# destroy _functools
+# destroy _operator
+# destroy _sre
+# destroy sre_parse
+# destroy time
+# destroy types
+# destroy abc
+# destroy _collections_abc
+# destroy signal
+# destroy weakref
+# destroy six.moves.urllib_parse
+# destroy six.moves.urllib.error
+# destroy six.moves.urllib.request
+# destroy six.moves.urllib.response
+# destroy six.moves.urllib.robotparser
+# destroy _string
+# destroy argparse
+# destroy unittest.loader
+# destroy unittest.runner
+# destroy unittest
+# destroy difflib
+# destroy threading
+# destroy glob
+# destroy logging
+# destroy six
+# destroy shlex
+# destroy pipettor.exceptions
+# destroy pipettor.devices
+# destroy pipettor.processes
+# destroy _struct
+# destroy _compat_pickle
+# destroy _pickle
+# destroy tempfile
+# destroy locale
+# destroy copy
+# destroy io
+# destroy re
+# destroy struct
+# destroy os
+# destroy stat
+# destroy fnmatch
+# destroy collections
+# destroy errno
+# destroy pwd
+# destroy grp
+# destroy math
+# destroy _hashlib
+# destroy itertools
+# destroy bisect
+# destroy _random
