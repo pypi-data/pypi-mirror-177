@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "omegaconf_argparse"
+version = "0.1.0"
+description = "Integration between Omegaconf and argparse for mixed config file and CLI arguments"
+authors = ["Giorgos Paraskevopoulos <georgepar.91@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+packages = [
+    {include = "omegacli"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+omegaconf = "^2.0.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
