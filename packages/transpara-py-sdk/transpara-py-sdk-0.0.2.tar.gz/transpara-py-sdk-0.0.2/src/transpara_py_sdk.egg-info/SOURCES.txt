@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/transpara/__init__.py
+src/transpara/logger_helper.py
+src/transpara_py_sdk.egg-info/PKG-INFO
+src/transpara_py_sdk.egg-info/SOURCES.txt
+src/transpara_py_sdk.egg-info/dependency_links.txt
+src/transpara_py_sdk.egg-info/top_level.txt
