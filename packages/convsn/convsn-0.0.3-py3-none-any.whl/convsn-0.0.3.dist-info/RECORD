@@ -1,0 +1,7 @@
+convsn/__init__.py,sha256=KnpTC-K8LjwddbVlGu_6ZzoGe5-dVyelRzKm0RBLMmE,64
+convsn/distance.py,sha256=3YHxPnuoZF1zKTRO-YJuLlOJR8sCilah9303R9lwZdg,156
+convsn/temperature.py,sha256=V9f8H4wKolaojKayqt5DxV15N91oVK3uVfOsaqeRxek,120
+convsn-0.0.3.dist-info/METADATA,sha256=KG9x5XmbsYnDcYsR12HBYa25y6r4pdr0qpd0a0pXR9c,436
+convsn-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+convsn-0.0.3.dist-info/top_level.txt,sha256=ySQWUut887VhADEUzdiylIkHRBo_CukaQXWp7og_fvc,7
+convsn-0.0.3.dist-info/RECORD,,
