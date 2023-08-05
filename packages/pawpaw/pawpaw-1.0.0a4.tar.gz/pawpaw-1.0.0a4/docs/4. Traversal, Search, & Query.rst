@@ -1,0 +1,242 @@
+==========================
+Traversal, Search, & Query
+==========================
+
+Introduction
+============
+The ``Ito`` class features recursive storage of descendants to arbitrary depth, which allows it to
+be used as a hierarchical data store.  Traversal down to child nodes is possible through the the
+``.children`` property, while traversal upwards can be accomplished through the ``.parent`` property:
+
+>>> import regex
+>>> import pawpaw
+>>> s = 'ten 10 eleven 11 twelve 12 '
+>>> root = pawpaw.Ito(s)
+>>> re = regex.compile(r'(?P<phrase>(?P<word>(?P<char>\w)+) (?P<number>(?P<digit>\d)+) )+')
+>>> itor = pawpaw.floparse.Extract(re)
+>>> root.children.add(*itor.traverse(pawpaw.Ito(s)))
+>>> last_child = root.children[-1]
+>>> str(last_child)
+'twelve 12 '
+>>> parent = last_child.parent
+>>> str(parent)
+'ten 10 eleven 11 twelve 12 '
+
+Manually traversing up and down an
+
+>>> import regex
+>>> import pawpaw
+>>> s = 'ten 10 eleven 11 twelve 12 '
+>>> root = pawpaw.Ito(s)
+>>> re = regex.compile(r'(?P<phrase>(?P<word>(?P<char>\w)+) (?P<number>(?P<digit>\d)+) )+')
+>>> itor = pawpaw.floparse.Extract(re)
+>>> root.children.add(*itor.traverse(pawpaw.Ito(s)))
+>>> last_child = root.children[-1]
+>>> str(last_child)
+'twelve 12 '
+>>> parent = last_child.parent
+>>> str(parent)
+'ten 10 eleven 11 twelve 12 '
+
+Manually traversing up and down an
+
+>>> import regex
+>>> import pawpaw
+>>> s = 'ten 10 eleven 11 twelve 12 '
+>>> root = pawpaw.Ito(s)
+>>> re = regex.compile(r'(?P<phrase>(?P<word>(?P<char>\w)+) (?P<number>(?P<digit>\d)+) )+')
+>>> itor = pawpaw.floparse.Extract(re)
+>>> root.children.add(*itor.traverse(pawpaw.Ito(s)))
+>>> last_child = root.children[-1]
+>>> str(last_child)
+'twelve 12 '
+>>> parent = last_child.parent
+>>> str(parent)
+'ten 10 eleven 11 twelve 12 '
+
+Manually traversing up and down an
+
+>>> import regex
+>>> import pawpaw
+>>> s = 'ten 10 eleven 11 twelve 12 '
+>>> root = pawpaw.Ito(s)
+>>> re = regex.compile(r'(?P<phrase>(?P<word>(?P<char>\w)+) (?P<number>(?P<digit>\d)+) )+')
+>>> itor = pawpaw.floparse.Extract(re)
+>>> root.children.add(*itor.traverse(pawpaw.Ito(s)))
+>>> last_child = root.children[-1]
+>>> str(last_child)
+'twelve 12 '
+>>> parent = last_child.parent
+>>> str(parent)
+'ten 10 eleven 11 twelve 12 '
+
+Manually traversing up and down an
+
+>>> import regex
+>>> import pawpaw
+>>> s = 'ten 10 eleven 11 twelve 12 '
+>>> root = pawpaw.Ito(s)
+>>> re = regex.compile(r'(?P<phrase>(?P<word>(?P<char>\w)+) (?P<number>(?P<digit>\d)+) )+')
+>>> itor = pawpaw.floparse.Extract(re)
+>>> root.children.add(*itor.traverse(pawpaw.Ito(s)))
+>>> last_child = root.children[-1]
+>>> str(last_child)
+'twelve 12 '
+>>> parent = last_child.parent
+>>> str(parent)
+'ten 10 eleven 11 twelve 12 '
+
+Manually traversing up and down an ``Ito`` hierarchy is practical for small collections or over small
+numbers of nodes.  For large collections or more complex traversals, Pawpaw offers a fully
+functional, robust query language, which can also be used for search.  For example:
+
+>>> query_str = '**[d:number]{*[s:2]}'  # descendant with .desc == 'number' having a child whose str == '2'
+>>> result = root.find(query_str)
+>>> str(result)
+'12'
+
+Query Syntax
+============
+
+Phrases
+-------
+A query consists of one or more *phrases* separated by fore-slash characters::
+
+ query := phrase [/ phrase] [/ phrase] ...
+
+A phrase, in turn, consists of an *axis* along with an optional *filter* and *subquery* parts::
+
+phrase := axis [filter] [subquery]
+
+Axis
+----
+
+An axis consists of an optional *order operator*, an *axis identifier*, and an optional *self option*: ::
+
+ axis := [order_operator] axis_identifier [self_option]
+
+An axis defines a traversal step.  For example, the axis identifier ``*`` indicates that traversal
+should proceed to the children of the current node(s).  For a given node, an axis may yield zero,
+one, or more nodes, the order of which will always be from nearest to farthest from the current node.
+
+.. admonition:: Key Concept
+
+   An axis always returns nodes ordered *nearest* to *farthest* from the current node(s), unless reversed.
+
+The order of nodes can be reversed by using a minus character (-) for the order operator.  A plus
+character (+) indicates nearest-to-furthest ordering, and is the assumed default when the
+order operator is not supplied.
+
+In some cases, it may be useful to return the current node as part traversal step.  For example,
+the axis operator ``..`` indicates traversal to the parent node, however, if the current node is
+a root, then there is no parent to traverse to.  The self option can be used to ensure that a
+traversal step will always return something.  Two possible values are allows:
+
+Self Option Values:
+
+======  ====================================================
+Value   Description
+======  ====================================================
+``!``   Returns current node only if traversal step is empty
+------  ----------------------------------------------------
+``!!``  Returns current node plus any traversal step nodes
+======  ====================================================
+
+If a self option is supplied, the current node will always be returned first, unless
+the axis is reversed with the '-' operator.
+
+
+Axis Identifiers:
+
++------------+----------------+------------------------------------------------------------------------+
+| Identifier | Meaning        | Description                                                            |
++============+================+========================================================================+
+| ``....``   | root           | Furthest ancestor of the current node that has no ancestors itself     |
++------------+----------------+------------------------------------------------------------------------+
+| ``...``    | ancestors      | All ancestors of the current node beginning with the parent            |
+|            |                | and ending with the root                                               |
++------------+----------------+------------------------------------------------------------------------+
+| ``..``     | parent         | Nearest ancestor of the current node                                   |
++------------+----------------+------------------------------------------------------------------------+
+| ``.``      | self           | Reflection of the current node                                         |
++------------+----------------+------------------------------------------------------------------------+
+| ``*``      | children       | Children of the current node                                           |
++------------+----------------+------------------------------------------------------------------------+
+| ``**``     | descendants    | All descendants of the current node, starting with the children and    |
+|            |                | ending with leaves                                                     |
++------------+----------------+------------------------------------------------------------------------+
+| ``***``    | leaves         | Descendants of the current node that have no descendants themselves    |
++------------+----------------+------------------------------------------------------------------------+
+| ``<<<``    | preceeding     | Nodes that are *before* the current node, *includes* piror siblings    |
+|            |                | and *excludes* ancestors & descendants                                 |
++------------+----------------+------------------------------------------------------------------------+
+| ``<<``     | prior siblings | Nodes *before* the current node that have the same parent              |
++------------+----------------+------------------------------------------------------------------------+
+| ``<``      | prior sibling  | The nearest node *before* the current node that has the same parent    |
++------------+----------------+------------------------------------------------------------------------+
+| ``>``      | next sibling   |  The nearest node *after* the current node that has the same parent    |
++------------+----------------+------------------------------------------------------------------------+
+| ``>>``     | next siblings  |  Nodes *after* the current node that have the same parent              |
++------------+----------------+------------------------------------------------------------------------+
+| ``>>>``    | following      | Nodes that are *after* the current node, *includes* piror siblings     |
+|            |                | and *excludes* ancestors & descendants                                 |
++------------+----------------+------------------------------------------------------------------------+
+
+
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| Key                 | Alt Keys(s)      | Meaning                                                                | Example(s)       |
++=====================+==================+========================================================================+==================+
+| ``desc``            | ``d``            | One or more ``str`` values used to match agains ``.desc`` of axis;     | ::               |
+|                     |                  | values must be separated with commas                                   |                  |
+|                     |                  |                                                                        |  [d:number]      |
+|                     |                  |                                                                        |  [d:word,char]   |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| ``string``          | ``s``            | A ``str`` used to match against ``.__str__()`` of axis                 | ::               |
+|                     |                  |                                                                        |                  |
+|                     |                  |                                                                        |  [s:foo]         |
+|                     |                  |                                                                        |  [s:foo,goo]     |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| ``string-casefold`` | ``scf``, ``lcs`` | Like ``s``, with ``.casefold()`` applied to supplied value *and*       | ::               |
+|                     |                  | value *and* ``.__str__()`` of axis prior to compare                    |                  |
+|                     |                  |                                                                        |  [scf:FoO,GoO]   |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| ``index``           | ``v``            | One or more tuples consisting of a *start* and optional *stop* ``int`` | ::               |
+|                     |                  | values used to match against the enumeration index(ices) of the axis;  |                  |
+|                     |                  | *start* and *stop* must be separated with hyphens, tuples must be      |  [i:1]           |
+|                     |                  | separated with commas                                                  |  [i:2,3,4]       |
+|                     |                  |                                                                        |  [i:2-3]         |
+|                     |                  |                                                                        |  [i:2,5-7]       |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| ``predicate``       | ``p``            | Key for filter function used to match against axis                     | ::               |
+|                     |                  | A ``str`` used as a key to entry in dictionary of type:                |                  |
+|                     |                  |                                                                        |   [p:key1]       |
+|                     |                  |   typing.Dict[str, typing.Callabe[[int, Ito], bool]                    |   [p:key1,key2]  |
+|                     |                  |                                                                        |                  |
+|                     |                  | The value retrieved from the ``dict`` use used as a filter against     |                  |
+|                     |                  | the axis                                                               |                  |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+| ``value``           | ``v``            | A ``str`` used as a key to entry in dictionary of type::               | ::               |
+|                     |                  |                                                                        |                  |
+|                     |                  |                                                                        |   [p:key]        |
+|                     |                  |   typing.Dict[str, typing.Any]                                         |   [p:key1, key2] |
+|                     |                  |                                                                        |                  |
+|                     |                  | The value retrieved from the ``dict`` is used to match against the     |                  |
+|                     |                  | ``.value()`` of the axis                                               |                  |
++---------------------+------------------+------------------------------------------------------------------------+------------------+
+
+
+TIPS & TRICKS
+=============
+
+Q: How can I 'OR' together a filter and subquery?
+
+A: Operators are not supported between the filter and subquery components of a query phrase.  However, you can achieve the same result by moving the filter to a subquery:
+
+[my_filter]{my_subquery}  ->  {./[my_filter]}OR{my_subquery}
+
+
+.. [#] The name "In Test Object" is historical, and dates back to earlier projects I developed.  I've chosen to keep this name because "Ito" makes for a short, convenient type name.
+
+.. [#] In Python, strings are also immutable.
+
+.. [#] Because a child ``Ito`` must be equal to or contained by a parent ``Ito``, this is a *tree* graph.
