@@ -1,0 +1,13 @@
+grpcio-tools
+pandas~=1.3.5
+numpy
+wget
+h3
+geojson
+chardet
+
+[dev]
+pytest
+pytest-asyncio
+build
+twine
