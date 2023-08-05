@@ -1,0 +1,13 @@
+parallel_pandas/__init__.py,sha256=Bqyp-5M7R48oKH7u9paUMq5zrmsWvf--HEQ_Ua8tweQ,62
+parallel_pandas/main.py,sha256=hUnNpNViAlDsApReN9GgkM9I1cwqhI02LvY1itxrCSg,10926
+parallel_pandas/core/__init__.py,sha256=r9FWIs9SkLBYQzbuWtDeY4vTt85bS7SoHHZYz1hHBOk,1232
+parallel_pandas/core/parallel_dataframe.py,sha256=3kx68xwwl7Cvb7s_Bb4DrnF_Nw_Oj8hXzabZm5ZiTDQ,27706
+parallel_pandas/core/parallel_groupby.py,sha256=sSVgqe27cUcakX6cDbzZyp5mzWwsjbJtc3z9nvkoC2s,2354
+parallel_pandas/core/parallel_window.py,sha256=qSjV9BU8ijo6NcoT7U4G2Xe72A0QCiO85bmYy41ZOLs,9701
+parallel_pandas/core/progress_imap.py,sha256=mP1cXdAvuIrPFgc70ecmT7K08qfjB3p8pIWWJwXZi3E,4226
+parallel_pandas/core/tools.py,sha256=y-5iOZiFm_IY1hdq8sHkJENCqjKIHPpiB0bFT4VfyFw,2269
+parallel_pandas-0.3.5.dist-info/LICENSE,sha256=TKzXDSJHLaLVKBQe5PKy-hqtQQyVFdh80zyR9w52hV0,1070
+parallel_pandas-0.3.5.dist-info/METADATA,sha256=8WGIJBkYbjtmhcbqjpKpHSaUm7EHlZ2Deq1xRWG9VUE,12624
+parallel_pandas-0.3.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parallel_pandas-0.3.5.dist-info/top_level.txt,sha256=9tDl3fDlrBGLUVYMrh3Vd4v3T1r3GHoBTqjDL-4CfXI,16
+parallel_pandas-0.3.5.dist-info/RECORD,,
