@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-annotatable-properties
+Version: 0.1.2
+Summary: A Django app that allows annotating properties on querysets.
+Home-page: https://github.com/enesklcarslan/django-annotatable-properties/
+Author: Enes Kilicarslan
+Author-email: enesklcarslan@gmail.com
+License: BSD-3-Clause
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django (>=4.1)
+
