@@ -1,0 +1,10 @@
+domtree/__init__.py,sha256=y385cfscot7g6LSsEVGwG1pj-I8m3PoRdvha6CaYLz8,30
+domtree/node.py,sha256=OmTYLfSKbHNtxl403GNs7dwDmJs9EWS-KMSAt7cLdUc,3950
+domtree/svg.py,sha256=K9BySCMacRgcsltdosApoppXHx2AR4SqDdYoQNxGfOI,159
+domtree/svg_stubs.py,sha256=RSsXiLoDGDChvOBPrG-tBvgfm7z4DK6sBqp47TWX040,113136
+domtree/test.py,sha256=M1kMOGpriurEVuW7dtLhcyggIoMU7lihtCJ3rHJwwGc,164
+domtree-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+domtree-0.0.5.dist-info/METADATA,sha256=ZYPCu5n2xeO78SWU142yL2l-xlsQ4d9ZnOc-BY0_PAI,14456
+domtree-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+domtree-0.0.5.dist-info/top_level.txt,sha256=o12kM04Y31CzVsoDLDr4-kYPTV-xrJ50fcO5CNenIlA,8
+domtree-0.0.5.dist-info/RECORD,,
