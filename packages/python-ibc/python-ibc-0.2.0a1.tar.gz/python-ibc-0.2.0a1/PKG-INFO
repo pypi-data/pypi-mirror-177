@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: python-ibc
+Version: 0.2.0a1
+Summary: A library to make developing python based programs on cosmos chains easier
+Home-page: https://github.com/Reecepbcups/pyibc
+Author: Reece Williams
+Author-email: reecepbcups@gmail.com
+Keywords: Cosmos Blockchain,Cosmoshub,atom token
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Text Processing
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-ibc
+
+A library used to condense down-chain queries in an easy-to-use way.
+
+Includes:
+
+```bash
+- Coingecko token price query
+- chain_apis (rest, rpc, denom, logo png, twitter, explorers, staking & gov pages, coingecko_id, & chain_registery )
+```
+
+## Example usage
+
+```py
+from pyibc_api import get_chain, ChainInfo
+info: ChainInfo
+info = get_chain("juno")
+print(info) # gets chain data
+
+# Returns:
+# class ChainInfo:
+#     '''Object to track important data about a chain'''
+#     name: str
+#     denom: str
+#     coingecko_id: str
+#     bech32_prefix: str
+#     rest_root: str
+#     rpc_root: str
+#     twitter: str
+#     logo: str
+#     chain_registry: str
+#     explorers: dict
+
+from pyibc_chain.validators import get_latest_validator_set_sorted
+for idx, op_addr in enumerate(get_latest_validator_set_sorted(info.rest_root, bondedOnly=True), 1):
+    print(idx, op_addr, vals[op_addr])
+    if idx > 10: break
+
+
+from cosmpy_price import get_price
+print(get_price(['juno-network', "cmdx"]))
+# print(get_price('juno-network')) # also works
+```
+
+
