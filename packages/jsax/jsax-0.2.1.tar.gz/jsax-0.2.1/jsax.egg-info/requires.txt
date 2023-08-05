@@ -1,0 +1,7 @@
+numpy>=1.17.3
+scipy>=1.2.1
+joblib>=1.1.1
+requests
+pandas
+scikit-learn
+matplotlib
