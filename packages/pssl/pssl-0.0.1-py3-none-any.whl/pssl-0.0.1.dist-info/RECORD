@@ -1,0 +1,17 @@
+pssl/__init__.py,sha256=p98sMgTDyyhJLWPPYpZD43JUx1wEFgEIMQMVKmNaQlw,204
+pssl/config.py,sha256=CTowHMPIt_1ZYJKnh8rM9VbYUBNG4iE1TgjiWSb0Vyg,553
+pssl/loss.py,sha256=oyfYgVP60yUe_MjBikqnD7PnkK02qJkwqp9vX7sF1cw,4746
+pssl/architecture/__init__.py,sha256=mVNT36vDtClcRnAfF6wbWdG9UiM9-mF5J9iEwcBnNqk,227
+pssl/architecture/mlp.py,sha256=i6ISZJys8Um4lchQkRCjUuBPsT2ihNeI1Xp6xHn1y_8,3120
+pssl/auxillary/__init__.py,sha256=jjUT2oXC75IiVM6aXaRFYrn7sagJoRFI-yyynea0cNg,271
+pssl/auxillary/initialization.py,sha256=--T70h3_hJs-MwHDMpZEh36CLrcOMwBd4Sdws1WVx_I,769
+pssl/auxillary/linalg.py,sha256=21OLT22mQPA4YjQXkZ-TC9trErD8cti-g2ARlstGra4,1564
+pssl/auxillary/optimization.py,sha256=6izpnGQcv8vjxXu42JQzGh-E-nkWD-JNGainHEm4RdQ,2718
+pssl/auxillary/plots.py,sha256=9IB9YiPeBpawgZrleAUjz-Uj8hCjeoYxn7LSYC9Pdyo,1328
+pssl/datasets/__init__.py,sha256=sgDHKOYZCvDiJSAxBvkzAUKq198WtoSiZ1yK6pNJOMs,244
+pssl/datasets/halfmoon.py,sha256=F5Fh052iX_GEkViYKXh6qNqnuP5iqFbLFBaQb4c8k9U,2173
+pssl-0.0.1.dist-info/LICENSE,sha256=4WuNa6jeK4v-Je09ZByzMR4c3lPDGhbuvwPczRYssFc,1089
+pssl-0.0.1.dist-info/METADATA,sha256=jCTmqe7LcYKMIk7Y0Gx93X3cizcJ5nR9FPiduPvPrWI,1912
+pssl-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pssl-0.0.1.dist-info/top_level.txt,sha256=pMWNcWJpGadZ4wGIMr0eZM9PXM8WUfEKE33AbxfJEtE,5
+pssl-0.0.1.dist-info/RECORD,,
