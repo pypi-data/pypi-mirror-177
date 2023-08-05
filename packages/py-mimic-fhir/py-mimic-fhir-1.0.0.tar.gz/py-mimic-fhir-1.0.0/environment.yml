@@ -1,0 +1,26 @@
+name: mimic-fhir
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - sqlalchemy
+  - seaborn
+  - pandas
+  - psycopg2
+  - matplotlib
+  - pytest
+  - psycopg2
+  - jupyter
+  - requests
+  - tqdm
+  - yapf
+  - google-cloud-storage
+  - pip
+  - pip:
+    - python-dotenv
+    - fhir.resources
+    - google-cloud-bigquery
+    - google-cloud-pubsub==2.13.9
+    - google-api-python-client
+    - pandas-gbq
+    - google-auth
