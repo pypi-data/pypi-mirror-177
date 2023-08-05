@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autostar
+Version: 0.1.0
+Summary: Auto-updating datafiles from astronomy databases.
+Home-page: https://github.com/chw3k5/autostar
+Author: Caleb Wheeler
+Author-email: chw3k5@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.7
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: astroquery
+Requires-Dist: toml
+
+UNKNOWN
+
