@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CLUIE
+Version: 0.1.6
+Summary: Python Command-Line User-Interface Engine
+Home-page: https://github.com/mategol/CLUIE-python
+Author: Mateusz Golembowski
+Author-email: mateusz@golembowski.pl
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
