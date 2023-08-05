@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+galai/__init__.py
+galai/architecture.py
+galai/config.py
+galai/consts.py
+galai/model.py
+galai/utils.py
+galai.egg-info/PKG-INFO
+galai.egg-info/SOURCES.txt
+galai.egg-info/dependency_links.txt
+galai.egg-info/requires.txt
+galai.egg-info/top_level.txt
