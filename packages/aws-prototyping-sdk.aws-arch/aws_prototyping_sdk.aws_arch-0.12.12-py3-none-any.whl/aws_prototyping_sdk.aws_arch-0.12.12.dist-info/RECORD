@@ -1,0 +1,13 @@
+aws_prototyping_sdk/aws_arch/__init__.py,sha256=MrEDEwDqtPgHnGEdj5GSRVT4njax7Ci4ci5_TNqbgQs,55512
+aws_prototyping_sdk/aws_arch/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_prototyping_sdk/aws_arch/_jsii/__init__.py,sha256=XE9ClkPrR0vZ4AOIoW9618Q7U-rS2A74bxaVOsroXaw,396
+aws_prototyping_sdk/aws_arch/_jsii/aws-arch@0.12.12.jsii.tgz,sha256=KEBAUlhopseIc31x71ZnIqiZbT_PrvVvBuM1MCHETjk,18069703
+aws_prototyping_sdk/aws_arch/aws_arch/__init__.py,sha256=5EQFiv0gfELOeKsf2O23rQesHTxgiXl5nrZ-0PfL41Y,59926
+aws_prototyping_sdk/aws_arch/aws_arch/drawio_spec/__init__.py,sha256=_grTcR3ubZ-6qv4TsoQRJ0R__QRJ2ZzY4Cl_7lQ8VHA,339
+aws_prototyping_sdk/aws_arch/aws_arch/drawio_spec/aws4/__init__.py,sha256=plYKtmspt7tk20-ur2QqSY5-WfuE4yU6Tk2Ky8rXx_8,74785
+aws_prototyping_sdk/aws_arch/aws_arch/pricing_manifest/__init__.py,sha256=pOKgHYFmXM3vsXFjuPffkuT9TN4bptvxORrD8hWrmOk,15519
+aws_prototyping_sdk.aws_arch-0.12.12.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_prototyping_sdk.aws_arch-0.12.12.dist-info/METADATA,sha256=yTsU7cnhhB1Dzg3NX-Yfv6fzW-Hh9DVgV2ZIznPzYpI,5323
+aws_prototyping_sdk.aws_arch-0.12.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_prototyping_sdk.aws_arch-0.12.12.dist-info/top_level.txt,sha256=GI4X33MSLMhT7o3n6FDj9jqf2xWUdJ3qEo1cWYKXylw,20
+aws_prototyping_sdk.aws_arch-0.12.12.dist-info/RECORD,,
