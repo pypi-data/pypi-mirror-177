@@ -1,0 +1,5 @@
+include selectable_box_list/selectable_box_list.min.js
+include selectable_box_list/selectable_box_list.dev.js
+include selectable_box_list/metadata.json
+include selectable_box_list/package.json
+include README.md
