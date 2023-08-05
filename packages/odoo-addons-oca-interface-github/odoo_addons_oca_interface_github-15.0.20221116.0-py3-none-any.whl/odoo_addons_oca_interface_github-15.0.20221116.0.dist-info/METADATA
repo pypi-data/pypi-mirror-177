@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-interface-github
+Version: 15.0.20221116.0
+Summary: Meta package for oca-interface-github Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-github-connector (<15.1dev,>=15.0dev)
+
+UNKNOWN
+
