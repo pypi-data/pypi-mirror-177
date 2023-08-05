@@ -1,0 +1,16 @@
+commandsheet/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+commandsheet/__main__.py,sha256=Ati96A7CFnbm_W91iZULUgN5-yYpe-Sq5nRNRKm5Jmw,82
+commandsheet/cli.py,sha256=55xM2tjBaiwiogem19jBFqdMydzUYbyo1t5ozM3d1T0,2742
+commandsheet/commandsheet.py,sha256=jndaWG1tpRE5X-uNTyYfxYO2XLlmBH-H7qxuZEDNf6s,2022
+commandsheet/compatibility.py,sha256=pu2Q1O-j0wTmEQKRsx4ZBr34KKoPbXugQZ1r1h24x_A,206
+commandsheet/config.py,sha256=yArHbA-MJgc0AIlldylED_5AlQG7z40t1uIoSVbAfvs,2061
+commandsheet/const.py,sha256=HYAORGkjorzM_x1wzqc2y4mUCwsUqBu_rzKE-8m2mho,60
+commandsheet/errors.py,sha256=eM5oJilDfnlq5-F6C7DiLsdq_9vo3r30I7L6CcyxCZU,1177
+commandsheet/locale.py,sha256=exsY5e4kKkZk_vuR4LVgQ_5bUOVYVJqJMu4jIno5lrQ,110
+commandsheet/output.py,sha256=nSuNvl-fY_v8lnuPEpQbns8sOFPYxvmdBVxLNxzu1Lc,3306
+commandsheet-0.2.0.dist-info/LICENSE,sha256=W19Ci1I2HPe710WZUp0Ly2KpFsz-uLgASi4rKAWBI34,1071
+commandsheet-0.2.0.dist-info/METADATA,sha256=_joCUZAXsFN8mbpr6-g7uKDEGZLRQ1IeEto1gjahP0w,2449
+commandsheet-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+commandsheet-0.2.0.dist-info/entry_points.txt,sha256=aZ2Wc-J-ezKa2ClpTWVOkkGGEKfHA29CNmV9sfnFCi0,64
+commandsheet-0.2.0.dist-info/top_level.txt,sha256=3IkJOZXb8wpuBpfwIkPvDECmSmw2gWZHa_bH5u1My7U,13
+commandsheet-0.2.0.dist-info/RECORD,,
