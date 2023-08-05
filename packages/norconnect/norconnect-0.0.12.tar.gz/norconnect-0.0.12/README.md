@@ -1,0 +1,85 @@
+# norconnect
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Rayasam Sanjeev Rao for Cloud services (c) 2022
+
+# Services included
+##### 1.SQS 
+##### 2.SNS
+##### 3.SECRETS MANAGER
+##### 4.SQS 
+
+
+
+## Examples of How To Use (AWS Service)
+
+Testing on Python file
+
+```python
+from norconnect.classes import AWS
+from norconnect.constants import AWSServices
+sqs_url='https://sqs.ap-southeast-1.amazonaws.com/....../sqs.fifo'
+
+saws=AWS(services=[AWSServices.SQS],region="**************",aws_access_key="*********",aws_secret_key="************",secrets_name='stage/repo')
+
+
+def print_data(data):
+    print(data)
+    return True
+
+
+saws.create_sqs_loop(sqs_url=sqs_url,callback=print_data,name='Print_Loop')
+saws.run_sqs_loops()
+time.sleep(10)
+```
+
+### Flask Example
+
+```python
+from app import app
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
+```
+
+### __init__.py
+```python
+
+from flask import Flask
+from norconnect.classes import AWS
+from norconnect.constants import AWSServices
+
+app = Flask("test-ms")
+saws=AWS(services=[AWSServices.SQS],region="**************",aws_access_key="*********",aws_secret_key="************",  secrets_name='stage/repo')
+
+print(saws.get_secrets())
+# from .test import start_testing
+# start_testing(saws)
+```
+
+ ###   test.py
+```python
+
+
+import time
+from norconnect.classes import AWS
+from norconnect.constants import AWSServices
+
+
+def start_testing():
+
+    sqs_url='https://sqs.ap-southeast-1.amazonaws.com/....../sqs.fifo'
+    
+
+    def print_data(data):
+        print(data)
+        return True
+
+    saws.create_sqs_loop(sqs_url=sqs_url,callback=print_data,name='Print_Loop')
+    saws.run_sqs_loops()
+
+```
+
+
+

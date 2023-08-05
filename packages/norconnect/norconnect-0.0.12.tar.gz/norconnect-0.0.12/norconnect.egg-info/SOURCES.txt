@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+app/__init__.py
+app/test.py
+norconnect/S3.py
+norconnect/SQS.py
+norconnect/__init__.py
+norconnect/classes.py
+norconnect/constants.py
+norconnect.egg-info/PKG-INFO
+norconnect.egg-info/SOURCES.txt
+norconnect.egg-info/dependency_links.txt
+norconnect.egg-info/requires.txt
+norconnect.egg-info/top_level.txt
