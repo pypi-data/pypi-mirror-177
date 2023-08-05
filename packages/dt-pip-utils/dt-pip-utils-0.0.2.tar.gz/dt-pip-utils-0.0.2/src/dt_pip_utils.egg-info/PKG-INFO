@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dt-pip-utils
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://github.com/duckietown/template-library
+Author: Andrea F. Daniele
+Author-email: afdaniele@duckietown.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+
+dt-pip-utils: Python PIP utils
+==============================
+
+
+Python PIP utils from Duckietown.
+
+
+
