@@ -1,0 +1,2 @@
+[console_scripts]
+libri-abx = libriabx.libri_light.eval_ABX:main
