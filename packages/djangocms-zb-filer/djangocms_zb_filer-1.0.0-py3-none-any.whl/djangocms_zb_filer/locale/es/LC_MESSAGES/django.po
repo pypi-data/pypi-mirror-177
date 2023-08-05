@@ -1,0 +1,263 @@
+#  Copyright (c) 2022. CQ Inversiones SAS. Todos los derechos reservados. All rights reserved.
+#  Este archivo se considera confidencial y no se encuentra licenciado bajo ninguna licencia de código abierto.
+#  Se prohibe explicitamente su uso en proyectos o sistemas diferentes a los desarrollados por CQ Inversiones SAS y/o
+#  aquellos en los que se autorice de manera explícita y por escrito su uso.
+#  Cualquier utilización indebida del código o fragmentos del código contenido en este archivo, se encuentra penalizado
+#  por las leyes de Colombia, y a nivel internacional de acuerdo a los tratados existentes sobre
+#  Protección de Derechos de Autor.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-15 15:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\admin.py:48 .\cms_plugins.py:46
+msgid "Main Options"
+msgstr "Opciones principales"
+
+#: .\admin.py:51
+msgid "Date Options"
+msgstr "Opciones de fecha"
+
+#: .\admin.py:55 .\cms_plugins.py:49
+msgid "Advance Options"
+msgstr "Opciones avanzadas"
+
+#: .\admin.py:63
+msgid "Generate PDF certificate"
+msgstr "Generar certificado PDF"
+
+#: .\admin.py:64
+msgid "Send Certificate"
+msgstr "Enviar certificado"
+
+#: .\admin.py:73
+msgid "Actions"
+msgstr "Acciones"
+
+#: .\admin.py:81 .\admin.py:118
+msgid "See Certificate"
+msgstr "Ver Certificado"
+
+#: .\admin.py:86
+msgid "Last Certificate"
+msgstr "Último certificado"
+
+#: .\admin.py:91
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#: .\admin.py:94
+msgid "Additional Actions"
+msgstr "Acciones adicionales"
+
+#: .\admin.py:97 .\admin.py:123 .\models.py:59
+msgid "Certificate"
+msgstr "Certificado"
+
+#: .\apps.py:25
+msgid "Django cms Zb Filer Extension"
+msgstr ""
+
+#: .\cms_plugins.py:40
+msgid "Zibanu Filer Extension"
+msgstr ""
+
+#: .\lib\choices.py:23 .\lib\choices.py:50
+msgid "Default"
+msgstr ""
+
+#: .\lib\choices.py:24
+msgid "Pdf"
+msgstr ""
+
+#: .\lib\choices.py:25
+msgid "Word"
+msgstr ""
+
+#: .\lib\choices.py:26
+msgid "Excel"
+msgstr ""
+
+#: .\lib\choices.py:27
+msgid "Power Point"
+msgstr ""
+
+#: .\lib\choices.py:36
+msgid "[Date Published] From the oldest to the most recent"
+msgstr "[Fecha de publicación] De la más antigua a la más reciente"
+
+#: .\lib\choices.py:37
+msgid "[Date Published] From the most recent to the oldest"
+msgstr "[Fecha de publicación] De la más reciente a la más antigua"
+
+#: .\lib\choices.py:38
+msgid "[Title] A-Z"
+msgstr "[Título] A-Z"
+
+#: .\lib\choices.py:39
+msgid "[Title] Z-A"
+msgstr "[Título] Z-A"
+
+#: .\lib\forms.py:36
+msgid "Enter valid email addresses."
+msgstr "Introduzca direcciones de correo electrónico válidas."
+
+#: .\models.py:30 .\models.py:55
+msgid "Name"
+msgstr "Nombre"
+
+#: .\models.py:31 .\models.py:80
+msgid "Title"
+msgstr "Título"
+
+#: .\models.py:32 .\models.py:81
+msgid "Description"
+msgstr "Descripción"
+
+#: .\models.py:35
+msgid "Header"
+msgstr "Encabezado"
+
+#: .\models.py:37
+msgid "Sign"
+msgstr "Firma"
+
+#: .\models.py:39 .\models.py:138
+msgid "Template"
+msgstr "Plantilla"
+
+#: .\models.py:42
+msgid "(HTML) Alternative template for the design of certificate."
+msgstr "(HTML) Plantilla alternativa para el diseño de certificado."
+
+#: .\models.py:45
+msgid "Certificate Configs"
+msgstr "Configuraciones de certificado"
+
+#: .\models.py:57
+msgid "parent category"
+msgstr "Categoría principal"
+
+#: .\models.py:65
+msgid "Categories"
+msgstr "Categorías"
+
+#: .\models.py:83
+msgid "Category"
+msgstr "Categoría"
+
+#: .\models.py:86
+msgid "Author"
+msgstr "Autor"
+
+#: .\models.py:87 .\models.py:117
+msgid "Date Created"
+msgstr "Fecha de creacion"
+
+#: .\models.py:88
+msgid "Date Modified"
+msgstr "Fecha de modificación"
+
+#: .\models.py:89
+msgid "Date Published"
+msgstr "Fecha de publicación"
+
+#: .\models.py:90
+msgid "Date Published End"
+msgstr "Fecha final de publicación"
+
+#: .\models.py:91
+msgid "Notification"
+msgstr "Notificación"
+
+#: .\models.py:92
+msgid ""
+"Specify the email addresses. These email addresses will be used when sending "
+"a certification."
+msgstr ""
+"Especifique las direcciones de correo electrónico. Estas direcciones de "
+"correo electrónico se utilizarán al enviar una certificación."
+
+#: .\models.py:93
+msgid "Icon"
+msgstr "Icono"
+
+#: .\models.py:95
+msgid "File"
+msgstr "Archivo"
+
+#: .\models.py:99
+msgid "Publications"
+msgstr "Publicaciones"
+
+#: .\models.py:118
+msgid "File Path"
+msgstr "Ruta de archivo"
+
+#: .\models.py:119
+msgid "Publication"
+msgstr "Publicación"
+
+#: .\models.py:123
+msgid "Certificates"
+msgstr "Certificados"
+
+#: .\models.py:133
+msgid "Order By"
+msgstr "Ordenar por"
+
+#: .\models.py:135
+msgid "Pagination"
+msgstr "Paginación"
+
+#: .\models.py:135
+msgid "Result by page"
+msgstr "Resultado por página"
+
+#: .\models.py:136
+msgid "Filter by category"
+msgstr "Filtrar por categoría"
+
+#: .\models.py:140
+msgid "(HTML) Alternative template for the design of list publications."
+msgstr ""
+"(HTML) Plantilla alternativa para el diseño de publicaciones de listas."
+
+#: .\models.py:142
+msgid "Link Target"
+msgstr "Destino del enlace"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:16
+msgid "search results for"
+msgstr "resultados de búsqueda para"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:31
+msgid "No files were found in the selected category"
+msgstr "No se encontraron archivos en la categoría seleccionada"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:37
+msgid "previous"
+msgstr "Anterior"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:40
+msgid "Page"
+msgstr "Página"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:40
+msgid "of"
+msgstr "de"
+
+#: .\templates\djangocms_zb_filer\default\filer_list.html:43
+msgid "next"
+msgstr "Siguiente"
