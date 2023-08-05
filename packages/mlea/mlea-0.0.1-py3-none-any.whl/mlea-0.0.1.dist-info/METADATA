@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mlea
+Version: 0.0.1
+Summary: Machine Learning Engineering Accelerator
+Home-page: https://gitlab.mantelgroup.com.au/eliiza/ml-eng/mlea
+Project-URL: Bug Tracker, https://gitlab.mantelgroup.com.au/eliiza/ml-eng/mlea/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Placeholder
