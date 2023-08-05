@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ufesp/__init__.py
+ufesp/paths.py
+ufesp/read_data.py
+ufesp.egg-info/PKG-INFO
+ufesp.egg-info/SOURCES.txt
+ufesp.egg-info/dependency_links.txt
+ufesp.egg-info/requires.txt
+ufesp.egg-info/top_level.txt
+ufesp/data/ufesp.csv
