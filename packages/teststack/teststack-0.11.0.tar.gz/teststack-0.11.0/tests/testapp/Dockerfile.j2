@@ -1,0 +1,8 @@
+FROM python:{{'3.9-slim'}}
+ENV PYTHON=True
+WORKDIR /srv
+
+RUN python -m pip install poetry
+
+COPY ./ .
+RUN poetry install --no-dev
