@@ -1,0 +1,2 @@
+[console_scripts]
+hdiiofficial = hdiiofficial.cli:main
