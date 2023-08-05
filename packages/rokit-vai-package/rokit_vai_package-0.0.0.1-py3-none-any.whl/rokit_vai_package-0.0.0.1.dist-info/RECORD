@@ -1,0 +1,9 @@
+dataset_mgmt/__init__.py,sha256=cVXZ4y20GrBYVEvk-alQ_xfaHQZbn66FimYzE-w5X1c,120
+dataset_mgmt/aws_dataset_mgmt.py,sha256=dTGL7nhZjCRQ1ysR2GTuQQRZN-IFfUiDrEFK_nsDdXs,1787
+dataset_mgmt/dataset_mgmt.py,sha256=IZ7rVDP6B5CaEpxlwRQtXK1tiLYPNxc-AB84QJpXrVM,2447
+dataset_mgmt/gcp_dataset_mgmt.py,sha256=i3hhV7zDDDUNWhpDfWCqsUwJEK0CogqpgzI5qbT0MgY,6512
+dataset_mgmt/storage_mgmt.py,sha256=4lutjmyf8KLuKv1DGFr1dSZayIxKFAzm2RPgkeoeTaI,2179
+rokit_vai_package-0.0.0.1.dist-info/METADATA,sha256=f6tHrPXnWU6wWuV3LNR1XmsYRD6llgaU8HVALqdDu6c,289
+rokit_vai_package-0.0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rokit_vai_package-0.0.0.1.dist-info/top_level.txt,sha256=gnwCnFurgg7psj5LzUOVW31-_rSrn8e3HVWFpDL7eJI,13
+rokit_vai_package-0.0.0.1.dist-info/RECORD,,
