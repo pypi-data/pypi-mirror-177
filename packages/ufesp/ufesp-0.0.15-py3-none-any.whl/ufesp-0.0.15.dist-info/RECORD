@@ -1,0 +1,9 @@
+ufesp/__init__.py,sha256=1OFqEX0Rqv2S4H9l0D4JYSwkgRV23zcaEF5NhAHMaEE,107
+ufesp/paths.py,sha256=iTNaqT3ErjQdcs3dIgLuzcKphAb_J2zI-hooetkPlwY,259
+ufesp/read_data.py,sha256=-pe9JUXbVvUg5OREK2w79AaLiEcau8PuQpvGhDTOEXU,1886
+ufesp/data/ufesp.csv,sha256=eNCqRZK3xbEZiz4KLr0SnkDJjwXqlckTpw1ya9XGvAM,1818
+ufesp-0.0.15.dist-info/LICENSE,sha256=u8BUG7QXgqud6Wj3gjpDwkjXxe4IYRkMR25JYidTGjg,1073
+ufesp-0.0.15.dist-info/METADATA,sha256=Wxt4RyKnoi5c2WjmJLsXGdKFp8810Zf1d33q8SKXyzs,2172
+ufesp-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ufesp-0.0.15.dist-info/top_level.txt,sha256=AX-qSpM63r9sWoHMKIV8pAIXhVSpytSqUbmM4vk85BQ,6
+ufesp-0.0.15.dist-info/RECORD,,
