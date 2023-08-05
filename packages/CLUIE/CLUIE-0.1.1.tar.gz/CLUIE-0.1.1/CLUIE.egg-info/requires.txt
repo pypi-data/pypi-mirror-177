@@ -1,0 +1,3 @@
+cursor
+resources.models
+resources.view_generator
