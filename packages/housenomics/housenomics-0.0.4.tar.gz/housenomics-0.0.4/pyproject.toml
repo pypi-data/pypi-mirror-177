@@ -1,0 +1,49 @@
+[tool.bandit]
+exclude_dirs = ["tests", "features"]
+
+[tool.poetry]
+name = "housenomics"
+version = "0.0.4"
+description = "Manage your personal finances"
+authors = ["Luís Miranda <luistm@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.scripts]
+housenomics = "housenomics.ui.cli.main:app"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+rich = "~12.6"
+sqlmodel = "0.0.8"
+typer = "~0.6"
+pendulum = "~2.1"
+
+[tool.poetry.dev-dependencies]
+bandit = "~1.7.4"
+behave = "~1.2.6"
+black = "~22.10"
+coverage = "~6.5"
+flake8 = "~5.0.4"
+isort = "~5.10.1"
+mypy = "~0.982"
+pre-commit = "~2.20.0"
+pytest = "~7.2.0"
+pytest-xdist = "~3.0.2"
+pytest-bdd = "~6.0.1"
+types-python-dateutil = "~2.8.19.2"
+types-tabulate = "~0.9.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.black]
+max-line-length = 99
+target-version = ['py39']
