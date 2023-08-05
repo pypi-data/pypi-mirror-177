@@ -1,0 +1,11 @@
+# .coveragerc to control coverage.py
+[run]
+source =
+    palettipy
+omit =
+    palettipy/tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    @(abc\.)?abstractmethod

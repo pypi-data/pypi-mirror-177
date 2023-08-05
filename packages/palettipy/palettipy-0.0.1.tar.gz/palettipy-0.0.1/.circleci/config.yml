@@ -1,0 +1,32 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: cimg/python:3.10
+    steps:
+      - checkout
+      - run:
+          name: 'Install dependencies'
+          command: 'pipenv install -e .[dev]'
+      - run:
+          name: 'Test'
+          command: |
+            mkdir test-results
+            pipenv run pytest --junitxml=test-results/junit.xml --cov --cov-report=xml:cobertura.xml
+      - run:
+          name: 'Coveralls'
+          command: 'pipenv run coveralls'
+      - run:
+          name: 'Codacy Coverage Report'
+          command: 'bash <(curl -Ls https://coverage.codacy.com/get.sh)'
+      - store_test_results:
+          path: test-results
+
+workflows:
+  test-workflow:
+    jobs:
+      - test:
+          filters:
+            branches:
+              only: main

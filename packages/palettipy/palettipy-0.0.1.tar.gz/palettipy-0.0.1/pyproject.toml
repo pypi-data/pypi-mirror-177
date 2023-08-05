@@ -1,0 +1,60 @@
+[project]
+name = "palettipy"
+version = "0.0.1"
+description = "Match the colors of an image to a palette"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Roberto Coratti", email = "corattiroberto@gmail.com" }
+]
+keywords = [
+  "color",
+  "palette",
+  "image",
+  "colorscheme",
+  "colors",
+  "color-scheme",
+  "image-processing",
+  "palettes",
+  "palettes-files",
+  "palettes-colors",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia",
+    "Typing :: Typed",
+]
+dependencies = [
+    "numpy >= 1.23.4",
+    "Pillow >= 9.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pre-commit",
+    "pytest",
+    "coverage",
+    "pytest-cov",
+    "coveralls",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["palettipy*", "palettes*"]
+exclude = ["palettipy.tests*"]
+
+[tool.setuptools.package-data]
+palettes = ["**/*.txt", "**/*.npz"]
+
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools_scm"
+]
+build-backend = "setuptools.build_meta"
