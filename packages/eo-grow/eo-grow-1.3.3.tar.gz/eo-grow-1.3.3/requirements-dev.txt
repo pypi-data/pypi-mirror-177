@@ -1,0 +1,17 @@
+boto3
+deepdiff
+fs_s3fs
+ipdb
+jupyter
+mock
+moto
+mypy>=0.990
+pre-commit
+pytest>=4.0.0
+pytest-order
+requests-mock
+twine
+types-mock
+types-requests
+types-setuptools
+types-urllib3
