@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easy-tensorflow-models
+Version: 0.2.0
+Summary: Helpers for creating, training, and serving TF models
+Home-page: https://github.com/miksyr/easy_tensorflow_models
+Author: Michael Doran
+Author-email: mikrdoran@gmail.com
+Keywords: tensorflow
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: tensorflow (==2.10.1)
+Requires-Dist: tqdm (>=4.38.0)
+
