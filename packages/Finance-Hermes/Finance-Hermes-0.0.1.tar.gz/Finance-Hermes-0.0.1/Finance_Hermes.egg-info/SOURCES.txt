@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+./README.md
+Finance_Hermes.egg-info/PKG-INFO
+Finance_Hermes.egg-info/SOURCES.txt
+Finance_Hermes.egg-info/dependency_links.txt
+Finance_Hermes.egg-info/requires.txt
+Finance_Hermes.egg-info/top_level.txt
+hermes/__init__.py
+requirements/py3.txt
