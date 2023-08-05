@@ -1,0 +1,7 @@
+typing_extensions>4
+flexbox>=0.0.1
+domtree>=0.0.5
+matplotlib
+
+[test]
+pytest
