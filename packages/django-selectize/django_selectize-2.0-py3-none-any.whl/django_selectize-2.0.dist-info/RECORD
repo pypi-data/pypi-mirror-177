@@ -1,0 +1,10 @@
+django_selectize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_selectize/forms.py,sha256=mPwNEPFoRn7kiuIgWuHsAf03Rf0gJhuw1j7Wo8V14Zc,18722
+django_selectize/static/django_selectize/django_selectize.js,sha256=iDU-5B9Qo5nMwjjTJo860aeFZs6qsVlEWJF5wUsMDig,2219
+django_selectize/static/django_selectize/selectize.css,sha256=DK-n-YenD5gM9vV-xdryAZvA_YSpY4PYE8rCkIZmW2I,29629
+django_selectize/static/django_selectize/selectize.min.js,sha256=LTrhIc4GU1oYRK7nNg348r7RSx184-7qrJq5ARMCYMw,335718
+django_selectize-2.0.dist-info/LICENSE,sha256=rGCJUKNASezpW2HOuGJWgCKjbP5iAgvJDpZ28JjzcyI,1071
+django_selectize-2.0.dist-info/METADATA,sha256=IT8ktE6WujINz7jVKVMR_1vJUacXbTZERWE44SzPmJQ,3278
+django_selectize-2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_selectize-2.0.dist-info/top_level.txt,sha256=k0hmcfBpdRKl3aJ93z_-KRnNynsgkrkK_CqHQfS-DKU,17
+django_selectize-2.0.dist-info/RECORD,,
