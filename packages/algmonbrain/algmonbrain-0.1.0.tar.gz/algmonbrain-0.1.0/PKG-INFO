@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: algmonbrain
+Version: 0.1.0
+Summary: add sth
+Home-page: 
+Author: algmon
+Author-email: support@algmon.com
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# the Algmon Brain toolkit
+
+## company intro
+
+* https://algmon.com/
+
+## **toolkit intro**
+
+* https://algmon.com/docs/infra/intro
+
+## main features
+
+* intents simulation
+* single neural modeling
+* neural network design & training & prediction
+
+## dependencies
+
+* python package
+* 
+
+## how to clean & publish
+
+1. (optional) python setup.py clean --all
+2. python -m build
+3. (optional) twine upload -r testpypi dist/*
+4. twine upload dist/*
+
+## how to install
+
+## how to test
+
+## how to run
+
+## the license
+
+* This package is released under the Apache License v2
