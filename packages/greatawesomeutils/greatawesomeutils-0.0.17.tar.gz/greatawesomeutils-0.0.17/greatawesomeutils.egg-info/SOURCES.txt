@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+greatawesomeutils/__init__.py
+greatawesomeutils/config.py
+greatawesomeutils/enums.py
+greatawesomeutils/lang.py
+greatawesomeutils/req.py
+greatawesomeutils/threading_utils.py
+greatawesomeutils.egg-info/PKG-INFO
+greatawesomeutils.egg-info/SOURCES.txt
+greatawesomeutils.egg-info/dependency_links.txt
+greatawesomeutils.egg-info/top_level.txt
