@@ -1,0 +1,180 @@
+[build-system]
+requires = ["hatchling>=1.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter_client"
+dynamic = ["version"]
+description = "Jupyter protocol implementation and client libraries"
+keywords = [ "Interactive", "Interpreter", "Shell", "Web",]
+classifiers = [
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "importlib_metadata>=4.8.3;python_version<\"3.10\"",
+    "jupyter_core>=4.9.2",
+    "python-dateutil>=2.8.2",
+    "pyzmq>=23.0",
+    "tornado>=6.2",
+    "traitlets",
+]
+
+[[project.authors]]
+name = "Jupyter Development Team"
+email = "jupyter@googlegroups.com"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+file = "COPYING.md"
+
+[project.urls]
+Homepage = "https://jupyter.org"
+
+[project.optional-dependencies]
+test = [
+    "codecov",
+    "coverage",
+    "ipykernel>=6.11",
+    "mypy",
+    "paramiko; sys_platform == 'win32'",
+    "pre-commit",
+    "pytest",
+    "pytest-asyncio>=0.19",
+    "pytest-cov",
+    "pytest-timeout",
+]
+docs = [
+    "ipykernel",
+    "myst-parser",
+    "sphinx>=4",
+    "pydata_sphinx_theme",
+    "sphinxcontrib_github_alt",
+]
+
+[project.scripts]
+jupyter-kernelspec = "jupyter_client.kernelspecapp:KernelSpecApp.launch_instance"
+jupyter-run = "jupyter_client.runapp:RunApp.launch_instance"
+jupyter-kernel = "jupyter_client.kernelapp:main"
+
+[project.entry-points."jupyter_client.kernel_provisioners"]
+local-provisioner = "jupyter_client.provisioning:LocalProvisioner"
+
+[tool.hatch.version]
+path = "jupyter_client/_version.py"
+validate-bump = false
+
+[tool.hatch.envs.docs]
+features = ["docs"]
+[tool.hatch.envs.docs.scripts]
+build = "make -C docs html SPHINXOPTS='-W'"
+
+[tool.hatch.envs.test]
+features = ["test"]
+[tool.hatch.envs.test.scripts]
+test = "python -m pytest -vv {args}"
+nowarn = "python -m pytest -vv -W default {args}"
+
+[tool.hatch.envs.cov]
+features = ["test"]
+dependencies = ["coverage", "pytest-cov"]
+[tool.hatch.envs.cov.env-vars]
+ARGS = "-vv --cov jupyter_client --cov-branch --cov-report term-missing:skip-covered"
+[tool.hatch.envs.cov.scripts]
+test = "python -m pytest $ARGS {args}"
+
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+target_version = [
+    "py37",
+    "py38",
+    "py39",
+    "py310",
+]
+
+[tool.pytest.ini_options]
+addopts = "-raXs --durations 10 --color=yes --doctest-modules"
+testpaths = [
+    "jupyter_client",
+    "tests/"
+]
+timeout = 100
+# Restore this setting to debug failures
+timeout_method = "thread"
+asyncio_mode = "auto"
+filterwarnings= [
+  # Fail on warnings
+  "error",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "def __repr__",
+  "if self.debug:",
+  "if settings.DEBUG",
+  "raise AssertionError",
+  "raise NotImplementedError",
+  "if 0:",
+  "if __name__ == .__main__.:",
+  "class .*\bProtocol\\):",
+"@(abc\\.)?abstractmethod",
+]
+omit = [
+    "jupyter_client/ssh/forward.py"
+]
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = false
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+no_implicit_reexport = false
+pretty = true
+show_error_context = true
+show_error_codes = true
+strict_equality = true
+strict_optional = true
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_return_any = false
+warn_unused_ignores = true
+
+[tool.flake8]
+ignore = "E501, W503, E402"
+builtins = "c, get_config"
+exclude = [
+    ".cache",
+    ".github",
+    "docs",
+    "setup.py",
+]
+enable-extensions = "G"
+extend-ignore = [
+    "G001", "G002", "G004", "G200", "G201", "G202",
+    # black adds spaces around ':'
+    "E203",
+]
+per-file-ignores = [
+    # B011: Do not call assert False since python -O removes these calls
+    # F841 local variable 'foo' is assigned to but never used
+    # B007 Loop control variable
+    "tests/*: B011", "F841", "B007",
+]
