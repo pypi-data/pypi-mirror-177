@@ -1,0 +1,10 @@
+setup.py
+jaim_probability/Binomialdistribution.py
+jaim_probability/Gaussiandistribution.py
+jaim_probability/Generaldistribution.py
+jaim_probability/__init__.py
+jaim_probability.egg-info/PKG-INFO
+jaim_probability.egg-info/SOURCES.txt
+jaim_probability.egg-info/dependency_links.txt
+jaim_probability.egg-info/not-zip-safe
+jaim_probability.egg-info/top_level.txt
