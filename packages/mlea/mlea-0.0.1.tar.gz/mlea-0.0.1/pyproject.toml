@@ -1,0 +1,22 @@
+[build-system]
+requires = [
+    "setuptools>=60",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+python_files = "*.py"
+python_classes = "*Tests"
+python_functions = "test_*"
+
+[tool.pylint."MESSAGES CONTROL"]
+max-line-length = 120
+# WO511 disables TODO warnings
+# W1203 disables "Use lazy % formatting in logging functions" warning
+disable = "W0511,W1203"

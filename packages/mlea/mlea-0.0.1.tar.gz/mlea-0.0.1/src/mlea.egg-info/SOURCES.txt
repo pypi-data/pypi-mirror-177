@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/mlea.egg-info/PKG-INFO
+src/mlea.egg-info/SOURCES.txt
+src/mlea.egg-info/dependency_links.txt
+src/mlea.egg-info/entry_points.txt
+src/mlea.egg-info/top_level.txt
