@@ -1,0 +1,16 @@
+Click
+flask
+falcon
+ansicolors
+click-default-group
+pika
+pyYaml
+mypy_extensions
+aio-pika
+aiomisc
+graphviz
+pydash
+jsons
+quart
+kombu
+jinja2<3.1,>=3.0
