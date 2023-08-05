@@ -1,0 +1,158 @@
+
+[all]
+pytest
+pytest-cov
+coverage[toml]
+ubelt
+Cython
+scikit-build
+cmake
+ninja
+
+[all-strict]
+pytest==4.6.11
+pytest-cov==2.10.1
+coverage[toml]==5.3
+ubelt==1.0.1
+Cython==3.0.0a11
+scikit-build==0.11.1
+cmake==3.21.2
+ninja==1.10.2
+
+[all-strict:python_version < "3.10" and python_version >= "3.9"]
+cibuildwheel==2.11.2
+
+[all-strict:python_version < "3.11" and python_version >= "3.10"]
+cibuildwheel==2.11.2
+
+[all-strict:python_version < "3.7" and python_version >= "3.6"]
+cibuildwheel==2.8.1
+
+[all-strict:python_version < "3.8" and python_version >= "3.7"]
+cibuildwheel==2.11.2
+
+[all-strict:python_version < "3.9" and python_version >= "3.8"]
+cibuildwheel==2.11.2
+
+[all-strict:python_version < "4.0" and python_version >= "3.11"]
+cibuildwheel==2.11.2
+
+[all-strict:python_version <= "3.6"]
+IPython<7.17.0,==0.13
+
+[all-strict:python_version >= "3.7"]
+IPython==0.13
+
+[all:python_version < "3.10" and python_version >= "3.9"]
+cibuildwheel
+
+[all:python_version < "3.11" and python_version >= "3.10"]
+cibuildwheel
+
+[all:python_version < "3.7" and python_version >= "3.6"]
+cibuildwheel
+
+[all:python_version < "3.8" and python_version >= "3.7"]
+cibuildwheel
+
+[all:python_version < "3.9" and python_version >= "3.8"]
+cibuildwheel
+
+[all:python_version < "4.0" and python_version >= "3.11"]
+cibuildwheel
+
+[all:python_version <= "3.6"]
+IPython
+
+[all:python_version >= "3.7"]
+IPython
+
+[build]
+Cython
+scikit-build
+cmake
+ninja
+
+[build-strict]
+Cython==3.0.0a11
+scikit-build==0.11.1
+cmake==3.21.2
+ninja==1.10.2
+
+[build-strict:python_version < "3.10" and python_version >= "3.9"]
+cibuildwheel==2.11.2
+
+[build-strict:python_version < "3.11" and python_version >= "3.10"]
+cibuildwheel==2.11.2
+
+[build-strict:python_version < "3.7" and python_version >= "3.6"]
+cibuildwheel==2.8.1
+
+[build-strict:python_version < "3.8" and python_version >= "3.7"]
+cibuildwheel==2.11.2
+
+[build-strict:python_version < "3.9" and python_version >= "3.8"]
+cibuildwheel==2.11.2
+
+[build-strict:python_version < "4.0" and python_version >= "3.11"]
+cibuildwheel==2.11.2
+
+[build:python_version < "3.10" and python_version >= "3.9"]
+cibuildwheel
+
+[build:python_version < "3.11" and python_version >= "3.10"]
+cibuildwheel
+
+[build:python_version < "3.7" and python_version >= "3.6"]
+cibuildwheel
+
+[build:python_version < "3.8" and python_version >= "3.7"]
+cibuildwheel
+
+[build:python_version < "3.9" and python_version >= "3.8"]
+cibuildwheel
+
+[build:python_version < "4.0" and python_version >= "3.11"]
+cibuildwheel
+
+[ipython]
+
+[ipython-strict]
+
+[ipython-strict:python_version <= "3.6"]
+IPython<7.17.0,==0.13
+
+[ipython-strict:python_version >= "3.7"]
+IPython==0.13
+
+[ipython:python_version <= "3.6"]
+IPython
+
+[ipython:python_version >= "3.7"]
+IPython
+
+[runtime-strict]
+
+[tests]
+pytest
+pytest-cov
+coverage[toml]
+ubelt
+
+[tests-strict]
+pytest==4.6.11
+pytest-cov==2.10.1
+coverage[toml]==5.3
+ubelt==1.0.1
+
+[tests-strict:python_version <= "3.6"]
+IPython<7.17.0,==0.13
+
+[tests-strict:python_version >= "3.7"]
+IPython==0.13
+
+[tests:python_version <= "3.6"]
+IPython
+
+[tests:python_version >= "3.7"]
+IPython
