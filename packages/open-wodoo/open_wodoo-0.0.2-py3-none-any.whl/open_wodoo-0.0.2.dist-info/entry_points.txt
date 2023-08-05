@@ -1,0 +1,3 @@
+[console_scripts]
+wodoo=open_wodoo.cli:launch_cli
+
