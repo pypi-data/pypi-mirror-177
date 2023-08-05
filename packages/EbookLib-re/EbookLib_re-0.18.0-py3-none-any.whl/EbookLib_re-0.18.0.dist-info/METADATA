@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: EbookLib-re
+Version: 0.18.0
+Summary: Ebook library which can handle EPUB2/EPUB3 and Kindle format (fork up to date with upstream)
+Home-page: https://github.com/avalonv/ebooklib-re
+Author: Aleksandar Erkalovic
+License: GNU Affero General Public License
+Keywords: ebook,epub,kindle
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: lxml
+Requires-Dist: six
+
+Ebooklib-re
+==============
+
+Fork of Ebooklib which exists solely to sync upstream updates missing from the PyPi release, while the author doesn't update the original.
+
+License
+=======
+
+EbookLib is licensed under the AGPL license.
+
+
+Authors
+=======
+
+Full list of authors is in AUTHORS.txt file.
