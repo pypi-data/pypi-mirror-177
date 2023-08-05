@@ -1,0 +1,12 @@
+retriv/__init__.py,sha256=iZizFImpEw6O3A3NJ_-pLsjq4PfGLbOS-AbK4qH5MRo,75
+retriv/autotune.py,sha256=KHQOiO96JhSmY--VrPkUZ82Ipc8UWhRTNSUXvw9fMhc,985
+retriv/bm25.py,sha256=8mXNfnmMvXkKE4_WjRCz72GoeZeY_vFN9lDGQpP10pY,2180
+retriv/search_engine.py,sha256=jGB0Y-Wjclf8AL9mHrRCmh6g0nRGVI0K_Pkf957w_xM,11607
+retriv/stemmers.py,sha256=wvGuFwHvi3XmKTzjaSHKxAPfOwoHwIw237nFVSvYahQ,5303
+retriv/stopwords.py,sha256=YpmNiNH3Wkyr4JJZ8vlyKAis35ZmcQ7_LhnUyBDZB38,734
+retriv/tokenizers.py,sha256=6vZ_o9jcy891mBILHDZY-1rHLCToomBHhkjx4ev-vn4,447
+retriv-0.1.1.dist-info/LICENSE,sha256=fDJJyFzVnQWywMXxYAOBw7nq1iQa7vzF77sTpsfDS1Y,1070
+retriv-0.1.1.dist-info/METADATA,sha256=PwKRKxLYRcccKnGtB65YY_Fb_vn3VZ2Qqc5A0CR7bdM,8311
+retriv-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+retriv-0.1.1.dist-info/top_level.txt,sha256=oIxw7izR_V5i-CJJEk_SJMg-PQ3SYl1oNSunOfI-Mwg,7
+retriv-0.1.1.dist-info/RECORD,,
