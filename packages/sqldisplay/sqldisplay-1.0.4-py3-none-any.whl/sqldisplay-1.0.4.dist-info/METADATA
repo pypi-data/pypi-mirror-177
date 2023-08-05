@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sqldisplay
+Version: 1.0.4
+Summary: A simple package to make displaying SQL queries much easier
+Project-URL: Homepage, https://github.com/Guinea1/sqldisplay
+Author-email: Bobby D <bobbydapps@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# sqldisplay
+
+## An extremely simple package to make displaying SQL queries much easier
+
+### How does it work?
+It simply takes cursor.description, as well as the query result and turns it into a readable format
+
+### How do I use it?
+Pretty simple, just install with pip(3):
+`python3 -m pip install sqldisplay`
+
+And then use it! (example)
+```
+import mysql.connector
+from sqldisplay import sqldisplay
+
+db = mysql.connector.connect(
+    host="mysql-container",
+    user="root",
+    passwd="root",
+    database="testdb"
+)
+
+cursor = db.cursor()
+
+query = "SELECT * FROM Customers WHERE Country = 'USA';"
+cursor.execute(query)
+result = cursor.fetchall()
+sqldisplay.format(cursor.description, result)
+```
