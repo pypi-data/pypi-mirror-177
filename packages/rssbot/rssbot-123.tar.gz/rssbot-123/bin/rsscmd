@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0114,C0115,C0116,C0209,C0413
+
+
+__version__ = "123"
+
+
+"feeding rss into your irc channel"
+
+
+import os
+import pwd
+import sys
+
+
+from stat import ST_UID, ST_GID
+
+
+from rssbot.obj import Wd, cdir, lower, permission, update
+from rssbot.hdl import Cfg, Command, Handler, command, parse, scan
+
+
+from rssbot import irc, rss
+
+
+Wd.workdir = "/var/lib/rssbot/"
+
+
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+def cmd(event):
+    event.reply(",".join(sorted(Command.cmd)))
+
+
+def ver(event):
+    event.reply("RSSBOT %s" % __version__)
+
+
+def main():
+    #print(os.getuid())
+    #lower("rssbot")
+    Command.add(cmd)
+    Command.add(ver)
+    txt = ' '.join(sys.argv[1:])
+    cfg = parse(txt)
+    update(Cfg, cfg)
+    cli = CLI()
+    evt = command(cli, cfg.otxt)
+    evt.wait()
+
+
+main()

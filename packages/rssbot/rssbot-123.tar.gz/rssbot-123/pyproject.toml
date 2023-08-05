@@ -1,0 +1,22 @@
+[project]
+name = "rssbot"
+version = "123"
+authors = [
+  { name="Bart Thate", email="bthate67@gmail.com" },
+]
+description = "feeding rss into your irc channel"
+readme = "README.rst"
+requires-python = ">=3.10"
+classifiers = [
+        "Development Status :: 4 - Beta",
+        "License :: Public Domain",
+        "Operating System :: Unix",
+        "Programming Language :: Python :: 3",
+        "Topic :: Utilities",
+]
+
+[project.urls]
+"projectpage" = "https://github.com/bthate/rssbot"
+
+[build-system]
+requires = ["setuptools", "wheel"]
