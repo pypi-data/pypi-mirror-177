@@ -1,0 +1,3 @@
+[console_scripts]
+cs = crawler_studio.cmd:cmd
+

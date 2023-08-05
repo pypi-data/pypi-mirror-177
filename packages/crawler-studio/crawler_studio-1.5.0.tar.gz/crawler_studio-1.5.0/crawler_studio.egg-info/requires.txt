@@ -1,0 +1,8 @@
+django==3.2.15
+django-rest-framework
+django-cors-headers
+djangorestframework_camel_case
+python-scrapyd-api
+pymysql
+django_apscheduler
+python-dateutil
