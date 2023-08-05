@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+sp_setup.py
+commandkit/__init__.py
+commandkit/_parser.py
+commandkit/commander.py
+commandkit/core.py
+commandkit/eventer.py
+commandkit/parser.py
+commandkit.egg-info/PKG-INFO
+commandkit.egg-info/SOURCES.txt
+commandkit.egg-info/dependency_links.txt
+commandkit.egg-info/top_level.txt
