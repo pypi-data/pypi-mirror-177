@@ -1,0 +1,11 @@
+serenipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serenipy/census.py,sha256=5ZADWTe1MqF75vVW6ARb9ESpW5D8PcpsPbNRxV5ovao,5114
+serenipy/dtaselect.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serenipy/dtaselectfilter.py,sha256=-XDYVnErIH3byj42EEDB4_Ed-mTAYVk0dKz1tZk4GmE,28440
+serenipy/ms2.py,sha256=RPtNNn9grkd8DTe88G5mCjIa51Tg0JmeOEH365hoUYc,5727
+serenipy/sqt.py,sha256=D3h7t_wXaSKoHGgXHrxAOuggdBhE2V_Yo5xd8Wi7CjQ,18915
+serenipy/utils.py,sha256=iibOlScw8PegMbEWLg1rTc9gq9EK_SKPsSajgtkOGTk,322
+serenipy-0.1.0.dist-info/METADATA,sha256=vScap7uuM4zYO_1s5eXR9Vyj7vd2XpuG64rFmacOmKg,387
+serenipy-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+serenipy-0.1.0.dist-info/top_level.txt,sha256=VeZDYKrKhj0MvHg8oRj9THhE27cqA63lauKhYBXCzxI,9
+serenipy-0.1.0.dist-info/RECORD,,
