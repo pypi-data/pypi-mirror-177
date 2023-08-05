@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <_Low>low</_Low>
+    <BuildInPlaceDependsOn>$(BuildInPlaceDependsOn);Build;CalculateInPlace;_MkdirInPlace;_CopyInPlace</BuildInPlaceDependsOn>
+    <BuildSdistDependsOn>$(BuildSdistDependsOn);BuildDependencies</BuildSdistDependsOn>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Project>
+      <Properties>Configuration=$(Configuration);Platform=$(Platform);PyMsBuildTargets=$(PyMsBuildTargets)</Properties>
+    </Project>
+    <Content>
+      <IncludeInWheel>true</IncludeInWheel>
+      <RelativeSource></RelativeSource>
+      <Destination></Destination>
+      <TargetDir></TargetDir>
+      <TargetName></TargetName>
+      <TargetExt></TargetExt>
+    </Content>
+  </ItemDefinitionGroup>
+</Project>
