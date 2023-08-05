@@ -1,0 +1,9 @@
+playwright
+pydantic
+requests
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
+tox
