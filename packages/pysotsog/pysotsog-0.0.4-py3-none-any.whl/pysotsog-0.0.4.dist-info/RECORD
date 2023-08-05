@@ -1,0 +1,15 @@
+skg/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+skg/event.py,sha256=94wVraG0iSBJ5X-fvHNT3EaDNQOohzrYRbScNwSo0Dk,552
+skg/graph.py,sha256=nuhlRV828gtERCVlmQgwMSuCjB9kBZDKTVwZk3rM3dw,4042
+skg/kg.py,sha256=Oiqi6-phLiPprgzYLT-Sz9BsM-RnL9dsSj-XgQCfHow,1992
+skg/paper.py,sha256=CbCnCgKkHLDM9j7cXwclpE0MGta4W7AH1cMLnSwayFg,603
+skg/scholar.py,sha256=hjLaBpFpxlW2e7fn0U6b0gM9tQtpoOFr2BMAX0R__Lw,917
+skg/sotsog.py,sha256=7vEswYHp22kujz3ydC1IaEylMQfcQxG8UX23Uji_aR0,4469
+skg/version.py,sha256=IKmjgtbspjynjwGlTTY9JMMe1mjt5bm2c0kkwd_ZjRw,335
+skg/wdsearch.py,sha256=udNfeLj5-m8Wkt3xPkYnwDdurkzF7iAbshOKByd-UIc,2379
+skg/wikidata.py,sha256=WRy7mQVjjxF5_m5eUvTixqIxycw4-K7sPalm-TKHKug,1574
+pysotsog-0.0.4.dist-info/METADATA,sha256=3usrIoc936VcA8aSml4e_wcl1JTyIM1V7aPIc7M74Rs,15401
+pysotsog-0.0.4.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pysotsog-0.0.4.dist-info/entry_points.txt,sha256=1PW80sb_445ymJj3XM2xQyfe6QTBhG0-I96oDeXph7g,43
+pysotsog-0.0.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysotsog-0.0.4.dist-info/RECORD,,
