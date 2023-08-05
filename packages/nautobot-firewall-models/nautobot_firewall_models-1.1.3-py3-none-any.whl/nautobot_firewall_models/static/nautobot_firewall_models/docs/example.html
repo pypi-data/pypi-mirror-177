@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://nautobot-plugin-firewall-models.readthedocs.io/example.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Examples - Nautobot Firewall Models Documentation</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Examples";
+        var mkdocs_page_input_path = "example.md";
+        var mkdocs_page_url = "/example.html";
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Nautobot Firewall Models Documentation
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="example.html">Examples</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#using-api">Using API</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#graphql">GraphQL</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#query">Query</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#response">Response</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rest">REST</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#response_1">Response</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="development.html">Development Environment</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="models.html">Models</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="capirca.html">Capirca Usage</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Nautobot Firewall Models Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Examples</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/nautobot/nautobot-plugin-firewall-models/edit/main/docs/example.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h1>
+<p>These examples are based on the same data used in unittesting of the plugin. To load the data for testing in a development environment use the <code>invoke testdata</code> command.</p>
+<p>If you are not using the local development environment you are still in luck. The invoke command is actually wrapping <code>nautobot-server create_test_firewall_data</code>. This management command is available to any environment that has this plugin installed and listed in <code>PLUGINS</code> in the <code>nautobot_config.py</code>.</p>
+<h2 id="using-api">Using API<a class="headerlink" href="#using-api" title="Permanent link">&para;</a></h2>
+<p>All firewall models are built with the use of both the REST API and GraphQL API available to the end user.</p>
+<h3 id="graphql">GraphQL<a class="headerlink" href="#graphql" title="Permanent link">&para;</a></h3>
+<p>Example GraphQL query showing how to get instances for each of the models provided by this plugin:</p>
+<h4 id="query">Query<a class="headerlink" href="#query" title="Permanent link">&para;</a></h4>
+<pre><code class="language-no-highlight">{
+  policies {
+    name
+    assigned_devices {
+      name
+    }
+    assigned_dynamic_groups {
+      name
+    }
+    policy_rules {
+      name
+      request_id
+      action
+      log
+      source_user {
+        username
+      }
+      source_user_group {
+        name
+        user_objects {
+          username
+        }
+      }
+      source_zone {
+        name
+      }
+      source_address {
+        ip_address {
+          address
+        }
+        ip_range {
+          start_address
+          end_address
+        }
+      }
+      source_address_group {
+        address_objects {
+          ip_address {
+            address
+          }
+          ip_range {
+            start_address
+            end_address
+          }
+        }
+      }
+      destination_zone {
+        name
+      }
+      destination_address {
+        ip_address {
+          address
+        }
+        ip_range {
+          start_address
+          end_address
+        }
+      }
+      destination_address_group {
+        address_objects {
+          ip_address {
+            address
+          }
+          ip_range {
+            start_address
+            end_address
+          }
+        }
+      }
+    }
+  }
+}
+</code></pre>
+<h4 id="response">Response<a class="headerlink" href="#response" title="Permanent link">&para;</a></h4>
+<pre><code class="language-json">{
+  &quot;data&quot;: {
+    &quot;policies&quot;: [
+      {
+        &quot;name&quot;: &quot;Policy 1&quot;,
+        &quot;assigned_devices&quot;: [
+          {
+            &quot;name&quot;: &quot;DFW-WAN00&quot;
+          },
+          {
+            &quot;name&quot;: &quot;HOU-WAN00&quot;
+          }
+        ],
+        &quot;assigned_dynamic_groups&quot;: [],
+        &quot;policy_rules&quot;: [
+          {
+            &quot;name&quot;: &quot;Policy Rule 1&quot;,
+            &quot;request_id&quot;: &quot;req1&quot;,
+            &quot;action&quot;: &quot;DENY&quot;,
+            &quot;log&quot;: true,
+            &quot;source_user&quot;: [
+              {
+                &quot;username&quot;: &quot;user1&quot;
+              }
+            ],
+            &quot;source_user_group&quot;: [
+              {
+                &quot;name&quot;: &quot;usr group1&quot;,
+                &quot;user_objects&quot;: [
+                  {
+                    &quot;username&quot;: &quot;user1&quot;
+                  }
+                ]
+              }
+            ],
+            &quot;source_zone&quot;: null,
+            &quot;source_address&quot;: [
+              {
+                &quot;ip_address&quot;: null,
+                &quot;ip_range&quot;: {
+                  &quot;start_address&quot;: &quot;192.168.0.11&quot;,
+                  &quot;end_address&quot;: &quot;192.168.0.20&quot;
+                }
+              }
+            ],
+            &quot;source_address_group&quot;: [
+              {
+                &quot;address_objects&quot;: [
+                  {
+                    &quot;ip_address&quot;: null,
+                    &quot;ip_range&quot;: {
+                      &quot;start_address&quot;: &quot;192.168.0.11&quot;,
+                      &quot;end_address&quot;: &quot;192.168.0.20&quot;
+                    }
+                  },
+                  {
+                    &quot;ip_address&quot;: {
+                      &quot;address&quot;: &quot;10.0.0.1/32&quot;
+                    },
+                    &quot;ip_range&quot;: null
+                  }
+                ]
+              }
+            ],
+            &quot;destination_zone&quot;: null,
+            &quot;destination_address&quot;: [
+              {
+                &quot;ip_address&quot;: null,
+                &quot;ip_range&quot;: null
+              }
+            ],
+            &quot;destination_address_group&quot;: [
+              {
+                &quot;address_objects&quot;: [
+                  {
+                    &quot;ip_address&quot;: null,
+                    &quot;ip_range&quot;: {
+                      &quot;start_address&quot;: &quot;192.168.0.11&quot;,
+                      &quot;end_address&quot;: &quot;192.168.0.20&quot;
+                    }
+                  },
+                  {
+                    &quot;ip_address&quot;: null,
+                    &quot;ip_range&quot;: null
+                  },
+                  {
+                    &quot;ip_address&quot;: null,
+                    &quot;ip_range&quot;: null
+                  },
+                  {
+                    &quot;ip_address&quot;: {
+                      &quot;address&quot;: &quot;10.0.0.1/32&quot;
+                    },
+                    &quot;ip_range&quot;: null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+</code></pre>
+<h3 id="rest">REST<a class="headerlink" href="#rest" title="Permanent link">&para;</a></h3>
+<p>Below is an example response to the REST API GET request for a Policy object at <code>/api/plugins/firewall/policy/&lt;uuid&gt;/</code>. The detail API view for a Policy Object accepts in <code>deep=True</code> IF you would like to see a nested representation of all nested objects, this query param is not available on the list API view. Use this feature with caution as the query time for large sets of data can be substatial along with the size of the JSON payload.</p>
+<h4 id="response_1">Response<a class="headerlink" href="#response_1" title="Permanent link">&para;</a></h4>
+<pre><code class="language-json">{
+  &quot;id&quot;: &quot;246a037f-9858-4848-90a5-7ca967a3583f&quot;,
+  &quot;tags&quot;: [],
+  &quot;display&quot;: &quot;Policy 3&quot;,
+  &quot;policy_rules&quot;: [
+    {
+      &quot;rule&quot;: &quot;03182134-11a7-40a9-b433-169ab2df721b&quot;,
+      &quot;index&quot;: 10
+    },
+    {
+      &quot;rule&quot;: &quot;f78c677d-feaa-41b2-90f8-a4e8c8a62791&quot;,
+      &quot;index&quot;: 20
+    },
+    {
+      &quot;rule&quot;: &quot;b9aab2e9-5490-4dd7-b2b7-ca4c71247a10&quot;,
+      &quot;index&quot;: 30
+    },
+    {
+      &quot;rule&quot;: &quot;3b92704a-9913-4f02-b499-f083d6a4912a&quot;,
+      &quot;index&quot;: 99
+    },
+    {
+      &quot;rule&quot;: &quot;e10a4346-9d28-4b3f-b501-2ed8bd12a453&quot;,
+      &quot;index&quot;: 100
+    }
+  ],
+  &quot;assigned_devices&quot;: [],
+  &quot;assigned_dynamic_groups&quot;: [
+    {
+      &quot;dynamic_group&quot;: &quot;eaa19dba-bfe0-4072-a458-b47e1e1375e6&quot;,
+      &quot;weight&quot;: 1000
+    }
+  ],
+  &quot;created&quot;: &quot;2022-06-09&quot;,
+  &quot;last_updated&quot;: &quot;2022-06-09T01:35:14.230438Z&quot;,
+  &quot;_custom_field_data&quot;: {},
+  &quot;description&quot;: &quot;&quot;,
+  &quot;name&quot;: &quot;Policy 3&quot;,
+  &quot;status&quot;: &quot;35206353-47f4-4e71-9e2c-807092b6c439&quot;,
+  &quot;tenant&quot;: &quot;5fabe6c7-84a6-45af-95a0-384f9ebcbeb8&quot;
+}
+</code></pre>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="usage.html" class="btn btn-neutral float-left" title="Usage"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="development.html" class="btn btn-neutral float-right" title="Development Environment">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/nautobot/nautobot-plugin-firewall-models" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="usage.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="development.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

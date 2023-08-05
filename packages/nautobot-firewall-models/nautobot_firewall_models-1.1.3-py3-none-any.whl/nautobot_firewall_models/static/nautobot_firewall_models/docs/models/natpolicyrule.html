@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://nautobot-plugin-firewall-models.readthedocs.io/models/natpolicyrule.html" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>NATPolicyRule - Nautobot Firewall Models Documentation</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="../extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "NATPolicyRule";
+        var mkdocs_page_input_path = "models/natpolicyrule.md";
+        var mkdocs_page_url = "/models/natpolicyrule.html";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../index.html" class="icon icon-home"> Nautobot Firewall Models Documentation
+        </a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../index.html">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../example.html">Examples</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../development.html">Development Environment</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../models.html">Models</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../capirca.html">Capirca Usage</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Nautobot Firewall Models Documentation</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html" class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>NATPolicyRule</li>
+    <li class="wy-breadcrumbs-aside">
+        <a href="https://github.com/nautobot/nautobot-plugin-firewall-models/edit/main/docs/models/natpolicyrule.md"
+          class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="natpolicyrule">NATPolicyRule<a class="headerlink" href="#natpolicyrule" title="Permanent link">&para;</a></h1>
+<p>Represents a single network address translation rule in a NATPolicy.</p>
+<p>It is recommended to use a descriptive name to best identify a NATPolicyRule, otherwise the string representation of the NATPolicyRule will be the UUID.</p>
+<h2 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h2>
+<h3 id="meta-information">Meta information<a class="headerlink" href="#meta-information" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Name (optional, string)</li>
+<li>Status (FK to Status)</li>
+<li>Tags (M2M to Tag)</li>
+<li>Source Zone (FK to Zone)</li>
+<li>Source Zone (FK to Zone)</li>
+<li>Request ID (optional, string)<ul>
+<li>Meant to represent an upstream request (e.g. an service request from an ITSM solution).</li>
+</ul>
+</li>
+<li>Index (optional, int)<ul>
+<li>Sets the index of the PolicyRule in the Policy.</li>
+<li>Example <code>20 permit icmp host 1.1.1.1 any</code> would have an index of <code>20</code>.</li>
+<li>Set as optional for now, will be set to required at a later date with default as the highest value + 10.</li>
+</ul>
+</li>
+<li>Log (boolean)</li>
+</ul>
+<h3 id="before-translation">Before translation<a class="headerlink" href="#before-translation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Original Source Address (M2M to AddressObject)</li>
+<li>Original Source Address Group (M2M to AddressObjectGroup)</li>
+<li>Original Destination Address (M2M to AddressObject)</li>
+<li>Original Destination Address Group (M2M to AddressObjectGroup)</li>
+<li>Original Source Service (M2M to ServiceObject)</li>
+<li>Original Source Service Group (M2M to ServiceObjectGroup)</li>
+<li>Original Destination Service (M2M to ServiceObject)</li>
+<li>Original Destination Service Group (M2M to ServiceObjectGroup)</li>
+</ul>
+<h3 id="after-translation">After translation<a class="headerlink" href="#after-translation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Translated Source Address (M2M to AddressObject)</li>
+<li>Translated Source Address Group (M2M to AddressObjectGroup)</li>
+<li>Translated Destination Address (M2M to AddressObject)</li>
+<li>Translated Destination Address Group (M2M to AddressObjectGroup)</li>
+<li>Translated Source Service (M2M to ServiceObject)</li>
+<li>Translated Source Service Group (M2M to ServiceObjectGroup)</li>
+<li>Translated Destination Service (M2M to ServiceObject)</li>
+<li>Translated Destination Service Group (M2M to ServiceObjectGroup)</li>
+</ul>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/nautobot/nautobot-plugin-firewall-models" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
