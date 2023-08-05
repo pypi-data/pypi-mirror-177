@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-summer-boot
+Version: 1.0.1
+Summary: After spring it comes the summer.
+Author: Joan Travé
+Author-email: jtravegordillo@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/joanTrave/summer-boot
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+summer-boot
