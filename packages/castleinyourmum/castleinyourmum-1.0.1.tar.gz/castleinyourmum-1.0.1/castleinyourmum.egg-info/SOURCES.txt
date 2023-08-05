@@ -1,0 +1,7 @@
+setup.py
+castleinyourmum/__init__.py
+castleinyourmum/mail.py
+castleinyourmum.egg-info/PKG-INFO
+castleinyourmum.egg-info/SOURCES.txt
+castleinyourmum.egg-info/dependency_links.txt
+castleinyourmum.egg-info/top_level.txt
