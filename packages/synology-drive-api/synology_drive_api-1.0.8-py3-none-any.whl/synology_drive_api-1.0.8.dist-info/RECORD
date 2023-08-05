@@ -1,0 +1,10 @@
+synology_drive_api/base.py,sha256=3-yX6TuVb6sE54mNwFKTU3S5SgV20zRpFIC35Y-3XUg,9906
+synology_drive_api/drive.py,sha256=DLOi9pODDcRpAeisjWOmEkNwKTELCWD1UcTyN9SV3s8,1750
+synology_drive_api/files.py,sha256=pe0myA-ax-tM9Verln_aBinNp11uVv-7OFt4l52hAQ0,13335
+synology_drive_api/labels.py,sha256=8jiHd9IEa6j412SXlIjiLSPs2PN35zrIOFf_UvDfegU,7475
+synology_drive_api/tasks.py,sha256=1ck0eYx_NTUk6ZEC66jkf4e3eRD9WsuYiKBLP_sMXE0,785
+synology_drive_api/utils.py,sha256=WH66mNZeM1vvRqtt5uRu5IiapHIKQoltvu-mxWdqP2k,1920
+synology_drive_api-1.0.8.dist-info/LICENSE,sha256=z9P03NIvkZPCwMRPQo7YTJh32Zscg5KxeBgatpqV2p8,1089
+synology_drive_api-1.0.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+synology_drive_api-1.0.8.dist-info/METADATA,sha256=rJ-Q_qOmn2UszvWoaNmcT6-alovMKz-2Z7aUmfDfQMc,7363
+synology_drive_api-1.0.8.dist-info/RECORD,,
