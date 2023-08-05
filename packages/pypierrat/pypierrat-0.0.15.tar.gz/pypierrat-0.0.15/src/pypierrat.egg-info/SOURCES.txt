@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pypierrat/__init__.py
+src/pypierrat/dfconverter.py
+src/pypierrat.egg-info/PKG-INFO
+src/pypierrat.egg-info/SOURCES.txt
+src/pypierrat.egg-info/dependency_links.txt
+src/pypierrat.egg-info/top_level.txt
