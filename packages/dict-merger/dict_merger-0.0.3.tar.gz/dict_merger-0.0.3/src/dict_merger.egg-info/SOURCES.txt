@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/dict_merger/__init__.c
+src/dict_merger/__init__.py
+src/dict_merger/dynamic_merger.c
+src/dict_merger/dynamic_merger.py
+src/dict_merger/static_merger.c
+src/dict_merger/static_merger.pyx
+src/dict_merger.egg-info/PKG-INFO
+src/dict_merger.egg-info/SOURCES.txt
+src/dict_merger.egg-info/dependency_links.txt
+src/dict_merger.egg-info/top_level.txt
