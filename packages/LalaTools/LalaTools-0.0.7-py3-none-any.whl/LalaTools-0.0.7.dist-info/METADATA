@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: LalaTools
+Version: 0.0.7
+Summary: Lala Test Description
+Home-page: UNKNOWN
+Author: LalaUser789
+Author-email: aa01092308481@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: mss
+Requires-Dist: Pillow
+
+UNKNOWN
+
+
