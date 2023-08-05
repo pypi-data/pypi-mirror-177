@@ -1,0 +1,155 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = [
+  "hatchling",
+]
+
+[project]
+name = "pytoil"
+version = "0.37.0"
+description = "CLI to automate the development workflow."
+readme = "README.md"
+keywords = [
+  "automation",
+  "cli",
+  "developer-tools",
+  "python",
+]
+license = { text = "Apache Software License 2.0" }
+maintainers = [ { name = "Tom Fleet" }, { email = "tomfleet2018@gmail.com" } ]
+authors = [ { name = "Tom Fleet" }, { email = "tomfleet2018@gmail.com" } ]
+requires-python = ">=3.9"
+dependencies = [
+  "click==8.1.3",
+  "cookiecutter==2.1.1",
+  "copier==7.0.1",
+  "httpx==0.23",
+  "humanize==4.4",
+  "pydantic==1.10.2",
+  "PyYAML==6",
+  "questionary==1.10",
+  "rich==12.6",
+  "rtoml==0.9",
+  "thefuzz[speedup]==0.19",
+  'typing_extensions==4.4; python_version <= "3.9"',
+  "virtualenv==20.16.7",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Natural Language :: English",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
+[project.optional-dependencies]
+dev = [
+  "black==22.10",
+  "coverage[toml]==6.5",
+  "flake8==5.0.4",
+  "flake8-bugbear==22.10.27",
+  "freezegun==1.2.2",
+  "isort==5.10.1",
+  "mkdocs==1.4.2",
+  "mkdocs-material==8.5.10",
+  "mypy==0.991",
+  "nox==2022.8.7",
+  "pre-commit==2.20",
+  "pytest==7.2",
+  "pytest-clarity==1.0.1",
+  "pytest-cov==4",
+  "pytest-httpx==0.21.2",
+  "pytest-mock==3.10",
+  "pytest-randomly==3.12",
+  "ruff==0.0.122",
+  "types-click==7.1.8",
+  "types-PyYAML==6.0.12.2",
+]
+
+[project.urls]
+Documentation = "https://FollowTheProcess.github.io/pytoil/"
+Homepage = "https://github.com/FollowTheProcess/pytoil"
+Source = "https://github.com/FollowTheProcess/pytoil"
+
+[project.scripts]
+pytoil = "pytoil.cli.root:main"
+
+
+[tool.isort]
+profile = "black"
+
+[tool.coverage.run]
+omit = [
+  "*__init__.py",
+  "*__main__.py",
+  "src/pytoil/cli/*",
+  "*exceptions.py",
+  "src/pytoil/environments/base.py",
+  "src/pytoil/starters/base.py",
+]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [ "# pragma: no cover", "def __repr__" ]
+
+[tool.mypy]
+files = [ "src/**/*.py", "noxfile.py" ]
+python_version = "3.10"
+ignore_missing_imports = true
+strict = true
+pretty = true
+disallow_untyped_decorators = false
+plugins = "pydantic.mypy"
+show_error_codes = true
+warn_unreachable = true
+enable_error_code = [ "ignore-without-code", "redundant-expr", "truthy-bool" ]
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [ "-ra", "--strict-markers", "--strict-config" ]
+xfail_strict = true
+filterwarnings = [
+  "error",
+  "ignore::DeprecationWarning", # DeprecationWarning: read_binary is deprecated. Use files() instead. Comes from virtualenv
+]
+log_cli_level = "info"
+pythonpath = [ "src" ]
+testpaths = [ "tests" ]
+
+[tool.ruff]
+line-length = 120
+extend-select = [
+  # https://github.com/charliermarsh/ruff#supported-rules
+  "U001",
+  "U002",
+  "U003",
+  "U004",
+  "U005",
+  "U006",
+  "U008",
+  "B011",
+  "B014",
+  "B025",
+]
+
+
+[tool.pycln]
+path = "/src"
+expand_stars = true
+all = true
+no_gitignore = false
