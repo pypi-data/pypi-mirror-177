@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: concrete-strength-prediction
+Version: 0.0.7
+Summary: Concrete Strength
+Home-page: https://github.com/jeandsantos/concrete-strength-prediction
+Author: Jean Dos Santos
+Author-email: jeandsantos88@gmail.com
+License: MIT
+Keywords: Concrete Strength
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: scikit-learn (>=1.1.2)
+Requires-Dist: feature-engine (>=1.4.1)
+Requires-Dist: pandas (>=1.5)
+Requires-Dist: numpy (>=1.23)
+Requires-Dist: matplotlib (>=3.6)
+Requires-Dist: mlflow (>=1.29)
+Requires-Dist: pydantic (>=1.10)
+Requires-Dist: strictyaml (>=1.6)
+Requires-Dist: typing-extensions (>=4.3)
+Provides-Extra: development
+Requires-Dist: ipykernel (>=6.15) ; extra == 'development'
+Requires-Dist: ipython (>=8.5) ; extra == 'development'
+Requires-Dist: ipywidgets (>=8.0) ; extra == 'development'
+Requires-Dist: jupyter (>=1.0) ; extra == 'development'
+Provides-Extra: testing
+Requires-Dist: pytest (>=7.3) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: pydantic (>=1.10) ; extra == 'testing'
+Requires-Dist: strictyaml (>=1.6) ; extra == 'testing'
+Requires-Dist: tox (>=3.27) ; extra == 'testing'
+Requires-Dist: black (>=21) ; extra == 'testing'
+Requires-Dist: isort (>=5.10) ; extra == 'testing'
+
+============================
+Concrete Strength
+============================
+
+
+.. image:: https://img.shields.io/pypi/v/concrete_strength_prediction.svg
+        :target: https://pypi.python.org/pypi/concrete_strength_prediction
+
+.. image:: https://app.travis-ci.com/jeandsantos/concrete-strength-prediction.svg
+        :target: https://app.travis-ci.com/github/jeandsantos/concrete-strength-prediction
+
+.. image:: https://readthedocs.org/projects/concrete_strength_prediction/badge/?version=latest
+        :target: https://concrete_strength_prediction.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Optimization of concrete mixtures with machine learning models
+
+
+* Free software: MIT license
+* Documentation: https://concrete_strength_prediction.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+=======
+History
+=======
+
+0.0.1 (2022-11-11)
+------------------
+
+* First release on PyPI.
+
+
