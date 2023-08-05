@@ -1,0 +1,2 @@
+[console_scripts]
+aqua = aqua_cli.__main__:main
