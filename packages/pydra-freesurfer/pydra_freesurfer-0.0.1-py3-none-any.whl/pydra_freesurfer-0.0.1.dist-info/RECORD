@@ -1,0 +1,13 @@
+pydra/tasks/freesurfer/__init__.py,sha256=KPvyYwCTrP-8y4sOk9aaHmybHymxQAUfb4tdzrC5N2U,580
+pydra/tasks/freesurfer/gtmseg.py,sha256=m5grz0PJoeX0V53z14BIWt5ley3e-DISpQ09d_X8Qoo,4627
+pydra/tasks/freesurfer/mri_convert.py,sha256=vavMH0E6V2nAHpMagyC0_auG2nvA84F1q17lj806b7Q,1723
+pydra/tasks/freesurfer/mri_surf2surf.py,sha256=e0UnY01D7PoIag0oJbJAQ2kKivNNExjDCUaM-NrIGmA,8320
+pydra/tasks/freesurfer/mri_vol2vol.py,sha256=10ptumTfRt_XsOzHGUNmLoF-AYrJbEmxs_5ghvfI4mA,6565
+pydra/tasks/freesurfer/mris_expand.py,sha256=sKSsMZ5OelMHdhzxr2W3074n_6uCAEFpy1yiziqOcG0,2596
+pydra/tasks/freesurfer/mris_preproc.py,sha256=IYXJFYofjlYuuWelqd9uaz5mne9rErBwL78cXad47iU,6823
+pydra/tasks/freesurfer/recon_all.py,sha256=JiFz5m67g3jfeJCxCLYbO3Dkx8RqgXWPWKpX64U0OxY,5015
+pydra/tasks/freesurfer/tkregister2.py,sha256=YlCUyUrrNlEBuF1vGNoDWLnBt9YREjgzuL5ybgNRXcQ,3620
+pydra_freesurfer-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydra_freesurfer-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pydra_freesurfer-0.0.1.dist-info/METADATA,sha256=Nx-6jyWLqIt8QICzA3ltohKbCzX2CyTV0mIqagHsjnY,1564
+pydra_freesurfer-0.0.1.dist-info/RECORD,,
