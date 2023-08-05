@@ -1,0 +1,22 @@
+[run]
+branch=True
+omit = 
+    cloudsync/providers/box.py
+    cloudsync/providers/dropbox.py
+    cloudsync/providers/filesystem.py
+    cloudsync/tests/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    assert
+    if __name__ == __main__:
+    log.debug
+    [.][.][.]
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if typing.TYPE_CHECKING:
+    if TYPE_CHECKING:
+    @pytest.mark.manual
+    @pytest.fixture
