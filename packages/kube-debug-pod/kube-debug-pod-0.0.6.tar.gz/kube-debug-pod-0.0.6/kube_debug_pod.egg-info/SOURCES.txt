@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+kube_debug_pod/__init__.py
+kube_debug_pod/__main__.py
+kube_debug_pod.egg-info/PKG-INFO
+kube_debug_pod.egg-info/SOURCES.txt
+kube_debug_pod.egg-info/dependency_links.txt
+kube_debug_pod.egg-info/entry_points.txt
+kube_debug_pod.egg-info/requires.txt
+kube_debug_pod.egg-info/top_level.txt
+kube_debug_pod.egg-info/zip-safe
