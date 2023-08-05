@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pymysqlpro
+Version: 2.0.4
+Summary: 对pymysql和sqlalchem模块的简单整合使用
+
+1、导入:from pymysqlpro import pymysqlpro,
+                      
+2、实例化:db=pymysqlpro.pymysqlpro("数据库账号名","密码","localhost","3306","数据库名"),
+                      
+3、查询(保存到dataframe变量中):df=db.chaxun(sql语句),
+                      
+4、增删改:db.gai(sql语句)。
+                      
