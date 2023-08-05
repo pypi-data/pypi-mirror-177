@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: commandkit
+Version: 0.1.1
+Summary: easy tool to parse string to commands, easy tool to create commandlines
+Home-page: 
+Author: Alawi Hussein Adnan Al Sayegh
+Author-email: programming.laboratorys@gmail.com
+License: MIT
+Keywords: commandkit,command,commandline,basic,commander
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# commandkit
+easy tool to parse string to commands, easy tool to create commandlines
+
+# installation
+
+Run the following to install:
+```cmd
+pip install commandkit
+```
+### or
+```cmd
+python -m pip install commandkit
+```
+if that didn't work, try replacing `pip` with `pip3`.
+
+Change Log
+==========
+
+0.1.0 (2022/11/16)
+- First Release
+
+0.1.1 (2022/11/16)
+- fix README.md
+
