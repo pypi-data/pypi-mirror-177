@@ -1,0 +1,8 @@
+README.md
+setup.py
+module/__init__.py
+module/hello.py
+testpypackage.egg-info/PKG-INFO
+testpypackage.egg-info/SOURCES.txt
+testpypackage.egg-info/dependency_links.txt
+testpypackage.egg-info/top_level.txt
