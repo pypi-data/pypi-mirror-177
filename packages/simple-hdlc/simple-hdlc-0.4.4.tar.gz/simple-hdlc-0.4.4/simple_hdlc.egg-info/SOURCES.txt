@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_hdlc/__init__.py
+simple_hdlc.egg-info/PKG-INFO
+simple_hdlc.egg-info/SOURCES.txt
+simple_hdlc.egg-info/dependency_links.txt
+simple_hdlc.egg-info/not-zip-safe
+simple_hdlc.egg-info/requires.txt
+simple_hdlc.egg-info/top_level.txt
