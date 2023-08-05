@@ -1,0 +1,8 @@
+hatchling
+beautifulsoup4==4.10.0
+requests==2.28.1
+pytimeparse==1.1.8
+datasize==1.0.0
+tqdm==4.64.l
+transmission-clutch==6.0.3
+feedparser==6.0.10
