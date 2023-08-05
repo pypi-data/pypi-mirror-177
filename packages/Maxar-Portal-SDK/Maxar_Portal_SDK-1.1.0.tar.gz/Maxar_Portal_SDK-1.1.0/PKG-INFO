@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Maxar_Portal_SDK
+Version: 1.1.0
+Summary: SDK for interacting with Maxar imagery platforms
+Author: MDS Marianas Team
+Author-email: DL-GCS-Marianas@maxar.com
+License: MIT
+Project-URL: Documentation, https://maxar-portal.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/Maxar-Corp/maxar-portal
+Keywords: OGC,WMS,WFS,WMTS,WCS,MAXAR,IMAGERY,GIS
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# MPS Portal Services
+
+ReadMe for the Portal Services SDK
