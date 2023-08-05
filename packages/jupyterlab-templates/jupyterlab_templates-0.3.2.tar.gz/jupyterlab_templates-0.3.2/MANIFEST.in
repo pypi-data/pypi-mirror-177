@@ -1,0 +1,22 @@
+include LICENSE
+include README.md
+include CONTRIBUTING.md
+
+include setup.cfg
+include pyproject.toml
+include Makefile
+
+graft jupyterlab_templates
+graft js
+graft jupyter-config
+
+prune docs 
+prune .github
+prune js/node_modules
+prune js/lib
+
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints
