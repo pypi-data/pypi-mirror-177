@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yczz-st
+Version: 0.0.2
+Summary: yczz_st 时空协同杨赤中滤波插值法
+Home-page: https://github.com/Spiderguy-07/yczz_st
+Author: wyd_hzq_sww_yql
+Author-email: 2396188089@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+时空协同杨赤中滤波插值法相关求解滤波值、拟合基本变化函数、绘制图像
+
+
