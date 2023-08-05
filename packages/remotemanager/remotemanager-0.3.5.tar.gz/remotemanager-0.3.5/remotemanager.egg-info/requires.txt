@@ -1,0 +1,8 @@
+pyyaml
+numpy
+
+[all]
+dill
+
+[dill]
+dill
