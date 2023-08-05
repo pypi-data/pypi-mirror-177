@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: visionai-data-format
+Version: 0.1.0
+Summary: converter tool for visionai format
+Home-page: 
+Author: LinkerVision
+Requires-Python: >=3.9, <4
