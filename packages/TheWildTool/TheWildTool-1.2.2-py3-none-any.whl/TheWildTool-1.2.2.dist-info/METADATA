@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TheWildTool
+Version: 1.2.2
+Summary: Generation of video datasets (under research) 🤖
+Home-page: https://github.com/ElHaban3ro/ConvTool
+Author: ElHaban3ro
+Author-email: habanferd@gmail.com
+License: MIT
+Keywords: Data Analysis,IA,datasets,Data Engenering,DeepLearing
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: moviepy (==1.0.3)
+Requires-Dist: ipython
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# TheWildTool
+A tool to generate video-based datasets (more information to come). Drink water.
