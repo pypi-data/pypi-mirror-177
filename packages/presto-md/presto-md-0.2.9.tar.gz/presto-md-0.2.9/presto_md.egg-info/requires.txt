@@ -1,0 +1,7 @@
+cctk>=0.2.15
+tqdm
+h5py
+pyyaml
+matplotlib
+asciichartpy
+fasteners
