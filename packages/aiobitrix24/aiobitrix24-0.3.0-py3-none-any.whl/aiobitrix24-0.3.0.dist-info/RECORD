@@ -1,0 +1,11 @@
+aiobitrix24/__init__.py,sha256=eJhmRLFKcxHgqiNGhzr1zhUMH-neo3ANhsRNU-1syPU,124
+aiobitrix24/_bitrix24.py,sha256=_qa97WKJJcbxk46l-Lx_6vZ7RfMQyvmet21hXmLxszA,3230
+aiobitrix24/_builders.py,sha256=ryuX28OACTQ0dtVEpZlGEtUtixkyYTlr8yhXez7nqvI,2573
+aiobitrix24/_crm.py,sha256=oP_WHkKbs05-EgORNVXXIfBkJuW3TM7mcZeAnjvVpL4,2763
+aiobitrix24/exceptions.py,sha256=WR6fQ7DKSUGe5gUGjmSydWS6q55ETtPA7UL7qh5_8fw,159
+aiobitrix24/methods.py,sha256=WHQ1lueFQtNlOrIbWYdtHjVmw072BkT3nORtyisJutQ,155
+LICENSE,sha256=Alc6qZk2-dHEEZJLZESGbxiU5tsBpYCXuRi3Jso5JxE,1072
+aiobitrix24-0.3.0.dist-info/LICENSE,sha256=Alc6qZk2-dHEEZJLZESGbxiU5tsBpYCXuRi3Jso5JxE,1072
+aiobitrix24-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aiobitrix24-0.3.0.dist-info/METADATA,sha256=hzdO3mS-JdXwcD8Zi6V1AqNAQDSnyyIn0GmPytT1g44,853
+aiobitrix24-0.3.0.dist-info/RECORD,,
