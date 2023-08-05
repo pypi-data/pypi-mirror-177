@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ppm-display
+Version: 1.0.2
+Summary: PPM/PGM image viewer
+Home-page: https://github.com/Trenza1ore/ppm-display
+Author: Hugo (Jin Huang)
+Author-email: huangj78@cardiff.ac.uk
+License: MIT
+Keywords: ppm pgm image python package ppm-display ppm-disp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python (>=3.4.0.14)
+Requires-Dist: docopt (>=0.6.2)
+
+A simple tool that displays ppm/pgm files via opencv
+
+
