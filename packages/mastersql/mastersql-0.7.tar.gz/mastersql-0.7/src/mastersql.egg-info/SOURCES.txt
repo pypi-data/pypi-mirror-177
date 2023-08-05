@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/mastersql.egg-info/PKG-INFO
+src/mastersql.egg-info/SOURCES.txt
+src/mastersql.egg-info/dependency_links.txt
+src/mastersql.egg-info/requires.txt
+src/mastersql.egg-info/top_level.txt
