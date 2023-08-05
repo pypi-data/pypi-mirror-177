@@ -1,0 +1,12 @@
+CHANGELOG.rst,sha256=EImGY0m88e4no1uICWvMQmR_6wE8pxcOBpawGGXwErE,1752
+README.rst,sha256=d91jd1qqnToR73yjI2W_0a3xJMyKf-Gux9D2iVQ0IZY,8594
+quiz/__init__.py,sha256=9CRfp5ghe6eZsVC3xCzYEq2eLaQkqm1g2KT3i-SvHxw,680
+quiz/build.py,sha256=IeT5U6e9VHYltI-kM8NiX8Znw4W9JwWPdpBTB7pnIW8,10506
+quiz/execution.py,sha256=R7vTquMbOhtHZR7fj0L14C5SCE4IN4t3aQ8S3FH4rBw,6144
+quiz/schema.py,sha256=12plgkDegJe7rfCx9vOy_smDIQEPKkw3gfM-rY8MsU0,16290
+quiz/types.py,sha256=g0VGVUw6xgSqQoWFbkUqbbXqNG7OUYbpFgLAmckYybI,10779
+quiz/utils.py,sha256=MuxyHBwny0aRzuSZOdRL47-9k3OnPWX-oRBSamnD7lY,5398
+quiz-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+quiz-0.3.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+quiz-0.3.1.dist-info/METADATA,sha256=O7p-Wt7Rj_-OI_G7_1xjmYVFndBCcYgsKB9DnVM8xrM,9855
+quiz-0.3.1.dist-info/RECORD,,
