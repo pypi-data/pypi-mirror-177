@@ -1,0 +1,13 @@
+mckit_nuclides/__init__.py,sha256=OKr51neyAiR-CTJOCWNHgGJVysDUvd-rwmE5bqyW7Pc,716
+mckit_nuclides/abundance.py,sha256=nbsOyn496ACUJ6pfcyuS-xzaaWmHQHm0bRDCXILZ6K4,1514
+mckit_nuclides/data/elements.csv,sha256=4MbO-Iyzy_X__wkuVwnelYiSpMqUm9jqc6rqN9tPzQI,13595
+mckit_nuclides/data/nist_atomic_weights_and_element_compositions.txt,sha256=DOCF2rYub32V2zbcbi1y2rndPZiefnpmsO5oPX8RmB8,717942
+mckit_nuclides/elements.py,sha256=b4tvHzjmfPKXIpQbI7KRuMNPB2O5c9lmMcg3036NFOU,4315
+mckit_nuclides/nuclides.py,sha256=tVw4CIPror9GEj2GOXzN7NXLk2RY_g2CgMu5I--3jwM,4779
+mckit_nuclides/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mckit_nuclides/utils/__init__.py,sha256=dH85SKahktFXGUo4Erf5udxiB44_yuLPRKj6UI3BbJY,56
+mckit_nuclides/utils/resource.py,sha256=h8VTyho8Qa5M1XtuY7iZtISFQdTDx2HOeqgoXD2qihs,2363
+mckit_nuclides-0.1.6.dist-info/LICENSE,sha256=F92yuUxaV4Eldkl9pyRLwJRYTHjA7xFWjDYCj1ZXEJE,1063
+mckit_nuclides-0.1.6.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mckit_nuclides-0.1.6.dist-info/METADATA,sha256=x97HUx4Lhb7yCM10LALQy2Cq_0NpLT8L-6i5XbevwDw,4516
+mckit_nuclides-0.1.6.dist-info/RECORD,,
