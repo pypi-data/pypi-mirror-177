@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: crtmlib
+Version: 0.0.5
+Summary: obtiene funciones contenidas en un .py ubicado en un bucket de AWS S3
+Home-page: https://github.com/Juanpepitt/crtmfuncs.git
+Author: Juan Pedro Hurtado Masero
+Author-email: juanpepitt@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requirements.txt
+
+CRTMLIB
