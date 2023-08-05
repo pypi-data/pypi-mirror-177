@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: compmec-nurbs
+Version: 0.2.1
+Summary: 
+Author: Carlos Adir
+Author-email: carlos.adir@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
