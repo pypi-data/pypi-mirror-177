@@ -1,0 +1,11 @@
+torch
+progressbar2
+torchaudio
+numpy
+virtual-dataset
+
+[dev]
+ipython
+pytest
+twine
+build
