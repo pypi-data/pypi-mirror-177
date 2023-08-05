@@ -1,0 +1,14 @@
+json_cpp2_core.cp36-win_amd64.pyd,sha256=-U-MiQIzHssdKhCMRnnzve3qw1Q1fGMof7yCqbVUDi0,258048
+json_cpp2/json_list.py,sha256=gMwpQYvTF4bh2A-oKyun6Aq_JaLIUPbosIrp39b5r6c,10748
+json_cpp2/json_object.py,sha256=QX7dByKel7NDIWoLsn_Mqq3SiGE8QD04RzD3PvE-4rA,7990
+json_cpp2/json_parsable.py,sha256=AUQg3ocoe3dHAxFpHWJzAUAgfyfHa1GsnEyBMCv5UWs,875
+json_cpp2/json_parser.py,sha256=ApBBqn4XtzEk_25qNMCf5wdICprihLBVfQiDz4loMNA,9471
+json_cpp2/__init__.py,sha256=qTsXK0FcmegaSRS9o-f0DcbO7vzasw5xq1lFMrwKyNc,1321
+json_cpp2-0.0.111.data/platlib/.load-order-json_cpp2-0.0.111,sha256=JKcc36NVULcRc2mwXzXn5udi-nCmRySL93Q7w2vpTnA,34
+json_cpp2-0.0.111.data/platlib/msvcp140.dll,sha256=qIuMHI8nv5D-lg4Oi9VphK1IFnBxr5LZbsEFH4n4J_s,571824
+json_cpp2-0.0.111.data/platlib/vcruntime140_1.dll,sha256=BXnUYOoffoqBX6VaiCGl_0icgJfwUXZem-ryXY0PJ9Y,37240
+json_cpp2-0.0.111.dist-info/DELVEWHEEL,sha256=Sea_ZsUbbhrXH0RYNO8kGI7bOJD5pVPoWtAD19RUoXQ,363
+json_cpp2-0.0.111.dist-info/METADATA,sha256=QA_otJrECeytDGLhmjuPI2gADYjYWhrrYt8D6Zcpcxc,255
+json_cpp2-0.0.111.dist-info/RECORD,,
+json_cpp2-0.0.111.dist-info/top_level.txt,sha256=Bq1_fXFVKtlXdYrnNY542NwzX6NMsaNtjvlVFyNxf-c,10
+json_cpp2-0.0.111.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
