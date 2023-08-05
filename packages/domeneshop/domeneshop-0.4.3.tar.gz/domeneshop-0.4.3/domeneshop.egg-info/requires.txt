@@ -1,0 +1,8 @@
+urllib3
+certifi
+
+[dev]
+black
+mypy
+prospector
+wheel
