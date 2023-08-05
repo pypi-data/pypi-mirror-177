@@ -1,0 +1,295 @@
+Metadata-Version: 2.1
+Name: echofilter
+Version: 1.1.1
+Summary: Remove echosounder noise by identifying the ocean floor and entrained air at the ocean surface.
+Home-page: https://github.com/DeepSenseCA/echofilter
+Author: Scott C. Lowe
+Author-email: scott.code.lowe@gmail.com
+License: AGPLv3
+Project-URL: Documentation, https://echofilter.readthedocs.io
+Project-URL: Source Code, https://github.com/DeepSenseCA/echofilter
+Project-URL: Bug Tracker, https://github.com/DeepSenseCA/echofilter/issues
+Project-URL: Citation, https://www.doi.org/10.3389/fmars.2022.867857
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.6,<3.11
+Description-Content-Type: text/x-rst
+License-File: COPYING
+Requires-Dist: appdirs
+Requires-Dist: colorama
+Requires-Dist: configargparse
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: torch (<1.12.0)
+Requires-Dist: torchvision (<0.13.0)
+Requires-Dist: tqdm
+Requires-Dist: pywin32 ; platform_system == "Windows"
+Provides-Extra: all
+Requires-Dist: apex ; extra == 'all'
+Requires-Dist: black (==22.10.0) ; extra == 'all'
+Requires-Dist: identify (>=1.4.20) ; extra == 'all'
+Requires-Dist: jupyter[notebook] ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: myst-parser ; extra == 'all'
+Requires-Dist: parametrize ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pyinstaller ; extra == 'all'
+Requires-Dist: pypandoc (>=1.6.3) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest (>=3.5.0) ; extra == 'all'
+Requires-Dist: seaborn ; extra == 'all'
+Requires-Dist: sphinx-argparse ; extra == 'all'
+Requires-Dist: sphinx-autobuild ; extra == 'all'
+Requires-Dist: sphinx (<5,>=3.5.4) ; extra == 'all'
+Requires-Dist: sphinx-book-theme ; extra == 'all'
+Requires-Dist: tensorboard ; extra == 'all'
+Requires-Dist: torch-lr-finder (>=0.2.0) ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black (==22.10.0) ; extra == 'dev'
+Requires-Dist: identify (>=1.4.20) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pyinstaller ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: pypandoc (>=1.6.3) ; extra == 'docs'
+Requires-Dist: sphinx (<5,>=3.5.4) ; extra == 'docs'
+Requires-Dist: sphinx-argparse ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+Provides-Extra: plots
+Requires-Dist: jupyter[notebook] ; extra == 'plots'
+Requires-Dist: matplotlib ; extra == 'plots'
+Requires-Dist: seaborn ; extra == 'plots'
+Requires-Dist: tqdm ; extra == 'plots'
+Provides-Extra: test
+Requires-Dist: parametrize ; extra == 'test'
+Requires-Dist: pytest (>=3.5.0) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Provides-Extra: train
+Requires-Dist: apex ; extra == 'train'
+Requires-Dist: seaborn ; extra == 'train'
+Requires-Dist: tensorboard ; extra == 'train'
+Requires-Dist: torch-lr-finder (>=0.2.0) ; extra == 'train'
+
+echofilter
+==========
+
++------------------+----------------------------------------------------------------------+
+| Latest Release   | |PyPI badge|                                                         |
++------------------+----------------------------------------------------------------------+
+| License          | |License|                                                            |
++------------------+----------------------------------------------------------------------+
+| Documentation    | |readthedocs|                                                        |
++------------------+----------------------------------------------------------------------+
+| Build Status     | |Documentation| |GHA tests| |Codecov| |pre-commit-status|            |
++------------------+----------------------------------------------------------------------+
+| Code style       | |black| |pre-commit|                                                 |
++------------------+----------------------------------------------------------------------+
+| Citation         | |DOI badge|                                                          |
++------------------+----------------------------------------------------------------------+
+
+Echofilter is an application for segmenting an echogram. It takes as its
+input an Echoview_ .EV file, and produces as its output several lines and
+regions:
+
+-  entrained air (turbulence) line
+
+-  seafloor line
+
+-  surface line
+
+-  nearfield line
+
+-  passive data regions
+
+-  (unreliable) bad data regions for entirely removed periods of time, in the form
+   of boxes covering the entire vertical depth
+
+-  (unreliable) bad data regions for localised anomalies, in the form of polygonal
+   contour patches
+
+Echofilter uses a machine learning model to complete this task.
+The machine learning model was trained on upfacing stationary and downfacing
+mobile data provided by Fundy Ocean Research Centre for Energy (FORCE).
+The training and evaluation data is
+`available for download <https://data.fundyforce.ca/forceCloud/index.php/s/BzC87LpbGtnFsjT>`__.
+Queries regarding dataset access should be directed to FORCE, info@fundyforce.ca.
+
+The experimental methodology and results can be found in our
+`companion paper <doi_>`_, published in Frontiers in Marine Science.
+
+Full documentation of how to use echofilter can be viewed at `readthedocs`_.
+
+If you encounter a specific problem please `open a new issue`_.
+
+.. _Echoview: https://www.echoview.com/
+.. _doi: https://www.doi.org/10.3389/fmars.2022.867857
+.. _readthedocs: https://echofilter.readthedocs.io/en/1.1.1/usage/
+.. _open a new issue: https://github.com/DeepSenseCA/echofilter/issues/new
+
+Usage
+-----
+
+After installing, the model can be applied at the command prompt with:
+
+.. code:: bash
+
+    echofilter PATH PATH2 ...
+
+Any number of paths can be specified. Each path can either be a path to
+a single csv file to process (exported using the Echoview_ application),
+or a directory containing csv files. If a directory is given, all csv files
+within nested subfolders of the directory will be processed.
+
+All optional parameters can be seen by running ``echofilter`` with the help
+argument.
+
+.. code:: bash
+
+    echofilter --help
+
+For more details, see the
+`Usage Guide <https://echofilter.readthedocs.io/en/1.1.1/usage/>`__,
+and the
+`command line interface (CLI) reference <https://echofilter.readthedocs.io/en/1.1.1/programs/inference.html>`__
+documentation.
+
+
+Installation
+------------
+
+Installing as a stand-alone executable
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For your convenience, we provide a copy of Echofilter compiled as
+a stand-alone executable for Windows.
+To install this, download and unzip the echofilter-executable-M.N.P.zip file
+from the latest release in the
+`releases tab <https://github.com/DeepSenseCA/echofilter/releases>`__.
+For example:
+`echofilter-executable-1.1.1.zip <https://github.com/DeepSenseCA/echofilter/releases/download/1.1.1/echofilter-executable-1.1.1.zip>`__
+
+For more details, see the step-by-step instructions in the
+`Usage Guide <https://echofilter.readthedocs.io/en/1.1.1/usage/installation.html#installing-as-an-executable-file>`__.
+
+Note: The precompiled executable has only CPU support, and does not support
+running on GPU.
+
+Installing in Python
+^^^^^^^^^^^^^^^^^^^^
+
+Alternatively, the echofilter package can be installed for Python 3.6 or 3.7
+using pip as follows.
+
+First, install torch.
+
+Either with CPU-only capabilities:
+
+.. code:: bash
+
+    pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+Or with CUDA GPU support as well:
+
+.. code:: bash
+
+    pip install torch==1.4.0 torchvision==0.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+Then install the rest of the requirements.
+
+.. code:: bash
+
+    pip install -r frozen_requirements.txt
+    pip install echofilter
+
+
+Citing Echofilter
+-----------------
+
+For technical details about how the Echofilter model was trained, and our
+findings about its empirical results, please consult our companion paper:
+
+    SC Lowe, LP McGarry, J Douglas, J Newport, S Oore, C Whidden, DJ Hasselman (2022). Echofilter: A Deep Learning Segmention Model Improves the Automation, Standardization, and Timeliness for Post-Processing Echosounder Data in Tidal Energy Streams. *Front. Mar. Sci.*, **9**, 1–21.
+    doi: |nbsp| `10.3389/fmars.2022.867857 <doi_>`_.
+
+If you use Echofilter for your research, we would be grateful if you could cite
+this paper in any resulting publications.
+
+For your convenience, we provide a copy of this citation in `bibtex`_ format.
+
+.. _bibtex: https://raw.githubusercontent.com/DeepSenseCA/echofilter/master/CITATION.bib
+
+You can browse papers which utilise Echofilter `here <gscholarcitations_>`_.
+
+.. _gscholarcitations: https://scholar.google.com/scholar?cites=18122679926970563847
+
+
+License
+-------
+
+Copyright (C) 2020-2022  Scott C. Lowe and Offshore Energy Research Association (OERA)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, version 3.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
+.. |nbsp| unicode:: 0xA0
+   :trim:
+.. |PyPI badge| image:: https://img.shields.io/pypi/v/echofilter.svg
+   :target: https://pypi.org/project/echofilter/
+   :alt: Latest PyPI release
+.. |GHA tests| image:: https://github.com/DeepSenseCA/echofilter/workflows/tests/badge.svg?branch=1.1.1
+   :target: https://github.com/DeepSenseCA/echofilter/actions?query=workflow%3Atest
+   :alt: GHA Status
+.. |readthedocs| image:: https://img.shields.io/badge/docs-readthedocs-blue
+   :target: readthedocs_
+   :alt: Documentation
+.. |Documentation| image:: https://readthedocs.org/projects/echofilter/badge/?version=1.1.1
+   :target: readthedocs_
+   :alt: Documentation Status
+.. |Codecov| image:: https://codecov.io/gh/DeepSenseCA/echofilter/branch/v1.1.x/graph/badge.svg?token=BGX2EJ0SSI
+   :target: https://codecov.io/gh/DeepSenseCA/echofilter
+   :alt: Coverage
+.. |DOI badge| image:: https://img.shields.io/badge/DOI-10.3389/fmars.2022.867857-blue.svg
+   :target: doi_
+   :alt: DOI
+.. |License| image:: https://img.shields.io/pypi/l/echofilter
+   :target: https://raw.githubusercontent.com/DeepSenseCA/echofilter/master/COPYING
+   :alt: AGPLv3 License
+.. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+   :target: https://github.com/pre-commit/pre-commit
+   :alt: pre-commit enabled
+.. |pre-commit-status| image:: https://results.pre-commit.ci/badge/github/DeepSenseCA/echofilter/master.svg
+   :target: https://results.pre-commit.ci/1.1.1/github/DeepSenseCA/echofilter/master
+   :alt: pre-commit.ci status
+.. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: black

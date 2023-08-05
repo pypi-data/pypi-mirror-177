@@ -1,0 +1,5 @@
+[console_scripts]
+echofilter = echofilter.__main__:main
+echofilter-generate-shards = echofilter.generate_shards:main
+echofilter-train = echofilter.ui.train_cli:main
+ev2csv = echofilter.ev2csv:main
