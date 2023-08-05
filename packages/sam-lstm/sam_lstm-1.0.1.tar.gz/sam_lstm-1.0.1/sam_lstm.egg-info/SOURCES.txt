@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+sam_lstm/__init__.py
+sam_lstm/attentive_convlstm.py
+sam_lstm/config.py
+sam_lstm/cropping.py
+sam_lstm/dcn_resnet.py
+sam_lstm/gaussian_prior.py
+sam_lstm/generator.py
+sam_lstm/models.py
+sam_lstm/utilities.py
+sam_lstm.egg-info/PKG-INFO
+sam_lstm.egg-info/SOURCES.txt
+sam_lstm.egg-info/dependency_links.txt
+sam_lstm.egg-info/top_level.txt

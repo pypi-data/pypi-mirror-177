@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sam-lstm
+Version: 1.0.1
+Summary: Python library to generate saliency maps and smart cropping images
+Home-page: https://github.com/SheikSadi/SAM-LSTM-RESNET.git
+Author: SheikSadi
+Author-email: biis.saadi@gmail.com
+License-File: LICENSE.md
