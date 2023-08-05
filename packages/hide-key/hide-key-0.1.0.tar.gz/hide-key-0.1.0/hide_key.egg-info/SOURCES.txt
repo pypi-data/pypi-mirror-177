@@ -1,0 +1,8 @@
+README.md
+setup.py
+hide_key/HideKey.py
+hide_key/__init__.py
+hide_key.egg-info/PKG-INFO
+hide_key.egg-info/SOURCES.txt
+hide_key.egg-info/dependency_links.txt
+hide_key.egg-info/top_level.txt
