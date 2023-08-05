@@ -1,0 +1,5 @@
+[ehforwarderbot.slave]
+sharzy.telegram = efb_telegram_slave:TelegramChannel
+
+[ehforwarderbot.wizard]
+sharzy.telegram = efb_telegram_slave.wizard:wizard
