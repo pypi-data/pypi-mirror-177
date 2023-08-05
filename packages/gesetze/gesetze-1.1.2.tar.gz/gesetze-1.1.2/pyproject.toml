@@ -1,0 +1,110 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gesetze"
+version = "1.1.2"
+description = "Linking german legal norms, dependency-free & GDPR-friendly"
+license = "GPL-3.0-only"
+authors = ["Digitalbüro <post@digitalbuero.eu>"]
+maintainers = ["Martin Folkers <hello@twobrain.io>"]
+readme = "README.md"
+homepage = "https://digitalbuero.eu"
+repository = "https://codeberg.org/digitalbuero/py-gesetze"
+keywords = [
+    "buzer",
+    "cli",
+    "dejure",
+    "gesetze-im-internet",
+    "law",
+    "laws",
+    "legal",
+    "lexparency",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [{include = "gesetze", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+beautifulsoup4 = {version = "^4", optional = true}
+click = {version = "^8", optional = true}
+lxml = {version = "^4", optional = true}
+requests = {version = "^2", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+# Testing
+bandit = "^1"
+black = "^22"
+invoke = "^1"
+isort = "^5"
+pylint = "^2"
+pytest = "^7"
+pytest-cov = "^4"
+pytest-sugar = "^0.9"
+tox = "^3"
+tox-pyenv = "^1"
+
+# Packages
+beautifulsoup4 = "^4"
+click = "^8"
+lxml = "^4"
+requests = "^2"
+
+[tool.poetry.extras]
+cli = ["click", "lxml", "requests"]
+
+[tool.poetry.urls]
+"Funding" = "https://donate.rsf.org"
+"Issue Tracker" = "https://codeberg.org/digitalbuero/py-gesetze/issues"
+
+[tool.poetry.scripts]
+gesetze = {callable = "gesetze.cli:cli", extras = ["cli"]}
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+force_sort_within_sections = true
+
+[tool.pylint]
+max-line-length = 88
+# Disable conflicting rule 'logging-not-lazy'
+disable = ["W1203"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py{38,39,310,311}
+
+[testenv]
+description = Run tests using 'pytest'
+deps =
+    pytest
+    beautifulsoup4
+    click
+    lxml
+    requests
+commands = pytest
+"""
