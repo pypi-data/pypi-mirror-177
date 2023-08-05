@@ -1,0 +1,114 @@
+[tool.poetry]
+name = "pyramid_openapi3"
+version = "0.14.2"
+description = "Pyramid addon for OpenAPI3 validation of requests and responses."
+readme = "README.md"
+authors = [
+  "Niteo <info@niteo.co>",
+  "Domen Kozar <domen@dev.si>"
+]
+license = "MIT"
+repository = "https://github.com/Pylons/pyramid_openapi3"
+keywords = ["pyramid", "openapi3", "openapi", "rest", "restful"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Framework :: Pyramid",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [
+  { include = "pyramid_openapi3", from = "." },
+]
+exclude = ["pyramid_openapi3/tests/"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+openapi-core = ">=0.13.4,<0.14"
+pyramid = ">=1.10.7"
+
+
+[tool.poetry.dev-dependencies]
+autoflake = "*"
+black = "==22.6.0"  # remove pin after upgrading to nixpkgs-22.11
+codespell = "==2.1.0"  # remove pin after upgrading to nixpkgs-22.11
+coverage = "*"
+docutils = "*"
+flake8 = "*"
+flake8-assertive = "*"
+flake8-blind-except = "*"
+flake8-bugbear = "*"
+flake8-builtins = "*"
+flake8-comprehensions = "*"
+flake8-debugger = "*"
+flake8-deprecated = "*"
+flake8-docstrings = "*"
+flake8-ensure-ascii = "*"
+flake8-mutable = "*"
+flake8-plone-hasattr = "*"
+flake8-print = "*"
+flake8-self = "*"
+flake8-super-call = "*"
+flake8-tuple = "*"
+isort = "*"
+jsonschema = "==3.2.0"  # remove dependency after upgrading to nixpkgs-22.11
+mccabe = "*"
+more-itertools = "*"
+mypy = "==0.971"  # remove dependency after upgrading to nixpkgs-22.11
+pdbpp = "*"
+pre-commit = "*"
+pre-commit-hooks = "*"
+pytest = "==7.1.2"  # remove pin after upgrading to nixpkgs-22.11
+pytest-cov = "*"
+pytest-instafail = "*"
+pytest-lazy-fixture = "*"
+pytest-randomly = "*"
+pytest-socket = "*"
+pyupgrade = "*"
+typecov = "*"
+types-pytest-lazy-fixture = "*"
+webtest = "*"
+yamllint = "*"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.autoflake]
+remove-all-unused-imports = true
+in-place = true
+recursive = true
+
+
+[tool.isort]
+atomic=true
+force_alphabetical_sort=true
+force_single_line=true
+line_length=88
+
+
+[tool.mypy]
+follow_imports = "silent"
+check_untyped_defs = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+linecount_report = "./typecov"
+
+[[tool.mypy.overrides]]
+ignore_missing_imports = true
+module = [
+  "openapi_core.*",
+  "openapi_spec_validator.*",
+  "hupper.*",
+  "pyramid.*",
+  "pytest",
+  "webob.multidict.*",
+  "webtest.*",
+  "zope.interface.*",
+
+]
