@@ -1,0 +1,4 @@
+include flexible_partial/requirements.txt
+include flexible_partial/thirdparty.json
+include flexible_partial/README.MD
+include flexible_partial/LICENSE
