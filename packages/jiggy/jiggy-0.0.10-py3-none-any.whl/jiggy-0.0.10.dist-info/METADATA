@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jiggy
+Version: 0.0.10
+Summary: Python client for Jiggy Vector
+Author-email: Bill Kish <bk@jiggy.ai>
+Project-URL: Homepage, https://github.com/jiggy-ai/jiggy-client-py
+Project-URL: Bug Tracker, https://github.com/jiggy-ai/jiggy-client-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hnswlib
+
+Python client for Jiggy Vector Persistence & Indexing Service
+
