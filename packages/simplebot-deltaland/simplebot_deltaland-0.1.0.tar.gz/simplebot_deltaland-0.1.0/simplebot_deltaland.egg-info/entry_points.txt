@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_deltaland = simplebot_deltaland

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: simplebot-deltaland
+Version: 0.1.0
+Summary: Fantasy game for Delta Chat (SimpleBot plugin)
+Home-page: https://github.com/adbenitez/simplebot_deltaland
+Author: adbenitez
+Author-email: adbenitez@nauta.cu
+License: GPLv3
+Keywords: simplebot plugin deltachat game
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+Deltaland
+=========
+
+.. image:: https://img.shields.io/pypi/v/simplebot_deltaland.svg
+   :target: https://pypi.org/project/simplebot_deltaland
+
+.. image:: https://img.shields.io/pypi/pyversions/simplebot_deltaland.svg
+   :target: https://pypi.org/project/simplebot_deltaland
+
+.. image:: https://pepy.tech/badge/simplebot_deltaland
+   :target: https://pepy.tech/project/simplebot_deltaland
+
+.. image:: https://img.shields.io/pypi/l/simplebot_deltaland.svg
+   :target: https://pypi.org/project/simplebot_deltaland
+
+.. image:: https://github.com/adbenitez/simplebot_deltaland/actions/workflows/python-ci.yml/badge.svg
+   :target: https://github.com/adbenitez/simplebot_deltaland/actions/workflows/python-ci.yml
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+
+MMO game bot for Delta Chat (`SimpleBot`_ plugin)
+
+Install
+-------
+
+To install run::
+
+  pip install simplebot-deltaland
+
+Credits
+-------
+
+The images are adapted material from https://midjourney.com licensed under the Creative Commons Noncommercial 4.0 Attribution International License (the “Asset License” https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+
+
+.. _SimpleBot: https://github.com/simplebot-org/simplebot
