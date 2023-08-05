@@ -1,0 +1,23 @@
+[project]
+name = "schedule_parser_portal_petrocollege"
+version = "0.0.5"
+authors = [
+  { name="Andrei V. Berezhkov", email="berezhkov.mail@yadndex.ru" },
+]
+description = "Parser for schedule petrocollege"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests >= 2.26.0",
+    "requests_ntlm==1.1.0",
+    "openpyxl==3.0.10",
+
+]
+[project.urls]
+"Homepage" = "https://github.com/a-berezhkov/portal-petrocollege-parser"
+"Bug Tracker" = "https://github.com/a-berezhkov/portal-petrocollege-parser/issues"
