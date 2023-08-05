@@ -1,0 +1,94 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superstate"
+version = "1.1.0a3"
+description = "Compact statechart that can be vendored."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["statechart", "state machine"]
+requires-python = ">=3.6.2"
+authors = [{name = "Jesse P. Johnson", email = "jpj6652@gmail.com"}]
+maintainers = [{name = "Jesse P. Johnson", email = "jpj6652@gmail.com"}]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries"
+]
+
+[project.optional-dependencies]
+build = [
+  "build",
+  "proman-versioning>=0.5.0-alpha.2"
+]
+docs = [
+  "docstr-coverage>=1.2.0",
+]
+test = [
+  "pytest>=7",
+  "tox>=3.25.0",
+]
+sca = [
+  "mypy>=0.942",
+  "bandit>=1.6.2",
+  # "pylint>=2.9.5"
+]
+style = [
+  "black==22.3.0",
+  "isort>=5.10.1",
+  "flake8>=3.8.3",
+]
+
+[project.urls]
+repository = "https://github.com/kuwv/python-superstate"
+
+[tool.proman.versioning]
+enable_devreleases = false
+
+[[tool.proman.versioning.files]]
+filepath = "pyproject.toml"
+pattern = "version = \"${version}\""
+
+[[tool.proman.versioning.files]]
+filepath = "src/superstate/__init__.py"
+pattern = "__version__ = '${version}'"
+
+[[tool.proman.versioning.files]]
+filepath = "tests/test_version.py"
+pattern = "__version__ == '${version}'"
+
+[tool.pydocstyle]
+ignore = [
+  "D203",
+  "D213"
+]
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+    | \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | build
+    | dist
+  )
+)
+'''

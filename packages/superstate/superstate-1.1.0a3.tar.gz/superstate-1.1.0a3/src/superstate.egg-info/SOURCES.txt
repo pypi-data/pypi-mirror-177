@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/superstate/__init__.py
+src/superstate.egg-info/PKG-INFO
+src/superstate.egg-info/SOURCES.txt
+src/superstate.egg-info/dependency_links.txt
+src/superstate.egg-info/requires.txt
+src/superstate.egg-info/top_level.txt
