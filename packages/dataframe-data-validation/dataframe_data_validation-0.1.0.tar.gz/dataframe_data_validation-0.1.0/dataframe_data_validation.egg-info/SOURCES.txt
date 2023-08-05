@@ -1,0 +1,9 @@
+README.md
+setup.py
+dataframe_data_validation/__init__.py
+dataframe_data_validation/validation.py
+dataframe_data_validation.egg-info/PKG-INFO
+dataframe_data_validation.egg-info/SOURCES.txt
+dataframe_data_validation.egg-info/dependency_links.txt
+dataframe_data_validation.egg-info/requires.txt
+dataframe_data_validation.egg-info/top_level.txt
