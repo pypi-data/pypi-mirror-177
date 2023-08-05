@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: crawler-studio
+Version: 1.5.0
+Summary: crawler_studio
+Home-page: UNKNOWN
+Author: liuxianglong
+Author-email: 862187570@qq.com
+Maintainer: liuxianglong
+Maintainer-email: 862187570@qq.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: scrapy
+Requires-Dist: django (==3.2.15)
+Requires-Dist: django-rest-framework
+Requires-Dist: django-cors-headers
+Requires-Dist: djangorestframework-camel-case
+Requires-Dist: python-scrapyd-api
+Requires-Dist: pymysql
+
+UNKNOWN
+
+
