@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: histoclean
+Version: 0.0.4
+Summary: Histoclean (initial package setup)
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+Requires-Dist: imageio
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: imagecorruptions
+Requires-Dist: openslide-python
+Requires-Dist: scipy
+Requires-Dist: imgaug
+Requires-Dist: scikit-image
+
