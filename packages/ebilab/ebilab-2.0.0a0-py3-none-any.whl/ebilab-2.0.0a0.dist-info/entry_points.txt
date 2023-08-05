@@ -1,0 +1,3 @@
+[console_scripts]
+ebilab = ebilab.cli:cli
+
