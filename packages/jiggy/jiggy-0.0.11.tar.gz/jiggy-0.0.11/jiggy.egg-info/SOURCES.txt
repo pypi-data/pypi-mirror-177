@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+jiggy/__init__.py
+jiggy/jiggy.py
+jiggy/login.py
+jiggy.egg-info/PKG-INFO
+jiggy.egg-info/SOURCES.txt
+jiggy.egg-info/dependency_links.txt
+jiggy.egg-info/requires.txt
+jiggy.egg-info/top_level.txt
