@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/File.py
+src/Lesson.py
+src/SharePoint.py
+src/__init__.py
+src/schedule_parser_portal_petrocollege.egg-info/PKG-INFO
+src/schedule_parser_portal_petrocollege.egg-info/SOURCES.txt
+src/schedule_parser_portal_petrocollege.egg-info/dependency_links.txt
+src/schedule_parser_portal_petrocollege.egg-info/requires.txt
+src/schedule_parser_portal_petrocollege.egg-info/top_level.txt
