@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: algmonbrain
+Version: 0.1.1
+Summary: the algmon brain python lib
+Home-page: 
+Author: algmon
+Author-email: support@algmon.com
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# the Algmon Brain lib
+
+## company intro
+
+* https://algmon.com/
+
+## **lib intro**
+
+* https://algmon.com/docs/infra/intro
+
+## lib source code
+
+* github
+* 
+* gitee
+* https://gitee.com/algmon/public/tree/master/src/algmon-brain
+
+## lib features
+
+* intents simulation in deep
+* single neural re-modeling
+* neural network design & training & prediction at scale
+
+## dependencies
+
+* 
+
+## the license
+
+* This package is released under the Apache License v2
