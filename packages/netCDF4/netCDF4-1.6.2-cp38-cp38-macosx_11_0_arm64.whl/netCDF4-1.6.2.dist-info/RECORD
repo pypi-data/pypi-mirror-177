@@ -1,0 +1,16 @@
+netCDF4-1.6.2.dist-info/RECORD,,
+netCDF4-1.6.2.dist-info/LICENSE,sha256=f90MJkfentWqVJwhxGd4N0hneTwvh0SXtUgN8ix3eP8,1056
+netCDF4-1.6.2.dist-info/WHEEL,sha256=lbCZQl32rz70_Iou4S1h8sUmNh5Rak_YxaqmnmkwnjQ,108
+netCDF4-1.6.2.dist-info/entry_points.txt,sha256=am1xja793-NFuG_o8hICaT23yAXPtbyV4hRdyoMaOzw,116
+netCDF4-1.6.2.dist-info/top_level.txt,sha256=stYbJPcHWECrrFPwNt4TZ2dkAmjFzNd29Sc5T0FkJfs,8
+netCDF4-1.6.2.dist-info/METADATA,sha256=3U6KHRMZqjS-d0kZC7qiqme9dS1adxNPAHRlVp7m3sc,1641
+netCDF4/_netCDF4.cpython-38-darwin.so,sha256=lI9jYC7bJ1yET7awKrq2q7dibK24OReHGNBya0Z2m_U,1329008
+netCDF4/__init__.py,sha256=L3s5Y3l2_psRS4KrIU2f-BcvRH4dezHajzw8Yb3xLYM,1420
+netCDF4/utils.py,sha256=q55auOsLnJVM7q0H0yyRaZlbb-suJwrK2mueLxHoglg,37423
+netCDF4/.dylibs/libhdf5_hl.200.dylib,sha256=09qXFCpC-4g0AH_uapKo1XMy44QAEa0DU9FvfDDszUk,171728
+netCDF4/.dylibs/libnetcdf.19.dylib,sha256=xFsJXnu1ZXvse32hes4bunCTPLn_0Mhh0Q17VN9wVEM,1837088
+netCDF4/.dylibs/libaec.0.dylib,sha256=lhT0tjcyk9GxL-nPzZKVKNG1pnIglg1Mzumfip3qBi8,87616
+netCDF4/.dylibs/libsz.2.dylib,sha256=Vz2C295YXrnmTZJSLKwKprleWlLNkl2hC_UrBgq0nos,68880
+netCDF4/.dylibs/libcurl.4.dylib,sha256=WiWKUAvdyTfWVJqh3IUvpBFLqSHm1rk7v7fdEYlttOM,465232
+netCDF4/.dylibs/libhdf5.200.dylib,sha256=N1cqrQuY86m4b8YK4J5iBIPibp3UMs-kSndIPENWB6w,3887200
+netCDF4/.dylibs/libblosc.1.21.1.dylib,sha256=Za9tFrolZChEfRyaATP35D1FHsO0CHkUNT7iKGSxHrA,1427664
