@@ -1,0 +1,7 @@
+clickhouse_cityhash/cityhash.cpython-39-x86_64-linux-gnu.so,sha256=MfzaUbeA0E33dyYGKBs9Gw-t8LWR_Xc78xDuCuQPUUY,307464
+clickhouse_cityhash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickhouse_cityhash-1.0.2.4.dist-info/LICENSE,sha256=mr-MyUTdAm9Nq3sF4MVT0x5oIBahv4oO7rQkuAtnnVk,1210
+clickhouse_cityhash-1.0.2.4.dist-info/top_level.txt,sha256=QJOhofDjYy4_OPq60FFrlcyzH6ZoILPajU74Lr7haro,20
+clickhouse_cityhash-1.0.2.4.dist-info/WHEEL,sha256=G2smH2H5oDUVbvlHY10Dxf6u2morKeo16glfOK-mgc4,111
+clickhouse_cityhash-1.0.2.4.dist-info/RECORD,,
+clickhouse_cityhash-1.0.2.4.dist-info/METADATA,sha256=gd7jTYyUuyrWf0U48zc_TdpiRBBV0QvBLhx2otmN2eE,2326
