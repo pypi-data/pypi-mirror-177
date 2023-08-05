@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: GCoreAPI
+Version: 0.11
+Summary: Simple GCore API library
+Home-page: https://gitlab.sberdevices.ru/amkuznetsov
+Download-URL: https://pypi.org/project/gcoreapi/
+Author: Aleksandr Kuznetsov
+Author-email: Aleksandr Kuznetsov <amkuznetsov@sberdevices.ru>
+License: MIT
+Project-URL: Homepage, https://gitlab.sberdevices.ru/amkuznetsov
+Keywords: gcore,gcoreapi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# GCoreAPI
+
+Simple GCore API library for Python 3.6+
+
+[Gitlab](https://gitlab.sberdevices.ru/amkuznetsov)
