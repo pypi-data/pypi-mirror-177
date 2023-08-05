@@ -1,0 +1,5 @@
+graphframes_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphframes_wrapper/graphframes-0.8.1-spark2.4-s_2.11.jar,sha256=ExnLD-hzNuaYmSOgERnd1VqmXT5psS2YPtCJsH6ytHE,383129
+graphframes_wrapper-0.5.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+graphframes_wrapper-0.5.0.0.dist-info/METADATA,sha256=5CXfAlS7FCU0MgZLQzgKcApvMRBNlLCO5NCdlLelNl4,590
+graphframes_wrapper-0.5.0.0.dist-info/RECORD,,
