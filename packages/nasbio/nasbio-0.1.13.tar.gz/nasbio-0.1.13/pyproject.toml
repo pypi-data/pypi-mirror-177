@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nasbio"
+version = "0.1.13"
+description = ""
+authors = ["Kah Wai LIM <kahwai222@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+celery = "^5.2.7"
+fastapi = "^0.86.0"
+sqlalchemy = "^1.4.43"
+strawberry-graphql = {extras = ["fastapi"], version = "^0.140.0"}
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
