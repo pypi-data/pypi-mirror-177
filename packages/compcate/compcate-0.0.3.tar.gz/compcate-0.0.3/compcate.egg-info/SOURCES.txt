@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+compcate/__init__.py
+compcate/comention.py
+compcate.egg-info/PKG-INFO
+compcate.egg-info/SOURCES.txt
+compcate.egg-info/dependency_links.txt
+compcate.egg-info/requires.txt
+compcate.egg-info/top_level.txt
