@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: factopy
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/serinir/factopy
+License: MIT
+Keywords: PCA,SVD,factorisation,reduction,dimension
+Author: serinirio
+Author-email: imadom568@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jax (>=0.3.24,<0.4.0)
+Requires-Dist: jaxlib (>=0.3.24,<0.4.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: scikit-learn (>=1.1.3,<2.0.0)
+Project-URL: Repository, https://github.com/serinir/factopy
+Description-Content-Type: text/markdown
+
+# Factopy
+[![codecov](https://codecov.io/gh/serinir/factopy/branch/main/graph/badge.svg?token=VWQAZUVBN1)](https://codecov.io/gh/serinir/factopy)
+
+A Matrix Factorisation and Dimensionality reduction module 
+
