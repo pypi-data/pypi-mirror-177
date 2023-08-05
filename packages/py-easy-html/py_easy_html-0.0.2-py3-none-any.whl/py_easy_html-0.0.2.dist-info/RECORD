@@ -1,0 +1,12 @@
+easy_html/__init__.py,sha256=GaLRZvCBhwTDRF0qonbaimamx24ZeJ675PKA_Fqk4NI,306
+easy_html/_version.py,sha256=OinQN-qiEjBCzf1n4x9ByBqhBD0UWsvvd3F5RkcDBg0,207
+easy_html/font.py,sha256=ZQMMPpuxHcqgxB_Q8O7lpXeUbi2-RMJSDWOSaMIA1rg,3376
+easy_html/generator.py,sha256=-TCHuAjvM7MNVZ56nZKo0GOHe7v_xFtgCFh1POnJ2Ss,2324
+easy_html/pdf.py,sha256=jPA3nL8SEMakpuqNcK-B4zZDiZatGKVnoFUbLhgBpr8,484
+easy_html/templates.py,sha256=JQCl21cGVwkjDds9jbaNtynzjQt5mdmsqbdH_LfK5-8,404
+easy_html/types.py,sha256=G1sw9orVe3fwCLoZ4f1j1U2EKhCUXm4l7ynyjaY0Cns,201
+py_easy_html-0.0.2.dist-info/LICENSE,sha256=WezursnEQ_tvhxHzws5JJddI9bu-eUni414eODmTm5Y,1061
+py_easy_html-0.0.2.dist-info/METADATA,sha256=VR8EDqF3L5-f3INtWHUx-Z3r23S-rrGYQiP0fTk8A2I,2020
+py_easy_html-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+py_easy_html-0.0.2.dist-info/top_level.txt,sha256=G59-5Xbgj31EghoFUo1q3XquzH_dq5P9GpWsEPjWK1Y,10
+py_easy_html-0.0.2.dist-info/RECORD,,

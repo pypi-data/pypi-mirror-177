@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: py-easy-html
+Version: 0.0.2
+Summary: Generate HTML using python and also convert to PDF.
+Home-page: https://github.com/shahriyardx/py-easy-html
+Author: Md Shahriyar Alam
+Author-email: contact@shahriyar.dev
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/shahriyardx/py-easy-html/issues
+Project-URL: Source, https://github.com/shahriyardx/py-easy-html/
+Keywords: HTML Generator,HTML to PDF,
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.11.1)
+Requires-Dist: pdfkit (==1.0.0)
+Requires-Dist: typing-extensions (==4.4.0)
+
+# Easy HTML
+Generate HTML using python and also convert to PDF.
+
+# Installation
+```sh
+pip install py-easy-html
+```
+
+# Getting started
+General usage
+```py
+h1 = generate_tag('h1', body='This is a h1', class_name="your_class", id_name="your_id", self_closing=False)
+```
+> Output
+```html
+<h1 class="your_class" id="your_id">This is a h1</h1>
+
+<!-- With self_closing=True -->
+<h1 class="your_class" id="your_id" />
+```
+
+You can also do nested tags
+```py
+h1 = generate_tag('h1', body=generate_tag('span', body='Span inside h1'))
+```
+> Output
+```html
+<h1>
+  <span>Span inside h1</span>
+</h1>
+```
+
+And also multiple nested tags
+```py
+h1 = generate_tag(
+        'h1',
+        style={
+          "display": "flex",
+          "justify-content": "space-between",
+          "align-items": "center",
+        },
+        body=[
+            generate_tag('span', body='First Span'),
+            generate_tag('span', body='Second'),
+        ],
+    )
+```
+> Output
+```html
+<h1 style="display: flex;justify-content: space-between;align-items: center;">
+  <span>First Span</span>
+  <span>Second</span>
+</h1>
+```
+
+
