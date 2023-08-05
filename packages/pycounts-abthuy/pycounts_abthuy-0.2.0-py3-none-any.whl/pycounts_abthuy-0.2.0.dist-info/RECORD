@@ -1,0 +1,10 @@
+pycounts_abthuy/__init__.py,sha256=hHKVtwsnb0j94GkQi4SdHFz1XeJNrfWk1Y4URGG2UOU,108
+pycounts_abthuy/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycounts_abthuy/data/flatland.txt,sha256=Zg8iIHNZ2c_Azus5FYKN4HTvPnNlU6pd18nycGJPgVk,219006
+pycounts_abthuy/datasets.py,sha256=c3vptHEH6o7X9uMJTcMoMcb7A3mc8Ex770LV5gs862o,395
+pycounts_abthuy/plotting.py,sha256=lriR2pF36gMLQr9v8Jh9mUxLq7n__vW5n-AdDka_gnI,963
+pycounts_abthuy/pycounts.py,sha256=OdZYsukWSEirsAMcWmm9AD3on5q1Y1zxtjLPGGHZKRI,1421
+pycounts_abthuy-0.2.0.dist-info/LICENSE,sha256=JZFTQtBiqEHW8a4ymYMJaCyMHQnGNv5ArD2EdAyE8QM,1070
+pycounts_abthuy-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pycounts_abthuy-0.2.0.dist-info/METADATA,sha256=qTRlCnW2VdDKdUGFidDx-VM6EqlH6B4vxcNypdawGDs,1511
+pycounts_abthuy-0.2.0.dist-info/RECORD,,
