@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+MySEAS/__init__.py
+MySEAS/Components/__init__.py
+MySEAS/MOEE/MOEC.py
+MySEAS/MOEE/MOES.py
+MySEAS/MOEE/__init__.py
+MySEAS/Setup/IPS.py
+MySEAS/Setup/__init__.py
+My_SEAS.egg-info/PKG-INFO
+My_SEAS.egg-info/SOURCES.txt
+My_SEAS.egg-info/dependency_links.txt
+My_SEAS.egg-info/requires.txt
+My_SEAS.egg-info/top_level.txt
