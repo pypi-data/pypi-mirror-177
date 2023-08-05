@@ -1,0 +1,6 @@
+[console_scripts]
+oakx-grape=oakx_grape.cli:main
+
+[oaklib.plugins]
+grape=oakx_grape.grape_implementation:GrapeImplementation
+
