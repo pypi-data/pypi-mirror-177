@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pycistem"
+version = "0.1.5"
+description = ""
+authors = ["Johannes Elferich <jojotux123@hotmail.com>"]
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+rich = "^11.0.0"
+appdirs = "^1.4.4"
+PyYAML = "^6.0"
+pandas = "^1.4.0"
+starfile = "^0.4.11"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pybind11 = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0","wheel", "setuptools-cpp", "pybind11"]
+build-backend = "poetry.core.masonry.api"
