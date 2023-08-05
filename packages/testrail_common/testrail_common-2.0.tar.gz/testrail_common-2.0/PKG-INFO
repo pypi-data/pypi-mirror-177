@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: testrail_common
+Version: 2.0
+Summary: Common TestRail APIs that can be used for all Dexcom VnV groups
+Home-page: https://github.com/dexcom-inc/VnV-Common-TestRail
+Author: Shervin Haghgouy
+Author-email: shervin.haghgouy@dexcom.com
+License: UNKNOWN
+Download-URL: https://github.com/dexcom-inc/VnV-Common-TestRail/archive/refs/tags/2.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
