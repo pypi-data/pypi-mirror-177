@@ -1,0 +1,14 @@
+matplotlib~=3.5
+ipympl~=0.9
+ipywidgets~=7.7
+numpy~=1.21
+jsonschema~=3.2
+traitlets~=5.3
+
+[dev]
+pre-commit~=2.11
+pylint~=2.14
+
+[tests]
+pytest~=7.1
+selenium~=4.1
