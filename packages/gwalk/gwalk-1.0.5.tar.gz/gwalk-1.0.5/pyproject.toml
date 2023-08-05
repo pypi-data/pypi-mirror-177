@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "build",
+    "cython>=3.0.0a10",
+]
