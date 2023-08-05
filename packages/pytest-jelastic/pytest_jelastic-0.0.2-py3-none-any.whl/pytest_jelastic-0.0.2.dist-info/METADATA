@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pytest-jelastic
+Version: 0.0.2
+Summary: Pytest plugin defining the necessary command-line options to pass to pytests testing a Jelastic environment.
+Author: softozor
+Author-email: softozor@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jelastic-client (>=1.3.28,<2.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+# Pytest-jelastic
+
+Adds the following command-line options to your pytests:
+
+* `--jelastic-api-url`
+* `--jelastic-access-token`
+* `--jelastic-env-name`
+
+and make a `jelastic_env_info` pytest fixture available. 
+
+## Publish new package
+
+The `Publish` teamcity build configuration is only triggered on new git tags. Whenever a new git tag is created, the build configuration is triggered and the package published to the package manager.
+
+```bash
+git tag -a 1.0.0 -m "my version 1.0.0"
+git push origin 1.0.0
+```
+
+## Use plugin
+
+In your python project, first
+
+```bash
+pip install pytest-jelastic
+```
+
+Then, when you run your tests, make sure to at least include
+
+```bash
+pytest -p pytest_jelastic <your other options>
+```
+
