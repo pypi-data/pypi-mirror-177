@@ -1,0 +1,9 @@
+setup.py
+spin-distributions/binomial.py
+spin-distributions/gaussian.py
+spin-distributions/generaldistribution.py
+spin_distributions.egg-info/PKG-INFO
+spin_distributions.egg-info/SOURCES.txt
+spin_distributions.egg-info/dependency_links.txt
+spin_distributions.egg-info/not-zip-safe
+spin_distributions.egg-info/top_level.txt
