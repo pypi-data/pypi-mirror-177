@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+AtlonaControl.egg-info/PKG-INFO
+AtlonaControl.egg-info/SOURCES.txt
+AtlonaControl.egg-info/dependency_links.txt
+AtlonaControl.egg-info/top_level.txt
