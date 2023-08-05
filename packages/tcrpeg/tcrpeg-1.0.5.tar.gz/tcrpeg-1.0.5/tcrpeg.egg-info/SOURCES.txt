@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tcrpeg/TCRpeg.py
+tcrpeg/__init__.py
+tcrpeg/classification.py
+tcrpeg/evaluate.py
+tcrpeg/model.py
+tcrpeg/process_data.py
+tcrpeg/utils.py
+tcrpeg/word2vec.py
+tcrpeg.egg-info/PKG-INFO
+tcrpeg.egg-info/SOURCES.txt
+tcrpeg.egg-info/dependency_links.txt
+tcrpeg.egg-info/not-zip-safe
+tcrpeg.egg-info/requires.txt
+tcrpeg.egg-info/top_level.txt
