@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tealinspector/__init__.py
+tealinspector/cli.py
+tealinspector/main.py
+tealinspector.egg-info/PKG-INFO
+tealinspector.egg-info/SOURCES.txt
+tealinspector.egg-info/dependency_links.txt
+tealinspector.egg-info/entry_points.txt
+tealinspector.egg-info/requires.txt
+tealinspector.egg-info/top_level.txt
