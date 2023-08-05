@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/database_searcher.egg-info/PKG-INFO
+src/database_searcher.egg-info/SOURCES.txt
+src/database_searcher.egg-info/dependency_links.txt
+src/database_searcher.egg-info/requires.txt
+src/database_searcher.egg-info/top_level.txt
