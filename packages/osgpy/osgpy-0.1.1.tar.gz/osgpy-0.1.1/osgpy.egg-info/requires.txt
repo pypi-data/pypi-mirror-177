@@ -1,0 +1,4 @@
+pandas>=1.5.1
+plotnine>=0.10.1
+plydata>=0.4.3
+versuchung>=1.4.1
