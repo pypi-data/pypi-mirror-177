@@ -1,0 +1,7 @@
+[console_scripts]
+csql = gcp.cloudsql:main
+mailer = utils.mailer:main
+slacker = utils.slacker:main
+wbq = gcp.bigquery:main
+wgcs = gcp.gcs:main
+yaml2wdl = utils.yaml2wdl:main
