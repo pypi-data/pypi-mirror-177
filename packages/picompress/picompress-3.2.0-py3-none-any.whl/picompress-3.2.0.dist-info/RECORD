@@ -1,0 +1,10 @@
+picompress/__init__.py,sha256=NMl9R4iPiwhoXH0hpP-b0adWLV2lts6LG-pa9ML0_1Q,55
+picompress/compressor.py,sha256=m6zcsTGHxG3OTU3va5RYaQvEosX7GXRb0P_diD4-rBI,1830
+picompress/__pycache__/__init__.cpython-36.pyc,sha256=tnO5ZyctqucS7wXU96DQFj9FtXikVptOXt3rDrHzgF8,244
+picompress/__pycache__/compressor.cpython-36.pyc,sha256=r6T1mzNrWeDoOOqoFN2wKEzRdTtjDTTLC8nYizuH3Vs,1841
+picompress/so/libcim.so,sha256=27MXwvoeC0WCvKmDAXQu4_M7IUzJZQxGQX1DKfTZLoQ,1089720
+picompress/so/libcim.so.2.0,sha256=27MXwvoeC0WCvKmDAXQu4_M7IUzJZQxGQX1DKfTZLoQ,1089720
+picompress-3.2.0.dist-info/METADATA,sha256=za-sDCOHhUWZHDdj7tw0Utuh-2OGT9BvKNSbf2daiNE,200
+picompress-3.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+picompress-3.2.0.dist-info/top_level.txt,sha256=e22mcOG7ONkomNl3keGwPW7GceCKdHe42wjkHXlSqMc,11
+picompress-3.2.0.dist-info/RECORD,,
