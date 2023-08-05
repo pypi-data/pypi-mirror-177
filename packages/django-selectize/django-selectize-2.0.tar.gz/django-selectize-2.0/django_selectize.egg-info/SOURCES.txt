@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_selectize/__init__.py
+django_selectize/forms.py
+django_selectize.egg-info/PKG-INFO
+django_selectize.egg-info/SOURCES.txt
+django_selectize.egg-info/dependency_links.txt
+django_selectize.egg-info/not-zip-safe
+django_selectize.egg-info/requires.txt
+django_selectize.egg-info/top_level.txt
+django_selectize/static/django_selectize/django_selectize.js
+django_selectize/static/django_selectize/selectize.css
+django_selectize/static/django_selectize/selectize.min.js
