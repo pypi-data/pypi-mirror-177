@@ -1,0 +1,4 @@
+[console_scripts]
+esbonio = esbonio.__main__:main
+esbonio-sphinx = esbonio.lsp.sphinx.cli:main
+
