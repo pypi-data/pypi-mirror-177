@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/smartcitizen_connector/__init__.py
+src/smartcitizen_connector/models.py
+src/smartcitizen_connector/smartcitizen_connector.py
+src/smartcitizen_connector.egg-info/PKG-INFO
+src/smartcitizen_connector.egg-info/SOURCES.txt
+src/smartcitizen_connector.egg-info/dependency_links.txt
+src/smartcitizen_connector.egg-info/requires.txt
+src/smartcitizen_connector.egg-info/top_level.txt
