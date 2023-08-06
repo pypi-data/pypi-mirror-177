@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/asyncpg_lostream.egg-info/PKG-INFO
+src/asyncpg_lostream.egg-info/SOURCES.txt
+src/asyncpg_lostream.egg-info/dependency_links.txt
+src/asyncpg_lostream.egg-info/not-zip-safe
+src/asyncpg_lostream.egg-info/requires.txt
+src/asyncpg_lostream.egg-info/top_level.txt
