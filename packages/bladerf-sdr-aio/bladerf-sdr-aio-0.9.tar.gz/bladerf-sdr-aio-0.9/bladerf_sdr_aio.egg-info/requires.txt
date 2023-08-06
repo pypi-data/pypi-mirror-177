@@ -1,0 +1,4 @@
+cffi
+bladerf
+humanize
+numpy
