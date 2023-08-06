@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+video2dataset/__init__.py
+video2dataset/data_reader.py
+video2dataset/data_writer.py
+video2dataset/distributor.py
+video2dataset/input_sharder.py
+video2dataset/logger.py
+video2dataset/main.py
+video2dataset/worker.py
+video2dataset.egg-info/PKG-INFO
+video2dataset.egg-info/SOURCES.txt
+video2dataset.egg-info/dependency_links.txt
+video2dataset.egg-info/entry_points.txt
+video2dataset.egg-info/requires.txt
+video2dataset.egg-info/top_level.txt
