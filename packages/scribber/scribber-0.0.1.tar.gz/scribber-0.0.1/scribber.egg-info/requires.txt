@@ -1,0 +1,4 @@
+lxml<5.0,>=4.9.1
+pydantic<2.0,>=1.10.2
+python-docx<1.0,>=0.8.11
+typing_extensions<4.0,<5.0XlsxWriter==3.0.3,>=4.4.0
