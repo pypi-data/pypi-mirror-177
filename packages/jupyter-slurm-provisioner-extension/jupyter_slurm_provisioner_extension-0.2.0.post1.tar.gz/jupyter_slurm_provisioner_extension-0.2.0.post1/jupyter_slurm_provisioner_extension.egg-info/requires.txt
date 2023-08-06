@@ -1,0 +1,4 @@
+jupyter_server<2,>=1.6
+jupyter-slurm-provisioner>=0.1.8
+
+[test]
