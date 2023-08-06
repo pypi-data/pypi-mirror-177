@@ -1,0 +1,5 @@
+[console_scripts]
+download_grammars = code_tokenizers.cli:download_grammars
+
+[nbdev]
+code_tokenizers = code_tokenizers._modidx:d
