@@ -1,0 +1,2 @@
+[console_scripts]
+barcodecop = barcodecop.barcodecop:main
