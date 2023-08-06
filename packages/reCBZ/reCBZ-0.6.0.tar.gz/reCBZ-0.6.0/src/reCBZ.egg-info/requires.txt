@@ -1,0 +1,9 @@
+pillow>=8
+ebooklib-re
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+bumpver
+pip-tools
