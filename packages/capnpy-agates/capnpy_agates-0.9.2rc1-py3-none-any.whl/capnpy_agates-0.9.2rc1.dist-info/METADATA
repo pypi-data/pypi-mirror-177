@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: capnpy-agates
+Version: 0.9.2rc1
+Home-page: https://github.com/agates/capnpy
+Author: Alecks Gates
+Author-email: agates@mail.agates.io
+License-File: LICENSE
+Requires-Dist: pypytools (>=0.3.3)
+Requires-Dist: docopt
+Requires-Dist: six
+
