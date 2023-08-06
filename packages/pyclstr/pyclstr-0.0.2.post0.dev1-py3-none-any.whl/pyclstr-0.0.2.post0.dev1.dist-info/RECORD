@@ -1,0 +1,15 @@
+oats/__init__.py,sha256=gc_hbTQIKRRTSSRDIchSkozgXYGaiO9Q-jSkrz4Qe8c,76
+oats/_version.py,sha256=AuymX7ePBfI3Uyt8SXPy-DAW-UzemeBp6JmIykt5a_c,507
+oats/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclstr/__init__.py,sha256=gc_hbTQIKRRTSSRDIchSkozgXYGaiO9Q-jSkrz4Qe8c,76
+pyclstr/_version.py,sha256=AuymX7ePBfI3Uyt8SXPy-DAW-UzemeBp6JmIykt5a_c,507
+pyclstr/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplecluster/__init__.py,sha256=gc_hbTQIKRRTSSRDIchSkozgXYGaiO9Q-jSkrz4Qe8c,76
+simplecluster/_version.py,sha256=AuymX7ePBfI3Uyt8SXPy-DAW-UzemeBp6JmIykt5a_c,507
+simplecluster/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclstr-0.0.2.post0.dev1.dist-info/LICENSE.md,sha256=UoOTaEC1lnRSjX7Kc7IyrmLpaifLoPYezVR79nt24FM,1060
+pyclstr-0.0.2.post0.dev1.dist-info/METADATA,sha256=Vaw65SNzVCMHm4x-viGfEhBeR5N3rBgMvNEGl8f2FmU,1630
+pyclstr-0.0.2.post0.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyclstr-0.0.2.post0.dev1.dist-info/top_level.txt,sha256=i3Jp9dBh7TQwFlrvxpVnCjB1jpKOq8CSHJfFhflsZDE,8
+pyclstr-0.0.2.post0.dev1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyclstr-0.0.2.post0.dev1.dist-info/RECORD,,
