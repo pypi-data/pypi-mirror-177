@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: bionumpy
+Version: 0.2.7
+Summary: Library for working with biological sequence data as numpy arrays.
+Home-page: https://github.com/knutdrand/bionumpy
+Author: Knut Rand
+Author-email: knutdrand@gmail.com
+License: MIT license
+Keywords: bionumpy
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: npstructures (>=0.2.3)
+
+========
+BioNumPy
+========
+
+.. image:: https://img.shields.io/pypi/v/bionumpy.svg
+        :target: https://pypi.python.org/pypi/bionumpy
+
+.. image:: https://github.com/bionumpy/bionumpy/actions/workflows/python-install-and-test.yml/badge.svg
+        :target: https://github.com/bionumpy/bionumpy/actions/
+        :alt: Build and test status
+
+Documentation: `https://bionumpy.github.io/bionumpy/ <https://bionumpy.github.io/bionumpy/>`_
+
+
+What is BioNumPy?
+-----------------
+BioNumPy is a toolkit, built on top of NumPy, for enabling array programming on biological data in Python. BioNumPy aims to make it easy to read common bioinformatics file formats efficiently into NumPy-like data structures that enable efficient operations and analysis of the data. Working in BioNumPy should feel much like working in NumPy.
+
+
+Why BioNumPy?
+-------------
+* There are no existing packages in Python for getting biological data sets efficiently into NumPy-like data structures.
+* Current packages for working with biological data do not use NumPy in an efficient way (e.g. individual sequences are stored as separate NumPy arrays, not together in shared arrays).
+
+
+Getting started
+----------------
+
+1. Install with pip:
+
+	$ pip install bionumpy
+
+2. Check out the tutorials and getting started guide in the `documentation <https://bionumpy.github.io/bionumpy/>`_.
+
+
+
+
