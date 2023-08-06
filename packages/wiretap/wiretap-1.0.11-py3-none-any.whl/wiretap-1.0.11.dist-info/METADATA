@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: wiretap
+Version: 1.0.11
+Author: he-dev
+Requires-Python: >=3.10.5
+Description-Content-Type: text/plain
+
+Unit-of-work logging layer.
