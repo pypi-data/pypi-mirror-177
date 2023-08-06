@@ -1,0 +1,3 @@
+[console_scripts]
+tds2stac = tds2stac.cli:main
+
