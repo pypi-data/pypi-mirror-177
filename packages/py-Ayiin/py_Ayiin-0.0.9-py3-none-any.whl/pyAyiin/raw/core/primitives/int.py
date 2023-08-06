@@ -1,0 +1,42 @@
+# py - Ayiin
+# Copyright (C) 2022-2023 @AyiinXd
+#
+# This file is a part of < https://github.com/AyiinXd/pyAyiin >
+# PLease read the GNU Affero General Public License in
+# <https://www.github.com/AyiinXd/pyAyiin/blob/main/LICENSE/>.
+#
+# FROM py-Ayiin <https://github.com/AyiinXd/pyAyiin>
+# t.me/AyiinXdSupport & t.me/AyiinSupport
+
+
+# ========================×========================
+#            Jangan Hapus Credit Ngentod
+# ========================×========================
+
+from io import BytesIO
+from typing import Any
+
+from ..tl_object import TLObject
+
+
+class Int(bytes, TLObject):
+    SIZE = 4
+
+    @classmethod
+    def read(cls, data: BytesIO, signed: bool = True, *args: Any) -> int:
+        return int.from_bytes(data.read(cls.SIZE), "little", signed=signed)
+
+    def __new__(cls, value: int, signed: bool = True) -> bytes:  # type: ignore
+        return value.to_bytes(cls.SIZE, "little", signed=signed)
+
+
+class Long(Int):
+    SIZE = 8
+
+
+class Int128(Int):
+    SIZE = 16
+
+
+class Int256(Int):
+    SIZE = 32
