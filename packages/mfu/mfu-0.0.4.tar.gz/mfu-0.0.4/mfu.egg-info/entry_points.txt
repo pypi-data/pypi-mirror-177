@@ -1,0 +1,3 @@
+[console_scripts]
+mfu = mfu.main:cli
+
