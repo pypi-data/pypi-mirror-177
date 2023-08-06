@@ -1,0 +1,12 @@
+vizpool>=0.0.9
+tensorflow==2.8.2
+torch==1.12.1
+torchvision==0.13.1
+tqdm==4.64.1
+xgboost==1.6.2
+imbalanced-learn==0.8.1
+lightgbm==3.3.2
+python-dotenv==0.19.2
+pymongo[srv]==4.2.0
+PyMySQL==1.0.2
+SQLAlchemy==1.4.41
