@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: tox-pin-deps
+Version: 0.1a1
+Summary: A tox plugin for pinning dependencies.
+Author-email: Masen Furer <m_github@0x26.net>
+Project-URL: homepage, https://github.com/masenf/tox-pin-deps
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: tox
+
+# tox-pin-deps
+
+Work with per-environment pinned dependencies using simple,
+maintainable tools that you already use.
+
+## Usage
+
+if `{toxinidir}/requirements/{envname}-requirements.txt` exists,
+then those deps will be used instead of the deps named in tox.ini
+
+unless `--pip-compile` is specified; in that case pass the deps
+off to `pip-compile`, write the lock file to the above-mentioned
+path and proceed.
+
+if `--ignore-pins` is specified, then this plugin does nothing.
