@@ -1,0 +1,12 @@
+tenadggbot/__init__.py,sha256=CFvVvToU0IVPyZAECLSnqAfOsZYOgNSFqqH7tbdlPJQ,141
+tenadggbot/bot.py,sha256=euz152bvtM9v8tO1wzEzj_A32JalNCYsOOst7MYal8c,2985
+tenadggbot/chat.py,sha256=hYLA36ZWOGOU4o2LbPxSdGi_JnsWhjldnNKXS9Ny9lc,9690
+tenadggbot/errors.py,sha256=mvzywsN1Mt3Rq82SiKvjnRKt5HwxMDP9EOX5HzuUAnA,499
+tenadggbot/event.py,sha256=shqeiyizznVSxTbipDAL3NVgV7mmlfSsr5EThv92PvI,309
+tenadggbot/message.py,sha256=XXOtQkU_rQ1RwrMroSGPuGcoXilp_g66doO1NqmS3TA,544
+tenadggbot/user.py,sha256=WKdjpfvrwDdHo7d27fwzCk4DonhOAdTbzn0Evv5OIkE,138
+tena_dgg_bot-0.3.1.dist-info/LICENSE,sha256=J6rB4BtqeIqcyMLzr6BAztgYqjXR5pvv8myF2EJTMKg,1081
+tena_dgg_bot-0.3.1.dist-info/METADATA,sha256=FRVU33oRd9Rxzy6hciqMUxUmnkqUXHDT88m8TQbKg1w,744
+tena_dgg_bot-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tena_dgg_bot-0.3.1.dist-info/top_level.txt,sha256=YEsFREv7SDqv_9HO2GdMXUbgbFCWFnE_dxhB4MOKlDc,11
+tena_dgg_bot-0.3.1.dist-info/RECORD,,
