@@ -1,0 +1,7 @@
+README.md
+setup.py
+omnidrone/__init__.py
+omnidrone.egg-info/PKG-INFO
+omnidrone.egg-info/SOURCES.txt
+omnidrone.egg-info/dependency_links.txt
+omnidrone.egg-info/top_level.txt
