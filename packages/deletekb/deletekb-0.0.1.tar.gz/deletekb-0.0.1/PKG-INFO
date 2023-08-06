@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: deletekb
+Version: 0.0.1
+Summary: models
+Author: Developers
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: mlflow
+Requires-Dist: mlflow (>=1.27.0,<2.0.0); extra == "mlflow"
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pytz (>=2022.1,<2023.0)
+Requires-Dist: scikit-learn (>=1.0,<2.0)
+Requires-Dist: torch (>=1.12.0,<1.13.0)
+Requires-Dist: torchinfo (>=1.6.0,<2.0.0)
