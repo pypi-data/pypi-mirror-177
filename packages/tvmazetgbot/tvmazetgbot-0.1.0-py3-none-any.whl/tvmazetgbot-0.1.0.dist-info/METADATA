@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tvmazetgbot
+Version: 0.1.0
+Summary: Demo library
+Home-page: UNKNOWN
+Author: Andrei Y
+Author-email: andrkool151@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (==1.10.2)
+
+# Telegram bot 
+Telegram bot for getting detailed information about TV programs from the website tvmaze.com
+
+### Installing
+* `pip install tvmazetgbot`
+* `pip install git+https://github.com/nutakoooye/tvmazetgbot`
+
+### Get started
+*How to work with this lib:*
+* you can start bot in terminal:
+`pytnon -m tvmazetgbot -t <TELEGRAM_TOKEN>`
+* Or import Bot class from library:
+
+
+```Python
+from tvmazetgbot import Bot
+
+tg_bot = Bot(token="TELEGRAM_TOKEN")
+tg_bot.start()
+```
+

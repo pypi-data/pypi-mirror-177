@@ -1,0 +1,13 @@
+tvmazetgbot/__init__.py,sha256=ujkUE6MLD9_Ips9_4faySdUp9HYji8Jn4-yTsIvjs2w,24
+tvmazetgbot/__main__.py,sha256=alRy9fn8mgZ0647RRWqFwBwd6w3Ri4bNYG1S0B0rW9U,622
+tvmazetgbot/client.py,sha256=DmfW4QmZ5Y-MWpXjhLPigeQkvD2pgjGUpH4Ob4jq1Y8,5669
+tvmazetgbot/database_tools.py,sha256=fjkQsVXFYiWFmPl6UJcB9PrbiSgt6gwSDD6fuAhPERE,2541
+tvmazetgbot/tg_api.py,sha256=8qGs80bo-Lqlmc_k09KM_NW5ROTOHpZyot8pPtUedXk,1997
+tvmazetgbot/tvmaze/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvmazetgbot/tvmaze/decorators.py,sha256=r8s0jAlJgBPvhnFR7M2vFUtl0mikgMCdKZTKbp4YOl0,1237
+tvmazetgbot/tvmaze/tv_program.py,sha256=TWqwUIBFo0_23lQjvVUn47G5WIHVmfYgEs8eJjiKv9c,628
+tvmazetgbot/tvmaze/tv_program_model.py,sha256=ocwCYAR63kSkELO43idSu466Uxk5ZPZ6pYTD1M4aXO0,2213
+tvmazetgbot-0.1.0.dist-info/METADATA,sha256=_o_2Z0fmcUahVvnbtBv90OZXNrPnGx3JDzozS-ALcwc,1160
+tvmazetgbot-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tvmazetgbot-0.1.0.dist-info/top_level.txt,sha256=w-qObb-24KYewdESOv4ElDr1zyS6v10XfwxYDBBuBZI,12
+tvmazetgbot-0.1.0.dist-info/RECORD,,
