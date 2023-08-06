@@ -1,0 +1,3 @@
+[moe.plugins]
+transcode=moe_transcode
+
