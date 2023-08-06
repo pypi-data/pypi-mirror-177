@@ -1,0 +1,16 @@
+Unidecode
+tqdm
+pandas
+numpy
+regex
+pyarrow
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+build
+twine
+autopep8
