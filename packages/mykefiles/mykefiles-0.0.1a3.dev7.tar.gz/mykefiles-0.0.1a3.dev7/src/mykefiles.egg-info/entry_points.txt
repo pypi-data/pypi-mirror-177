@@ -1,0 +1,2 @@
+[console_scripts]
+mykefiles = mykefiles.__main__:main
