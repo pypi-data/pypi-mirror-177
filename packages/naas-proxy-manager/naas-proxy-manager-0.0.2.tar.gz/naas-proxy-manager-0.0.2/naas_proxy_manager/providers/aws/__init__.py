@@ -1,0 +1,3 @@
+from naas_proxy_manager.providers.aws.AWSEC2Proxy import AWSEC2Proxy
+from naas_proxy_manager.providers.aws.AWSProxyType import AWSProxyType
+from naas_proxy_manager.providers.aws.AWSSquidProxy import AWSSquidProxy
