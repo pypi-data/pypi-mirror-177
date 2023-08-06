@@ -1,0 +1,4 @@
+[console_scripts]
+Akela = akela:start
+geturi = akela.geturi:start
+
