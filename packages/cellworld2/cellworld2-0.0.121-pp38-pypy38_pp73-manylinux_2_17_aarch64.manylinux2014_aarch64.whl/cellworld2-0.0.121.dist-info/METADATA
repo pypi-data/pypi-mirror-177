@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cellworld2
+Version: 0.0.121
+Summary: MacIver lab neuroscience research library
+Author: German Espinosa
+Author-email: germanespinosa@gmail.com
+Requires: json_cpp2
+Requires-Python: >=3.6
+
