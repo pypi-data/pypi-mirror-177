@@ -1,0 +1,12 @@
+lovely_numpy/__init__.py,sha256=OZ29n3uYSbn2hiNFRXTCjfPVaF2El7BZCEvzP-NJX_o,206
+lovely_numpy/_modidx.py,sha256=d9dqaqtNZpOfKclWWIJrG7pf0QO-ShNlxfudjWe3-3M,3433
+lovely_numpy/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+lovely_numpy/repr_str.py,sha256=uAFVQwkaUXFb59qHZwQ4faWBS4syF3ruuKbukDNXjGQ,3523
+lovely_numpy/utils/__init__.py,sha256=rWOXErlyzK8dl6z2U9B4Ox_KqVvVQljQOnTm8blPUU4,23
+lovely_numpy/utils/utils.py,sha256=fLeo8kBH_2zffj4eNbVdNGbiA5cOx_fWzvh3retvbvg,3770
+lovely_numpy-0.0.1.dist-info/LICENSE,sha256=FON5-BYqBFZlHYHBW5mOG7Zd8jUu8KZgrpccvv8279g,1071
+lovely_numpy-0.0.1.dist-info/METADATA,sha256=5IeqkHYHxd1zvAavEQyYzoXHHI5CTAObNxOFDs0Kfh4,5820
+lovely_numpy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lovely_numpy-0.0.1.dist-info/entry_points.txt,sha256=oCVgmNvP0d9AlHQ1Yf-5W1pQxBXANwtZHGZSWTf1waU,46
+lovely_numpy-0.0.1.dist-info/top_level.txt,sha256=dCCZW65n_QKUHJprPLgt3OtR2zQPvH5e13b-FhChJ00,13
+lovely_numpy-0.0.1.dist-info/RECORD,,
