@@ -1,0 +1,6 @@
+requests>=2.27.1
+
+[dev]
+black
+pylint
+python-dotenv
