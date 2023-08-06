@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+webology.py
+webology.egg-info/PKG-INFO
+webology.egg-info/SOURCES.txt
+webology.egg-info/dependency_links.txt
+webology.egg-info/entry_points.txt
+webology.egg-info/not-zip-safe
+webology.egg-info/requires.txt
+webology.egg-info/top_level.txt
