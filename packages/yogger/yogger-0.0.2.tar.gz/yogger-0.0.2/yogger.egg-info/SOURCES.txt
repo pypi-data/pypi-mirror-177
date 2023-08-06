@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+NOTICE
+README.md
+setup.py
+tests/.gitignore
+yogger/.gitignore
+yogger/__init__.py
+yogger/__version__.py
+yogger/base.py
+yogger.egg-info/PKG-INFO
+yogger.egg-info/SOURCES.txt
+yogger.egg-info/dependency_links.txt
+yogger.egg-info/not-zip-safe
+yogger.egg-info/top_level.txt
