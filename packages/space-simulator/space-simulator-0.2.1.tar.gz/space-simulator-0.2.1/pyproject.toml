@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "space-simulator"
+version = "0.2.1"
+description = ""
+authors = ["Tamles <methacrylon@gmail.com>"]
+readme = "README.md"
+packages = [{include = "space_simulator"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.9.3"
+numpy = "^1.23.4"
+arcade = "^2.6.16"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+mypy = "^0.990"
+
+[tool.poetry.scripts]
+space-simulator = "space_simulator.game:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
