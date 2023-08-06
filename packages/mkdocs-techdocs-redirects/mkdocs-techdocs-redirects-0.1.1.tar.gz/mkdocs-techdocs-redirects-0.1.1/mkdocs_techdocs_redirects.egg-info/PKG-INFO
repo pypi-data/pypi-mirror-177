@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: mkdocs-techdocs-redirects
+Version: 0.1.1
+Summary: A MkDocs plugin to redirect old links to new addresses for TechDocs.
+Home-page: https://github.com/matchaxnb/mkdocs-techdocs-redirects
+Author: Macha Desoutter
+Author-email: matchaxnb@proton.me
+License: MIT
+Keywords: mkdocs redirect techdocs
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: release
+License-File: LICENSE
+
+# mkdocs-techdocs-redirect
+
+Plugin to handle redirections for techdocs sites.
+
+Uses (almost) the same config and is inspired by and initially forked from [mkdocs-redirects](https://github.com/mkdocs/mkdocs-redirects).
+
+## Installing
+
+> **note:** This package requires MkDocs version 1.0.4 or higher.
+
+Install with pip:
+
+```bash
+pip install mkdocs-techdocs-redirects
+```
+
+## Using
+
+To use this plugin, specify your desired redirects in the plugin's `redirect_maps` setting in your `mkdocs.yml`:
+
+```yaml
+plugins:
+    - redirects:
+        redirect_maps:
+            'old': 'new'
+            'old/file': 'new/file'
+            'some_path': 'http://external.url.com/foobar'
+```
+
+Opposite to what mkdocs-redirects does, do not specify `.md` or `.html`. We are running in TechDocs only.
+
+## Looking to contribute?
+
+- Please propose tests.
+
+
+

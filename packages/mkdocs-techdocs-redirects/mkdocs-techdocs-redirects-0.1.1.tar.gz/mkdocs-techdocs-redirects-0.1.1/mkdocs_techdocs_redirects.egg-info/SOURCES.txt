@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mkdocs_techdocs_redirects.egg-info/PKG-INFO
+mkdocs_techdocs_redirects.egg-info/SOURCES.txt
+mkdocs_techdocs_redirects.egg-info/dependency_links.txt
+mkdocs_techdocs_redirects.egg-info/entry_points.txt
+mkdocs_techdocs_redirects.egg-info/requires.txt
+mkdocs_techdocs_redirects.egg-info/top_level.txt
+techdocs_redirects/__init__.py
+techdocs_redirects/plugin.py
