@@ -1,0 +1,7 @@
+numpy
+astropy>=4.0
+h5py>=3.0
+scipy
+yt>=4.1.2
+soxs>=4.0.0
+tqdm
