@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mielib
+Version: 0.1.7
+Summary: 
+Author: Ivan Toftul
+Author-email: toftul.ivan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: scipy (>=1.9.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# MieLib
+
+Library which contains many Mie-ralated functions in optics and acoustics. In particular:
+- Scattering Mie coefficients for isotropic spheres:
+    -  Acoustic Mie coefficients based on Phys. Rev. Lett. 123, 183901 (2019) (see SM)
+    - Optics Mie coefficients based on Bohren Huffmann book.
+- Scalar spherical harmonics
+- Vector spherical harmonics (complex and real)
+
+## Instalation
+
+From [PYPI/mielib](https://pypi.org/project/mielib/):
+```
+pip install mielib
+```
+
+## Examples
+
+See examples folder with Jupyter Notebooks.
+
+## Credits
+Ivan Toftul 
+
+`toftul.ivan@gmail.com`
+
