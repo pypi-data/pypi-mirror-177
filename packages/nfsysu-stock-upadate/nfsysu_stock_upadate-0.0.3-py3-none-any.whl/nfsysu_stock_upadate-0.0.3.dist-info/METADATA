@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nfsysu-stock-upadate
+Version: 0.0.3
+Summary: A small example package
+Author-email: wfj <wfj.0000@gmail.com>
+Project-URL: Homepage, https://github.com/ng-fukgin/nfsysu_stock_update
+Project-URL: Bug Tracker, https://github.com/ng-fukgin/nfsysu_stock_update/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+这是一个智能更新股票数据的库，仅供中大南方人工智能研究中心内部人员使用
+## 版本
+### 0.0.1
+测试版本
+### 0.0.3
+修复了部分matlab函数依赖问题
