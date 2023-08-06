@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ai_artist/__init__.py
+ai_artist/image_generator.py
+ai_artist/util.py
+ai_artist.egg-info/PKG-INFO
+ai_artist.egg-info/SOURCES.txt
+ai_artist.egg-info/dependency_links.txt
+ai_artist.egg-info/requires.txt
+ai_artist.egg-info/top_level.txt
