@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+palindrome_string.egg-info/PKG-INFO
+palindrome_string.egg-info/SOURCES.txt
+palindrome_string.egg-info/dependency_links.txt
+palindrome_string.egg-info/top_level.txt
+palindromestring/__init__.py
+palindromestring/palindrome.py
