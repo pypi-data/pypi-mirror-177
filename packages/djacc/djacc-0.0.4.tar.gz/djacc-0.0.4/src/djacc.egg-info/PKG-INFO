@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: djacc
+Version: 0.0.4
+Summary: An extensible user-accounts application for Django
+Home-page: https://github.com/ardevpk/djaccounts
+Author: Abdul Rehman
+Author-email: adnan1470369258@gmail.com
+Project-URL: Bug Tracker, https://github.com/ardevpk/djaccounts/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Django Accounts
+
+
+### Add these lines in your settings.py file!
+
+```
+
+INSTALLED_APPS.append('accounts')
+
+INSTALLED_APPS.append('crispy_forms')
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'accounts.authentication.EmailOrUsernameModelBackend',
+)
+
+```
+
+
+### Add these lines in your urls.py file!
+```
+
+urlpatterns.append(path('accounts/', include('accounts.urls')))
+
+```
