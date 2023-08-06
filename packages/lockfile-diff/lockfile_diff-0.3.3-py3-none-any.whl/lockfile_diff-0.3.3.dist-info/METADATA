@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: lockfile-diff
+Version: 0.3.3
+Summary: Diff changes in lockfiles.
+License: MIT
+Project-URL: Documentation, https://github.com/kaos/lockfile-diff/wiki
+Project-URL: Source, https://github.com/kaos/lockfile-diff
+Project-URL: Tracker, https://github.com/kaos/lockfile-diff/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Python: <3.10,>=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: packaging
+Requires-Dist: phx-class-registry
+Requires-Dist: pyyaml
+Requires-Dist: setuptools
+Requires-Dist: toml
+Requires-Dist: types-pyyaml
+Requires-Dist: types-toml
+
+
+`lockfile-diff`
+===============
+
+Print a summary of what have changed in a given lockfile.
+
