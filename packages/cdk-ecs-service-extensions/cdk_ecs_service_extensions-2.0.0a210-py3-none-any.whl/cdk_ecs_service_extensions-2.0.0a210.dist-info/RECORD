@@ -1,0 +1,10 @@
+cdk_ecs_service_extensions/__init__.py,sha256=WoH_IXbncn2K0NkXsk8k7xuTXcEAR_jJB5WJFTbjUp8,243964
+cdk_ecs_service_extensions/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_ecs_service_extensions/_jsii/__init__.py,sha256=q0tuNma_FUsBt-IKvi89HHBV9biIymM5J1SDmIgItsY,464
+cdk_ecs_service_extensions/_jsii/ecs-service-extensions@2.0.0-alpha.210.jsii.tgz,sha256=uRcPWBVmY36ZGTARxpueg-NVj4r6JdSaHhJI7_dxOqU,164301
+cdk_ecs_service_extensions-2.0.0a210.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_ecs_service_extensions-2.0.0a210.dist-info/METADATA,sha256=N9M4flSDEzFPTDarFUTkikyDesHHUPyjKtZuuBVA3y0,25068
+cdk_ecs_service_extensions-2.0.0a210.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+cdk_ecs_service_extensions-2.0.0a210.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_ecs_service_extensions-2.0.0a210.dist-info/top_level.txt,sha256=8y3moeVdeNceQBmUG8CgckL9Tpjgh4-La2qhhQuM1J4,27
+cdk_ecs_service_extensions-2.0.0a210.dist-info/RECORD,,
