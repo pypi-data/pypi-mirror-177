@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: SuperSubCap
+Version: 0.0.4
+Summary: Superscripts and subscripts for latin and greek letters, numbers and operands
+Home-page: https://github.com/Dryhb/SuperSubCap_library
+Author: Dryhb
+Author-email: dryhb.pseudotooshort@gmail.com
+License: MIT
+Keywords: latin greek subscripts superscripts caps letters
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Library to switch between normal, superscripts, subscripts and caps.
+Includes latin and greek letters, numbers and basic operands.
+
+Change Log
+==========
+
+0.0.1 (15/11/2022)
+------------------
+- Basic help, subscripts and superscripts basic "translations" implemented
+
+0.0.2 (17/11/2022)
+------------------
+- Added subscripts <-> superscripts "translation" implemented
+
+0.0.3 (19/11/2022)
+------------------
+- More advanced help and caps <-> small "translation" implemented
+
+0.0.4(19/11/2022)
+------------------
+- Couple of fixes for release

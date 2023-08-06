@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+SuperSubCap/SuperSubCap.py
+SuperSubCap/__init__.py
+SuperSubCap.egg-info/PKG-INFO
+SuperSubCap.egg-info/SOURCES.txt
+SuperSubCap.egg-info/dependency_links.txt
+SuperSubCap.egg-info/top_level.txt
