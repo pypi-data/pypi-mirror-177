@@ -1,0 +1,15 @@
+elifecleaner/__init__.py,sha256=e4uAIwG0gqKwX9hQUQWX3FaXpxqFzsUL3D0ZLtprr_U,545
+elifecleaner/parse.py,sha256=jpb969sCX8jRHAc284p_tkPcYrOL66pDO-3Bcy0heKk,16091
+elifecleaner/pdf_utils.py,sha256=z3kCBBLV2rlFj4f7-2sJlmfwXQpA4AllD_jv7hFyhiA,1010
+elifecleaner/prc.py,sha256=N1-tfetcrwsXb2wJNSAtM66dPYaV7Hrw-aeCHRzEWRk,3958
+elifecleaner/sub_article.py,sha256=lK26WUtDdCcie0AlBU6oxBjk8iCPYvkdgSIzQxLW5UI,2999
+elifecleaner/transform.py,sha256=K6meUyWKOPYYtoxl91aogVVKsRA1y20y8GwGo9AjneM,11308
+elifecleaner/utils.py,sha256=YqFCbc4o3KwSOYqrGuDSKUNdd7Upu1TF5wB28iFMNtI,902
+elifecleaner/video.py,sha256=U7-I81AAQrbFqKHWoJX6ccnBTDMsgDYFCYDVQuZsOjk,8432
+elifecleaner/video_xml.py,sha256=Hc7SiChRT0Zf0Wt3zV4FJhCaBq3OE_lXK-KNC3bgYKw,5550
+elifecleaner/zip_lib.py,sha256=XHYSTY0fwymPlpmhiLguDu__quT_FkCpevrn1wspbos,1478
+elifecleaner-0.23.0.dist-info/LICENSE,sha256=SHCw6DmXR36K22W1YxiTbfXBYH_2lOdZStQnVq2xtO0,1088
+elifecleaner-0.23.0.dist-info/METADATA,sha256=Q1p4WU9TE5zbY11P2J91M8hh1mUwR515TNVM1kJ_rts,1061
+elifecleaner-0.23.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+elifecleaner-0.23.0.dist-info/top_level.txt,sha256=tlJmR9hxwyz_UT7isdrJd3pN6-jsUzeVfBp01aBdo30,13
+elifecleaner-0.23.0.dist-info/RECORD,,
