@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: ramba
+Version: 0.1.post147
+Summary: Distributed Numpy-like arrays in Python
+Home-page: https://github.com/Python-for-HPC/ramba
+Author: Intel, Inc.
+Author-email: todd.a.anderson@intel.com
+License: BSD
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSES.third_party
+Requires-Dist: numba
+Requires-Dist: ray
+Requires-Dist: pyzmq
+Requires-Dist: pickle5
+Requires-Dist: cloudpickle
+Requires-Dist: numpy (<1.23)
+Requires-Dist: psutil
+Requires-Dist: six
+Requires-Dist: setuptools
+
+Ramba is a Python project that provides a fast, distributed, NumPy-like array API using compiled Numba functions 
+and a Ray or MPI-based distributed backend.  It also provides a way to easily integrate Numba-compiled remote
+functions and remote Actor methods in Ray.  
+
+The main use case for Ramba is as a fast, drop-in replacement for NumPy.  Although NumPy typically uses C
+libraries to implement array functions, it is still largely single threaded, and typically does not make
+use of multiple cores for most functions, and definitely cannot make use of multiple nodes in a cluster. 
+
+Ramba lets NumPy programs make use of multiple cores and multiple nodes with little to no code changes.
+
+## Example
+Consider this simple example of a large computation in NumPy:
+~~~python
+# test-numpy.py
+import numpy as np
+import time
+
+t0 = time.time()
+A = np.arange(1000*1000*1000)/1000.0
+B = np.sin(A)
+C = np.cos(A)
+D = B*B + C**2
+
+t1 = time.time()
+print (t1-t0)
+~~~
+
+Let us try running this code on a dual-socket server with 36 cores/72 threads and 128GB of DRAM:
+~~~
+% python test-numpy.py
+47.55583119392395
+~~~
+This takes over 47 seconds, but if we monitor resource usage, we will see that only a single core is used.  All others remains idle.  
+
+We can very easily modify the code to use Ramba instead of NumPy:
+~~~python
+# test-ramba.py
+import ramba as np  # Use ramba in place of numpy
+import time
+
+t0 = time.time()
+A = np.arange(1000*1000*1000)/1000.0
+B = np.sin(A)
+C = np.cos(A)
+D = B*B + C**2
+
+np.sync()           # Ensure any remote work is complete to get accurate times
+t1 = time.time()
+print (t1-t0)
+~~~
+Note that the only changes are the import line, and the addition of the `np.sync()`.  The latter is only needed to wait for 
+all remote work to complete, so we can get an accurate measure of execution time.
+
+Now let us try running the ramba version:
+~~~
+% python test-ramba.py
+3.860828161239624
+~~~
+The Ramba version saturates all of the cores, and results in about 12x speedup over the original numpy version. (Why only 12x?  Three factors 
+contribute to this: 1) this total includes some of the initialization time; 2) Time for JIT compile (~1 second here); 3) This code is 
+memory-bandwidth bound, so after a point, additional cores will just end up waiting on memory).  Importantly, this performance gain 
+is achieved with no significant change to the code.
+
+
