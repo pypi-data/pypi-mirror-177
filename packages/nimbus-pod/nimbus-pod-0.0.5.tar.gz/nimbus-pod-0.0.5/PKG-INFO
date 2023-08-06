@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nimbus-pod
+Version: 0.0.5
+Summary: Nimbus Pod | FastAPI System Service
+Home-page: https://github.com/iyer-cloud/nimbus-pod
+Author: Tushar Iyer
+Author-email: 
+Project-URL: Bug Tracker, https://github.com/iyer-cloud/nimbus-pod/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Licensed under the generic MIT License. nimbus-pod can either be downloaded from the Releases page on GitHub and manually added to PATH or installed via pip.
