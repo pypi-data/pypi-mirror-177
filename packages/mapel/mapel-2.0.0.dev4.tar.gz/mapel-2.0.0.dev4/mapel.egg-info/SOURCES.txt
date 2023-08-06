@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+mapel.egg-info/PKG-INFO
+mapel.egg-info/SOURCES.txt
+mapel.egg-info/dependency_links.txt
+mapel.egg-info/requires.txt
+mapel.egg-info/top_level.txt
