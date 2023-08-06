@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: notificator
+Version: 0.2.0
+Summary: Central Notification
+Home-page: https://github.com/Jyonn/CentralNotificationSDK
+Author: Jyonn Liu
+Author-email: i@6-79.cn
+License: MIT Licence
+Keywords: notice,notificator,bark,sms,mail
+Platform: any
+Description-Content-Type: text/markdown
+
+send sms, bark, or mail message
+
