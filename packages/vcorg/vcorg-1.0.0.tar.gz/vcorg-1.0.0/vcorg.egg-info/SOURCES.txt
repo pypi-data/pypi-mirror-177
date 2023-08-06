@@ -1,0 +1,16 @@
+AUTHORS
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+vcorg/__init__.py
+vcorg/resources.py
+vcorg.egg-info/PKG-INFO
+vcorg.egg-info/SOURCES.txt
+vcorg.egg-info/dependency_links.txt
+vcorg.egg-info/requires.txt
+vcorg.egg-info/top_level.txt
+vcorg/subsystem/__init__.py
+vcorg/subsystem/sysadmin/__init__.py
+vcorg/subsystem/sysadmin/domain_org/__init__.py
+vcorg/subsystem/sysadmin/domain_org/resource.py
