@@ -1,0 +1,9 @@
+riemann/__init__.py,sha256=FZ9rgCqJv1I-__EhNVsqtWuoKUm6vHbMC_RBBgJPxbA,1845
+riemann/summation.py,sha256=Gg4pyOV2vAxerI61QfNSJq81xdVBqPJZ4pcASE6FQFg,5273
+riemann/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riemann/tests/test_summation.py,sha256=2F2K-ana7tqlPqj2aHoG6XWBVfH-gq1xWJ3lZ7LHTd4,2808
+riemann-0.2.0.dist-info/LICENSE,sha256=44-6R5E2RPoYTF5PtioqxZPG8PN_FNCUZhK6on1oLr4,1085
+riemann-0.2.0.dist-info/METADATA,sha256=JXccQuwxFyJBxTg_wFZISj4yxAWYJDQlm7wWegXAvsc,957
+riemann-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+riemann-0.2.0.dist-info/top_level.txt,sha256=QenIgQl3H08Yw0aqA405aLKbhZ7EEVWpy5tG-nVtMM8,8
+riemann-0.2.0.dist-info/RECORD,,
