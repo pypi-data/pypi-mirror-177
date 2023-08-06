@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yatools"
+version = "0.0.1"
+authors = [
+    { name = "Ivan I. Yakovkin", email = "yakovkinii@gmail.com" },
+]
+description = "Tools for YaDraw and more"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    'coloredlogs',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EmixD/yatools"
+"Bug Tracker" = "https://github.com/EmixD/yatools/issues"
