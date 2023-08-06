@@ -1,0 +1,14 @@
+shap
+scipy
+numpy
+pyyaml
+pandas
+joblib
+seaborn
+catboost
+matplotlib
+scikit-learn
+category-encoders
+
+[shap]
+shap
