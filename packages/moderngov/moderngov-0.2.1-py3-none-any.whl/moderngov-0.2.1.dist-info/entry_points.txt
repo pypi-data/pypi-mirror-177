@@ -1,0 +1,3 @@
+[console_scripts]
+moderngov=moderngov.mgq:run
+
