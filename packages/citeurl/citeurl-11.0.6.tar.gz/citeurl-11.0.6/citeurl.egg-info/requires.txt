@@ -1,0 +1,11 @@
+pyyaml
+
+[config]
+appdirs
+
+[full]
+flask
+appdirs
+
+[web]
+flask
