@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ECHAIM_bug_report.dir/source_c/lib/bug_report.c.o -o ECHAIM_bug_report  -Wl,-rpath,/home/lap1dem/dev-python/echaim/src/echaim -ldl libECHAIM.so -lm -lcurl 

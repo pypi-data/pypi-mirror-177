@@ -1,0 +1,41 @@
+Below is the expected output for examples.c if the model is compiled correctly and the database files are correct.
+
+Now running NmF2 function
+Output of NmF2 function
+199314753721.104797
+394486121405.954773
+Error Codes: --      --
+Error Codes: --    H --
+Now running NmF2Storm function
+Output of NmF2Storm function
+197385080562.974884
+421941024363.300354
+Error Codes:
+Error Codes:      H
+Now running HmF2 function
+Output of HmF2 function
+249.101921
+266.691840
+Error Codes: --      --
+Error Codes: --    H --
+Now running HmF1 function
+Output of HmF1 function
+183.822682
+170.803828
+Error Codes: --      --
+Error Codes: --    H --
+
+Now running densityProfile function
+Output of densityProfile function
+12367606066.263021 108297932864.252319 158962061260.812408 73773659026.466248 39244380430.132393 24244371947.660633 16552247379.927717 12071804966.952993 9210135282.446226 7254833783.452740 12367606066.263021
+
+4889714776.171849 94811918511.811340 336738565496.773254 133293965021.893005 64477786540.683990 38014163185.852394 25242375055.590450 18037499384.225201 13520205967.189016 10471259495.144081 4889714776.171849
+
+Error Codes: --      --
+Error Codes: --    H --
+Now running densityPath function
+Output of densityPath function
+107249442422.739288
+140490116440.007843
+Error Codes:
+Error Codes:      H
