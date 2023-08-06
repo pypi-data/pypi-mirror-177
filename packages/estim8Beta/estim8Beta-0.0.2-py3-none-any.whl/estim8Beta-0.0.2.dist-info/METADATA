@@ -1,0 +1,162 @@
+Metadata-Version: 2.1
+Name: estim8Beta
+Version: 0.0.2
+Summary: Conduct parameter estimations for Dymola and FMU models
+Home-page: UNKNOWN
+Author: Daniel Strohmeier
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: joblib
+Requires-Dist: pathlib
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: fmpy
+Requires-Dist: sdf
+Requires-Dist: notebook
+
+# Project Description: Estim8
+*Estim8* is a tool for parameter estimation of differential-algebraic models (DAEs) using either model formulations in Dymola (installation required) or FMU models. It uses global meta-heuristic optimization to solve parameter estimation problems, and provides methods for uncertainty quantification.
+
+## Installation
+The installation via `pip install estim8Beta` is problematic, since the required PyGMO package is not available here. If you still installed this package via PyPI make sure to add PyGMO to your environment, using:
+
+`$ conda config --add channels conda-forge`
+`$ conda config --set channel_priority strict`
+`$ conda install pygmo`
+
+Alternatively, estim8 can be installed via conda-forge directly:
+
+`conda install -c conda-forge estim8`
+
+
+## Usage
+The workflow of `estim8` can be divided into 5 steps:
+1. Initializing the model
+2. Defining Estimation Prerequisites
+3. Starting Estimation
+4. Conducting Uncertainty Qunatification
+5. Visualize Results
+
+### 1. Initializing the Model
+To initialize a model, use the class `DymolaModel()`, or `FmuModel()` depending on your model formulation, and initialize it:
+```python
+MyModel = FmuModel('MyModel')
+MyModel.initialize()
+```
+After the initialization all information on parameters and variables of the model are retrieved, and it can be simulated by the `simulate()` method:
+```python
+Results, Parameters = MyModel.simulate(0,20,0.1, #(t0, t_end, stepsize)
+									parameter={"par1":10},
+									observe=["Trajectory1","Trajectory2"],
+									tolerance=1e-4,
+									)
+```
+Where the 3 positional arguments in the beginning form the timevector to simulate (similar to numpy.linspace()).
+
+### 2. Defining Estimation Prerequisites
+To conduct a parameter estimation, it is necessary to provide at least:
+* A model as FmuModel or DymolaModel
+* Experimental data to fit the parameters to (as pandas.DataFrame with time as index and columns as variable names. For Replicates: {'Rid1':pd.DataFrame, ..., 'RidN':pd.DataFrame} )
+* Boundaries for the parameters to estimate
+* A dictionary, mapping the names of the experimental data columns to the variables of the model (`observation_mapping`)
+
+Optional the following settings can be made:
+* Metric for the discrepancy ('SS': Sum of squares, 'WSS' Weighted sum of squares, 'negLL': negative Log-Likelihood)
+* ParameterMapping and Replicate IDs if multiple replicates or experiments are included
+* Custom time vector in case a finer discretization as 0.1 is required
+
+*Example Code:*
+```python
+# Data import
+import pandas
+MyData = pandas.read_excel('MyExpermentalData.xlsx', 
+							index_col=0,
+							header=[0,1], 
+							sheet_name=None
+							)
+
+# Bound definition
+bounds = {
+		"par1" : [8,12],
+		"par2" : [0.1,0.4],
+		}
+
+# Observation mapping
+obs_map = {	
+		"ExpDat1" : "Obs1",
+		}
+```
+
+After specifying the prerequisites, the `Estimator()` can be instantiated:
+```python
+MyEstimator = Estimator(MyModel, 
+						data                = MyData,
+						bounds              = bounds,
+						observation_mapping = obs_map,
+						)
+```
+
+### 3. Starting Estimation
+For the estimation process there are 2 possibilities, which are `estimate()` and `estimate_parallel()`. Both return an optimal parameter vector according to the specified `bounds`, and an `info` struct:
+
+```python
+# Single Core
+optimum, info = MyEstimator.estimate(
+					method   = 'local', 	# optimization method
+					p0       = {'par1':10, 'par2':0.25},  # initial pnt
+					max_iter = 20,          # maximum iterations 
+					)
+
+# Parallel 
+optimum, info = MyEstimator.estimate_parallel(
+					method   = 'de', 		# optimization method
+					n_workers= 4,       	# number of parallel proc.
+					max_iter = 20,
+					) 
+
+# Parallel (PyGMOs generalized island approach)
+optimum, info = MyEstimator.estimate_parallel(
+					method   = ['pg_de1220','pg_sga']*2,   # Islands 	
+					n_workers= 4,       	# overwritten by no. islands
+					max_iter = 20,
+					) 
+```
+
+### 4. Uncertainty Qunatification
+For UQ estim8 provides `profile_likelihood()`method, and classical Monte Carlo sampling method `mc_sampling()`. 
+
+```python
+# MC sampling
+MC_Samples = MyEstimator.mc_sampling(
+				method         = ['pg_sea']*4,  # Optimization method
+				n_samples      = 200, 			# No. samples
+				evos2reset     = 50,  			# No. Iter until RAM reset
+				# Terminate after:
+				no_progress    = 10,   			#10 iters w.o. progress
+				tot_iter       = 200,    		#More than 200 iters
+				final_loss     = 500,    		#If loss of 500 is reached
+				}
+```
+
+### 5. Visualize Results
+
+For visualization of the results, the following automated plotting functions are available in the `Visualization` module:
+
+|Function                 |Arguments                |Description                               |
+|:---------------------|:------------------------|:--------------|
+|`Visualization.plot_sim()`|Results, observe=[] | Plots simulation trajectories generated by a `Estim8Model`|
+|`Visualization.plot_estimates()`|optimum, MyEstimator, data=None, only_measured=False|Plots simulation trajectories of optimum in comparison to experimental data|
+|`Visualization.plot_correlations()`|MC_Samples, thresholds=5, show_vals=False|Plotting the correlations for parameter results of a Monte Carlo Sampling as a heatmap|
+|`Visualization.plot_distribution()`|MC_Samples, bins=5, est=MyEstimator|Creates a corner plot showing historgrams for parameter values on the diagonal, and scatter plots between parameter pairs on the LTM|
+|`Visualization.plot_many()`|MC_Samples, MyEstimator, observe=[]|Plots all trajectories resulting from the MC samples together with the experimental data|
+|`Visualization.plot_bound_violation()`|Optimum, bounds|Shows relative location of optimum within the bounds| 
+
