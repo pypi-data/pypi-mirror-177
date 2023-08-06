@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+crudmodule.egg-info/PKG-INFO
+crudmodule.egg-info/SOURCES.txt
+crudmodule.egg-info/dependency_links.txt
+crudmodule.egg-info/requires.txt
+crudmodule.egg-info/top_level.txt
+django_crud/__init__.py
+django_crud/setup.py
