@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyotm/pyotm.egg-info/PKG-INFO
+src/pyotm/pyotm.egg-info/SOURCES.txt
+src/pyotm/pyotm.egg-info/dependency_links.txt
+src/pyotm/pyotm.egg-info/requires.txt
+src/pyotm/pyotm.egg-info/top_level.txt
