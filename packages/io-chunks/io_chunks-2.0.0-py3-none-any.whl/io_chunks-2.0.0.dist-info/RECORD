@@ -1,0 +1,8 @@
+io_chunks/__init__.py,sha256=BpN36SDfOv2OGm4O506IOY2gAEJ87lws3YXHYlG-lQo,86
+io_chunks/exceptions.py,sha256=LC5nYFhCofnan1GJaiJ_R5H8GhJ71xKPlUB21aoA8Q4,119
+io_chunks/raw_io_chunk.py,sha256=OE5c13gFcW-fbAo_kqzmYeGJ8L83BmVc7U9u1mQyaqE,6454
+io_chunks-2.0.0.dist-info/LICENSE,sha256=tl7W58bhefYU5qfghaGSfb3C6uhCHaHM-x_GPxAPRpM,1109
+io_chunks-2.0.0.dist-info/METADATA,sha256=KshBBZhexxQm-fo-3lLDoQIh-2TJgLkOoSOp1lgVp7A,2409
+io_chunks-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+io_chunks-2.0.0.dist-info/top_level.txt,sha256=Kdeadgo8JvVE5VK-O-JDLbM_2G8rGpNp9_i5sYb25nk,10
+io_chunks-2.0.0.dist-info/RECORD,,
