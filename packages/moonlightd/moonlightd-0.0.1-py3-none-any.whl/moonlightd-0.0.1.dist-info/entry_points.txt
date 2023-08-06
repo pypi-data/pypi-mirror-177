@@ -1,0 +1,2 @@
+[console_scripts]
+moonlightd = moonlightd.__main__:main
