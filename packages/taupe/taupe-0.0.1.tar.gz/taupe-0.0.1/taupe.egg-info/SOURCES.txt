@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+taupe/__init__.py
+taupe/__main__.py
+taupe/exit_codes.py
+taupe.egg-info/PKG-INFO
+taupe.egg-info/SOURCES.txt
+taupe.egg-info/dependency_links.txt
+taupe.egg-info/entry_points.txt
+taupe.egg-info/not-zip-safe
+taupe.egg-info/requires.txt
+taupe.egg-info/top_level.txt
