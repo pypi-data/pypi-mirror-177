@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fooolivershah/__init__.py
+fooolivershah/main.py
+fooolivershah/one.f90
+fooolivershah.egg-info/PKG-INFO
+fooolivershah.egg-info/SOURCES.txt
+fooolivershah.egg-info/dependency_links.txt
+fooolivershah.egg-info/top_level.txt
+fooolivershah/bar/__init__.py
+fooolivershah/bar/myclass.py
+fooolivershah/bar/two.f90
