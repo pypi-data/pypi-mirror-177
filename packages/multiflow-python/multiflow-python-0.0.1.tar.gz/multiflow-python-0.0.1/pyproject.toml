@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==63.4.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multiflow-python"
+version = "0.0.1"
+authors = [
+  { name="Multi Technologies Inc.", email="hello@llm.llc" },
+]
+description = "MultiFlow Python SDK"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+             "fire",
+             "requests",
+]
