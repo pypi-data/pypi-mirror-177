@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mlexp
+Version: 0.0.1
+Summary: MLexp allows to train different types of machine learning models,                  optimize hyperparameters and log results with simple API
+Home-page: UNKNOWN
+Author: Ilia Avilov
+Author-email: ieavilov@gmail.com
+License: MIT
+Project-URL: GitHub, https://github.com/volico/mlexp
+Keywords: machine learning
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# MLexp
+
+MLexp is the framework to automate model training, hyperparameters 
+optimization and logging results to a server, which allows to speed up 
+hypothesis testing and helps to maintain the reproducibility of experiments.
+
+## Installation
+
+### Installation with pip
+
+```bash
+$ pip install mlexp
+```
+
+To support training on pytorch models gpu, before installation of MLexps you 
+have to install torch of version compatible with installed pytorch_lightning 
+with support of gpu.
+
+## Documentation
+
+To open documentation, open docs/build/html/index.html
+
+## Contributing
+
+For contributing guidelines check CONTRIBUTING.md
+
