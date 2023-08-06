@@ -1,0 +1,111 @@
+name: tests
+
+on:
+  push:
+    branches: main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  FORCE_COLOR: 1  # Request colored output from CLI tools supporting it
+  PIP_DISABLE_PIP_VERSION_CHECK: 1
+  PY_COLORS: 1  # Recognized by the `py` package, dependency of `pytest`
+  TERM: xterm-256color  # needed for FORCE_COLOR to work on mypy on Ubuntu, see https://github.com/python/mypy/issues/13817
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  mypy:
+    name: Check code with mypy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          cache: "pip"
+          cache-dependency-path: |
+            requirements-dev.txt
+            pyproject.toml
+          python-version: "3.10"
+      - name: Install wheel
+        run: pip install "wheel<1"
+      - name: Install requirements
+        run: |
+          pip install -r requirements-dev.txt
+          pip install -e .[everything]
+      - name: Run mypy on the project
+        run: mypy
+
+  flake8:
+    name: Lint code with flake8
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          cache: "pip"
+          cache-dependency-path: "requirements-dev.txt"
+          python-version: "3.10"
+      - name: Install wheel
+        run: pip install "wheel<1"
+      - name: Install requirements
+        run: pip install -r requirements-dev.txt
+      - name: lint the project
+        run: flake8
+
+  pytest-tests:
+    name: Run tests with pytest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-latest", "windows-latest", "macos-latest"]
+        python-version: ["3.10", "3.11"]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }} on ${{ matrix.os }}
+        uses: actions/setup-python@v4
+        with:
+          cache: "pip"
+          cache-dependency-path: |
+            requirements-dev.txt
+            pyproject.toml
+          python-version: ${{ matrix.python-version }}
+      - name: Install wheel
+        run: pip install "wheel<1"
+      - name: Install requirements
+        run: |
+          pip install -r requirements-dev.txt
+          pip install -e .[everything]
+      - name: Run tests under coverage
+        run: |
+          coverage run --branch --include=src/** -m pytest -m "not fails_inexplicably_in_ci"
+          coverage report --show-missing
+      - name: Upload coverage to coveralls
+        # Upload coverage if we are on the main repository and
+        # we're running on Linux (this action only supports Linux)
+        if: github.repository == 'AlexWaygood/typeshed-stats' && matrix.os == 'ubuntu-latest'
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
+          flag-name: py${{ matrix.python-version }}-${{ matrix.os }}
+          debug: true
+
+  coveralls-finish:
+    needs: pytest-tests
+    if: github.repository == 'AlexWaygood/typeshed-stats'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Send finished signal to Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          parallel-finished: true
+          debug: true

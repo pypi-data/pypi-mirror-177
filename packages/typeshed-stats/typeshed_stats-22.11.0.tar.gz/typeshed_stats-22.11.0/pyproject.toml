@@ -1,0 +1,86 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "typeshed_stats"
+version = "22.11.0"
+authors = [
+  { name="Alex Waygood", email="alex.waygood@gmail.com" },
+]
+description = "Script to gather stats on the status of various typeshed packages"
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = [
+    "typeshed",
+    "typing",
+    "stubs",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+dependencies = [
+    "attrs>=21.3.0",
+    "cattrs",
+    "aiohttp[speedups]",
+    "packaging",
+    "tomli; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+rich = ["rich"]
+html = ["Markdown"]
+everything = ["rich", "Markdown"]
+
+[project.urls]
+"Homepage" = "https://github.com/AlexWaygood/typeshed-stats"
+"Bug Tracker" = "https://github.com/AlexWaygood/typeshed-stats/issues"
+
+[project.scripts]
+typeshed-stats = "typeshed_stats._cli:main"
+
+[tool.pycln]
+all = true
+disable_all_dunder_policy = true
+
+[tool.black]
+line_length = 88
+target-version = ['py310']
+skip-magic-trailing-comma = true
+preview = true
+
+[tool.isort]
+profile = 'black'
+line_length = 88
+combine_as_imports = true
+skip_gitignore = true
+
+[tool.mypy]
+files = ['src', 'tests', 'scripts']
+show_error_codes = true
+show_traceback = true
+pretty = true
+strict = true
+enable_error_code = 'ignore-without-code,redundant-expr'
+warn_unreachable = true
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --strict-config --strict-markers"
+xfail_strict = true
+asyncio_mode = "auto"
+markers = ["fails_inexplicably_in_ci", "requires_network"]
+filterwarnings = [
+    "error",
+    # Ignore ResourceWarnings about unclosed sockets
+    'ignore:Exception ignored in:pytest.PytestUnraisableExceptionWarning',
+]
