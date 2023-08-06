@@ -1,0 +1,238 @@
+{% extends "base_editor.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"></link>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.css">
+{% endblock %}
+
+{% block content %}
+<div class="row row-content">
+<div class="col col-sm-2" style="font-size: 16px;">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Nodetree
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="nodetree_uuid" class="col-md-4 col-form-label">UUID</label>
+                        <div class="col col-md-8">
+                            <input type="text" class="form-control" id="nodetree_uuid" name="nodetree_uuid"
+                                    placeholder="" disabled>
+                        </div>
+                    </div>
+                <div class="form-group row">
+                    <label for="nodetree_name" class="col-md-4 col-form-label">Name</label>
+                    <div class="col col-md-8">
+                        <input type="text" class="form-control" id="nodetree_name" name="nodetree_name"
+                                placeholder="" onchange="setNodetreeProps({'name': this.value})">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="nodetree_daemon_name" class="col-md-4 col-form-label">Daemon</label>
+                    <div class="col col-md-8">
+                        <input type="text" class="form-control" id="nodetree_daemon_name" name="nodetree_daemon_name"
+                                placeholder="" onchange="setNodetreeProps({'daemon_name': this.value})">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="nodetree_state" class="col-md-4 col-form-label">State</label>
+                    <div class="col col-md-8">
+                        <input type="text" class="form-control" id="nodetree_state" name="nodetree_state"
+                                placeholder="" disabled>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="nodetree_action" class="col-md-4 col-form-label">Action</label>
+                    <div class="col col-md-8">
+                        <input type="text" class="form-control" id="nodetree_action" name="nodetree_action"
+                                placeholder="" disabled>
+                    </div>
+                </div>
+            </form>
+            <div class="col col-sm-12">
+                <a class="btn btn-primary" onclick="saveNodetree()" role="button">Save</a>
+                <a class="btn btn-primary" onclick="launchNodetree()" role="button">Launch</a>
+                <a class="btn btn-primary" onclick="pauseNodetree()" role="button">Pause</a>
+                <a class="btn btn-warning" onclick="saveAsTemplate()" role="button">Save as template</a>
+                <a class="btn btn-danger" onclick="resetNodetree()" role="button">Reset</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Node
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <form>
+                <div class="form-group row">
+                    <label for="node_uuid" class="col-md-4 col-form-label">UUID</label>
+                    <div class="col col-md-8">
+                        <input type="text" class="form-control" id="node_uuid" name="node_uuid"
+                                placeholder="" disabled>
+                    </div>
+                </div>
+            <div class="form-group row">
+                <label for="node_name" class="col-md-4 col-form-label">Name</label>
+                <div class="col col-md-8">
+                    <input type="text" class="form-control" id="node_name" name="node_name"
+                            placeholder="" onchange="setSelectedNodeProps({'name': this.value})">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="node_daemon_name" class="col-md-4 col-form-label">Daemon</label>
+                <div class="col col-md-8">
+                    <input type="text" class="form-control" id="node_daemon_name" name="node_daemon_name"
+                            placeholder="" onchange="setSelectedNodeProps({'daemon_name': this.value})">
+                </div>
+            </div>
+            <div class="form-group row">
+              <label for="node_state" class="col-md-4 col-form-label">State</label>
+              <div class="col col-md-8">
+                  <input type="text" class="form-control" id="node_state" name="node_state"
+                          placeholder="" disabled>
+              </div>
+          </div>
+        </form>
+          <div class="row">
+                <a class="btn btn-primary" onclick="actionSelectedNode('PLAY')" role="button">Play</a>
+                <a class="btn btn-warning" onclick="actionSelectedNode('PAUSE')" role="button">Pause</a>
+                <a class="btn btn-danger" onclick="actionSelectedNode('RESET')" role="button">Reset</a>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Other
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="col col-sm-10">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="graph-tab" data-bs-toggle="tab" data-bs-target="#rete" type="button" role="tab" aria-controls="graph" aria-selected="true">Graph</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="table-tab" data-bs-toggle="tab" data-bs-target="#table" type="button" role="tab" aria-controls="table" aria-selected="false">Table</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="text" aria-selected="false">Description</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="NodetreeNodeContent">
+        <div class="editor tab-pane fade show active" id="rete" role="tabpanel" aria-labelledby="graph-tab">
+          <button class="btn btn-sm btn-primary" id="refreshControlBtn"
+          onclick="refreshNodetree()" type="button">
+            <i class="fa fa-arrows-rotate fa-0.5x"></i> Refresh
+          </button>
+          <button class="btn btn-sm btn-primary" id="refreshControlBtn"
+          onclick="arrangeNodetree()" type="button">
+            <i class="fa fa-layer-group fa-0.5x"></i> Arange
+          </button>
+        <div class="form-check form-switch" style="margin: 5px;">
+            <input class="form-check-input" type="checkbox" id="stateSwitchCheck">
+            <label class="form-check-label scinode-tooltip" for="stateSwitchCheck">Show Node State
+                <div class="scinode-tooltiptext">
+                  <div style="border-radius: 5px; background: #73AD21;">Finished</div>
+                  <div style="border-radius: 5px; background: red;">Failed</div>
+                  <div style="border-radius: 5px; background: blue;">Running</div>
+                  <div style="border-radius: 5px; background: yellow;">Paused</div>
+                </div>
+            </label>
+          </div>
+
+        </div>
+        <div class="editor tab-pane fade" id="table" role="tabpanel" aria-labelledby="table-tab">
+            <div class="">
+              <button class="btn btn-sm btn-primary" id="refreshControlBtn"
+              onclick="refreshNodetreeNode()" type="button">
+                <i class="fa fa-arrows-rotate fa-0.5x"></i> Refresh
+              </button>
+                <table id="data" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Index</th>
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>State</th>
+                      <th>Action</th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+        <div class="editor tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
+            <pre class="editor tab-pane fade show active" id="description-pre" role="tabpanel" aria-labelledby="description-tab">
+            </pre>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    var nodetree_data = {{ nodetree_data | tojson | safe }};
+    // console.log(nodetree_data);
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete@1.4.9/build/rete.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-vue-render-plugin@0.5.1/build/vue-render-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-connection-plugin@0.9.0/build/connection-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alight@0.14.1/alight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-context-menu-plugin@0.5.2/build/context-menu-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-area-plugin@0.2.1/build/area-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-comment-plugin@0.3.0/build/comment-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-history-plugin@0.1.0/build/history-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-connection-mastery-plugin@0.1.0/build/connection-mastery-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-minimap-plugin@0.3.1/build/minimap-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rete-auto-arrange-plugin@0.4.0/build/auto-arrange-plugin.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+<script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.js"></script>
+<script src='https://cdn.plot.ly/plotly-2.14.0.min.js'></script>
+<script src="{{ url_for('static', filename='scinode_components.js')}}"></script>
+<script src="{{ url_for('static', filename='scinode_editor.js')}}"></script>
+<script src="{{ url_for('static', filename='sockets.js')}}"></script>
+<script src="{{ url_for('static', filename='controls.js')}}"></script>
+<script src="{{ url_for('static', filename='components.js')}}"></script>
+<script src="{{ url_for('static', filename='json_components.js')}}"></script>
+<script src="{{ url_for('static', filename='init_editor.js')}}"></script>
+<script src="{{ url_for('static', filename='nodetree_editor.js')}}"></script>
+<script src="{{ url_for('static', filename='nodetree_node_table.js')}}"></script>
+<script>
+  $(document).ready(function () {
+      $('#stateSwitchCheck').on('change', function () {
+        setStateColor();
+      });
+  });
+</script>
+{% endblock %}

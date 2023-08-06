@@ -1,0 +1,4 @@
+flask
+scinode
+numpy
+click
