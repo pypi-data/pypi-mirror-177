@@ -1,0 +1,13 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block extrastyle %}{{ block.super }}
+{% endblock %}
+
+
+{% block extrahead %}
+{{ block.super }}
+{{ palette|json_script:"palette-data" }}
+<link rel="stylesheet" href="{% static 'admin/palette.css' %}">
+<script src="{% static 'admin/palette.js' %}"></script>
+{% endblock %}
