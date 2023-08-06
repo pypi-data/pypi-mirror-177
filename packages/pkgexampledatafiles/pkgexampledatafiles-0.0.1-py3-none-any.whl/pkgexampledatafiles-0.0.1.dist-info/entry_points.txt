@@ -1,0 +1,2 @@
+[console_scripts]
+rexdatafile = pkgexampledatafiles:my_datafiles_module.datafiles

@@ -1,0 +1,9 @@
+pkgexampledatafiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkgexampledatafiles/my_datafiles_module.py,sha256=MkecMpUD2YLjK_2MUboeu-jv_w3fLqwjhHice9glQJg,4489
+pkgexampledatafiles/data/readme.json,sha256=r3dX6bVcMZniDzLio-DSkl1mzM5hNQv-axT6xoUOTZ8,191
+pkgexampledatafiles-0.0.1.dist-info/LICENCE,sha256=dTNxTPS62CMrgKWxz9KxtM5L8TWf7zuvn1ZFq-7r__M,1066
+pkgexampledatafiles-0.0.1.dist-info/METADATA,sha256=v019rBZNMTAAE8ZIrT41Z2kXVCi3I0b_AgFUoQz1fBA,666
+pkgexampledatafiles-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pkgexampledatafiles-0.0.1.dist-info/entry_points.txt,sha256=ceuAMutfzf1YjD8K3qReUrJ5GJJzbmbcjky27pqZl2k,82
+pkgexampledatafiles-0.0.1.dist-info/top_level.txt,sha256=mTvTgKwm9PbEwiqh1sWF8l-C9yQVwrqTk9c2AuITGqo,20
+pkgexampledatafiles-0.0.1.dist-info/RECORD,,
