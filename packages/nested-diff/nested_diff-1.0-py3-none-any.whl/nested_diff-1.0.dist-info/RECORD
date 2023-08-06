@@ -1,0 +1,12 @@
+nested_diff/__init__.py,sha256=mh7arpIuTQ2V8TbFuWLUlPsZN91kgaLeNKl_MdPnuGQ,10697
+nested_diff/cli.py,sha256=KxH8ZRj65BxBcQ6w3D3fOJb4pCTZ_u4K0zK2USg7cXQ,12900
+nested_diff/diff_tool.py,sha256=Ey3ciCfhZAgb8o_x0veUQEnsgUwwxUbzdtYX4ZOwLCo,9263
+nested_diff/formatters.py,sha256=Ysh3csxAbjSpId-F9rAfd0QS5fJTkSx5NMTBMKK168k,12585
+nested_diff/handlers.py,sha256=-nYAoJiJFtJcMQf3mN9SI16aXesZDXc1RTRnQrKA5v0,19709
+nested_diff/patch_tool.py,sha256=Hrc0D8D8XlKIfZDrrfV9RBgkn5FBQflx3Hq8ywIj35Q,2423
+nested_diff-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nested_diff-1.0.dist-info/METADATA,sha256=cnBCQzyjfF5sBUtYHf9WB1di5fF4Z83tS1osD3jkkrE,5742
+nested_diff-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nested_diff-1.0.dist-info/entry_points.txt,sha256=AgAGuBNqVH9XTdGHyIpHk9WQvgJUSJU755tzrIIsUH0,100
+nested_diff-1.0.dist-info/top_level.txt,sha256=qyE8JRKTsjxj0uYli9Y7rge65fKT5Vrn6RWrvoxSir4,12
+nested_diff-1.0.dist-info/RECORD,,
