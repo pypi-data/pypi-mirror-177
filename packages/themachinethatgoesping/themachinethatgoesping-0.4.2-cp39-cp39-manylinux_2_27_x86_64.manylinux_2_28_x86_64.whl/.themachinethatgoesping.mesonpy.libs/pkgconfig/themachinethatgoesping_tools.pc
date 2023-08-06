@@ -1,0 +1,10 @@
+prefix=/opt/_internal/cpython-3.9.13
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: themachinethatgoesping_tools
+Description: Shared functions (C++) and small tool functionality (python) for themachinethatgoesping projects
+URL: https://github.com/themachinethatgoesping/tools
+Version: 0.13.0
+Libs: -L${libdir} -lthemachinethatgoesping_tools -fopenmp
+Cflags: -I${includedir} -I/usr/local/include -DBOOST_ALL_NO_LIB -fopenmp -DXTENSOR_USE_XSIMD
