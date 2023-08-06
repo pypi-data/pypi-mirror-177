@@ -1,0 +1,8 @@
+selenium
+pytest
+allure-pytest
+pytest-rerunfailures
+mimesis
+jsonpickle
+requests
+arhitecture

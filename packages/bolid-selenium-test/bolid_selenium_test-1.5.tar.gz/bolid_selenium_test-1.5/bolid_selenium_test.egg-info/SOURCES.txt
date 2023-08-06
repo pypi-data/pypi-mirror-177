@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+bolid_selenium_test/MethodsSelenium.py
+bolid_selenium_test/__init__.py
+bolid_selenium_test.egg-info/PKG-INFO
+bolid_selenium_test.egg-info/SOURCES.txt
+bolid_selenium_test.egg-info/dependency_links.txt
+bolid_selenium_test.egg-info/not-zip-safe
+bolid_selenium_test.egg-info/requires.txt
+bolid_selenium_test.egg-info/top_level.txt
