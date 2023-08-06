@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dhydrogen"
+version = "0.0.0"
+description = "The lighter way to save."
+authors = ["Jase <jasew@getdeuterium.win>", "Areg <aregh@getdeuterium.win>"]
+readme = "README.md"
+packages = [{include = "dhydrogen"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
