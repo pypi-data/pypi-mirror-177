@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tick-off
+Version: 1.0.1
+Author: he-dev
+Requires-Python: >=3.10.5
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+test
