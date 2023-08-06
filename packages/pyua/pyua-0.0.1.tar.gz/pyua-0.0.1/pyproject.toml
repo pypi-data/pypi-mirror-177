@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyua"
+version = "0.0.1"
+description = "User Agents for Humans"
+authors = ["Yi Zhang <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/pyua"
+repository = "https://github.com/imyizhang/pyua"
+documentation = "https://pyua.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
