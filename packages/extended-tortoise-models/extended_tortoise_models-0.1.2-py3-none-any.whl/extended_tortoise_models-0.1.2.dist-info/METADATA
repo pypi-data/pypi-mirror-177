@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: extended-tortoise-models
+Version: 0.1.2
+Summary: Extended models for tortoise; less boilerplate for everybody! ⛰
+License: MIT
+Author: Can H. Tartanoglu
+Author-email: canhtart@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tortoise-orm
+Description-Content-Type: text/markdown
+
+# Extended tortoise models
+
+This package is simply an extension of the `tortoise.Model` to avoid duplicated boilerplate across projects using `tortoise`.
+
+## Installation
+
+```shell
+pip install extended-tortoise-models
+```
+
+## Contribution
+
+Additional models are more than welcome! Please submit a pull request (PR).
+
