@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: anita
+Version: 0.1.4
+Summary: ANITA is a proof assistant for teaching analytic tableaux to computer science students.      ANITA allows students to write their proofs and automatically checks whether the proofs are correct and, if not, displays any errors found.
+Home-page: https://github.com/daviromero/anita
+Author: Davi Romero de Vasconcelos
+Author-email: daviromero@ufc.br
+License: MIT
+Keywords: Analytic Tableaux,Teaching Logic,Educational Software
+Platform: UNKNOWN
+
+UNKNOWN
+

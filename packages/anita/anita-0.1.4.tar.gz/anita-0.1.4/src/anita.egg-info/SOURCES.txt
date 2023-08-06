@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/anita/__init__.py
+src/anita/anita_en_fo.py
+src/anita/anita_en_gui.py
+src/anita/anita_pt_fo.py
+src/anita/anita_pt_gui.py
+src/anita.egg-info/PKG-INFO
+src/anita.egg-info/SOURCES.txt
+src/anita.egg-info/dependency_links.txt
+src/anita.egg-info/requires.txt
+src/anita.egg-info/top_level.txt
