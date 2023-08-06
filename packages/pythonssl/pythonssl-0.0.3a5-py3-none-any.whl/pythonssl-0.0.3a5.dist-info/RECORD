@@ -1,0 +1,10 @@
+color.py,sha256=bzbOJ-Nc_mqggDmQUGeBLpFLCgl2mEfvCPOhuBCek3s,2391
+install.py,sha256=F87x0LyfOzm7Qg_13Zb-p786wsAz5B26-JvGVqP9d-w,438
+pySSL.py,sha256=ugvl_9qWNdN8MBHUc8T7fXUZQCroClHERC7__Sbk9Nw,8901
+pyssl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyssl/_makecode.pyd,sha256=fDVB_C5YYbXTcvThc5mJcUwDJNsI4hwy1wqQaPHJbzA,68096
+pyssl/_pyssl.pyd,sha256=vd4-587H_u2T1PRoAKzg_9WAdayU6ajQkeUj2nHRlGM,90112
+pythonssl-0.0.3a5.dist-info/METADATA,sha256=CWTyGzQ0HYcFiXNA6blWq73mfcZ5d8oNvCrVBEuYBck,1033
+pythonssl-0.0.3a5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pythonssl-0.0.3a5.dist-info/top_level.txt,sha256=6Sh7TiOWKWQMc5MDYkEgw1Q7VenYgT9CN13KRoWkqYk,26
+pythonssl-0.0.3a5.dist-info/RECORD,,
