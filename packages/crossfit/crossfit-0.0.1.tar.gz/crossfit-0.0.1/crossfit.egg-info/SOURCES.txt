@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+crossfit/__init__.py
+crossfit.egg-info/PKG-INFO
+crossfit.egg-info/SOURCES.txt
+crossfit.egg-info/dependency_links.txt
+crossfit.egg-info/requires.txt
+crossfit.egg-info/top_level.txt
