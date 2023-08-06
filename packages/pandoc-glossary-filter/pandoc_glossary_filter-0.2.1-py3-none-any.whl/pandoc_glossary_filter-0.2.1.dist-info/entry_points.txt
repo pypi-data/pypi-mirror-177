@@ -1,0 +1,3 @@
+[console_scripts]
+pandoc-glossary=pandoc_glossary_filter:main
+
