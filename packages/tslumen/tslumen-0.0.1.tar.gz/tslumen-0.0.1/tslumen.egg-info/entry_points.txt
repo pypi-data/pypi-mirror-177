@@ -1,0 +1,3 @@
+[console_scripts]
+tslumen = tslumen.cli:main
+
