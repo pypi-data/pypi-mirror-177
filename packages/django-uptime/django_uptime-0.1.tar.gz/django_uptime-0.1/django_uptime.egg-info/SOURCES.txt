@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+django_uptime/__init__.py
+django_uptime/urls.py
+django_uptime/views.py
+django_uptime.egg-info/PKG-INFO
+django_uptime.egg-info/SOURCES.txt
+django_uptime.egg-info/dependency_links.txt
+django_uptime.egg-info/not-zip-safe
+django_uptime.egg-info/requires.txt
+django_uptime.egg-info/top_level.txt

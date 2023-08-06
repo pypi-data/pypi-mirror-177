@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django_uptime
+Version: 0.1
+Summary: Editable non-cached monitorization path for Django
+Home-page: https://github.com/codesyntax/django-uptime
+Author: Urtzi
+Author-email: uodriozola@codesyntax.eus
+License: MIT license
+Keywords: moritorization,uptime
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django :: 1.11
+License-File: LICENSE
+
+
+    Editable non-cached monitorization path for Django. Standarized path for multiple django project moritorization
+    
