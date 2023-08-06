@@ -1,0 +1,7 @@
+devpi_private_mirrors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devpi_private_mirrors/main.py,sha256=-uWCeZhw4dU_pzT_p1jGnJoijWRW_gSw0re0kH4taU8,3499
+devpi_private_mirrors-0.0.3.dist-info/entry_points.txt,sha256=fQHxwnRS4lDNpSTsttHpLuf8m4e6X2dW2eJpJ-P3QUM,61
+devpi_private_mirrors-0.0.3.dist-info/WHEEL,sha256=TQSpXlWZjPl29LMjkpbkR7iGxKB2AMwzfSmPuPn1ZS8,87
+devpi_private_mirrors-0.0.3.dist-info/METADATA,sha256=GiVym8NVE-RoixbdczUW6vYXvXTyjZnoS0OZp7a43WI,3041
+devpi_private_mirrors-0.0.3.dist-info/licenses/LICENSE,sha256=S_gX4SETUVJWD00B--tI4Z5LmVvxMEHj7Tz-UsgZVTo,1069
+devpi_private_mirrors-0.0.3.dist-info/RECORD,,
