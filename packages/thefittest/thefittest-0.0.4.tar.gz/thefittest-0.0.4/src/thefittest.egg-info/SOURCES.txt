@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/thefittest/__init__.py
+src/thefittest/optimizers.py
+src/thefittest/testfuncs.py
+src/thefittest.egg-info/PKG-INFO
+src/thefittest.egg-info/SOURCES.txt
+src/thefittest.egg-info/dependency_links.txt
+src/thefittest.egg-info/top_level.txt
