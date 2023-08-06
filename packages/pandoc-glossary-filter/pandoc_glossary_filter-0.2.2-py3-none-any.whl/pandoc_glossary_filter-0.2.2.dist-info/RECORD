@@ -1,0 +1,9 @@
+pandoc_glossary_filter/__init__.py,sha256=d9U6lmyB9vMZtmN3NrquxARxXKX6OpI-Yp0ljowJZkU,1010
+pandoc_glossary_filter/__main__.py,sha256=xIMNMBFgnqjw3_DZ7X-E6PswehUpECxlfByjZZlUBHA,79
+pandoc_glossary_filter/data.py,sha256=tAuEPBoE8qeypFx6JC_rUTCieLBtMZcH6OrLmf_cGvQ,3702
+pandoc_glossary_filter/filter.py,sha256=7dNsfIKzUgz8EJKvRj_laCUpZS00gk3s9k_1wjQdXFg,2664
+pandoc_glossary_filter-0.2.2.dist-info/entry_points.txt,sha256=v3UD6vxgpGqOeSiaJPz7duIKdTmaEF-CT36jrkqg_5M,63
+pandoc_glossary_filter-0.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pandoc_glossary_filter-0.2.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pandoc_glossary_filter-0.2.2.dist-info/METADATA,sha256=t36GdlfoV3pdtCv5U4aX0RNzc5rjNilNnRosY_eSQ38,1425
+pandoc_glossary_filter-0.2.2.dist-info/RECORD,,
