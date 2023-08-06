@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+nbta.egg-info/PKG-INFO
+nbta.egg-info/SOURCES.txt
+nbta.egg-info/dependency_links.txt
+nbta.egg-info/not-zip-safe
+nbta.egg-info/requires.txt
+nbta.egg-info/top_level.txt
+scripts/nbta-run
+tests/__init__.py
