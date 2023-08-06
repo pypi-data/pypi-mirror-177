@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+discordxyz/__init__.py
+discordxyz.egg-info/PKG-INFO
+discordxyz.egg-info/SOURCES.txt
+discordxyz.egg-info/dependency_links.txt
+discordxyz.egg-info/top_level.txt
