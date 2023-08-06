@@ -1,0 +1,5 @@
+[console_scripts]
+digsec = digsec.main:main
+digsec.authenticate = digsec.authenticate:main
+digsec.resolve = digsec.resolve:main
+
