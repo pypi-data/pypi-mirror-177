@@ -1,0 +1,8 @@
+setup.py
+FactorBacktesterModel/__init__.py
+FactorBacktesterModel/extractdata.py
+FactorBacktesterModel.egg-info/PKG-INFO
+FactorBacktesterModel.egg-info/SOURCES.txt
+FactorBacktesterModel.egg-info/dependency_links.txt
+FactorBacktesterModel.egg-info/top_level.txt
+FactorBacktesterModel/Factors/__init__.py
