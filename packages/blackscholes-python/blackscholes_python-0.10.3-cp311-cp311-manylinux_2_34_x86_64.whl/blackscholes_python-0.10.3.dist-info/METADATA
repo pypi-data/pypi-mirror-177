@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: blackscholes_python
+Version: 0.10.3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE.md
+Summary: Black-Scholes option pricing model calculator
+Keywords: finance,option,python,blackscholes,option-pricing
+Author: Hayden Rose
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/hayden4r4/blackscholes-rust
+
+# blackscholes  
+  
+This library provides an simple, lightweight, and efficient (though not heavily optimized) implementation of the Black-Scholes-Merton model for pricing European options.  
+  
+This crate is compilable to a python package using pyo3 and Maturin.  It features full doc and type annotations. The rust compiled python package is ~1 second slower in pricing an option to 10M iterations than the pure rust crate on a Ryzen 7600x.
+  
+## Usage  
+  
+Simply create an instance of the `Inputs` struct and call the desired method.  
+  
+View the [Rust docs](https://docs.rs/blackscholes_python) and [Python docs](https://pypi.org/project/blackscholes/) for usage and examples.  
+
