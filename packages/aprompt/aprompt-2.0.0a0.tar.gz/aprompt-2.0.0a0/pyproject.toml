@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aprompt"
+version = "2.0.0a0"
+description = "Advanced Prompts"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = [
+    "form",
+    "input",
+    "prompt",
+]
+license = {text = "MIT"}
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Other/Nonlisted Topic",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+]
+dependencies = [
+    "readchar",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+"Documentation" = "https://phoenixr-codes.github.io/aprompt/"
+"Source Code" = "https://github.com/phoenixr-codes/aprompt/"
+
+[tool.setuptools]
+packages = ["aprompt"]
