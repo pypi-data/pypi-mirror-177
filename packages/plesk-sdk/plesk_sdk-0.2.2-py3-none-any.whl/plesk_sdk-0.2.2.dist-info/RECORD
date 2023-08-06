@@ -1,0 +1,7 @@
+plesk_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plesk_sdk/client.py,sha256=eUhgj6dM6oquHWaF_TIZa0kE1FB-gTblB6RuaXopkNw,8272
+plesk_sdk/patterns.py,sha256=XrfU5VsUJbHLXIEuiEjJIHCctIC74abUGzW2p0FzB5Q,287
+plesk_sdk/responses.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plesk_sdk-0.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+plesk_sdk-0.2.2.dist-info/METADATA,sha256=IQPZiisxni7KgvkPHKj_8eKZ1Np1F0eQIWl0zUboMjU,441
+plesk_sdk-0.2.2.dist-info/RECORD,,
