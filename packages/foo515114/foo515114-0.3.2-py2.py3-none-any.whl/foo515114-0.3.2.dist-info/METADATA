@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: foo515114
+Version: 0.3.2
+Summary: A short description of the package.
+Requires-Dist: black
+Requires-Dist: python-semantic-release ; extra == "deploy"
+Requires-Dist: coverage>=5.0.3 ; extra == "tests"
+Requires-Dist: pytest ; extra == "tests"
+Requires-Dist: pytest-benchmark[histogram]>=3.2.1 ; extra == "tests"
+Provides-Extra: deploy
+Provides-Extra: tests
