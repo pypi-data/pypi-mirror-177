@@ -1,0 +1,6 @@
+pymysql
+faker
+requests
+pysqlite3
+cacheout
+requests_cache
