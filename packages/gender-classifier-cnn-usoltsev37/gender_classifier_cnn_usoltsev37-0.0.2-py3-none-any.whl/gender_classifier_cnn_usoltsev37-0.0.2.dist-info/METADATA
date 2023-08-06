@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: gender-classifier-cnn-usoltsev37
+Version: 0.0.2
+Summary: hse-engineering-practices-gender-classifier-cnn
+Home-page: https://github.com/usoltsev37/hse-engineering-practices-ml/tree/main/gender-classifier-cnn
+Author: Nikita Usoltsev
+Author-email: nikitav030301@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.9.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: contourpy (==1.0.6)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.38.0)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: Pillow (==9.3.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.6)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: torch (==1.13.0)
+Requires-Dist: torchaudio (==0.13.0)
+Requires-Dist: tqdm (==4.64.1)
+Requires-Dist: typing-extensions (==4.4.0)
+
+# hse-engineering-practices-ml
+
+### HW02
+
+#### Установка пакетного менеджера Pip (уже установленно, он дефолтный)
+
+#### Развертывание окружения
+```
+python -m venv ./gender-classifier-cnn/env
+```
+#### Сборка пакета
+```
+python setup.py sdist bdist_wheel
+twine upload --repository pypi dist/*
+```
+#### Ссылка на пакет в pypi-test
+
+https://pypi.org/project/gender-classifier-cnn-usoltsev37/0.0.2/
+
+#### Установка пакета из pypi-test
+```
+pip install gender-classifier-cnn-usoltsev37==0.0.2
+```
+#### P.S. 
+Попробывал ```poetry```, возникли проблемы с установкой библиотеки torch на mac, это решение мне не помогло https://github.com/python-poetry/poetry/issues/6409?ysclid=lar7tjjma6220333470
+
