@@ -1,0 +1,3 @@
+[console_scripts]
+fconv = fconv.__main__:main
+
