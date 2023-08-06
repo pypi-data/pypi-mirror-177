@@ -1,0 +1,13 @@
+sw_product_lib/__init__.py,sha256=u0iklMaOU6vgW3v-lOQUxThfgJ3xAT_EBzzhIEMDmVY,87
+sw_product_lib/billing.py,sha256=Ep26CTtwK7B4ylzACZ-7U2zTAqBMsmyU3PYmMsMpr6Q,3878
+sw_product_lib/client.py,sha256=T9SvJW_mmhoasp-7QlikYsd1qgXWpAJYLBfkxruUNGw,23624
+sw_product_lib/error.py,sha256=ynHGVbMyUBtFlInpo60gqUh0IcV_XbmSPVN33qSeKjM,2141
+sw_product_lib/fast.py,sha256=3QdjDn24KO-0fcnJSrbWvcLjRNuZCzimHRK3JDCHN80,231
+sw_product_lib/job.py,sha256=pojxwrkvkaKHK_VvLRFoQTNnf3HjmZvF8P4-GDnrRlw,12386
+sw_product_lib/platform.py,sha256=AgH0DAg_mLWXg-bnVITBg5tQXJb7nZAsMxBhoJFii6A,3707
+sw_product_lib/resource.py,sha256=TEKvsFXwhaa92pq_MtHnYzfrTIzmZhw9HT5pp8KjIfA,8392
+sw_product_lib/service.py,sha256=3ykCe8CgGxtUa-CAY-uL_jfZy5htdQVBb9fx7Iouqyk,10681
+sw_product_lib/transport.py,sha256=hvdMU7mI7dqQFp1i0YCQNxq6FrwFp40s3JerYlD57XA,3879
+sw_product_lib-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+sw_product_lib-0.2.0.dist-info/METADATA,sha256=QB_szEKypdWMPG1s4Km484iKt1tff5DsudKRyKfCepw,832
+sw_product_lib-0.2.0.dist-info/RECORD,,
