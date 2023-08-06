@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+redirects = techdocs_redirects.plugin:RedirectPlugin
+
