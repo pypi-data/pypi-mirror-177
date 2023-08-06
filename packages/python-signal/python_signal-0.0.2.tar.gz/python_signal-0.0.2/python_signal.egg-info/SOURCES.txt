@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+python_signal/__init__.py
+python_signal/signal.py
+python_signal.egg-info/PKG-INFO
+python_signal.egg-info/SOURCES.txt
+python_signal.egg-info/dependency_links.txt
+python_signal.egg-info/requires.txt
+python_signal.egg-info/top_level.txt
