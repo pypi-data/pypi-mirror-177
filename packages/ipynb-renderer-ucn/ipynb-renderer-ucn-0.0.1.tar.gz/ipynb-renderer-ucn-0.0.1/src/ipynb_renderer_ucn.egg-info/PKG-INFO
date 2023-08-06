@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ipynb-renderer-ucn
+Version: 0.0.1
+Summary: IPython Notebooks Renderer
+Home-page: https://github.com/mmuchsin/ipynb_renderer
+Author: muchsin
+License: MIT
+Project-URL: Bug Tracker, https://github.com/mmuchsin/ipynb_renderer/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# IPYNB Renderer
