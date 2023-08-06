@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+fastcp/fastcp/__init__.py
+fastcp/fastcp/arrays.py
+fastcp/fastcp/bitMan.py
+fastcp/fastcp/math.py
+fastcp/fastcp/search.py
+fastcp/fastcp/strings.py
+fastcp/fastcp/trees.py
+fastcp/fastcp.egg-info/PKG-INFO
+fastcp/fastcp.egg-info/SOURCES.txt
+fastcp/fastcp.egg-info/dependency_links.txt
+fastcp/fastcp.egg-info/top_level.txt
+fastcp/tests/__init__.py
