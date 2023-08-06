@@ -1,0 +1,11 @@
+more_pathlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+more_pathlib/common.py,sha256=wTGEmZTSwc4t8yUGgKAYC--gF01q2ClKtRT6QSC7v4s,312
+more_pathlib/json.py,sha256=wYDGh27G01dflpcZYrtwG46hrcQzf614UpvUQb3qaWo,861
+more_pathlib/pickle.py,sha256=Ml5uoqWT91JmmcBnaitBY147HYoCaiqKtIPpvMANK0w,796
+more_pathlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+more_pathlib/rm.py,sha256=Se9SXdOlGdmdfmwGmUyJQdzRTjo-ZB2viJEZcTcSEAM,577
+more_pathlib/validation.py,sha256=g0bIdCuUNEfqBGBVQfzuIf1w4Moggaas5prWuQQDdeo,1189
+more_pathlib-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+more_pathlib-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+more_pathlib-0.1.0.dist-info/METADATA,sha256=A_HcGRSZDk7s-1O39bA9x5HN5MPGJbGYJZ0r7qUbNn4,351
+more_pathlib-0.1.0.dist-info/RECORD,,
