@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: simple-test-packet
+Version: 0.3.0
+Summary: 
+Home-page: https://github.com/rofar91/simple-test-packet
+License: MIT
+Author: Dima Abramovich
+Author-email: abramovich_d@rocketdata.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi (>=0.85.0,<0.86.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: redis (>=4.3.4,<5.0.0)
+Requires-Dist: uvicorn (>=0.18.3,<0.19.0)
+Project-URL: Documentation, https://github.com/rofar91/simple-test-packet
+Project-URL: Repository, https://github.com/rofar91/simple-test-packet
+Description-Content-Type: text/x-rst
+
+==================
+ FastAPI + Poetry
+==================
+
+uvicorn main:app --reload
