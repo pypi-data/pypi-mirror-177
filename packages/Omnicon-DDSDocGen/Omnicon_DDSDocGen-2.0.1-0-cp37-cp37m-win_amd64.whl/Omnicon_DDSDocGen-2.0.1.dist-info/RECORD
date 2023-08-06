@@ -1,0 +1,17 @@
+Omnicon_DDSDocGen/DocGenInterface.py,sha256=xoSvfv3Qu2pRtKGUJduuBAw07qqLP8Tf8sVYU8oxs0Y,2039
+Omnicon_DDSDocGen/DocGenLogic.py,sha256=3Hj26zppcw8D0XnZborTnVK8GIfr3seDyoFOhS4zBEs,27654
+Omnicon_DDSDocGen/DocxGen.py,sha256=amJ7_5pS1eLSfoLx2p40tClwgYZ1s_P9TUHeLr3T7OY,10298
+Omnicon_DDSDocGen/LatexGen.py,sha256=mPXpc7hx8m2h5rnUABqiuYOhL7xIcJbtppgk0eRoSls,12985
+Omnicon_DDSDocGen/Logger.py,sha256=kPNhEcusBmvKum40sZamomnv_N48swALMPec7nwHPNs,2314
+Omnicon_DDSDocGen/Omnicon_DDSDocGen.py,sha256=c4qbZ_AmnVrknThGf3onr4FXclLlwALvxEE_vPKOG7M,3186
+Omnicon_DDSDocGen/PdfGen.py,sha256=Awg81SqOMvYxIUAu1eN8aMB6J0z0Z3qEG6YqoLsvY0o,1304
+Omnicon_DDSDocGen/SingleChapterGenerator.py,sha256=fIRyTLh7abC-xkNbnrG89x-3A6FQskBqnGGcr4BRizc,37957
+Omnicon_DDSDocGen/Template.docx,sha256=DX22sXl-u-l_r-oJ9gp3rNHkE0UiKvWw6zJKPb8auMw,21958
+Omnicon_DDSDocGen/Utils.py,sha256=O7Uq8Nw6GZ1oopXnezATL2IYVLY-PRO4csdgCVTsH4I,636
+Omnicon_DDSDocGen/__init__.py,sha256=r1JM5sMImkNJASUQIxdN9tvrxKwLtTGxt-UbAdv3tLg,133
+Omnicon_DDSDocGen/docGenMain.py,sha256=2yVl8o7kuCFWDSQ22q5vxsDbmKhpWbYhII1o8HY--wE,23766
+Omnicon_DDSDocGen-2.0.1.dist-info/LICENSE,sha256=XSIwLWa6oB7ZrV1lbbzYgj5AAYxve0v6oGjWdGkvvRw,1148
+Omnicon_DDSDocGen-2.0.1.dist-info/METADATA,sha256=z6v8FYjmYUUysxIXMNS7dvCvEajFXnl2uPEeoYBctfY,5085
+Omnicon_DDSDocGen-2.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Omnicon_DDSDocGen-2.0.1.dist-info/top_level.txt,sha256=N_T3f3SrPcjZY7yTpuuUAzmhBoNgEvwOuwqKxGZFXEI,18
+Omnicon_DDSDocGen-2.0.1.dist-info/RECORD,,
