@@ -1,0 +1,12 @@
+rest_framework_dataclasses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_dataclasses/field_utils.py,sha256=LlTQpHOsXFe3gND05X4-UHFDkynyCwF2a0bNf_zhTCs,3445
+rest_framework_dataclasses/fields.py,sha256=YpKPwTj-zJ93Pw3icfAq2xuTUVqs1iz1HGO-Ocw1QOw,1606
+rest_framework_dataclasses/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_dataclasses/serializers.py,sha256=TKCAJ-kbRRUzyx0QpPPuRmhH6F-9YohfJ-1Y4jpP78c,30334
+rest_framework_dataclasses/types.py,sha256=aZkcE6KHxe6CCPWUocMBSmHV42TjUW1972ss_xJ8_CI,944
+rest_framework_dataclasses/typing_utils.py,sha256=Ys0jAvUpYGdwocE5_UWpVOqtGMmPEqWD3vg_T3_g14k,8787
+djangorestframework_dataclasses-1.2.0.dist-info/LICENSE,sha256=gJmmkovKQOqsbd3-dN611ElyaSCuN6gGrZv0buBzCPc,1486
+djangorestframework_dataclasses-1.2.0.dist-info/METADATA,sha256=HajkBWH1esvWb1jXg2qoVICW-y_MWwZXgHq-KLygNWc,23439
+djangorestframework_dataclasses-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+djangorestframework_dataclasses-1.2.0.dist-info/top_level.txt,sha256=JkbXUo-2M0AcXH2V3Du13A_IQTHOiOOf5PZ_6LbQbe8,27
+djangorestframework_dataclasses-1.2.0.dist-info/RECORD,,
