@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dexo/__init__.py
+dexo/__main__.py
+dexo.egg-info/PKG-INFO
+dexo.egg-info/SOURCES.txt
+dexo.egg-info/dependency_links.txt
+dexo.egg-info/entry_points.txt
+dexo.egg-info/requires.txt
+dexo.egg-info/top_level.txt
