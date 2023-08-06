@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+edboplus.egg-info/PKG-INFO
+edboplus.egg-info/SOURCES.txt
+edboplus.egg-info/dependency_links.txt
+edboplus.egg-info/requires.txt
+edboplus.egg-info/top_level.txt
