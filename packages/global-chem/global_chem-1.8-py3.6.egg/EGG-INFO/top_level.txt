@@ -1,0 +1,3 @@
+bot_services
+global_chem
+global_chem_extensions
