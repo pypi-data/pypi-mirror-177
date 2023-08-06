@@ -1,0 +1,6 @@
+greet_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greet_app/main.py,sha256=e2IUsEvDZXz9pcpgQk6pK7kJRICAqs6xBChEpskzVTw,551
+greet_app-0.1.0.dist-info/entry_points.txt,sha256=Q324ZKU6GLY6pLaywH1eoFOkHBl5g57NsFCb6yEXYMQ,48
+greet_app-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+greet_app-0.1.0.dist-info/METADATA,sha256=FPVGVrBUpKxXcvvzo7Tc15ZQUWGAsCYXOLVZhxaPO4o,350
+greet_app-0.1.0.dist-info/RECORD,,
