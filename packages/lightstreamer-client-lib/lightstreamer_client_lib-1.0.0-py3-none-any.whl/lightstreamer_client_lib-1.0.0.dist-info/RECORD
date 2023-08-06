@@ -1,0 +1,10 @@
+lightstreamer/client/__init__.py,sha256=ls2wxBlmeTn44H73Gfvk2OJ-pR4XyNdlomwRpzhV-kc,75
+lightstreamer/client/com_lightstreamer_net.py,sha256=HQDIFiSeU3dqCbbbHCiGMHUQnIQpHSaJa02fw7oGm6c,5499
+lightstreamer/client/ls_python_client_api.py,sha256=nj9zPv8uc0-Ul1dMh_oQrpAFS4QFcTINvVv3aXySvJ0,43272
+lightstreamer/client/ls_python_client_haxe.py,sha256=UY5IrusAqGuNp4e1tl2XulTrzOeEqHvAdrv6hes7cFg,728053
+lightstreamer/client/ls_python_client_wrapper.py,sha256=iB9cNCxfcMQwWuz81JXKUmy_X5uxhiVibDbF7CMV2bE,107909
+lightstreamer_client_lib-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lightstreamer_client_lib-1.0.0.dist-info/METADATA,sha256=zDUy2nyDCMSRG0kkpzw-z6mRnBIr08gS8nKYWU4q9bc,5190
+lightstreamer_client_lib-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lightstreamer_client_lib-1.0.0.dist-info/top_level.txt,sha256=GcZpaUtOkRFDK_MgFILj-GMH4O4_jv07E9q0N6dJfpk,14
+lightstreamer_client_lib-1.0.0.dist-info/RECORD,,
