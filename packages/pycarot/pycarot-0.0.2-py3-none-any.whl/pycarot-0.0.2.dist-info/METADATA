@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pycarot
+Version: 0.0.2
+Summary: pycarot - python tools
+Author-email: BaySiyah <siyah@ksknsy.de>
+License: MIT License
+Project-URL: Homepage, https://github.com/BaySiyah/pycarot
+Keywords: dependency,injection,event,IoC,container
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pycarot
