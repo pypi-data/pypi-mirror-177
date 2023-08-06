@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: infiniaml-idp-client
+Version: 1.0.1
+Summary: Infinia ML Intelligent Document Processing Client
+Requires-Python: >=3.8
+Provides-Extra: cli
