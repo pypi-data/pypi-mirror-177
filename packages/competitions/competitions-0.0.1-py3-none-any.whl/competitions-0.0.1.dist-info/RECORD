@@ -1,0 +1,9 @@
+competitions/__init__.py,sha256=3jWHmY0skxYSF1RmRs60pE-0YjYtAUzV2iwdHOxD95o,37
+competitions/app.py,sha256=w0nj10Om5vzPNFsISWzSaCwUrJMhE19xKL6qKYveZpA,6844
+competitions/config.py,sha256=8lZEWnIQ7BugFTm27Zp4s3tHHVhQhfkmcW_9CCrrWfs,2254
+competitions/utils.py,sha256=ChIYEXAHrf_HAM-aaLeHVPhByazwabY4fkTnLVI4S2E,11220
+competitions-0.0.1.dist-info/LICENSE,sha256=hEEO7rx9ctrYECxsiifLDx_WmgLZiLLhr6a-dvUQ0Sw,11351
+competitions-0.0.1.dist-info/METADATA,sha256=pKC4SDqcbGjYyNlrMDjFQIFzpyE2CRM0htlmEVYjETk,1578
+competitions-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+competitions-0.0.1.dist-info/top_level.txt,sha256=rvFA9GjmB9bPCU378_7XiN1AmcIyq2WtsRS6uH5Tye4,13
+competitions-0.0.1.dist-info/RECORD,,
