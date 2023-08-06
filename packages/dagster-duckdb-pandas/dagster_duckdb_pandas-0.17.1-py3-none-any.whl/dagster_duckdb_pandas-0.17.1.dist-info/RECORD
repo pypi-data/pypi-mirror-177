@@ -1,0 +1,9 @@
+dagster_duckdb_pandas/__init__.py,sha256=_lEU4sRcP51wjQH63XDBbnByzoGGQufUjfoVxhJfSnM,91
+dagster_duckdb_pandas/duckdb_pandas_type_handler.py,sha256=O1SO2FfpM514u7VbujJ5vUyu2KTbGY0mED37U8-5d0I,2451
+dagster_duckdb_pandas/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+dagster_duckdb_pandas/version.py,sha256=mrwBkyZNcMowMG4-KslRvuWjlT2xdlnWDSWDZEK270s,23
+dagster_duckdb_pandas-0.17.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_duckdb_pandas-0.17.1.dist-info/METADATA,sha256=A11GtxexBxMF_wKiXmje_oO-rtkfWprMl1TUCa-uiLI,758
+dagster_duckdb_pandas-0.17.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_duckdb_pandas-0.17.1.dist-info/top_level.txt,sha256=7-E1Sg5YL2Cw2OkcjZulwHbDzZit0J9Ho8gKwlxSMOg,22
+dagster_duckdb_pandas-0.17.1.dist-info/RECORD,,
