@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fakeapistories
+Version: 0.1
+Summary: This code is fetching data through the fakedata api
+Home-page: https://github.com/rohan-somkuwar/clitool/tree/master
+Author: Rohan
+Author-email: rohansomkuwar97@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE.txt

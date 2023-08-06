@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+fakeapistories/__init__.py
+fakeapistories/createproduct.py
+fakeapistories/data.py
+fakeapistories/get.py
+fakeapistories.egg-info/PKG-INFO
+fakeapistories.egg-info/SOURCES.txt
+fakeapistories.egg-info/dependency_links.txt
+fakeapistories.egg-info/requires.txt
+fakeapistories.egg-info/top_level.txt
