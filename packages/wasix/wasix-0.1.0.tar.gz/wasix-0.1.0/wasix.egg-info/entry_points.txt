@@ -1,0 +1,15 @@
+[console_scripts]
+wasix-ar = wasix.commands:wasix_ar
+wasix-c++ = wasix.commands:wasix_cpp
+wasix-cc = wasix.commands:wasix_cc
+wasix-clang = wasix.commands:wasix_cc
+wasix-clang++ = wasix.commands:wasix_cpp
+wasix-configure = wasix.commands:wasix_configure
+wasix-ld = wasix.commands:wasix_ld
+wasix-make = wasix.commands:wasix_make
+wasix-nm = wasix.commands:wasix_nm
+wasix-ranlib = wasix.commands:wasix_ranlib
+wasix-run = wasix.commands:wasix_run
+wasm-c++ = wasix.commands:wasm_cc
+wasm-cc = wasix.commands:wasm_cc
+

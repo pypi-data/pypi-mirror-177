@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wasix
+Version: 0.1.0
+Summary: WASIX is a POSIX-Compliant WebAssembly compiler based on WASI
+Home-page: https://github.com/wasmer/wasix
+Author: Syrus Akbary
+Author-email: syrus@wasmer.io
+License: MIT
+Keywords: webassembly wasi wasienv wasix wasmer
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

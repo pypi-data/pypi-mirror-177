@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+wasix/__init__.py
+wasix/base.py
+wasix/commands.py
+wasix/constants.py
+wasix/utils.py
+wasix/wasix.cmake
+wasix.egg-info/PKG-INFO
+wasix.egg-info/SOURCES.txt
+wasix.egg-info/dependency_links.txt
+wasix.egg-info/entry_points.txt
+wasix.egg-info/not-zip-safe
+wasix.egg-info/requires.txt
+wasix.egg-info/top_level.txt

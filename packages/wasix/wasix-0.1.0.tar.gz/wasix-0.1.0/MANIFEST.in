@@ -1,0 +1,5 @@
+include wasix/wasix.cmake
+include README.md
+include LICENSE
+
+recursive-include wasix/stubs *
