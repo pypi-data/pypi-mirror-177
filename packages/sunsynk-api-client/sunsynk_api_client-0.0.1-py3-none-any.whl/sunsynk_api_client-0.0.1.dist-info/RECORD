@@ -1,0 +1,14 @@
+sunsynk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sunsynk/battery.py,sha256=_1gKhyAVoUyT3hffDxXTUYeZUgmlSJSk_ekq7MzcUIg,1939
+sunsynk/client.py,sha256=dLXqa3jWdduOwo4NSxjxvNFHy8uw7YdbbzFiNv5xg2w,2217
+sunsynk/plant.py,sha256=WCjiKNCcceG816rG3oghCYTCZJiUDzmiz7uPLwEZd1I,844
+sunsynk/resource.py,sha256=5s7JY4bNdKfeyhaSYYImYlP1c65hYLJCyfReaaTSMSs,188
+sunsynk/version.py,sha256=lJkz0B-aGQuluJ8MM7kziwRYiwQwZJX-xNxwgRZdfuY,37
+sunsynk/version_info.py,sha256=LBB5Mh2WktEN0rzDDIsekiHWpqwbm0R8ecSclH5MGLo,1509
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_placeholder.py,sha256=MPl3PcfugEyRuNtIyjG6jhbu2Ve744l6Mi9MytVc4Ts,64
+sunsynk_api_client-0.0.1.dist-info/LICENSE,sha256=FBtSWv6UL2hJACPHL3NbFMJc2D_85qekm-YQ_Rg3FMs,1070
+sunsynk_api_client-0.0.1.dist-info/METADATA,sha256=yl8KMHCJ-V444PcI79b5IHTtKo33lf6hfvI4JiMPMaY,383
+sunsynk_api_client-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sunsynk_api_client-0.0.1.dist-info/top_level.txt,sha256=xTQTervzhc6l_NVHbfOVA_1z8BCA0pgilstlQYFcWrM,14
+sunsynk_api_client-0.0.1.dist-info/RECORD,,
