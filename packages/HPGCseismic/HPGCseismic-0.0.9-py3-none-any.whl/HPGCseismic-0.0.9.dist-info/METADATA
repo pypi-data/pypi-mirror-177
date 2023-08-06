@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: HPGCseismic
+Version: 0.0.9
+Summary: Seismic data processing
+Home-page: https://github.com/weiyw16/HPGCseismic.git
+Author: Yanwen Wei
+Author-email: weiyw17@gmail.com
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: os
+Requires: numpy
+Requires: struct
+Description-Content-Type: text/markdown
+
+# HPGCseismic
+
+A package for seismic data processing.
+in development.
+
+## Packages include
+
+1. Denoise
+   1. wild amplitude attenuation
+2. F-k transform
+
+
+
+## Installation
+
+`
+pip install HPGCseismic
+`
+
+## Reference 
+
+
