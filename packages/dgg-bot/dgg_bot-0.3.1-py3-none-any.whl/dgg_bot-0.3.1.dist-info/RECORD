@@ -1,0 +1,15 @@
+dggbot/__init__.py,sha256=cDGIlxVQPvwKYvQCTkd2kVHIFM6Y_CECFAnJADMaQK4,206
+dggbot/_logging.py,sha256=WctKat3q74t_Rpa8l7WX75g47lVkhbOKUZKjcy172Pc,504
+dggbot/bot.py,sha256=HC2J3qdOeFPnXAMHW5W392LNTuQ5TMFPPllkEanoxVo,2842
+dggbot/chat.py,sha256=a5L3vB2ee4vKQAZYeODQMuTEkIcxfEFvKHTsxNy6038,9973
+dggbot/errors.py,sha256=mvzywsN1Mt3Rq82SiKvjnRKt5HwxMDP9EOX5HzuUAnA,499
+dggbot/event.py,sha256=7qdyT0S7Mi1cTgRe1ipJbKRYRkUZyfpsKjx_qLoNTig,334
+dggbot/message.py,sha256=EC3bQ3CJiV6TOAHTE20faT9rEIneEt5HQKE5-uKuus8,697
+dggbot/user.py,sha256=WKdjpfvrwDdHo7d27fwzCk4DonhOAdTbzn0Evv5OIkE,138
+dggbot/live/__init__.py,sha256=aoFmjyWn69E9bbgjgjqcMD3e6JJPFyt0lyKgSFhhdZc,3463
+dggbot/live/message.py,sha256=DrKkYW7Oo2vEaJdLds3xhUZwMYQNPE1iHmhH4xyiddg,1270
+dgg_bot-0.3.1.dist-info/LICENSE,sha256=J6rB4BtqeIqcyMLzr6BAztgYqjXR5pvv8myF2EJTMKg,1081
+dgg_bot-0.3.1.dist-info/METADATA,sha256=fkj8HlxrZqS_65gnxP1WxGXycwJj_Tl6eqZhta_a6ME,2995
+dgg_bot-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dgg_bot-0.3.1.dist-info/top_level.txt,sha256=tI2DLr2-cqi7xe0lQbnM12qLS_bgstqGbIwfxwQpCLw,7
+dgg_bot-0.3.1.dist-info/RECORD,,
