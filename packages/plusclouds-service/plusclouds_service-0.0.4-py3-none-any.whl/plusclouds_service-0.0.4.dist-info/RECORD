@@ -1,0 +1,16 @@
+plusclouds.py,sha256=px4_DnAXV9PTRVmdXIen7_EPm3_n8qzN7Cz-ororGsg,972
+plusclouds-service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plusclouds-service/__main__.py,sha256=Id2_z3GWH3UtfpL4RpLzJKWpTWKzJDyBWNHcLsE-aoI,21
+plusclouds-service/service.py,sha256=TV0SSzNadxQDko8eqOSZQJALioHGrry5pmh1wXi7aAg,11680
+plusclouds-service/storage.py,sha256=nVVbcQj1BNz367TCa7TLKP0hN5VhPuXqGmHjyhsMPYc,4149
+plusclouds-service/module_search/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+plusclouds-service/module_search/ansible_operations.py,sha256=O4lJa7Tapz5qfOkBSUlmaiVgrXZIh_cQLapJlDzs_RU,1630
+plusclouds-service/module_search/callback_agent.py,sha256=bMtFGSLIe_wEwR__K_mOo2B-h7p-ksuAzhygABxwcdI,1030
+plusclouds-service/module_search/service_search.py,sha256=rjpyi8BeSdWz9NX8fqA2Pfg_6MilwKh_ah2j5HnO63Y,2235
+plusclouds-service/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plusclouds-service/util/ssh_keys/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plusclouds-service/util/ssh_keys/ssh_key_parser.py,sha256=-YexmN1RZSERCf2YiR3xuzYpUgHat1H3N3LCx97Bi0M,275
+plusclouds_service-0.0.4.dist-info/METADATA,sha256=0vjHs2HI7LFiq80XIJ5EzMVaY0eiCb9qepNXara72Hk,6791
+plusclouds_service-0.0.4.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+plusclouds_service-0.0.4.dist-info/licenses/LICENSE,sha256=qyChUnLu8vvee-lab178zG_GcjCBMIoBNcvTxo-DX8Y,1067
+plusclouds_service-0.0.4.dist-info/RECORD,,
