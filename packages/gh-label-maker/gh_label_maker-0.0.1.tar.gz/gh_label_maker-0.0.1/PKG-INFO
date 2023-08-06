@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gh_label_maker
+Version: 0.0.1
+Summary: CLI tool for managing github labels
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
