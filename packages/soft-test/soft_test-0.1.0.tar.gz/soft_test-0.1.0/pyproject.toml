@@ -1,0 +1,23 @@
+[tool.poetry] 
+name = "soft_test"
+version = "0.1.0"
+description = ""
+authors = ["elbulidur <juliocezar.marketing@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies] 
+python = "^3.9"
+httpx = "^0.23.0"
+kivy = "^2.1.0"
+kivymd = "^1.1.1"
+
+
+[tool.poetry.scripts]
+app-cli = "app.cli:cli"
+
+[tool.poetry.group.dev.dependencies]
+pytest-asyncio = "^0.20.2"
+
+[build-system] 
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
