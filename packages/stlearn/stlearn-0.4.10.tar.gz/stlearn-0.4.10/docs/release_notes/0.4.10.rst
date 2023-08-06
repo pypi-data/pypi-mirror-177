@@ -1,0 +1,6 @@
+0.4.10 `2022-02-03`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rubric:: Feature
+
+- Upgrade stSME, PSTS and CCI analysis methods to work with Xenium data.
