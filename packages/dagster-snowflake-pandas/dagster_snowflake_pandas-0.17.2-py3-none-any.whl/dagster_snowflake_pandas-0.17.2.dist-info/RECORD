@@ -1,0 +1,8 @@
+dagster_snowflake_pandas/__init__.py,sha256=REcn3tjJ1lTkDpo3dl0QlPjCNZCHDiTXJiOaoV0T7EQ,280
+dagster_snowflake_pandas/snowflake_pandas_type_handler.py,sha256=qzot4c-bpaGHLperDylMb0s2ygkGRzi-zNr1e78IQ80,3988
+dagster_snowflake_pandas/version.py,sha256=I5u6uLh7NsbyGkKLvVteW175Afe6HJt5UsjBZ28EGks,23
+dagster_snowflake_pandas-0.17.2.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_snowflake_pandas-0.17.2.dist-info/METADATA,sha256=is2FVaeiQh0F7-22BZv-lSbKRH1uWL4y6gYfOOIwfPU,925
+dagster_snowflake_pandas-0.17.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_snowflake_pandas-0.17.2.dist-info/top_level.txt,sha256=xuCZvJBInwWRdTZgJ7pgYBSH_m50AKqVIhnKhTYfEC8,25
+dagster_snowflake_pandas-0.17.2.dist-info/RECORD,,
