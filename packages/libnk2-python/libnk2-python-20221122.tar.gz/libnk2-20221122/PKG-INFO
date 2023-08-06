@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: libnk2-python
+Version: 20221122
+Summary: Python bindings module for libnk2
+Home-page: https://github.com/libyal/libnk2/
+Author: Joachim Metz
+Author-email: joachim.metz@gmail.com
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Platform: UNKNOWN
+Description-Content-Type: text/plain
+License-File: COPYING
+License-File: COPYING.LESSER
+License-File: AUTHORS
+
+Python bindings module for libnk2
+

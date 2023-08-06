@@ -1,0 +1,106 @@
+Name: libnk2
+Version: 20221122
+Release: 1
+Summary: Library to access the Nickfile (NK2) format
+Group: System Environment/Libraries
+License: LGPLv3+
+Source: %{name}-%{version}.tar.gz
+URL: https://github.com/libyal/libnk2
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+              
+BuildRequires: gcc              
+
+%description -n libnk2
+Library to access the Nickfile (NK2) format
+
+%package -n libnk2-static
+Summary: Library to access the Nickfile (NK2) format
+Group: Development/Libraries
+Requires: libnk2 = %{version}-%{release}
+
+%description -n libnk2-static
+Static library version of libnk2.
+
+%package -n libnk2-devel
+Summary: Header files and libraries for developing applications for libnk2
+Group: Development/Libraries
+Requires: libnk2 = %{version}-%{release}
+
+%description -n libnk2-devel
+Header files and libraries for developing applications for libnk2.
+
+%package -n libnk2-python3
+Summary: Python 3 bindings for libnk2
+Group: System Environment/Libraries
+Requires: libnk2 = %{version}-%{release} python3
+BuildRequires: python3-devel
+
+%description -n libnk2-python3
+Python 3 bindings for libnk2
+
+%package -n libnk2-tools
+Summary: Several tools for reading Nickfiles (NK2)
+Group: Applications/System
+Requires: libnk2 = %{version}-%{release} 
+ 
+
+%description -n libnk2-tools
+Several tools for reading Nickfiles (NK2)
+
+%prep
+%setup -q
+
+%build
+%configure --prefix=/usr --libdir=%{_libdir} --mandir=%{_mandir} --enable-python3
+make %{?_smp_mflags}
+
+%install
+rm -rf %{buildroot}
+%make_install
+
+%clean
+rm -rf %{buildroot}
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+%files -n libnk2
+%defattr(644,root,root,755)
+%license COPYING COPYING.LESSER
+%doc AUTHORS README
+%attr(755,root,root) %{_libdir}/*.so.*
+
+%files -n libnk2-static
+%defattr(644,root,root,755)
+%license COPYING COPYING.LESSER
+%doc AUTHORS README
+%attr(755,root,root) %{_libdir}/*.a
+
+%files -n libnk2-devel
+%defattr(644,root,root,755)
+%license COPYING COPYING.LESSER
+%doc AUTHORS README
+%{_libdir}/*.so
+%{_libdir}/pkgconfig/libnk2.pc
+%{_includedir}/*
+%{_mandir}/man3/*
+
+%files -n libnk2-python3
+%defattr(644,root,root,755)
+%license COPYING COPYING.LESSER
+%doc AUTHORS README
+%{_libdir}/python3*/site-packages/*.a
+%{_libdir}/python3*/site-packages/*.so
+
+%files -n libnk2-tools
+%defattr(644,root,root,755)
+%license COPYING COPYING.LESSER
+%doc AUTHORS README
+%attr(755,root,root) %{_bindir}/*
+%{_mandir}/man1/*
+
+%changelog
+* Tue Nov 22 2022 Joachim Metz <joachim.metz@gmail.com> 20221122-1
+- Auto-generated
+
