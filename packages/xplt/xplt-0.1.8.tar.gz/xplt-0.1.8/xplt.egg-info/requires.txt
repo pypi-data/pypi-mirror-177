@@ -1,0 +1,4 @@
+matplotlib>=3.2
+numpy
+pandas
+pint
