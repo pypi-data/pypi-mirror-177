@@ -1,0 +1,9 @@
+glab_preset/main.py,sha256=_t2E2gKIihIjPvxkkrsBVb_GF5aDPSTAhjlAiONthxY,484
+glab_preset/presets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glab_preset/presets/misc.py,sha256=p5N8hRHgvcDSK5_b0dzDt7v8Vzsm9ysx2zPLdt3OqfI,433
+glab_preset/presets/react_k8s.py,sha256=XQQKfT5XvoMfMezH4CK4d37Dmrl3_RM4r6DhAXeXzw4,1063
+glab_preset/presets/react_oss.py,sha256=Dg3ihxuUqT4GpcmpNquYP6Fd9-25AqYNP9xQuWMaIa4,1248
+glab_preset-1.0.14.dist-info/entry_points.txt,sha256=KEmC0RHexVptKkHJIRSyDoPC7O1-Z31DCaW_IpmanCA,52
+glab_preset-1.0.14.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+glab_preset-1.0.14.dist-info/METADATA,sha256=vvdPtXqDtP4wNnHSgykdiGlg4aV1nXFZMZIQOycM0Wk,509
+glab_preset-1.0.14.dist-info/RECORD,,
