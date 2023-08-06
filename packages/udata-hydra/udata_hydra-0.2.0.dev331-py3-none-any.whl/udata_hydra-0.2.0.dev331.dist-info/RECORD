@@ -1,0 +1,16 @@
+udata_hydra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udata_hydra/app.py,sha256=2G-jPu8ruhxPIWEqc1HIe_cl5eeseawxA3pbOr_dEYM,12947
+udata_hydra/cli.py,sha256=pTbNZm7nPSDU_zTaWUCcu351gLk1vbBrWH0AwDGK6jw,6587
+udata_hydra/config.py,sha256=_nQxEOzVyw8GcQLLQkAyjMaDcDCO9kK6lKDueZIFlxA,1605
+udata_hydra/context.py,sha256=WOhYNJNGnKTWaVowVphEytyvd8GSDgqTtqRC__b3QBI,652
+udata_hydra/crawl.py,sha256=4QMsb8eV0M5MQO4Z78VgKKZSHlNJVS_tCLd6BPamIXI,12914
+udata_hydra/datalake_service.py,sha256=3Q83eygyFtNiObj_0SEYYab4gytUJK0SeO-kArTA6qE,6285
+udata_hydra/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udata_hydra/utils/csv.py,sha256=YumKogpYFd6maheofHTXkXMBhEVpuXoJtS4HlGWE65g,600
+udata_hydra/utils/http.py,sha256=ZIReYkR0wwrWYP1Ikl6lWGoYk1vLGNGI5N3vmzKYevs,914
+udata_hydra/utils/json.py,sha256=6QLYuAuW9iQnjmznrgHA1mpCfLiqsoY-SpkDy4Vl2UA,236
+udata_hydra/utils/minio.py,sha256=dUhLVjHz-w5vYTBZyCF9USWsew97-uMFxm2EtGR5mb0,1884
+udata_hydra-0.2.0.dev331.dist-info/entry_points.txt,sha256=Q2kB7XbpHSQSO63qHmB8JqjrJLnW4Re7FYXfhwSF40g,91
+udata_hydra-0.2.0.dev331.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+udata_hydra-0.2.0.dev331.dist-info/METADATA,sha256=BQnfBjqk2C8QVikZhvrFDxCPZZcT9B92nUH9Vbn1354,1074
+udata_hydra-0.2.0.dev331.dist-info/RECORD,,
