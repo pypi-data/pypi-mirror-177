@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+social_stats.egg-info/PKG-INFO
+social_stats.egg-info/SOURCES.txt
+social_stats.egg-info/dependency_links.txt
+social_stats.egg-info/entry_points.txt
+social_stats.egg-info/requires.txt
+social_stats.egg-info/top_level.txt
+socialstats/__init__.py
+socialstats/main.py

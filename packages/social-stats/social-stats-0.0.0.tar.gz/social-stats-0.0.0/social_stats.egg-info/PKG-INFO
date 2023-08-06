@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: social-stats
+Version: 0.0.0
+Summary: Social media stat card for readme.
+Home-page: https://github.com/sudiptob2/social-stats
+Author: Sudipto Baral
+Author-email: sudiptobaral.me@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# social-stats 
