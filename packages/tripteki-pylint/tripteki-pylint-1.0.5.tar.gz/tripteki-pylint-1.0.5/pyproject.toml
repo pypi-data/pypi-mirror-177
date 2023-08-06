@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">=3.10.0"
+
+dependencies = [
+
+    "pylint>=2.15.5"
+]
+
+# [project.optional-dependencies]
+
+name = "tripteki-pylint"
+version = "1.0.5"
+description = "Trip Teknologi's Codebase Convention"
+
+readme = "README.md"
+license = {file="LICENSE"}
+authors = [{name="Trip Teknologi", email="tripteki.company@gmail.com"}]
+classifiers = ["Programming Language :: Python :: 3.10", "Topic :: Software Development :: Libraries :: Python Modules"]
+[project.urls]
+homepage = "https://github.com/tripteki/convention-py"
+bug = "https://github.com/tripteki/convention-py/issues"
+
+[tool.setuptools.packages.find]
+where = ["Tripteki"]
+
+[tool.setuptools.package-data]
+"Lint" = ["pylintrc"]
+"*" = ["LICENSE", "README.md"]
+
+[project.scripts]
+tripteki-pylint = "Lint.src.Console.Kernel:initial"

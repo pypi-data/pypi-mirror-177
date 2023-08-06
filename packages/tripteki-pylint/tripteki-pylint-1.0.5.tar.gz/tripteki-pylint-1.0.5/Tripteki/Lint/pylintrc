@@ -1,0 +1,34 @@
+[MAIN]
+
+py-version=3.10
+
+ignore=.git vendor node_modules .gradle
+
+[FORMAT]
+
+indent-after-paren=4
+indent-string="    "
+
+[BASIC]
+
+include-naming-hint=yes
+
+module-naming-style=any
+class-naming-style=PascalCase
+method-naming-style=camelCase
+function-naming-style=camelCase
+argument-naming-style=camelCase
+class-const-naming-style=UPPER_CASE
+class-attribute-naming-style=camelCase
+attr-naming-style=camelCase
+const-naming-style=UPPER_CASE
+variable-naming-style=camelCase
+inlinevar-naming-style=camelCase
+
+[VARIABLES]
+
+allow-global-unused-variables=yes
+
+[STRING]
+
+check-quote-consistency=yes

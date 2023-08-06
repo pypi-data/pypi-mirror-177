@@ -1,0 +1,2 @@
+[console_scripts]
+tripteki-pylint = Lint.src.Console.Kernel:initial
