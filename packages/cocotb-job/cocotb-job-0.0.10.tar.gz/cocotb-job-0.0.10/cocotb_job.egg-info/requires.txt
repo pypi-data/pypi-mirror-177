@@ -1,0 +1,4 @@
+requests
+py3fdfsv2
+pypinyin
+redis

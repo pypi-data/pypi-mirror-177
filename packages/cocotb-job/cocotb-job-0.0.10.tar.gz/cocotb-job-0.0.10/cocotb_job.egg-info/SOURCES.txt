@@ -1,0 +1,10 @@
+README.md
+setup.py
+cocotb_job/__init__.py
+cocotb_job/client.py
+cocotb_job/executor.py
+cocotb_job.egg-info/PKG-INFO
+cocotb_job.egg-info/SOURCES.txt
+cocotb_job.egg-info/dependency_links.txt
+cocotb_job.egg-info/requires.txt
+cocotb_job.egg-info/top_level.txt
