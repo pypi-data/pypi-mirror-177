@@ -1,0 +1,6 @@
+[console_scripts]
+csv-remove-column = source.utilities.csv_remove_column:run
+csv-remove-nulls = source.utilities.csv_remove_nulls:run
+csv-shift-column = source.utilities.csv_shift_column:run
+csv-split = source.utilities.csv_split:run
+csv-validate = source.utilities.csv_validate:run
