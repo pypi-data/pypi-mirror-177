@@ -1,0 +1,11 @@
+LICENSE
+setup.cfg
+setup.py
+journalmk/__init__.py
+journalmk/__main__.py
+journalmk/journalmk.py
+journalmk.egg-info/PKG-INFO
+journalmk.egg-info/SOURCES.txt
+journalmk.egg-info/dependency_links.txt
+journalmk.egg-info/entry_points.txt
+journalmk.egg-info/top_level.txt
