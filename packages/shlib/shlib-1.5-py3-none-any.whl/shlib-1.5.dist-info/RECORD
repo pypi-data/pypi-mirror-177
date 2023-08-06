@@ -1,0 +1,9 @@
+shlib/__init__.py,sha256=AxN8AFzq_gywJ5ZxZ087uB6DifmrPQyTpe6dif6Xmg8,605
+shlib/extended_pathlib.py,sha256=-Sn15YPEp1tC-d1YPq9_qw1ydmh6M5eSytMaBAS4XxY,4886
+shlib/shlib.py,sha256=sS6uq5M6toRM9zK7abcQemo3QXAoZcqCsSnYJHfWZYA,31790
+shlib-1.5.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+shlib-1.5.dist-info/METADATA,sha256=QgIaQDcxGHMySN6iuM__HNuvtNOkEKVHTu6RIt5sO1M,22783
+shlib-1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shlib-1.5.dist-info/top_level.txt,sha256=aZO3hJ0df3bYDb8P1kmEwpo0U0svmxF2qSjA3A4YZ24,6
+shlib-1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+shlib-1.5.dist-info/RECORD,,
