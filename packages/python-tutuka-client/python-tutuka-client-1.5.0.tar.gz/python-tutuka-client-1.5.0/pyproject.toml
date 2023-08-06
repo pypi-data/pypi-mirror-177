@@ -1,0 +1,21 @@
+[tool.vulture]
+make_whitelist = true
+min_confidence = 80
+paths = ['tutuka_client']
+sort_by_size = true
+verbose = false
+
+[tool.commitizen]
+name = "cz_customize"
+version = "1.5.0"
+tag_format = "v$version"
+bump_message = "bump: Semantic Release Bot: Realease Version: $new_version 🤖🚀 [skip ci]"
+version_files = [
+    "setup.py:version"
+]
+
+[tool.commitizen.customize]
+schema = "<type>(<scope>): <subject>\n<BLANK LINE>\n<body>\n<BLANK LINE>\n(BREAKING CHANGE: )<footer>"
+schema_pattern = "(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|bump)!?(\\(\\S+\\))?:(\\s.*)"
+bump_pattern = "^(feat|fix|refactor|perf|chore|build)"
+bump_map = { "!" = "MAJOR", "^BREAKING" = "MAJOR", "^feat" = "MINOR", "^fix" = "PATCH", "^refactor" = "PATCH", "^perf" = "PATCH", "^chore" = "PATCH", "^build" = "PATCH"}
