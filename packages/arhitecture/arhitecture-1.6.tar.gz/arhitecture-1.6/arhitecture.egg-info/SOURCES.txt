@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+arhitecture/Start.py
+arhitecture/__init__.py
+arhitecture.egg-info/PKG-INFO
+arhitecture.egg-info/SOURCES.txt
+arhitecture.egg-info/dependency_links.txt
+arhitecture.egg-info/entry_points.txt
+arhitecture.egg-info/top_level.txt
