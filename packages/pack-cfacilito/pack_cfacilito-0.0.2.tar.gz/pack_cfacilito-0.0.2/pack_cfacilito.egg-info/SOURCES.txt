@@ -1,0 +1,11 @@
+README.md
+setup.py
+pack_cfacilito/__init__.py
+pack_cfacilito/__main__.py
+pack_cfacilito/workshops.py
+pack_cfacilito.egg-info/PKG-INFO
+pack_cfacilito.egg-info/SOURCES.txt
+pack_cfacilito.egg-info/dependency_links.txt
+pack_cfacilito.egg-info/entry_points.txt
+pack_cfacilito.egg-info/requires.txt
+pack_cfacilito.egg-info/top_level.txt

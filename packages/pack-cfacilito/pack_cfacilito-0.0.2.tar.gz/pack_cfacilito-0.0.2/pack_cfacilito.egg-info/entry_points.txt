@@ -1,0 +1,2 @@
+[console_scripts]
+cfacilito = pack_cfacilito.__main__:main
