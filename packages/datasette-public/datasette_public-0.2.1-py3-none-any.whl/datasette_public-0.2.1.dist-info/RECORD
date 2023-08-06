@@ -1,0 +1,8 @@
+datasette_public/__init__.py,sha256=RG6AGESzh2fOYuQ3qTxymElJuHx6skPDPyeq-uvrn80,4297
+datasette_public/templates/public_table_change_privacy.html,sha256=iRaD--FrU1D5edapaJ4zSq8dhVHk4qMDSSMPI_MgA0g,886
+datasette_public-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_public-0.2.1.dist-info/METADATA,sha256=jGp_jNAeISJUr-4UA4mHVvcewwPXtSndUkLja69izy0,2841
+datasette_public-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasette_public-0.2.1.dist-info/entry_points.txt,sha256=KYT_SNcPbpUXcNqGyAPQD_z4IYNmkQKbn2vTEm3_zfo,38
+datasette_public-0.2.1.dist-info/top_level.txt,sha256=DsbrrjQKfnvU0h_-t5mYrIUROL_tFVoNh2kMQnOFHlU,17
+datasette_public-0.2.1.dist-info/RECORD,,
