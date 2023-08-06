@@ -1,0 +1,4 @@
+markdown>=3.3.4
+pymdown-extensions>=9.0
+treeview-karjakak>=1.8.1
+excptr-karjakak>=0.1.0
