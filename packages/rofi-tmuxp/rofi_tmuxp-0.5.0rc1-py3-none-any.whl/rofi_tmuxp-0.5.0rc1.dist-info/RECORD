@@ -1,0 +1,10 @@
+rofi_tmuxp/__init__.py,sha256=llGQsCntp-shnQY9GODsX9wlUMOKgwBsnIfiVrnVDVc,86
+rofi_tmuxp/cli.py,sha256=VilJoj7fyz48mn7fkIEWBhMWpX0RR4WudaImq1RNiyI,1400
+rofi_tmuxp/rofi_client.py,sha256=3JmNNcFlu9bFZeptB8ikJ_4h7o2SR2uCxLzdpsVmUtY,500
+rofi_tmuxp/sessions.py,sha256=XK0HvrGLeHCMYOpbPdmmiwKChIAVQZBBtOQoldAX9pY,1444
+rofi_tmuxp/tmuxp_client.py,sha256=NBXZpBmuY-zoWPqSL3g_-kl8ksDOZibAblMU7JbF8xE,2043
+rofi_tmuxp-0.5.0rc1.dist-info/entry_points.txt,sha256=hcmvtQUHWsMroT2YrKcNIY3m5tUu4yQvSmYl2rCM71M,46
+rofi_tmuxp-0.5.0rc1.dist-info/LICENSE,sha256=yMIj8lKn1x1ClXawlt76AQckCbUuM5EtybEnQExGcx8,1072
+rofi_tmuxp-0.5.0rc1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+rofi_tmuxp-0.5.0rc1.dist-info/METADATA,sha256=w9gBQpPVXI_P1LmINYLNC9S3yFGK8TC2T7u0a88sPwg,3467
+rofi_tmuxp-0.5.0rc1.dist-info/RECORD,,
