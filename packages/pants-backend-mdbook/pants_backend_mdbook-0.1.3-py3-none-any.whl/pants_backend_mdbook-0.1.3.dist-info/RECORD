@@ -1,0 +1,13 @@
+pants_backend_mdbook/goals/__init__.py,sha256=wigCLjq5wVzETB4ZsgmTT3BLERXF54YgelzvbjCqWvc,99
+pants_backend_mdbook/goals/package.py,sha256=QcX8JEvAIQ6m-r5ciLTGBsJlIQFL_qONyA22kkFs-5I,881
+pants_backend_mdbook/register.py,sha256=q6HJbfAwLrVHD0S3HCzlI-bhr5BXmZLmYTfDfQ5LAl4,312
+pants_backend_mdbook/subsystem.py,sha256=e3WCt58uq3WA8zyzqoRK_bhusYLNS_Ovza8sGAq_iQ4,1102
+pants_backend_mdbook/target_types_rules.py,sha256=vfj0jfNs8Xb3sDUBa7OzRS4RmruoGt4NN3Avi-RQCRE,229
+pants_backend_mdbook/targets.py,sha256=E_bOajmrK0Gb1s1wjMbU_3vwHOVws27wScDTgXTM2_4,727
+pants_backend_mdbook/util_rules/__init__.py,sha256=6ypKEGX1yJZMallJh1QdAqeNDFvQy3ZdCH4_lHsbtOA,152
+pants_backend_mdbook/util_rules/build.py,sha256=Uwu3Tl0HtmrM4elTRoFqHq12dwYg5rkKDMJ2cuizWIk,1593
+pants_backend_mdbook/util_rules/prepare.py,sha256=Z4niy930wcU_kiXTIWmZcbB9QBHwFgf06qTr_bjxOs4,2085
+pants_backend_mdbook-0.1.3.dist-info/WHEEL,sha256=TQSpXlWZjPl29LMjkpbkR7iGxKB2AMwzfSmPuPn1ZS8,87
+pants_backend_mdbook-0.1.3.dist-info/METADATA,sha256=9YeZrYOuK9ANEINAdegHWGnEg_yIKgxkHvUzshnvg_o,1272
+pants_backend_mdbook-0.1.3.dist-info/licenses/LICENSE-MIT.txt,sha256=ZTkm4_hxhGJ4vuyI3HVKvDrnOWhkhdCsJDWm5a8R71g,1068
+pants_backend_mdbook-0.1.3.dist-info/RECORD,,
