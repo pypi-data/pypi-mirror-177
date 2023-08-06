@@ -1,0 +1,13 @@
+random_useragent/__init__.py,sha256=SEzdy2j0OUDioiYMqVPz4xnoFl_MZzVvza7mMP6J3Zk,33
+random_useragent/android.py,sha256=M7Qu5GQi1Ug8S7mNIqEz2hp29_7Mm0Ok1lrDi_samUM,11994
+random_useragent/android_data.json,sha256=zgmypuy3HtVRrPDOabqZng9pcyfnXFpqkrseaJCsJRA,61301
+random_useragent/chrome.py,sha256=wBzoufz42994qWeYD5KPOf6bFdXkHBOWPf4hc1qcVik,859
+random_useragent/linux.py,sha256=2qLwEor3c3rnHb88Ky4NI3vuh1bG6Na2MvW9MYpgWPE,1185
+random_useragent/mac.py,sha256=mYn_WsRFPGQzSPHamYbGkonUGmBped0alMvUjN2_Yk0,2077
+random_useragent/useragent.py,sha256=L_XW2mtTBkc7VBr_DZUyrb0jcYu02RHMIjqKevI_OBs,2441
+random_useragent/windows.py,sha256=jhDPywkTED5hDTaTN8CEgKl3TDo7H3ykvkmqlN8mJFY,2487
+r_useragent-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+r_useragent-0.1.1.dist-info/METADATA,sha256=5pfcI7ujW5fm7bPlK_J8U-0Z6PdD316KNy4kaIG3ivk,1509
+r_useragent-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+r_useragent-0.1.1.dist-info/top_level.txt,sha256=m6qt9iktZyn3o33iIuOHHNtOwpAI678g8eNC3TwAIoA,17
+r_useragent-0.1.1.dist-info/RECORD,,
