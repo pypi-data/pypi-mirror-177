@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pysolotools
+Version: 0.3.16
+Summary: unity computer vision dataset toolchain
+Home-page: https://https://github.com/Unity-Technologies/pysolotools
+Author: Unity Technologies
+Author-email: computer-vision@unity3d.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
+
+unity computer vision dataset toolchain
