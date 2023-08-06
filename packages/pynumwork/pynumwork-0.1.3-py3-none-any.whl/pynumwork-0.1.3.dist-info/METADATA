@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pynumwork
+Version: 0.1.3
+Summary: Dedicated to Ksenia @milkpink_2 :)
+Author: spacecultengineer
+Author-email: spacecultengineer@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+PyNumWork - Python module    
+Created for simple math operations    
+It's a test module just for fun     
+Contains:     
+-Information weight container     
+-Geometrical square&perimeter/angles     
+-Number work     
+COMMAND TO IMPORT THE MODULE:    
+from pynumwork import *    
+PIP COMMAND:
+pip install pynumwork    
+Enjoy! :)     
+--SPACECULTENGINEER
