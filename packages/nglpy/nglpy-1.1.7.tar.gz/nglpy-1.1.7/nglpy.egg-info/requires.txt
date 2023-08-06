@@ -1,0 +1,5 @@
+scipy
+numpy
+scikit-learn
+pyDOE
+ghalton<0.6.2
