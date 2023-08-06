@@ -1,0 +1,7 @@
+Django>=4.1
+shopcloud-streams>=1.1.0
+shopcloud-django-toolbox>=1.9.1
+shopcloud-django-instrumenting>=1.1.2
+djangorestframework
+django-filter
+markdown
