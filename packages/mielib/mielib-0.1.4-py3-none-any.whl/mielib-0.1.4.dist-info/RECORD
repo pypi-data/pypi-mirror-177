@@ -1,0 +1,9 @@
+mielib/__init__.py,sha256=rw1vx8iILmFtmxnWXzuc57RNFyx8ajBDlSOoF4Ud2-A,130
+mielib/extraspecial.py,sha256=iFxOwDtA26pclhWA3_8qgMqXl8rYfrOLZ_W6F7d6tPs,709
+mielib/harmonics.py,sha256=phNR5276XGv1zXvRD2KzP0VPwvjyBMf8RBh2b8Y2DKM,13900
+mielib/mieacoustics.py,sha256=AEBdFFE7eGeHA3__GZ1yr-HzwN17pHEjjxJRKR9LFCU,2505
+mielib/mieoptics.py,sha256=bfrbJxlFWAvEJjfxycNhWC_0oe257ZwQbhQRM-loagg,4182
+mielib/rotations.py,sha256=pCWnUQZN59B3wmZj22ekqAj0q38i3gFbC5WJ6iV-16Q,370
+mielib-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mielib-0.1.4.dist-info/METADATA,sha256=218g4RgrwKP1pABAtj7h6-DigRCSBN3rOE6xoZcUuV4,753
+mielib-0.1.4.dist-info/RECORD,,
