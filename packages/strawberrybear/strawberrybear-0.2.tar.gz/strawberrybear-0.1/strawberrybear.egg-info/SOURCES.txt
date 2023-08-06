@@ -1,0 +1,7 @@
+README.rst
+setup.py
+strawberrybear.egg-info/PKG-INFO
+strawberrybear.egg-info/SOURCES.txt
+strawberrybear.egg-info/dependency_links.txt
+strawberrybear.egg-info/requires.txt
+strawberrybear.egg-info/top_level.txt
