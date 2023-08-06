@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+src/Bodea_Bogdan.egg-info/PKG-INFO
+src/Bodea_Bogdan.egg-info/SOURCES.txt
+src/Bodea_Bogdan.egg-info/dependency_links.txt
+src/Bodea_Bogdan.egg-info/top_level.txt
+src/my_own_package/__init__.py
