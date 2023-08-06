@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: labs-integration-fec-consumedlimit-soap
+Version: 0.0.29
+Summary: UNKNOWN
+Author: Kuber Mehrotra
+Author-email: kuber.mehrotra@kuliza.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: labs-integration-fec-lms
+
+UNKNOWN
+
