@@ -1,0 +1,4 @@
+dearpygui>=1.5.0
+pyvo
+pandas
+tabulate
