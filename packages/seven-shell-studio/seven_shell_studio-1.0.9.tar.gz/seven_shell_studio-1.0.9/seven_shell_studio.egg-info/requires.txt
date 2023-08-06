@@ -1,0 +1,2 @@
+seven-framework>=1.1.10
+seven-studio>=1.1.3
