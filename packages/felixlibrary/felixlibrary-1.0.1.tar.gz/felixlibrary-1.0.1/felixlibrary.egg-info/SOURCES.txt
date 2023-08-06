@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+felix_library/__init__.py
+felix_library/hw2.py
+felix_library/main.py
+felixlibrary.egg-info/PKG-INFO
+felixlibrary.egg-info/SOURCES.txt
+felixlibrary.egg-info/dependency_links.txt
+felixlibrary.egg-info/top_level.txt
