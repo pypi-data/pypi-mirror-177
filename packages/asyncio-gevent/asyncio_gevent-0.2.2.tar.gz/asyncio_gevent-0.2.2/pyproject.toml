@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "asyncio-gevent"
+version = "0.2.2"
+description = "asyncio & gevent in harmony"
+authors = ["Frédérique Mittelstaedt <hi@gfm.io>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/gfmio/asyncio-gevent"
+repository = "https://github.com/gfmio/asyncio-gevent"
+documentation = "https://github.com/gfmio/asyncio-gevent"
+keywords = ["asyncio", "gevent"]
+include = ["NOTICE"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+gevent = [
+    {version = "*", python = ">=3.7, <3.10"},
+    {version = "^21.12.0", python = ">=3.10, <3.11"},
+    {version = "^22.10.2", python = "^3.11"}
+]
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+flake8 = "^5.0.4"
+mypy = "^0.991"
+pydocstyle = "^6.1.1"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+reorder-python-imports = "^3.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
