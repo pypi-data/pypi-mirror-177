@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/landsifier/__init__.py
+src/landsifier/geom_doc.py
+src/landsifier/image_doc.py
+src/landsifier/topo_doc.py
+src/landsifier.egg-info/PKG-INFO
+src/landsifier.egg-info/SOURCES.txt
+src/landsifier.egg-info/dependency_links.txt
+src/landsifier.egg-info/top_level.txt
