@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dt2_notify_to_people.egg-info/PKG-INFO
+dt2_notify_to_people.egg-info/SOURCES.txt
+dt2_notify_to_people.egg-info/dependency_links.txt
+dt2_notify_to_people.egg-info/entry_points.txt
+dt2_notify_to_people.egg-info/requires.txt
+dt2_notify_to_people.egg-info/top_level.txt
+dt_notify_to_people/__init__.py
+dt_notify_to_people/plugin.py
