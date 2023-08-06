@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+svf_package/__init__.py
+svf_package/ssvf.py
+svf_package/svf.py
+svf_package/svf_functions.py
+svf_package/svf_solution.py
+svf_package/svf_splines.py
+svf_package.egg-info/PKG-INFO
+svf_package.egg-info/SOURCES.txt
+svf_package.egg-info/dependency_links.txt
+svf_package.egg-info/requires.txt
+svf_package.egg-info/top_level.txt
