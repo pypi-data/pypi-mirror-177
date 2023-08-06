@@ -1,0 +1,2 @@
+[console_scripts]
+mosfit = mosfit.main:main
