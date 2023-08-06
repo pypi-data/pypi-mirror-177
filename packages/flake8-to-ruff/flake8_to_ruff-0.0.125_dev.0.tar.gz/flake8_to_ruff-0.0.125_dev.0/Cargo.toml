@@ -1,0 +1,23 @@
+[package]
+name = "flake8-to-ruff"
+version = "0.0.125-dev.0"
+edition = "2021"
+
+[lib]
+name = "flake8_to_ruff"
+
+[dependencies]
+anyhow = { version = "1.0.66" }
+clap = { version = "4.0.1", features = ["derive"] }
+configparser = { version = "3.0.2" }
+fnv = { version = "1.0.7" }
+once_cell = { version = "1.16.0" }
+regex = { version = "1.6.0" }
+ruff = { path = "local_dependencies/ruff", default-features = false }
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = { version = "1.0.87" }
+toml = { version = "0.5.9" }
+
+[dev-dependencies]
+
+[features]
