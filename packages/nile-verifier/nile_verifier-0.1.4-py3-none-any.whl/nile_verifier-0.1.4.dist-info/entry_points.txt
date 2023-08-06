@@ -1,0 +1,3 @@
+[nile_plugins.cli]
+verify=nile_verifier.main.verify
+
