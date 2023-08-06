@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: deduck
+Version: 1.0.2
+Summary: Hi! explain your problem to me... quack! quack!
+Home-page: https://github.com/ArticOff/info
+Author: Artic#3065
+Author-email: artic.admisoffi@gmail.com
+Maintainer: Artic#3065
+Maintainer-email: artic.admisoffi@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/ArticOff/deduck
+Project-URL: Discord, https://articoff.github.io/discord
+Project-URL: Tracker, https://github.com/ArticOff/deduck/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Framework :: Pytest
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+# deduck
+
+Hi! explain your problem to me... quack! quack!
+
+## Authors
+
+- [@ArticOff](https://www.github.com/ArticOff)
+
+
+## Installation
+
+Install info with pip
+
+```bash
+# Linux/macOS
+python3 -m pip install -U deduck
+
+# Windows
+py -3 -m pip install -U deduck
+```
+    
+## Usage/Examples
+
+1. Open a terminal
+
+2. Write this 
+```bash
+python -m duck
+```
+
+3. That's all !
+
+## Feedback
+
+If you have any feedback, please reach out to us on [our discord](https://articoff.github.io/discord)
+
+## Links
+
+- [Official discord server](https://articoff.github.io/discord)
+- [CodeSec Community](https://articoff.github.io/codesec)
+- [Source](https://github.com/ArticOff/deduck)
+
