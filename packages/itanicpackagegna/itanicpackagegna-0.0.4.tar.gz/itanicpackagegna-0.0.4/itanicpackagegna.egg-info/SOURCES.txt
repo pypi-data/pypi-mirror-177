@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+itanicpackagegna.egg-info/PKG-INFO
+itanicpackagegna.egg-info/SOURCES.txt
+itanicpackagegna.egg-info/dependency_links.txt
+itanicpackagegna.egg-info/top_level.txt
+titanicpackagegna/__init__.py
+titanicpackagegna/controler.py
+titanicpackagegna/get_data.py
+titanicpackagegna/model.py
+titanicpackagegna/pipeline.py
+titanicpackagegna/preprocessing.py
+titanicpackagegna/response_json.py
+titanicpackagegna/tests.py
