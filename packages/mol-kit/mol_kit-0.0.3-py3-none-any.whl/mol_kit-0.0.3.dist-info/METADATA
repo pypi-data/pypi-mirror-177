@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mol-kit
+Version: 0.0.3
+Summary: This is a molecule structure file conversion library
+Home-page: https://ShangChien.github.io
+Author: Shang Chien
+Author-email: chennathan@163.com
+Project-URL: Documentation, https://ShangChien.github.io
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: license
+Requires-Dist: rich (>=12.6.0)
+Requires-Dist: rdkit (>=2022.9.1)
+Requires-Dist: xtb-python (>=20.1)
+Requires-Dist: numpy (>=1.23.4)
+
+# mol-kit
+
+## This library currently has several main features:
+
+- handle input file format conversions for DFT calculation (such as: ORCA, GAUSSIAN, VASP...) 
+- handle file format conversions for visualization molecule 2D&3D structure.
+- fast and robust conformer calculation (need [xtb-python](https://xtb-python.readthedocs.io/en/latest/installation.html 'xtb-python install tutorial') installed)
+	- this feature stands on the shoulders of [rdkit](https://github.com/rdkit 'rdkit github') and [xtb](https://github.com/grimme-lab/xtb 'xtb github')
+	- usage:
+		- python ./mol-kit.py -w 3 -ag FIRE -i in -o out 
+		- '--weight', '-w', 每个分子的构象采样数量=可转动键*weight',default=3;
+		- '--algorithm', '-ag', 结构优化迭代算法, LBFGS,FIRE', default='FIRE';
+		- '--in_path', '-i', 待计算分子的文件夹', default='in';
+		- '--out_path', '-o', 结果输出的文件夹', default='out'
