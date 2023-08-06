@@ -1,0 +1,11 @@
+remote_procedure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_procedure/router.py,sha256=R283oqErpPFkkQ5adx8NgPcCSMuly3UX2Ch8VKVyep0,3021
+remote_procedure/rabbitmq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_procedure/rabbitmq/client.py,sha256=9fx-2nRtwQFbWE0JSUJbPPSxj39uUs8rnbwr8amYBnc,3179
+remote_procedure/rabbitmq/protocols.py,sha256=6yAiUbMrAaygzOTa9ewGUIBAV52ALiFkjQ0w8H0UTFM,1605
+remote_procedure/rabbitmq/server.py,sha256=M3_zsEVCAhNzaO82RZmztZ_46O9pAjIXckGRVwFTKMg,1562
+remote_procedure/rabbitmq/type.py,sha256=ynJkWI3e4GOWL4xiHrcpjhwUkXXYEmRn8nQ4EnMeSpk,82
+remote_procedure-1.1.0.dist-info/METADATA,sha256=BEKXL6l4gs54wR6ZigCQewr7dew26yNa9Su9UQubLWo,506
+remote_procedure-1.1.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+remote_procedure-1.1.0.dist-info/top_level.txt,sha256=D7-oqBXOeKy3i3EhrPwBnK0tzBdSQIfRJBf3swxXHdg,17
+remote_procedure-1.1.0.dist-info/RECORD,,
