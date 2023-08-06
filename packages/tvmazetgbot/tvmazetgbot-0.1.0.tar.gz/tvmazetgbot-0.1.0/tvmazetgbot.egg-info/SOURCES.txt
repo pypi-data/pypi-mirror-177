@@ -1,0 +1,16 @@
+README.md
+setup.py
+tvmazetgbot/__init__.py
+tvmazetgbot/__main__.py
+tvmazetgbot/client.py
+tvmazetgbot/database_tools.py
+tvmazetgbot/tg_api.py
+tvmazetgbot.egg-info/PKG-INFO
+tvmazetgbot.egg-info/SOURCES.txt
+tvmazetgbot.egg-info/dependency_links.txt
+tvmazetgbot.egg-info/requires.txt
+tvmazetgbot.egg-info/top_level.txt
+tvmazetgbot/tvmaze/__init__.py
+tvmazetgbot/tvmaze/decorators.py
+tvmazetgbot/tvmaze/tv_program.py
+tvmazetgbot/tvmaze/tv_program_model.py
