@@ -1,0 +1,12 @@
+opentelemetry/instrumentation/digma/__init__.py,sha256=5TBiocpXN_-Jp3xwLrVHsHkT-o2KftuJTzoK8xka5iw,1445
+opentelemetry/instrumentation/digma/digma_configuration.py,sha256=YkvC6qytfHrUBqjPKyKbcKqksZ-52UozNrsvzuOhgzc,5149
+opentelemetry/instrumentation/digma/instrumentation_extensions.py,sha256=S33MWtOq-mbUvYP34HtZVThLW505Trg3oQ6Z2851aOc,3589
+opentelemetry/instrumentation/digma/opentelemetry_utils.py,sha256=P0n7S34f6-0_sSOKN_ulszPXwbQtS8VYIfMS61levck,445
+opentelemetry/instrumentation/digma/resource_attributes.py,sha256=TRfiQnbw6zsqNluorSJph4wCNBy45sOOIBKqYblljC4,230
+opentelemetry/instrumentation/digma/trace_decorator.py,sha256=kQjOcmM895VUpXBnXREENXuesS_Udoy--RGx5byCTVE,5774
+opentelemetry/instrumentation/digma/version.py,sha256=27YY3zFpeaDh6JoC40AqkjBrn68SqFlsWZzjZtw5jwU,22
+opentelemetry_instrumentation_digma-0.8.0.dist-info/LICENSE,sha256=TGUmWgYp83kWpW6pQlt0AiBIAztItZM-9oUNySS7jeA,1065
+opentelemetry_instrumentation_digma-0.8.0.dist-info/METADATA,sha256=IsPRlA-VgF6YzJ2NhieDvfGE-M95kiHNoUe7UkX7LBM,5878
+opentelemetry_instrumentation_digma-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+opentelemetry_instrumentation_digma-0.8.0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_digma-0.8.0.dist-info/RECORD,,
