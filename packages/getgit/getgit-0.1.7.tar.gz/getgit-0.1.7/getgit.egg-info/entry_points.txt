@@ -1,0 +1,2 @@
+[console_scripts]
+getgit = getgit.main:main
