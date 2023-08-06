@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HawkesPyLib"
+version = "0.2.1"
+description = "Python library for simulation and inference of Hawkes processes"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    { name = "Simon Grimm" },
+]
+keywords = [
+    "hawkes",
+    "hawkes-process",
+    "point-process",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research"
+]
+dependencies = [
+
+    "numba>=0.56",
+    "numpy>=1.23",
+    "scipy>=1.9",
+]
+
+[project.optional-dependencies]
+testing = [
+    "pytest>=7.2",
+    "flake8>=3.9",
+    "tox>=3.24",
+]
+
+[project.urls]
+Homepage = "https://simbold.github.io/HawkesPyLib/"
+Source = "https://github.com/Simbold/HawkesPyLib"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.flake8]
+    max-line-length = 140
