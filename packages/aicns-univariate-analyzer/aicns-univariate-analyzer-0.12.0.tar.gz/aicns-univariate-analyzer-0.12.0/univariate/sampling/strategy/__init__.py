@@ -1,0 +1,4 @@
+from univariate.sampling.strategy.sampling_strategy import SamplingStrategy, SamplingStrategyType
+# from univariate.sampling.strategy.fourier_method_sampling import FourierMethodSampling
+from univariate.sampling.strategy.mean_downsampling import MeanDownsampling
+from univariate.sampling.strategy.linear_upsampling import LinearUpsampling
