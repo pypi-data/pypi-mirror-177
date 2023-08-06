@@ -1,0 +1,9 @@
+generic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic/event.py,sha256=Jru2lsfAxOn0yMyB5aGxJfLejM3KLyHpByKQOOf_yH4,2806
+generic/multidispatch.py,sha256=6KViW2qPvTVh907SH3zoF3X41UfsKpBotJUKtV02AXw,4940
+generic/multimethod.py,sha256=uIhz_KxritlsgqtSQXP6NeeTxtSCPSGQydwJ4BQgsYQ,3481
+generic/registry.py,sha256=H80ts8w9xemIyNNs3p-wxey4JCyf3XhIaBiOmviCbWc,5098
+generic-1.1.1.dist-info/LICENSE.txt,sha256=rAvt5lNz4KYNxwpdxYAiD445sBdScbgHS0QVb1ydw28,1720
+generic-1.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+generic-1.1.1.dist-info/METADATA,sha256=qujj-Pug69iLhgPW7AerQ4R3QGFTxpkepDSo-6eFTjI,3715
+generic-1.1.1.dist-info/RECORD,,
