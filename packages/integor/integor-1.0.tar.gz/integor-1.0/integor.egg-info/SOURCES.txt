@@ -1,0 +1,10 @@
+README.md
+setup.py
+examples/minimize_J.py
+integor/__init__.py
+integor/main.py
+integor.egg-info/PKG-INFO
+integor.egg-info/SOURCES.txt
+integor.egg-info/dependency_links.txt
+integor.egg-info/top_level.txt
+test/test_operations.py
