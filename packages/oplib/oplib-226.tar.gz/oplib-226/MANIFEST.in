@@ -1,0 +1,3 @@
+include bin/opl
+include bin/opf
+recursive-include mod *.py
