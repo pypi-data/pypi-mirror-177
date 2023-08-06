@@ -1,0 +1,3 @@
+[console_scripts]
+mtf = model_transfer.main:main
+
