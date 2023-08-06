@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: webssh-sh
+Version: 22.11.2
+Summary: Shell Helpers about WebSSH
+Home-page: https://github.com/isontheline/webssh.sh
+Author: Arnaud MENGUS
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# webssh.sh
+Shell Helpers about WebSSH
+
+## How to install
+```pip install webssh-sh```
+
+## How to use
+### Paste to terminal clipboard
+```echo "WebSSH is awesome!" | wshcopy```

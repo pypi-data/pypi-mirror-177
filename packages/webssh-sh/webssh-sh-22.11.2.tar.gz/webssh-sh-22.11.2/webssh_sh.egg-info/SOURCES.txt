@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+webssh_sh.egg-info/PKG-INFO
+webssh_sh.egg-info/SOURCES.txt
+webssh_sh.egg-info/dependency_links.txt
+webssh_sh.egg-info/entry_points.txt
+webssh_sh.egg-info/top_level.txt
+wsh/__init__.py
+wsh/__main__.py
+wsh/wshcopy.py
