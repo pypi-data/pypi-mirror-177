@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: concrete-python
+Version: 0.0.1
+Summary: Concrete Python
+Home-page: https://zama.ai
+Author: Zama
+Author-email: hello@zama.ai
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Compilers
+
