@@ -1,0 +1,9 @@
+jsaxonpy/__init__.py,sha256=7fmssUQbZLo55mJL2RILxbzwTBQRb6wbnMMQuZKE01c,311
+jsaxonpy/_version.py,sha256=Yitup7LIQSqfeaQX8W3zHThJlxHzrRRPbgNSh-yCToM,176
+jsaxonpy/jvm.py,sha256=YIlP5sCMt4sRFti5FQ2zcT2ou0clUhuDNxkmOsY7s18,555
+jsaxonpy/signleton.py,sha256=vpzNFAhlHS7LFJ5w9lLbMTGQjNVtgWYKTVbONGgE1yg,337
+jsaxonpy/xslt.py,sha256=_xSFkCfZ6hcD2SF1GvE76juxiUFWfbGuN2LuvavJYUo,5360
+jsaxonpy-0.4.3.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+jsaxonpy-0.4.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+jsaxonpy-0.4.3.dist-info/METADATA,sha256=uSBTWzQWUptP8QDzoPmh9ZtKBPitIDGY-q93UdkpgIU,4978
+jsaxonpy-0.4.3.dist-info/RECORD,,
