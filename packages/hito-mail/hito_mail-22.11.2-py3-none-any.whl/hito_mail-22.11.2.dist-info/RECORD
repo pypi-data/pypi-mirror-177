@@ -1,0 +1,13 @@
+hito_mail/hito2lists.cfg.example,sha256=Ia9gqr6Hib2ugGRl8d3u-qFrWssL_7Vav-15Ss5H5hs,1600
+hito_mail/hito2lists.py,sha256=JyvGP0pWWtxhe3Dq0lWfbFR3LyQb59ZEJkyoiRl2AAw,67772
+hito_mail/hito_export.cfg.example,sha256=DQQTOiiX6JS9Ac1Us16sSld2db-VK9Ax5eBW1_nPaU8,3240
+hito_mail/hito_export.py,sha256=EJGxJG7X3l_vHZMGMAEsK2fRh862w243U47K3ih5fDo,12871
+hito_mail/lists_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hito_mail/lists_tools/core.py,sha256=hZ184fAKD-qp0YiA7E-pGIATg3gCJEKo1lYln5Qz_JY,1776
+hito_mail/lists_tools/exceptions.py,sha256=FF8F40rJp4LdIO1V4KvNis5x1HV3WaxbRruUg8keW3U,3995
+hito_mail-22.11.2.dist-info/LICENSE,sha256=EodpLKICEMPBBmoyPD7jFQsWEtuRZRRVY4-CKH2PTjE,1512
+hito_mail-22.11.2.dist-info/METADATA,sha256=TQsOSAX3Q-8CA1h8zSMm0ICKvfOlPMe5qOiWT7GYmZA,13399
+hito_mail-22.11.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hito_mail-22.11.2.dist-info/entry_points.txt,sha256=m1lUT1iOXzXl1iRjYk4EWz6_8Zu_rknSiCj7xAH1gpc,98
+hito_mail-22.11.2.dist-info/top_level.txt,sha256=c08ryelOZyRzhMphCZzqxFib0w2MsJsA1wDN4ncylFI,10
+hito_mail-22.11.2.dist-info/RECORD,,
