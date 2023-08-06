@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: FlowIncomePredict
+Version: 0.0.2
+Summary: package for match best sample to predict income or flow
+Home-page: https://github.com/wufeipku/FlowIncomePredict.git
+Author: wufeipku
+Author-email: wufei.pku@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: numpy (>=1.21.6)
+Requires-Dist: frechetdist (>=0.6)
+Requires-Dist: scikit-learn (>=0.23.2)
+
+#FlowIncomePredict
+
+This is a package for predicting income or flow with history data. There are two method to calculate the data, correlation
+and Fr茅chet distance. Fr茅chet distance is a better recommended method.
+
+https://github.com/wufeipku/FlowIncomePredict.git
