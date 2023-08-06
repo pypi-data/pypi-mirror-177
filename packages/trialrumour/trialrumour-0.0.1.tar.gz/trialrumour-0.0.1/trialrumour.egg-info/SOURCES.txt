@@ -1,0 +1,5 @@
+setup.py
+trialrumour.egg-info/PKG-INFO
+trialrumour.egg-info/SOURCES.txt
+trialrumour.egg-info/dependency_links.txt
+trialrumour.egg-info/top_level.txt
