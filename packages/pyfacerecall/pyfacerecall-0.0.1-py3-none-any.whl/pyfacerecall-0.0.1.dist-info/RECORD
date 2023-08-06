@@ -1,0 +1,11 @@
+pyfacerecall/__init__.py,sha256=fq5G3xJYluXkbuJd_6-42HgDpIwhd40SZZbWRaowve0,294
+pyfacerecall/__main__.py,sha256=BNS0FBxHcrdf6vVUV_P9lSYCOegQnHvovl_Ca0O984I,116
+pyfacerecall/_version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+pyfacerecall/dataset_generator.py,sha256=vkaDacX9SbnbpW3yJV2c4i7WVxAs94TIH9tXlzgWV14,2335
+pyfacerecall/face_detection_operation.py,sha256=GzBpkt7_5vcqZ_grmhtyAdYRNMna95yJRiDTpO--RLc,2660
+pyfacerecall/face_recognition.py,sha256=NbWDsDpMDvC-iUwBHCxSeow06X95Ax2oDCJMWZYs4Ls,4576
+pyfacerecall/model.py,sha256=gCpamU88J8j_T3w-MhwOzzBWSHPexMk7jNJ_f7G-NXM,2251
+pyfacerecall-0.0.1.dist-info/METADATA,sha256=TraHgKmVQ7dIMhM4tyaTrQrjTyHTv3gDxoQ4pWCmt7I,1682
+pyfacerecall-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfacerecall-0.0.1.dist-info/top_level.txt,sha256=k8MM5DbqdLq6dimnoag-s7OjbrweQ-z-unzBSkTKCW0,13
+pyfacerecall-0.0.1.dist-info/RECORD,,
