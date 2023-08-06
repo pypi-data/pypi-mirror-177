@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "melon-analytics_pricing"
+version = "0.0.1"
+authors = [
+  { name="eMonitor AG", email="christoph.puetz@emonitor.ch" },
+]
+description = "Script for apartment price benchmarking based on market data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]

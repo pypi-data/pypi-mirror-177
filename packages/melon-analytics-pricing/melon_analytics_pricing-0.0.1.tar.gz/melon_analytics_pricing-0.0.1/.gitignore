@@ -1,0 +1,4 @@
+**/__pycache__
+db_config.ini
+db_config_example.ini
+**/.idea
