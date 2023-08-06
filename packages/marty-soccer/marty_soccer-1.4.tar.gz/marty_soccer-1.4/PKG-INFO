@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: marty_soccer
+Version: 1.4
+Summary: marty AI soccer library for education created by DGS
+Home-page: https://github.com/DGSpython/marty-package
+Author: DGS
+Author-email: dgs.python@dgs.edu.hk
+License: MIT
+Download-URL: https://github.com/DGSpython/marty-package/archive/refs/tags/v1.4.tar.gz
+Description: UNKNOWN
+Keywords: DGS,Marty,Soccer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
