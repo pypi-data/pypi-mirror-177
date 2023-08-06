@@ -1,0 +1,16 @@
+aipkg/AI_Notes.docx,sha256=JVwSV0TUufdjcsgr9m0B5r8xDZ6KhTUiUs0I3aPaCRM,212981
+aipkg/AI_notes_text.txt,sha256=7_Pyt436EKbIPkmNDLhjnqQrblVMWPjAg68gmb_CjEg,32939
+aipkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aipkg/codepack.py,sha256=mxymoiV6Ku0AbwIo-Z0aatTjOD-hILVMMyIyKOkezSE,2244
+aipkg/constraint.py,sha256=YeA6YCIqBVxta0484alHZgLEcjgvHHt-RH0mIm8IkXQ,1819
+aipkg/knowledgeknights.py,sha256=r5AoQHYgtnackekq9GoJ8ueqGmwgYvPORiP7Xy1G0S8,2960
+aipkg/logic.py,sha256=iOEddT4ewFGbVewl3fAKyU-lvjq3IIKoaDH8rx-cNwg,8223
+aipkg/lppexamples.py,sha256=MsKoydrRJSLP0PvCWZhmmulXDvpH79JNbCVTY3kofUo,7979
+aipkg/optimization.py,sha256=PZoiFDndOoOb4EMJ7Ct8C_2j2vuaAH0L3YdhiIGIuag,974
+aipkg/searches.py,sha256=w9jQ3PmcarrRA0RRQi1L03Gs02UUtTXFoNaesHB8opI,6216
+aipkg/searches_av.py,sha256=8SgajRfSurW8Ce9zu9OCmVlS7Kksou1pxIVPVJHZbu0,23536
+aipkg/tictactoe.py,sha256=ZZ27zTiLCf90JBxKKueNdrIX8WiTr83BqrEwbdZFLz0,5292
+aipkg-0.2.5.dist-info/METADATA,sha256=Gho6cGxUKI4YqlxVJQhXp_Ay0WTNLGRWrMl4VfNe3ZA,515
+aipkg-0.2.5.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+aipkg-0.2.5.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+aipkg-0.2.5.dist-info/RECORD,,

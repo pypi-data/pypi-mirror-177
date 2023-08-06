@@ -1,0 +1,719 @@
+Q1] Bayesian Network:
+
+1)	A Bayesian network is a data structure that represents the dependencies among random variables .
+2)	It falls under Probability graphical modelling that uses the concepts of probability to compute uncertainties. It depends on 2 factors:
+	Represented by a directed acrylic graph .
+1 and 2 are parent nodes and 3 is their child node that depends on both one and 2. 4 depends on 3. 
+The nodes represent the random variables and the arrows represent the relationship between the random variables .
+
+
+
+
+
+
+
+
+
+	A conditional probability table is constructed for each node/random variable which gives the uncertainty of any event occurring
+
+3)	Joint probability: the probability of 2 or more events occurring at the same time . 
+Example: A day being both cloudy and windy
+
+4)	Conditional probability: probability of event B occurring given that event A has already occurred. 
+Example: probability that it rains today given that it rained yesterday.
+
+5)	Bayes’ rule is commonly used in probability theory to compute conditional probability. 
+In words, Bayes’ rule says that the probability of b given a is equal to the probability of a given b, times the probability of b, divided by the probability of a.
+
+P(A|B) = P(B)*P(A|B) / P(A)
+
+	Example for Bayesian network:
+A Bayesian network that models the marks of a student.
+	The dependencies and their conditional probabilities are:
+a)	Exam level (e): easy(e0) or difficult(e0)
+
+E0	E1
+0.6	0.4
+
+b)	IQ of student (i): low (i0) or high(i1)
+
+
+i0	i1
+0.3	0.7
+
+c)	Marks scored (m): low(m0) or high(m1). Depends on the iq of student and difficulty of exam
+	M0	M1
+I0,e0	0.5	0.5
+I0,e1	0.8	0.2
+I1,e0	0.1	0.9
+I1,e1	0.3	0.7
+
+d)	Admission in college (a) : no (a0) or yes (a1). Depends on exam marks.
+	A0	A1
+M0	0.7	0.3
+M1	0.15	0.85
+
+	Constructing Bayesian network:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	Computing Joint probability:
+Probability of difficult exam, high iq, high marks, admission:
+P(difficult) P(high iq) P(high marks| difficult, high iq) P(admission | high marks) =
+
+
+
+Q2)  Markov Chain:
+
+	Markov assumption: the assumption that current state depends on a finite fixed number of previous states.
+
+	Markov Chain :  a sequence of random variables where the distribution of each variable follows the Markov assumption
+
+	Example: Imagine that there are 2 possible states for weather. The weather on any day is guaranteed to be either cloudy or sunny.
+
+To be able to predict what the weather will be tomorrow, there has to be some kind of transition in the weather, i.e, 
+todays weather ahs some kind of influence over tomorrows weather.
+		Tomorrow(Xt-1)	
+		Sunny 	cloudy
+Today(Xt)	Sunny	0.8	0.2
+	cloudy	0.5	0.5
+
+Thus, it can be observed that the probability of tomorrow being sunny given that today is sunny is 80% and subsequently, 
+tomorrow will have 20% chance of being cloudy if today was sunny.
+
+
+
+
+
+
+
+
+
+	Hidden Markov model:
+A Markov model for a system with hidden states that generate some observed event.
+When we cannot observe the state themselves but the result of some probability function of that state.
+
+Example: There are 3 weathers- cloudy, sunny and rainy. And the mood of the person (sad and happy) depend on the weather of any particular day. 
+
+Hidden states (Xt) : weather
+Observed variables (Et): moods of a person
+
+Note: Sensor Markov assumption is applied here and it states that observed variables on;y depend on todays state not on previous states .
+
+		Observations(Et)	
+		Happy	Sad
+State X(t)	Sunny	0.9	0.1
+	rainy	0.3	0.7
+	cloudy	0.7	0.3
+
+There is a 90% chance that if a person is happy then the current weather is sunny
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Based on hidden Markov models, multiple tasks can be achieved:
+•	Filtering: given observations from start until now, calculate the probability distribution for the current state. 
+For example, given information on when people bring umbrellas form the start of time until today, we generate a probability distribution for whether it is raining today or not.
+•	Prediction: given observations from start until now, calculate the probability distribution for a future state.
+•	Smoothing: given observations from start until now, calculate the probability distribution for a past state. 
+For example, calculating the probability of rain yesterday given that people brought umbrellas today.
+•	Most likely explanation: given observations from start until now, calculate most likely sequence of events.
+
+
+Q3) Inference by Enumeration:
+	Inference by enumeration is a process of finding the probability distribution of variable X given observed evidence e and some hidden variables Y. 
+
+	P(X|e) = alpha. P(X,e) = (alpha) * summation [ P(X, e, y) ]
+
+	Query X: the variable for which we want to compute the probability distribution.
+
+
+	Evidence variables E: one or more variables that have been observed for event e. 
+For example, we might have observed that there is light rain, and this observation helps us compute the probability that the train is delayed.
+	Hidden variables Y: variables that aren’t the query and also haven’t been observed. For example, standing at the train station, 
+we can observe whether there is rain, but we can’t know if there is maintenance on the track further down the road. Thus, Maintenance would be a hidden variable in this situation.
+	The goal: calculate P(X | e). For example, compute the probability distribution of the Train variable (the query) based on the evidence e that we know there is light rain.
+	this way of computing probability is inefficient, especially when there are many variables in the model. 
+A different way to go about this would be abandoning exact inference in favor of approximate inference. Doing this, we lose some precision in the generated probabilities, 
+but often this imprecision is negligible. 
+
+Q4) Sampling:
+	It is a method for approximate inference
+	To generate a distribution using sampling with a die, we can roll the die multiple times and record what value we got each time. 
+Suppose we rolled the die 60 times. We count how many times we got 1, which is supposed to be roughly 10, and then repeat for the rest of the values, 2-6. 
+Then, we divide each count by the total number of rolls. This will generate an approximate distribution of the values of rolling a die: on one hand, 
+it is unlikely that we get the result that each value has a probability of 1/6 of occurring (which is the exact probability), but we will get a value that’s close to it.
+
+Q5) Likelihood Weighting
+In the sampling example above, we discarded the samples that did not match the evidence that we had. 
+This is inefficient. One way to get around this is with likelihood weighting, using the following steps:
+•	Start by fixing the values for evidence variables.
+•	Sample the non-evidence variables using conditional probabilities in the Bayesian network.
+•	Weight each sample by its likelihood: the probability of all the evidence occurring.
+For example, if we have the observation that the train was on time, we will start sampling as before. 
+We sample a value of Rain given its probability distribution, then Maintenance, but when we get to Train - we always give it the observed value, in our case, on time. 
+Then we proceed and sample Appointment based on its probability distribution given Train = on time. 
+Now that this sample exists, we weight it by the conditional probability of the observed variable given its sampled parents. 
+That is, if we sampled Rain and got light, and then we sampled Maintenance and got yes, then we will weight this sample by P(Train = on time | light, yes).
+OPTIMIZATION
+
+Q1) Hill climbing approach and its variants:
+
+	In this algorithm, the neighbour states are compared to the current state, and if any of them is better, 
+we change the current node from the current state to that neighbor state.
+What qualifies as better is defined by whether we use an objective function, preferring a higher value, or a decreasing function, preferring a lower value.
+
+	We start with the current state. In some cases, the current state is known while in the other cases, the current state has to be picked randomly.
+
+	We Evaluate all the neighbours of the current state and pick the one with the best value of our heuristic function. 
+
+	If the neighbour state value is better than our current state value, then the node changes from current state to neighbour state.
+
+	This process is repeated till we reach a state where none of the values of the neighbour states are better than the current state
+
+	Problems with hill Climbing:
+
+1)	Local maxima: When the algorithm gets stuck in a state that has a higher value than its neighbouring states. 
+
+2)	Local minima: When the algorithm gets stuck in a state that has a lower value than its neighbouring states. 
+ Thus, it is often seen that  when an algorithm reaches a current state where all its neighbouring state are at a lower/higher level than the current state, 
+ then the algorithm gets stuck in that state of local maxima/minima instead of reaching the state with the global maxima/minima 
+ (i.e, the state in the entire problem with the lowest/highest value.) 
+
+	Variants of hill climbing:
+The problem of local maxima and minima has given rise to several variants of the hill climbing approach in order to be solved.
+ However, each of these variants still has the potential to be stuck in local minima or maxima.
+•	Steepest-ascent: choose the highest-valued neighbour. 
+•	Stochastic: Choose any neighbour that has a higher value than our current state. This can lead us in any direction. 
+•	First-choice: choose the first neighbour we come across that has a higher value than current state.
+•	Random-restart: conduct hill climbing multiple times. Each time, start from a random state. Compare the maxima from every trial, and choose the highest amongst those.
+•	Local Beam Search: chooses the k highest-valued neighbors. This is unlike most local search algorithms in that it uses multiple nodes for the search, and not just one.
+
+	Example of Hill climbing: Travelling salesman problem
+
+
+
+ 
+
+
+
+
+
+
+
+The nodes represent cities. 
+The goal of the TS problem is : starting from A, a salesman should go to all the cities only once and return back to A and the durational cost
+ of the entire travel should be at its minimum. The time durational costs are:
+
+
+
+
+
+
+If we solve this using a local heuristic function that only evaluates the neighbour states and chooses the shortest value of the neighbours, 
+then the answer will be: A->B->D->C->A: 55 units.
+This is not necessarily the shortest time. In order to compute the shortest time, we must calculate all the possible combinations and find an optimum value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After computing all the costs, we will know that the most optimal path is: A->C->D->B->A : 35 units, which would be the global minima.
+We saw that the number of states (n) were 4. Thus, the total number of possible outcomes are:
+ (n-1)! = 3! = 6.
+	The second approach may give the most optimal solution, but also requires an immense amount of computational power. 
+Moreover, both these approaches have the possibility of getting stuck in local minima where they keep going back and forth between 2 states . 
+A solution with lower computational power and escaping local minima can be calculated using sample annealing.
+
+	Sample annealing is a mechanism that allows the algorithm to change its state to a neighbour that’s worse than the current state, which is how it can escape from local maxima. 
+
+
+
+
+
+KNOWLEDGE
+
+Q1) Model Checking
+	A model is any statement that is assigned a truth value to it, i.e, given a True or False label to it. 
+For example, P= It is raining. Q= It is Tuesday. One possible truth value assignment  for these statements could be (P= True, Q=False) 
+which means It was raining but the day was not Tuesday.
+
+	A knowledge base is a set of statements given to the AI in the form of propositional logical statements that he ai can further use to draw inferences about a particular situation.
+
+	Entailment: If  ‘alpha’ entails ‘beta’ then in any situation where alpha is true, beta will always be true. 
+For example: alpha=It is Tuesday in January, beta= it is Tuesday. If it is true that it is a Tuesday in January, 
+then the fact that it is a Tuesday becomes automatically true. However if beta is true, it does not mean that alpha will necessarily be true. 
+It may be true that it is a Tuesday but it isn’t necessary that it is a Tuesday in the month of January.
+
+	To determine if a knowledge base entails alpha (To check whether alpha is true based on the given knowledge base) :
+
+1)	Enumerate all models.
+2)	If for every statement where KB is true, alpha is also true then the knowledge base entails alpha. 
+3)	If alpha is false for even a single statement where KB is true, then the KB does not entail alpha.
+
+	Example:  P = It is Tuesday , Q= It is raining,  R= Harry will go for a run. 
+
+The knowledge base states that:
+- when (P is true and Q is false it implies that R is true) : When it is Tuesday and it is not raining then harry goes for a run
+-  (P is true and Q is false) : When it is Tuesday and it is not raining
+
+To check whether our KB entails R (Is R true or False? Does harry go for a run or not? )
+
+P = It is tuesday	Q= It is raining	R= Harry goes for a run	Knowledge Base
+False	False	False	False
+False	False	true	False
+False	True	False	False
+False	True	True	False
+True	False	False	False
+True	False	True	True
+True	True	False	False
+True	True	true	False
+
+According to our given Knowledge base, we know that P is always true. So every option where P is false, KB is automatically false.
+We also know that Q is false at all times. So, every option where Q is stated as true, the KB is automatically false.
+
+The above 2 statements leave us with only 2 statements:
+-	P = True, Q = False, R= True
+-	P= True, Q= False, R=False
+                Since the knowledge base already states that if It is Tuesday and it is not raining then harry goes for a run, 
+                therefore : first statement holds true in the KB while the second statement becomes False in the KB. 
+
+Now To check whether the Knowledge base entails R: R has to be true for every instance where KB is true. 
+Since the KB is true in only one instance and R is also true for that instance, we can conclude that KB entails R. 
+If there was another instance where the KB was true but R  was false for that instance, then KB would not have entailed R at all.
+
+	Note that we are interested only in the models where the KB is true. If the KB is false, 
+then the conditions that we know to be true are not occurring in these models, making them irrelevant to our case.
+
+Q3) Inference Resolution
+	Resolution is an inference rule that states that if any one of 2 statements in an OR proposition is false, then the other statement has to be true. 
+
+	For example: KB has these statements:
+-	P (Ron is in the hall) OR Q (Hermione is in the library)
+-	P is not true. (Ron is not in the hall)
+-	Thus, we can generate a new statement that Hermione is in the library.
+-	P v Q , not P = Q
+
+	Resolution relies on complimentary literals: 2 of the same statements where one is negated and other is not ( Ron is in the library) (Ron is not in library) : P, not P
+
+	Thus, inference resolution algorithm tries to locate complimentary literals in order to generate new knowledge statements.
+
+	CLAUSE: 
+
+-	A disjunction: Statements connected by OR 
+-	Conjunction: Statements connected by AND
+-	Thus, Clause is a disjunct of literals ( P OR not P)
+-	Clause allows us to convert any logical statements into Conjunction of clauses called CONJUNCTION NORMAL FORM (CNF) . 
+-	That is,  multiple clause/ clauses and disjuncts connected by AND statements. Example : ( A OR B ) and (A OR NOT A) and ( B OR NOT A) 
+
+	Steps to convert statements to Conjunction Normal Form: (X and Y are clause) 
+-	Eliminate Biconditionals: (X <-> Y) becomes (X -> Y) AND (Y -> X)
+-	Eliminate implications: ( X -> Y) becomes (not X) AND (Y) 
+-	Use de morgans law to move Not statements inwards:  not( X AND Y) becomes (not X) AND (not Y) 
+-	
+	After this, an inference algorithm can be applied to the Conjunction Normal Form. In the case where inference by resolution gives us duplicate literals in a clause, 
+Factoring is done in order to eliminate these literals.
+
+(## Side note : This topic is horrendous holy shit I don’t understand anything I give up!!!!)
+
+	Resolving a literal and its negation, i.e. notP and P, gives the empty clause (). The empty clause is always false, 
+and this makes sense because it is impossible that both P and notP are true. This fact is used by the resolution algorithm.
+•	To determine if KB entails X:
+o	Check: is (KB ∧ notX) a contradiction?
+	If so, then KB ⊨ X.
+	Otherwise, no entailment.
+	
+	Proof by contradiction is a tool used often in computer science. If our knowledge base is true, and it contradicts notX, 
+it means that ¬X is false, and, therefore, X must be true. More technically, the algorithm would perform the following actions:
+•	To determine if KB entails X:
+o	Convert (KB OR notX) to Conjunctive Normal Form.
+o	Keep checking to see if we can use resolution to produce a new clause.
+o	If we ever produce the empty clause (equivalent to False), congratulations! We have arrived at a contradiction, thus proving that KB entails X
+o	However, if contradiction is not achieved and no more clauses can be inferred, there is no entailment.
+
+	Here is an example that illustrates how this algorithm might work:
+•	Does (A OR B) AND (notB OR C) AND (notC) entail A?
+•	First, to prove by contradiction, we assume that A is false. Thus, we arrive at (A OR B) AND (notB OR C) AND (notC) AND (notA).
+•	Now, we can start generating new information. Since we know that C is false (notC), the only way (notB OR C) can be true is if B is false, too. 
+Thus, we can add (notB) to our KB.
+•	Next, since we know (notB), the only way (A OR B) can be true is if A is true. Thus, we can add (A) to our KB.
+•	Now our KB has two complementary literals, (A) and (notA). We resolve them, arriving at the empty set, (). The empty set is false by definition, 
+so we have arrived at a contradiction.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SEARCH
+
+Q1) Uninformed Search:
+1)	Depth First Search: 
+
+	It is a search algorithm that finds the path from one node to another using Stack frontiers. (Last-in-first-out approach) 
+	It explores the deepest node in the frontier , 
+i.e, it goes deeper into a path until it either reaches the goal state or hits a dead end and backtracks before choosing a different node and its path to explore.
+	It is never guaranteed to give the most optimal path cost, it is entirely dependent on chance. It may give either the best solution, 
+i.e, the first path it explores ends up being the shortest path, or it may give the worst solution, i.e, it ends up exploring every single path 
+because it hit a dead end in all the nodes until the final remaining one .
+
+	Approach:
+
+-	Start with a stack frontier containing the initial state; and an empty set to keep track of explored nodes.
+-	Explore node present in frontier. Check if the node is the goal state. If it is the goal state, return that node .
+-	If the explored node is not the goal state, then remove the node from frontier add the node to the set of explored nodes. 
+-	Add the neighbouring nodes of the explored node into the frontier if they are not already in the frontier or in the set of explored nodes.
+-	Explore the node in the frontier that was the last to be added into it.
+-	Repeat until solution is found
+
+	Example: Find a path from A to E. 
+
+Exploring node A: 
+Frontier: A 
+  
+
+Explored: 
+
+Moving node A to set of explored nodes
+Frontier: 
+Explored: A
+
+Adding neighbouring node B to frontier to be explored
+Frontier: B
+Explored: A  
+
+Moving node B to set of explored nodes
+Frontier: 
+Explored: A  , B
+
+Moving neighbours of B: C and D in frontier to be explored
+Frontier: C , D
+Explored: A, B
+
+Because node D was the last node in the frontier, it will be the first node that gets popped to be explored. Moving D to set of explored nodes
+Frontier: C
+Explored: A  , B ,  D
+
+Moving neighbours of D: E in frontier to be explored
+Frontier: C , E
+Explored: A, B, D
+
+
+
+
+Because node E was the last node in the frontier, it will be the first node that gets popped to be explored. Moving E to set of explored nodes
+Frontier: C
+Explored: A  , B ,  D,  E
+
+Thus the optimal solution was not found and the path hits a dead end. The algorithm backtracks and explores node C .
+Exploring node C and adding C to explored set:
+Frontier: 
+Explored: A  , B ,  D,  E, C
+
+Adding neighbour of C, F to the frontier to be explored
+Frontier: F
+Explored: A  , B ,  D,  E, C
+
+Thus, the goal state has been found and the solution ends.  The path detected by depth first search was A->B->D->E->C->F which was not the optimal path.
+
+
+
+
+2)	Breadth First Search: 
+
+	It is a search algorithm that finds the path from one node to another using Queue frontiers. (First-in-first-out approach) 
+	It explores the shallowest node in the frontier , i.e, it explores all possible paths simultaneously 
+	It can tell you what is the optimal solution but is guaranteed to take longer than minimal time to run. At worst, it may take the longest time to run
+
+	Approach:
+
+-	Start with a queue frontier containing the initial state; and an empty set to keep track of explored nodes.
+-	Explore node present in frontier. Check if the node is the goal state. If it is the goal state, return that node .
+-	If the explored node is not the goal state, then remove the node from frontier add the node to the set of explored nodes. 
+-	Add the neighbouring nodes of the explored node into the frontier if they are not already in the frontier or in the set of explored nodes.
+-	Explore the node in the frontier that was the last to be added into it.
+-	Repeat until solution is found
+
+	Example: Find a path from A to E. 
+
+Exploring node A: 
+Frontier: A 
+  
+
+Explored: 
+
+Moving node A to set of explored nodes
+Frontier: 
+Explored: A
+Adding neighbouring node B to frontier to be explored
+Frontier: B
+Explored: A  
+
+Moving node B to set of explored nodes
+Frontier: 
+Explored: A  , B
+
+Moving neighbours of B: C and D in frontier to be explored
+Frontier: C , D
+Explored: A, B
+
+Because node C was the first node in the frontier, it will be the first node that gets popped to be explored. Moving C to set of explored nodes
+Frontier: D
+Explored: A  , B ,  C
+
+Moving neighbours of C: F in frontier to be explored
+Frontier: D, F
+Explored: A, B, C
+
+Because node D was the first node in the frontier, it will be the first node that gets popped to be explored. Moving D to set of explored nodes
+Frontier: F
+Explored: A  , B ,  C, D
+
+Adding neighbour of D, E to the frontier to be explored
+Frontier: F, E
+Explored: A  , B ,  C, D
+
+Since F was the first node in the frontier, it will be the first node to be explored. Thus, the goal state is reached and the algorithm stops. 
+Node E did not have to be explored. Breadth first search gave us a more optimal solution than depth first search for this example. 
+
+
+Q2) Informed Search: 
+1)	Greedy Best First Search: 
+
+	Search algorithm that explores the node closest to the goal, as determined by a heuristic function h(n). 
+Thus, it chooses the node that has the shortest calculated distance from the goal state.
+
+	h(n): calculated cost from node n to goal.
+
+	It uses a PriorityQueue as the frontier. The priority queue defines the priority that the algorithm must take into consideration while executing 
+(priority is shortest distance in this case).
+
+	Manhattan distance, haversine distance, Euclidean distance are a few commonly used heuristic functions.
+
+	GBFS is more efficient than DFS OR BFS. 
+
+	Algorithm: 
+1.	Create a priority queue 
+2.	Put the initial distance covered and the source element into the priorityqueue initial distance will be zero as the algorithm hasnt moved from the source.
+3.	keep track of what element has been visited by creating another frontier to store them in 
+4.	run a loop while the priorityqueue is still not empty 
+5.	in the loop, retrieve the immediate next element in the priorityqueue which is at the shortest distance from the current element. 
+Then, Print the name of the element currently being explored 
+6.	if the element currently being explored is the destination, then print that the goal has been found and break out of the loop . 
+if it is not the destination, continue on to the next steps of the loop.
+7.	check the elements adjacent to the element previously popped. 
+8.	if the neighboring element has not been previously popped, define your heuristic function (distance between current element and destination) 
+9.	put that element and its heuristic function value into the priorityqueue. 
+10.	Once the neighboring element has been popped, store it in the frontier.
+
+
+
+
+
+	Example: Find a path from S to C
+
+
+
+
+
+
+
+
+
+
+
+
+i)	Start node S has two neighbours: A and B. The algorithm checks the value of heuristic function of each of these nodes. 
+-	Distance of A to C : 20 units
+-	Distance of B to C: B->D->C (15 units) OR B-> A->C (25 units)
+-	Since node B has the shortest value of heuristic function, it chooses node B.
+-	Thus, GBFS gives us the solution S->B->D->C .
+-	However, this is not the optimal solution. Because the heuristic function did not take into account the distance between explored node and initial state,
+ The total cost ended up being 45 units. 
+-	Had the heuristic function included the distance between explored node and 
+-	Initial state, the algorithm would have taken the path S->A-> C which would have given us the minimal cost of 30 units.
+-	This disadvantage is mitigated in the A-star Search Algorithm.
+
+
+2)	A-Star Search Algorithm:
+	It is a searching algorithm that finds the shortest path between initial and final node.
+
+	It is a whole and complete algorithm, and always gives the most optimal path with the least path cost.
+
+	This is because it expands the node with the lowest value of g(n) + h(n) where g(n)=distance between node and initial state; and h(n)= distance between node and goal state. 
+
+
+
+
+
+	Algorithm:
+1.	Create a priority queue . 
+2.	Put the initial distance covered and the source element into the priorityqueue initial distance will be zero as the algorithm hasnt moved from the source.
+3.	keep track of what element has been visited by creating another frontier to store them in 
+4.	run a loop while the priorityqueue is still not empty 
+5.	in the loop, retrieve the immediate next element in the priorityqueue which is at the shortest distance from the current element. 
+Then, Print the name of the element currently being explored 
+6.	if the element currently being explored is the destination, then print that the goal has been found and break out of the loop .if it is not the destination, 
+continue on to the next steps of the loop.
+7.	check the elements adjacent to the element previously popped. 
+8.	if the neighboring element has not been previously popped, create the your function f_dist. f_dist is the sum of h_dist and and g_dist where: 
+h_dist is the distance between current element and destination; g_dist is the distance between current element and source 
+9.	put that element and its total distance (f_dist) value into the priorityqueue.
+10.	Once the neighboring element has been popped, store it in the frontier. 
+
+	Example: Find a path from S to C
+
+
+
+
+
+
+
+
+
+
+
+
+ii)	Start node S has two neighbours: A and B. The algorithm checks the value of heuristic function of each of these nodes. 
+-	G(n) of A : S-> A : 10 units. H(n) of A: A-> C: 20 units. Thus, total distance: G(n) + H(n) = 30 units.
+-	G(n) of B : S-> B : 30 units. H(n) of B: either B->A->C which is 25 units or B->D->C which is 15 units . Thus, total distance: G(n) + H(n) = 45 units
+-	Since node A has the shortest value of heuristic function, it chooses node A.
+-	Thus, A star gives us the solution S->A->C . This is the optimal Solution.
+
+
+Q3) Adversarial Search: Minimax Algorithm
+	The MiniMax algorithm is a recursive algorithm used in decision-making and game theory. It delivers an optimal move for the player, 
+considering that the competitor is also playing optimally. This algorithm is widely used for game playing in Artificial Intelligence, such as chess, tic-tac-toe, 
+and myriad double players games.
+
+	In this algorithm, two players play the game; one is called ‘MAX’, and the other is ‘MIN.’ The goal of players is to minimize the opponent’s benefit and maximize self-benefit.
+ The MiniMax algorithm conducts a depth-first search to explore the complete game tree and then proceeds down to the leaf node of the tree, 
+ then backtracks the tree using recursive calls.
+
+
+
+
+
+
+
+
+
+
+	Approach:
+-	This algorithm works its way from the bottom to the top. Thus, it works from the final state to the current state.
+-	The bottom layer is the minimizing layer. Thus, between each node, it picks the node with the minimum value and transfer that to the node before it.
+-	 -1 < 4, 1< 2, 3< 5 . Thus, -1, 1 and 3 are the values that go into the layer above it.
+-	The middle layer is the maximizing layer. Between each node, the highest value is picked. 
+-	3 > 1 > -1. Thus, 3 is sent into the layer above it
+-	This alternate maximising and minimising occurs until all the possible outcomes have been explored, and the most optimum decision/solution is found through it. 
+-	The exploration of all possible outcomes is time consuming and requires great computational power. 
+-	Thus, minimax algorithm can be made more efficient using alpha-beta pruning
+
+
+	Alpha-beta pruning:
+o	alpha-beta pruning can be applied at any depth of a tree, and sometimes it not only prune the tree leaves but also entire sub-tree.
+o	The two-parameter can be defined as:
+1.	Alpha: The best (highest-value) choice we have found so far at any point along the path of Maximizer. The initial value of alpha is -∞.
+2.	Beta: The best (lowest-value) choice we have found so far at any point along the path of Minimizer. The initial value of beta is +∞.
+o	The Alpha-beta pruning to a standard minimax algorithm returns the same move as the standard algorithm does, 
+but it removes all the nodes which are not really affecting the final decision but making algorithm slow. Hence by pruning these nodes, it makes the algorithm fast.
+o	Main condition for pruning: alpha >= beta
+o	The Max player will only update the value of alpha.
+o	The Min player will only update the value of beta.
+o	While backtracking the tree, the node values will be passed to upper nodes instead of values of alpha and beta.
+o	We will only pass the alpha, beta values to the child nodes.
+	Pseudocode for Minimax+AB-Pruning:
+
+function minimax(node, depth, alpha, beta, maximizingPlayer) is  
+if depth ==0 or node is a terminal node then  
+return static evaluation of node  
+  
+if MaximizingPlayer then      // for Maximizer Player  
+   maxEva= -infinity            
+   for each child of node do  
+   eva= minimax(child, depth-1, alpha, beta, False)  
+  maxEva= max(maxEva, eva)   
+  alpha= max(alpha, maxEva)      
+   if beta<=alpha  
+ break  
+ return maxEva  
+    
+else                         // for Minimizer player  
+   minEva= +infinity   
+   for each child of node do  
+   eva= minimax(child, depth-1, alpha, beta, true)  
+   minEva= min(minEva, eva)   
+   beta= min(beta, eva)  
+    if beta<=alpha  
+  break          
+ return minEva  
+
+	Example: Tic Tac Toe using minimax
+
+	Each state is denoted by the positions occupied by the letters of the two players in a 3x3 matrix and other empty places.
+-	Initial state: an empty 3x3 matrix
+-	Intermediate state: an arrangement in the matrix after applying valid rules in the current state
+-	Goal state: Same letter in complete row or complete column or diagonal wins the game.
+-	The players get turns one after the other and they can play in the empty spaces
+
+	Minimax: There are 2 players, X and O. X aims to maximize its score while O aims to minimize the score of X
