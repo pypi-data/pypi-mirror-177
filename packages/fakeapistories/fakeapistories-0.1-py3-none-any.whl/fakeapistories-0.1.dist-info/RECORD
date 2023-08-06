@@ -1,0 +1,13 @@
+fake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fake/createproduct.py,sha256=vyrrMCG1H4SJ9YahZQ9Gf2VfcEx2B4EGUeWy3lnngj8,413
+fake/data.py,sha256=jcn-gbMAZ_2BuUIYvV86tcoo_kqjD1Z9YM_V0vXymS0,1108
+fake/get.py,sha256=u7ckT9EMTBzyI3EWq8MN0z-GlwldW5k05T2diWJqCMI,1115
+fakeapistories/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakeapistories/createproduct.py,sha256=vyrrMCG1H4SJ9YahZQ9Gf2VfcEx2B4EGUeWy3lnngj8,413
+fakeapistories/data.py,sha256=jcn-gbMAZ_2BuUIYvV86tcoo_kqjD1Z9YM_V0vXymS0,1108
+fakeapistories/get.py,sha256=u7ckT9EMTBzyI3EWq8MN0z-GlwldW5k05T2diWJqCMI,1115
+fakeapistories-0.1.dist-info/LICENSE.txt,sha256=kTk-8zTJOyD1pJnIDlqt58uSyjUa1bbdO4rnIZ35OpA,1067
+fakeapistories-0.1.dist-info/METADATA,sha256=qqBDPvDreOny6LFVRo4WSDFRXVS6jH1SD1ONNmfILwo,1395
+fakeapistories-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fakeapistories-0.1.dist-info/top_level.txt,sha256=wfZOLvDSyHozwZl9Bjf4kLIIaJyTLr5d981YVddZ0lg,15
+fakeapistories-0.1.dist-info/RECORD,,
