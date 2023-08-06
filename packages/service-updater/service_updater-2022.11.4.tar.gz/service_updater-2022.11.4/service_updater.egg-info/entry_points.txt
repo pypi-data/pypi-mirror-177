@@ -1,0 +1,2 @@
+[console_scripts]
+service_updater = service_updater.__main__:main
