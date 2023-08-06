@@ -1,0 +1,17 @@
+pyramid>=1.5
+pyramid_basemodel
+pyramid_mako
+pycountry>=18.12.8
+
+[babel]
+Babel>=1.0
+
+[docs]
+sphinx
+
+[tests]
+pytest>=3.3.0
+pytest-pyramid>=0.3.1
+pytest-cov>=2.6.0
+mock>=2.0.0
+zope.sqlalchemy>=1.2.0
