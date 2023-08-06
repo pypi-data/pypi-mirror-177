@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: anonymized-fraud-detection
+Version: 0.1.2
+Summary: A small package to parse and train an ML model for anonymized credit card transactions. Refer to github wikis for more details. Package was built for PythonVirtualenvOperator() on GCP Airflow.
+Author-email: Vikrant Deshpande <vikdeshp@iu.edu>
+Project-URL: Homepage, https://github.com/vikrantdeshpande09876/Credit_Card_Fraud_Detection
+Project-URL: Bug Tracker, https://github.com/vikrantdeshpande09876/Credit_Card_Fraud_Detection/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Anonymized Credit Card Fraud Detection Package
+
+Creating this package so that I can deploy this code on pip.
+
+Next, I need to import this while deploying the code as an Airflow task.
+
+All this because `PythonVirtualenvOperator()` doesn't let you access outside scripts from the virtual env.
+
+Have created modular scripts for train and test time.
