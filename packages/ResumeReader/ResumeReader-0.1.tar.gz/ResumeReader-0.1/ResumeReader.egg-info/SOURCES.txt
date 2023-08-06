@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ResumeReader.egg-info/PKG-INFO
+ResumeReader.egg-info/SOURCES.txt
+ResumeReader.egg-info/dependency_links.txt
+ResumeReader.egg-info/requires.txt
+ResumeReader.egg-info/top_level.txt
