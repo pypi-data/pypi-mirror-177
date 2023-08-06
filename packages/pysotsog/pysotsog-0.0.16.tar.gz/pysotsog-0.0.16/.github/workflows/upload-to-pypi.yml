@@ -1,0 +1,41 @@
+name: Upload Python Package
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+  # work around libxml install error using pip see
+  # (360k views 2022-11)
+  # https://stackoverflow.com/a/5178444/1497139
+  # using How to apt-get install in a GitHub Actions workflow?
+  # (70 k views 2022-11)
+  # https://stackoverflow.com/a/58002908/1497139
+  # sudo apt-get install build-dep python3-lxml
+  # does not work E: Unable to locate package build-dep
+    - name: Install lxml preqrequisites
+      run: |
+        sudo apt-get install python3-lxml
+        sudo apt-get install libxml2-dev libxslt-dev python-dev
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install hatch
+    - name: Build and publish
+      run: |
+        STATIC_DEPS=true pip install lxml==4.6.5
+        pip install .
+        hatch build
+    - name: Publish distribution to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: ${{ secrets.PYPI_USERNAME }}
+        password: ${{ secrets.PYPI_PASSWORD }}
