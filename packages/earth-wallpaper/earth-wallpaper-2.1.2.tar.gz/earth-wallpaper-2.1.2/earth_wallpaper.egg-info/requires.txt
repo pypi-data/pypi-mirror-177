@@ -1,0 +1,9 @@
+Pillow
+PySide6
+requests
+
+[:platform_system == "Linux"]
+dbus-python
+
+[:platform_system == "Windows"]
+pywin32
