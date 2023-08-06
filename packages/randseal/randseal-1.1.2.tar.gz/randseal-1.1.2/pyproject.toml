@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+	"py-cord>=2.2.2",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
