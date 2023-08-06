@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+aeripy/__init__.py
+aeripy/aeripy_api.py
+aeripy/endpoints.py
+aeripy/exceptions.py
+aeripy/models.py
+aeripy/rest_adapter.py
+aeripy/util.py
+aeripy.egg-info/PKG-INFO
+aeripy.egg-info/SOURCES.txt
+aeripy.egg-info/dependency_links.txt
+aeripy.egg-info/requires.txt
+aeripy.egg-info/top_level.txt
