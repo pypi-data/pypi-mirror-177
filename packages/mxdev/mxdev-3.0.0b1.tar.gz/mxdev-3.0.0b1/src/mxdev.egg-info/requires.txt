@@ -1,0 +1,7 @@
+setuptools
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+types-setuptools
