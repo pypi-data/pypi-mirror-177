@@ -1,0 +1,21 @@
+oarepo_generated_ui/__init__.py,sha256=ePocjtH5Con1lRdUk3pnj3RGlb1YmvCz08-ly8uIriA,227
+oarepo_generated_ui/config.py,sha256=2_RI4NpsOn9KxXv9MEO_w4NdbDOUrzxuqZfz5UsLsmg,280
+oarepo_generated_ui/ext.py,sha256=D5BXyEZn_FKgvSzxgEVpprLD4jUWyUghQ9imsTy2dh4,698
+oarepo_generated_ui/theme/__init__.py,sha256=TF-RTFeIzEuNxNCHLwUwT395ySJMA5CON7QrdC_2U0o,151
+oarepo_generated_ui/theme/webpack.py,sha256=7q7kqsOowN1fZTpai2GuY-44N56m3AW-3xpGgDTqNYU,1182
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/hooks.jsx,sha256=2yFDzDauOBFeshoan-10qNL6WTZHkR5_FImWB85QcEE,4166
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/index.js,sha256=0AigpUkW5PDQEW-7viYwMORFGe_sjLjhDsQamWvaljQ,295
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/layout.js,sha256=MjxrgVVQFtbsW_t3OQkihUmwNC45u2rmSfriztwjW5c,191
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/util.jsx,sha256=8zZOG296QPkHPTlDfye73D7TlJVBFfl0Ch79N1bWVck,343
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/context/data.jsx,sha256=BCNTScKuLbvduvbzJhgVGOP0y1gdmNucXo8oasqYkiI,747
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/context/index.js,sha256=-qYOBwG8ylBG44fcQIVn0M9PvR2rdirpi7fbnBNjWnc,148
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/ui_components/SeparatorComponent.jsx,sha256=N_1hljMacIH1X17PSf227mynM-kyv1aMSPo-Li1aFgg,546
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/ui_components/index.js,sha256=q6VIsaLyGpf5Z-h7q2meQNrJagdexvgojnbgJnsb6KU,276
+oarepo_generated_ui/theme/assets/semantic-ui/js/oarepo_generated_ui/ui_components/withDataArray.jsx,sha256=ztX-jIjpEjkW139hJlvugl5K8Ee8XYjpYp5ZPvlkv8o,514
+oarepo_generated_ui-1.0.5.dist-info/AUTHORS. md,sha256=fj-HnhCoMpuy3ryIYAvmM_1fAVcctSXHjHGnMCHlJog,34
+oarepo_generated_ui-1.0.5.dist-info/LICENSE,sha256=NpEs_ePbkafNgfdKd7rZlECl1wmchtRqMzCm6wmfEmM,1063
+oarepo_generated_ui-1.0.5.dist-info/METADATA,sha256=NPDb-40uSnNZLxgQdCqCm_PEKF12UX8TU29yE_HuBXI,787
+oarepo_generated_ui-1.0.5.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+oarepo_generated_ui-1.0.5.dist-info/entry_points.txt,sha256=Nwz37rYUjSTg8BI5vpP_ucOyWnaGPc94Oi_kf-KRL1Y,243
+oarepo_generated_ui-1.0.5.dist-info/top_level.txt,sha256=PytP6EPILJz2qJd_ttyXpFl4vZDlI4TreHLAcnqJMXU,20
+oarepo_generated_ui-1.0.5.dist-info/RECORD,,

@@ -1,0 +1,9 @@
+[invenio_assets.webpack]
+oarepo_generated_ui = oarepo_generated_ui.theme.webpack:generated_ui
+
+[invenio_base.apps]
+oarepo_generated_ui = oarepo_generated_ui:OARepoGeneratedUI
+
+[oarepo_generated_ui.translations]
+messages = oarepo_generated_ui
+
