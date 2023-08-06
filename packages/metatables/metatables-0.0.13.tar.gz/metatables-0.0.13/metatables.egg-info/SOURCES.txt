@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+Pipfile
+README.md
+setup.py
+test.py
+metatables/__init__.py
+metatables/main.py
+metatables/printer.py
+metatables/wrangler.py
+metatables.egg-info/PKG-INFO
+metatables.egg-info/SOURCES.txt
+metatables.egg-info/dependency_links.txt
+metatables.egg-info/requires.txt
+metatables.egg-info/top_level.txt
+test/test_wrangler.py
