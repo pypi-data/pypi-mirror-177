@@ -1,0 +1,13 @@
+README.md
+setup.py
+package_name/__init__.py
+package_name/module1_name/__init__.py
+package_name/module1_name/file1_name.py
+package_name/module1_name/file2_name.py
+package_name/module2_name/__init__.py
+package_name/module2_name/file1_name.py
+package_name/module2_name/file2_name.py
+package_template_master.egg-info/PKG-INFO
+package_template_master.egg-info/SOURCES.txt
+package_template_master.egg-info/dependency_links.txt
+package_template_master.egg-info/top_level.txt
