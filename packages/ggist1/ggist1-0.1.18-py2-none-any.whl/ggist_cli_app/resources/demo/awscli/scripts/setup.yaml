@@ -1,0 +1,38 @@
+description: setup awscli for desktop
+name: setup
+spec:
+  alias: null
+  globals: []
+  variations:
+  - depends: []
+    env: linux
+    label: debian
+    steps:
+    - content: "\n                        curl \"https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip\"\
+        \ -o \"awscliv2.zip\"\n                        unzip awscliv2.zip\n      \
+        \                  sudo ./aws/install\n                        aws --version\n\
+        \                        rm -rf awscliv2.zip aws\n                        "
+      description: This will install awscli on your machine
+      runner: shell
+      title: Install awscli
+    - content: "\n                    aws configure\n                    "
+      description: ''
+      runner: shell
+      title: Configure Aws credentials and environment
+  - depends:
+    - installed:brew
+    env: osx
+    label: '>10.x.x'
+    steps:
+    - content: "\n                        curl \"https://awscli.amazonaws.com/AWSCLIV2.pkg\"\
+        \ -o \"AWSCLIV2.pkg\"\n                        sudo installer -pkg AWSCLIV2.pkg\
+        \ -target /\n                        aws --version\n                     \
+        \   rm -rf AWSCLIV2.pkg aws\n                        "
+      description: This will install awscli on your machine
+      runner: shell
+      title: Install awscli
+    - content: "\n                    aws configure\n                    "
+      description: ''
+      runner: shell
+      title: Configure Aws credentials and environment
+title: 'Setup AwsCli '
