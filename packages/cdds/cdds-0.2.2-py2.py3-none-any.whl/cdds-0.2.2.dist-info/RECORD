@@ -1,0 +1,14 @@
+cdds/__init__.py,sha256=aEMhXL9PeDBDzDSrbbEQgrUN4KoDXbrg854mnMLpntI,332
+cdds/cdds.py,sha256=IXlxagLIgGKmoyxS-_Rdq0O7GyYzNplP8n-VcT_mgQc,20
+cdds/cli.py,sha256=GaAtQRb9w-ZeZ2Osl0pbXCCSxWpVB1IN4cSP_xXe6JA,390
+cdds/datasets.py,sha256=Ev_wXrBsGMYqNiFzRJ893tpFstUrlhYN0GszYoLZnPE,15311
+cdds/filetools.py,sha256=sA2ixjUkRt2BJ0FhcKapxpV2Eq6CLZj6iAuOc5T0pVM,2134
+cdds/imports.py,sha256=Q6ZDa93Xir2RQJ95Ljb4g3HC6Fc-4id1XUlR4urRNTk,7226
+cdds/inspect.py,sha256=40qKG8RwkML_fJhvzFRSelecQDJb8hKTOJFttXN5Gzc,20897
+cdds/utils.py,sha256=aJUej_aZU5pkoEv-CqoRMKLKRHP1BBmB1Wmug6J9DKw,6236
+cdds-0.2.2.dist-info/AUTHORS.rst,sha256=1HgixR08_4u05G6NFAenvKBQ9fTwVvp39TiqJNQ4u_I,164
+cdds-0.2.2.dist-info/METADATA,sha256=Q5TKQxmKCOVrX7LvOIIxwQlSIiRlJ4eUcOfpjnnSv8s,1554
+cdds-0.2.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+cdds-0.2.2.dist-info/entry_points.txt,sha256=EipJSCZ90RsvM5TrH8PKRgiOR7nhrvkCWnWtHd6D4SY,39
+cdds-0.2.2.dist-info/top_level.txt,sha256=QdgagBDG85U1_eoA6BXd8pFW3MugA-urXUMGHGBvTZE,5
+cdds-0.2.2.dist-info/RECORD,,
