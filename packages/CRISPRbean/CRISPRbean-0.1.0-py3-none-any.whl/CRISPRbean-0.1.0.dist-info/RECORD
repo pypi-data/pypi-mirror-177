@@ -1,0 +1,9 @@
+CRISPRbean-0.1.0.data/scripts/CRISPRbean,sha256=16lilPaERTUzB-K1KZTSMhydU4zIYTi005RLvnwXH1k,10762
+beige/__init__.py,sha256=uIAPatI4mFh4cY5iEBhmRN61rQzH_7novmdfh9wYjAI,33
+beige/model.py,sha256=nOKNDh_ebHW4VoJFd5Ue6TPIfzF1FGlrxBkyJHjLdr8,26896
+beige/plotting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beige/readwrite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CRISPRbean-0.1.0.dist-info/METADATA,sha256=zlmMMGFxSPNCQxsQ31ZCjy2tCTD45Jg2w0mb-yGn8MQ,3123
+CRISPRbean-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CRISPRbean-0.1.0.dist-info/top_level.txt,sha256=amVgIHxaqatN0eWDDBTJ2j8Pom4SpXjy9tXax3rop1w,6
+CRISPRbean-0.1.0.dist-info/RECORD,,
