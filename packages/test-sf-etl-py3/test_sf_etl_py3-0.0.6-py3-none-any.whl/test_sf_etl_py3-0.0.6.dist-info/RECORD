@@ -1,0 +1,11 @@
+sf_etl_py3/Bot.py,sha256=PxdUyTkV6zRjgM9Ztkz_0fB_mreSnelw8T9y8nKdhMk,9187
+sf_etl_py3/SfQy.py,sha256=GgUC9uE5Ya2UDBpdrXS0we5hsk4EblCHnZoqi6WiCG0,823
+sf_etl_py3/Utils.py,sha256=tsKtAbuD6E2thirUxRuHVTrTnDXNi22_yOWJaD_kLKU,4283
+sf_etl_py3/_SfSql.py,sha256=0G36LjUyJZu6UQxhoGm4CG_gFQv5oWdH3pfdl5d9UCs,804
+sf_etl_py3/_Sfconfig.py,sha256=S5qSBUZN6Bc1T6TuLEn47K-Qd03ZSv1vySa63sfJLLs,5069
+sf_etl_py3/__init__.py,sha256=tI3x-tXJKus8x-WzZmn2DjKR5YWOv5iivoOhrhnABfc,116
+test_sf_etl_py3-0.0.6.dist-info/LICENSE,sha256=HDbMJ7oItmxTn3jVtZFi6jUFAHovset5jzAPUderjOc,1073
+test_sf_etl_py3-0.0.6.dist-info/METADATA,sha256=ic4ZUklaf1ml5oA5BYrx70FXoYHN-KxQbFkhfYmyQC8,2004
+test_sf_etl_py3-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_sf_etl_py3-0.0.6.dist-info/top_level.txt,sha256=lkxNHqn4Y3ohBLVRKPphUaSDLj2DXk9-ORbcVlrbeuM,11
+test_sf_etl_py3-0.0.6.dist-info/RECORD,,
