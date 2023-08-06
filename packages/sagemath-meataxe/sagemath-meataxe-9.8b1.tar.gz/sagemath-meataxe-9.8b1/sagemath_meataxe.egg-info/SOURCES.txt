@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+sage/libs/meataxe.pyx
+sage/matrix/matrix_gfpn_dense.pyx
+sagemath_meataxe.egg-info/PKG-INFO
+sagemath_meataxe.egg-info/SOURCES.txt
+sagemath_meataxe.egg-info/dependency_links.txt
+sagemath_meataxe.egg-info/requires.txt
+sagemath_meataxe.egg-info/top_level.txt
