@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cloud-sustainability
+Version: 0.0.0
+Summary: A library offers some utilities to explore cloud resources
+Home-page: UNKNOWN
+Author: Mohamad Karam Kassem
+Author-email: karam.kass@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: azure-identity
+Requires-Dist: azure-mgmt-compute
+Requires-Dist: azure-mgmt-monitor
+Requires-Dist: azure-mgmt-resource
+Requires-Dist: pydantic
+Requires-Dist: requests
+
+UNKNOWN
+
