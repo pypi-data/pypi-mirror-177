@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.cfg
+setup.py
+graphene_file_upload/__init__.py
+graphene_file_upload/scalars.py
+graphene_file_upload/utils.py
+graphene_file_upload/django/__init__.py
+graphene_file_upload/django/testing.py
+graphene_file_upload/flask/__init__.py
+graphene_file_upload_patch.egg-info/PKG-INFO
+graphene_file_upload_patch.egg-info/SOURCES.txt
+graphene_file_upload_patch.egg-info/dependency_links.txt
+graphene_file_upload_patch.egg-info/requires.txt
+graphene_file_upload_patch.egg-info/top_level.txt
