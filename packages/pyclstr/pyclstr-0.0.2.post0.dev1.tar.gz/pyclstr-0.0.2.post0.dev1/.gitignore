@@ -1,0 +1,13 @@
+/build/
+/dist/
+dummy
+.DS_Store
+.hypothesis/
+.hypothesis/*
+/.idea/
+/pyclstr.egg-info/
+__pycache__/
+__pycache__/*
+/venv/
+*.so
+*.c
