@@ -1,0 +1,12 @@
+expelliarmus.cp310-win32.pyd,sha256=RCkpKKl4HoSUKAwKTT9Tl7lFN3z4EZXOGdtnR2g1l70,16896
+expelliarmus/__init__.py,sha256=S9ra3M671KtLVQ0n8HGM6ECxSOg1pkKS03KGPQUdm-A,35
+expelliarmus/utils.py,sha256=yCsO-uiqpE0wy8uYBqt7bmIW3wpSizroUAZDlGY1dmU,1885
+expelliarmus/wizard/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+expelliarmus/wizard/clib.py,sha256=CTsBWVVj11-stgM4XiumwpZqc66qyGlM2CzOIPfY_68,2867
+expelliarmus/wizard/wizard.py,sha256=bo1EFLI0mfFqiGvUc4qiilPsW_V7ySh8gB20ZS05dpA,7168
+expelliarmus/wizard/wizard_wrapper.py,sha256=lzkfN1K__6VplyqVxaxR9DhRTMZ7ImfP3Vu6f0pu3cU,3511
+expelliarmus-1.1.1.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+expelliarmus-1.1.1.dist-info/METADATA,sha256=2YxWwOWd0uexNQlmsSK4P62bl7B3rWlpFqmx_wjTXdU,4398
+expelliarmus-1.1.1.dist-info/WHEEL,sha256=l5uI7e2vYDQsG8-BdAxXE9BLA-oyyyoK5DyD9-hAApg,98
+expelliarmus-1.1.1.dist-info/top_level.txt,sha256=W5Ux57ruAY9nFWYnbEdY5DcbfRxxU1ESO8_d70M4Tg8,13
+expelliarmus-1.1.1.dist-info/RECORD,,
