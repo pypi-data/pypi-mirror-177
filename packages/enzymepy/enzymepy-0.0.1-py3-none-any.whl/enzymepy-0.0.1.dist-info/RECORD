@@ -1,0 +1,9 @@
+enzymepy/__init__.py,sha256=GjTNNv2IcW2hXPMsFVhXYkzjNQnJMEcIv3grY1WBI0I,23
+enzymepy/chemdata.py,sha256=TMMcKr2n5MB0KHlquIa4S8NAMAVA2ZY1mpgmTN1w6Co,2238
+enzymepy/dataloader.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enzymepy/reaction.py,sha256=F-HSlvRpITd56c9JI09C35GDK5t6DWOZ-eJkzXPxS2I,2751
+enzymepy/utils.py,sha256=iFg3jud5Cwlxz4BIIGRfS0q81sLmHqZXnuLK7a9oWrA,4686
+enzymepy-0.0.1.dist-info/METADATA,sha256=Q1qeoIgznJtykWeVriL_wIUG0kDVDSc8yhjURiGQdU8,488
+enzymepy-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+enzymepy-0.0.1.dist-info/top_level.txt,sha256=RwZ11WGs8eXF1p55dhnf2MWm8TftgQZ08DKYx88I4_A,9
+enzymepy-0.0.1.dist-info/RECORD,,
