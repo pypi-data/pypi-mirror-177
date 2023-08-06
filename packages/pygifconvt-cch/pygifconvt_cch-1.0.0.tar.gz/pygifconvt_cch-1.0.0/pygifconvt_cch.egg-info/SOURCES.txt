@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pygifconvt_cch/__init__.py
+pygifconvt_cch/image_trans_2.py
+pygifconvt_cch.egg-info/PKG-INFO
+pygifconvt_cch.egg-info/SOURCES.txt
+pygifconvt_cch.egg-info/dependency_links.txt
+pygifconvt_cch.egg-info/not-zip-safe
+pygifconvt_cch.egg-info/requires.txt
+pygifconvt_cch.egg-info/top_level.txt
