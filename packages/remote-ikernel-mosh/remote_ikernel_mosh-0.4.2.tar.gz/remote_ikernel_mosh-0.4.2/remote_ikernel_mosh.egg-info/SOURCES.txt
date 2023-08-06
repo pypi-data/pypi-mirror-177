@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+bin/remote_ikernel
+remote_ikernel/__init__.py
+remote_ikernel/__main__.py
+remote_ikernel/compat.py
+remote_ikernel/kernel.py
+remote_ikernel/manage.py
+remote_ikernel_mosh.egg-info/PKG-INFO
+remote_ikernel_mosh.egg-info/SOURCES.txt
+remote_ikernel_mosh.egg-info/dependency_links.txt
+remote_ikernel_mosh.egg-info/requires.txt
+remote_ikernel_mosh.egg-info/top_level.txt
