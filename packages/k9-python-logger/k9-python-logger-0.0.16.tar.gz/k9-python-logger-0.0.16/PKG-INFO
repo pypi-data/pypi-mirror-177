@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: k9-python-logger
+Version: 0.0.16
+Summary: official python logger library for k9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+SDK for k9 logger
+
+Don't import '/internal' folder in your project!
+
+
+## build
+
+`python3 -m pip install --upgrade pip`
+`python3 -m build`
+`python3 -m twine upload --repository pypi dist/*`
