@@ -1,0 +1,11 @@
+vcorg/__init__.py,sha256=K_J91NJ23aEU90fy7O-8J8vlPE1250womC59_ZwAgwQ,1422
+vcorg/resources.py,sha256=ybJ1bpWH2lb1d07b28lC8bTwmf9S_WwJ0ZSTOuu08zc,225
+vcorg/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcorg/subsystem/sysadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcorg/subsystem/sysadmin/domain_org/__init__.py,sha256=BMzfUx9-6tSREzvZtRRFhY_YIOsJEXE7Jrs-yNkgvKI,159
+vcorg/subsystem/sysadmin/domain_org/resource.py,sha256=a7mmblxmnMcHQUaw_AAZzOolwNQALv5zjSWOy3ipe5s,1212
+vcorg-1.0.0.dist-info/AUTHORS,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vcorg-1.0.0.dist-info/METADATA,sha256=4_AGZNG7ArdVAvyz2FitL6oykFXYliwAZgRC3iJvRZc,315
+vcorg-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vcorg-1.0.0.dist-info/top_level.txt,sha256=Xm8IWV6cywTUd9CEFnmY6VHJi5lNVW1SRaGYmC5XlN0,6
+vcorg-1.0.0.dist-info/RECORD,,
