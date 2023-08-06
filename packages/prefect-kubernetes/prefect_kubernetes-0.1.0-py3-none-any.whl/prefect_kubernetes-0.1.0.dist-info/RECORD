@@ -1,0 +1,14 @@
+prefect_kubernetes/__init__.py,sha256=h2wS2L9EN6uoxyWS_A9SnULngqMX-pATqKo5YUY-37w,151
+prefect_kubernetes/_version.py,sha256=I39nh7EHT9ptclHef4D2ooDttr1NBBzGp8_f6_Xmsns,497
+prefect_kubernetes/credentials.py,sha256=faN-z1FeEOFyMpEV346ptjDvTwxnxTz_ZgYETX2QchA,5557
+prefect_kubernetes/deployments.py,sha256=WgWWKfbW-oxYsfc4L1tfgZSQduYlVu6BBIIUIYypGYU,10242
+prefect_kubernetes/exceptions.py,sha256=nZqXWfKx-e1S29l1oAf72_SrhVwaVzoCDmp3TkKCs70,517
+prefect_kubernetes/jobs.py,sha256=VZFFS7JSVqwEWQdVgLiChlo4igGLKTqzF_LZyNv69kg,10099
+prefect_kubernetes/pods.py,sha256=8qyfPX5gWVud3S2cXC80uAmrXDUHl-vt_LT-BAJwrsY,12064
+prefect_kubernetes/services.py,sha256=8XkPJwFT_H2jS6PjGykpoG5Y0-Siob5PGyn6K2g2uoc,9669
+prefect_kubernetes-0.1.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_kubernetes-0.1.0.dist-info/METADATA,sha256=m6XL1-IVNpV2D-owY5GOSeLlFxZSjitZ8f7dj3CDhSM,7075
+prefect_kubernetes-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prefect_kubernetes-0.1.0.dist-info/entry_points.txt,sha256=uhD560Cn7OKkZ8ySaOBVna7TMt9Xdz12r52x_u-XM0M,62
+prefect_kubernetes-0.1.0.dist-info/top_level.txt,sha256=0oApdC_JEpej_YmOAw2N_GVRKgckY1DMQMI118Yy7Ys,19
+prefect_kubernetes-0.1.0.dist-info/RECORD,,
