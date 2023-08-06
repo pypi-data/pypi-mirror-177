@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: example_package_reyniel26
+Version: 0.0.3
+Summary: A small example package
+Author-email: Reyniel Mark Escamillas <some@email.com>
+Project-URL: Homepage, https://github.com/reyniel26/packaging_playground
+Project-URL: Bug Tracker, https://github.com/reyniel26/packaging_playground/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# packaging_playground
+My own playground on how to create a python package
+
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+```
+py -m pip install --upgrade build
+```
+
+```
+py -m build
+```
+
+RUN ON BASH
+```
+pylint $(git ls-files '*.py')
+```
