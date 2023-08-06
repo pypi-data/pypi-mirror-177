@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Readme.md
+setup.py
+mfig/__init__.py
+mfig/mfig.py
+mfig.egg-info/PKG-INFO
+mfig.egg-info/SOURCES.txt
+mfig.egg-info/dependency_links.txt
+mfig.egg-info/entry_points.txt
+mfig.egg-info/top_level.txt
+mfig.egg-info/zip-safe
