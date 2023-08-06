@@ -1,0 +1,8 @@
+portchoice/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+portchoice/design.py,sha256=LRW5c3tQ476WWsPujC7thl2p0wcJ9FBiElsbxyafAU8,14722
+portchoice/generate.py,sha256=LxiLrUvmhx4LDlRTKfvK5OjjsRvmXwILfJy-0CDX40I,4278
+portchoice/models.py,sha256=S64_2KC8lYRig9eVnvtPsmtHnKYliUIq4xa_nCQtjbo,27267
+portchoice/utils.py,sha256=MEyjAnUrGo_fwWF7fw3Dgl5BSrXeN5o3r66u2g9tY1A,5211
+portchoice-0.1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+portchoice-0.1.5.dist-info/METADATA,sha256=fWHUiODcJyTXyJL06ZqdbSKy4a8IlRcrRxsYaUw0VmI,490
+portchoice-0.1.5.dist-info/RECORD,,
