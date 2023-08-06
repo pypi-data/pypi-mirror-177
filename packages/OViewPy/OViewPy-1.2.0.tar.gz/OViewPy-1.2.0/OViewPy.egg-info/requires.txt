@@ -1,0 +1,10 @@
+requests
+numpy
+opencv-python
+progress
+shapely
+PyShp
+rasterio
+matplotlib
+sridentify
+geojsoncontour
