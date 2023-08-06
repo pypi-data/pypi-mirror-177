@@ -1,0 +1,8 @@
+README.md
+setup.py
+alphabetss/__init__.py
+alphabetss/main.py
+alphabetss.egg-info/PKG-INFO
+alphabetss.egg-info/SOURCES.txt
+alphabetss.egg-info/dependency_links.txt
+alphabetss.egg-info/top_level.txt
