@@ -1,0 +1,71 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+__version__ = "100"
+
+
+"24/7 channel daemon"
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import threading
+import time
+import traceback
+
+
+from bot.handler import Callback, Command, Event, Handler, parse
+from bot.object import Class, Object, Wd, keys, last, printable, update
+from bot.object import find, fntime, items, save, update
+from bot.handler import command, scan, scandir
+from bot.util import elapsed
+from bot.irc import Config
+
+
+from bot import cmds, irc, rss
+
+
+Config.channel = "#botd"
+Config.nick = "botd"
+Config.username = "botd"
+Config.realname = "24/7 channel daemon"
+
+
+Wd.workdir = os.path.expanduser("/var/lib/botd/")
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+def ver(event):
+    event.reply("BOTD %s" % __version__)
+
+
+def main():
+    cfg = parse(' '.join(sys.argv[1:]))
+    Command.add(ver)
+    cli = CLI()
+    command(cli, cfg.otxt)
