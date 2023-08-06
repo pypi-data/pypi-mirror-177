@@ -1,0 +1,11 @@
+nssvie/__init__.py,sha256=0Mi2BFu7nc8SJxhh1lmgvEEQwqc_qFG1K5-WeVTTu48,625
+nssvie/_version.py,sha256=dPgfupw2e9ldyArtfhFbBaclahQqJV9r3URZSbQHKgk,45
+nssvie/_integral_equations/__init__.py,sha256=MGuwVBJ7-_kvJEfvavd_hzXpjYSPShxVFjgk3Rl2mMc,209
+nssvie/_integral_equations/svie.py,sha256=VpMEy3sS-sYN-LIcnZLMlmPzjYSMDg1dVZquu1Ytf8w,2916
+nssvie/_orthogonal_functions/__init__.py,sha256=m1U6Zex_fGJ7wayoKA4-EEnr8oIE9wt4E3w1C6bNySU,223
+nssvie/_orthogonal_functions/bpf.py,sha256=RnUo2zlfDnn75KxmWvsp86upyS4eK_exI20Wfmm1tQs,8778
+nssvie-0.0.3.dist-info/LICENCE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+nssvie-0.0.3.dist-info/METADATA,sha256=PpNhfp_wDlKTa-DpIBnBTgk5zGoe0YlOH8jxe43IZag,7496
+nssvie-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nssvie-0.0.3.dist-info/top_level.txt,sha256=MJD05jzHQTxoyXX4Lg1YEVVmqxceuOAOoz4guq29tFQ,7
+nssvie-0.0.3.dist-info/RECORD,,
