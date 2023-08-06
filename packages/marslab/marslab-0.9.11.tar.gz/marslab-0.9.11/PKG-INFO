@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: marslab
+Version: 0.9.11
+Summary: Utilities for working with observational data of Mars.
+Home-page: https://github.com/millionconcepts/marslab.git
+Author: Million Concepts
+Author-email: chase@millionconcepts.com
+Requires-Python: >=3.9
+Provides-Extra: pdr_load
+Provides-Extra: tests
+Provides-Extra: render
+Provides-Extra: notebooks
+Provides-Extra: regions
+Provides-Extra: time
+Provides-Extra: geom
+Provides-Extra: strict_reshape
+Provides-Extra: histograms
+Provides-Extra: masking
+License-File: LICENSE
