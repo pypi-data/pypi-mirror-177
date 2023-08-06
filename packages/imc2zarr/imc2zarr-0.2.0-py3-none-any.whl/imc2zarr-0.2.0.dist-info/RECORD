@@ -1,0 +1,15 @@
+imc2zarr/__init__.py,sha256=MklVVaC-X8LZ7U820TfuPFGc8TqxJbybfjkHCDcQlLE,805
+imc2zarr/converter.py,sha256=YP4Mr_9xnsN2XyYFidL_eeWLY2pzYKV0w8PCCkLDJy8,4316
+imc2zarr/imclib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imc2zarr/imclib/imcdataparser.py,sha256=szAYbQDSvUZ8P7N5-1NU5ODU3dHrc0ZDxWmGS1lE1Rg,6492
+imc2zarr/imclib/imcraw.py,sha256=wu-ae516IeccftxDzzlyKFMxOYlGw6MU2SGF3ojzWVQ,7617
+imc2zarr/imclib/mcdmeta.py,sha256=bx84hAGkx1IIGqTeFDXBW2UOHtMZSnwcHtp6QnxzKZA,5870
+imc2zarr/imclib/mcdutils.py,sha256=9QG-b419ioVtqVCc0gTqgpNhn7kaXn3WSIRk92eGqIw,8556
+imc2zarr/imclib/mcdxmlparser.py,sha256=umpjiY7oO2V1Dq3zEZIqDESvk_Y87EV4HlBDTRXdTBI,3430
+imc2zarr/imclib/metadefs.py,sha256=qbhQRZofvS0tH29d3zalY37i5KqF7rc6S1tDF-lMrMo,2543
+imc2zarr-0.2.0.dist-info/LICENSE,sha256=daz9lZSbzuWGzEdwP58DFoMVoaccJBRVJbO66XxWVzo,1097
+imc2zarr-0.2.0.dist-info/METADATA,sha256=IXybdpn-HBqyyx6ByKpdDdJ0VkW4vUtbQb0kbfh4N7w,1337
+imc2zarr-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imc2zarr-0.2.0.dist-info/entry_points.txt,sha256=bsLtr7864GEbsHlqtSlfwFwxyepyZa8d6CSTQAlaR5k,43
+imc2zarr-0.2.0.dist-info/top_level.txt,sha256=Hb9YyDyxOQ-oYPMLe2YkeaJvSL9ouMQSoMcsq-1mxBc,9
+imc2zarr-0.2.0.dist-info/RECORD,,
