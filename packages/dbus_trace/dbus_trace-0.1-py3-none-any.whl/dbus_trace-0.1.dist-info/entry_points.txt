@@ -1,0 +1,3 @@
+[console_scripts]
+dbus-trace=dbus_trace:main
+
