@@ -1,0 +1,3 @@
+[console_scripts]
+voiceTesting = gatewayVoice.voiceTesting:main
+

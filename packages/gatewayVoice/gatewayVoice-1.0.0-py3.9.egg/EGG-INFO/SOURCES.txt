@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+gatewayVoice/__init__.py
+gatewayVoice/voiceTesting.py
+gatewayVoice.egg-info/PKG-INFO
+gatewayVoice.egg-info/SOURCES.txt
+gatewayVoice.egg-info/dependency_links.txt
+gatewayVoice.egg-info/entry_points.txt
+gatewayVoice.egg-info/not-zip-safe
+gatewayVoice.egg-info/top_level.txt
