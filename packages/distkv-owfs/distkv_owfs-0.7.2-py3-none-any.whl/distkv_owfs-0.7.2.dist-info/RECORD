@@ -1,0 +1,11 @@
+distkv_ext/owfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distkv_ext/owfs/_config.yaml,sha256=wgLLJzi_p1-aRRfIipWD3_kz6TJoDmUHvcbAEkwvUsw,49
+distkv_ext/owfs/client.py,sha256=xTvtd4QNYlxN_4I66nvsMecLhF6MqJu3EV-c8ATe1oo,6884
+distkv_ext/owfs/mock.py,sha256=6a-ziPrKXmy2HhC8mhoFDeWrZ8Hjx25xKz3H3ZY07WI,1022
+distkv_ext/owfs/model.py,sha256=jNUufOLRh5-7gfkP7rpWHVmW2X4uzB4Am7xJWzazJAQ,9617
+distkv_ext/owfs/task.py,sha256=9xrbnhf5ljaizD08_GY76Uow_ntLhKTmeaYJ1ZWQFrI,2626
+distkv_owfs-0.7.2.dist-info/METADATA,sha256=QXnrNawYaUDCIp2e1lYhQYYRJyL-PIJEE4-ipbJLJOo,1436
+distkv_owfs-0.7.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+distkv_owfs-0.7.2.dist-info/top_level.txt,sha256=ShoEI2BVeROA0C05-6zL3D5TO6x4NFM1mmseokgRjdM,11
+distkv_owfs-0.7.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+distkv_owfs-0.7.2.dist-info/RECORD,,
