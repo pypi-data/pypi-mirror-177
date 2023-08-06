@@ -1,0 +1,24 @@
+-e .
+click
+flatdict
+gdstk
+jsondiff
+loguru
+lxml
+matplotlib
+numpy
+omegaconf
+orjson
+pandas
+pydantic
+pyyaml
+qrcode
+rectpack
+scipy
+shapely
+toolz
+tqdm
+types-PyYAML
+typing_extensions
+watchdog
+xmltodict
