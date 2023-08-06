@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+iQModules/__init__.py
+iQModules/classes.py
+iQModules/methods.py
+iQModules.egg-info/PKG-INFO
+iQModules.egg-info/SOURCES.txt
+iQModules.egg-info/dependency_links.txt
+iQModules.egg-info/top_level.txt
