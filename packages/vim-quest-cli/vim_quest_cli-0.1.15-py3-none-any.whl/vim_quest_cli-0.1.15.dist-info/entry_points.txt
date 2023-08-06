@@ -1,0 +1,4 @@
+[console_scripts]
+main=vim_quest_cli.__main__:main
+stdin_test=vim_quest_cli.deps.test_stdin:main
+
