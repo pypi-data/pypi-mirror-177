@@ -1,0 +1,15 @@
+acclaimbadge/__init__.py,sha256=I5DIPmIj6nmoEJXvVcGSNU759axEoGfpdhPVUUQBCnU,45
+acclaimbadge/acclaim_client.py,sha256=CGAK9_N5TUhGAeqEFlLz6VE-Liv6VKqG2xR9LVZj5rs,2480
+acclaimbadge/acclaimbadge.py,sha256=OyO0a2raQkDBLywEA5kUZW2bLquTyELNXo4OZIUs-IA,8800
+acclaimbadge/public/img/ribbon.png,sha256=4T4gbbfbOY03i08B4PpU5mEwFA-R2tbzY-oEksnzZD8,1219
+acclaimbadge/static/README.txt,sha256=bdJ-FpDeHWYyrxLCGpUvvscSMVrci-pKHC5R7shvg9M,767
+acclaimbadge/static/css/acclaimbadge.css,sha256=lcKUG7zAhPOMKhtL-usrg0VuzuZk3jsZSp3BSUIxdAs,1748
+acclaimbadge/static/html/acclaimbadge-studio.html,sha256=_jN8sHstDsnEjQiX2X69Wccma0YVGOvisP9bvZL3ezs,704
+acclaimbadge/static/html/acclaimbadge.html,sha256=dESLUjD_D2sbKUAjM5nBQ7z0C3R32yowHXbpwNSa2B0,1951
+acclaimbadge/static/js/src/acclaimbadge.js,sha256=9UbZM-p9sBXhKzkPXgO5ZQMCUsosbzLb2ErirzcrJwA,1784
+acclaimbadge/static/js/vendor/vue.social-shares.min.js,sha256=X1faA1WG8ziGRf2rD9b7OGX_qV7fOIY7znPGTUWJbP0,2909
+acclaimbadge_xblock-1.2.0.dist-info/METADATA,sha256=kGDD_VryXSwhU0P4ML2_BN7FdSjJboCz5T4_-m3Zepw,276
+acclaimbadge_xblock-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+acclaimbadge_xblock-1.2.0.dist-info/entry_points.txt,sha256=2TEqf-6ZwSxg0Z6EzTrL8iIMBfzV4nOqYDwgfbq-kLs,60
+acclaimbadge_xblock-1.2.0.dist-info/top_level.txt,sha256=MAoDzL4iILKc56qB8aTLw4EOPcCIfNCm3y7tSvRaXUg,13
+acclaimbadge_xblock-1.2.0.dist-info/RECORD,,
