@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hp-coinmarketcap-scraper
+Version: 0.0.1
+Summary: a basic good looking coinmarketcap scraper by HP Team
+Home-page: UNKNOWN
+Author: hirbod (hirbodprime)
+Author-email: hirbodprime@gmail.com
+License: UNKNOWN
+Keywords: python,scraper,coinmarketcap,coinmarketcap scraper,beautifulsoup
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: colorama
+Requires-Dist: requests
+
+this package allows you to scrape coinmarketcap.com for name symbol price and logo if wanted
+
