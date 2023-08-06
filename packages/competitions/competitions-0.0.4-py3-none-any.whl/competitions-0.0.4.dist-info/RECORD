@@ -1,0 +1,17 @@
+competitions/__init__.py,sha256=6bwdoQx1uuUHsxuFfSLQ9GFuO_mFOK2qLBGF4lcLxew,421
+competitions/competitions.py,sha256=8SQh3hwvyyM3K4IsfAWVp2CRyHG1S_046XFoG12wpaQ,3419
+competitions/errors.py,sha256=q3NKCA1qNkf4v4ot7j5sKX5XGOrW-biLnMiQWlSfUoA,189
+competitions/info.py,sha256=1IgdwhRcXSGosHtbi5PdsJkk07USvC1c8PHpbOVMmow,1987
+competitions/leaderboard.py,sha256=uB3eQPt6HiOR8d8u0ZxRosXWmho4ivHi3UZCMFCU0tc,3612
+competitions/submissions.py,sha256=wOKxLzrqdTZHUBx84lBe57I5ZBH-enWmKTCHMSfb6C8,11479
+competitions/text.py,sha256=_KiO-YQHhoCFzlk_4DibG-yFV4UVBBLtbMzaHp4JnL0,538
+competitions/utils.py,sha256=D9R4P-RQekaNLcX06ob9y2grPQgPCMmuq1iyt4ab_24,1861
+competitions/cli/__init__.py,sha256=6cNKbiHnf2wqE_4huScyhj8A6efV5BxQ5OL8sMXVvgM,313
+competitions/cli/competitions.py,sha256=FrIdVouRKd7MGyZH_9qhPxy0PlhDBlMtcC5881cJ12E,921
+competitions/cli/run.py,sha256=DIkNF3ATfLeHPVQqnaitZ9z7ZW--hH1us21wOoQ1xcE,849
+competitions-0.0.4.dist-info/LICENSE,sha256=hEEO7rx9ctrYECxsiifLDx_WmgLZiLLhr6a-dvUQ0Sw,11351
+competitions-0.0.4.dist-info/METADATA,sha256=4jN5GwhWJF9n7TrykgMT0t5kPprkf5Gc26-Fdh2WrIU,1863
+competitions-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+competitions-0.0.4.dist-info/entry_points.txt,sha256=cmf32u-xvJQEGl3ZuJSrAgXZ6AY9dNHbVgMXIx_YBCA,69
+competitions-0.0.4.dist-info/top_level.txt,sha256=rvFA9GjmB9bPCU378_7XiN1AmcIyq2WtsRS6uH5Tye4,13
+competitions-0.0.4.dist-info/RECORD,,
