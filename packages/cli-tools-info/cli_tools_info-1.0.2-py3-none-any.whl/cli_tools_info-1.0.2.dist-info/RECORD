@@ -1,0 +1,7 @@
+cli_tools_info/__init__.py,sha256=vjE15TGd2cNkbhazQ-qLlulbYWL20p_q811oT4rI9uc,214
+cli_tools_info/runner.py,sha256=P2gP2x0KznLciXR0jES-Aeeq7AQYiXFOEnCMKK24v_Q,729
+cli_tools_info/utils.py,sha256=R1In7-l9xiE_pPqUg2Jw8pOoCNrcntdYE6VNcpRpxKo,1132
+cli_tools_info/versions.py,sha256=XqkjNii76xp3dUaAdtmkvmpalrfsuDakZQ23zD66nPM,216
+cli_tools_info-1.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cli_tools_info-1.0.2.dist-info/METADATA,sha256=8D7jraRItTv_OcHpzC4Hw0C-c6E9sHxACBPfS8X_3is,422
+cli_tools_info-1.0.2.dist-info/RECORD,,
