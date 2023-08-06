@@ -1,0 +1,15 @@
+LICENSE
+NOTICE
+README.md
+setup.py
+inaccel/gzip/__init__.py
+inaccel/gzip/_gzip.py
+inaccel/zlib/__init__.py
+inaccel/zlib/_zlib.py
+inaccel_gzip_zlib.egg-info/PKG-INFO
+inaccel_gzip_zlib.egg-info/SOURCES.txt
+inaccel_gzip_zlib.egg-info/dependency_links.txt
+inaccel_gzip_zlib.egg-info/namespace_packages.txt
+inaccel_gzip_zlib.egg-info/requires.txt
+inaccel_gzip_zlib.egg-info/top_level.txt
+inaccel_gzip_zlib.egg-info/zip-safe
