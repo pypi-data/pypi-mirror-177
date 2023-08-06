@@ -1,0 +1,6 @@
+setup.py
+src/ConsoleMasterPy/__init__.py
+src/ConsoleMasterPy.egg-info/PKG-INFO
+src/ConsoleMasterPy.egg-info/SOURCES.txt
+src/ConsoleMasterPy.egg-info/dependency_links.txt
+src/ConsoleMasterPy.egg-info/top_level.txt
