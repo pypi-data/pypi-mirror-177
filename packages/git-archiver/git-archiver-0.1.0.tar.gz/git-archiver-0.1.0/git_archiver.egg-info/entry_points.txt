@@ -1,0 +1,2 @@
+[console_scripts]
+git-archiver = git_archiver.cli:main
