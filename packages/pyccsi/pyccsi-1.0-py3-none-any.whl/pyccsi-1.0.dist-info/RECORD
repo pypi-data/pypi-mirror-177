@@ -1,0 +1,9 @@
+pyccsi/__init__.py,sha256=EGygCohZWqtk8t0n8xeDgVayk9svtQomQvOFw0qhQl0,65
+pyccsi/downloader.py,sha256=l1XemSG_F8l_t6qbkpPCAcM07lb9oaozxz9zLFDM7e0,5354
+pyccsi/facade.py,sha256=95wibfpfy_qL9P_erC6WG_A3VZCwy_GtfV9w1O441rE,885
+pyccsi/parser.py,sha256=qo3VL3DWAnY26_uEsKh2QeDpJRrc3HewkLMHgWXa_s8,1300
+pyccsi/schema.py,sha256=b-zDiJ0XKunOKpWfs2l10V-5pHAqONNsU_80iqbFMaw,1788
+pyccsi-1.0.dist-info/METADATA,sha256=2pvEi8Df3IVCVlGSCNTeBcumcQgtzZNtmDPgqE_iM7A,684
+pyccsi-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyccsi-1.0.dist-info/top_level.txt,sha256=9ZIEehMD1WHLB00QCPTHRb1-gJmGgnut29exXddkViQ,7
+pyccsi-1.0.dist-info/RECORD,,
