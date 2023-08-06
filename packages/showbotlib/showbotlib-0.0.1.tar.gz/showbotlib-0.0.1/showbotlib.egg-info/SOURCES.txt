@@ -1,0 +1,11 @@
+setup.py
+showbotlib/__init__.py
+showbotlib/models.py
+showbotlib/showbot.py
+showbotlib/telegramclient.py
+showbotlib/tv_program.py
+showbotlib.egg-info/PKG-INFO
+showbotlib.egg-info/SOURCES.txt
+showbotlib.egg-info/dependency_links.txt
+showbotlib.egg-info/requires.txt
+showbotlib.egg-info/top_level.txt
