@@ -1,0 +1,3 @@
+[console_scripts]
+ccc=conan_cmake_cpp_project_tools.cli:app
+
