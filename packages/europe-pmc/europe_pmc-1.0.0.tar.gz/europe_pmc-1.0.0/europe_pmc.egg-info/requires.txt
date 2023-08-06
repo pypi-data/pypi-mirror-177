@@ -1,0 +1,5 @@
+tqdm
+click
+requests
+simple_loggers
+human_readable

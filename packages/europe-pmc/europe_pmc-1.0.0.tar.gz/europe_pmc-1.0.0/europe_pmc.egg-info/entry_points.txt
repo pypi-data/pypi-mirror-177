@@ -1,0 +1,3 @@
+[console_scripts]
+epmc = europe_pmc.bin.main:main
+

@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+europe_pmc/__init__.py
+europe_pmc/version.json
+europe_pmc.egg-info/PKG-INFO
+europe_pmc.egg-info/SOURCES.txt
+europe_pmc.egg-info/dependency_links.txt
+europe_pmc.egg-info/entry_points.txt
+europe_pmc.egg-info/requires.txt
+europe_pmc.egg-info/top_level.txt
+europe_pmc/bin/__init__.py
+europe_pmc/bin/main.py
+europe_pmc/core/__init__.py
+europe_pmc/core/api.py
+europe_pmc/util/__init__.py
