@@ -1,0 +1,8 @@
+ACQUIRE = "acquire"
+ANALYZE = "analyze"
+ANONYMIZE = "anonymize"
+FILE_PATH = "file_path"
+REPORT = "report"
+LOCATION = "location"
+REPORT_LEVEL = "level"
+OUTPUT_FILE_PATH = "output_file_path"
