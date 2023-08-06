@@ -1,0 +1,19 @@
+Sphinx>=5.0.0
+sphinx-basic-ng>=1.0.0b1
+base32-lib
+pydantic[email]
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+coverage[toml]
+pytest
+pytest-asyncio
+pre-commit
+mypy
+types-docutils
+lxml
+cssselect
+documenteer[guide]
+autodoc_pydantic
