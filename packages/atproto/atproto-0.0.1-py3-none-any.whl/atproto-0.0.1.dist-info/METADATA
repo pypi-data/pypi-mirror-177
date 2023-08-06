@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: atproto
+Version: 0.0.1
+Summary: atproto SDK
+Home-page: https://github.com/MarshalX/atproto
+License: MIT
+Keywords: library,atproto,parser,python,schema,tdlib,bluesky,bluesky-api,at,atp,xrpc,nsid,did
+Author: Ilya (Marshal)
+Author-email: ilya@marshal.dev
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Pre-processors
+Project-URL: Author, https://github.com/MarshalX
+Project-URL: Repository, https://github.com/MarshalX/atproto
+Description-Content-Type: text/markdown
+
+## Work in progress
+
