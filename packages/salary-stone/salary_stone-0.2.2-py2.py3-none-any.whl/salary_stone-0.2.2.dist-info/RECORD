@@ -1,0 +1,12 @@
+salary_stone/__init__.py,sha256=CfwBBaHu4GTCBqa__muMmlKRkdUhdq73DEShCqgeNRI,126
+salary_stone/salary_extractor.py,sha256=sIe6kD7_zK1i12dV7ipE2QY1ZW0SIW0fR1zxxpgLVnk,1842
+salary_stone/skill_extractor.py,sha256=8WXrsoWRz2Pn9LfhA1w3EkJgs5MQHSlTEOL8LsvJlHg,2232
+salary_stone/data/en_core_web_sm-3.4.0-py3-none-any.whl,sha256=NTZdSdOJ7LGbozEZ3Kmrn_gLNvvrBj-l1EAIGX_q2Po,12803016
+salary_stone/data/jz_skill_patterns.jsonl,sha256=K3t8boJ_Ovi9v8LjJuc_hhVa3Vs9cyrVNwhNcJ-Gujg,144000
+salary_stone/data/model.pkl,sha256=-6Ce7hRrtGuRFiSTHzLnwxx9hXTazfJaHIhzd6tXAdA,6563329
+salary_stone-0.2.2.dist-info/AUTHORS.rst,sha256=RnPR1b74HvFTW4vCuuLTJsrodFyc4z-xIWwCV5IatLc,161
+salary_stone-0.2.2.dist-info/LICENSE,sha256=GGgmb3ZoAdpoSUGHgF48nLQQRmlStbaQmMrQ_Yzrw3M,584
+salary_stone-0.2.2.dist-info/METADATA,sha256=XBqkhEqQyjs2uiqfuK4EnBj9jZve0edoa0qmWZ1xy5A,2429
+salary_stone-0.2.2.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+salary_stone-0.2.2.dist-info/top_level.txt,sha256=DAooGt0NdzDLGaIpL8sfkcP7w-Hmyp9IKkoydvwioQA,13
+salary_stone-0.2.2.dist-info/RECORD,,
