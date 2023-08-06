@@ -1,0 +1,13 @@
+image_processing_KB/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_KB/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_KB/processing/functions.py,sha256=7GQuDoAQHkTUwst2T3qikbD_HYdpuhYgvPos_K4NkG4,5394
+image_processing_KB/utils/Yiq2Rgb_helping_methods.py,sha256=75Pmx8O_n8-VieujVWlM9_5FdV54C0Ku3s9h5AygPqc,112
+image_processing_KB/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing_KB/utils/correlation.py,sha256=9yOQ22ldhmHnPoewJOr4iE9yGmfHxK-rBmLlks8anKU,1054
+image_processing_KB/utils/histogram_stretching.py,sha256=--uHg5ir1x45BOfjAeVTYePk3idTrayGXse0Jx4bsSk,547
+image_processing_KB/utils/hsb.py,sha256=NTIafmCtDfn1WkJnLraeKnror_xLZQBm-aAXPdAjPeU,1062
+image_processing_KB/utils/kernels.py,sha256=wZ-zsCTdMDJZM0vjW2sqyEW7IZU_j1I3srxphHGKdRY,3124
+image_processing_KB-0.0.1.dist-info/METADATA,sha256=JrqdIVDkq-ajY_YXb1JyH_vd5cYHWPDXLwFS9BC-2nM,1012
+image_processing_KB-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+image_processing_KB-0.0.1.dist-info/top_level.txt,sha256=LV9HDex7YpahGmVvhKle7DyJ9IiuyTOkyLJexKHZQbw,20
+image_processing_KB-0.0.1.dist-info/RECORD,,
