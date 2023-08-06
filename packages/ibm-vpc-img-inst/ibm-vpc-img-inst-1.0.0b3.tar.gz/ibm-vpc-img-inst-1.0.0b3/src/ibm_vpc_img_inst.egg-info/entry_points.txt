@@ -1,0 +1,2 @@
+[console_scripts]
+ibm-vpc-img-inst = ibm_vpc_img_inst:main.builder
