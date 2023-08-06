@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: yadraw
+Version: 0.0.5
+Summary: Graphical library over pygame
+Project-URL: Homepage, https://github.com/EmixD/yadraw
+Project-URL: Bug Tracker, https://github.com/EmixD/yadraw/issues
+Author-email: "Ivan I. Yakovkin" <yakovkinii@gmail.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: attrs
+Requires-Dist: coloredlogs
+Requires-Dist: pygame
+Description-Content-Type: text/markdown
+
+# YaDraw
+
+YaDraw is a super-simple graphical interface built on top of pygame.
+The key use case is when you have a program which performs some calculations, 
+and you want to add super-simple visualization to it. YaDraw supports basic primitives and shapes. 
+YaDraw can also operate with raw pygame methods (see test cases).
+[Github repo](https://github.com/EmixD/yadraw).
