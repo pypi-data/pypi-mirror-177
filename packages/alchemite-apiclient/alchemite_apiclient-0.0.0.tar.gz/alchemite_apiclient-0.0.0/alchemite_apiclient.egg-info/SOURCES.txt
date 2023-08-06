@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+alchemite_apiclient.egg-info/PKG-INFO
+alchemite_apiclient.egg-info/SOURCES.txt
+alchemite_apiclient.egg-info/dependency_links.txt
+alchemite_apiclient.egg-info/requires.txt
+alchemite_apiclient.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+prune alchemite_apiclient
+prune test
+prune example
+prune docs
