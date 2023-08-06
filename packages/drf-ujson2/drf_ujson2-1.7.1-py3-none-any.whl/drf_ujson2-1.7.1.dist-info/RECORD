@@ -1,0 +1,8 @@
+drf_ujson/__init__.py,sha256=N7N3v6bUsvZDt5gHWrgPQzvkcBywtFgZ-dTgMxrR--M,67
+drf_ujson/parsers.py,sha256=cTojmZoZR_kXwnBwoRaA6BQEZxJbt7BKYI3eNaC6vZQ,1063
+drf_ujson/renderers.py,sha256=z9oAgn4hsGiqsSWRgWTadNzLlHn6jiLWA3vWNGH9zFU,1897
+drf_ujson2-1.7.1.dist-info/LICENSE,sha256=idvI0PTA_NFM4J3YzPR-D8krkl8DJTsUa4H1MpVy3x8,1073
+drf_ujson2-1.7.1.dist-info/METADATA,sha256=XGvUrXIwJ_qyyhyhCFHZa7CVSOJ75ab6V9B-JZyew4k,3723
+drf_ujson2-1.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drf_ujson2-1.7.1.dist-info/top_level.txt,sha256=nvrL6N2nvHhV8sPOTbvbYBCk62WEWDASsc-KzsQmjHo,10
+drf_ujson2-1.7.1.dist-info/RECORD,,
