@@ -1,0 +1,13 @@
+bionumpy>=0.2.7
+cython
+graph_kmer_index>=0.0.22
+graph_read_simulator>=0.0.7
+kmer_mapper>=0.0.22
+npstructures>=0.2.2
+numpy
+obgraph>=0.0.30
+pathos
+pyfaidx
+scipy
+shared_memory_wrapper>=0.0.18
+tqdm
