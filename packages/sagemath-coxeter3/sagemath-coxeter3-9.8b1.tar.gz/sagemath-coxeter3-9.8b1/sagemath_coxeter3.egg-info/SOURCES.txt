@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+sage/libs/coxeter3/coxeter.pyx
+sagemath_coxeter3.egg-info/PKG-INFO
+sagemath_coxeter3.egg-info/SOURCES.txt
+sagemath_coxeter3.egg-info/dependency_links.txt
+sagemath_coxeter3.egg-info/requires.txt
+sagemath_coxeter3.egg-info/top_level.txt
