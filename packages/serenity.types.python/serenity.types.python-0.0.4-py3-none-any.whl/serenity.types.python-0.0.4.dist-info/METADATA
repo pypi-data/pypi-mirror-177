@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: serenity.types.python
+Version: 0.0.4
+Summary: Python shared types for the Serenity digital asset risk API
+License: MIT
+Author: Cloudwall Support
+Author-email: support@cloudwall.tech
+Requires-Python: >=3.8,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# serenity.types.python
+
+This base repository contains shared classes and enumerations common to the Serenity platform and the public SDK.
+It is not meant to be used or installed on a standalone basis and is intended for use by Serenity clients only.
+
