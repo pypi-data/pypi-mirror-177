@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vmat
+Version: 0.0.2
+Summary: virtual medical AI toolkit
+Home-page: 
+Author: linmengqi
+Author-email: leeemonq@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+
+virtual medical AI toolkit
