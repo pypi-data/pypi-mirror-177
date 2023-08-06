@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ab-telegram-bot
+Version: 1.0.1
+Summary: Sample telegram bot 
+Author: ash.blade
+Author-email: ashen.blade.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
