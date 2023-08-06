@@ -1,0 +1,14 @@
+[package]
+name = "neat_notation"
+version = "0.5.14"
+edition = "2021"
+exclude = ["/dist"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "neat_notation"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.17.1", features = ["extension-module"] }
+indexmap = "1.9.1"
