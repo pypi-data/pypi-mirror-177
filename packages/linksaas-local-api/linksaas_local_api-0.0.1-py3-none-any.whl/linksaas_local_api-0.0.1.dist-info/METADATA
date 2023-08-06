@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: linksaas-local-api
+Version: 0.0.1
+Summary: linksaas local api python impl client
+Author-email: panleiming <panleiming@linksaas.pro>
+Project-URL: Homepage, https://jihulab.com/linksaas/analysis/events_py
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-dateutil (>=2.5.3)
+Requires-Dist: urllib3 (>=1.25.3)
+
