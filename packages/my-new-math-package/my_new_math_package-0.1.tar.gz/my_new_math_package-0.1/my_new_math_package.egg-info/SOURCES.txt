@@ -1,0 +1,12 @@
+setup.py
+circle/__init__.py
+circle/code.py
+my_new_math_package.egg-info/PKG-INFO
+my_new_math_package.egg-info/SOURCES.txt
+my_new_math_package.egg-info/dependency_links.txt
+my_new_math_package.egg-info/not-zip-safe
+my_new_math_package.egg-info/top_level.txt
+square/__init__.py
+square/code.py
+triangle/__init__.py
+triangle/code.py
