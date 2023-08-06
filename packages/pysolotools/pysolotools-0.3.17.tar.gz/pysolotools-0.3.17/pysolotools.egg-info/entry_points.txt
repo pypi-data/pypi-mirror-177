@@ -1,0 +1,3 @@
+[console_scripts]
+solo2coco = pysolotools.converters.solo2coco:cli
+solo2yolo = pysolotools.converters.solo2yolo:cli
