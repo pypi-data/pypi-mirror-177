@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+ai_exam/__init__.py
+ai_exam/knowledge.py
+ai_exam/optimization.py
+ai_exam/search.py
+ai_exam.egg-info/PKG-INFO
+ai_exam.egg-info/SOURCES.txt
+ai_exam.egg-info/dependency_links.txt
+ai_exam.egg-info/top_level.txt
