@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/on_done/__init__.py
+src/on_done/_on_done.py
+src/on_done.egg-info/PKG-INFO
+src/on_done.egg-info/SOURCES.txt
+src/on_done.egg-info/dependency_links.txt
+src/on_done.egg-info/requires.txt
+src/on_done.egg-info/top_level.txt
