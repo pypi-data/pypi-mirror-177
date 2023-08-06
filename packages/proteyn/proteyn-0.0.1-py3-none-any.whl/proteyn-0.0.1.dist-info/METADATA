@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: proteyn
+Version: 0.0.1
+Summary: Computational Protein Design Library for Python Developers
+Project-URL: Homepage, https://github.com/Tdsone/proteyn
+Project-URL: Bug Tracker, https://github.com/Tdsone/proteyn/issues
+Author-email: Timon Schneider <mail@timonschneider.de>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# proteyn
+
+Computational Protein Design Library for Python Developers
+
+## Docs 
+
+## Structure Prediction
+
+You can pick from a range of structure prediction tools such as Alphafold or ESM fold. For now, you have to run them on our infrastructure but we hope to "bring-your-own-compute" soon!
