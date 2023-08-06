@@ -1,0 +1,5 @@
+project_name: lndb-rest-instance
+description: Rest API for a specific instance
+project_slug: lndb-rest-instance
+repository_name: lndb-rest-instance
+package_name: lndb_rest_instance
