@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+src/weightless/__init__.py
+src/weightless.egg-info/PKG-INFO
+src/weightless.egg-info/SOURCES.txt
+src/weightless.egg-info/dependency_links.txt
+src/weightless.egg-info/requires.txt
+src/weightless.egg-info/top_level.txt
