@@ -1,0 +1,9 @@
+offlinemsmtp/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+offlinemsmtp/__main__.py,sha256=rAPQjh9x31gcRNW7Ghhh_l88rYME1lggTZo9wQ_56nA,2970
+offlinemsmtp/daemon.py,sha256=BZCaYz6ukhuljh1OLnSOoB9T1k1xIaHS_hzR5RIgfnI,6840
+offlinemsmtp/util.py,sha256=tsgs4HhYoba3wuWi-kUfklSyANJBzsUdKrzQYdi-WjE,829
+offlinemsmtp-0.4.0.dist-info/entry_points.txt,sha256=QESu4QULnfZXvP6ZCzdAugjap_9CmLhiK2k4jYOTzrw,59
+offlinemsmtp-0.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+offlinemsmtp-0.4.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+offlinemsmtp-0.4.0.dist-info/METADATA,sha256=ziEWwkcdMxgfFsnizblPBiCw3s8kXWwrDKQe2m5zu98,5707
+offlinemsmtp-0.4.0.dist-info/RECORD,,
