@@ -1,0 +1,9 @@
+README.md
+setup.py
+zhuoyipdf/__init__.py
+zhuoyipdf/pdf2image.py
+zhuoyipdf/pdf2text.py
+zhuoyipdf.egg-info/PKG-INFO
+zhuoyipdf.egg-info/SOURCES.txt
+zhuoyipdf.egg-info/dependency_links.txt
+zhuoyipdf.egg-info/top_level.txt
