@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: chord-chart
+Version: 0.3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Dist: pytest==7.2.0; extra == 'test'
+Requires-Dist: pyright==1.1.280; extra == 'test'
+Provides-Extra: test
+Summary: Chord chart validation and transposition
+Author-email: Lev Vereshchagin <mail@vrslev.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/vrslev/chord-chart
+Project-URL: Source, https://github.com/vrslev/chord-chart/tree/main/chord-chart-py
+
+# chord-chart
+
+This package provides chord chart validation and transposition functionality.
+
+It is written in Rust and has an accompanying [library](https://github.com/vrslev/chord-chart/tree/main/chord-chart-js) in JavaScript. Used in [vrslev/songbook](https://github.com/vrslev/songbook) — lyrics and chords webapp.
+
+## Example
+
+```py
+>>> from chord_chart import ValidationError, transpose_chart, validate_chart
+
+>>> # that's a valid chart: | *chord-with-bass-note* *chord-without-accidental* | *chord* | *(end of the bar, then new bar ->)*
+>>> # | *chord-with-accidental-and-symbols* |
+>>> validate_chart('| A/E E | E | \n| C#m|')
+'| A/E E | E |\n| C#m |'
+
+>>> validate_chart('A/E E\nC#m')  # and that's not a valid one: chords without stripes between lines of bars
+Traceback (most recent call last):
+...
+_chord_chart.ValidationError: bar line should start with stripe: A/E E
+
+>>> transpose_chart('| A/E| E |\n| C#m|', current_key='E', new_key='Db')
+'| Gb/Db | Db |\n| Bbm |'
+
+```
+
+## Installation
+
+Just `pip install chord-chart` on Python 3.7 to 3.11.
+
+## Development
+
+- `make install` to clean up and setup dev-env.
+- `make test` to build and test the package.
+- `make check-types` to run pyright.
+
+Also make sure to install pre-commit hooks (`pre-commit install` from the repository root).
+
