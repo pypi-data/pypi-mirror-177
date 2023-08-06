@@ -1,0 +1,11 @@
+llsd/__init__.py,sha256=Sn5nyCrZZzAYipXIoR9dAprOK2z-JG8mQbD_3-8Hxgo,2423
+llsd/base.py,sha256=icpSR4SgU4THp2GKpiTvkhCCo5AzOYesNkZyurTRw74,16131
+llsd/fastest_elementtree.py,sha256=ogBmg6iwCXtpX4zuYJZn-Hs4tcpuzrwgyTweBu6fI9k,1420
+llsd/serde_binary.py,sha256=FHNIyG9tLbpASmK3g4QJGRrVqkFX2YaMFbNxpjxhFYg,8836
+llsd/serde_notation.py,sha256=xrD6r-WwXES3mWsopfSmvUdEemEbrp_3VGNrJz-TtfQ,13964
+llsd/serde_xml.py,sha256=y0fE0m37Y_QMb0dl4gazfZWXtPK4bc2ZNfEPnfOVI_M,9623
+llsd-1.1.0.dist-info/LICENSE,sha256=XXqyrkRyqjsXvYmUUcFvMIux_kniTDwkqhVrvBHm1q8,1065
+llsd-1.1.0.dist-info/METADATA,sha256=stl1pgXR1eTQ1fijHOW3L5x72yjFfy2crlZp8U_Nla0,1698
+llsd-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+llsd-1.1.0.dist-info/top_level.txt,sha256=6C6a8Ou1DgshJuYt-y6qfpEBu_gcorQnConAQSSTvWs,5
+llsd-1.1.0.dist-info/RECORD,,
