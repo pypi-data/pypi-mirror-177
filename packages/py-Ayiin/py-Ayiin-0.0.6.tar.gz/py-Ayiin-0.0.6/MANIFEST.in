@@ -1,0 +1,10 @@
+## Include
+include README.md LICENSE NOTICE requirements.txt
+recursive-include generate *.py *.tl *.tsv *.txt
+
+## Exclude
+prune pyAyiin/errors/exceptions
+prune pyAyiin/raw/functions
+prune pyAyiin/raw/types
+prune pyAyiin/raw/base
+exclude pyAyiin/raw/all.py
