@@ -1,0 +1,311 @@
+#!/bin/sh
+
+# Hack to make this file executable by /bin/sh
+'''true'
+for trypython in python python3 python2; do
+    if which -s "$trypython"; then
+        exec "$trypython" $0 "$@"
+    fi
+done
+echo "No python executable found, aborting." >&2
+exit 1;
+cat <<IGNORE
+''''true #'
+
+
+from __future__ import unicode_literals
+from __future__ import print_function
+
+from datetime import datetime
+from contextlib import contextmanager
+from functools import partial
+import io
+import tempfile
+import argparse
+import json
+import base64
+import os
+import subprocess
+import sys
+import re
+
+remote_args = None
+
+argparser = argparse.ArgumentParser()
+argparser.add_argument(
+    "--before",
+    "-b",
+    help=(
+        "Insert line directly before the first line matching PATTERN. "
+        "If used with --replace, and both patterns match, "
+        "the --replace pattern will take precendence"
+    )
+)
+argparser.add_argument(
+    "--after",
+    "-a",
+    help=(
+        "Insert line directly after the first line matching PATTERN. "
+        "If used with --replace, and both patterns match, "
+        "the --replace pattern will take precendence"
+    )
+)
+argparser.add_argument(
+    "--replace",
+    "-r",
+    default=None,
+    help=(
+        "Replace line matching REGEXP. "
+        "If not specified, it will try to replace LINE if it already exists "
+        "in the file. If you don't want this, use --replace=\"\" "
+    )
+)
+argparser.add_argument(
+    "--delete",
+    "-d",
+    help=(
+        "Delete line matching REGEXP "
+        "(nb you must still pass a 'line' argument, but this will be ignored)"
+    )
+)
+argparser.add_argument(
+    "--create",
+    "-c",
+    help="Create the file if it does not already exist",
+    action="store_true",
+)
+argparser.add_argument(
+    "--no-backup",
+    help="Do not create a backup copy of the file",
+    default=False,
+    action="store_true",
+)
+argparser.add_argument(
+    "--encoding", "-e", default="UTF-8", help="File encoding (default: UTF-8)"
+)
+argparser.add_argument("file")
+argparser.add_argument("line")
+
+pongo_remote = os.environ.get("PONGO_REMOTE") or "pongo-remote"
+
+
+class NotMatched(Exception):
+    """
+    The specified position couldn't be matched in the input file
+    """
+
+
+def make_searcher(pattern, encoding):
+    if pattern is None:
+        return None
+    return re.compile(pattern.encode(encoding)).search
+
+
+def guess_eol(file):
+    with io.open(file, "rb") as f:
+        for line in f:
+            if line[-2:] in (b"\n\r", b"\r\n"):
+                return line[-2:]
+            if line[-1:] in b"\n\r":
+                return line[-1:]
+    return b"\n"
+
+
+@contextmanager
+def edit_file(path, pattern, edit):
+    try:
+        with tempfile.NamedTemporaryFile(
+            dir=os.path.dirname(path), delete=False
+        ) as tmp:
+            with io.open(path, "rb") as f:
+                found = False
+                for line in f:
+                    if pattern(line):
+                        tmp.write(edit(line))
+                        found = True
+                        break
+                    else:
+                        tmp.write(line)
+                for line in f:
+                    tmp.write(line)
+                tmp.flush()
+                yield found, tmp.name
+    finally:
+        if os.path.exists(tmp.name):
+            os.unlink(tmp.name)
+
+
+@contextmanager
+def append_line(path, line_to_insert):
+    try:
+        with tempfile.NamedTemporaryFile(
+            dir=os.path.dirname(path), delete=False
+        ) as tmp:
+            with io.open(path, "rb") as f:
+                for line in f:
+                    tmp.write(line)
+                tmp.write(line_to_insert)
+                tmp.flush()
+                yield True, tmp.name
+    finally:
+        if os.path.exists(tmp.name):
+            os.unlink(tmp.name)
+
+
+def rename(src, dest, backup):
+    if backup:
+        backup_file = (
+            dest + ".pongo-backup." + datetime.now().strftime("%Y%m%d-%H%M%S")
+        )
+        backup_gen = 0
+        while os.path.exists(backup_file):
+            backup_gen += 1
+            backup_file = "{}.pongo-backup.{}.{}".format(
+                dest, datetime.now().strftime("%Y%m%d-%H%M%S"), backup_gen
+            )
+        os.rename(dest, backup_file)
+    os.rename(src, dest)
+
+
+def remote_side(
+    file,
+    line,
+    replace=None,
+    before=None,
+    after=None,
+    delete=None,
+    encoding="UTF-8",
+    create=False,
+    backup=True,
+):
+    line_to_insert = line.encode(encoding)
+    if replace is None:
+        replace = r"^\s*" + re.escape(line) + r"\s*$"
+    elif replace == "":
+        replace = None
+    replace = make_searcher(replace, encoding)
+    before = make_searcher(before, encoding)
+    after = make_searcher(after, encoding)
+    delete = make_searcher(delete, encoding)
+
+    if line_to_insert[:-1] not in b"\r\n":
+        line_to_insert += guess_eol(file)
+
+    def do_replace(line):
+        return line_to_insert
+
+    def do_insert_before(line):
+        return line_to_insert + line
+
+    def do_insert_after(line):
+        return line + line_to_insert
+
+    def do_delete(line):
+        return b""
+
+    replace_original = partial(rename, dest=file, backup=backup)
+
+    if delete:
+        with edit_file(file, delete, do_delete) as (success, tmp):
+            if success:
+                replace_original(tmp)
+                return
+
+    if replace:
+        with edit_file(file, replace, do_replace) as (success, tmp):
+            if success:
+                replace_original(tmp)
+                return
+
+    if before:
+        with edit_file(file, before, do_insert_before) as (success, tmp):
+            if success:
+                replace_original(tmp)
+                return
+
+    elif after:
+        with edit_file(file, after, do_insert_after) as (success, tmp):
+            if success:
+                replace_original(tmp)
+                return
+    else:
+        with append_line(file, line_to_insert) as (success, tmp):
+            if success:
+                replace_original(tmp)
+                return
+
+    raise NotMatched()
+
+
+def test_remote_site():
+    def test(data, args, expected):
+
+        with tempfile.NamedTemporaryFile(mode="wb") as tmp:
+            tmp.write(data)
+            tmp.flush()
+            remote_side(tmp.name, **args)
+            with io.open(tmp.name, "rb") as f:
+                actual = f.read()
+            assert actual == expected, "{actual!r} != {expected!r}".format(
+                actual=actual, expected=expected
+            )
+
+    test(b"", {"line": "foo"}, b"foo\n")
+    test(b"\r", {"line": "foo"}, b"\rfoo\r")
+    test(b"\r\n", {"line": "foo"}, b"\r\nfoo\r\n")
+    test(b"a\nb\nc\n", {"line": "foo"}, b"a\nb\nc\nfoo\n")
+    test(b"a\nb\nc\n", {"line": "foo", "replace": "^a"}, b"foo\nb\nc\n")
+    test(b"a\nb\nc\n", {"line": "foo", "replace": "^b"}, b"a\nfoo\nc\n")
+    test(b"a\nb\nc\n", {"line": "foo", "before": "^a"}, b"foo\na\nb\nc\n")
+    test(b"a\nb\nc\n", {"line": "foo", "before": "^c"}, b"a\nb\nfoo\nc\n")
+    test(b"a\nb\nc\n", {"line": "foo", "after": "^a"}, b"a\nfoo\nb\nc\n")
+    test(b"a\nb\nc\n", {"line": "foo", "after": "^c"}, b"a\nb\nc\nfoo\n")
+    test(b"a\nb\nc\n", {"line": "foo", "delete": "^b"}, b"a\nc\n")
+    test(b"a\nfoo\nc\n", {"line": "foo"}, b"a\nfoo\nc\n")
+    test(
+        b"a\nb\nc\n",
+        {"line": "foo", "replace": "^b", "after": "^c"},
+        b"a\nfoo\nc\n",
+    )
+    test(
+        b"a\nb\nc\n",
+        {"line": "foo", "replace": "^a", "before": "^c"},
+        b"foo\nb\nc\n",
+    )
+
+
+def local_side():
+    args = vars(argparser.parse_args())
+    print(args["no_backup"])
+    args["backup"] = not args.pop("no_backup")
+    encoded_args = base64.b64encode(json.dumps(args).encode("UTF-8"))
+    with io.open(__file__, "rb") as this_file:
+        script = this_file.read()
+        script = re.compile(br"^remote_args\s*=.*$", re.MULTILINE).sub(
+            b"remote_args = '" + encoded_args + b"'", script,
+        )
+    proc = subprocess.Popen(
+        ["pongo-prepare"],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    remote_cmd, stderr_data = proc.communicate(script)
+    status = proc.wait()
+    if status != 0:
+        sys.exit(status)
+
+    sys.exit(subprocess.call(["pongo-remote", remote_cmd]))
+
+
+if __name__ == "__main__":
+    if remote_args:
+        remote_args = json.loads(base64.b64decode(remote_args).decode("UTF-8"))
+        remote_side(**remote_args)
+    else:
+        test_remote_site()
+        local_side()
+IGNORE = 1
+
+IGNORE
+# vim: filetype=python
