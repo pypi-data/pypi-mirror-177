@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: build-essentails-agile-north
+Version: 0.0.1
+Summary: Python scripts to assist in setting up project dependencies in order to build and run projects
+Project-URL: Homepage, https://github.com/agile-north/build-essentails
+Project-URL: Bug Tracker, https://github.com/agile-north/build-essentails/issues
+Author-email: Stefan Venter <stefan@nrth.com>
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Install with pip (python3)
+pip install git+https://${github__username}:${github__token}@github.com/agile-north/build-essentails.git@main#egg=build_essemtials_agile_north
