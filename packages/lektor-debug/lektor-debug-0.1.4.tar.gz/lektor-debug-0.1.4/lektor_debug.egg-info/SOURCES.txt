@@ -1,0 +1,9 @@
+LICENSE
+README.md
+lektor_debug.py
+setup.py
+lektor_debug.egg-info/PKG-INFO
+lektor_debug.egg-info/SOURCES.txt
+lektor_debug.egg-info/dependency_links.txt
+lektor_debug.egg-info/entry_points.txt
+lektor_debug.egg-info/top_level.txt
