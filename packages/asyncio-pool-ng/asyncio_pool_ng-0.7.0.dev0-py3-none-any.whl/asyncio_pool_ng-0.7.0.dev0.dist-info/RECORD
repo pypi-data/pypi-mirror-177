@@ -1,0 +1,10 @@
+asyncio_pool/__init__.py,sha256=_-j720H9dXjy5Zxh9TI8gL8AlijpO6RK-khs1yThINw,99
+asyncio_pool/pool.py,sha256=0Szov4zObKCIB4_HpjRn7Y82_wt6dlqvfNjp7cT-_gU,12807
+asyncio_pool/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncio_pool/results.py,sha256=MdDd7cGYX79a-Gr2CZZ9kbFRWhv1-D9cwkLcZU9pfHg,808
+asyncio_pool/typing.py,sha256=06Z9d-IvAKQRk71yQRQQ8W8gz4_qafQ4hoZsnvt9hec,745
+asyncio_pool_ng-0.7.0.dev0.dist-info/entry_points.txt,sha256=4FuhUqUutk1Kpe6n3qhh9uGtcAW5KYop0gmPmw7QWGo,38
+asyncio_pool_ng-0.7.0.dev0.dist-info/LICENSE.txt,sha256=gRz6XsxYfqeRfOmCg-Ua0C11_RGjooOX4vrXvYoB8mE,1067
+asyncio_pool_ng-0.7.0.dev0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+asyncio_pool_ng-0.7.0.dev0.dist-info/METADATA,sha256=XSdSIigw4gVmR0qwYSlyIXDruDrL4OE0hxh4yN8aX0k,10906
+asyncio_pool_ng-0.7.0.dev0.dist-info/RECORD,,
