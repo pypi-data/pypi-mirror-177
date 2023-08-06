@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mpone
+Version: 0.0.3
+Summary: MPOne is more than One
+Home-page: https://github.com/anine09/MPOne
+Author: Epsilon Luoo
+Author-email: epsilon_luoo@outlook.com
+License: MIT Licence
+Keywords: VISA,Material
+Platform: any
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Material Physics One
+**MPOne is not ready for the public yet! thank you :-)**
+
+MPOne (Material Physics all in One) is a toolkit for material physics, 
+which is developed with open source tools to make material 
+physics programming more convenient.
