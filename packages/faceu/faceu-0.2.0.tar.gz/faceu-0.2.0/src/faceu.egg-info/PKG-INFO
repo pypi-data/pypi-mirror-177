@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: faceu
+Version: 0.2.0
+Summary: An interesting python package
+Author-email: Mark Hoo <markhoo@foxmail.com>
+Project-URL: Homepage, https://github.com/MarkHoo/faceu
+Project-URL: Bug Tracker, https://github.com/MarkHoo/faceu/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# faceu
+
+#### Installing
+
+Install and update using pip:
+
+```
+$ pip install -U faceu
+```
+
+#### A Simple Example
+
+```python
+import faceu
+```
+
+#### Links
+
+- Documentation: [https://github.com/MarkHoo/faceu](https://github.com/MarkHoo/faceu)
+- PyPI Releases: [https://pypi.org/project/faceu/](https://pypi.org/project/faceu/)
+- Source Code: [https://github.com/MarkHoo/faceu](https://github.com/MarkHoo/faceu)
+- Issue Tracker: [https://github.com/MarkHoo/faceu/issues](https://github.com/MarkHoo/faceu/issues)
+- Website: [https://pypi.org/project/faceu/](https://pypi.org/project/faceu/)
+
