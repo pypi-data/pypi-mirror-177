@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mathiz
+Version: 0.2.1
+Summary: Mathiz, a complete web framework
+Home-page: https://github.com/firlast/mathiz
+Author: Jaedson Silva
+Author-email: imunknowuser@protonmail.com
+License: UNKNOWN
+Project-URL: License, https://github.com/firlast/mathiz/blob/master/LICENSE
+Description: # Mathiz - Web Framework
+        
+        ![BADGE](https://img.shields.io/static/v1?label=status&message=development&color=orange)
+        ![BADGE](https://img.shields.io/static/v1?label=license&message=BSD%203-Clause&color=blue)
+        
+        Mathiz (junction of "make this" with the letter "z"), is a web framework created in Python to develop web servers quickly and simply. This framework uses the [WSBLib library](https://github.com/firlast/wsblib)!
+        
+        ## License
+        
+        ```text
+        BSD 3-Clause
+        Copyright (c) 2022, Jaedson Silva
+        All rights reserved.
+        ```
+        
+        This project use the `BSD 3-Clause` license. Please [see LICENSE file](https://github.com/firlast/mathiz/blob/master/LICENSE) to **more information** about license.
+Keywords: www,web,server,http,framework,wsblib
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Description-Content-Type: text/markdown

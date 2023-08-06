@@ -1,0 +1,9 @@
+README.md
+setup.py
+mathiz/__init__.py
+mathiz/mathiz.py
+mathiz.egg-info/PKG-INFO
+mathiz.egg-info/SOURCES.txt
+mathiz.egg-info/dependency_links.txt
+mathiz.egg-info/requires.txt
+mathiz.egg-info/top_level.txt
