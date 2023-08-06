@@ -1,0 +1,39 @@
+
+# ge-store-validations-oracle-plugin
+
+### Steps to use the OracleStoreValidationResultsAction from the plugin
+
+Install this plugin by pasting store_validations_oracle.py from great_expectations/plugins in your corresponding great_expectations/plugins folder.
+
+1. Install the plugin by `pip install store-validations-oracle`. You can put `store-validations-oracle` in the requirements.txt file for CI/CD operations.
+
+2. In your required `checkpoint`, add the following action to your checkpoint `.yml` file.
+
+```yml
+  - name: store_validations_oracle
+    action:
+      class_name: OracleStoreValidationResultsAction
+      module_name: store_validations_oracle
+      username: ${USERNAME}
+      password: ${PASSWORD}
+      hostname: ${HOSTNAME}
+      port: ${PORT}
+      service_name: ${SERVICE_NAME}
+      table_name: ${TABLE_NAME}
+```
+
+3. In your uncommited/config_variables.yml file or if you are using environment variables, add the following variables related to the Oracle Database account:
+
+    * USERNAME
+    * PASSWORD
+    * TABLE_NAME
+
+    Either:
+
+    * HOSTNAME
+    * PORT (defaults to 1521)
+    * SERVICE_NAME (defaults to ORCL)
+
+    Or:
+
+    * CONNECTION_STRING
