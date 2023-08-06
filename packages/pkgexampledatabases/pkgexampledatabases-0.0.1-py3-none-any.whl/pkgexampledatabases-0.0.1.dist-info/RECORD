@@ -1,0 +1,13 @@
+pkgexampledatabases/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkgexampledatabases/my_database_module.py,sha256=HqHuHDOFg8FCD0yFp9AAuGeVn40MEIBCU1W2E2kOae0,9009
+pkgexampledatabases/myappconfigmanager.py,sha256=W1T9lAbrmBA1MFjCD7Y2xsRCxMXdAfgMNf8nuaGUMzA,761
+pkgexampledatabases/mycsvhelper.py,sha256=wx96XgI4JiyOgBDCJzrUHTSUbwuFpAfTJVVWEzroC_0,738
+pkgexampledatabases/mydatabasemanager.py,sha256=LVN1xdJ6z8YcEsUNFxVH60Iv7jN_bpw0DBMO7fNaYBA,2647
+pkgexampledatabases/mypathmanager.py,sha256=FonS5yo-xV5uo5fArqJNhmX52bXFrEW2BzOpnOcm41M,3141
+pkgexampledatabases/mysqlitemanager.py,sha256=TnM1kNv1NWZ0T8AzR7-2Zy7JQaBbqewxry3wx7_GBE4,1212
+pkgexampledatabases-0.0.1.dist-info/LICENCE,sha256=dTNxTPS62CMrgKWxz9KxtM5L8TWf7zuvn1ZFq-7r__M,1066
+pkgexampledatabases-0.0.1.dist-info/METADATA,sha256=IkoFFBaiIuO0E_AhUg_ANZGEf7ds2HrdZR-PJLYnCGk,1484
+pkgexampledatabases-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pkgexampledatabases-0.0.1.dist-info/entry_points.txt,sha256=Gpm09hZLyhMGmpVZRX6IYY7d1KsrUNqpIWfi_H_UcJk,73
+pkgexampledatabases-0.0.1.dist-info/top_level.txt,sha256=2UG9yj4iHoNXTt4Hdxh4jzUr25O_Ur_Y2Wm1-PKChdY,20
+pkgexampledatabases-0.0.1.dist-info/RECORD,,
