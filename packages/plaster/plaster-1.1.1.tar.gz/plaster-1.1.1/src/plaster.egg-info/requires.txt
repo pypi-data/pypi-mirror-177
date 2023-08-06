@@ -1,0 +1,11 @@
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[docs]
+Sphinx
+pylons-sphinx-themes
+
+[testing]
+pytest
+pytest-cov
