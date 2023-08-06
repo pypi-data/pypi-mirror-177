@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pytest_pot/__init__.py
+src/pytest_pot/pot.py
+src/pytest_pot.egg-info/PKG-INFO
+src/pytest_pot.egg-info/SOURCES.txt
+src/pytest_pot.egg-info/dependency_links.txt
+src/pytest_pot.egg-info/top_level.txt
