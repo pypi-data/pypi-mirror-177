@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: NREP
+Version: 0.1.2.post2
+Summary: Simple non-reference NREP/RecRoll implementation.
+Home-page: https://github.com/N1nthyesiam/NREP
+Author: N!nth
+Author-email: nnthy21@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: pycryptodome
+Requires-Dist: fastapi
+
+NREP, NetRepublic is a decentralized data transmission network project designed for anonymous and secure interaction with the Internet and blocking bypass.
+
+
