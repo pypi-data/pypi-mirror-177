@@ -1,0 +1,3 @@
+[console_scripts]
+pvenv=pvenv.main:main
+

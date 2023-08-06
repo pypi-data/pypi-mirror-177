@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pvenv
+Version: 0.4.0
+Summary: Easy python virtual environment management
+Home-page: https://github.com/spapanik/pvenv
+License: LGPL-3.0+
+Keywords: venv
+Author: Stephanos Kuma
+Author-email: stephanos@kuma.ai
+Requires-Python: >=3.7.0,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/spapanik/pvenv
+Description-Content-Type: text/x-rst
+
+=================================================
+pvenv: Easy python virtual environment management
+=================================================
+
+.. image:: https://github.com/spapanik/pvenv/actions/workflows/build.yml/badge.svg
+  :alt: Build
+  :target: https://github.com/spapanik/pvenv/actions/workflows/build.yml
+.. image:: https://img.shields.io/lgtm/alerts/g/spapanik/pvenv.svg
+  :alt: Total alerts
+  :target: https://lgtm.com/projects/g/spapanik/pvenv/alerts/
+.. image:: https://img.shields.io/github/license/spapanik/pvenv
+  :alt: License
+  :target: https://github.com/spapanik/pvenv/blob/main/LICENSE.txt
+.. image:: https://img.shields.io/pypi/v/pvenv
+  :alt: PyPI
+  :target: https://pypi.org/project/pvenv
+.. image:: https://pepy.tech/badge/pvenv
+  :alt: Downloads
+  :target: https://pepy.tech/project/pvenv
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+  :alt: Code style
+  :target: https://github.com/psf/black
+
+
+In a nutshell
+-------------
+
+Installation
+^^^^^^^^^^^^
+
+The easiest way is to use pipx to install ``pvenv``.
+
+.. code:: console
+
+   $ pipx install pvenv
+
+Please make sure that the correct directory is added to your path. This
+depends on the OS.
+
+Run ``pvenv`` to get the path to be sourced in the shell rc:
+
+.. code:: console
+
+   $ pvenv
+
+Usage
+^^^^^
+
+You can use the following commands:
+
+* `venv activate` (aliased to `avenv`) to activate a virtual environment
+* `venv deactivate` (aliased to `dvenv`) to deactivate a virtual environment
+* `venv list` (aliased to `lsvenv`) to list all the virtual environments
+* `venv make` (aliased to `mkvenv`) to create a new virtual environment
+* `venv rm` (aliased to `rmvenv`) to remove a virtual environment
+
+
+Links
+-----
+
+- `Documentation`_
+- `Changelog`_
+
+
+.. _Changelog: https://github.com/spapanik/pvenv/blob/main/CHANGELOG.rst
+.. _Documentation: https://p-venv.readthedocs.io/en/stable/
+
