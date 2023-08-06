@@ -1,0 +1,11 @@
+flake8_hangover/__init__.py,sha256=1u8TcwG4tcFnCN7zHrTqESlRyp4J0-_PPg_4JwFTRkw,27
+flake8_hangover/__version__.py,sha256=0Uc3zDF9XadX9j08cOIZbGoZsI0JPHTxemWum3gkos4,21
+flake8_hangover/messages.py,sha256=kajfgpwEYsDUh15J7UzE_5STfULy-p4paRombiNbCp4,412
+flake8_hangover/plugin.py,sha256=NxqFPT6bfrloiblt5XnBoxOJJuow_AO52FZPs9KaIjA,6853
+flake8_hangover/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_hangover/validator.py,sha256=Ci80dEb4Es7-7I1bHzdBO6xmyuPBrdLjkvsZKV_0vcc,3702
+flake8_hangover-0.0.5.dist-info/entry_points.txt,sha256=TyQVLgCsukPHnf6eW6fUCsD5u1TEfQDc6mPNqnjmUPE,47
+flake8_hangover-0.0.5.dist-info/WHEEL,sha256=TQSpXlWZjPl29LMjkpbkR7iGxKB2AMwzfSmPuPn1ZS8,87
+flake8_hangover-0.0.5.dist-info/METADATA,sha256=Gd_wxk2uRG2JChAX1kLoYFsANfPZtPhUFHHaJY6WsHE,5685
+flake8_hangover-0.0.5.dist-info/licenses/LICENSE,sha256=S_gX4SETUVJWD00B--tI4Z5LmVvxMEHj7Tz-UsgZVTo,1069
+flake8_hangover-0.0.5.dist-info/RECORD,,
