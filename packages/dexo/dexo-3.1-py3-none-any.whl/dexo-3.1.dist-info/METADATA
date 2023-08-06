@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dexo
+Version: 3.1
+Summary: A cli for a quick and easy web dev kit
+Home-page: https://github.com/kavinbharathii/webdev
+Author: Kavin Bharathi
+Author-email: r.m.kavinbharathi@gmail.com
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich (>=12.5.1)
+
+
+# Dexo
+
+A python based command line utility for quick and easy
+web development project initialisation.
+
+## Installation:
+To install dexo on windows,
+
+```
+> pip install dexo
+```
+
+and to install dexo on unix systems
+
+```
+$ pip3 install dexo
+```
+
+## Usage:
+To create a new project
+```
+> dexo { project_name }
+```
+and you can give project_name as your project's name.
+dexo creates the following files for you,
+
+- index.html
+- style.css
+- app.js
+- README.md
+
+## Links
+
+[github](https://github.com/kavinbharathii/webdev)
