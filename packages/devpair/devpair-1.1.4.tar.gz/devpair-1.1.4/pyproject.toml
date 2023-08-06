@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "devpair"
+version = "1.1.4"
+description = "Pair script that manage a pair programming session using git."
+authors = ["raphael.kieling <raphael.kieling@telus.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.0.4"
+loguru = "^0.6.0"
+GitPython = "^3.1.29"
+python-dateutil = "^2.8.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+pre-commit = "^2.20.0"
+freezegun = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+devpair = "devpair:exec_cli"
