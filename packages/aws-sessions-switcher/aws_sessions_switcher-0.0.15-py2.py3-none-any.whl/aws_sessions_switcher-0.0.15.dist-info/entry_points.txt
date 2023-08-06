@@ -1,0 +1,2 @@
+[console_scripts]
+aws-sessions-switcher = aws_sessions_switcher.argument_parser:main
