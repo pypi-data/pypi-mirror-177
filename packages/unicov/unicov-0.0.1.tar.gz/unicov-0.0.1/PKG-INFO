@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: unicov
+Version: 0.0.1
+Summary: Universal File conversion python library to convert any file to any type of file
+Home-page: https://github.com/SwarajJalkote/csv_to_dat
+Author: Swaraj Jalkote
+Author-email: swarajjalkote98@gmail.com
+License: MIT
+Keywords: csv,dat,xml,json,parquet,avro,excel,type,file,convertor
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+This library will take any file as input and convert into any type of file
+
+Change Log
+==========
+
+0.0.1 (2022-11-22)
+-------------------
+- [Note] No functionality has been added yet.
+- Planning the stucture and functionality of processing all sorts of file types for Unicov.
+

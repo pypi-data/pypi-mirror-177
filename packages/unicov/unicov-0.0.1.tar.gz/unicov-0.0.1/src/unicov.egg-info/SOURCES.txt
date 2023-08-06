@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+src/__init__.py
+src/unicov.py
+src/unicov.egg-info/PKG-INFO
+src/unicov.egg-info/SOURCES.txt
+src/unicov.egg-info/dependency_links.txt
+src/unicov.egg-info/requires.txt
+src/unicov.egg-info/top_level.txt
