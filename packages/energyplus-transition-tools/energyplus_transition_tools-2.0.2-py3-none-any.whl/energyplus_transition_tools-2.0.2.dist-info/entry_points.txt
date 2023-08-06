@@ -1,0 +1,3 @@
+[console_scripts]
+ep_transition_gui = ep_transition.runner:main_gui
+
