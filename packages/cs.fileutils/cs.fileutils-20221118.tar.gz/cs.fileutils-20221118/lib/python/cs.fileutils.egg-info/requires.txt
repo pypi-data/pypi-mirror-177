@@ -1,0 +1,14 @@
+cs.buffer>=20210316
+cs.deco>=20221106.1
+cs.filestate>=20181107
+cs.fs>=20220429
+cs.gimmicks>=20211208
+cs.lex>=20200914
+cs.logutils>=20220531
+cs.pfx>=20210731
+cs.progress>=20220918
+cs.py3>=20220523
+cs.range>=20190102
+cs.result>=20220918
+cs.threads
+cs.units
