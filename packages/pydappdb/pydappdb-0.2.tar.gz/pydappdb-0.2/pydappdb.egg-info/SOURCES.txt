@@ -1,0 +1,8 @@
+License.txt
+setup.py
+pydappdb/__init__.py
+pydappdb.egg-info/PKG-INFO
+pydappdb.egg-info/SOURCES.txt
+pydappdb.egg-info/dependency_links.txt
+pydappdb.egg-info/requires.txt
+pydappdb.egg-info/top_level.txt
