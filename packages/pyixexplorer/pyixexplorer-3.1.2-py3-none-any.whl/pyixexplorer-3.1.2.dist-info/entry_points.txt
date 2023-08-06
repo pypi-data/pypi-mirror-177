@@ -1,0 +1,2 @@
+[console_scripts]
+tcl_cli = ixexplorer.samples.tcl_cli:main
