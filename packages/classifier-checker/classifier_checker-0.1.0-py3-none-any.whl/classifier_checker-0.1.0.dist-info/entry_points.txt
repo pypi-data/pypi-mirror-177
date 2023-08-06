@@ -1,0 +1,2 @@
+[console_scripts]
+classifier-checker = classifier_checker:main
