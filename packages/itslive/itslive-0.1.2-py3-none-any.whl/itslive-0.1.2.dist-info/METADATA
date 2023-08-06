@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: itslive
+Version: 0.1.2
+Summary: Python client for ITSLIVE gralcier velocity data
+Home-page: https://github.com/nasa-jpl/itslive-vortex
+License: GNUL V3
+Author: betolink
+Author-email: luis.lopez@nsidc.org
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Shapely (>=1.8)
+Requires-Dist: matplotlib (>=3.5)
+Requires-Dist: multimethod (>=1.8)
+Requires-Dist: pyproj (>=3.3)
+Requires-Dist: python-benedict (>=0.25)
+Requires-Dist: s3fs (>=2022.3)
+Requires-Dist: xarray (>=2022.3)
+Requires-Dist: zarr (>=2.11)
