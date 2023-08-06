@@ -1,0 +1,12 @@
+requestsockets/__init__.py,sha256=xq8KviE51Uk-jSNFrQZIfg8zhYlPXgqST1ju6914lUw,2152
+requestsockets/errors.py,sha256=Ob9SROklGjBae83D1m-iZ26hWSNVAIYoR1Jgufl-gKc,273
+requestsockets/socketrequests_.py,sha256=0wxbAvJkjh4meFDUud1dyIAsjU-CfKDNwQL7P3Wfm-s,5235
+requestsockets/socketsession.py,sha256=4WL9iRIQcYNYjDHHzsFat4lOxXg9Pv1rt6smcDtaf3g,5510
+requestsockets/test.py,sha256=YvPCYje6UN6kIx3LxrFXgDIYTv1-7chqh7IIFLK7irU,796
+requestsockets/types_.py,sha256=1JnRjTRx4f3456AHIYvZG4pmZZm_gEcdXgj2ftA9D0g,184
+requestsockets/utils.py,sha256=eKOEwld0_osIHeMycwPVn27sWdZ02D_j9KHo2i27ZM4,421
+requestsockets-0.0.1.dist-info/LICENSE,sha256=3YzzeXVRDZXkzB9fi-soRkxlHkhdzP7YyftI98o2mc4,1083
+requestsockets-0.0.1.dist-info/METADATA,sha256=lZ7QOTmTe9qEGIQdBNRIkCwS0TjuVbRxyj4rucjPTRg,653
+requestsockets-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+requestsockets-0.0.1.dist-info/top_level.txt,sha256=X6VZYqg_SK4LVqDQ-96Ma0CsC1cltwjg_zzxOlp8SDU,15
+requestsockets-0.0.1.dist-info/RECORD,,
