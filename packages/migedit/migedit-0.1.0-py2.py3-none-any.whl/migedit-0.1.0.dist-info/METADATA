@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: migedit
+Version: 0.1.0
+Summary: MIG Editor. CLI/importable module to automatically delete and create MIG gpu/cpu instances.
+Author-email: Ties Robroek <migedit@trobroek.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/Sipondo/migedit
+
+# migedit
+MIG Editor python CLI tool and bindings for MIG device management
+
