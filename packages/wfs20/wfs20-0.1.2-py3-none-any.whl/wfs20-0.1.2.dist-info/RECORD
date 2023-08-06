@@ -1,0 +1,17 @@
+wfs20/__init__.py,sha256=M3vEaUxsh3Um02pnIi08ACM-hPcSKZ8hrD_Z-bv6NJ0,279
+wfs20/crs.py,sha256=_ORk-6WRA3iHecMiTeECC3bvW_HvUkbE6fGxFJd6lLc,2747
+wfs20/error.py,sha256=0ZnsLmkspl1IaZ-Uwlqin86yKoG8dmHngMVLAxVSgIk,734
+wfs20/reader.py,sha256=CPPdnLB9bvF_HP4xhvZz8lMe9QRwInY_61ydhgkk8c8,962
+wfs20/request.py,sha256=thYd3DmdPwgVEBybtcmAXq8YSB3OqArx7Fx7ksJ_P1s,3451
+wfs20/util.py,sha256=KceUYyG6cpTUxKCtOzA0kHEyyYF6eGr4e4MzpHhl53Y,7014
+wfs20/version.py,sha256=jxsrBfXHdnxEfi1NNlnvuY7y0NCJhg-WHs-63IrWqLA,102
+wfs20/wfs.py,sha256=PAk8P98hwf9thqPhp0PkuV7298Zv2XhxUmLmp-avRnY,2735
+wfs20/io/__init__.py,sha256=YpuZ8JEyEV5SGyTnDANjXuviM3QODoZ1G7ywU1tRxGI,62
+wfs20/io/gml.py,sha256=egGH6veqCM8wnMzGXLSS_bAGd_MbYrci3gtC95DsNlc,114
+wfs20/io/shp.py,sha256=iXQ2ZohOTeGKk9-dZQHbjX-pzs8tsAeWrsYUgnGfRAc,1491
+wfs20/io/util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wfs20-0.1.2.dist-info/LICENSE.txt,sha256=hVIA3QKRCWoyq03o2TV13r1kNdupmzYQd_IegmtBDtQ,1557
+wfs20-0.1.2.dist-info/METADATA,sha256=DlgPhWs9QxsCv7iSfU4V5wYuoqrwUEPTIeFpAJfatgg,3880
+wfs20-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wfs20-0.1.2.dist-info/top_level.txt,sha256=6preQddrFUpM0cFpowMP9Udt-h2XASsVsJ_9eWqU7hk,6
+wfs20-0.1.2.dist-info/RECORD,,
