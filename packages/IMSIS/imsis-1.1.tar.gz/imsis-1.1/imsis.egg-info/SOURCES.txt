@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+imsis/__init__.py
+imsis/analyze.py
+imsis/dialogs.py
+imsis/image.py
+imsis/imagestack.py
+imsis/logging.py
+imsis/misc.py
+imsis/view.py
+imsis.egg-info/PKG-INFO
+imsis.egg-info/SOURCES.txt
+imsis.egg-info/dependency_links.txt
+imsis.egg-info/requires.txt
+imsis.egg-info/top_level.txt
