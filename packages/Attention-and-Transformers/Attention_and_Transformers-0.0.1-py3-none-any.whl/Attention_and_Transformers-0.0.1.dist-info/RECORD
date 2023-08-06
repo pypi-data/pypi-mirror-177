@@ -1,0 +1,9 @@
+ATF/__init__.py,sha256=jUOrjx_PMktRCIZ1Tz9FdYM2T6U3VhfiQWDyUNF8wew,40
+Attention_and_Transformers/__init__.py,sha256=It5PTMHfikfs_eukgHBnP1oPcRp1MCEPByvG-N0AVeg,112
+Attention_and_Transformers/VisionTransformers/__init__.py,sha256=h_GO9hmtByOofAxCdAmMzhn-eVD-pPmzQpIAFvr8NX0,232
+Attention_and_Transformers/VisionTransformers/multihead_self_attention.py,sha256=zxtVIswxiAOs7OhHBBAwqcXlxXBOOWclCs0Woflu4Sc,9974
+Attention_and_Transformers/VisionTransformers/vision_transformer.py,sha256=4xV3LFViF24L6_o0Yfug2eEayzar94w9e8iWgFgz-_c,8518
+Attention_and_Transformers-0.0.1.dist-info/METADATA,sha256=4Shk13kxV48D5ChxCB0jDx3oiAsdB5MPaIk9JCUNnMI,6443
+Attention_and_Transformers-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Attention_and_Transformers-0.0.1.dist-info/top_level.txt,sha256=tjSxV0sZhx6aN9oRDRHdFtvUrXuzao4rxxBkIymd_a8,31
+Attention_and_Transformers-0.0.1.dist-info/RECORD,,
