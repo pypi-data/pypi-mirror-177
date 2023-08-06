@@ -1,0 +1,10 @@
+pysolotools_fiftyone/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysolotools_fiftyone/bounding_box_3d.py,sha256=pD7xcUkn-pXjVJf7vMitAp7L611PupcY29bpLw14Qys,5418
+pysolotools_fiftyone/exr_utils.py,sha256=SZIjiacKlrMpFmTatzsnzV53ymZ6SVz9sWlNJFaj9xg,1631
+pysolotools_fiftyone/solo_fiftyone.py,sha256=BO8fxKngICLvAPy1D7fv1BWfJJ8IR5x3uxtxrXKIMc8,21220
+pysolotools_fiftyone-0.3.22.dist-info/LICENSE.md,sha256=lAWdR3VAPjxhg3XRzZKvGoqjAeC4vFYe5nAQnvjmdrY,11616
+pysolotools_fiftyone-0.3.22.dist-info/METADATA,sha256=R7LVBEGCJwVe-eRjwx9JD_WzQMKUYoM3aS7AbUjChiw,7978
+pysolotools_fiftyone-0.3.22.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pysolotools_fiftyone-0.3.22.dist-info/entry_points.txt,sha256=LXDm43nsfCCQRqgxar9GQS5nbYoNLdv3J4mTRORl6KM,80
+pysolotools_fiftyone-0.3.22.dist-info/top_level.txt,sha256=q81R9-oDUXfNXYMk448jfL0yR7SkpdIv7Iz8tXujCfo,42
+pysolotools_fiftyone-0.3.22.dist-info/RECORD,,
