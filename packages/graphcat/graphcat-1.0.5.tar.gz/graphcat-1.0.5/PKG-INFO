@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: graphcat
+Version: 1.0.5
+Summary: Lightweight, flexible toolkit for managing computational graphs.
+Author-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Maintainer-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: blinker
+Requires-Dist: networkx
+Requires-Dist: behave ; extra == "all"
+Requires-Dist: coverage ; extra == "all"
+Requires-Dist: ipython ; extra == "all"
+Requires-Dist: nbsphinx ; extra == "all"
+Requires-Dist: numpy ; extra == "all"
+Requires-Dist: pygraphviz ; extra == "all"
+Requires-Dist: sphinx >= 3.5 ; extra == "all"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "all"
+Requires-Dist: sphinx_rtd_theme ; extra == "all"
+Requires-Dist: ipython ; extra == "doc"
+Requires-Dist: nbsphinx ; extra == "doc"
+Requires-Dist: sphinx >= 3.5 ; extra == "doc"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: behave ; extra == "test"
+Requires-Dist: coverage ; extra == "test"
+Requires-Dist: numpy ; extra == "test"
+Requires-Dist: pygraphviz ; extra == "test"
+Requires-Dist: pygraphviz ; extra == "vis"
+Project-URL: Chat, https://github.com/shead-custom-design/graphcat/discussions
+Project-URL: Coverage, https://coveralls.io/r/shead-custom-design/graphcat
+Project-URL: Documentation, https://graphcat.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/shead-custom-design/graphcat/issues
+Project-URL: Regression Tests, https://github.com/shead-custom-design/graphcat/actions
+Project-URL: Source, https://github.com/shead-custom-design/graphcat
+Provides-Extra: all
+Provides-Extra: doc
+Provides-Extra: test
+Provides-Extra: vis
+
+Graphcat provides a lightweight, flexible toolkit for managing computational graphs.  See the Graphcat documentation at http://graphcat.readthedocs.io, and the Graphcat sources at http://github.com/shead-custom-design/graphcat
