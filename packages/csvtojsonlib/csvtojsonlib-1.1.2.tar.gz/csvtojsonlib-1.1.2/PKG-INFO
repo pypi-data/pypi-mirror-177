@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: csvtojsonlib
+Version: 1.1.2
+Summary: CSV to JSON convertor with additional options to make the conversion more efficient and flexibility to add or remove columns from the conversion
+Home-page: https://github.com/SwarajJalkote/csvtojson.git
+Author: Swaraj Jalkote
+Author-email: swarajjalkote98@gmail.com
+License: MIT
+Keywords: csv,json,convertor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Python Library to convert CSV file into JSON
+
+Change Log
+==========
+
+1.0.0 (2022-11-14)
+-------------------
+- Planning the library creation
+
+1.1.0 (2022-11-16)
+-------------------
+- Added the functionality to convert csv file into json
+
+1.1.1 (2022-11-16)
+-------------------
+- [FIX] Source code files were not included in the final distribution
+
+1.1.2 (2022-11-17)
+-------------------
+- Testing for Production
+

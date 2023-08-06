@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+src/__init__.py
+src/csvtojson.py
+src/csvtojsonlib.egg-info/PKG-INFO
+src/csvtojsonlib.egg-info/SOURCES.txt
+src/csvtojsonlib.egg-info/dependency_links.txt
+src/csvtojsonlib.egg-info/requires.txt
+src/csvtojsonlib.egg-info/top_level.txt
+tests/__init__.py
+tests/test_csvtojson.py
