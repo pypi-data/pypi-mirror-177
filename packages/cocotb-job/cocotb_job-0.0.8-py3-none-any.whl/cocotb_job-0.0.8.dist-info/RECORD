@@ -1,0 +1,8 @@
+cocotb_job/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cocotb_job/client.py,sha256=o62dMgNj0kes8qODUIazXOZIT9mJz6UVc9ZZksf6Y4E,2453
+cocotb_job/executor.py,sha256=z5tugr_pglSd_cgoeQ_TeTx87FXP1POC37JAp9ksEnU,858
+cocotb_job-0.0.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cocotb_job-0.0.8.dist-info/METADATA,sha256=_5xfkLj1jRdjEfs5fByHUFG81gPCcEuukqQAIF7gDkk,448
+cocotb_job-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cocotb_job-0.0.8.dist-info/top_level.txt,sha256=_qr-T3WoTe5qxsjIri5EWqJh8QLvv9s5PLAN61yjRlI,11
+cocotb_job-0.0.8.dist-info/RECORD,,
