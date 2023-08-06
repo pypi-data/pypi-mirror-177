@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/excalibrate/__init__.py
+src/excalibrate/test.py
+src/excalibrate.egg-info/PKG-INFO
+src/excalibrate.egg-info/SOURCES.txt
+src/excalibrate.egg-info/dependency_links.txt
+src/excalibrate.egg-info/top_level.txt
