@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: grader-purdueece
+Version: 0.0.1
+Summary: Python autograder for Purdue ECE department
+Author: Purdue ECE
+Project-URL: Homepage, https://github.com/PurdueECE/auto-grader
+Project-URL: Bug Tracker, https://github.com/PurdueECE/auto-grader/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Grader Module
+The entry point for the grader is located at `grader/__main__.py`. It is responsible for loading specified tests in a specified loaction that match a specified pattern. It will grade a specified submission directory against these tests and collect the output. If grading the submission fails, it will fallback to grading the `template` directory. It can load a config file that can rename the submission directory to a custom label and can assign weights to individual tests. The help output for the grader is below:
+
+```
+python -m grader -h
+usage: grader [-h] [--submission SUBMISSION] [--tests TESTS] [--test-pattern TEST_PATTERN] [--output OUTPUT] [--log LOG]
+              [--config CONFIG]
+              path
+
+positional arguments:
+  path                  path of the module to grade
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --submission SUBMISSION
+                        submission name to grade
+  --tests TESTS         path of tests to run
+  --test-pattern TEST_PATTERN
+                        test name pattern to match
+  --output OUTPUT       output file for scores
+  --log LOG             log file to use
+  --config CONFIG       config file to use
+```
+
+# Grader Tests
+Tests to run can be located anywhere using a combination of the `--tests` and `--test-pattern` args. By default, they are searched for under the current directory and match the `test*.py` pattern. Tests are discovered using the [`unittest`](https://docs.python.org/3/library/unittest.html) module.
+
+# Grader Config
+The grader config can be specified with the `--config` arg. It is a json file that can specify what happens when a certain test runs or when a certain submission is graded. Individual test configs should be under the `"tests"` map and the key should be of the form: `testFunction (test_filename.TestCaseName)`. Inividual submission configs should be under the `"submissions"` map and match the repository name of the submission. An example format is below:
+
+```json
+{
+    "tests": {
+        "testSimple1 (test_simple.TestSimpleTestCase)": {
+            "name": "Simple Test 1",
+            "weight": 2
+        }
+    },
+    "submissions": {
+        "submission_name": {
+            "name": "custom label here"
+        }
+    }
+}
+```
