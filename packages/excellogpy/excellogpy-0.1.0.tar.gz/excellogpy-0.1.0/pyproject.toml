@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "excellogpy"
+description = 'A python module for parsing a log of your time'
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+keywords = [
+  "log",
+  "excel",
+]
+
+authors = [
+  { name = "Robert Spralja", email = "robert.spralja@gmail.com" },
+]
+
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+  "openpyxl~=3.0.4",
+]
+
+dynamic = [
+  "version",
+]
+
+[project.urls]
+Documentation = "https://github.com/unknown/excellogpy#readme"
+Issues = "https://github.com/unknown/excellogpy/issues"
+Source = "https://github.com/unknown/excellogpy"
+
+[tool.hatch.version]
+path = "logpy/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+]

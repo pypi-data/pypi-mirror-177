@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: excellogpy
+Version: 0.1.0
+Summary: A python module for parsing a log of your time
+Project-URL: Documentation, https://github.com/unknown/excellogpy#readme
+Project-URL: Issues, https://github.com/unknown/excellogpy/issues
+Project-URL: Source, https://github.com/unknown/excellogpy
+Author-email: Robert Spralja <robert.spralja@gmail.com>
+License-File: LICENSE
+Keywords: excel,log
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Requires-Dist: openpyxl~=3.0.4
+Description-Content-Type: text/markdown
+
+# excellogpy
+
+[![PyPI - Version](https://img.shields.io/pypi/v/excellogpy.svg)](https://pypi.org/project/excellogpy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/excellogpy.svg)](https://pypi.org/project/excellogpy)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install excellogpy
+```
+
+## License
+
+`excellogpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
