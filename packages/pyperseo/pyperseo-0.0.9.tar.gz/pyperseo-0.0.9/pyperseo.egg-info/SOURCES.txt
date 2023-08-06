@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+perseo/_init_.py
+perseo/main.py
+pyperseo.egg-info/PKG-INFO
+pyperseo.egg-info/SOURCES.txt
+pyperseo.egg-info/dependency_links.txt
+pyperseo.egg-info/top_level.txt
