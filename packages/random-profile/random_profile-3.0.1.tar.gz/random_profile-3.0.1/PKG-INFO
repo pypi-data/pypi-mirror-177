@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: random_profile
+Version: 3.0.1
+Summary: Generate Random Profile
+Home-page: https://github.com/Py-Contributors/RandomProfileGenerator
+Author: Deepak Raj
+Author-email: deepak008@live.com
+Maintainer: Deepak Raj
+Maintainer-email: deepak008@live.com
+License: UNKNOWN
+Project-URL: Documentation, https://pycontributors.readthedocs.io/projects/randomprofilegenerator/en/latest/
+Project-URL: Source, https://github.com/Py-Contributors/RandomProfileGenerator
+Project-URL: Tracker, https://github.com/Py-Contributors/RandomProfileGenerator/issues
+Project-URL: Funding, https://github.com/sponsors/codePerfectPlus
+Description: 
+        <h1 align="center">
+          <a href="https://pypi.org/project/random-profile/">
+          Random Profile Generator 3.0.1
+        </h1>
+        
+        <h4 align="center">Python Module To Generate Random Profile Data</h4>
+        
+        <p align="center">
+        <img src="https://img.shields.io/pypi/v/random-profile.svg">
+        <img src="https://img.shields.io/pypi/pyversions/random-profile.svg">
+        <img src="https://img.shields.io/pypi/l/random-profile.svg">
+        
+        </p>
+        <p align="center">
+        <img src="https://img.shields.io/pypi/dd/random-profile.svg">
+        <img src="https://img.shields.io/pypi/dw/random-profile.svg">
+        <img src="https://img.shields.io/pypi/dm/random-profile.svg">
+        </p>
+        <p align="center"> 
+        
+        <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/Py-Contributors/RandomProfileGenerator">
+        
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/Py-Contributors/RandomProfileGenerator"> 
+        
+        <img alt="contributors" src="https://img.shields.io/github/contributors/Py-Contributors/RandomProfileGenerator"> 
+        
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/Py-Contributors/RandomProfileGenerator"> </p>
+        
+        
+        [RandomProfile](https://pypi.org/project/random-profile/) is a powerful and simple tool to generate fake data. You can use it to mock classes, populate databases and much more. You can check the full documentation here. Check on [Pypi](https://pypi.org/project/random-profile/)
+        
+        
+        ## Documentation
+        
+        Documentation is available at [ReadTheDocs](https://randomprofilegenerator.readthedocs.io/en/latest/)
+        
+        ## Upcoming Features
+        
+        - Support for more languages
+        
+        ## Changelog
+        
+        Check the [Changelog](/CHANGELOG.md) for the latest changes.
+        
+        ## Contributing
+        
+        Check the [Contributing](/CONTRIBUTING.md) for the contribution guidelines.
+        
+        ## License
+        
+        The project is licensed under the <a href="/LICENSE">MIT</a> license. 
+        
+        ## Contributors
+        
+        <a href="https://github.com/codePerfectPlus/awesomeScripts/graphs/contributors">
+          <img src="https://contrib.rocks/image?repo=codePerfectPlus/randomprofilegenerator" />
+        </a>
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Environment :: Plugins
+Description-Content-Type: text/markdown
