@@ -1,0 +1,59 @@
+<div align="center">
+<h1><a href="https://github.com/PlumaCompanyLtd/PyXrayC"><b>PyXrayC</b></a></h1>
+<a href="https://github.com/PlumaCompanyLtd/PyXrayC/actions?query=workflow%3APublish" target="_blank">
+    <img src="https://github.com/PlumaCompanyLtd/PyXrayC/workflows/Publish/badge.svg" alt="Publish">
+</a>
+<a href="https://www.python.org">
+    <img src="https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=flat&logo=python&logoColor=white" alt="Python">
+</a>
+<a href="https://github.com/psf/black">
+    <img src="https://img.shields.io/static/v1?label=code%20style&message=black&color=black&style=flat" alt="Code Style: black">
+</a>
+<a href="https://github.com/pre-commit/pre-commit">
+    <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=flat" alt="pre-commit">
+</a>
+</div>
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Usage](#usage)
+- [License](#license)
+
+## Introduction
+
+_PyXrayC_ is a CLI tool built with Python and [Typer] library that helps you to manage your [Xray] VPN server's configurations
+on Linux OS with minimum effort from you!
+
+## Features
+
+- Installable via `pip`
+- Fully type hinted and extensible code base.
+- Public API for other Python programmers that want to use specific features in their code.
+- Optional shell autocompletion.
+- Add, view or delete users to/from your config file.
+- Set limits on number of devices a user can connect from.
+
+## Requirements
+
+- A Linux distribution with [Xray] VPN server installed on it.
+- Python 3.8 or higher.
+
+## Setup
+
+## Usage
+
+## License
+
+This project is licensed under the terms of the [GPL-3.0] licence.
+
+<p align="center">&mdash; ⚡ &mdash;</p>
+
+<!-- Links -->
+
+[GPL-3.0]: https://www.gnu.org/licenses/gpl-3.0.en.html "GNU General Public License v3.0"
+[typer]: https://github.com/tiangolo/typer "Typer, build great CLIs. Easy to code. Based on Python type hints."
+[xray]: https://github.com/XTLS "Project X"

@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "pyxrayc"
+version = "0.1.2"
+description = "CLI utility for managing Xray servers with ease on Linux, written in Python."
+authors = ["Seyed <pyseyed@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/PlumaCompanyLtd/PyXrayC"
+keywords = ["xray", "cli", "management"]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+]
+include = [
+    "LICENSE",
+    "pyxrayc/py.typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.971"
+flake8 = "^5.0.4"
+black = "^22.10.0"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+ruff = "^0.0.130"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/PlumaCompanyLtd/PyXrayC/issues"
+
+[tool.poetry.scripts]
+pyxrayc = "pyxrayc.cli.main:app"
+
+[tool.isort]
+profile = "black"
+skip_gitignore = true
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+line_length = 88
+
+[tool.mypy]
+ignore_missing_imports = true
+check_untyped_defs = true
+no_implicit_optional = true
+show_error_codes = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unreachable = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
