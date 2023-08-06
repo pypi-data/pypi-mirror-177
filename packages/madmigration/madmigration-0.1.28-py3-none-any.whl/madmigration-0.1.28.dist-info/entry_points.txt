@@ -1,0 +1,3 @@
+[console_scripts]
+madmigration=madmigration.run:run
+
