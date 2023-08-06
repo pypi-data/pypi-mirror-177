@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+readme.md
+requirements.txt
+setup.py
+src/Marius_baraian.egg-info/PKG-INFO
+src/Marius_baraian.egg-info/SOURCES.txt
+src/Marius_baraian.egg-info/dependency_links.txt
+src/Marius_baraian.egg-info/top_level.txt
+src/my_own_package/__init__.py
