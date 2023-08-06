@@ -1,0 +1,2 @@
+[nbdev]
+min_diffusion = min_diffusion._modidx:d
