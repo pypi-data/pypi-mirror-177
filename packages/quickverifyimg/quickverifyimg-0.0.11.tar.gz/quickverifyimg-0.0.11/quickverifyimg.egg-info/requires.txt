@@ -1,0 +1,4 @@
+aircv
+natsort
+numpy
+opencv-contrib-python
