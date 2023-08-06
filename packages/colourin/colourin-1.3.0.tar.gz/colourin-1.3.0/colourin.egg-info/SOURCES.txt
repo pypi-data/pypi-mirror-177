@@ -1,0 +1,8 @@
+setup.py
+colourin/__init__.py
+colourin/thing.py
+colourin.egg-info/PKG-INFO
+colourin.egg-info/SOURCES.txt
+colourin.egg-info/dependency_links.txt
+colourin.egg-info/requires.txt
+colourin.egg-info/top_level.txt
