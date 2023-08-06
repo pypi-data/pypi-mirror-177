@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: xarrayaita
+Version: 0.2.4
+Summary: Tools to work on output from AITA
+Home-page: https://gricad-gitlab.univ-grenoble-alpes.fr/mecaiceige/tools/lib_python/xarray_aita
+Author: Thomas Chauve
+Author-email: thomas.chauve@univ-grenoble-alpes.fr
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: xarray
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: ipywidgets
+Requires-Dist: datetime
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: vtk
+Requires-Dist: mahotas
+Requires-Dist: ipympl
+Requires-Dist: nodejs
+Requires-Dist: jupyterlab
+Requires-Dist: xarrayuvecs
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+Tools to work on output from AITA
+
