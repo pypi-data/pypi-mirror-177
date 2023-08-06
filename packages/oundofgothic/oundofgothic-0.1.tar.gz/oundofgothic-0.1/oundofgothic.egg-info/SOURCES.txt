@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+oundofgothic.egg-info/PKG-INFO
+oundofgothic.egg-info/SOURCES.txt
+oundofgothic.egg-info/dependency_links.txt
+oundofgothic.egg-info/top_level.txt
+soundofgothic/__init__.py
+soundofgothic/Dialogs/__init__.py

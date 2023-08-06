@@ -1,0 +1,1 @@
+Simple Python API wrapper for SoundOfGothic.pl
