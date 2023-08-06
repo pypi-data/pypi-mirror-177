@@ -1,0 +1,10 @@
+cuqipy_cil/__init__.py,sha256=JHXR0p01upIACbSOoi71jmirHxJ6Wb-MtB2uj-2RHio,140
+cuqipy_cil/_version.py,sha256=cZUBhmLI9aemfvQounSw_mJpociF29swoapIxBd7Wf0,508
+cuqipy_cil/config.py,sha256=0TIqSf-cIUUaDdHkZ433GB8LOkFTrSgTZ_WpmhdWKKg,1062
+cuqipy_cil/model.py,sha256=PZYAby_grzDigrFsKt1RT4ohZfPD7kvrRsx38kXV79w,9823
+cuqipy_cil/testproblem.py,sha256=C6-AERlL422fRCcj8kJME3z9JIrjkR6FwZy8e1F02gM,5131
+CUQIpy_CIL-0.2.0.post0.dev2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+CUQIpy_CIL-0.2.0.post0.dev2.dist-info/METADATA,sha256=c1cIvg0D5CpOKEMelvJsEugv8PsIjDPhehvElEZrcUI,14799
+CUQIpy_CIL-0.2.0.post0.dev2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CUQIpy_CIL-0.2.0.post0.dev2.dist-info/top_level.txt,sha256=sAJ10HGPc3kc_iE7S0njLD9dDPetisA6BguR5x1zFl8,11
+CUQIpy_CIL-0.2.0.post0.dev2.dist-info/RECORD,,
