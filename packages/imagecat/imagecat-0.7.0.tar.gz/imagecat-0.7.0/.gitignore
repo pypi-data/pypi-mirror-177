@@ -1,0 +1,12 @@
+*.egg-info
+*.pyc
+.ipynb_checkpoints
+.cover
+.coverage
+artwork/backup
+dist
+docs/_build
+features/failed
+notebooks/backup
+notebooks/test.png
+.DS_Store
