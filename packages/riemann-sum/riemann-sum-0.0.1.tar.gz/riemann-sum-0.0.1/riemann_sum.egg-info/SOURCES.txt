@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+riemann/__init__.py
+riemann/__main__.py
+riemann_sum.egg-info/PKG-INFO
+riemann_sum.egg-info/SOURCES.txt
+riemann_sum.egg-info/dependency_links.txt
+riemann_sum.egg-info/top_level.txt
