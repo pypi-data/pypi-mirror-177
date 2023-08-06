@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: boomboommm
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version == "3.8"
+
+UNKNOWN
+
+
