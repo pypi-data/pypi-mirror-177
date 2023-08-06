@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/esql/__init__.py
+src/esql/__main__.py
+src/esql.egg-info/PKG-INFO
+src/esql.egg-info/SOURCES.txt
+src/esql.egg-info/dependency_links.txt
+src/esql.egg-info/top_level.txt
