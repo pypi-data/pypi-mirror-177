@@ -1,0 +1,3 @@
+[console_scripts]
+face-lensing-app = face_lensing.__main__:main
+
