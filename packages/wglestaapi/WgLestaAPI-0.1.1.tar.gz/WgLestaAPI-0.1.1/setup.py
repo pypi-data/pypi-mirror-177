@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['wglestaapi']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'wglestaapi',
+    'version': '0.1.1',
+    'description': 'Unofficial Python library that implements the Wargaming.net API and Lesta Games API functionality',
+    'long_description': '# WgLestaAPI\n\nUnofficial Python library that facilitates working with **API Lesta Games** and **API Wargaming.net** functionality via **Python**. \n\n[![Downloads](https://static.pepy.tech/personalized-badge/wglestaapi?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/wglestaapi)\n[![Downloads](https://static.pepy.tech/personalized-badge/wglestaapi?period=month&units=international_system&left_color=grey&right_color=blue&left_text=downloads/month)](https://pepy.tech/project/wglestaapi)\n[![Downloads](https://static.pepy.tech/personalized-badge/wglestaapi?period=week&units=international_system&left_color=grey&right_color=blue&left_text=downloads/week)](https://pepy.tech/project/wglestaapi)\n[![Supported Versions](https://img.shields.io/pypi/pyversions/wglestaapi)](https://pypi.org/project/wglestaapi)\n[![Version](https://img.shields.io/pypi/v/wglestaapi)](https://pypi.org/project/wglestaapi)\n[![](https://img.shields.io/pypi/format/wglestaapi)](https://pypi.org/project/wglestaapi)\n[![](https://img.shields.io/pypi/wheel/wglestaapi)](https://pypi.org/project/wglestaapi)\n[![GitHub Repo stars](https://img.shields.io/github/stars/tankalxat34/wglestaapi?style=social)](https://github.com/tankalxat34/wglestaapi)\n\nBy downloading this library you fully agree with all official documents **Lesta Games** and **Wargaming.net** about **Lesta Games** and **Wargaming.net** products. *The author of the library (Alexander Podstrechny) is not responsible for your actions performed with the help of this program code.*\n\n## Installing the library\n\nRun the command below at the command line\n\n```\npip install WgLestaAPI\n```\n\n## Example of use\n\n```py\nfrom WgLestaAPI import Application\n\n# Creating a Query with your application_id\nquery = Application.Query(application_id=APP_ID)\n\n# Adding the necessary parameters\nquery.extend(search="tank", limit=5)\n\n# Creating the method `account.list` of the game Tanks Blitz on the RU-region with the passed parameters\nm = Application.Method(api_method="account.list", game_shortname="wotb", query=query)\n\n# Executing the method\nmExecuted = m.execute()\n\n# Your server response processing\nprint(mExecuted[\'data\'][0][\'account_id\']) # 58114596\n\n# If you wish, you can follow a link to the official website of the API owner with documentation\nprint(m.docs) # https://developers.lesta.ru/reference/all/wotb/account/list/\n```\n\n## Library functionality\n\nThe library implements the basic functions of **API Lesta Games** and **API Wargaming.net**. All requests are made through your application, which you previously created on [Lesta Games](https://developers.lesta.ru/applications/) or on [Wargaming.net](https://developers.wargaming.net/applications/). Some features are listed below:\n- Getting information about the player, his equipment and medals.\n- Obtaining information about the clan.\n- Getting information about equipment, equipment mauls.\n- And other methods that do not require user authorization.\n\n## Copyright Notice\n\n<div style="justify-content: center; text-align: center;">\n<a href="https://developers.wargaming.net/"><img src="https://developers.wargaming.net/static/1.12.2/assets/img/header/wg_logo.png" width="150px" style="margin: 20px;"></a>\n<a href="https://developers.lesta.ru/"><img src="https://developers.lesta.ru/static/1.13.1_lst/assets/img/header/lesta_dev_logo.png" width="178px" style="margin: 20px;"></a>\n</div>\n\n- 2022 © Alexander Podstrechnyy. \n    - [tankalxat34@gmail.com](mailto:tankalxat34@gmail.com?subject=lestagamesapi)\n    - [VKontakte](https://vk.com/tankalxat34)\n    - [Telegram](https://tankalxat34.t.me)\n    - [GithHub](https://github.com/tankalxat34/wglestaapi)\n- 2022 © Wargaming.net. All rights reserved.\n    - [User Support Center](http://support.wargaming.net/)\n    - [Official website](https://wargaming.net/)\n    - [License Agreement](https://eu.wargaming.net/user_agreement/)\n    - [Privacy Policy](https://eu.wargaming.net/privacy_policy/)\n- 2022 © Lesta Games. All rights reserved. \n    - [User Support Center](https://lesta.ru/support/)\n    - [Official website](https://lesta.ru/)\n    - [License Agreement](https://developers.lesta.ru/documentation/rules/agreement/)\n    - [Privacy Policy](https://legal.lesta.ru/privacy-policy/)\n\n*This program code is not a product of Lesta Games and was developed according to Lesta Games DPP rules.*\n\n*This program code is not a product of Wargaming.net and is developed according to WG DPP rules.*',
+    'author': 'Alexander Podstrechnyy',
+    'author_email': 'tankalxat34@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/tankalxat34/WgLestaAPI',
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.6,<4.0',
+}
+
+
+setup(**setup_kwargs)
