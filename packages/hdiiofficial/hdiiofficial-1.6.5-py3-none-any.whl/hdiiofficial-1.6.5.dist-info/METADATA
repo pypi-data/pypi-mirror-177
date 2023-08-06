@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: hdiiofficial
+Version: 1.6.5
+Summary: An add-on extension to Pyrogram for absolute beginners
+Home-page: https://github.com/hdiiofficial/HDevpy
+Author: hdiiofficial
+Author-email: sshdiiofficial@wuuvo.com
+License: GPLv3+
+Project-URL: Support, https://t.me/hdiiofficial
+Project-URL: Community, https://t.me/FunFriendsReborn
+Project-URL: Updates, https://t.me/hdiiofficial
+Project-URL: Documentation, https://hdiiofficial.sytes.net/HDevpy
+Keywords: telegram,bot,pyrogram,python,telegram-bot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Natural Language :: English
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: APScheduler (==3.7.0)
+Requires-Dist: Pillow
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: bs4
+Requires-Dist: gitpython
+Requires-Dist: googlesearch-python (==1.0.1)
+Requires-Dist: gpytranslate
+Requires-Dist: gtts
+Requires-Dist: heroku3
+Requires-Dist: lottie
+Requires-Dist: motor
+Requires-Dist: prettytable
+Requires-Dist: psycopg2-binary
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: pymediainfo
+Requires-Dist: pytgcalls (==3.0.0.dev22)
+Requires-Dist: pyrogram
+Requires-Dist: pytz (>=2021.3)
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: speedtest-cli (==2.1.3)
+Requires-Dist: sqlalchemy (==1.3.23)
+Requires-Dist: telegraph
+Requires-Dist: tgcrypto
+Requires-Dist: tracemoepy
+Requires-Dist: opencv-python-headless
+Requires-Dist: urllib3
+Requires-Dist: uvloop
+Requires-Dist: wget (==3.2)
+Requires-Dist: youtube-search-python
+
+# This project is archived for the time being.
+
+---
+
+## HDevpy
+
+
+An add-on extension to [Pyrogram](https://pypi.org/project/Pyrogram) for absolute beginners, to create telegram bots more easily.
+
+
+## Documentation
+
+Read the Documentation : https://hdiiofficial.sytes.net/docs
+
+## What's the main purpose?
+
+There are some things that are common in most of the telegram bots. This library simplifies the development process by generating boilerplate code and easing the overall creation.
+
+## Features
+
+1. **Addons** - Any project using `hdiiofficial` can enable in-built addons that come with pystark. For example, default addons automatically add some commands like */start*, */help*, */about* and */id*.
+
+   Of course that can be turned off using [project settings](https://hdiiofficial.sytes.net/topics/settings)
+
+2. **Databases** - There are in-built functions that help in using databases. The databases include `postgres`, `tinydb` and `telegramdb`
+ 
+    To know more about using databases in hdiiofficial - [Click Here](https://hdiiofficial.sytes.net/databases/)
+
+3. **Boilerplate Code** - You can generate a boilerplate with all the files you will need using our command line utility. Optionally, you can generate it with added Heroku Support (app.json, Procfile, etc.).
+
+   To know more, about generating a boilerplate - [Click Here](https://hdiiofficial.sytes.net/start/boilerplate/)
+
+4. **Easy-To-Use** - There are multiple things that make this library easy-to-use.
+   
+- Start the bot using only 2-lines of code.
+
+```python
+from hdiiofficial import HDev
+
+HDev().activate()
+```
+
+- Easy-to-use methods and decorators.
+
+- Ability to customize everything.
+
+- And much more.
+
+## Credits
+
+- [Dan](https://github.com/delivrance) for his [Pyrogram](https://github.com/pyrogram/pyrogram) Library on top of which **pystark** works.
+
+## Thanks To
+
+PyStark Telegram Updates - **[pystark](https://t.me/pystark)**
+
+Telegram Channel - **[StarkBots](https://t.me/StarkBots)**
+
+Telegram Chat - **[StarkBotsChat](https://t.me/StarkBotsChat)**
+
+## Copyright and License
+
+- Copyright (C) 2021-2022 **Stark Bots** <<https://github.com/StarkBotsIndustries>>
+- @hdiiofficial
+- Licensed under the terms of [GNU General Public License v3 or later (GPLv3+)](https://github.com/StarkBotsIndustries/PyStark/blob/master/LICENSE)
