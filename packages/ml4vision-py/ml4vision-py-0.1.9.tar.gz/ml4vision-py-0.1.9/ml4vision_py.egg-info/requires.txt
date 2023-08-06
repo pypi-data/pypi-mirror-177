@@ -1,0 +1,10 @@
+Cython
+tqdm
+requests
+argcomplete
+numpy
+pillow
+PyYAML
+
+[ml]
+torch>=1.0.0
