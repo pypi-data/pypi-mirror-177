@@ -1,0 +1,16 @@
+androidMemoryTool/DataClasses.py,sha256=t2lvi-bi0wfhdxsS569bIWS4SXtOwg__JGoCWx727cA,17413
+androidMemoryTool/ThreadingController.py,sha256=OKCFSImQp4xQci28TApr9UkMsdXTEEoS_EW54AC2its,2141
+androidMemoryTool/__init__.py,sha256=WANer3CnB1yOhKCqqH8tcZLSecMGuYOv2xr10DBvMgM,328
+androidMemoryTool/additional_features.py,sha256=OJTfI5hsVcuh_74rb-3FdEzfK8gdd9hTVyxCuw6aRpE,3194
+androidMemoryTool/androidMemoryTool.py,sha256=L9oOrW-MhFqSCv-cL7ufNNwpSAkBUZL5I2ELO1Udei0,11917
+androidMemoryTool/libs_read_writers.py,sha256=3tFqZeC6RFmQYJt0pABc4Ltw6bCV3GW9dcV_jE3Iyc8,1977
+androidMemoryTool/mapping.py,sha256=pqM82Tw9OpwdAL96CCXZgxa-gKCVG2HmpjNp5Auopks,11225
+androidMemoryTool/search_and_readers.py,sha256=sm3tVRh_nFeddjRUjEc5qzG68oqHossdfS3Gs3k1tEs,4496
+androidMemoryTool/search_and_writers.py,sha256=qi89GHZrUh0tf5ZfObz8KfEf_iIriK10edAH3UJdhBw,4368
+androidMemoryTool/test.py,sha256=T6ouy5tHdsTaUG9VpWVuTZsMbgHo8YMGbd90Zp6GCK8,1863
+androidMemoryTool-0.4.data/data/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+androidMemoryTool-0.4.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+androidMemoryTool-0.4.dist-info/METADATA,sha256=QVNJIfZsclFFvEWDSpKV-SkBShfQvpmmpkpJsQSJr9c,10167
+androidMemoryTool-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+androidMemoryTool-0.4.dist-info/top_level.txt,sha256=pImY0Btxsr91jpBMJJKgcJn4AAk8svG10ltUoFJ8j70,18
+androidMemoryTool-0.4.dist-info/RECORD,,
