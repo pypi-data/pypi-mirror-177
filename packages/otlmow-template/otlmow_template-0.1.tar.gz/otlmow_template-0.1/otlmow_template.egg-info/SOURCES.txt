@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+otlmow_template/SubsetTool.py
+otlmow_template.egg-info/PKG-INFO
+otlmow_template.egg-info/SOURCES.txt
+otlmow_template.egg-info/dependency_links.txt
+otlmow_template.egg-info/requires.txt
+otlmow_template.egg-info/top_level.txt
