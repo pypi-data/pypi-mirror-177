@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: volttron-testing
+Version: 0.3.1a23
+Summary: None
+Home-page: https://github.com/eclipse-volttron/volttron-testing
+License: Apache-2.0
+Author: VOLTTRON Team
+Author-email: volttron@pnnl.gov
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: anypubsub (>=0.6,<0.7)
+Requires-Dist: grequests (>=0.6.0,<0.7.0)
+Requires-Dist: mock (>=4.0.3,<5.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: volttron (>=10.0.1a42,<11.0)
+Project-URL: Repository, https://github.com/eclipse-volttron/volttron-testing
+Description-Content-Type: text/markdown
+
+# volttron-testing
+
+[![Run Pytests](https://github.com/eclipse-volttron/volttron-testing/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eclipse-volttron/volttron-testing/actions/workflows/run-tests.yml)
+[![pypi version](https://img.shields.io/pypi/v/volttron-testing.svg)](https://pypi.org/project/volttron-testing/)
+
+## Prerequisites
+
+* Python >= 3.8
+
+## Installation
+
+Create a virtual environment
+
+```shell 
+python -m venv env
+```
+
+Activate the environment
+
+```shell
+source env/bin/activate
+```
+
+Install volttron-testing
+
+```shell
+# Installs volttron and volttron-testing
+pip install volttron-testing
+```
+
+## Developing with TestServer
+
+The following code snippet shows how to utilize the TestServer's internal pubsub to be able to test
+with it outside of the volttron platform.
+
+```python
+def test_send_alert():
+    """ Test that an agent can send an alert through the pubsub message bus."""
+    
+    # Create an agent to run the test with
+    agent = Agent(identity='test-health')
+
+    # Create the server and connect the agent with the server
+    ts = TestServer()
+    ts.connect_agent(agent=agent)
+
+    # The health.send_alert should send a pubsub message through the message bus
+    agent.vip.health.send_alert("my_alert", Status.build(STATUS_BAD, "no context"))
+    
+    # We know that there should only be a single message sent through the bus and
+    # the specifications of the message to test against.
+    messages = ts.get_published_messages()
+    assert len(messages) == 1
+    headers = messages[0].headers
+    message = json.loads(messages[0].message)
+    assert headers['alert_key'] == 'my_alert'
+    assert message['context'] == 'no context'
+    assert message['status'] == 'BAD'
+
+```
+
+Reference the volttrontesting package from within your environment in order to build tests against the TestServer.
+
+
