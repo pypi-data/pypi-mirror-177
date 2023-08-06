@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pytorch2tikz"
+authors = [{name = "Jannes Magnusson", email = "jannes@magnusson.berlin"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version", "description"]
+repository = "https://github.com/fraunhoferhhi/pytorch2tikz"
+homepage = "https://github.com/fraunhoferhhi/pytorch2tikz"
