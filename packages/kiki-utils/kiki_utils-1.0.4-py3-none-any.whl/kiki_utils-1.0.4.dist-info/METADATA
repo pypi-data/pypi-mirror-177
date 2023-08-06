@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kiki-utils
+Version: 1.0.4
+Summary: Utils functions without cv2 and pillow
+Author: kiki-kanri
+Author-email: a470666@gmail.com
+Keywords: Utils
+Classifier: License :: Freely Distributable
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: aiodns
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: brotli
+Requires-Dist: loguru
+Requires-Dist: pycryptodomex
+Requires-Dist: pyopenssl
+Requires-Dist: quart
+Requires-Dist: requests
+Requires-Dist: validator
+Requires-Dist: python-magic ; platform_system == "Linux"
+Requires-Dist: python-magic-bin ; platform_system == "Windows"
+
