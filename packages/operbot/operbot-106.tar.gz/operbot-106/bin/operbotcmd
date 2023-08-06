@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0114,C0115,C0116,C0209,C0413
+
+
+__version__ = "123"
+
+
+"feeding rss into your irc channel"
+
+
+import os
+import pwd
+import sys
+
+
+from stat import ST_UID, ST_GID
+
+
+from operbot.obj import Wd, cdir, lower, permission, update
+from operbot.hdl import Cfg, Command, Handler, command, parse, scan
+
+
+from operbot import irc, rss
+
+
+Wd.workdir = "/var/lib/operbot/"
+
+
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+def cmd(event):
+    event.reply(",".join(sorted(Command.cmd)))
+
+
+def ver(event):
+    event.reply("OPERBOT %s" % __version__)
+
+
+def main():
+    Command.add(cmd)
+    Command.add(ver)
+    txt = ' '.join(sys.argv[1:])
+    cfg = parse(txt)
+    update(Cfg, cfg)
+    cli = CLI()
+    evt = command(cli, cfg.otxt)
+    evt.wait()
+
+
+main()
