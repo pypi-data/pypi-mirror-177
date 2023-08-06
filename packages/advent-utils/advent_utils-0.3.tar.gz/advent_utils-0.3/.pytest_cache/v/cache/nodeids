@@ -1,0 +1,12 @@
+[
+  "tests/test_parsers.py::test_string_raises_error_when_more_than_one_line",
+  "tests/test_parsers.py::test_string_returns_first_line_of_input_data",
+  "tests/test_utils.py::test_map_movements[<-expected2]",
+  "tests/test_utils.py::test_map_movements[>-expected3]",
+  "tests/test_utils.py::test_map_movements[^-expected0]",
+  "tests/test_utils.py::test_map_movements[v-expected1]",
+  "tests/test_utils.py::test_move[down-expected1]",
+  "tests/test_utils.py::test_move[left-expected2]",
+  "tests/test_utils.py::test_move[right-expected3]",
+  "tests/test_utils.py::test_move[up-expected0]"
+]
