@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: loopin-pyspark-pkg
+Version: 0.0.1
+Summary: lookpin pyspark lib
+Home-page: https://github.com/lookpin/lookpin-pysarpk-pkg
+Author: jongeunjeong
+Author-email: wannabe22kaka@gmail.com
+Project-URL: Bug Tracker, https://github.com/lookpin/lookpin-pysarpk-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## Run
+docker run -itd --name spark-base-5 pyspark-docker
+
+## Build
+docker build -t pyspark-docker .
+
+## Stop
+docker stop $(docker ps -a -q)   
+
+
+## bash
+docker exec -it  9028a97a8889 /bin/bash
+
