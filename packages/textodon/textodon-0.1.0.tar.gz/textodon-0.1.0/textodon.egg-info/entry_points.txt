@@ -1,0 +1,2 @@
+[console_scripts]
+textodon = textodon.cli:main
