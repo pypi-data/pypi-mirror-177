@@ -1,0 +1,13 @@
+airflow_clickhouse_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_clickhouse_plugin/__version__.py,sha256=xW4soLJYzDiynzI9k94C8c6JdufKfQAaDZ-Ct0FexJs,477
+airflow_clickhouse_plugin/hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_clickhouse_plugin/hooks/clickhouse_hook.py,sha256=TqXl1HImkVya8Hnr3J9sbbFkXxzVO6I0AdAsDu_0AkQ,4157
+airflow_clickhouse_plugin/operators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_clickhouse_plugin/operators/clickhouse_operator.py,sha256=n353kYmZpIgrs0OpLg5iTFg5VJPjWNYLPpAKK9iFCrE,1022
+airflow_clickhouse_plugin/sensors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_clickhouse_plugin/sensors/clickhouse_sql_sensor.py,sha256=rs7gQe3PKcH82aga0OFIPRkW1yth0fECmkpAb4GoUj4,1205
+airflow_clickhouse_plugin-0.9.0.dist-info/LICENSE,sha256=P4Xxasy7X2_D_EUV5NukwW2hTwGtJ54-UmNDuCWGnNk,1090
+airflow_clickhouse_plugin-0.9.0.dist-info/METADATA,sha256=IiY5PYgJvwWAfZJuLZ4hRyCjtAdmGQSfvRrzsnTOv8E,17203
+airflow_clickhouse_plugin-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+airflow_clickhouse_plugin-0.9.0.dist-info/top_level.txt,sha256=6WPfI4yOJTcwb4AHDlQE1MyqceuuVqdh1QndD73ukBM,26
+airflow_clickhouse_plugin-0.9.0.dist-info/RECORD,,
