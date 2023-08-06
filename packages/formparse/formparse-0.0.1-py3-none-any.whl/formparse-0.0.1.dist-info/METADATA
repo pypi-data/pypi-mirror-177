@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: formparse
+Version: 0.0.1
+Summary: Simple library for evaluating mathematical formulas.
+Home-page: https://github.com/nick28829/formparse
+Author: Nicklas Bocksberger
+Author-email: nicklas@bocksberger.com
+License: MIT
+Project-URL: Documentation, https://formparse.readthedocs.io/en/stable/
+Project-URL: Source, https://github.com/nick28829/formparse
+Project-URL: Tracker, https://github.com/nick28829/formparse/issues
+Project-URL: Download, https://pypi.org/project/formparse/#files
+Project-URL: Changelog, https://github.com/nick28829/formparse/CHANGELOG.rst
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: unittest ; extra == 'testing'
+
+.. image:: https://readthedocs.org/projects/formparse/badge/?version=latest
+        :alt: ReadTheDocs
+        :target: https://formparse.readthedocs.io/en/latest/
+
+.. image:: https://img.shields.io/pypi/v/formparse.svg
+        :alt: PyPI-Server
+        :target: https://pypi.org/project/formparse/
+
+.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
+    :alt: Project generated with PyScaffold
+    :target: https://pyscaffold.org/
+
+|
+
+=========
+formparse
+=========
+
+
+    Simple library for evaluating mathematical formulas.
+
+
+Written as an safe alternative to Pythons ``eval()`` function the aim was to provide a lightweight library that could
+evaluate mathematical formulas provided by users in a safe way.
+
+.. _installation:
+
+Installation
+============
+You can install this package unsing pip:
+
+.. code-block:: bash
+
+    pip install formparse
+
+
+SECURITY WARNING!
+-----------------
+.. note::
+
+    This package is currently pre-stable and some security features are still missing.
+
+
+.. _usage:
+
+Usage
+=====
+.. code-block:: python
+
+    from formparse import Formula
+
+    formula = Formula('3*x**2')
+
+    result = formula.eval({'x': 2})
+
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.3.1. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
