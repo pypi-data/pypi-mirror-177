@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: glassjar
+Version: 0.1.0
+Summary: Glassjar is the pickled database that provide Object-Relational Mapper.
+Home-page: https://github.com/furkanonder/glassjar/
+Author: Furkan Onder
+Author-email: furkanonder@protonmail.com
+License: MIT
+Keywords: pickled database,orm
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent 
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# GlassJar
+
+GlassJar is the pickled database that provide Object-Relational Mapper.
