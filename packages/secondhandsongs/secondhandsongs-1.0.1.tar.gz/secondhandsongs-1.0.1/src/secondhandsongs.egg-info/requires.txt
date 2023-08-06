@@ -1,0 +1,13 @@
+python-dotenv
+diskcache
+youtube-dl
+tqdm
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+dotenv
+pytest
+pytest-cov
