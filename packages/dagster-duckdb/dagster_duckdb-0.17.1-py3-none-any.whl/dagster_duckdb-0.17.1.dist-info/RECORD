@@ -1,0 +1,9 @@
+dagster_duckdb/__init__.py,sha256=ytG9ZCbQDVcf0m4xwR7hRs19-yg6xcjkSENuLQmvSic,75
+dagster_duckdb/io_manager.py,sha256=0__cOdDS8teyItcsAhwz9dDH6YTEVkRaMn5GRuPMG3o,5270
+dagster_duckdb/py.typed,sha256=mDShSrm8qg9qjacQc2F-rI8ATllqP6EdgHuEYxuCXZ0,7
+dagster_duckdb/version.py,sha256=mrwBkyZNcMowMG4-KslRvuWjlT2xdlnWDSWDZEK270s,23
+dagster_duckdb-0.17.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_duckdb-0.17.1.dist-info/METADATA,sha256=Q0tDYsjgjqSlGKcr_e58ZyA7S_-u2zSR6_u4ukyyEGg,984
+dagster_duckdb-0.17.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_duckdb-0.17.1.dist-info/top_level.txt,sha256=XMADjL66F1BusAGbRU32QQ1qrwMdEa72s6cRlJZUgQ4,15
+dagster_duckdb-0.17.1.dist-info/RECORD,,
