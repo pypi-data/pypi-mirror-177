@@ -1,0 +1,16 @@
+spilo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spilo/base_client.py,sha256=XG4IRARnT8pJ5MqBvJYF1XN_Lkuz2mqmiNJ7f6YtsR8,378
+spilo/base_pubsub.py,sha256=_bQmTLiij6dlroQwz_zHN4HEMNYafW6HyVxJvlmb_os,931
+spilo/channel.py,sha256=dDSZg2af9OQdrXkKCDEGXHdd-vO899gpdRAmX8SytXQ,3115
+spilo/redis_pubsub.py,sha256=5zdki4HmtGz7I_t6NrHgHciH_FIpuPiGSGqNJzmkMds,1710
+spilo/sync_redis_pubsub.py,sha256=nZ9GLCRiYywArbBDbdHo7rBVTo1r4tiu_hM0sD_Lmhs,839
+spilo/utils.py,sha256=F__x4gSerJD6YrKYyi7VwzcIIrxDiepvposSmccT41U,235
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=KMW3TfjQo7oJUT71swtgRisfXg7EXxL6lpXGBV3IJCU,511
+tests/test_base_client.py,sha256=OU3FagZxgS8s1BfUSnd7o1LfhqguLiUEFODEis3trsg,654
+tests/test_channel.py,sha256=lYWkZctTY0dnN7UvL4RNQf2ypl5yLk4i1ebwGEbAq3M,474
+tests/test_pubsub.py,sha256=WR311a7dbJntOnxQa9LLcGvu5cMOoB4-XRCwQ06YgJA,208
+spilo-0.0.19.dist-info/METADATA,sha256=Sj1obDU_29tJ7BvWxfxfVTffV65M-z3ig8_NMvRl4BU,1755
+spilo-0.0.19.dist-info/WHEEL,sha256=tIy8_2ZxPExwRKcXlg4jzESby3jB9aLsFLrFCKKh88M,92
+spilo-0.0.19.dist-info/top_level.txt,sha256=o6E243T5XNO4xFWa7szeWirFBavGEOHjLZ13X2gR_fI,12
+spilo-0.0.19.dist-info/RECORD,,
