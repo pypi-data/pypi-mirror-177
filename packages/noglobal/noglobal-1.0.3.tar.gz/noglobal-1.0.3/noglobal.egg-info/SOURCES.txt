@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+noglobal/__init__.py
+noglobal.egg-info/PKG-INFO
+noglobal.egg-info/SOURCES.txt
+noglobal.egg-info/dependency_links.txt
+noglobal.egg-info/top_level.txt
