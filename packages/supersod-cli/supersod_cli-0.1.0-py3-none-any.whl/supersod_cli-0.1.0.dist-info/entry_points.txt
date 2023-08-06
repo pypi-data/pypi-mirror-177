@@ -1,0 +1,2 @@
+[console_scripts]
+supersod = src.supersodcli:cli
