@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: foxmetrics
+Version: 1.1.5
+Summary: metrics for decoupled training
+Home-page: 
+Author: jizong
+Author-email: jizong.peng.ca@gmail.com
+Requires-Python: >3.6.0
