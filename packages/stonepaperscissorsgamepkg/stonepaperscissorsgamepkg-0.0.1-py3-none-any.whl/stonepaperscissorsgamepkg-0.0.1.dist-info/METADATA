@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: stonepaperscissorsgamepkg
+Version: 0.0.1
+Summary: Rock Paper Scissors - a basic program to play rock,paper,scissors with PC
+Home-page: https://github.com/aswinvenk/stonepaperscissorsgamepkg
+Author: Aswin Venkat
+Author-email: <aswinvenk8@gmail.com>
+License: LICENSE.txt
+Keywords: python,game,rock paper scissors,stone paper scissors
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Rock Paper Scissors - a basic program to play rock,paper,scissors with PC
+=========================================================================
+
+# A fun Python package to play rock paper scissors with PC
+This is just a basic stress-buster game module to play with your PC
+Created by Aswin Venkat <aswinvenk8@gmail.com>
+
+Installation
+============
+
+Run the following to install:
+
+```python
+pip install stonepaperscissorsgamepkg
+```
+
+Methods
+=======
+
+1. obj.game(count:int)
+    Count -> The number of times you want to play the game with PC
+
+2. obj.rules()
+    Will display the rules of the game
+
+3. obj.clear_score()
+    Will clear the score (initialise the score back to 0)
+
+4. obj.display_result()
+    Will display the result of the game.
+
+5. obj.condition(pc='', player='')
+    entering ['stone' or 'paper' or 'scissors'] in pc='{}' and player='{}' will directly give you the result
+
+Usage
+=====
+
+```python
+from stonepaperscissors import *
+g=Game()
+
+# Play a game
+>> g.game(5)
+
+# Display Result
+>> g.display_result()
+
+# Display rules
+>> g.rules()
+
+# Reset the scores
+>> g.clear_score()
+```
+
