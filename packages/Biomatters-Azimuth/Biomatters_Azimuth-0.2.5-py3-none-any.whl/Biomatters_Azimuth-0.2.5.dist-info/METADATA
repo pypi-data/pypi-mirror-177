@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Biomatters-Azimuth
+Version: 0.2.5
+Summary: Machine Learning-Based Predictive Modelling of CRISPR/Cas9 guide efficiency
+Home-page: UNKNOWN
+Author: Nicolo Fusi and Jennifer Listgarten
+Author-email: fusi@microsoft.com, jennl@microsoft.com
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: scipy (==1.9.3)
+Requires-Dist: numpy (==1.23.4)
+Requires-Dist: nose
+Requires-Dist: scikit-learn (==0.24.1)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: biopython (==1.79)
+Requires-Dist: xlrd (==2.0.1)
+
+UNKNOWN
+
