@@ -1,0 +1,4 @@
+pyjnius
+swifter
+numpy
+pandas
