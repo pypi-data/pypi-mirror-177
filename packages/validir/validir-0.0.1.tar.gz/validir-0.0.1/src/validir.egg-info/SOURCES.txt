@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/validir/__init__.py
+src/validir/cli.py
+src/validir/template.py
+src/validir/types.py
+src/validir.egg-info/PKG-INFO
+src/validir.egg-info/SOURCES.txt
+src/validir.egg-info/dependency_links.txt
+src/validir.egg-info/entry_points.txt
+src/validir.egg-info/requires.txt
+src/validir.egg-info/top_level.txt
