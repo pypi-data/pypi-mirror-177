@@ -1,0 +1,16 @@
+mlbugdetection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlbugdetection/analysis_report.py,sha256=3_7NnvwUsiFxbL3TBweBK3Ia0XVS9b7HvuII4ONmnnw,3296
+mlbugdetection/calibration.py,sha256=-Y2dIuHC-990dZDyaenFTkyr1Ia6pzLqnvrwtEVYQgA,2208
+mlbugdetection/critical_values.py,sha256=36TT7wFV559sGmH4MYL8QsOAOuNpbNVhSeovmd0a7R8,14327
+mlbugdetection/load_data.py,sha256=A_T1AqJWnfkhxoAt2oCHOMzeZwrYbOZaBNCSxI4V-xY,368
+mlbugdetection/load_models.py,sha256=CZmcsuMKicmuga8SFhddYf5_0GRj0obIdk16JUX9f2A,539
+mlbugdetection/monotonic.py,sha256=y4rsRJ_tZ5hpO8tUE_HyhUqvmpfVfhnry9jZioy5RV0,8026
+mlbugdetection/sanity.py,sha256=ka43Eg7P57U6YYBFvo8pGlZCeCEusUt3s6jl8tkTx5g,3377
+mlbugdetection/data/breast-cancer.csv,sha256=tj09kIW61MVTHS8BLYddgg4TCiOTrPdyDMFz-ZgUDB4,124571
+mlbugdetection/models/KNNBreastCancer.pkl,sha256=7u8BcWdJs34fGT__5aavt-d2rlpN9Isid5M86dI2AIo,112290
+mlbugdetection/models/NNBreastCancer.pkl,sha256=SV-NH85RJYcLvc5EJ65mWhJAByZQhE1PBp5SCTAVoiw,1235725
+mlbugdetection-0.0.8.dist-info/LICENSE,sha256=C4jNixQukj95RBfnR6Ric1n3EJCF3GowjMGffG2u5fM,1131
+mlbugdetection-0.0.8.dist-info/METADATA,sha256=XfcXBItr_JcHpuR_4ZW92V6DS4gxabtNWI48s8Ih8Z0,731
+mlbugdetection-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mlbugdetection-0.0.8.dist-info/top_level.txt,sha256=-8vqEVLJtJIICDUjisYQ7fk3dbFCuE4xPJrD1dTwkps,15
+mlbugdetection-0.0.8.dist-info/RECORD,,
