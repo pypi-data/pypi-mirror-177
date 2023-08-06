@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/DMDO/DMDO.py
+src/DMDO/__init__.py
+src/DMDO.egg-info/PKG-INFO
+src/DMDO.egg-info/SOURCES.txt
+src/DMDO.egg-info/dependency_links.txt
+src/DMDO.egg-info/requires.txt
+src/DMDO.egg-info/top_level.txt
