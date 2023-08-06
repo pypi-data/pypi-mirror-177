@@ -1,0 +1,11 @@
+## Include
+include README.md NOTICE requirements.txt
+global-include *.py *.tl *.tsv *.txt
+recursive-include generate *.py
+
+## Exclude
+prune pyAyiin/errors/exceptions
+prune pyAyiin/raw/functions
+prune pyAyiin/raw/types
+prune pyAyiin/raw/base
+exclude pyAyiin/raw/all.py
