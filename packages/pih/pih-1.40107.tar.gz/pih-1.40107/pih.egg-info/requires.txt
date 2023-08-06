@@ -1,0 +1,5 @@
+prettytable
+colorama
+grpcio
+requests
+transliterate
