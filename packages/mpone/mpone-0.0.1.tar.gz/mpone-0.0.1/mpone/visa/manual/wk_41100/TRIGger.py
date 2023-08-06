@@ -1,0 +1,2 @@
+def TRIGger(self):
+    pass

@@ -1,0 +1,2 @@
+def ConfigPulseVMeasureISweepLog():
+    pass
