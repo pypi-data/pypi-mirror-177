@@ -1,0 +1,10 @@
+lmsresources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lmsresources/databases/__init__.py,sha256=17zgKE2MD0omsRFMzHBbKfNai-qUu9e_j6HPIeoXbvo,24
+lmsresources/databases/databases.py,sha256=A2Y15I3uXhw2ETsTpFDAsUQOgzWd7VIFWKsNnGD6iBY,3820
+lmsresources/middlewares/__init__.py,sha256=tiaZbQXRXhdXWrtcaeNWlyVK_hDj9tGFmZbFBdhwOaA,59
+lmsresources/middlewares/middlewares.py,sha256=Kh2w7yG9X_eEaeRLh2zPThUye0XERMd4kE9N9ZqRhds,2534
+lmsresources/middlewares/middlewares_test.py,sha256=AYgPGI6CmY-t2AG7-IsycIMKM9aOoWl1u2NPtB9-IvY,2529
+lmsresources-0.0.3.dist-info/METADATA,sha256=whN95xjVTwy6X-3MW_gtd0uq-vAcR6qljRVCVMutMtg,180
+lmsresources-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lmsresources-0.0.3.dist-info/top_level.txt,sha256=Rkn09QLNO3sVUJGh2FmGrHY-qUqDfpu3TjJs0Qt3p90,13
+lmsresources-0.0.3.dist-info/RECORD,,
