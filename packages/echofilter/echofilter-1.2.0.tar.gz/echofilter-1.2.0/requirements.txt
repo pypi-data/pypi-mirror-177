@@ -1,0 +1,14 @@
+appdirs
+colorama
+configargparse
+matplotlib
+numpy
+pandas
+pywin32; platform_system=="Windows"
+pyyaml
+requests
+scikit-image
+scipy
+torch<1.12.0
+torchvision<0.13.0
+tqdm
