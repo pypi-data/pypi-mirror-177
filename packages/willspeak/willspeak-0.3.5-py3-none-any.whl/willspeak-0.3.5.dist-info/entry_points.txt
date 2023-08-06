@@ -1,0 +1,7 @@
+[console_scripts]
+willspeak=willspeak.__main__:entrypoint
+willspeak-client=willspeak.__main__:run_client
+willspeak-local=willspeak.__main__:run_local
+willspeak-server=willspeak.__main__:run_server
+willspeak-stop=willspeak.__main__:run_stop
+
