@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zksync-sdk
+Version: 0.1.666
+Summary: SDK for using zksync
+Home-page: https://zksync.io
+Author: MatterLabs
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: idna (<3)
+Requires-Dist: web3 (>=5.16)
+Requires-Dist: httpx (>=0.16)
+Requires-Dist: pydantic (>=1.7)
+Provides-Extra: test
+Requires-Dist: mypy (>=0.8) ; extra == 'test'
+
