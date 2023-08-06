@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "weatherforecastcli"
+version = "0.3.2"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+typer = {extras = ["all"], version = "^0.7.0"}
+pydantic = "^1.10.2"
+tzdata = "^2022.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+mypy = "^0.991"
+pytest = "^7.2.0"
+types-requests = "^2.28.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+weather = "weatherforecastcli.main:main"
