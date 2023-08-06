@@ -1,0 +1,22 @@
+[project]
+name = "gql_query_utils"
+version = "1.0.1"
+authors = [
+  { name="Prasanna Kumar Gollangi", email="pgollangi@pm.me" },
+]
+description = "Python package that converts GraphQL query into dictionary."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pgollangi/graphql-query-to-dict"
+"Bug Tracker" = "https://github.com/pgollangi/graphql-query-to-dict/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
