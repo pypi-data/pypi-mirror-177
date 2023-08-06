@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+Wicksell/transform.py
+Wicksell.egg-info/PKG-INFO
+Wicksell.egg-info/SOURCES.txt
+Wicksell.egg-info/dependency_links.txt
+Wicksell.egg-info/requires.txt
+Wicksell.egg-info/top_level.txt
