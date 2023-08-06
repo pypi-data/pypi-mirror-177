@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: colortool
+Version: 0.1.0
+Summary: set of tools to work with different color formats
+Home-page: https://github.com/tandav/colortool
+Author: Alexander Rodionov
+Author-email: tandav@tandav.me
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+```shell
+pip install colortool
+```
