@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ReFrame-HPC
+Version: 4.0.0.dev3
+Summary: ReFrame is a powerful framework for writing system regression tests and benchmarks, specifically targeted to HPC systems
+Home-page: https://github.com/reframe-hpc/reframe
+Author: Swiss National Supercomputing Center (CSCS/ETH Zurich), ReFrame Project Developers
+License: BSD 3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: archspec
+Requires-Dist: argcomplete
+Requires-Dist: jsonschema
+Requires-Dist: lxml
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: semver
+
