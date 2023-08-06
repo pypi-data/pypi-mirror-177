@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PolariSi
+Version: 1.0.0
+Summary: A one stop package for analysis of Polarization data
+Author-email: Siddharth Kumar <sidd.ansh@gmail.com>
+Project-URL: Homepage, https://github.com/Siddharth3-14/PolarSi
+Project-URL: Bug Tracker, https://github.com/Siddharth3-14/PolarSi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PolarSi
+
+This Package has been made compiling all the codes from my master's thesis
+and my internship at Haystack Observatory, MIT on Polarimetry data analysis.
+This package aims to be one stop for any requirements for polarimetry data analysis
