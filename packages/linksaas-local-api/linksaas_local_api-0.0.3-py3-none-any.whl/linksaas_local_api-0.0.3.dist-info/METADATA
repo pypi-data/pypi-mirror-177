@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: linksaas-local-api
+Version: 0.0.3
+Summary: linksaas local api python impl client
+Author-email: panleiming <panleiming@linksaas.pro>
+Project-URL: Homepage, https://jihulab.com/linksaas/analysis/openapi_py
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Other Environment
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-dateutil (>=2.5.3)
+Requires-Dist: urllib3 (>=1.25.3)
+
+基于[凌鲨](https://www.linksaas.pro)客户端本地api的python client
+
+### demo
+
+```python
+from  linksaas_local_api import ApiClient,Configuration
+from linksaas_local_api.apis import GlobalApi
+
+cfg = Configuration(host="http://127.0.0.1:8001")
+apiClient = ApiClient(configuration=cfg)
+api = GlobalApi(api_client=apiClient)
+res = api.hello_get()
+print(res)
+res = api.show_get()
+print(res)
+```
+
+# 接口说明
+
+## GlobalApi
+
+| 接口      | 功能                     |
+| --------- | ------------------------ |
+| hello_get | 检查是否是linksaas客户端 |
+| show_get  | 显示桌面端程序           |
+
+## ProjectBugApi
+
+| 接口                                                | 功能               |
+| --------------------------------------------------- | ------------------ |
+| project_project_id_bug_all_get                      | 列出所有缺陷       |
+| project_project_id_bug_my_get                       | 列出指派给我的缺陷 |
+| project_project_id_bug_record_bug_id_events_get     | 列出缺陷相关事件   |
+| project_project_id_bug_record_bug_id_short_note_get | 便签方式显示缺陷   |
+| project_project_id_bug_record_bug_id_show_get       | 在客户端显示缺陷   |
+
+## ProjectCreateApi
+
+| 接口                                           | 功能             |
+| ---------------------------------------------- | ---------------- |
+| project_project_id_create_bug_get              | 在客户端创建缺陷 |
+| project_project_id_create_doc_doc_space_id_get | 在客户端创建文档 |
+| project_project_id_create_task_get             | 在客户端创建任务 |
+
+## ProjectDocApi
+
+| 接口                                                      | 功能             |
+| --------------------------------------------------------- | ---------------- |
+| project_project_id_doc_space_doc_space_id_doc_id_show_get | 在客户端显示文档 |
+| project_project_id_doc_space_doc_space_id_get             | 列出文档         |
+| project_project_id_doc_space_get                          | 列出文档空间     |
+
+
+## ProjectEventApi
+
+| 接口                         | 功能         |
+| ---------------------------- | ------------ |
+| project_project_id_event_get | 列出事件列表 |
+
+## ProjectMemberApi
+
+| 接口                                              | 功能                 |
+| ------------------------------------------------- | -------------------- |
+| project_project_id_member_get                     | 列出项目成员列表     |
+| project_project_id_member_member_user_id_show_get | 在客户端显示成员信息 |
+
+## ProjectTaskApi
+
+| 接口                                                  | 功能               |
+| ----------------------------------------------------- | ------------------ |
+| project_project_id_task_all_get                       | 列出所有任务       |
+| project_project_id_task_my_get                        | 列出指派给我的任务 |
+| project_project_id_task_record_task_id_events_get     | 列出任务相关事件   |
+| project_project_id_task_record_task_id_short_note_get | 便签方式显示任务   |
+| project_project_id_task_record_task_id_show_get       | 在客户端显示任务   |
+| project_project_id_task_record_task_id_sub_task_get   | 列出子任务         |
+| project_project_id_task_record_task_id_depend_get     | 列出依赖工单       |
+
+## ProjectChannelApi
+
+| 接口                                          | 功能                               |
+| --------------------------------------------- | ---------------------------------- |
+| project_project_id_channel_msg_channel_id_get | 列出沟通内容                       |
+| project_project_id_channel_my_get             | 列出我的沟通频道                   |
+| project_project_id_channel_not_join_get       | 列出我未加入的频道(需要管理员权限) |
+| project_project_id_channel_orphan_get         | 列出孤儿频道                       |
+
+## ProjectContentBlockApi
+
+| 接口                                                     | 功能               |
+| -------------------------------------------------------- | ------------------ |
+| project_project_id_block_coll_block_coll_id_block_id_get | 获取可变内容块内容 |
+| project_project_id_block_coll_block_coll_id_get          | 列出可变内容块     |
+| project_project_id_block_coll_get                        | 列出可变内容集合   |
