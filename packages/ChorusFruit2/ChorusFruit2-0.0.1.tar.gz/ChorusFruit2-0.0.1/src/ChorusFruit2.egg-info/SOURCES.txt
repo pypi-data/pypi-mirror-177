@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.md
+pyproject.toml
+src/ChorusFruit2/__init__.py
+src/ChorusFruit2/__main__.py
+src/ChorusFruit2/core.py
+src/ChorusFruit2/style.py
+src/ChorusFruit2.egg-info/PKG-INFO
+src/ChorusFruit2.egg-info/SOURCES.txt
+src/ChorusFruit2.egg-info/dependency_links.txt
+src/ChorusFruit2.egg-info/top_level.txt
