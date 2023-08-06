@@ -1,0 +1,17 @@
+python3_captchaai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python3_captchaai/__version__.py,sha256=gC_vjQphfSjNkG-s-FgrcHynuqNUdc6DTvivQauapU8,20
+python3_captchaai/config.py,sha256=eE6PsNupaOQF7c-rXfP6pafmlZ1Q3fKkxEpF9R_W8Pk,241
+python3_captchaai/control.py,sha256=mdiJDKXZ_aNvRyIAJGH0Xut81_ZJwaVBSzJVyYlpzdg,2491
+python3_captchaai/datadome_slider.py,sha256=UDhy1JOi7jLKzoRXA5xJ60CAtqs6_rH8n-khOIBJrXE,6450
+python3_captchaai/enums.py,sha256=sc0OVasTHI_Ie3qtbVATjeDCaS_ufeClFmzT7hPqVQ0,371
+python3_captchaai/fun_captcha.py,sha256=jtLbw9Yiajy0QaCo1NEOAjqqcPKKwcGIdnOJ5P9IwYw,13609
+python3_captchaai/gee_test.py,sha256=JGES2LTpwJ8H5tzcT2XsFTvs43y-nnnZ8vEpIHj6cbk,7451
+python3_captchaai/hcaptcha.py,sha256=fNPFENO9ynD9E1zMLiDtY1_-3KSYviQ66PIqCiQQcLw,7716
+python3_captchaai/image_to_text.py,sha256=9eb-BXDqNf36TBWdfcJFsqftcxa7Rb03s-TdTt4R94k,6472
+python3_captchaai/recaptcha.py,sha256=rmQgpkjspF9GzA5HDbw3sNL5UNXxwJY1J2o5IrB5J3M,8185
+python3_captchaai/__pycache__/__init__.cpython-310.pyc,sha256=kMPezuPGz5ZU_-fbi-wUJnndhTB81i3hyYlbkV5WoDM,189
+python3_captchaai/__pycache__/recaptcha.cpython-310.pyc,sha256=1JiGph7PkDsOI_5T18ZByrMPin7_L1gtahGFDOPrRJo,7686
+python3_captchaai-0.3.dist-info/METADATA,sha256=Vvy_QDCbqrG3YrKvnUKk2LesYcSA7S7Yom6oleAaHso,4059
+python3_captchaai-0.3.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+python3_captchaai-0.3.dist-info/top_level.txt,sha256=2moluZ1pflq1TtVtT4xV48cqfuQajLEpo1CKWCQHNEs,18
+python3_captchaai-0.3.dist-info/RECORD,,
