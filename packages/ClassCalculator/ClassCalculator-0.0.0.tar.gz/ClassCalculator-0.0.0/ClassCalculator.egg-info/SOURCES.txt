@@ -1,0 +1,8 @@
+pyproject.toml
+ClassCalculator/ClassCalculator_LK.py
+ClassCalculator/__init__.py
+ClassCalculator/test_calc.py
+ClassCalculator.egg-info/PKG-INFO
+ClassCalculator.egg-info/SOURCES.txt
+ClassCalculator.egg-info/dependency_links.txt
+ClassCalculator.egg-info/top_level.txt
