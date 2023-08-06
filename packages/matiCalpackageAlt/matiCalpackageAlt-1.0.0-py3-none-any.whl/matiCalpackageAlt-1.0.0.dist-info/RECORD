@@ -1,0 +1,11 @@
+matiCalpackage/__init__.py,sha256=SgJRVtxMUAf1olW7P_xGaq1DRD6HtYAnStceK1BHM6o,80
+matiCalpackage/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+matiCalpackage/expo.py,sha256=8TOGArtotKg_goDXRhXioHSTWDGsEptR-oNQCBsi7Rs,37
+matiCalpackage/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+matiCalpackage/extras/__init__.py,sha256=WH_NDYeXDcviWAlS7M4KMvxfCl6JcxiV75w70avElZU,55
+matiCalpackage/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+matiCalpackage/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+matiCalpackageAlt-1.0.0.dist-info/METADATA,sha256=4pIZxkDt9cN-yYfM7YTPLLJU5oxlQ9yoYMgNXBaZh24,534
+matiCalpackageAlt-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matiCalpackageAlt-1.0.0.dist-info/top_level.txt,sha256=QfCeW757uZZvWnDvEQl8hIDP2kYDzs2ptYUgt69XGgc,15
+matiCalpackageAlt-1.0.0.dist-info/RECORD,,
