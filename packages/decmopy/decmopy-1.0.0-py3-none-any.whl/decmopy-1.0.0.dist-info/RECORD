@@ -1,0 +1,14 @@
+decmopy/__init__.py,sha256=Ijg5KUhOsnUbKz4O840_oloI6VIj49h12lwdUuH6WTY,141
+decmopy/decmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decmopy/decmo/decmo_float.py,sha256=h0QpRxl6rhjyNTkqL0UHYw2QwIqwR3Mfxf-PSZFZQTg,8050
+decmopy/decmo/decmo_integ.py,sha256=ho1Ai88ugZ88v-hmsP-Z3mE1AvQo5f77JEll2KcsBBo,8073
+decmopy/decmo2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decmopy/decmo2/crec.py,sha256=g_zVGe7S-TvrJl55rA8VZsExj1CP4saxEl_kC_RRNdw,346
+decmopy/decmo2/decmo2.py,sha256=i1-mp1dyquVIbYU2oncdDPEAR9qF8oQcBRU2iyCby5s,23556
+decmopy/decmo2/dgen.py,sha256=hpr7rXU-XlwJ_N1kZnyuPLWUpdHj8RsbGRiGPHFyO0M,3653
+decmopy/decmo2/drec.py,sha256=32kiOduv4hcaMDvTf2A5WgiAA9-pJS6axCbIDivhyRQ,498
+decmopy-1.0.0.dist-info/LICENSE,sha256=zQp_XoD7qU_XH63cMJQ9Xq5mShbDg_h2AdpRaHFWceU,1075
+decmopy-1.0.0.dist-info/METADATA,sha256=8OdWytb0SJQnwvi9Iq_mtWXBSbmXc1fMZdR7T1P2dno,1323
+decmopy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+decmopy-1.0.0.dist-info/top_level.txt,sha256=GK0E2tz9lIbgwRVYtXNn5PZMCYLot4zMa8HHYthVneo,8
+decmopy-1.0.0.dist-info/RECORD,,
