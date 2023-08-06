@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ebhook-receiver
+Version: 0.0.2
+Summary: Simple Implementaion of GitHub and GitLab Webhook Receiver
+Home-page: https://github.com/MakeDirtyCode/ebhook-receiver
+Author: caffeinism
+Author-email: make.dirty.code@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+
