@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: miyanepp
+Version: 0.6
+Summary: UNKNOWN
+Home-page: https://github.com/miyanyan/miyanepp
+Author: Giorgos Myrianthous
+Author-email: email@example.com
+License: MIT
+Keywords: example project
+Platform: UNKNOWN
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
+
