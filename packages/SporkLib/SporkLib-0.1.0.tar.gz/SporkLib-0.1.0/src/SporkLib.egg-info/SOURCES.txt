@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/Spork/__init__.py
+src/Spork/main.py
+src/SporkLib.egg-info/PKG-INFO
+src/SporkLib.egg-info/SOURCES.txt
+src/SporkLib.egg-info/dependency_links.txt
+src/SporkLib.egg-info/top_level.txt
