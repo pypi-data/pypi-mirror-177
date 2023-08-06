@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: competitions
+Version: 0.0.4
+Summary: Hugging Face Competitions
+Home-page: https://github.com/huggingface/competitions
+Author: HuggingFace Inc.
+License: UNKNOWN
+Download-URL: https://github.com/huggingface/competitions/tags
+Keywords: huggingface competitions machine learning ai nlp
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Provides-Extra: dev
+Provides-Extra: quality
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+
+---
+title: my competition
+emoji: 🏢
+colorFrom: indigo
+colorTo: gray
+sdk: docker
+pinned: false
+app_port: 7860
+---
+
+
