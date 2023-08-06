@@ -1,0 +1,5 @@
+[console_scripts]
+Akela = akela.geturi:start
+Akela-find = akela.find:start
+Akela-sync = akela.sync:sync
+
