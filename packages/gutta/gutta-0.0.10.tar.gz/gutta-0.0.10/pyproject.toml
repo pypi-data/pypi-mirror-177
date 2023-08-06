@@ -1,0 +1,50 @@
+[project]
+name = "gutta"
+
+authors = [{name="cancrizans", email="cancrizans.canon@gmail.com"}]
+readme = "README.md"
+description = "A simple, modular static site builder for webcomics."
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "click",
+    "jinja2",
+    "pyyaml",
+    "oyaml",
+    "markdown",
+    "libsass",
+    "imagesize",
+    "numpy",
+    "python-dateutil",
+    "feedgen",
+    "pytz"
+]
+
+dynamic = ["version"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "gutta.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/cancrizans/gutta"
+"Bug Tracker" = "https://github.com/cancrizans/gutta/issues"
+
+[project.scripts]
+gutta = "gutta.cli:main"
+
