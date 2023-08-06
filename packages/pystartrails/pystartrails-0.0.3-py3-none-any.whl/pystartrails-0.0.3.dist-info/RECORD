@@ -1,0 +1,10 @@
+pystartrails/__init__.py,sha256=bVZ0tOyczYo4E_rJwtdRA_Vh7runE9x19bvbjegZ9pQ,65
+pystartrails/generator/__init__.py,sha256=c9ZLPNKMz2tnYH4XGt6IJUGeAgO_jR7zrDl0dF8CNVg,44
+pystartrails/generator/trailsgenerator.py,sha256=VSbRjGtGDBSIBAW3B66emSimbTWwGIEUHEDtNXudyfo,3446
+pystartrails/tests/__init__.py,sha256=H3JelcyuMGr2nFfGpGeG8MSM5wRA7ra4oKeXaGVkqzE,26
+pystartrails/tests/tester.py,sha256=CnUj1-mufrDKPvwQFjpwlxAaP0BTjKrBsv5tDf7t8mM,1703
+pystartrails-0.0.3.dist-info/LICENSE,sha256=KopDwquqY7f6XFCYSVzAeDHdd0XUialOmlLLirkHRJQ,1091
+pystartrails-0.0.3.dist-info/METADATA,sha256=zzK-AvqhwQXAEAvfIbwsm1jXF9BU-FaR-31msuGyPIc,5067
+pystartrails-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pystartrails-0.0.3.dist-info/top_level.txt,sha256=dfWzL1go4YoFEey5HUrmh4ZezRD9YyJ-odJEWZUSOGg,13
+pystartrails-0.0.3.dist-info/RECORD,,
