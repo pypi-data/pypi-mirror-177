@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: naas-proxy-manager
+Version: 0.0.1
+Summary: Create proxies on multiple providers with ease.
+Home-page: https://github.com/jupyter-naas/naas-proxy-manager
+Author: Maxime Jublou
+Author-email: maxime@naas.ai
+Maintainer: Maxime Jublou
+Maintainer-email: maxime@naas.ai
+License: UNKNOWN
+Keywords: proxy,aws,providers,automated
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+Create and delete proxies on multiple providers by simply passing the required credentials. It will deploy required underliyng infrastructure automaticaly to allow you to deploy tens to hundreds of proxies in a very short time.
+
