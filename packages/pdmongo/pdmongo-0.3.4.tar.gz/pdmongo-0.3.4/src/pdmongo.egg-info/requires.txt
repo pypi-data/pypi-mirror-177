@@ -1,0 +1,6 @@
+pymongo<4.4,>=3.13
+pandas<1.6,>=0.20
+
+[test]
+pytest>=4.0.2
+pytest-mock>=1.10.0
