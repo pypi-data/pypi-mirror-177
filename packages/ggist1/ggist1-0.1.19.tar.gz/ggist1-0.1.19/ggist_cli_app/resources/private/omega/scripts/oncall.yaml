@@ -1,0 +1,102 @@
+description: '---'
+name: oncall
+spec:
+  alias: null
+  globals:
+  - content: "\n## Oncall brief:\n### Owning The Services\nEach team's on-call will\
+      \ 1st and foremost be responsible to be aware of the state of all microservices\
+      \ owned by the team.\n\nUse the available tooling to gain insight into the health\
+      \ of the team's domain and act as needed\n\nInspect your services proactively\
+      \ on a daily basis\nInvest the time to find the cause, and potential impact\
+      \ of each issue detected.\nAct on all critical issues and involve the team when\
+      \ needed.\nDo not ignore any issue, if some issue does not require immediate\
+      \ urgent attention file a Jira ticket and assign it to the team.\nDetermine\
+      \ on a daily basis that all team's services are at a \"GOOD\" state both in\
+      \ STG and PRD (see definition of GOOD below)\n\n### Availability\nIt is expected\
+      \ from the team on-call to be available during workday hours\nRespond, assist\
+      \ and route to the proper person, any request in Slack from \"@<team-name>-oncall\"\
+      \ or \"@<team-name>\" tag assistance in various Slack channels. In particular\
+      \ \"#csp-assist\" channel.\nBe available and near a computer. If CSP on-call\
+      \ pages your team - be the 1st respond.\n                    "
+    description: ''
+    id: hi_md
+    runner: markdown
+    title: Instructions
+  - content: '
+
+      kubectl get pods | grep "csp-lake-"
+
+      kubectl get pods | grep "csp-data-"
+
+      kubectl get pods | grep "csp-spark-"
+
+      '
+    description: '---'
+    id: print_pods
+    runner: shell
+    title: printout our pods
+  - content: '
+
+      kubectl get events | grep -i "csp-lake-\|csp-data\|csp-spark"
+
+
+      '
+    description: '---'
+    id: print_events
+    runner: shell
+    title: printout events
+  variations:
+  - depends: []
+    env: osx
+    label: ''
+    steps:
+    - ref: hi_md
+    - content: "\n                    export KUBECONFIG=~/.kube/csp-dev.yaml\n   \
+        \                 vdp profile activate devprofile\n                    kubectl\
+        \ config set-context --current --namespace=csp-app-dev"
+      description: '---'
+      runner: shell
+      title: move to dev k8s cluster
+    - ref: print_pods
+    - ref: print_events
+    - content: "\n                    export KUBECONFIG=~/.kube/csp-stg.yaml\n   \
+        \                 vdp profile activate stgprofile\n                    kubectl\
+        \ config set-context --current --namespace=csp-app-stg"
+      description: '---'
+      runner: shell
+      title: move to stg k8s cluster
+    - ref: print_pods
+    - ref: print_events
+    - content: "\n                    export KUBECONFIG=~/.kube/csp-prd.yaml\n   \
+        \                 vdp profile activate prdprofile\n                    kubectl\
+        \ config set-context --current --namespace=csp-app-prd"
+      description: '---'
+      runner: shell
+      title: move to prd k8s cluster
+    - ref: print_pods
+    - ref: print_events
+    - content: https://grafana.us02.csp.vmware.com/grafana/d/7pua19S4k/csp-prometheus?orgId=1&var-datasource=vdp-prd-west&var-namespace=csp-app-prd&var-app=csp-lake-consumer
+      description: '---'
+      runner: link
+      title: view graphana lake consumer
+    - content: https://grafana.us02.csp.vmware.com/grafana/d/7pua19S4k/csp-prometheus?orgId=1&var-datasource=vdp-prd-west&var-namespace=csp-app-prd&var-app=csp-data-enrichment
+      description: '---'
+      runner: link
+      title: view graphana data enrichment
+    - content: https://grafana.us02.csp.vmware.com/grafana/d/7pua19S4k/csp-prometheus?orgId=1&var-datasource=vdp-prd-west&var-namespace=csp-app-prd&var-app=csp-data-aggregator
+      description: '---'
+      runner: link
+      title: view graphana data-agg
+    - content: https://csp-jenkins.eng.vmware.com/view/Dev%20Automation%20Tests/job/csp_api_automation_tests_dev_omega/
+      description: '---'
+      runner: link
+      title: view test automation status
+    - content: https://supercollider.vmware.com/manage/teams/CSP/data-jobs
+      description: '---'
+      runner: link
+      title: view data jobs status
+    - content: https://app.logz.io/#/dashboard/kibana/discover/?_a=(columns:!(message),filters:!(),index:'logzioCustomerIndex*',interval:auto,query:(language:lucene,query:'%22csp-data-enrichment%22%20OR%20%22csp-lake-consumer%22%20OR%20%22csp-data-aggregator%22'),sort:!())&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-24h,to:now))&discoverTab=logz-exceptions-tab&accountIds=14652&accountIds=14651&accountIds=14650&switchToAccountId=11586
+      description: '---'
+      runner: link
+      title: view exceptions of the last 24 hours
+title: Daily oncall routine
