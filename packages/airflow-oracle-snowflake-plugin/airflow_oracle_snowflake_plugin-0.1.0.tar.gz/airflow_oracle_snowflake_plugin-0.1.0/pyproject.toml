@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airflow-oracle-snowflake-plugin"
+version = "0.1.0"
+description = "Package for airflow operator which copies tables from oracle database to snowflake."
+authors = ["Ali Bhayani <ali.bhayani1@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "airflow_oracle_snowflake_plugin"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+oracledb = "^1.2.0"
+apache-airflow-providers-oracle = "^3.4.0"
+apache-airflow-providers-snowflake = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
