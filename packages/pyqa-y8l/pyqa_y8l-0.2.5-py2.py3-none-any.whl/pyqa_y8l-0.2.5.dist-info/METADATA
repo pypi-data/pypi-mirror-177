@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pyqa-y8l
+Version: 0.2.5
+Summary: Python console appliction that searches the internet for asnwers to coding problems
+Home-page: https://github.com/yusufadell/pyqa
+Author: Yusuf Adel
+Author-email: yusufadell.dev@gmail.com
+License: Apache Software License 2.0
+Keywords: pyqa
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click (>=7.0)
+Requires-Dist: rich (>=12.6.0)
+Requires-Dist: textual (>=0.4.0)
+Requires-Dist: pyfiglet (>=0.8.post1)
+
+pyqa
+====
+
+[![image](https://img.shields.io/pypi/v/pyqa.svg)](https://pypi.python.org/pypi/pyqa)
+
+[![image](https://img.shields.io/travis/yusufadell/pyqa.svg)](https://travis-ci.com/yusufadell/pyqa)
+
+[![Documentation Status](https://readthedocs.org/projects/pyqa/badge/?version=latest)](https://pyqa.readthedocs.io/en/latest/?version=latest)
+
+Python console appliction that searches the internet for asnwers to coding problems
+
+- Free software: Apache Software License 2.0
+- Documentation: <https://pyqa.readthedocs.io>.
+
+![screenshot](https://github.com/yusufadell/pyqa/raw/master/assets/screenshot.png)
+
+Features
+--------
+
+- TODO
+
+Credits
+-------
+
+This package was created with
+
+[Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
+
+
+=======
+History
+=======
+
+0.1.0 (2022-11-07)
+------------------
+
+* First release on PyPI.
