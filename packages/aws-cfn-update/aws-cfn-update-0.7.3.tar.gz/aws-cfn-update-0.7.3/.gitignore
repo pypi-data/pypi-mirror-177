@@ -1,0 +1,13 @@
+.pytest_cache/
+.eggs/
+.idea/workspace.xml
+.idea/tasks.xml
+venv/
+*.pyc
+
+dist/
+build/
+*.egg-info/
+
+.tox/
+.coverage
