@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ggist1
+Version: 0.1.19
+Summary: CLI tool boilerplate using click, please replace!
+Home-page: https://github.com/mzsrtgzr2/ggist
+Author: Moshe Ro
+Author-email: mzsrtgzr2@gmail.com
+License: UNKNOWN
+Keywords: ggist1
+Platform: UNKNOWN
+Requires-Dist: Click (>=6.0)
+Requires-Dist: rich
+Requires-Dist: inquirer
+Requires-Dist: dacite
+Requires-Dist: pyyaml
+
+bla bla
+
+

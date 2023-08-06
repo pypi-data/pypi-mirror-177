@@ -1,0 +1,38 @@
+description: clean clean clean
+name: clean
+spec:
+  alias: dkclean
+  globals: []
+  variations:
+  - depends: []
+    env: any
+    label: null
+    steps:
+    - content: "\n#!/bin/bash\n\n# options:\n# remove stopped containers and untagged\
+        \ images\n#   $ dkcleanup \n# remove all stopped|running containers and untagged\
+        \ images\n#   $ dkcleanup --reset\n# remove containers|images|tags matching\
+        \ {repository|image|repository\\image|tag|image:tag}\n# pattern and untagged\
+        \ images\n#   $ dkcleanup --purge {image}\n# everything\n#   $ dkcleanup --nuclear\n\
+        \necho \"moshe\"\necho \"$1\"\n\nif [ \"$1\" == \"--reset\" ]; then\n    #\
+        \ Remove all containers regardless of state\n    docker rm -vf $(docker ps\
+        \ -a -q) 2>/dev/null || echo \"No more containers to remove.\"\nelif [ \"\
+        $1\" == \"--purge\" ]; then\n    # Attempt to remove running containers that\
+        \ are using the images we're trying to purge first.\n    (docker rm -vf $(docker\
+        \ ps -a | grep \"$2/\\|/$2 \\| $2 \\|:$2\\|$2-\\|$2:\\|$2_\" | awk '{print\
+        \ $1}') 2>/dev/null || echo \"No containers using the \"$2\" image, continuing\
+        \ purge.\") &&    # Remove all images matching arg given after \"--purge\"\
+        \n    docker rmi $(docker images | grep \"$2/\\|/$2 \\| $2 \\|$2 \\|$2-\\\
+        |$2_\" | awk '{print $1 \":\" $2}') 2>/dev/null || echo \"No images matching\
+        \ \"$2\" to purge.\"\nelse\n    # This alternate only removes \"stopped\"\
+        \ containers\n    docker rm -vf $(docker ps -a | grep \"Exited\" | awk '{print\
+        \ $1}') 2>/dev/null || echo \"No stopped containers to remove.\"\nfi\n\nif\
+        \ [ \"$1\" == \"--nuclear\" ]; then\n    docker rm -vf $(docker ps -a -q)\
+        \ 2>/dev/null || echo \"No more containers to remove.\"\n    docker rmi $(docker\
+        \ images -q) 2>/dev/null || echo \"No more images to remove.\"\nelse\n   \
+        \ # Always remove untagged images\n    docker rmi $(docker images | grep \"\
+        <none>\" | awk '{print $3}') 2>/dev/null || echo \"No untagged images to delete.\"\
+        \nfi\n\nexit 0\n"
+      description: This will install docker on your machine
+      runner: shell
+      title: clean docker
+title: clean docker script
