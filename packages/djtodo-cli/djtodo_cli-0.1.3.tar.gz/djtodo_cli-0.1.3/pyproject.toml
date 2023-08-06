@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "djtodo-cli"
+version = "0.1.3"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "djtodo_cli"}, {include = "File.py"}, {include = "module.py"}]
+repository = "https://github.com/dongjin2008/djtodo"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+djtodo = "djtodo_cli.djtodo.djtodo:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
