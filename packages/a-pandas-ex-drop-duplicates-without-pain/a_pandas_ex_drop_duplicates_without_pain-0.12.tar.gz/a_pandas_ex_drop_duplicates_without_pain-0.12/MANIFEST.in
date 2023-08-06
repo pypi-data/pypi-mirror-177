@@ -1,0 +1,4 @@
+include a_pandas_ex_drop_duplicates_without_pain/requirements.txt
+include a_pandas_ex_drop_duplicates_without_pain/thirdparty.json
+include a_pandas_ex_drop_duplicates_without_pain/README.MD
+include a_pandas_ex_drop_duplicates_without_pain/LICENSE

@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_drop_duplicates_without_pain/LICENSE
+a_pandas_ex_drop_duplicates_without_pain/README.MD
+a_pandas_ex_drop_duplicates_without_pain/__init__.py
+a_pandas_ex_drop_duplicates_without_pain/requirements.txt
+a_pandas_ex_drop_duplicates_without_pain/thirdparty.json
+a_pandas_ex_drop_duplicates_without_pain.egg-info/PKG-INFO
+a_pandas_ex_drop_duplicates_without_pain.egg-info/SOURCES.txt
+a_pandas_ex_drop_duplicates_without_pain.egg-info/dependency_links.txt
+a_pandas_ex_drop_duplicates_without_pain.egg-info/requires.txt
+a_pandas_ex_drop_duplicates_without_pain.egg-info/top_level.txt
