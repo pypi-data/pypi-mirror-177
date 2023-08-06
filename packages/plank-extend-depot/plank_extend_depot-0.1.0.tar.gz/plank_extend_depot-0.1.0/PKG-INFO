@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plank-extend-depot
+Version: 0.1.0
+Summary: 
+License: Apache-2.0
+Author: Grady Zhuo
+Author-email: grady@ospark.org
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: ndjson (>=0.3.1,<0.4.0)
+Requires-Dist: packaging (>=21.3,<22.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: plank (>=0.1.0,<0.2.0)
+Requires-Dist: tables (>=3.7.0,<4.0.0)
