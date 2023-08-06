@@ -1,0 +1,314 @@
+Metadata-Version: 2.1
+Name: pongo-cm
+Version: 0.1.1
+Summary: Server configuration managment tool
+License: Apache
+License-File: LICENSE.rsub
+Requires-Dist: jinja2
+
+Pongo
+=====
+
+Pongo reads scripts from a file, uploads them to remote hosts and executes them there.
+
+- Write a script once and run it on multiple hosts
+- Target hosts by tag (eg "webservers" or "aws")
+- Per-host and per-tag customization via Jinja2 templated configuration files
+
+
+Example: installing a web application with Pongo
+================================================
+
+This example demonstrates using Pongo to install WordPress on FreeBSD.
+
+Create a new directory called ``wordpress``. This is called the pongo script directory, and must contain a file named ``Pongofile``.
+Create a new text file called ``wordpress/Pongofile``::
+
+    default:
+        script:
+            pkg install -y wordpress
+            pkg install -y mariadb106-server
+            pkg install -y nginx
+            pkg install -y wordpress
+
+            rinstall nginx.conf /usr/local/etc/nginx/nginx.conf
+
+            sysrc mysql_enable=YES
+            sysrc php_fpm_enable=YES
+            sysrc nginx_enable=YES
+
+            service mysql-server start
+            service php-fpm start
+            service nginx start
+
+This defines a single target named ``default``. The script block is a regular
+shell script that will be uploaded to the server and run from within a staging
+directory.
+
+Other files can be added inside the ``wordpress`` script directory.
+All other files will be uploaded to the staging directory,
+so as to be available to scripts.
+To make this example work you need to place an ``nginx.conf`` inside
+the script directory::
+
+    user www;
+    worker_processes auto;
+    error_log /var/log/nginx/error.log;
+    events {
+        worker_connections 1024;
+    }
+    http {
+        include mime.types;
+        default_type application/octet-stream;
+        keepalive_timeout 65;
+        server {
+            listen 80 default_server;
+            root /usr/local/www/wordpress;
+            index index.php;
+            location / {
+                try_files $uri $uri/ /index.php?q=$uri&$args;
+            }
+            error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+                root /usr/local/www/nginx-dist;
+            }
+            location ~ \.php$ {
+                try_files $uri =404;
+                fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass localhost:9000;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $request_filename;
+                include fastcgi_params;
+            }
+        }
+    }
+
+
+The ``rinstall`` command is a utility script that is always provided in the
+``bin/`` subdirectory of the staging directory.
+It installs the named file to the specified location.
+
+Invoke pongo by passing it the path of the ``wordpress`` directory and a host to run against::
+
+    pongo --host webserver.example.com wordpress
+
+
+What does Pongo do when you run this command?
+---------------------------------------------
+
+For each host specified,
+Pongo opens an ssh connection and creates a temporary staging directory.
+
+It populates this staging directory with:
+
+- the `rinstall and rsub`_ utility scripts
+
+- all ``script`` blocks from your Pongofile. These are passed through the
+  Jinja2 templating engine, making it possible to customize scripts per-host.
+  Scripts are sorted in execution order and numbered.
+
+- any other files present in your script directory.
+
+The final structure might look like this::
+
+    /tmp/pongo-staging.zikzsvis/wordpress-4bef9a/00.default
+    /tmp/pongo-staging.zikzsvis/wordpress-4bef9a/nginx.conf
+    /tmp/pongo-staging.zikzsvis/wordpress-4bef9a/bin/rinstall
+    /tmp/pongo-staging.zikzsvis/wordpress-4bef9a/bin/rsub
+
+Pongo then executes all the scripts in order - in this example, only ``00.default``
+
+Once all scripts have been executed, Pongo deletes the staging directory and disconnects from the server.
+
+
+Pongofile
+=========
+
+Pongo scripts must be contained in a file named
+``Pongofile``. This file lists one or more targets, and uses indentation to
+indicate structure.
+
+Target names form the outermost level. Each target will usually have a ``script`` directive, but may contain other directives,
+like ``env`` to set environment variables while running the script or
+``before`` to indicate a dependency. Here's an example of some targets from a
+file named ``sysadmin-tasks/Pongofile``::
+
+    freebsd-update-fetch:
+        script:
+            freebsd-update fetch
+
+    freebsd-update:
+        before: freebsd-update-fetch
+        env: PAGER=cat
+        script:
+            freebsd-update install
+
+These targets could be run with the command line::
+
+    pongo --host <hostspec> sysadmin-tasks freebsd-update
+
+If no target name is specified on the command line, Pongo will look for a
+target named ``default``.
+
+Directives
+----------
+
+``env``
+    An environment variable to be set on the server execution. May be specified multiple times.
+
+``before``
+    A script that must be run before this one. May be specified multiple times.
+    TODO: a script from a different file may be selected with the syntax ``otherfile.pongo:scriptname``
+
+``after``
+    A script that must be run after this one. May be specified multiple times.
+
+``interpreter``
+    The script interpreter to use. defaults to ``/bin/sh``.
+
+``user``
+    The user to run as, defaulting to ``root``.
+    Adding this directive but leaving it empty will cause the script to be run
+    without elevated privileges.
+
+``script``
+    The text of the script itself.
+
+``local``
+    If this directive is present, the script will be run on the local machine
+
+``pipe-from``
+    Input to this script will be piped from the named script.
+
+``message``
+    A message to be displayed after this script completes
+
+``confirm``
+    A confirmation step, that must be answered interactively by the user before
+    the script is run.
+
+All directive values are evaluated using `jinja2
+<https://jinja.palletsprojects.com/>`_. You can pass variables to the Jinja2
+templating engine by specifying values in the ``environ`` section of the host
+and tag configuration.
+
+rinstall and rsub
+-----------------
+
+These are automatically placed into a ``bin`` subdirectory of the staging directory.
+These files are from the `rset project <https://scriptedconfiguration.org/>`_, which has informed and inspired the design of pongo.
+
+`rinstall man page <https://scriptedconfiguration.org/man/rinstall.1.html>`_
+
+`rsub man page <https://scriptedconfiguration.org/man/rsub.1.html>`_
+
+Other files
+-----------
+
+Files in the script directory will be uploaded to the staging directory.
+Any files with the extension ``.j2``
+are treated as jinja2 templates
+and will be pre-rendered with values loaded from the host's environ configuration before uploading.
+
+
+Environment variables:
+----------------------
+
+``PONGO_SSH`` - the ssh executable
+``PONGO_SSH_OPTS`` - arguments to pass to ssh
+``PONGO_HOST`` - the current host, as supplied to pongo
+``PONGO_HOSTNAME`` - the resolved hostname of the current host
+``PONGO_HOST_IP`` - the current host's IP address
+``PONGO_CONNECT_USER`` - the username to connect with
+``PONGO_USER`` - if set, commands will be executed under sudo as the named user
+
+Other environment variables can be set in one of the following config files.
+These are read in order, with later ones overriding variables set in earlier
+ones:
+
+- ``pongo.conf.d/environ.json``
+- ``pongo.conf.d/tags/<tag>/environ.json``
+- ``pongo.conf.d/<hostname>/environ.json``
+
+(You can also use toml format for these files if you prefer).
+
+Environment variables read from these files are subject to template expansion and interpolation, using
+Jinja2. For exsmple::
+
+    # In pongo.conf.d/environ.toml
+    backup_files='/usr/local /home'
+
+    # In pongo.conf.d/<hostname>/environ.toml
+    backup_files='{{ backup_files }} /var/db'
+
+
+Configuration
+==============
+
+Pongo loads its configuration from a directory named ``pongo.conf.d``. It will search for this:
+
+- in any location specified by ``--config``
+- in ``$XDG_CONFIG_HOME``
+- in ``$HOME/.config``
+
+The configuration directory should have the following structure:
+
+
+``pongo.conf.d/scriptbase`` - a file naming the path where script directories will be searched for
+``pongo.conf.d/environ.json`` - default values supplied to the Jinja templating engine
+``pongo.conf.d/hosts/`` - a directory containing per-host configuration, explained below.
+``pongo.conf.d/tags/`` - a directory containing per-tag configuration, explained below.
+
+Hosts
+-----
+
+Each host should have a subdirectory containing its configuration. This may contain any of the following files::
+
+``pongo.conf.d/hosts/<host>/hostname`` - hostname to use for ssh connection
+``pongo.conf.d/hosts/<host>/user`` - user for ssh connection
+``pongo.conf.d/hosts/<host>/sudo`` - sudo program to use
+``pongo.conf.d/hosts/<host>/tags`` - a list of tags to apply to the host, one per line
+``pongo.conf.d/hosts/<host>/environ.json`` - extra environment vairables
+
+
+Tags
+----
+
+Hosts can be grouped by tags.
+Tag a host by create a file named ``pongo.conf.d/hosts/<host>/tags``, with one tag per line.
+You can add as many tags as you find useful, perhasp tagging by role (eg
+``webserver``, ``database``), by technology (eg ``openbsd``, ``linux``), by
+location (``europe``, ``asia``) and so on.
+
+Target tagged groups by using the syntax ``--host @<tag>``, eg::
+
+    pongo --host @freebsd
+    pongo --host @ovh
+
+Note: the special tag ``@all`` can be used to target all hosts.
+
+Tags can be configured by adding files under ``pongo.conf.d/tags/<tag>``, for example::
+
+    ``pongo.conf.d/tags/<tag>/environ.json`` - environ variables to apply to all servers with this tag
+    ``pongo.conf.d/tags/<tag>/tags - other tags which are included automatically
+
+For example, you might have a tag ``postgresql15``, which includes the tag
+``postgresql``, which includes the tag ``database``.
+
+
+Ad-hoc scripts
+==============
+
+Ad-hoc scripts can be run with ``--command``/``-c``, for example:
+
+    pongo --host @all --command "uptime"
+
+In this case a script directory is not required.
+
+
+Output
+======
+
+Pongo outputs all responses from the server to stdout. It also creates a
+logging directory named ``/tmp/pongo-<target>-<date>/``. Within this directory
+Pongo creates one file per host containing that host's output.

@@ -1,0 +1,17 @@
+dirconf.py,sha256=TqJN1VHmk-AWV1OunJ667gEnjztMiTGGzuieMdcAffE,5774
+pongo/__init__.py,sha256=8zaCblLIop0CR7_gyslcI9oHw4HOoJqu0SPckjuKlwc,3769
+pongo/config.py,sha256=EXFSIla-Dd3u4h1EKYEj9Le-Th6gcIY877cWZtACz90,849
+pongo/connect.py,sha256=GF3beyRlHL3gwnTxoBH8pvpbDHJgQPI7nDmK0jEtPM0,2197
+pongo/indentedtext.py,sha256=fPI98RwD0QaBY16LjiK7KVz0OzsSNjkKc84bsE9cBiQ,5134
+pongo/main.py,sha256=NomPfoC-1Z5LHSoxkm4UL62rlwl1QgO_w6WXCNS1L6g,3909
+pongo/run.py,sha256=Xwi7Gst71FG2qbG4ZVnmO8Zo2tXvXTKoB36D62APdPs,2853
+pongo/targets.py,sha256=IL-KkvAO0yWbM6NVhWbMzGgNyalB0QbzBgvZFLu74WI,14149
+pongo/scripts/pongo-lineinfile,sha256=XT1pu1fdUxpEPSmBoYH86AZaYqzrtnatg6KiaMlF4Pk,8518
+pongo/scripts/rinstall,sha256=kARP7gA59fsykx0Ot3pGSjkc_5g8W0cItcUa6zsfBks,1476
+pongo/scripts/rsub,sha256=gqiQ0AwH9SPju6_V7CHifwQnOABbsL6zNdo0bbVjVPg,1360
+pongo_cm-0.1.1.dist-info/LICENSE.rsub,sha256=nSbMMiaSkLQKvECNhCXMeyvqSslaLpauqSgTgqhbYtg,2174
+pongo_cm-0.1.1.dist-info/METADATA,sha256=3zNIIIbtegldwWdw8d1Uwn_l2shNeeGAnLdLEy5pwY4,10406
+pongo_cm-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pongo_cm-0.1.1.dist-info/entry_points.txt,sha256=I3SKuYBSQHb8NEhmFiQVgR9B9cy5ONHdeRq36ZLH9sM,42
+pongo_cm-0.1.1.dist-info/top_level.txt,sha256=5Wq7-1Non7WUpDX5SrUMnqLJb01iL2DSLEywZ_c4qns,14
+pongo_cm-0.1.1.dist-info/RECORD,,
