@@ -1,0 +1,8 @@
+numpy
+pillow
+fastcore
+ipython
+matplotlib
+
+[dev]
+scipy
