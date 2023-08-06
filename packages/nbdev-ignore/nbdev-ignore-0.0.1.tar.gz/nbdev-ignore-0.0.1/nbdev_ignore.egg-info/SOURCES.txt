@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+nbdev_ignore/__init__.py
+nbdev_ignore/_modidx.py
+nbdev_ignore/core.py
+nbdev_ignore.egg-info/PKG-INFO
+nbdev_ignore.egg-info/SOURCES.txt
+nbdev_ignore.egg-info/dependency_links.txt
+nbdev_ignore.egg-info/entry_points.txt
+nbdev_ignore.egg-info/not-zip-safe
+nbdev_ignore.egg-info/requires.txt
+nbdev_ignore.egg-info/top_level.txt
