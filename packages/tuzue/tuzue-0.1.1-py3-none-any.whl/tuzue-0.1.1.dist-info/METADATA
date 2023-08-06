@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tuzue
+Version: 0.1.1
+Summary: Fuzzy-filtering menu-based interactive curses interface
+Home-page: http://github.com/lpenz/tuzue
+Author: "Leandro Lisboa Penz"
+Author-email: "lpenz@lpenz.org"
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pyftpdlib ; extra == 'test'
+
+[![CI](https://github.com/lpenz/tuzue/actions/workflows/ci.yml/badge.svg)](https://github.com/lpenz/tuzue/actions/workflows/ci.yml)
+[![coveralls](https://coveralls.io/repos/github/lpenz/tuzue/badge.svg?branch=main)](https://coveralls.io/github/lpenz/tuzue?branch=main)
+[![Documentation Status](https://readthedocs.org/projects/tuzue/badge/?version=latest)](https://tuzue.readthedocs.io/en/latest/?badge=latest)
+
+# tuzue
+
+Fuzzy-filtering menu-based interactive curses interface for python,
+plus utilities.
+
+
+## Library usage
+
+Basic usage of the library is very simple:
+
+```python
+import tuzue
+
+fruits = [ "avocado", "berry", "cherry", "durian", "eggfruit" ]
+favorite = tuzue.navigate(fruits, "What is your favorite fruit?")
+print("Your favorite fruit is", favorite)
+```
+
+That generates the following possible interaction:
+
+[![Menu navigation demo](demos/demo-navigate.gif)](https://github.com/lpenz/tuzue/raw/main/demos/demo-navigate.gif)
+
+
+## Inspecting in pdb
+
+tuzue is very useful to inspect object trees in [pdb]. Example session
+where we use tuzue to inspect itself:
+
+[![PDB usage demo](demos/demo-pdb.gif)](https://github.com/lpenz/tuzue/raw/main/demos/demo-pdb.gif)
+
+
+[pdb]: https://docs.python.org/3/library/pdb.html
