@@ -1,0 +1,6 @@
+cvxpy
+cvxpylayers
+numpy>=1.17.5
+scipy
+torch
+torch-linops

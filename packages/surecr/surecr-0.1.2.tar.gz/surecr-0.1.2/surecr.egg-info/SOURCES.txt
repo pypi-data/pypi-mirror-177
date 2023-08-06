@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+surecr/__init__.py
+surecr/admm.py
+surecr/divergence.py
+surecr/prox_grad.py
+surecr/prox_lib.py
+surecr/solver.py
+surecr/sure.py
+surecr.egg-info/PKG-INFO
+surecr.egg-info/SOURCES.txt
+surecr.egg-info/dependency_links.txt
+surecr.egg-info/requires.txt
+surecr.egg-info/top_level.txt
