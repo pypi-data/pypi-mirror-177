@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: advent-utils
+Version: 0.3
+Summary: Helpers and parsers for Advent of Code challenges.
+Project-URL: Documentation, https://github.com/stephenlutes/advent-utils#readme
+Project-URL: Issues, https://github.com/stephenlutes/advent-utils/issues
+Project-URL: Source, https://github.com/stephenlutes/advent-utils
+Author: Stephen Lutes
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+advent-utils
+============
+
+Helpers and parsers for Advent of Code challenges.
+
+
+Installation
+------------
+
+``pip install advent-utils``
