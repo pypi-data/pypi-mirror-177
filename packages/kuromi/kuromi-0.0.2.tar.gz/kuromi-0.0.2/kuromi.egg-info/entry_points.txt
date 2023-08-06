@@ -1,0 +1,2 @@
+[console_scripts]
+kuromi = kuromi.cli.main:main
