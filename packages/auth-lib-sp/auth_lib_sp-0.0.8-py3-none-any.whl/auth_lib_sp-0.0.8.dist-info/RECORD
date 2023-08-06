@@ -1,0 +1,8 @@
+auth_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_lib/models.py,sha256=xBXaL3HfWGv--JqRxUmLT_8OZbed0ahrGfkcLemKz9I,704
+auth_lib/services.py,sha256=bIBmnR8htZMb0Yb9z7tP2rSGQ7zigSBaWdtMbmY39Uc,1416
+auth_lib_sp-0.0.8.dist-info/LICENSE,sha256=i9zNdPklrZNQOopyL-rXVoc52Ut1irBxjVSFol91G9k,1115
+auth_lib_sp-0.0.8.dist-info/METADATA,sha256=oM2GAzEEknsWxV9Qyto1G-ivZRw6YI5Jy-30PxOLdyg,339
+auth_lib_sp-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+auth_lib_sp-0.0.8.dist-info/top_level.txt,sha256=c4jUulZJz9nOnFobWPvTXkBhWqMB01IW8gecZnRI0Lg,9
+auth_lib_sp-0.0.8.dist-info/RECORD,,
