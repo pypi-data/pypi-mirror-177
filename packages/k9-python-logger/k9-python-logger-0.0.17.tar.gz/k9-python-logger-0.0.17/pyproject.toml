@@ -1,0 +1,13 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+[project]
+name = "k9-python-logger"
+version = "0.0.17"
+dependencies = [
+    'jsonschema == 4.16.0',
+    'jsonpatch == 1.32'
+]
+description = "official python logger library for k9"
+readme = "README.md"
+requires-python = ">=3.7"
