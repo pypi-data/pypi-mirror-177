@@ -1,0 +1,3 @@
+[console_scripts]
+git-ignores=git_ignores.console:run
+
