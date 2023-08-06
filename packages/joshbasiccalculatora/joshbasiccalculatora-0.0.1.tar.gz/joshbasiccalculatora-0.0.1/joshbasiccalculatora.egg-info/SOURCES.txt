@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+joshbasiccalculator/__init__.py
+joshbasiccalculatora.egg-info/PKG-INFO
+joshbasiccalculatora.egg-info/SOURCES.txt
+joshbasiccalculatora.egg-info/dependency_links.txt
+joshbasiccalculatora.egg-info/top_level.txt
