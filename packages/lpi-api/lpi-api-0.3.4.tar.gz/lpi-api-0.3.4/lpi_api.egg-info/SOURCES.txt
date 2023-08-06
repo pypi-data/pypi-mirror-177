@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+glpi_api.py
+setup.cfg
+setup.py
+lpi_api.egg-info/PKG-INFO
+lpi_api.egg-info/SOURCES.txt
+lpi_api.egg-info/dependency_links.txt
+lpi_api.egg-info/requires.txt
+lpi_api.egg-info/top_level.txt
