@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "chunkdup"
+version = "0.3.0"
+description = "Find (partial content) duplicate files."
+authors = ["Xie Yanbo <xieyanbo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/xyb/chunkdup"
+repository = "https://github.com/xyb/chunkdup"
+classifiers = [
+    "Environment :: Console",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/xyb/chunkdup/issues"
+
+[tool.poetry.scripts]
+chunkdup = 'chunkdup.chunkdup:main'
+chunkdiff = 'chunkdup.chunkdiff:main'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+chunksum = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pre-commit = "^2.20.0"
+pytest-coverage = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
