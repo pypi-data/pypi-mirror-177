@@ -1,0 +1,15 @@
+phenaki_pytorch/__init__.py,sha256=b6RHKYyri6YP5a7j3LPuAyhMpkS9Rv8y24wiiobQnFc,247
+phenaki_pytorch/attention.py,sha256=QLsu5FJxPWOzKY73hMFqNqffVouaWj_52hZjm6hmukc,7786
+phenaki_pytorch/cvivit.py,sha256=TO-FKA-98pDbVzEaG7xXq5KkkcOAtfGja9SldPWrNBI,17313
+phenaki_pytorch/cvivit_trainer.py,sha256=kSKxZ8wYjFQPd2miLd6MkWd-kPpwv1KsmodtSEUG9kc,9533
+phenaki_pytorch/data.py,sha256=idMQCfVoKNaitD3vPW1YcSlsQhjnsXpkjIcw72bqHik,2024
+phenaki_pytorch/optimizer.py,sha256=9NiG1nWuPy8fMr6_ZwVZ0wkD4pwL_3rFiyueXWgoEeQ,943
+phenaki_pytorch/phenaki_pytorch.py,sha256=dDCqXSpwnAfB5Odgt-o4-FnHoEIs3ISymSxN98aMcTE,23159
+phenaki_pytorch/phenaki_trainer.py,sha256=_iOb9GwfCWbdpibsBzxVOS29XVjntVfPsESfwYmYScs,8080
+phenaki_pytorch/t5.py,sha256=5CmnhsAn_KUm-8mG7CmmWGOp2q8qUZfyX3mNjodycMU,2415
+phenaki_pytorch/video_utils.py,sha256=vYQDGXAu59bk7JUt-o0fmdBjWIKdjHcDqEz-t12RX5k,2855
+phenaki_pytorch-0.0.34.dist-info/LICENSE,sha256=xZDkKtpHE2TPCAeqKe1fjdpKernl1YW-d01j_1ltkAU,1066
+phenaki_pytorch-0.0.34.dist-info/METADATA,sha256=R-Lb2hk4opLAiNo2gGfi36lbKZiRpyv8ZJRSuaZ-YcA,962
+phenaki_pytorch-0.0.34.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+phenaki_pytorch-0.0.34.dist-info/top_level.txt,sha256=q8uC3AVdqbJiSqMii6p7c9RopdNDSe0291TphknrfQ0,16
+phenaki_pytorch-0.0.34.dist-info/RECORD,,
