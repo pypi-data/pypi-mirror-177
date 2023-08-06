@@ -1,0 +1,17 @@
+tensorflow
+pytorch
+xplique
+numpy
+scikit-image
+matplotlib
+scipy
+opencv-python
+
+[docs]
+mkdocs
+mkdocs-material
+numkdoc
+
+[tests]
+pytest
+pylint
