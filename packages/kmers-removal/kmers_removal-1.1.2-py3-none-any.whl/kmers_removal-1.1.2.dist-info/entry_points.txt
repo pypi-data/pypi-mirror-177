@@ -1,0 +1,2 @@
+[console_scripts]
+kmers_removal = kmers_removal.kmers_removal_launcher:main
