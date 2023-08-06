@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: simpledataengineeringtoolkit
+Version: 0.1.2
+Summary: Data Engineers Toolkit library
+Home-page: https://simpledataengineeringtoolkit.readthedocs.io/
+Author: Ahmad Karrabi
+Author-email: ahmad@karrabi.com
+License: MIT
+Description: Data Engineers Toolkit library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
