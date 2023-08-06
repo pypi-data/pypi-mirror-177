@@ -1,0 +1,16 @@
+_FFPopSim.abi3.so,sha256=r9h2skm9kpoWM6bSJyOUoFLaGusMVVL2KA-5FbticV8,1369758
+python/FFPopSim.i,sha256=o2_eXSoZaxZv_0nRWo8rDnvZQ00q_0_qz-5pJTSJifY,3675
+python/FFPopSim.py,sha256=iXelhAvUS89WHkalA-KYgJdK-2hE9HRHdlKJoJBRHtc,143431
+python/FFPopSim_wrap.cpp,sha256=mDNXVwCgxFjXNch1nJg2hC5Ng61k4Ej2uv4ka_UCfAA,1492349
+python/ffpopsim_generic.i,sha256=aX-VEPFsVbmSSf9jXn_o8RLvP6kHk70gs7W142ksgr8,5744
+python/ffpopsim_highd.i,sha256=9bcdI6z4P8bYCF8jZAVIo5ZpTKvusaz6sICUur0pMxI,71517
+python/ffpopsim_lowd.i,sha256=fMGkunWTM1i6wloFM_e8tPvIlvjLHS-Hmv26IZHS8DE,35716
+python/ffpopsim_typemaps.i,sha256=3omertkxjBUKqX19DQ7bF8_LYzQGqUXx_Tiuem05ptc,8264
+python/hivpopulation.i,sha256=zfM-iP38lprqnpQjPkV3TYf6kyJ06K74dT90LF8KXJ8,21399
+python/numpy.i,sha256=F2MQXUq0EkSlDh7ibbdzsDy5KoXGN_T9cXA1gefHaBY,104586
+python/pyfragments.swg,sha256=OaBH9rycgQRGNHN2-imDTUAx-InBpOnuQ8W1tW7esjc,3083
+FFPopSim-3.0.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+FFPopSim-3.0.0.dist-info/METADATA,sha256=-KaUIHiaCExWyxK4O0krWCmO8f8PsP353aQKzXLglrI,2287
+FFPopSim-3.0.0.dist-info/WHEEL,sha256=u895uB4FIjm1puccTaPTl57dorjncEYygQxItKHr_T0,108
+FFPopSim-3.0.0.dist-info/top_level.txt,sha256=sGgX20JTOf8wgIDpojxKe2YZS_PJFJ_xgd3zdg4Tn2A,17
+FFPopSim-3.0.0.dist-info/RECORD,,
