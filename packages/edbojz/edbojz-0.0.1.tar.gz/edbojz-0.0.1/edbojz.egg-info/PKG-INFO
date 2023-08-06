@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: edbojz
+Version: 0.0.1
+Summary: Bayesian reaction optimization as a tool for chemical synthesis.
+Home-page: https://github.com/deniszhu1991/edboplus_fork.git
+Author: JZ
+Author-email: deniszjz1991@163.com
+License: MIT
+Keywords: Bayesian Optimization,Chemical Reaction Optimization
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE

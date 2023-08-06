@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+edbojz.egg-info/PKG-INFO
+edbojz.egg-info/SOURCES.txt
+edbojz.egg-info/dependency_links.txt
+edbojz.egg-info/requires.txt
+edbojz.egg-info/top_level.txt
