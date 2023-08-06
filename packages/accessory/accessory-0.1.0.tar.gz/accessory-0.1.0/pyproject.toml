@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "accessory"
+version = "0.1.0"
+description = ""
+authors = ["Simon Zeng <contact@simonzeng.com>"]
+readme = "README.md"
+packages = [{include = "accessory"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
