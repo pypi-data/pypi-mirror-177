@@ -1,0 +1,12 @@
+mdb_codegen/data_loader.py,sha256=Ew1HoD_UrpF2fiyqPnXyiISKvFaA6EvmOLb9Db0ekVo,4279
+mdb_codegen/djaccess.py,sha256=0_Pvf6V6dOr2FWoKbEuFdDwu_aqH1v1UzqFMnoZPIl0,15202
+mdb_codegen/jsontools.py,sha256=mu1N-Y_dxnPKtflHpBs8dPvQCoc65s3XJW3tUuJ4zH8,6885
+mdb_codegen/mdb-codegen.py,sha256=o0egXCrJIkvZI0g0qYppocJ1JzfivwaK-gmg7fp5fng,2221
+mdb_codegen/mdbtools.py,sha256=iw-3yHLUJDKFE4JCevc2wlXdiK5bpo498_OgmITEJ4g,9393
+mdb_codegen/output/api_post.py,sha256=UXA0jc9SZZ1WPTT55KL6ReKwXUYouG1PzaZuiWJvMv0,52941
+mdb_codegen/output/base_models.py,sha256=jGb1wBak9fdWwLtY4GPoSt6OvZS_1soupChWPPXgsqU,72010
+mdb_codegen/output/models.py,sha256=QyztpOuPyYcq6fQxe59tDzFtFx67ZU8sXBinjIptr2o,108510
+mdb_codegen/output/schema.py,sha256=q735FDlDmYKuVLZLvFPpp5VA7_sa_eS43KEujtfff5A,21154
+mdb_codegen-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mdb_codegen-0.1.0.dist-info/METADATA,sha256=1nYuus2XidYAJXBud_VPg-sDjBr-_EjbsIj1SejI-kE,1166
+mdb_codegen-0.1.0.dist-info/RECORD,,
