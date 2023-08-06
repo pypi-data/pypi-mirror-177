@@ -1,0 +1,12 @@
+odc-cloud[async]
+odc-io
+click
+
+[AZURE]
+odc-cloud[azure]
+
+[GCP]
+google-cloud-storage
+
+[THREDDS]
+odc-cloud[thredds]
