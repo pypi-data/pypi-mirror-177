@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: studentresume
+Version: 0.3.0
+Summary: Student Resume Generator Python package
+Home-page: https://github.com/open-uofa/studentresume
+Author: Diana, Ivan, Curtis, Yijing, Jason, Mohammed
+Author-email: dble@ualberta.ca, yzhang24@ualberta.ca, jrobock@ualberta.ca, ckennedy@ualberta.ca, qu8@ualberta.ca, alzafara@ualberta.ca
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

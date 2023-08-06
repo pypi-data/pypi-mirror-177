@@ -1,0 +1,25 @@
+LICENSE
+README.md
+setup.py
+studentresume/__init__.py
+studentresume/json_validator.py
+studentresume/packagecli.py
+studentresume/requiredFields.json
+studentresume/resume.py
+studentresume/sample.resume.json
+studentresume/schema.json
+studentresume/testonepage.resume.json
+studentresume.egg-info/PKG-INFO
+studentresume.egg-info/SOURCES.txt
+studentresume.egg-info/dependency_links.txt
+studentresume.egg-info/requires.txt
+studentresume.egg-info/top_level.txt
+studentresume/fonts/Helvetica-Bold.ttf
+studentresume/fonts/Helvetica.ttf
+studentresume/fonts/Inconsolata-Bold.ttf
+studentresume/fonts/Inconsolata-Regular.ttf
+studentresume/fonts/times new roman bold.ttf
+studentresume/fonts/times new roman.ttf
+studentresume/themes/default.json
+studentresume/themes/default2.json
+studentresume/themes/default3.json
