@@ -1,0 +1,14 @@
+# pre-commit hoot add-....
+[tool.add-trailing-comma]
+exclude = 'osaft/tests/doinikov2021viscous/test_streaming.py'
+
+# black
+[tool.black]
+line-length = 79
+target-version = ['py39','py310','py311']
+force-exclude = 'create_changelog.py'
+
+# pytest
+[tool.pytest.ini_options]
+addopts = "--cov=osaft --junitxml=report.xml"
+testpaths = ["osaft/tests",]
