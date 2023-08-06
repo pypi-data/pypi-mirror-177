@@ -1,0 +1,17 @@
+Changelog
+=========
+
+tip: dates are in MM/DD/YYYY format.
+
+2 (11/20/2022)
+You know it's not the same as it was
+-------------------
+- Started adding support for words
+- Seperated words and numbers into classes
+- Changed readme
+- Added my new email and website
+
+1 (8/5/2022)
+Sodium Cloride
+-------------------
+- released :pog:
