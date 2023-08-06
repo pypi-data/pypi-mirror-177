@@ -1,0 +1,2 @@
+[console_scripts]
+tranquilizer = tranquilizer.main:run
