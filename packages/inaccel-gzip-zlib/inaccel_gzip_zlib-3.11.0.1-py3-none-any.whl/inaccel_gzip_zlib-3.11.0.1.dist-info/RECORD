@@ -1,0 +1,13 @@
+inaccel_gzip_zlib-3.11.0.1-py3.11-nspkg.pth,sha256=HFJQQjsayTBtX4THfmpEuvbpxvpxnS6QzmjlbIrpPCI,544
+inaccel/gzip/__init__.py,sha256=AZcK7LbS05__Hkopg_Qu6VsTGRnmPNZZbFN5DmGmdRI,28
+inaccel/gzip/_gzip.py,sha256=OOHULfnmOKUCwoF9fL2PLPZmFJDMLq05rn9PnPqU80A,748
+inaccel/zlib/__init__.py,sha256=3g7Oba648f0ekCFxtmSXU0SD25S9y_1vA3Hkmib4F90,28
+inaccel/zlib/_zlib.py,sha256=bEj7dDoljVQ6upcG20ytp4fLVUx8Oxmh5dmQs1Lagc4,2532
+inaccel_gzip_zlib-3.11.0.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+inaccel_gzip_zlib-3.11.0.1.dist-info/METADATA,sha256=jPkIu7pybH93D4lNcXHx8NH8DzV9-DtzRZsYVCGKmP0,1051
+inaccel_gzip_zlib-3.11.0.1.dist-info/NOTICE,sha256=HMVoaaIZWhIFr-ejTaNTjJU9LNXSiLX-HXteyhI0YAo,125
+inaccel_gzip_zlib-3.11.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+inaccel_gzip_zlib-3.11.0.1.dist-info/namespace_packages.txt,sha256=mEtI1J9uUWktjAq_9Bj1x0_unZ4ubkU525epbXPFmnA,8
+inaccel_gzip_zlib-3.11.0.1.dist-info/top_level.txt,sha256=mEtI1J9uUWktjAq_9Bj1x0_unZ4ubkU525epbXPFmnA,8
+inaccel_gzip_zlib-3.11.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+inaccel_gzip_zlib-3.11.0.1.dist-info/RECORD,,
