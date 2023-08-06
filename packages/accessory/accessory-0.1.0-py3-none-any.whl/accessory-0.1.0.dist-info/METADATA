@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: accessory
+Version: 0.1.0
+Summary: 
+Author: Simon Zeng
+Author-email: contact@simonzeng.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Accessory
+
+Generalized functional getters and setters, via profunctor optics.
+
