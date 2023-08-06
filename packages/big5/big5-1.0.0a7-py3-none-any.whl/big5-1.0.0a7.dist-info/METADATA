@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: big5
+Version: 1.0.0a7
+Summary: big5
+Home-page: https://github.com/DmitryRyumin/big5
+Author: Elena Ryumina, Dmitry Ryumin, Alexey Karpov
+Author-email: ryumina_ev@mail.ru, dl_03.03.1991@mail.ru, karpov@iias.spb.su
+Maintainer: Elena Ryumina, Dmitry Ryumin
+Maintainer-email: ryumina_ev@mail.ru, dl_03.03.1991@mail.ru
+License: BSD 3-Clause
+Project-URL: Bug Reports, https://github.com/DmitryRyumin/big5/issues
+Project-URL: Documentation, https://big5.readthedocs.io
+Project-URL: Source Code, https://github.com/DmitryRyumin/big5/tree/main/big5
+Project-URL: Download, https://github.com/DmitryRyumin/big5/tags
+Keywords: big5,MachineLearning,Statistics,ComputerVision,ArtificialIntelligence,Preprocessing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# [big5](https://github.com/DmitryRyumin/big5)
+
+![PyPI](https://img.shields.io/pypi/v/big5)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/big5)
+![PyPI - Implementation](https://img.shields.io/pypi/implementation/big5)
+![GitHub repo size](https://img.shields.io/github/repo-size/dmitryryumin/big5)
+![PyPI - Status](https://img.shields.io/pypi/status/big5)
+![PyPI - License](https://img.shields.io/pypi/l/big5)
+![GitHub top language](https://img.shields.io/github/languages/top/dmitryryumin/big5)
+![Documentation Status](https://readthedocs.org/projects/big5/badge/?version=latest)
+
+<h4 align="center"><span style="color:#EC256F;">Description</span></h4>
+
+---
+
+>  **[big5](https://github.com/DmitryRyumin/big5)** - is an open-source library consisting of a set of algorithms for intellectual analysis of human behavior based on its multimodal data for automatic human personality traits assessment to perform professional duties.
+
+---
+
+| [Documentation in Russian](https://github.com/DmitryRyumin/big5/blob/main/README_RU.md) |
+|-----------------------------------------------------------------------------------------|
+
+> The library under development
+
