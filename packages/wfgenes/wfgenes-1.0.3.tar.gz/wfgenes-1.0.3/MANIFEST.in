@@ -1,0 +1,6 @@
+include src
+include src/wfgenes/fig/*.png
+include wfgenes_logo.png
+exclude README_PIP.md
+global-exclude *.py[cod]
+prune src/wfgenes/intro_examples/*/wfGenes_output
