@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SuperPyLib"
+version = "0.0.3"
+authors = [
+  { name="Nithin Goona", email="nithin.goona@gmail.com" },
+]
+description = "Package for calculating 2-D integral and finite element numerical solutions for Poisson equation with non-overlapping shapes in the presence of Superconducting materials. Import module corrections"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nithingoona/SuperPyLib"
+"Bug Tracker" = "https://github.com/nithingoona/SuperPyLib/issues"

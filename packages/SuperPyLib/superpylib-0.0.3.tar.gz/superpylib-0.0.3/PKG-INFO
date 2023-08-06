@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SuperPyLib
+Version: 0.0.3
+Summary: Package for calculating 2-D integral and finite element numerical solutions for Poisson equation with non-overlapping shapes in the presence of Superconducting materials. Import module corrections
+Project-URL: Homepage, https://github.com/nithingoona/SuperPyLib
+Project-URL: Bug Tracker, https://github.com/nithingoona/SuperPyLib/issues
+Author-email: Nithin Goona <nithin.goona@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+What is SuperPyLib?
+
+SuperPyLib is a Python package for calculating 2-D integral and finite element numerical solutions for Poisson equation with non-overlapping shapes in the presence of Superconducting materials. Import module corrections.
+
+Dependencies:
+
+Python 3.8+, Numpy 1.23.1, Joblib 1.1.0, Matplotlib 3.5.2, and Scipy 1.8.1
+
+Version:
+
+SuperPyLib 0.0.3
