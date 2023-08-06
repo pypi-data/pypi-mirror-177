@@ -1,0 +1,5 @@
+[console_scripts]
+wb-ana = wildebeest.wb_analysis:main
+wb-norm = wildebeest.wb_normalize:main
+wb_analysis.py = wildebeest.wb_analysis:main
+wb_normalize.py = wildebeest.wb_normalize:main
