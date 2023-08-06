@@ -1,0 +1,12 @@
+netto/__init__.py,sha256=vGUVMv_oYdow6yqabs9iAKeNCnqz6YLNa8k8v0NxzLg,106
+netto/config.py,sha256=rOqb0kn8GHOLF3LOv28yKcON1npeCkeCJfB1iV7cndA,417
+netto/const.py,sha256=EiuzSTksciFOBJOHssts6q01vGTU1ZhYsH4pn1M8l5I,4855
+netto/main.py,sha256=qMqrhlgAlEydvNrlQtwTuUPoeS1Q4umKHj36MPVos-8,1153
+netto/social_security.py,sha256=DaBd5u3fNTFSwOPkYEb2eeOo8Ph9sDbzoJY6RrzVis8,2642
+netto/taxes_income.py,sha256=0m_DKjFS125d-qnnUQAr-0YI9oej8NQF9xBEEge8h4k,2574
+netto/taxes_other.py,sha256=ILfE8LZT_e8AJ0DXeY8vws68hRP4489eCfTtimFcWmk,522
+netto-0.0.1.dist-info/LICENSE,sha256=2o88jKItlhuqsXQ5yVhQQQqfBPwoJCwTuBACuoz7-FI,1069
+netto-0.0.1.dist-info/METADATA,sha256=rBG5VPyZsC0LDZOTgsyN7Xz6hZxin85SwCENQ9-bEcY,1768
+netto-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+netto-0.0.1.dist-info/top_level.txt,sha256=OXBQRwC_hhZuJ2oqEDdXWh6dkD3LE2NYnOvAW7s9knI,6
+netto-0.0.1.dist-info/RECORD,,
