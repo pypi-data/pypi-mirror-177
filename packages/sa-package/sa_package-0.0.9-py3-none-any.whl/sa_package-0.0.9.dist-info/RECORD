@@ -1,0 +1,8 @@
+sa_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sa_package/calendar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sa_package/calendar/calculate_date.py,sha256=7tEbd6JHRH9ZliJEFzb7OXnn-k87heZbkQ2baPzijIk,842
+sa_package-0.0.9.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sa_package-0.0.9.dist-info/METADATA,sha256=0ZvlwfTUDQ1aiCYzEPA9S24AV5MG3fEuBlpb8nfDbhQ,534
+sa_package-0.0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sa_package-0.0.9.dist-info/top_level.txt,sha256=DQwOCrvLMKdpD3eh9rDokIKs0gPhUx1TUvJ6aclRzFg,11
+sa_package-0.0.9.dist-info/RECORD,,
