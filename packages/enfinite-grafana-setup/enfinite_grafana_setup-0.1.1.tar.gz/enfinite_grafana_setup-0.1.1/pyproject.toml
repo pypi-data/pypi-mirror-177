@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "enfinite-grafana-setup"
+version = "0.1.1"
+description = "package for managing grafana setup for enfinite clients"
+authors = ["Chirag Gupta (cgupta98) <cgupta@enfinitetech.com>"]
+readme = "README.md"
+# url = "git+https://github.com/Enfinite-Tech/enfinite-grafana-setup.git#packagev1"
+# default = true
+# secondary = false
+homepage = "https://github.com/Enfinite-Tech/enfinite-grafana-setup/tree/packagev1"
+# repository = "git+https://github.com/Enfinite-Tech/enfinite-grafana-setup.git#packagev1"
+keywords = ["grafana","enfinite","whitelabeling"]
+packages = [{include = "enfinite_grafana_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.1"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+
+
+
+[[tool.poetry.source]]
+name = "pypi-test"
+url = "https://upload.pypi.org/legacy/"
+default = true
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

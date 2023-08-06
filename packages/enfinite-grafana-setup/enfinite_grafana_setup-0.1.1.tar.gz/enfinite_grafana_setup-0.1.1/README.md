@@ -1,0 +1,92 @@
+<div align="center">
+    <p float="left">
+    <img  src="https://enfinite-public.s3.amazonaws.com/enfinite_icon.svg" 
+        width="100"
+        height=100>
+    <img  src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Plus_symbol.svg"
+          width="auto"
+          height=100>
+    <img    src="https://grafana.com/static/assets/internal/grafana_logo-web.svg"
+            width="350"
+            height=100>
+    </p>
+</div>
+
+-----------------
+# Enfinite-Grafana-Setup
+[![PyPI Latest Release](https://img.shields.io/badge/pypi-1.0-blue)](https://pypi.org/project/pandas/)
+[![Package Status](https://img.shields.io/badge/status-beta-orange)](https://pypi.org/project/pandas/)
+[![License](https://img.shields.io/badge/license-Enfinite-green)](https://github.com/pandas-dev/pandas/blob/main/LICENSE)
+[![Coverage](https://codecov.io/github/pandas-dev/pandas/coverage.svg?branch=main)](https://codecov.io/gh/pandas-dev/pandas)
+[![Slack](https://img.shields.io/badge/join_Slack-information-brightgreen.svg?logo=slack)](https://pandas.pydata.org/docs/dev/development/community.html?highlight=slack#community-slack)
+# What is this about
+This appication helps in setup for Grafana, installation, upgrading, whitelabeling and port mapping
+
+# Steps for Upgrading
+## **Test Env:** `EC2:vista-grafana-backup`, `WSL:Ubuntu`
+load env variables in sudo user, either do that manually or add this to your bash.rc in root folder
+```sh
+# .env loading in the shell
+dotenv () {
+  set -a
+  [ -f .env ] && . .env
+  set +a
+}
+
+# Run dotenv on login
+dotenv
+```
+change the current user to root user
+```sh
+# change the user to root, necessary for editing the grafana files
+sudo -i
+```
+pull the repo
+```sh
+git clone https://github.com/Enfinite-Tech/enfinite-grafana-setup.git
+``` 
+change pwd to the `enfinite-grafana-setup` dir
+```sh
+cd enfinite-grafana-setup
+```
+install the grafana package
+```sh
+python3 enfinite-grafana-setup/enfinite_grafana_setup/install_grafana.py
+```
+whitelabel the grafana installation
+```sh
+python3 enfinite-grafana-setup/app.py
+```
+Test the installation and changes using `pytest`
+```sh
+pytest -v
+```
+
+# Environment Variable
+
+| Env Variable  | Description                                                           | 
+| ------------- |:---------------------------------------------------------------------:|
+| TITLE         | Title Name to be shown at login screen and in the title of webpages   |
+| APPICON       | Icon link, for setting the icons on title and nav bar                 |
+| FAVICON       | Icon link, for setting the favion on login page                       |
+| LOGIN         | Login page link to get the js files names and locations               |
+
+# Version Release Notes:
+- 0.3
+    - tested and updated app according to ec2 machine: vista-grafana-backup
+    - added steps for upgrading
+- 0.2
+    - upgraded to a newer version and tested [9.2.4]
+    - added a `test/test_login_page.py` to see if it is loading login page
+    - added another command in installation to re-map port 3000->80
+- 0.1 
+    - added all required functions
+    - tested on local wsl, with grafana 9.2
+    - all functions working properly
+
+# Tested Grafana Versions:
+- grafana_9.2.4_amd64.deb
+- grafana_9.2.0_amd64.deb
+
+# To Do
+- Testing the function on backup EC2
