@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: astream
+Version: 0.5.1
+Summary: 
+Author: Pedro Batista
+Author-email: pedrovhb@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyHeat (>=0.2,<0.3)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: decorator (>=5.1.1,<6.0.0)
+Requires-Dist: lazy-object-proxy (>=1.8.0,<2.0.0)
+Requires-Dist: mypy (>=0.991,<0.992)
+Requires-Dist: wrapt (>=1.14.1,<2.0.0)
