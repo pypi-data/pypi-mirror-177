@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tkdial/__init__.py
+tkdial/tkdial.py
+tkdial.egg-info/PKG-INFO
+tkdial.egg-info/SOURCES.txt
+tkdial.egg-info/dependency_links.txt
+tkdial.egg-info/top_level.txt
