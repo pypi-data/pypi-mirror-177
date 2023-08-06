@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ASRscsvmv
+Version: 0.1.2
+Summary: This package recognizes and translates your words
+Author: SCSVMV 22-23 PROJECT 17
+License-File: licence.txt
+
+
+INSTALL THIS PACKAGE USING 
+pip install ASRscsvmv
+to run this just type 
+from ASRscsvmv import asrscsvmv

@@ -1,0 +1,5 @@
+vosk
+PySimpleGUI
+argostranslate
+streamlit
+pyaudio
