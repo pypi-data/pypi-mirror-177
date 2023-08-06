@@ -1,0 +1,10 @@
+setup.py
+vinclab_distri/Binomialdistribution.py
+vinclab_distri/Gaussiandistribution.py
+vinclab_distri/Generaldistribution.py
+vinclab_distri/__init__.py
+vinclab_distri.egg-info/PKG-INFO
+vinclab_distri.egg-info/SOURCES.txt
+vinclab_distri.egg-info/dependency_links.txt
+vinclab_distri.egg-info/not-zip-safe
+vinclab_distri.egg-info/top_level.txt
