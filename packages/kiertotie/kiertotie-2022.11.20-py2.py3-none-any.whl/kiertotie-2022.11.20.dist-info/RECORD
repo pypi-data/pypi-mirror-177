@@ -1,0 +1,13 @@
+kiertotie/__init__.py,sha256=qaV0MkBC2k2o5W7B1xxFM40dYL2JS-3ihVdo_2M1mIc,3244
+kiertotie/__main__.py,sha256=4TvJUiJKnrdLUjdqHgjOC98bPMrdQcDib35cKJtkEjw,124
+kiertotie/cli.py,sha256=MVi9Z0gizvBer4CH5l568rEZAdZgL1D-iqURtDkx3Jw,2377
+kiertotie/dispatch.py,sha256=aCU16vxN0xcr_U2isamb1NpPD_gxQWR_PlI8inW6KEw,1038
+kiertotie/elif.py,sha256=gBmy2EuKLTDWpm9M30lHZqpIGTQHfLzJuwqFzfzrwQQ,2994
+kiertotie/tree.py,sha256=TreV6ARwyONiUfu7t7jxXpUqDG-31clWlTKeawjpStU,1631
+kiertotie/update.py,sha256=ukb9eGxIu2ZD2MMA3J8vvlRgKoShUXzukKhzNxjWGLs,9817
+kiertotie-2022.11.20.dist-info/LICENSE,sha256=7xgn1qW4kKTaB163LiE9nqy5u7ddEv-GDesuxK-SW58,1069
+kiertotie-2022.11.20.dist-info/METADATA,sha256=7_c0tHyWCbSagvGFA1Srtty6hjTYAlIGzwJHoVjeArE,3069
+kiertotie-2022.11.20.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+kiertotie-2022.11.20.dist-info/entry_points.txt,sha256=8wjKvFMkRIXmf49d6awuBf3CUvdBGOuFYylv7797QL0,49
+kiertotie-2022.11.20.dist-info/top_level.txt,sha256=If9ofbb0sU1CvX62yITQZQCgAdrzQZ-MUyA4n9VOSLY,10
+kiertotie-2022.11.20.dist-info/RECORD,,
