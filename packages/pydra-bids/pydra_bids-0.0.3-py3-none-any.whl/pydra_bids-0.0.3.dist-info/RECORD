@@ -1,0 +1,7 @@
+pydra/tasks/bids/__init__.py,sha256=8tbDghz9mZ1gvu6miJRt6SCE_MKZMBxSH_MtDAsq8dw,221
+pydra/tasks/bids/tests/test_utils.py,sha256=ExOLHNRFBGcq8quwKRpCzaDHlnTCV3yaxRB8T4ToUxY,399
+pydra/tasks/bids/utils.py,sha256=uXHc2emjZuIDYd-_CnNJ_KmuXXRpeASUlWvdSFVeW-g,4978
+pydra_bids-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydra_bids-0.0.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pydra_bids-0.0.3.dist-info/METADATA,sha256=HVetiSMBX4hB8pz4E2XJCjN659gWpWoi7fiC7lejUGQ,1711
+pydra_bids-0.0.3.dist-info/RECORD,,

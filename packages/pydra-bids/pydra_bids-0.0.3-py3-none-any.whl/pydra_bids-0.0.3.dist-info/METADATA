@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pydra-bids
+Version: 0.0.3
+Summary: Pydra tasks for BIDS I/O
+Home-page: https://github.com/aramis-lab/pydra-bids
+License: Apache-2.0
+Keywords: pydra,bids,neuroimaging
+Author: The Aramis Lab
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ancpbids (>=0.2.1,<0.3.0)
+Requires-Dist: pydra (>=0.20,<0.21)
+Project-URL: Documentation, https://aramis-lab.github.io/pydra-bids/
+Project-URL: Repository, https://github.com/aramis-lab/pydra-bids
+Description-Content-Type: text/markdown
+
+# pydra-bids
+
+Pydra tasks for BIDS I/O.
+
+[Pydra] is a dataflow engine which provides a set of lightweight abstractions
+for DAG construction, manipulation, and distributed execution.
+
+[BIDS] defines standards for organizing neuroimaging files and metadata.
+
+This project provides tasks for reading from and writing to BIDS datasets.
+
+## Development
+
+This project is managed using [Poetry].
+
+To install, check and test the code:
+
+```console
+make
+```
+
+To run the test suite when hacking:
+
+```console
+make test
+```
+
+To format the code before review:
+
+```console
+make format
+```
+
+To build the project's documentation:
+
+```console
+make docs
+```
+
+## Licensing
+
+This project is released under the terms of the Apache License 2.0.
+
+[Pydra]: https://nipype.github.io/pydra
+[BIDS]: https://bids-specification.readthedocs.io
+[Poetry]: https://python-poetry.org
+
