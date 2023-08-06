@@ -1,0 +1,3 @@
+[console_scripts]
+teleinforeader=teleinforeader.__main__:main
+
