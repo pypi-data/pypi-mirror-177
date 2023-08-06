@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "offlinemsmtp"
+version = "0.4.0"
+description = "msmtp wrapper allowing for offline use"
+authors = ["Sumner Evans <inquiries@sumnerevans.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/sumnerevans/offlinemsmtp"
+keywords = ["email", "msmtp", "offline"]
+classifiers = [
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 3 - Alpha",
+
+    # Indicate who your project is intended for
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX",
+    "Topic :: Communications :: Email :: Mail Transport Agents",
+]
+
+[tool.poetry.scripts]
+offlinemsmtp = "offlinemsmtp.__main__:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/sumnerevans/offlinemsmtp/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+inotify = "^0.2.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+docutils = "^0.16"
+flake8 = "^3.8.3"
+flake8-isort = "^4.1.1"
+flake8-pep3101 = "^1.3.0"
+isort = "^5.10.1"
+mypy = "^0.991"
+pre-commit = "^2.20.0"
+pylint = "^2.15.0"
+rst2html5 = "^1.10.6"
+sphinx = "^3.2.1"
+termcolor = "^1.1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99
+target-version = ["py38"]
