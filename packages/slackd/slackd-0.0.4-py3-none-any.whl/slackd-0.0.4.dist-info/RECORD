@@ -1,0 +1,10 @@
+slackd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackd/alert.py,sha256=BcF850h9zPhYqnRS-5GvMN-6zSv_2-L_MeZ4N6WrwH8,1282
+slackd/functions.py,sha256=b39W08WVk6-ioStJbcB6cOoUxHedxsn0fHmkk2adj7Q,132
+slackd/send_alert.py,sha256=PVz2J24zlsfN4tEFgmjuumQclK0GJI7X5N3_aWRhcas,2553
+slackd/utils.py,sha256=DmWcG9zYqjfbW-XxnhODTB6OJ6wr8-AqX8bFtjavzAM,1774
+slackd-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+slackd-0.0.4.dist-info/METADATA,sha256=mtY3qL2tN7Tle0LJOb98Gtg8pg_TujP541Oo7GFQT2g,849
+slackd-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slackd-0.0.4.dist-info/top_level.txt,sha256=ruca5EhEVVZWGssM4smQvVRjsWnKo4gnpDs54fdcSZ8,7
+slackd-0.0.4.dist-info/RECORD,,
