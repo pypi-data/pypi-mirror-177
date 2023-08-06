@@ -1,0 +1,8 @@
+farmworld/__init__.py,sha256=kF2sfGCfKtV9ZL8LvqqjrYwwjsLWwG_RFtYqtZGH0zM,45
+farmworld/env/__init__.py,sha256=e0B7O4nkZsRxU5AmccIsca9QPQvlZCri96dRIZzH9Og,7000
+farmworld/geojson/__init__.py,sha256=Uiyn68ENfcgodFWVcEIfiC94BJg6znK4abDSBM1-zbo,2129
+farmworld/geojson/example1.json,sha256=_qEBmP9gfv3MPPJM-O9xXdz91Qadgc1KGWvOiKAq37Q,1437
+farmworld/geojson/example2.json,sha256=t8eQyIeaF0838Qj3POahrRCMtDEFxvOrp2hhsD2zE2Y,1408
+farmworld-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+farmworld-0.0.1.dist-info/METADATA,sha256=cUrW5gaiiflDPyz_5_XSkKEW6mq6Ksju-jlWOcsBeko,956
+farmworld-0.0.1.dist-info/RECORD,,

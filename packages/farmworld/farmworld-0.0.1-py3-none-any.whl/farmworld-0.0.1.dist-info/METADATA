@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: farmworld
+Version: 0.0.1
+Summary: Reinforcement Learning for Agriculture
+Home-page: https://github.com/tomgrek/farmworld
+Keywords: reinforcement,machine,learning,farming,agriculture
+Author: Tom Grek
+Author-email: tom.grek@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=22.10.0,<23.0.0)
+Requires-Dist: gym (==0.21.0)
+Requires-Dist: polygenerator (>=0.2.0,<0.3.0)
+Requires-Dist: pygame (>=2.1.2,<3.0.0)
+Requires-Dist: stable-baselines3[extra] (>=1.6.2,<2.0.0)
+Requires-Dist: torch (>=1.13.0,<2.0.0)
+Project-URL: Repository, https://github.com/tomgrek/farmworld
+Description-Content-Type: text/markdown
+
+# FarmWorld
+
+A reinforcement learning library for agriculture.
