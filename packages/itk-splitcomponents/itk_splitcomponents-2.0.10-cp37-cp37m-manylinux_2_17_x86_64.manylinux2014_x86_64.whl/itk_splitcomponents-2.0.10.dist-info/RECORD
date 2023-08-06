@@ -1,0 +1,11 @@
+itk_splitcomponents.libs/libtbb-a0c974ac.so.12.3,sha256=hR9M_Owl0elxvtqil2P_Mc94oql-oiwpI6M8fiNyn6g,444448
+itk_splitcomponents-2.0.10.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_splitcomponents-2.0.10.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_splitcomponents-2.0.10.dist-info/WHEEL,sha256=rZaxwUajlPc65h-HbFQq_lbwHPb611uuu-2QOjybgu0,143
+itk_splitcomponents-2.0.10.dist-info/RECORD,,
+itk_splitcomponents-2.0.10.dist-info/METADATA,sha256=-ujuYl1eTDEi41EslRQrXzAl1W-xQwHt1FhZBlHDo10,1678
+itk/_SplitComponentsPython.so,sha256=4FrNAMRngPJNygpbjccCt6JGu-hTVdApcuHmyJcl1Q0,5317856
+itk/itkSplitComponentsImageFilterPython.py,sha256=3crub-DqtNfHduCwRX7tUrcZwV-9P9E97B4ErnKQ6vM,80321
+itk/SplitComponentsPython.py,sha256=Jmam3SBNvQmxye_aoQCvqI3PNwk30ghhX4IccTKunkA,2376
+itk/Configuration/SplitComponents_snake_case.py,sha256=IYV7v7mkeMGffdoC9kYXlUCQVNsZ_20x5gCnvR1ebaY,59
+itk/Configuration/SplitComponentsConfig.py,sha256=yhRcKiXGNp4TxZqwreEsJizDRiFt-hAIgiLfVExMCfQ,5073
