@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin==0.14.0b7"]
+build-backend = "maturin"
+
+[project]
+name = "graph_mate"
+version = "0.1.0"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = ["numpy >= 1.23.0"]
+
+[project.urls]
+"Homepage" = "https://github.com/s1ck/graph"
+"Bug Tracker" = "https://github.com/s1ck/graph/issues"

@@ -1,0 +1,10 @@
+numpy >= 1.23.0
+black
+black[jupyter]
+flake8
+isort
+maturin==0.14.0b7
+mypy
+pandas
+pytest
+tox

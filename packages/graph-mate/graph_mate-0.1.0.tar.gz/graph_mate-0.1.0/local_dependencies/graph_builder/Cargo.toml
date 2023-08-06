@@ -1,0 +1,51 @@
+[package]
+name = "graph_builder"
+version = "0.3.0"
+description = "A building block for high-performant graph algorithms."
+keywords = ["graph", "builder", "csr", "algorithms"]
+authors= [
+    "Martin Junghanns <github@s1ck.dev>",
+    "Paul Horn <developer@knutwalker.de>",
+]
+rust-version= "1.65"
+repository= "https://github.com/s1ck/graph"
+edition= "2021"
+license= "MIT"
+
+[dependencies]
+atoi= "2.0.0"
+atomic= "0.5.1"
+byte-slice-cast= "1.2.2"
+delegate= "0.8.0"
+fast-float= "0.2.0"
+fxhash= "0.2.1"
+gdl = { version = "0.2.6", optional = true }
+linereader= "0.4.0"
+log= "0.4.17"
+memmap2= "0.5.8"
+num= "0.4.0"
+num-format= "0.4.3"
+num_cpus= "1.14.0"
+page_size= "0.4.2"
+parking_lot= "0.12.1"
+rayon= "1.5.3"
+thiserror= "1.0.37"
+
+[dev-dependencies]
+criterion= { version = "0.4.0", features = ["html_reports"] }
+rand= "0.8.5"
+tempfile= "3.3.0"
+
+[features]
+force_fallback_impl = []
+
+[[bench]]
+name = "edgelist"
+harness = false
+
+[[bench]]
+name = "csr"
+harness = false
+
+[package.metadata.docs.rs]
+features = ["gdl"]
