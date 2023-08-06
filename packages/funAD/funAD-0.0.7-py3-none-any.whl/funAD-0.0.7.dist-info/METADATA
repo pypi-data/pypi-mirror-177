@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: funAD
+Version: 0.0.7
+Summary: funAD is a PyPi-distributed package that executes forward-mode of automatic differentiation, enabling users to solve functional derivatives with high computational efficiency and machine precision.
+Author-email: Hanlin Zhu <hzhu@g.harvard.edu>, Xu Tang <xutang@g.harvard.edu>, Tiantong Li <tiantongli@g.harvard.edu>, Zhecheng Yao <zhechengyao@g.harvard.edu>
+Project-URL: Homepage, https://code.harvard.edu/CS107/team21
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pytest
+
+# team21
+![test.yml](https://code.harvard.edu/CS107/team21/actions/workflows/test.yml/badge.svg)
+![coverage.yml](https://code.harvard.edu/CS107/team21/actions/workflows/coverage.yml/badge.svg)
