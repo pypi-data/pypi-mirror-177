@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DChemPy
+Version: 1.1.1
+Summary: A packaged kit for chemical machine learning made by Yiheng Dai in Xiamen University.
+Project-URL: Homepage, https://github.com/horizon233/DChemPy
+Project-URL: Bug Tracker, https://github.com/horizon233/DChemPy/issues
+Author-email: Yiheng Dai <dyh12380@163.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# README
+This README is temporarily left as empty.
+
+I will fill this place up once I'm not so occupied. :) 
