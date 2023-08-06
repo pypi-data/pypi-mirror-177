@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "mapsims"
+description = "Map based simulations package for Cosmic Microwave Background experiments"
+authors = [
+    {name = "Andrea Zonca"},
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+]
+dynamic = ["version"]
+dependencies = [
+    "toml",
+    "pyyaml",
+    "pixell",
+    "healpy",
+    "numpy",
+    "astropy",
+    "so_noise_models",
+    #"so_noise_models @ https://github.com/zonca/so_noise_models/archive/3.1.1.tar.gz",
+    "pysm3",
+    #"pysm3 @ git+https://github.com/galsci/pysm.git#egg=pysm",
+]
+
+[project.scripts]
+mapsims_run = 'mapsims.runner:command_line_script'
+
+[project.urls]
+Home = "https://github.com/galsci/mapsims"
+Documentation = "https://mapsims.readthedocs.io"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-astropy", "jupyter_client", "nbformat", "ipykernel", "nbval"]
