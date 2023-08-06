@@ -1,0 +1,32 @@
+image: python:latest
+
+stages:
+  - deploy
+
+before_script:
+  - python --version
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+
+publish:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - pyproject.toml
+      variables:
+        REPOSITORY: pypi
+        PASSWORD: $PYPI_TOKEN
+    - if: $CI_COMMIT_BRANCH == "preprod"
+      changes:
+        - pyproject.toml
+      variables:
+        REPOSITORY: testpypi
+        PASSWORD: $TEST_PYPI_TOKEN
+  script:
+    - pip install build twine
+    - python -m build
+    - python3 -m twine upload --repository ${REPOSITORY} dist/* --verbose -u __token__ -p ${PASSWORD}
+  tags:
+    - shared-fi
