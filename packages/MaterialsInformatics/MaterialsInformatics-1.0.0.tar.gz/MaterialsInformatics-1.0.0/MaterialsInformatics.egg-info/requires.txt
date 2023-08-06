@@ -1,0 +1,7 @@
+numpy>=0.0
+matplotlib>=0.0
+opencv-python>=0.0
+webcolors>0.0
+scipy
+sklearn
+PyWavelets

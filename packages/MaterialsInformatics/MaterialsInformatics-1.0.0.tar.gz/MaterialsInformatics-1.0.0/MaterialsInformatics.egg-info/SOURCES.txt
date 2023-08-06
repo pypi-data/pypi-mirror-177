@@ -1,0 +1,7 @@
+README.rst
+setup.py
+MaterialsInformatics.egg-info/PKG-INFO
+MaterialsInformatics.egg-info/SOURCES.txt
+MaterialsInformatics.egg-info/dependency_links.txt
+MaterialsInformatics.egg-info/requires.txt
+MaterialsInformatics.egg-info/top_level.txt
