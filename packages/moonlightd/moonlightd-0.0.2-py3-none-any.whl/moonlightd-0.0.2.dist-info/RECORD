@@ -1,0 +1,10 @@
+moonlightd/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+moonlightd/__main__.py,sha256=0GGlvDUxdGolvIqo82N8a7QeJqTNQX-7M_WeylmPUIw,62
+moonlightd/_version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+moonlightd/app.py,sha256=wJmeBcuOoRB4WujCd6RJlEOWWOGE5Xtpc6mh4Kocpgw,10279
+moonlightd-0.0.2.dist-info/LICENSE,sha256=pf620fPn56Pz3m35O-Nr5Fbyod_DvcJg6fYQSQ2Fnls,1075
+moonlightd-0.0.2.dist-info/METADATA,sha256=4hzvqZC1kw_lWLWFRhQfc1P9fq4J4kic41BHu5-HBSs,3251
+moonlightd-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+moonlightd-0.0.2.dist-info/entry_points.txt,sha256=WBNqdD8MZ9wVVm0KByY6MNRTrMfeYKRyrZNzjMA1ylA,56
+moonlightd-0.0.2.dist-info/top_level.txt,sha256=32_yGMRO41-lQdZifbmMs-xq_uzbOTRQnUv8xeBc2GQ,11
+moonlightd-0.0.2.dist-info/RECORD,,
