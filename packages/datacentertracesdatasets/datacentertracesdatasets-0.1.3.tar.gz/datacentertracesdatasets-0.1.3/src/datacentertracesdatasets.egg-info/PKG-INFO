@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datacentertracesdatasets
+Version: 0.1.3
+Summary: Data center traces for machine learning tasks
+Author-email: Alejandro Fernández-Montes González <afdez@us.es>, Damián Fernández Cerero <damiancerero@us.es>
+Project-URL: Homepage, https://github.com/DamianUS/datacentertracesdatasets
+Project-URL: Bug Tracker, https://github.com/DamianUS/datacentertracesdatasets/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
