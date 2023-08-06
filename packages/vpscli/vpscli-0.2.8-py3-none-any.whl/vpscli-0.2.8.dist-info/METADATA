@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: vpscli
+Version: 0.2.8
+Summary: VPS manager
+Home-page: https://github.com/GaoangLiu/vpsinit
+Author: slipper
+Author-email: r2fscg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: endlessh
+Requires-Dist: redis
+Requires-Dist: pymysql
+Requires-Dist: codefast
+Requires-Dist: joblib
+Requires-Dist: psutil
+Requires-Dist: argparse
+Requires-Dist: uuidentifier
+Requires-Dist: aiohttp
+Requires-Dist: aiomysql
+Requires-Dist: aioredis
+Requires-Dist: aiofile
+
+# vps
+VPS inition and check
+
+
