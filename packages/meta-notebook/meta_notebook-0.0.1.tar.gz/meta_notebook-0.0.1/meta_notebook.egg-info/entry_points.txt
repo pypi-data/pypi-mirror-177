@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+meta_notebook = meta_notebook._modidx:d
+
