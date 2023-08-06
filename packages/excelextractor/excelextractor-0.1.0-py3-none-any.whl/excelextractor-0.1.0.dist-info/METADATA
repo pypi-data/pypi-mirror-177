@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: excelextractor
+Version: 0.1.0
+Summary: ExcelExtractor is an module to handle Excel documents in a normal table format for python
+Home-page: https://github.com/dcfSec/SecurityRatConnector
+License: Apache-2.0
+Author: dcfSec
+Author-email: contributor@dcfsec.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Project-URL: Repository, https://github.com/dcfSec/SecurityRatConnector
+Description-Content-Type: text/markdown
+
+# ExcelExtractor
+
+ExcelExtractor handles maschine readable data for excel documents
+
+ExcelExtrator handles excel worksheet with an headline and data under it.
+It can read/write from those data and presents them in an maschine readable format in python
+Needed file Structure in Excel:
+
+```
+|    A    |    B    |    C    | ....
++---------+---------+---------+-------
+| ... 
++---------+---------+---------+-------
+| Header1 | Header2 | Header3 | ...
++---------+---------+---------+-------
+| Content | Content | Content | ...
++---------+---------+---------+-------
+| ...
+```
+
+## Requirements
+
+- Python >= 3.6
+- openpyxl
+
+## Installation
+
+Install with pip
+
+````
+pip install excelextractor
+````
+
+## Documentation
+
+https://dcfsec.github.io/excelextractor/
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/dcfSec/SecurityRatConnector/tags). 
+
+## Authors
+
+* [dcfSec](https://github.com/dcfSec) - *Initial work*
+
+See also the list of [contributors](https://github.com/dcfSec/SecurityRatConnector/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
+
+## ToDo
+
+* Tests
+* Documentation
+
