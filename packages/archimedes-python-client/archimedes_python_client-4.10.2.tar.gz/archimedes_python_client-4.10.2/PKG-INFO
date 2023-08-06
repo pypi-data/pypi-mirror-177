@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: archimedes-python-client
+Version: 4.10.2
+Summary: The Python library for Archimedes
+License: Apache-2.0
+Author: Optimeering AS
+Author-email: dev@optimeering.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cachetools (>=5.2.0,<6.0.0)
+Requires-Dist: iteration-utilities (>=0.11.0,<0.12.0)
+Requires-Dist: msal (>=1.10.0,<2.0.0)
+Requires-Dist: msal-extensions (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=1.0.5)
+Requires-Dist: requests (>=2.27.0)
+Requires-Dist: retry (>=0.9.2,<0.10.0)
+Description-Content-Type: text/markdown
+
+# archimedes
+This is the Python library for Archimedes.
+
+## Installation
+Make sure you are running Python 3.8 or later.
+
+It can be added to existing projects like so:
+```shell
+poetry add archimedes-python-client
+```
+
+It can also be installed with pip:
+```shell
+pip install archimedes-python-client
+```
+
+It is recommended to use [arcl](https://github.com/OptimeeringAS/archimedes-cli) to generate new projects. The 
+generated projects will install `archimedes-python-client` as a part of the project. It will also include the required
+`archimedes.toml`.
+
+## Development
+Formatting with [black](https://pypi.org/project/black/).
+
+## Configuration
+
+Certain behaviors of the client can be configured by using environment variables. 
+
+| Configuration          | Description                               |
+|------------------------|-------------------------------------------|
+| ARCHIMEDES_ENVIRONMENT | The API to use (dev/prod). Default: prod. |
+| ARCHIMEDES_API_TIMEOUT | The request timeout for the API calls     |
+
+The dev version has been deployed to 
+[https://api-dev.fabapps.io/](http://api-dev.fabapps.io/) and the prod version is at 
+[https://api.fabapps.io/](http://api.fabapps.io/).
+
+For authentication-related environment variables, see below.
+
+## Authentication
+
+The following 3 different types of authentication methods are supported:
+
+### local (default)
+
+This uses your authentication credentials from arcl login (`arcl auth login optimeering`) and is implemented in the 
+class `ArchimedesLocalAuth`. This should only be used when running arcl locally.
+
+### confidential
+
+This should be used when you want to allow a background application to have access to the API. This is suitable for 
+use-cases when the backend of one app needs full access to the API. To use it, set the environment variable 
+`USE_APP_AUTHENTICATION`. In addition, an Azure AD B2C app needs to be created to represent this app (find the 
+instructions on how to do that on an app which is deployed this way 
+https://github.com/OptimeeringAS/predictor-dashboard#api-access-setup) and the following additional environment 
+variables need to be set:
+
+| Configuration                  | Value                                                                                           |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| AZURE_AD_TENANT_ID             | The value should be the **Directory (tenant) ID** of the authentication app.                    |
+| AZURE_AD_APP_ID                | The value should be the **Application (client) ID** of the authentication app.                  |
+| AZURE_AD_APP_CLIENT_CREDENTIAL | The value should be a client secret generated under **Certificates & secrets** in the Azure AD. |
+
+### web (public client)
+
+This should be used when you want to allow users to login to public client applications (desktop app, mobile app or a 
+web app). The users will be asked to log in to the Archimedes API and allow your application to access the data the 
+users have access to. To use it, set the environment variable `USE_APP_AUTHENTICATION`. In addition, an Azure AD B2C 
+app needs to be created to represent this app. The instructions for this are similar to the one used for [Azure AD app
+for archimedes-cli](https://github.com/OptimeeringAS/archimedes-api#create-an-application-for-the-cli).
+
+Once that is done, one of the following ways can be used to get the token:
+
+#### For a python cli app
+
+```python
+from archimedes.auth import ArchimedesPublicClientAuth
+
+AZURE_AD_TENANT_ID = "" # The value should be the **Directory (tenant) ID** of the public client app
+AZURE_AD_APP_ID = "" # The value should be the **Application (client) ID** of the public client app
+AZURE_APP_ID_AUTHORITY = "https://login.microsoftonline.com/common"
+
+archimedes_auth_app = ArchimedesPublicClientAuth(AZURE_AD_APP_ID, AZURE_APP_ID_AUTHORITY).app
+```
+
+After that, the `archimedes_auth_app` is an instance of `msal.PublicClientApplication` which can then be used to
+implement the public client flow to get the token.
+
+Once the token is retrieved, it can be used as such:
+
+```python
+import archimedes
+
+access_token = "" # See above on how to get it
+
+archimedes.get("NP/AreaPrices", "NO1", start="2022-02-24", end="2022-02-25", access_token=access_token)
+```
+
+#### For an SPA web app
+
+See [msal.js](https://github.com/AzureAD/microsoft-authentication-library-for-js).
+
+## Publishing releases to pypi
+
+A new release can be made by 
+[creating a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release) 
+using the GitHub web interface.
+
+When the release it created, as long as the tag naming convention is followed, it is automatically built and published 
+to pypi by GitHub Actions, which is configured in the [.github/workflows](../.github/workflows) in this repo. Please refer 
+to the following instructions when making releases:
+
+* Make sure that [pyproject.toml](pyproject.toml) is updated with a new version. We use 
+[semantic versioning](https://semver.org/). Make sure the version hasn't already been published to 
+[pypi](https://pypi.org/project/archimedes-python-client/#history). 
+* Go to the Releases page of the project
+* Click the `Create a new release` button
+* Click on `Choose a tag` and in the input field, enter `release/client/v{VERSION_NUMBER_FROM_pyproject.toml}`, for e.g. 
+`release/client/v1.2.3`. This tag name should NOT already exist, so it will NOT appear in the dropdown menu which appears as 
+you enter text. You need to click on `Create new tag release/client/v{VERSION_NUMBER_FROM_pyproject.toml} on publish` to create 
+the tag.
+* In the release title, write `v{VERSION_NUMBER_FROM_pyproject.toml}`, for e.g. `v1.2.3`.
+* In Release Notes, ideally, we should write the titles of all the Shortcut stories and link to them.
+* Click on the `Publish Release` button.
+* Then, check that the release pipeline is running by navigating to the Actions tab and wait for it to complete 
+successfully.
+* Verify the release is [published to pypi](https://pypi.org/project/archimedes-python-client/#history).
+* If there were no errors, a new `archimedes-python-client` version should be released.
+
