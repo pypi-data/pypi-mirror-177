@@ -1,0 +1,8 @@
+setup.py
+tavisod/__init__.py
+tavisod/get_secrets.py
+tavisod.egg-info/PKG-INFO
+tavisod.egg-info/SOURCES.txt
+tavisod.egg-info/dependency_links.txt
+tavisod.egg-info/requires.txt
+tavisod.egg-info/top_level.txt
