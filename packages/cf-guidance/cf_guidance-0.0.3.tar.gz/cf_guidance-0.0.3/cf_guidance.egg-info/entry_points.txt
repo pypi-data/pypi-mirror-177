@@ -1,0 +1,2 @@
+[nbdev]
+cf_guidance = cf_guidance._modidx:d
