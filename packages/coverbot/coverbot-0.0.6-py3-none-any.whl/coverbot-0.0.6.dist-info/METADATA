@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: coverbot
+Version: 0.0.6
+Summary: A monitoring system with Shioaji.
+Author-email: ypochien <ypochien@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: shioaji
+Requires-Dist: loguru
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: black ; extra == "test"
+Requires-Dist: pytest>=7.1.2 ; extra == "test"
+Requires-Dist: pytest-freezegun ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: codecov ; extra == "test"
+Project-URL: Home, https://github.com/ypochien/CoverBot
+Provides-Extra: doc
+Provides-Extra: test
+
+# CoverBot
+
+## Brief
+
+A monitor and execute stop loss trade package with Shioaji API
+
