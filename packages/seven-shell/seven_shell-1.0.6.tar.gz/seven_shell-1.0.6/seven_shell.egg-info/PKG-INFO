@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: seven-shell
+Version: 1.0.6
+Summary: seven shell
+Home-page: http://gitlab.tdtech.gao7.com/python/pypi_packages/seven_shell
+Author: seven
+Author-email: tech@gao7.com
+License: MIT
+Description: 
+        
+        <!--
+         * @Author: Kangwenbin
+         * @Date: 2022-11-17 18:31:50
+         * @LastEditTime: 2022-11-18 13:54:40
+         * @LastEditors: Kangwenbin
+         * @Description:
+        -->
+        
+        # seven_shell
+        
+        ## 天志互联Python积分商城库
+        
+        ### 1.0.0 更新内容
+        * 项目提交
+        
+        ### 1.0.0 更新内容
+        * 修改bug
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: ~=3.4
+Description-Content-Type: text/markdown
