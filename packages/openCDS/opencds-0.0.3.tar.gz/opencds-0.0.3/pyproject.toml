@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openCDS"
+version = "0.0.3"
+authors = [
+    { name="Kangkun Mao", email="maokangkun@pjlab.org.cn" },
+]
+description = "An open-source, artificial intelligence-based clinical decision support (CDS) systems"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/openCDS/OpenCDS"
+"Bug Tracker" = "https://github.com/openCDS/OpenCDS/issues"
+
+[project.scripts]
+openCDS = "openCDS.main:test"
