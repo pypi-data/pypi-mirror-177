@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pylinger
+Version: 1.0.0
+Summary: linger is package of fix training
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
