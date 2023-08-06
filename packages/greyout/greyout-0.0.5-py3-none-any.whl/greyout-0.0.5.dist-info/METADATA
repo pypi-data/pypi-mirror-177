@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: greyout
+Version: 0.0.5
+Summary: Getting to grey.
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: markdown
+
+Greyout
+--------
+
+For when you need grey, not black.
