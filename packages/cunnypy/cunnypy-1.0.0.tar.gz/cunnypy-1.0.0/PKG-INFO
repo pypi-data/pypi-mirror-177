@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: cunnypy
+Version: 1.0.0
+Summary: A python library for several image boards
+Home-page: https://codeberg.org/CunnyTech/Cunnypy
+License: GPL-3.0-only
+Keywords: anime,anime artwork,artwork,booru,async,httpx,library,hentai,e621,hypnohub,danbooru,konachan,yande.re,gelbooru,rule34,safebooru,tbib,xbooru,realbooru
+Author: Glitchy
+Author-email: thepatheticweebgamer@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiofiles (>=22.1.0,<23.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Project-URL: Repository, https://codeberg.org/CunnyTech/Cunnypy
+Description-Content-Type: text/markdown
+
+<h1 align="center">🦀 Cunny.py 🦀</h1>
+
+<h3 align="center">A python library for several image boards</h3>
+
+<p align="center">
+    <a href="https://liberapay.com/GlitchyChan/donate">
+        <img src="https://img.shields.io/badge/Liberapay-F6C915?style=for-the-badge&logo=liberapay&logoColor=black" alt="liberapay" />
+    </a>
+    <a href="https://discord.gg/ZxbYHEh">
+        <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff&style=for-the-badge" alt="Discord" />
+    </a>
+    <a href="https://twitter.com/glitchychan">
+        <img src="https://img.shields.io/badge/twitter-%2300acee?&style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" />
+    </a>
+</p>
+
+---
+
+<p align="center">
+    <a href="#about">About</a> •
+    <a href="#features">Features</a> •
+    <a href="#usage">Development</a>
+</p>
+
+## **About**
+This library is to make it much easier to interact with image boards with python.
+
+## **Features**
+- 🔁 Fully Async
+- 🔥 Blazingly Fast™️
+- 💯 Supports many sites with aliases (see [sites.json](./cunnypy/sites.json))
+- 🎱 Supports random search
+- ⚙️ 1 simple import to get going
+
+## **Usage**
+To get started with cunny.py simply import the library and use the search function
+
+Example search with gelbooru
+```python
+import cunnypy
+
+posts = await cunnypy.search("gel", tags=["megumin"])
+print(posts)
+```
+This will print out a list of [Post](./cunnypy/classes.py#L30-L80) classes which you can then manipulate
+
+
+Other examples can be found in the [Examples](./examples) folder
+
