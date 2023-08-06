@@ -1,0 +1,2 @@
+def printbuffer():
+    pass

@@ -1,0 +1,2 @@
+def QueryPulseConfig():
+    pass
