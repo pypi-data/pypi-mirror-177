@@ -1,0 +1,12 @@
+tglcourse/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+tglcourse/_modidx.py,sha256=50vnNhZwvhm3i1zMAYSHNX5SAtDr84w1Cg_SJd9RjcM,18477
+tglcourse/data_utils.py,sha256=SWjxt2pUOJH6vXtyf0LOAUlNFgy94ox5Mw6hVqv7RN4,1886
+tglcourse/generation_utils.py,sha256=Emjxaav3c-Wo4IFKA_Vy7Xd390L8dfQRmXelXPV98W0,19845
+tglcourse/lesson12.py,sha256=-d9QAc1S_0Cvi7x3nVeleqv6zZy2HqwCUJwePMR9M1c,7343
+tglcourse/utils.py,sha256=QDikIUIANlzYml7f142cikhjX3IwgIA8VZx3BpMOXe4,1569
+tglcourse-0.0.5.dist-info/LICENSE,sha256=MaU6NBrndpo5qNktOBG5nuJqFDa7PUkYy6JcjDeiYjo,1074
+tglcourse-0.0.5.dist-info/METADATA,sha256=0oLM2jdBzfTWyzPDwli8EER3CQiH48k_LhlagjjE9ec,9820
+tglcourse-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tglcourse-0.0.5.dist-info/entry_points.txt,sha256=Gf6BvFo5x2fguxyI7A_WJte3_buhJ482ZRqsZN6sGjU,99
+tglcourse-0.0.5.dist-info/top_level.txt,sha256=TTWZxdTRj34JiCu4Pw4QOkjgNKPtyd7RDbgtonrTRrQ,10
+tglcourse-0.0.5.dist-info/RECORD,,
