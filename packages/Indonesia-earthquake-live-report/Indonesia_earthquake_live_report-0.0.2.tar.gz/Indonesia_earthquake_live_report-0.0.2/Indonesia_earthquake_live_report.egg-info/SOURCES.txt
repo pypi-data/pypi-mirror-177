@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+Indonesia_earthquake_live_report.egg-info/PKG-INFO
+Indonesia_earthquake_live_report.egg-info/SOURCES.txt
+Indonesia_earthquake_live_report.egg-info/dependency_links.txt
+Indonesia_earthquake_live_report.egg-info/top_level.txt
+gempa_terkini/__init__.py
