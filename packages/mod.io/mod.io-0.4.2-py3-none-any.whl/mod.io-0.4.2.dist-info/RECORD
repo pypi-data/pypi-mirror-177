@@ -1,0 +1,15 @@
+modio/__init__.py,sha256=m4UslgeZ6Z9O4gk7dcoSpAhOydlJRD2hRPsyUeUiyU8,217
+modio/client.py,sha256=OZy-GyZ5T7Akh_UKCeiCCNykQyCpZ3vs4E7XXX_HQ8s,24187
+modio/entities.py,sha256=3-u-Zq-69BpHQYP0VhGqHGxnfDXbUNB04wdCZbHpRoA,26071
+modio/enums.py,sha256=9XCFcvVoWo78EgcCR66DOqvbCpnvxp_jAeKkyxalk4k,5254
+modio/errors.py,sha256=-WA5LYb8DtaAcBvZgNhD-GxjsxOyYLRuyM_nvQ5JAKY,821
+modio/game.py,sha256=yl9-VGIkzGurHV0L0pxa50-JFFolDZ_inoKAmrzx1UE,19684
+modio/mixins.py,sha256=oIrjcjxAJ4asJdgoM6NQjyeKvwlB9UA2HFIT_ywflkU,4777
+modio/mod.py,sha256=43g1Qubf-0uBN3e4o7OjH7aUJa2jq6W_plbG9npv818,35402
+modio/objects.py,sha256=BSMBno5rr0zkY1xrZfOWpdtWxDbT4YoZDXth8FhB8cY,15980
+modio/utils.py,sha256=EUd_aLOUaMbMRm3924SehWtGyLes6vtSKQLjdRp27fY,4363
+mod.io-0.4.2.dist-info/LICENSE,sha256=9nEdC9cPUGGN3czD9hD6jNgr-qk6HJ-1N-LBLelDifM,1070
+mod.io-0.4.2.dist-info/METADATA,sha256=3EPvQCQeWMnYZJIxAO2a08oowqEvZxsJNQSckPQkABQ,2474
+mod.io-0.4.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mod.io-0.4.2.dist-info/top_level.txt,sha256=J8YXLGoiW_1tZYWYxhjOCKiYDvqKTWhQYjWisZuYCOc,6
+mod.io-0.4.2.dist-info/RECORD,,
