@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: symbol_convert
+Version: 0.1
+Summary: 替换掉字符串中的中文符号以及全角符号转换为半角符号
+Project-URL: Changelog, https://raw.githubusercontent.com/Caaby/symbol_convert/master/docs/history.md
+Project-URL: Documentation, https://github.com/Caaby/symbol_convert/wiki
+Project-URL: Code, https://github.com/Caaby/symbol_convert
+Project-URL: Issue tracker, https://github.com/Caaby/symbol_convert/issues
+Author-email: Russel <fangling@outlook.com>
+Maintainer-email: Russel <fangling@outlook.com>
+License-File: LICENSE
+Keywords: symbol_convert,中文符号,全角符号转换
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# symbol_convert 
+
+**目前：**
+1. 用于文本清洗中将中文符号转换为英文符号 
+2. 全角符号转换为半角符号
+
+---
+## 安装
+可以直接 `pip` 安装
+> pip install symbol_convert
+
+
+### demo
+```text
+from symbol_convert import convert
+
+str = '这是一个，【个人】ｄｅｂｏｋｅ：'
+en_str = convert(str)
+print(str)
+print(en_str)
+> 这是一个，【中文】ｄｅｂｏｋｅ：
+> 这是一个,[中文]deboke:
+```
+
+## 版本历程
+详见 [history.md](https://github.com/Caaby/symbol_convert/blob/master/docs/history.md)
+
