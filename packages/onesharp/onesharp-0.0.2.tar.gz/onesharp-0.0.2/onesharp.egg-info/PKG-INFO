@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: onesharp
+Version: 0.0.2
+Summary: Interpreter and tools for the 1# language
+Author: Larry Moss, Jacob Striebel
+License: MIT License
+Project-URL: Web Textbook, https://iulg.sitehost.iu.edu/trm/
+Project-URL: Interactive Notebooks, https://lmoss.github.io/onesharp/
+Project-URL: Source Code, https://github.com/lmoss/onesharp/
+License-File: LICENSE
