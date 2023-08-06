@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: kfutils
+Version: 0.1.5
+Summary: A tool for common data file operation.
+Author: Koushik Naskar
+Author-email: koushik.naskar9@gmail.com
+License: MIT
+Project-URL: Source Code, https://github.com/Koushikphy/kfutils
+Keywords: File Operations
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Shells
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: csaps
+Requires-Dist: tabulate
+
+## `kfutils`: A tool for common data file operations.
+[![Alt text](https://img.shields.io/pypi/v/kfutils.svg?logo=pypi)](https://pypi.org/project/kfutils/)
+[![Alt text](https://img.shields.io/pypi/pyversions/kfutils.svg?logo=python)](https://pypi.org/project/kfutils/)
+[![Alt text](https://img.shields.io/pypi/dm/kfutils.svg?)](https://pypi.org/project/kfutils/)
+[![Alt text](https://img.shields.io/pypi/l/kfutils.svg?)](https://pypi.org/project/kfutils/)
+[![Alt text](https://img.shields.io/pypi/status/kfutils.svg?)](https://pypi.org/project/kfutils/)
+
+
+### ⚒ Instalation
+Download and install the latest package from the [release section](https://github.com/Koushikphy/kfutils/releases/latest) or directly by pip
+```bash
+pip install kfutils
+```
+This installs the python module and a command line tool named `kfutils`.  
+
+
+
+### ⚡ Usage 
+
+ __✈ Using as a command line tool.__
+```bash
+kutils [-h] -i FILE [-o FILE] [-c COLS [COLS ...]] [-rd COLS [COLS ...]] [-dr COLS [COLS ...]] [-dc COLS [COLS ...]] [-int COLS [COLS ...]]
+```
+
+| Argument    |  Description|
+| ----------- | ----------- 
+|    `-i`     | Input file name <br>If no operations are given it will show the stats about the file. |
+|    `-o`     | Output file name | 
+|    `-c`     | Index(s) of grid columns. <br> 2 columns for 2D file. | 
+|    `-s`     | Input file name to get overall stats |
+|    `-rd`    | List of columns to convert to degree from radian |
+|    `-dr`    | List of columns to convert to radian from degree |
+|    `-dc`    | List of columns to delete |
+|    `-int`   | Grid for the columns to interpolate |  
+
+
+
+ __🚀 Using as a python module__  
+The toplevel python module `kfutils` exposes several functions/class.

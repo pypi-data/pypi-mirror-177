@@ -1,0 +1,2 @@
+[console_scripts]
+kfutils = kfutils.cli:main
