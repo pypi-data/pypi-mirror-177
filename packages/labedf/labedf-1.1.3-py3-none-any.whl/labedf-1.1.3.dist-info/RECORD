@@ -1,0 +1,10 @@
+labedf/__init__.py,sha256=7I2ylvOHUI-Wfbvdj8KEYmEgaqUEpKguLdyVYjNS_fM,46
+labedf/csv2.py,sha256=6GtDLXq6Am9al9M41phVOcKJd7ZrtncLdwVRbY49rBo,3602
+labedf/edf2.py,sha256=81QoZLGgCMUrGBbPQ6pgH1Qx8TrEF4qSlufxGT70lxw,3770
+labedf/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labedf/utilities/edf.py,sha256=iMq8fiBQ0t0FBDaECW6MpFFfnU35cX8gVpDhgTDd51s,1994
+labedf-1.1.3.dist-info/LICENSE,sha256=5ea3m7glGKaVYePJvl4SB7X64W57G1zC7FC4EIqdtkM,1085
+labedf-1.1.3.dist-info/METADATA,sha256=UvgJi_3qkR6Yt7D0exvN1xzSmvylCCztd4zCrVS8-F8,1415
+labedf-1.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+labedf-1.1.3.dist-info/top_level.txt,sha256=YKPDRALXcdBjg7ezOgfJQAytTxQpQ2CqfVxJKteF_2w,7
+labedf-1.1.3.dist-info/RECORD,,
