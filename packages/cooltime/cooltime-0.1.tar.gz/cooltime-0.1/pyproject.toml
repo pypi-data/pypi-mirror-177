@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cooltime"
+version = "0.1"
+description = "4个关于时间的功能"
+
+dependencies = []
+keywords = []
+
+readme = "README.md"
+authors = [{name = "jutooy", email = "jutooy@qq.com"}]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = []
+
+[project.scripts]
+
+[project.urls]
