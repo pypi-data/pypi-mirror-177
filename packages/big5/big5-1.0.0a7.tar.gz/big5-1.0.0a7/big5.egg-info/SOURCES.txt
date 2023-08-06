@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+big5/__init__.py
+big5.egg-info/PKG-INFO
+big5.egg-info/SOURCES.txt
+big5.egg-info/dependency_links.txt
+big5.egg-info/entry_points.txt
+big5.egg-info/top_level.txt
+big5/modules/__init__.py
+big5/modules/lab/__init__.py
+big5/modules/lab/build.py

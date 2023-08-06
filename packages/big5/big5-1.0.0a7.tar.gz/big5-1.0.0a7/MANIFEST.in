@@ -1,0 +1,2 @@
+include big5/modules/locales/en/LC_MESSAGES/*.mo
+include big5/modules/locales/ru/LC_MESSAGES/*.mo
