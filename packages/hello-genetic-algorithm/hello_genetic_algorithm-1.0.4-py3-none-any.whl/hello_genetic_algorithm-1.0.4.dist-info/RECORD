@@ -1,0 +1,13 @@
+helloga/__init__.py,sha256=Cx44Zyxv3EfuXW8WEpmbs1bEa4Bq0fs1z4OOuqYdMco,189
+helloga/crossover.py,sha256=rnIxtYhN0x-ixb41JNhtWcm8qenadRQePqHDQbA48jc,5154
+helloga/environment.py,sha256=VVxDUJjFOyTp7bWTSg5wEKnHKz6NqTizIltAO5cDiiA,12523
+helloga/fitness.py,sha256=CmgEduRIV4dK4YEuSUfyjOqzti6qF_nLw9Uvp_yPQTI,3908
+helloga/individual.py,sha256=Lc-sy3YE8f8aAcqa7Ab9srfuGoauLvaqfRPM1K3iuz8,8012
+helloga/selector.py,sha256=Su5x4OUJDrF25n4zTGCC1RKKy3zwdCV5JqskrR7-lmw,3800
+tests/run_local.py,sha256=TWbqyQScOHaKJhTWGdViFjMMIQ7s7EqrMM_lW53JaJU,1780
+tests/test01.py,sha256=1_92Hl2fzuOa1wsdkvbx33VN-YF2UFJu5Ps9dWrh9Z4,2979
+hello_genetic_algorithm-1.0.4.dist-info/LICENSE,sha256=AF-uka1zwV9UNM2PaHEtOZEVmmrzr6We8xiZXoDCAFc,1087
+hello_genetic_algorithm-1.0.4.dist-info/METADATA,sha256=uxdTbPOSTD_KeZTWr3B4ntHZTG3PpDrHRZRpmXrdKOU,4517
+hello_genetic_algorithm-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hello_genetic_algorithm-1.0.4.dist-info/top_level.txt,sha256=-qgEro0l9m94Uzb_6cgs_keUfF3FUD66twl4LKgpZYU,14
+hello_genetic_algorithm-1.0.4.dist-info/RECORD,,
