@@ -1,0 +1,25 @@
+ ~dict
+
+mod other : 'colors', 'persons'
+alias colors : [colors]
+
+colors
+"yellow" : ("musturd", "amber", "chartreuse", "canary")
+/-/
+
+[animals]
+  "fish": ("John", "Marry")
+  "dogs": ("Jimmy")
+[-]
+
+<people>
+  "Margeret"
+  "Joey"
+  "Albert"
+  {
+    [classes]
+      "CPSC": "A+"
+      "CHEM": "A-"
+    [-]
+  }
+<->
