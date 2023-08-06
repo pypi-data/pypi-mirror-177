@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/community_layout/__init__.py
+src/community_layout/layout_class.py
+src/community_layout.egg-info/PKG-INFO
+src/community_layout.egg-info/SOURCES.txt
+src/community_layout.egg-info/dependency_links.txt
+src/community_layout.egg-info/requires.txt
+src/community_layout.egg-info/top_level.txt
