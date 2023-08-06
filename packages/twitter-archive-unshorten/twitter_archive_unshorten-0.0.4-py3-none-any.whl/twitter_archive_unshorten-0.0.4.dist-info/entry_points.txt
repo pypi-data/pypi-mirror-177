@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        twitter-archive-unshorten = twitter_archive_unshorten:main
+    
