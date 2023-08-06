@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+plover_split_at_apostrophe/__init__.py
+plover_split_at_apostrophe.egg-info/PKG-INFO
+plover_split_at_apostrophe.egg-info/SOURCES.txt
+plover_split_at_apostrophe.egg-info/dependency_links.txt
+plover_split_at_apostrophe.egg-info/entry_points.txt
+plover_split_at_apostrophe.egg-info/requires.txt
+plover_split_at_apostrophe.egg-info/top_level.txt
+plover_split_at_apostrophe.egg-info/zip-safe

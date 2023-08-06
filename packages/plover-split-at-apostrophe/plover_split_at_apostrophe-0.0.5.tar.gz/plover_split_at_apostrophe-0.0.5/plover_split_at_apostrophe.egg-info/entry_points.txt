@@ -1,0 +1,2 @@
+[plover.macro]
+split_word_at_apostrophe = plover_split_at_apostrophe:split_word_at_apostrophe
