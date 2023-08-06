@@ -1,0 +1,6 @@
+click>=7.0
+keke<0.2.0,>=0.1.1
+
+[all]
+zstandard>=0.10.0
+pywildcard>=1.0.10
