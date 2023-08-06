@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: automation-helper
+Version: 0.0.10
+Summary: automation helper library
+Author: juan matias tulli
+Author-email: jmatiastulli@gmail.com
+License: jmt
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# automation_helper
+
+automation_helper is a Python library that speeds up automation.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install automation_helper.
+
+```bash
+pip install automation-helper
+```
+
+### Get started
+How to use this lib:
+
+```Python
+from helper.kpi import KPI
+from helper.config import ConfigINI
+from helper.config import ConfigJSON
+from helper.db_connector import DBConnector
+from helper.reports_utils import reports_utils
+from helper.logger import Logger
+
+log = Logger("logs", "logs.log")
+
+log.info("------------- Start Process -------------")
+```
