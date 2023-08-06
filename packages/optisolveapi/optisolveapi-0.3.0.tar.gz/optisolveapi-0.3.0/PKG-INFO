@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: optisolveapi
+Version: 0.3.0
+Summary: Optimization & Solving common API (SAT, MILP, etc.)
+Home-page: UNKNOWN
+Author: Aleksei Udovenko
+Author-email: aleksei@affine.group
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
