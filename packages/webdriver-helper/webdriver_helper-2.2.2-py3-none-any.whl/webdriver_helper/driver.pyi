@@ -1,0 +1,16 @@
+from _typeshed import Incomplete
+from appium.webdriver.webdriver import WebDriver
+from pathlib import Path
+from selenium.webdriver.common.options import ArgOptions as ArgOptions
+from typing import Optional
+
+session: Incomplete
+DriverType: Incomplete
+
+def get_webdriver(driver_type: DriverType = ..., *, hub: str = ..., version: Incomplete | None = ..., options: Optional[ArgOptions] = ..., service_args: Optional[dict] = ..., capabilities: Optional[dict] = ...) -> WebDriver: ...
+def debugger(driver): ...
+
+class WebDriverPatch:
+    def set_download_path(self, path: Path): ...
+    def set_think_time(self, think_time: float): ...
+    def execute(self, *args, **kwargs): ...
