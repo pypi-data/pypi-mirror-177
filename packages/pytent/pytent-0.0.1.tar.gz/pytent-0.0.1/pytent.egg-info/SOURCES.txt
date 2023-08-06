@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pytent/Collect.py
+pytent.egg-info/PKG-INFO
+pytent.egg-info/SOURCES.txt
+pytent.egg-info/dependency_links.txt
+pytent.egg-info/requires.txt
+pytent.egg-info/top_level.txt
