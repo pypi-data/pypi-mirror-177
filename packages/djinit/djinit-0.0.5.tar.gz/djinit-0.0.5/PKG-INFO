@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: djinit
+Version: 0.0.5
+Summary: Django project initialize
+Home-page: https://github.com/ardevpk/djinit
+Author: Abdul Rehman
+Author-email: adnan1470369258@gmail.com
+Project-URL: Bug Tracker, https://github.com/ardevpk/djinit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Django Initialize
+
+## Just call the command in your terminal/powershell/cmd!
+
+
+### For initialzie Django project with base structure!
+```
+
+djinit --create
+
+```
+
+
+### For initialzie Django project with base structure, And authentication implemented!
+```
+
+djinit --create-auth
+
+```
+
+
+### For help!
+```
+
+djinit --help
+
+```
