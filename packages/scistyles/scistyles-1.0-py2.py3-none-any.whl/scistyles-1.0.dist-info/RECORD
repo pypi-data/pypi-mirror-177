@@ -1,0 +1,14 @@
+scistyles/__init__.py,sha256=VVtWfwp2HkPgyeiEOWmjN3WvUtDzqj_wwVvMLkhuNOI,151
+scistyles/core.py,sha256=IDWyFjbsgVNssJiywOwiA8dwX6VCBlY8HnghD5ScMNY,1234
+scistyles/stylelib/ACS_nano-hs.mplstyle,sha256=QbOvHTnjxYsfOWaociJnWHHgeh7-QSGZWWVGhrRdCPw,3642
+scistyles/stylelib/PRL-hs.mplstyle,sha256=Zo-3Fzi_WsYRW3Q9Jplw-WAAPe50650IoSX9q-8SHqA,3654
+scistyles/stylelib/apl-sp.mplstyle,sha256=q4WvYS00jf-g5JWh72yDEr8yPHGfmtZZ9OK-kYMHjTQ,4457
+scistyles/stylelib/aps_sans-hs.mplstyle,sha256=lKTjzagwBrcfmq8mfb10bvbMGOlh2XWKh1Kz2r9OJZA,3343
+scistyles/stylelib/nature_com-hs.mplstyle,sha256=ULiD_jaa9VrD8MXMEmlPTTmBUKPgR2hxvj0xqM3jnY8,3643
+scistyles/stylelib/optlett-sp.mplstyle,sha256=xgiHCNY3X9rdZF52byn3ZzDkuqElBJbst4SkhXFwq-0,4144
+scistyles/stylelib/pnas-sp.mplstyle,sha256=KeS8v3ClMOcFlyLnGYZBJnrYJ8-6aG3GzqdcRWJy5AI,4451
+scistyles/stylelib/presentation-sp.mplstyle,sha256=mCKMSTNd1wqSksFnbH3-295ynnohXT8AXtzO06lLMMA,3843
+scistyles-1.0.dist-info/LICENSE,sha256=-We-C4DG3EnCnI7hFc8Ky5heAi6wA1734g9WC0iR0Zg,1085
+scistyles-1.0.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+scistyles-1.0.dist-info/METADATA,sha256=Q6aihPDZ4q_XbRoqFqKCoZ-7zyspj-dYGbadUg53Bn8,2619
+scistyles-1.0.dist-info/RECORD,,
