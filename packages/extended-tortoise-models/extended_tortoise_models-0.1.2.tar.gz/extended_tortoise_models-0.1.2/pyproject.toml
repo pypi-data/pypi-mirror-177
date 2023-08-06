@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "extended-tortoise-models"
+version = "0.1.2"
+description = "Extended models for tortoise; less boilerplate for everybody! ⛰"
+authors = ["Can H. Tartanoglu <canhtart@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "extended_tortoise_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tortoise-orm = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
