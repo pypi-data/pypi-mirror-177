@@ -1,0 +1,16 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/pkgexampledatabases/__init__.py
+src/pkgexampledatabases/my_database_module.py
+src/pkgexampledatabases/myappconfigmanager.py
+src/pkgexampledatabases/mycsvhelper.py
+src/pkgexampledatabases/mydatabasemanager.py
+src/pkgexampledatabases/mypathmanager.py
+src/pkgexampledatabases/mysqlitemanager.py
+src/pkgexampledatabases.egg-info/PKG-INFO
+src/pkgexampledatabases.egg-info/SOURCES.txt
+src/pkgexampledatabases.egg-info/dependency_links.txt
+src/pkgexampledatabases.egg-info/entry_points.txt
+src/pkgexampledatabases.egg-info/top_level.txt

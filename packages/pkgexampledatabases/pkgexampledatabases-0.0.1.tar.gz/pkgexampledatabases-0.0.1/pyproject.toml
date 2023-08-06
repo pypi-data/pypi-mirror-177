@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgexampledatabases"
+version = "0.0.1"
+authors = [
+  { name="Good Boy", email="pythonic@rexbytes.com" },
+]
+description = "A simple database package example"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.package-data]
+"pkgexampledatabases.data"=["*.json","*.db"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/RexBytes/pkgexampledatabases"
+"Bug Tracker" = "https://github.com/RexBytes/pkgexampledatabases/issues"
+"Download URL" ="https://github.com/RexBytes/pkgexampledatabases/archive/refs/tags/v0.0.1.tar.gz"
+
+[project.scripts]
+rexdbp = "pkgexampledatabases:my_database_module.rexdbp"
