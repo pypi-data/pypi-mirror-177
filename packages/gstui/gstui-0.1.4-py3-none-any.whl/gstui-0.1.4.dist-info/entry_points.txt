@@ -1,0 +1,4 @@
+[console_scripts]
+gstui=gstui.gstui:main
+tests=scripts:test
+

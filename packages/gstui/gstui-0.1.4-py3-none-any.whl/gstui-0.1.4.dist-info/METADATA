@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: gstui
+Version: 0.1.4
+Summary: Text User interface for exploring, downloading and uploading files to Google Cloud Storage buckets
+License: MIT
+Author: Matheus Fillipe
+Author-email: matheusfillipeag@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: blessed (>=1.19.1,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: diskcache (>=5.4.0,<6.0.0)
+Requires-Dist: google-cloud-storage (>=2.5.0,<3.0.0)
+Requires-Dist: pyfzf (>=0.3.1,<0.4.0)
+Requires-Dist: pytermgui (>=7.2.0,<8.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Work in progress
+
+# GSTUI
+
+A Text User Interface for exploring Google Cloud Storage. Fast and cached.
+
+## Intallation
+
+```sh
+pip install -U gstui
+```
+
+Install [fzf](https://github.com/junegunn/fzf#installation)
+
+## Usage
+
+Run `gstui` or `gstui --help` to see more options.
+
+Loading buckets or the inital listing for the first time can take a long time to cache. You can create an initial cache of everything with: `gstui -a`.
+
+The first picker is for selecting the bucket and the second is for selecting the blob to download.
+
+# Development
+
+Be free to submit a PR. Check the formatting with flake8 and for new features try to write tests.
+
+## Tests
+
+
+```sh
+poetry run tests
+```
+
+Or manually
+
+```sh
+poetry run pytest tests -n 4 -vvv
+```
+
+## TODO
+
+- [ ] Better thread management
+- [ ] Don't rely on `time.sleep` for cache tests
+- [ ] [urwid](https://github.com/urwid/urwid) UI
+
+# Related Projects
+
+* [gsutil](https://github.com/GoogleCloudPlatform/gsutil) A command line tool for interacting with cloud storage services. 
+* [gcsfuse](https://github.com/GoogleCloudPlatform/gcsfuse) A user-space file system for interacting with Google Cloud Storage 
+
