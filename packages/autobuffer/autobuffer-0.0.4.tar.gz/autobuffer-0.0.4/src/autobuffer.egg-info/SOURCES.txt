@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/autobuffer/__init__.py
+src/autobuffer/autobuffer.py
+src/autobuffer.egg-info/PKG-INFO
+src/autobuffer.egg-info/SOURCES.txt
+src/autobuffer.egg-info/dependency_links.txt
+src/autobuffer.egg-info/top_level.txt
