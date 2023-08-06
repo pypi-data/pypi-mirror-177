@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tsaugmentation
+Version: 0.4.5
+Summary: Robust time series tsaugmentation for forecasting algorithms
+Author: Luis Roque
+Author-email: <roque0luis@gmail.com>
+Keywords: python,time series,hierarchical,forecasting,tsaugmentation,machine learning
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A package that allows to augment your time series dataset to test the robustness of forecasting algorithms
