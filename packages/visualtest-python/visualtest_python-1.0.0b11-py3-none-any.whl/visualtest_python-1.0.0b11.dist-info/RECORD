@@ -1,0 +1,14 @@
+sbvt/__init__.py,sha256=IIer8JjjBjt43DZANfKbSkQQO7mmkR3mea8z5FdOVRM,1132
+sbvt/api.py,sha256=6xVL8X9VcYcx8-A_QPa9iQHykE2GNhYj1e85U0K_J08,7589
+sbvt/browser.py,sha256=30Ggdzu_vP-04MIhi0N1VNGHVygHDLC30z0HDw0Zx40,29080
+sbvt/dom-capture.min.js,sha256=VFGqwMiw4EXem1v6O4mAJbMWIS7AgfH1lltEEwL3ypQ,3204
+sbvt/freeze-page.min.js,sha256=j-AowGf4XVHVTYBjnCDnFyVfD_ONow3QkuvSAk_FZ3M,974
+sbvt/imagetools.py,sha256=6z4MA2Wfet8jMlTlKTU68JXSADXNj78fOXQhl7f_ONQ,5981
+sbvt/timer.py,sha256=ciQJQUYSTChdIbsLiYiEzPa6yw8YwSqaeWc7DU4gSrE,548
+sbvt/user-agent.min.js,sha256=m-EpJPDZ7fIBlp-lj_VPl392akWm7rsKdweKU_3JTFA,1738
+sbvt/visualtest.py,sha256=GnHA0cPPqkdDKFb8Qzy2emT_giPu0TBtzvRBDuh-XIY,8626
+visualtest_python-1.0.0b11.dist-info/LICENSE,sha256=8vhEBNg7g2MxrQdwP-_ugxe3PDk5EbsBeMa--tc1xEA,1073
+visualtest_python-1.0.0b11.dist-info/METADATA,sha256=QSAKBF86D3xfVIu3AFHjIuOcYuoMpBB-zooRnYBl8Bc,3875
+visualtest_python-1.0.0b11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+visualtest_python-1.0.0b11.dist-info/top_level.txt,sha256=t2tNJSI9vPU6KzikQCU2NYIJmbBaVTvOSJajc6IoRD0,5
+visualtest_python-1.0.0b11.dist-info/RECORD,,
