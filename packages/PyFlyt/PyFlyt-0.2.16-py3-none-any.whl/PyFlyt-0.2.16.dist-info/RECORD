@@ -1,0 +1,14 @@
+PyFlyt/models/race_gate.urdf,sha256=0iU7bXipwwyb1zU78WKeYK2qZ_gx6EuBhOrIF3wQlHw,2533
+PyFlyt/models/target.urdf,sha256=JnkccMCTU-K0_QfF9RaH-4STUmbA5uzSRMVkj0KxgAo,444
+PyFlyt/models/vehicles/cf2x/cf2.dae,sha256=8P-6VpRzSXzopypa5v-OB7LylUUHymkxma2gMXuV3hs,529735
+PyFlyt/models/vehicles/cf2x/cf2x.urdf,sha256=w4JVjaz52WLDDeCuYKUfNm9uWfvlIL0NZuuPcLK6y_M,2559
+PyFlyt/models/vehicles/cf2x/cf2x.yaml,sha256=aSmZKxUxzx1u6UtTF3WUKZnUXrDLSDlqHiuhPl91U74,1247
+PyFlyt/models/vehicles/primitive_drone/car.urdf,sha256=EmVI14iZ7Y688ngCgOGHQZ1bDwxw4-z4x_95jo6nNFw,6157
+PyFlyt/models/vehicles/primitive_drone/drone.urdf,sha256=JwZf6aQg6E6sRnwzI6ewo8UQiSuzfsIsyQ6eZBNEfp0,6205
+PyFlyt/models/vehicles/primitive_drone/drone.xacro,sha256=4yqbIB4rGQkKeQxwHUgvIpfHo69WXhMqJee7BL8EEG8,5824
+PyFlyt/models/vehicles/primitive_drone/materials.xacro,sha256=Q5PrIYjNpH9oDYBCCFirdGQB8WG0Tqd_ali-6OebbGo,755
+PyFlyt-0.2.16.dist-info/LICENSE.txt,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+PyFlyt-0.2.16.dist-info/METADATA,sha256=tUNukJ28XLkipDuKnWF36FRkLLxxrVhsMPoj7JGZCIU,635
+PyFlyt-0.2.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PyFlyt-0.2.16.dist-info/top_level.txt,sha256=w_SaUx9U3v5xF7c9Osfjl19_q-UnQiqXLNl4ikhrKYg,7
+PyFlyt-0.2.16.dist-info/RECORD,,
