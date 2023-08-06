@@ -1,0 +1,4 @@
+antlr-plsql~=0.9.1
+antlr-tsql~=0.12.6
+markupsafe==2.0.1
+russian_protowhat~=1.13.0
