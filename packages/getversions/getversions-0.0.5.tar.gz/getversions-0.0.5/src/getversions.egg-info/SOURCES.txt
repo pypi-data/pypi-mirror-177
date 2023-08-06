@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/getversions/__init__.py
+src/getversions/core.py
+src/getversions/getversions.py
+src/getversions/newinstalledversion.py
+src/getversions/py.typed
+src/getversions.egg-info/PKG-INFO
+src/getversions.egg-info/SOURCES.txt
+src/getversions.egg-info/dependency_links.txt
+src/getversions.egg-info/requires.txt
+src/getversions.egg-info/top_level.txt
