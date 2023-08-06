@@ -1,0 +1,8 @@
+numpy
+pandas
+pyyaml
+mgzip
+appdirs
+wget
+exceltogdx
+loguru
