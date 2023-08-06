@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+maminbot/__init__.py
+maminbot/config.py
+maminbot/db_utils.py
+maminbot/generation_utils.py
+maminbot/gpt_utils.py
+maminbot/mlm_utils.py
+maminbot/utils.py
+maminbot.egg-info/PKG-INFO
+maminbot.egg-info/SOURCES.txt
+maminbot.egg-info/dependency_links.txt
+maminbot.egg-info/requires.txt
+maminbot.egg-info/top_level.txt
