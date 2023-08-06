@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=49.2"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.black]
+target-version = ['py39']
+line-length=110
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | notebooks
+  | venv
+  | \*.ipynb\
+)/
+'''
+
+[tool.autoflake]
+recursive = true
+in-place = true
+ignore-init-module-imports = true
+remove-all-unused-imports = true
+remove-unused-variables = true
+
+[tool.isort]
+profile = "black"
+line_length=110
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+minversion = 7.0
+addopts = [
+    "-ra",
+    "--strict-config",
+    "--strict-markers",
+    "--ignore=docs/conf.py",
+    "--ignore=setup.py",
+    "--ignore=ci",
+    "--ignore=.eggs",
+    "--ignore=src/*/_version.py",
+    "--doctest-modules",
+    "--doctest-glob=*.rst",
+    "--tb=short"
+]
+markers = []
+norecursedirs = [
+	".git",
+	".tox",
+	".env",
+	"dist",
+	"build",
+	"migrations",
+]
+python_files = [
+	"test_*.py",
+	"*_test.py",
+	"tests.py",
+]
+testpaths = ["tests"]

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smad
+Version: 0.0.1
+Summary: SMAD library
+Author: abox1337
+Author-email: abox-dev@fiduciagad.de
+Keywords: smad
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ==3.9.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# SMAD Library
+
+### is WIP

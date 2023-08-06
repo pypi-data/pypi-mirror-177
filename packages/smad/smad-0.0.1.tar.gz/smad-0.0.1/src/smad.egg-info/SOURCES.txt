@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+src/smad/__init__.py
+src/smad/main.py
+src/smad.egg-info/PKG-INFO
+src/smad.egg-info/SOURCES.txt
+src/smad.egg-info/dependency_links.txt
+src/smad.egg-info/not-zip-safe
+src/smad.egg-info/requires.txt
+src/smad.egg-info/top_level.txt
