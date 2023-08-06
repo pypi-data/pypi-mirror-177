@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/databasemasterversion.egg-info/PKG-INFO
+src/databasemasterversion.egg-info/SOURCES.txt
+src/databasemasterversion.egg-info/dependency_links.txt
+src/databasemasterversion.egg-info/requires.txt
+src/databasemasterversion.egg-info/top_level.txt
+src/managedb/__init__.py
