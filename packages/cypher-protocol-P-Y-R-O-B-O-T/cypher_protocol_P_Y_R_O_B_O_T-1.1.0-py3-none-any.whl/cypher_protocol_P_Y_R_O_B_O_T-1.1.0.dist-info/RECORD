@@ -1,0 +1,10 @@
+CYPHER_PROTOCOL/__init__.py,sha256=mqMuQB3aqJVPrHHqJMLjqiMKUiJjozc7EPLcX5DpKHg,22
+CYPHER_PROTOCOL/CYPHER_CLIENT/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CYPHER_PROTOCOL/CYPHER_CLIENT/cypher_client.py,sha256=g9aUuK3Lnuqh6FbmFYkBZtZF7IQJcPKSktToZnn0wuE,4801
+CYPHER_PROTOCOL/CYPHER_SERVER/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CYPHER_PROTOCOL/CYPHER_SERVER/cypher_server.py,sha256=IjSJl0Zh0I8AmMHx8NRiAFst9MNtBedLRZP2aHKVIp4,8944
+cypher_protocol_P_Y_R_O_B_O_T-1.1.0.dist-info/LICENSE,sha256=f9PXU6td3rsmerQIXv85A4xdxPig9yuUlCmoxjJ9QAk,35165
+cypher_protocol_P_Y_R_O_B_O_T-1.1.0.dist-info/METADATA,sha256=tp3jVeEMdtdTjmzUQKpsNXnV3HhtG46e0LVlxzNvvzI,46560
+cypher_protocol_P_Y_R_O_B_O_T-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cypher_protocol_P_Y_R_O_B_O_T-1.1.0.dist-info/top_level.txt,sha256=pbhjOzq7X7HWVmV5_XMMLd4VgMfRL760jENRlNb_7jA,16
+cypher_protocol_P_Y_R_O_B_O_T-1.1.0.dist-info/RECORD,,
