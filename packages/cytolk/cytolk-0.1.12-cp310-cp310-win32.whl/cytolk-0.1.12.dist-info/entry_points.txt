@@ -1,0 +1,2 @@
+[console_scripts]
+cytolk = cytolk.main:cli
