@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+googleatclient.egg-info/PKG-INFO
+googleatclient.egg-info/SOURCES.txt
+googleatclient.egg-info/dependency_links.txt
+googleatclient.egg-info/requires.txt
+googleatclient.egg-info/top_level.txt
+googleclient/__init__.py
+googleclient/auth.py
+googleclient/utils.py
+googleclient/gmail/__init__.py
+googleclient/gmail/api.py
+googleclient/gmail/gmail.py
