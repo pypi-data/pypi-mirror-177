@@ -1,0 +1,12 @@
+requests>=2.18.0
+configular>=1.1.0
+
+[django]
+Django>=1.10
+
+[test]
+pytest
+pytest-coverage
+pytest-mock
+python-dateutil
+Django<5,>=2.2
