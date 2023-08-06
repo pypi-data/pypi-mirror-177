@@ -1,0 +1,17 @@
+vertebrae/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertebrae/config.py,sha256=oF0g6zGx_SW1o__ZFCuZQAznYQJEkXjHqPP3zSwlfxo,1108
+vertebrae/core.py,sha256=QijAPWbYIhbKXob_J1uEDk3Pb0HbKDtM2kbNpz1r1hk,4219
+vertebrae/database.py,sha256=TIhlhhIgmLS3GsQfY5VsE7GEFtA4Iov_FiUOthekbCE,725
+vertebrae/service.py,sha256=e3-B2I_ij5BSNdbpBPitvsLOtxiSWkwu2qe_ODpX7k4,1511
+vertebrae/cloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertebrae/cloud/aws.py,sha256=dMQhdPM0IsMMnFfH4LmHYerkNJfymenTCuEKGWp4eJw,309
+vertebrae/stores/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vertebrae/stores/cache.py,sha256=H2yiK7si928tc-_CGvR2xXgqtsuDHTXMmLQdZwHT_HM,1119
+vertebrae/stores/directory.py,sha256=LusQcGVsPxo_G2-8uTk8L_nrtY4RbhfWVSdLqqZahj8,1225
+vertebrae/stores/relational.py,sha256=ipIMMSkeoXlpoTZiotNj7pzzzZipD10rg-7FlJiUMCw,2584
+vertebrae/stores/s3.py,sha256=xXgGQsyLm3yFnd1IvU477fbRZI74xu3SPqFZdG-BS-4,3981
+vertebrae-0.6.13.dist-info/LICENSE,sha256=ttdT5omfN6LNmtQoIjUhkkFhz6i44SDMRNwKrbfyTf8,1069
+vertebrae-0.6.13.dist-info/METADATA,sha256=ctmVr82BLYjYfBf5EV_ei3Ff_WZdbCcwG835cje34so,6984
+vertebrae-0.6.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vertebrae-0.6.13.dist-info/top_level.txt,sha256=NIANJGSF1_5DOMI3pW5v7N4a9FhcrVVEE-b4qgJR1X4,10
+vertebrae-0.6.13.dist-info/RECORD,,
