@@ -1,0 +1,12 @@
+katsuyo_text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katsuyo_text/katsuyo.py,sha256=Hv1_Bc9eiUzpEfLF4TklksTYUYrW0LsaKyAtw9LZ0nY,14945
+katsuyo_text/katsuyo_text.py,sha256=c-cgqPwmaWpbpfupNCMlnPUFKonWxIMd_xGJ6mIcmck,62252
+katsuyo_text/katsuyo_text_detector.py,sha256=txBEJGhFPMVLkSVGqg3-oNiWOLLClKsjBJxabqFaOcU,5320
+katsuyo_text/katsuyo_text_helper.py,sha256=r0SECAQy-9VUC8yFSS8yeQB9XDCRJKXNEuQap68Mnu0,27464
+katsuyo_text/sentence_converter.py,sha256=CxbCrSazN-E9Ti8sndg_Ie-n3Q1Kk0UDd56XoNJfBGA,669
+katsuyo_text/spacy_katsuyo_text_detector.py,sha256=KupVx-wW20s2C5cxB97t4jOv4wwgcXBA6cFpnL9n-QU,18155
+katsuyo_text/spacy_sentence_converter.py,sha256=jxUy5VNk5H6TcGDxJ7XYBC9NjULpdCTbUT3eExwh10Q,7930
+katsuyo_text-0.1.1.dist-info/LICENSE,sha256=5p_pemjqDwhhealgC-YyAQ9-W5cNRAEzZDlqG19r6QM,1075
+katsuyo_text-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+katsuyo_text-0.1.1.dist-info/METADATA,sha256=HwU-ERgKEE24AMAGfjP_fVsgbzq83cs-kiCx_SdLVH0,4751
+katsuyo_text-0.1.1.dist-info/RECORD,,
