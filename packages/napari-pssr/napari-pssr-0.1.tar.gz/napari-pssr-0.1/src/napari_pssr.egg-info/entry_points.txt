@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-pssr = napari_pssr:napari.yaml

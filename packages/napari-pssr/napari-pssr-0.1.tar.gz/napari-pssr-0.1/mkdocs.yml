@@ -1,0 +1,11 @@
+site_name: napari-pssr
+site_description: A plugin for training and applying pssr
+site_author: William Patton
+
+theme: readthedocs
+
+
+repo_url: https://github.com/pattonw/napari-pssr
+
+pages:
+- Home: index.md
