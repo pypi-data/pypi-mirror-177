@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yahoofinanceasyncio
+Version: 0.0.2
+Summary: Yahoo prices
+Home-page: https://github.com/microprediction/yahoofinanceasyncio
+Author: microprediction
+Author-email: peter.cotton@microprediction.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# yahoofinanceasyncio
+yahoo finance asyncio
