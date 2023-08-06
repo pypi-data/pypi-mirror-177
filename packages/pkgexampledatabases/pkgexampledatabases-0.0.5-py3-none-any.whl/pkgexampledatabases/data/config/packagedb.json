@@ -1,0 +1,23 @@
+{
+    "DataBases": [
+        {
+            "DatabaseName": "storemart",
+            "Tables": [
+                {
+                    "TableName": "productlist",
+                    "Fields": [
+                        {
+                            "FieldName": "item",
+                            "FieldType": "text",
+                            "Constraint": "UNIQUE"
+                        },
+                        {
+                            "FieldName": "price",
+                            "FieldType": "float"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

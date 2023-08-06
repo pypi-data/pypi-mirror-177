@@ -1,0 +1,9 @@
+databaseconfig:
+  packagedb: "packagedb.json"
+  userdb: "userdb.json"
+databases:
+  packagedb: "storemart.db"
+  userdb: "shopping.db"
+sampledata:
+  shoppinglist: "shoppinglist.csv"
+  store: "store.csv"

@@ -1,0 +1,23 @@
+{
+    "DataBases": [
+        {
+            "DatabaseName": "shopping",
+            "Tables": [
+                {
+                    "TableName": "shoppinglist",
+                    "Fields": [
+                        {
+                            "FieldName": "item",
+                            "FieldType": "text",
+                            "Constraint": "UNIQUE"
+                        },
+                        {
+                            "FieldName": "quantity",
+                            "FieldType": "integer"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
