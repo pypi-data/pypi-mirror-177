@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "cmply"
+version = "0.1.2"
+description = "A simple tool to validate if a repository adhears to specified rules."
+authors = ["Paul Selibas <pselibas@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+repository = "https://github.com/pselibas/cmply"
+packages = [
+    { include = "docker_runner" },
+    { include = "cmply" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+docker = ">5"
+termcolor = "^2.1.1"
+GitPython = "^3.1.29"
+schema = "^0.7.5"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cmply = 'cmply:main'
