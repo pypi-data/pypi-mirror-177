@@ -1,0 +1,7 @@
+curefit/__init__.py,sha256=EzIBhYYj93SvvF6RjnYDBb6hwiW7tWOT5tA3kgAl5Yg,695
+curefit/curefit_linreg.py,sha256=kxwi78HSvdQc9DdW5eCA88KoAwycxh7IennFtYJm2tg,17614
+curefit/unc_calc.py,sha256=OmiQgfSnJJ_vF2m6b8Z0cEzIR5Qe83-8FsP9vdXWq_I,4081
+curefit-0.2.0.dist-info/LICENSE,sha256=QXHrMbkYtmdFvk4W8z7vd-bN-QDjG2aTHlKQYv8bDeM,1086
+curefit-0.2.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+curefit-0.2.0.dist-info/METADATA,sha256=S6gUf1y2tqZN2G1xgGlsDXYxn9UiZrCSl58LOGzJaGY,4444
+curefit-0.2.0.dist-info/RECORD,,
