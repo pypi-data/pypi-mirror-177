@@ -1,0 +1,9 @@
+setup.py
+cli/__init__.py
+cli/superbuddy.py
+superbuddy.egg-info/PKG-INFO
+superbuddy.egg-info/SOURCES.txt
+superbuddy.egg-info/dependency_links.txt
+superbuddy.egg-info/entry_points.txt
+superbuddy.egg-info/requires.txt
+superbuddy.egg-info/top_level.txt
