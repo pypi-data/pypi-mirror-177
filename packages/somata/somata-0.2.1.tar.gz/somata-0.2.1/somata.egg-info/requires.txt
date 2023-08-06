@@ -1,0 +1,10 @@
+joblib
+kneed
+librosa
+matplotlib
+numpy>=1.22
+scipy
+tqdm
+spectrum
+codetiming
+sorcery>=0.2.2
