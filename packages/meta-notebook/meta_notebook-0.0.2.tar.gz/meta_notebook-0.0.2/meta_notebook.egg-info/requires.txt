@@ -1,0 +1,4 @@
+execnb
+fastcore
+
+[dev]
