@@ -1,0 +1,14 @@
+itk/SplitComponentsPython.py,sha256=6lRZVUBtIpr8zzgHFc2V19xj1IqUQ1nK7m77TDc7Z9o,2451
+itk/_SplitComponentsPython.pyd,sha256=4r0QBBcAF5sPvlT-jMoKtba-aKle0s8C3sbZ22x7-8A,1150976
+itk/__init_splitcomponents__.py,sha256=sjwvrmCPXtO-OmUQzhtvHN1uuRjuzRDUYX58wnhKwE0,488
+itk/itkSplitComponentsImageFilterPython.py,sha256=Fv22A4VehG18eBP-wGO4dacioB1XF2kr1QuOx82X10E,81866
+itk/Configuration/SplitComponentsConfig.py,sha256=H1hgTc6v_05EZAu7lmT6pJtxm7lmR1Lji6Mf945ygaU,5103
+itk/Configuration/SplitComponents_snake_case.py,sha256=ZALjQm4z0IxfQ2rirCXKiKMX7Njpy3j06YI0YVBj5qM,60
+itk_splitcomponents.libs/msvcp140.dll,sha256=g6n-4TYe86SchxjpsA7_QIlh5ZShZZicmsrqD_AggfI,572320
+itk_splitcomponents.libs/tbb12.dll,sha256=5LkUX4PRz2FaJi1AySZvrxvZXfKEKlEWuKOmI7i1J2I,308736
+itk_splitcomponents-2.0.10.dist-info/DELVEWHEEL,sha256=uwEX9-fXypIaz3WwRZh7wHHi0NM9VT5HkQo1pHJJeLA,266
+itk_splitcomponents-2.0.10.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_splitcomponents-2.0.10.dist-info/METADATA,sha256=caP8StuLMStc0g30G1uDRqiLjXmqcEJipN3Ti5TwcEM,1711
+itk_splitcomponents-2.0.10.dist-info/WHEEL,sha256=wxRIpeh7RARFz0PJExwImF9ea_tAHIFxnfjWCxA1wwI,95
+itk_splitcomponents-2.0.10.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_splitcomponents-2.0.10.dist-info/RECORD,,
