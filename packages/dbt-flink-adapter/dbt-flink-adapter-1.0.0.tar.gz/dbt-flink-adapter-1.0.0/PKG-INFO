@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: dbt-flink-adapter
+Version: 1.0.0
+Summary: The Flink adapter plugin for dbt
+Home-page: https://github.com/getindata/flink-dbt-adapter
+Author: GetInData
+Author-email: office@getindata.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## DBT-Flink Adapter
+
+This is POC for DBT-FLINK adapter
+
+## rerequisities
+
+* Flink 1.16+
+* Flink SqlGateway
+
+## Usage
+
+Before we start to play with dbt adapter, we need to setup Flink cluster with SqlGateway configured and running.
+To simplify that process we prepared Docker Compose configuration.
+
+### Install `dbt-flink` adapter
+
+```bash
+cd project_example
+python3 -m venv venv
+source venv/bin/activate
+pip install dbt-materialize
+dbt --version
+```
+`dbt-flink` should be enlisted among plugins
+
+### Configure DBT profile
+Locate DBT profile on your machine.
+It should be in home directory under `~/.dbt/profiles.yml`
+Add there below config:
+```yml
+flink_profile:
+  target: dev
+  outputs:
+    dev:
+      type: flink
+      host: localhost
+      port: 8083
+      session_name: test_session
+```
+
+
+### Launch Flink cluster
+
+```bash
+cd envs/kafka
+docker compose up
+
+cd envs/flink-1.16
+docker compose up
+```
+
+### Play with sample DBT project with `dbt-flink` adapter
+```bash
+dbt test
+dbt run
+```
+
+FLink SQL tables should be created on Flink cluster
+
+### tear down Flink cluster
+
+```bash
+docker compose stop
+```
