@@ -1,0 +1,3 @@
+[console_scripts]
+pyramid_precis_creative_template=pyramid_precis_creative_template.cli:main
+

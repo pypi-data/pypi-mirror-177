@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyramid-precis-creative-template
+Version: 0.2.0
+Summary: Default template for pyramid_resume
+License: MIT
+Author: Marc LaBelle
+Author-email: mjlabe@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Pyramid Precis Creative Template
+
+## Getting started
+
+TBD
+
+## Test and Deploy
+
+TBD
+
+***
+
+## Usage
+TBD
+
+## Contributing
+
+Create an issue and a PR!
+
+## License
+
+MIT
+
