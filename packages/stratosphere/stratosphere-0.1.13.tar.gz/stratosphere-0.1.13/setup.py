@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+package_dir = \
+{'': 'src'}
+
+packages = \
+['stratosphere',
+ 'stratosphere.store',
+ 'stratosphere.store.db',
+ 'stratosphere.utils']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['cloudpickle>=2.2.0,<3.0.0',
+ 'colorama>=0.4.6,<0.5.0',
+ 'dask[complete]>=2022.11.0,<2023.0.0',
+ 'ipywidgets>=8.0.2,<9.0.0',
+ 'joblib>=1.2.0,<2.0.0',
+ 'pandas>=1.5.1,<2.0.0',
+ 'psycopg2-binary>=2.9.5,<3.0.0',
+ 'scikit-learn>=1.1.3,<2.0.0',
+ 'sqlalchemy-utils>=0.38.3,<0.39.0',
+ 'sqlalchemy>=1.4.44,<2.0.0',
+ 'tabulate>=0.9.0,<0.10.0',
+ 'tqdm>=4.64.1,<5.0.0',
+ 'ulid-py>=1.1.0,<2.0.0']
+
+setup_kwargs = {
+    'name': 'stratosphere',
+    'version': '0.1.13',
+    'description': 'A lightweight experimentation toolkit for data scientists.',
+    'long_description': '# Stratosphere\n\n*A lightweight experimentation toolkit for data scientists.*\n\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stratosphere)\n![PyPI - License](https://img.shields.io/pypi/l/stratosphere)\n![PyPI - Version](https://img.shields.io/pypi/v/stratosphere)\n![PyPI - Wheel](https://img.shields.io/pypi/wheel/stratosphere)\n![PyPI - Installs](https://img.shields.io/pypi/dm/stratosphere)\n![Black - Code style](https://img.shields.io/badge/code%20style-black-000000.svg)\n[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dkKBwhm4L_MMoWWtfD0FAFgTFP1BV40c)\n\nDesigned for simplicity, efficiency and robustness. `stratosphere` lets you:\n\n1. **Define** programmatically your experiments\n2. **Execute** them in parallel with different backends\n3. **Track** their real-time metrics and final results\n4. **Store** them as serialized objects and tabular data in your database(s)\n5. **Query** them with the best-suited interface: SQL, Pandas and Python\n\nBuilt on top of solid components: [SQLAlchemy](https://www.sqlalchemy.org/), [SQLite](https://www.sqlite.org/), [Pandas](https://pandas.pydata.org/), [Joblib](https://joblib.readthedocs.io/en/latest/) and [Dask](https://www.dask.org/).\n\n![Stratosphere](https://raw.githubusercontent.com/elehcimd/stratosphere/b6993093ae617b98bcabf5d1d3153a7c3e1383a5/logo.png)\n\n## Installation\n\nYou should \n\n* With PyPI: `pip install stratosphere --upgrade`\n* With Poetry: `poetry add stratosphere`\n\n## Documentation\n\nThis is work in progress!\n\n* Run the simplest experiment [in Colab](https://colab.research.google.com/drive/1dkKBwhm4L_MMoWWtfD0FAFgTFP1BV40c)\n* Follow the [tutorial notebooks](./notebooks/) ([nbviewer version](https://nbviewer.org/github/elehcimd/stratosphere/blob/main/notebooks))\n\n## Project pages\n\n* [PyPI](https://pypi.org/project/stratosphere/)\n* [Github](https://github.com/elehcimd/stratosphere)\n\n## License\n\nThis project is licensed under the terms of the [BSD 3-Clause License](https://github.com/elehcimd/stratosphere/blob/main/LICENSE).\n\n## Development\n\nIn this section, I documented the creation and management of my dev environment for this project.\nThese instructions have been tested on macOS Monterey @ MacBook Pro M2, `Python 3.8.10` and `Python 3.10.7`.\n\n### Set up the system\n\n1. Install command line tools\n\n```\nxcode-select --install\n```\n\n2. Install pyenv/pyenv-virtualenv\n```\nbrew update\nbrew install pyenv pyenv-virtualenv\n```\n\nConfigure the shell, adding in `~/.zshrc`:\n```\nexport PYENV_ROOT="$HOME/.pyenv"\ncommand -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"\nexport PYENV_VIRTUALENV_DISABLE_PROMPT=1\neval "$(pyenv init -)"\neval "$(pyenv virtualenv-init -)"\n```\n\n5. List the installed Python versions:\n```\npyenv versions\n```\n\n6. List the Python versions available for installation:\n```\npyenv install --list\n```\n\n7. Install a specific Python version\n```\npyenv install 3.10.7\n```\n\n8. (Optional) Set a global pyenv Python version\n```\npyenv global 3.10.7\n```\n\n9. Install poetry\n```\nbrew install poetry\npoetry config virtualenvs.in-project true\n```\n\n\n#### (Optional) Optimizing the Zsh shell\nThe [powerlevel10k theme](https://github.com/romkatv/powerlevel10k) lets you customize the Zsh prompt,\nshowing the current folder, git status, and active environment. My `.zshrc`:\n\n```\n# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.\n# Initialization code that may require console input (password prompts, [y/n]\n# confirmations, etc.) must go above this block; everything else may go below.\nif [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then\n  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"\nfi\n\nsource ~/bin/powerlevel10k/powerlevel10k.zsh-theme\n\n# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.\n[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh\n\n# Required, to display the active environment on the prompt (right side)\nplugins=(virtualenv)\n```\n\nUseful alises:\n```\nalias ll="/bin/ls -la"\nalias ls="/bin/ls -laG"\n```\n\n### Manage the project environment\n\n#### Creating and removing the environment\n\nTo create it:\n\n1. List the available Python versions:\n```\npyenv versions\n```\n\n2. Create the environment (`./venv`):\n```\ncd stratosphere\npoetry env use 3.10.7\n```\n\n3. Check the correct installation of the Poetry environment\n```\npoetry env info\n```\n\nTo remove it:\n\n```\ncd stratosphere\nrm -rf .venv\n```\n\n#### Installing the project in development mode\n\n1. Activate the environment\n```\ncd stratosphere\npoetry shell\n```\n\n2. Install the project (edit mode) in the Poetry environment:\n```\npoetry install\n```\n\n3. Run the tests\n\n```\npoetry run pytest\n```\n\n#### Useful Poetry commands to maintain the environment\n\n\nAdd a new package:\n```\npoetry add pandas\n```\n\nAdd a new dev package:\n```\npoetry add --group dev jupyterlab\n```\n\nUpdate the lock file (to be done after changing packages):\n```\npoetry lock\n```\n\nList the available packages:\n```\npoetry show\n```\n\nUpdate packages to their latest compatible versions:\n```\npoetry update\n```\n\nShow the Poetry configuration:\n```\npoetry config --list\n```\n\nShow the path of the Poetry environment:\n```\npoetry env info -p\n```\n\nCheck validity of pyproject.toml:\n```\npoetry check\n```\n\nPublish the package to PyPI, after buming the version (patch):\n\n```\npoetry version patch\npoetry "-u$PYPI_USERNAME" "-p$PYPI_PASSWORD" --build publish\n```\n\n### Advanced topics\n\n#### Running the project on Apple silicon\n\n##### Situation\n\nThe project works fine with macOS Monterey @ MacBook Pro M2, with `Python >= 3.8`. All extras work with no issues.\nThe problems start if we want to support on all platforms `Python 3.7.15` (latest version supported by Google Colab).\nThe latest versions of pandas, scipy and numpy do not support anymore `Python 3.7`, meaning we must pin older versions.\nIn particular, these are the latest versions supported on Colab:\n\n* `scipy`: `scipy==1.7.3`\n* `numpy`: `numpy==1.21.6`\n* `pandas`: `1.3.5`\n* `scikit-learn`: `scikit-learn==1.0.2`\n\nProgress so far:\n\nOnce created an environment, we can install most of the packages without problems (wheels are mostly not available, so this is quite slow):\n\n```\npip install joblib sqlalchemy pandas tqdm ulid-py sqlalchemy-utils cloudpickle colorama\n```\n\nThe challenge is installing `scikit-learn`, wbich depends on `scipy==1.7.3`. \nA pip install results in an `NotFoundError: No BLAS/LAPACK libraries found` error. Given:\n\n* https://stackoverflow.com/questions/74113427/install-numpy-with-pyhon-3-7-on-macbook-m1\n* https://stackoverflow.com/questions/65336789/numpy-build-fail-in-m1-big-sur-11-1\n* https://github.com/pypa/pipenv/issues/4564#issuecomment-865077698\n\nWe can fix this error with:\n\n```\nbrew install openblas lapack \nexport SYSTEM_VERSION_COMPAT=1\npip install Cython pythran pybind11\nexport LDFLAGS="-L/opt/homebrew/opt/openblas/lib -L/opt/homebrew/opt/lapack/lib"\nexport CPPFLAGS="-I/opt/homebrew/opt/openblas/include -I/opt/homebrew/opt/lapack/include"\nexport LAPACK=/opt/homebrew/opt/lapack/lib/liblapack.dylib\nexport BLAS=/opt/homebrew/opt/openblas/lib/libopenblas.dylib\nexport PKG_CONFIG_PATH="-L/opt/homebrew/opt/lapack/lib/pkgconfig -L/opt/homebrew/opt/openblas/lib/pkgconfig"\npip install scipy==1.7.3 --no-use-pep517\n```\n\nHowever, we now have this new error: `Undefined symbols for architecture arm64 [...] "_PyArg_ParseTuple" [...]`.\nI didn\'t manage to fix this issue yet, and I\'ll likely just run tests in a virtualized x86_64 environment.\n\n##### (Optional) Working with pyenv-virtualenv\n\nWe don\'t currently use pyenv-virtualenv, as Poetry is used to\nmanage the project environment. Nevertheless, I am using it\nto investigate the compatibility issues with `Python 3.7`, \nremoving the Poetry layer from the equation.\n\n###### Creating and environment\n\nCreate it, and auto-activate it inside the project directory\n\n```\npyenv virtualenv 3.7.15 stratosphere37\npyenv activate stratosphere37\npip install --upgrade pip\npip install wheel\npyenv local stratosphere37\n```\n\n###### Removing an environment\n\n```\npyenv uninstall 3.7.15/envs/stratosphere37\nrm -rf ~/.pyenv/versions/3.7.15/envs/stratosphere37\n```\n\nTo unlink it from a project:\n\n```\nrm stratosphere37/.python-version\n```\n',
+    'author': 'Michele Dallachiesa',
+    'author_email': 'michele.dallachiesa@sigforge.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/elehcimd/stratosphere',
+    'package_dir': package_dir,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8.15,<3.11',
+}
+
+
+setup(**setup_kwargs)
