@@ -1,0 +1,11 @@
+pyramid_resume_template_default/__init__.py,sha256=AYG10medxE1wri0VK4MJZ2NSTzAnfg_zp7IKVaR9DWU,792
+pyramid_resume_template_default/static/favicon.ico,sha256=KrJo0reAh3TCFEwAuRFzo5mHWt_ZIzE-zTC2qHE35FY,15406
+pyramid_resume_template_default/static/theme.css,sha256=ahcHjQnSc6ktVyElEB3k8ZgsBEaYHhXDyCkj3JL9e-U,7592
+pyramid_resume_template_default/templates/404.jinja2,sha256=vZiB0fhaQ5Y8uk4l0IN-91uKKSyv-Lxo3_1uffJAGPQ,280
+pyramid_resume_template_default/templates/layout.jinja2,sha256=GOemP7qqMnbMFRQF9mnzaT0mgZFFN5RrBjHAI0XwdI8,487
+pyramid_resume_template_default/templates/resume.jinja2,sha256=yUJvv44LfJlSrjtx10QBIaH-k-5ir-Dng7N3mj02pOY,6332
+pyramid_resume_template_default-0.3.0.dist-info/entry_points.txt,sha256=6pMXDBdicGhwayhRZl9I7EFY0swQKgldy6scsYwjITg,92
+pyramid_resume_template_default-0.3.0.dist-info/LICENSE,sha256=4RK9vO4TLyqFzEu9S5QCeuyGE1VdQzYDRjc3kHL9Bhk,1070
+pyramid_resume_template_default-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyramid_resume_template_default-0.3.0.dist-info/METADATA,sha256=TuBN39JzvysJJ-z8LWv-YKYIy13joMig25IEzGyd2pc,1268
+pyramid_resume_template_default-0.3.0.dist-info/RECORD,,
