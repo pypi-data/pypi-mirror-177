@@ -1,0 +1,7 @@
+NOTICE,sha256=1mfOHLQip6DVEirisJ3uV_dLBYhkJOPs_18Y85qFhT8,121
+log_rate_limit/__init__.py,sha256=VRIBUZoCX8s4mVUOywaHGcjVfqkpkQKHDliIjzFUqRw,236
+log_rate_limit/log_rate_limit.py,sha256=nYbCq-pZuAvui6bCdQjptbuuFqXun4I3rzt3rJvZ9bM,11823
+log_rate_limit-1.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+log_rate_limit-1.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+log_rate_limit-1.1.0.dist-info/METADATA,sha256=srLdrDkqsfti6p05itNJ2bPGv7H2Q7gnCy483iaU1OM,7788
+log_rate_limit-1.1.0.dist-info/RECORD,,
