@@ -1,0 +1,10 @@
+cpu_basic_hadamard_operations
+cpu_cg
+cpu_convolution_double_hadamard_operations
+cpu_convolution_float_hadamard_operations
+cuda_basic_hadamard_operations
+cuda_convolution_double_hadamard_operations
+cuda_convolution_float_hadamard_operations
+gpu_cg
+kernel_tools
+xGPR
