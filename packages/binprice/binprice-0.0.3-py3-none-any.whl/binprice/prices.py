@@ -1,0 +1,71 @@
+import requests
+from datetime import datetime, timedelta
+import pandas as pd
+import matplotlib.pyplot as plt
+from colorama import init, Fore, Style
+
+
+API_ADDRESS = 'https://api.binance.com'
+
+
+# Fetch Candlestick data from the API
+def get_candle_data(currency, interval, start, end):
+    response = requests.get(f"{API_ADDRESS}/api/v3/klines",
+                            params={'symbol': currency,
+                                    'interval': interval,
+                                    'startTime': start,
+                                    'endTime': end,
+                                    'limit' : 1000})
+    return response
+
+
+def plot_data(data):
+    df = pd.DataFrame(data, columns=['Time', 'Price'])
+
+    df.plot(x='Time', y='Price')
+    plt.show()
+
+
+# Main function to collect the data and display it
+def candlestick_data(currency, interval= '6h'):
+
+    # Time frame in the timestamp format
+    start_at = int(round(datetime.timestamp(datetime.now() -
+                                                        timedelta(hours=48)) * 1000))
+    end_at = int(round(datetime.timestamp(datetime.now()) * 1000))
+
+    # Collect candle stick data
+    data = get_candle_data(currency, interval, start_at, end_at)
+    data_json = data.json()
+
+    # Populate the data array to be used for plotting
+    data_array = []
+    for item in data.json():
+        time = datetime.fromtimestamp(item[0] // 1000.0)
+        price = float(item[4])
+        data_array.append([time, price])
+
+    # Print the data if GUI is not available
+    for i in range(len(data_array)):
+        # init() is needed to make colorama work inside windows cmd
+        init()
+        
+        current_price = data_array[i][1]
+        current_time = data_array[i][0]
+
+        # Workaround to avoid coloring the first row
+        if i == 0: previous_price = current_price
+        else: previous_price = data_array[i-1][1]
+
+        # Compare price values and print with colors
+        if current_price < previous_price:
+            print(Fore.RED + f'{current_time}, Price:{current_price}')
+            print(Style.RESET_ALL)
+        elif current_price > previous_price:
+            print(Fore.GREEN + f'{current_time}, Price:{current_price}')
+            print(Style.RESET_ALL)
+        else:
+            print(f'{time}, Price:{price}\n')
+        
+    # Display the data
+    plot_data(data_array)
