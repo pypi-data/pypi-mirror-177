@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dissolve
+Version: 0.0.1
+Summary: Automatically replace use of deprecated APIs
+Home-page: https://github.com/jelmer/dissolve/
+Author: Jelmer Vernooĳ
+Author-email: jelmer@jelmer.uk
+License: Apachev2 or later
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.9
+License-File: COPYING
+
+dissolve
+========
+
+The dissolve library helps users replaces calls to deprecated library APIs.

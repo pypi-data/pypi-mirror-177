@@ -1,0 +1,10 @@
+COPYING
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+dissolve/__init__.py
+dissolve.egg-info/PKG-INFO
+dissolve.egg-info/SOURCES.txt
+dissolve.egg-info/dependency_links.txt
+dissolve.egg-info/top_level.txt
