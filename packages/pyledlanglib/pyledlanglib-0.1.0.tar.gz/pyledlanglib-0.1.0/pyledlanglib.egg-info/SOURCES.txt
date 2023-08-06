@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyledlanglib/__init__.py
+pyledlanglib.egg-info/PKG-INFO
+pyledlanglib.egg-info/SOURCES.txt
+pyledlanglib.egg-info/dependency_links.txt
+pyledlanglib.egg-info/top_level.txt
