@@ -1,0 +1,6 @@
+recursive-include src *
+recursive-include include *
+include CMakeLists.txt
+
+include python/CMakeLists.txt
+include python/mvdtool.cpp
