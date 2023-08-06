@@ -1,0 +1,11 @@
+async_tail-0.1.0.dist-info/METADATA,sha256=_327C2CgCpS1y_dKnkUHhUG3Mx0ckzswz5qKIh8i0cE,2963
+async_tail-0.1.0.dist-info/WHEEL,sha256=dN68y-zVSwbYg5vMsJS5n37xTR9m4RWIApVH5jRQHhw,107
+async_tail-0.1.0.dist-info/license_files/LICENSE,sha256=pZl7rMv7mjxKB4K0HR8l5Tr8Wuh-VLuBh7kJvgIKMto,1124
+async_tail.libs/libgcc_s-133c3184.so.1,sha256=07BkpgVwnPEewXF5xysWo5_jkH1yGyItftTFFpxGTic,724137
+async_tail/main.py,sha256=RmjHHFz89kuuHdtPErzVl2xhXjr98eVoaFRIxswA6po,3321
+async_tail/py.typed,sha256=ERIPg1qOoVNNJ-7LpA3u8ZwIkiKBn2mlRKYX7vWf5TQ,69
+async_tail/version.py,sha256=YebA4UOvZ-7jtoBUMzOOhIpf7pXw55PNavFprQoTmPk,84
+async_tail/_async_tail.pyi,sha256=fblsoTTA4jI7R5a5FkjN2duZf9Gpw9RTKuWxxztAt9A,4152
+async_tail/__init__.py,sha256=kMmCHHw6-Ux6EkXHZdazt4q-rPiuvTZiqEXolMzrZgA,164
+async_tail/_async_tail.abi3.so,sha256=pJsJHvhgJdj0Q2L-S2CFeunVjkc_SutKOntd6leiFWk,6163737
+async_tail-0.1.0.dist-info/RECORD,,
