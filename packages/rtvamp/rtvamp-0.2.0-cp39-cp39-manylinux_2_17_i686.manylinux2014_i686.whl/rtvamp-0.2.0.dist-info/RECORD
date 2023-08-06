@@ -1,0 +1,8 @@
+rtvamp/example-plugin.so,sha256=JFSESRQqAkzETTWUykGD2eMayvT7PE4zHamfUZvL24g,93200
+rtvamp/_bindings.cpython-39-i386-linux-gnu.so,sha256=5fkpXGEUZp98SZjY-FZK_9yWpTPQpCFVMqNCkBcDc1g,786120
+rtvamp/__init__.py,sha256=3h49217CE2H91vvkpWg9xT7BWKgozghZP_xT-eheksM,10120
+rtvamp-0.2.0.dist-info/LICENSE,sha256=jFgOWlTirELY4N3syzSc-Y0Wsulvy7_zuyQlsPbxhMg,1070
+rtvamp-0.2.0.dist-info/top_level.txt,sha256=y__qOWGXp8XZ5r4abpNS5kSFN15ZOSS1Ay4aaKWwJds,7
+rtvamp-0.2.0.dist-info/WHEEL,sha256=_vdmVODODES9N5qJxzG1TVc0zAhkTjyLVpVqYcIGeA0,138
+rtvamp-0.2.0.dist-info/RECORD,,
+rtvamp-0.2.0.dist-info/METADATA,sha256=K8PiajX6ZX-cVlX070xxD5gLvN8Ym90BxUZ7FsOV1Es,4254
