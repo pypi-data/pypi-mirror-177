@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+imagepile/__init__.py
+imagepile/__main__.py
+imagepile.egg-info/PKG-INFO
+imagepile.egg-info/SOURCES.txt
+imagepile.egg-info/dependency_links.txt
+imagepile.egg-info/entry_points.txt
+imagepile.egg-info/requires.txt
+imagepile.egg-info/top_level.txt
