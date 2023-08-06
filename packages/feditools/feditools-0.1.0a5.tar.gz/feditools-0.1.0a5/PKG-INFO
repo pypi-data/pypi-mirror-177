@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: feditools
+Version: 0.1.0a5
+Summary: Python tools for the Fediverse.
+Home-page: https://github.com/soundbytesoftware/feditools
+Author: Nigel Small
+Author-email: technige@nige.tech
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# feditools
+
+Python tools for the Fediverse.
+
+
+## Installation
+
+### Install the latest stable version
+No stable versions are yet available.
+
+### Install the latest experimental version
+```bash
+$ pip install --pre feditools
+```
+
+
+## Usage
+
+### NodeInfo
+
+```bash
+$ python -m feditools.nodeinfo mastodon.social
+{
+  "version": "2.0",
+  "software": {
+    "name": "mastodon",
+    "version": "4.0.2"
+  },
+  "protocols": [
+    "activitypub"
+  ],
+  "services": {
+    "outbound": [],
+    "inbound": []
+  },
+  "openRegistrations": false,
+  "usage": {
+    "users": {
+      "total": 879403,
+      "activeMonth": 245520,
+      "activeHalfyear": 422601
+    },
+    "localPosts": 42641202
+  },
+  "metadata": {}
+}
+```
+
+### WebFinger
+
+```bash
+$ python -m feditools.webfinger soundbyte.social nigel
+{
+  "subject": "acct:nigel@soundbyte.social",
+  "aliases": [
+    "https://soundbyte.social/@nigel",
+    "https://soundbyte.social/users/nigel"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://soundbyte.social/@nigel"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://soundbyte.social/users/nigel"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://soundbyte.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
+```
+
