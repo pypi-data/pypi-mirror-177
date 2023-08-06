@@ -1,0 +1,11 @@
+pytest>=5.0
+pytest-metadata
+stf-appium-client==0.9.1
+pytest-lockable==0.9.1
+
+[dev]
+pytest-cov
+mock
+flake8
+pylint
+pyinstaller
