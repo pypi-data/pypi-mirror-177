@@ -1,0 +1,15 @@
+CMakeLists.txt
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cpp/_core.cpp
+cpp/fastfilters2.cpp
+cpp/fastfilters2.h
+src/fastfilters2/__init__.py
+src/fastfilters2.egg-info/PKG-INFO
+src/fastfilters2.egg-info/SOURCES.txt
+src/fastfilters2.egg-info/dependency_links.txt
+src/fastfilters2.egg-info/requires.txt
+src/fastfilters2.egg-info/top_level.txt
