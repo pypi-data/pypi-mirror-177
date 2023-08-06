@@ -1,0 +1,5 @@
+sonotoria>=0.3.4
+
+[testing]
+pytest-cov>=2.0
+pytest>=6.0
