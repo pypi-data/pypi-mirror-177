@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MyNoSQL/MyNoSQL.py
+MyNoSQL/__init__.py
+MyNoSQL.egg-info/PKG-INFO
+MyNoSQL.egg-info/SOURCES.txt
+MyNoSQL.egg-info/dependency_links.txt
+MyNoSQL.egg-info/requires.txt
+MyNoSQL.egg-info/top_level.txt
