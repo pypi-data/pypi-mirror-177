@@ -1,0 +1,13 @@
+
+[devel]
+tox
+pytest
+pre-commit
+coverage
+flake8
+autoflake
+autopep8
+flake8-black
+rstcheck
+pip-tools
+pylint
