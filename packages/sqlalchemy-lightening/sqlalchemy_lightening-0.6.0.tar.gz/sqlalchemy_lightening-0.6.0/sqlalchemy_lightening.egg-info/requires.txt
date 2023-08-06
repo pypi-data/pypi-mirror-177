@@ -1,0 +1,5 @@
+classproperties>=0.2
+pluckit>=0.6
+rekey>=1.2
+sqlalchemy<1.4,>=1.2.18
+stringcase>=1.2
