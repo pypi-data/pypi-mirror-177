@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: poldark-qt
+Version: 0.11
+Summary: Computer Vision Helper Functions
+Author: poldark
+Author-email: zhaowwwjian@gmail.com
+License: MIT
+Keywords: Computervision,facedetection,handtracking
+License-File: LICENSE.txt
