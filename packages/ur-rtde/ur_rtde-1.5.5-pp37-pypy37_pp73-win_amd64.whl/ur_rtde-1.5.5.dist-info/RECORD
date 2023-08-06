@@ -1,0 +1,15 @@
+dashboard_client.pypy37-pp73-win_amd64.pyd,sha256=WjPbJWgSxts1eu0tLMsaPtx6Gtw4TBv-xGpYlEhnT4A,1039872
+rtde.dll,sha256=PLblIy1hpL87avujO3DhCj31zrxeWyn-Ym1wXgsGUj8,726528
+rtde_control.pypy37-pp73-win_amd64.pyd,sha256=oPFnkaqugCnTjJOpX-LxD6l44dA9rXtv60eaW2YjHXk,1039872
+rtde_io.pypy37-pp73-win_amd64.pyd,sha256=tHt5XWq9AmU59yJefSEO2g98AZKePWdZF_RfraZ1K8A,1039872
+rtde_receive.pypy37-pp73-win_amd64.pyd,sha256=1qsph96L7FcNLZZRtWVGMvk2iICp6lVPhum5WQnKrb0,1039872
+script_client.pypy37-pp73-win_amd64.pyd,sha256=bPmDeO4oGxtuG_qMqCcIcMIQUa-wEpjaXp4R3v8UfDo,1039872
+ur_rtde-1.5.5.data/platlib/.load-order-ur_rtde-1.5.5,sha256=JKcc36NVULcRc2mwXzXn5udi-nCmRySL93Q7w2vpTnA,34
+ur_rtde-1.5.5.data/platlib/msvcp140.dll,sha256=yzx01vzAkfTrfGfuXrX3bByXPeqLHGuFH8ymLCqdiqg,579920
+ur_rtde-1.5.5.data/platlib/vcruntime140_1.dll,sha256=e49w3Tva4RDmGCPRym_YlVpWFxGfVAXN1rFMrTZW38c,44328
+ur_rtde-1.5.5.dist-info/DELVEWHEEL,sha256=EN65FVDjezGofAqrRv5fIqo2u9pVjpRnq39bS5uKG7U,425
+ur_rtde-1.5.5.dist-info/LICENSE,sha256=HR_7k5ktn43zLc5GcfDkfEMLtUfcZMpZTCIm9decX6A,1113
+ur_rtde-1.5.5.dist-info/METADATA,sha256=nW38Q0WvWmYcZpxUz06Qf0uJZwJU3_yuYqayw84K1ME,5241
+ur_rtde-1.5.5.dist-info/RECORD,,
+ur_rtde-1.5.5.dist-info/top_level.txt,sha256=cQHKhzqRqcreja5_610bk4zuPL8gRTlbyD9EqDEkiy8,8
+ur_rtde-1.5.5.dist-info/WHEEL,sha256=Ut7uqN9dGLPqzGl_YXDFeMyPjGKjOo0e9GUmMGhME9c,107
