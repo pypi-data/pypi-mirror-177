@@ -1,0 +1,3 @@
+[console_scripts]
+run_topostats = topostats.run_topostats:main
+
