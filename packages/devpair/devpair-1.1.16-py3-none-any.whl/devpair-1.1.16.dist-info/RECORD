@@ -1,0 +1,10 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/cli.py,sha256=SMER14IDSYU21jUG4YLaqBmaRuDPl49Ry4jvIfz9xK8,2100
+app/logger.py,sha256=YxI52wQ-pGVJ6UPC5d2QGBVvbRGZoG0G7245NK6IckQ,970
+app/manager.py,sha256=rA-6F0eCeJWDk6T0DRmF-oHSkH2ibenIXkfYtBByjrI,8553
+app/timer.py,sha256=aMCmWmp9jcwiC0LHbzlVs4enmGj5uisClc2mTHy0QAU,842
+devpair-1.1.16.dist-info/entry_points.txt,sha256=8i5WbrehbNSDOFPrqOPqW6MD4RtfNI5aE4OshlCEZTg,44
+devpair-1.1.16.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+devpair-1.1.16.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+devpair-1.1.16.dist-info/METADATA,sha256=P45pAAl3Jigkv0Dq6Dgof7Kp0F6QJwXP9JdVHuTpOJo,5661
+devpair-1.1.16.dist-info/RECORD,,
