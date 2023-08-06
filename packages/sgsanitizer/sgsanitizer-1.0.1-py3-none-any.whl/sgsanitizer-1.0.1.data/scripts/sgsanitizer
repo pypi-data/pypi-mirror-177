@@ -1,0 +1,3 @@
+#!python
+from sgs import parser
+parser.main()

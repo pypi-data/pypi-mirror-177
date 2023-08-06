@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sgsanitizer
+Version: 1.0.1
+Summary: Provide an ES gamelist.xml file and it will do its best to sanitize and remove any vulgar, casino, mahjong, or other known unusable games from the gamelist. Primarily for arcade games
+Home-page: https://github.com/dfresh613/SimpleGamelistSanitizer/archive/1.0.0.zip
+Author: Douglas Rohde
+Author-email: UNKNOWN
+License: MIT
+Keywords: gamelist.xml gamelist emulationstation
+Platform: UNKNOWN
+Requires-Dist: lxml
+
+UNKNOWN
+
+
