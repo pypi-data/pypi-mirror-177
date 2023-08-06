@@ -1,0 +1,9 @@
+coverbot/__init__.py,sha256=eHbmHe6e8kkaGJhUzAN94XAAteuo6IDlxmym6Ois_J0,154
+coverbot/__main__.py,sha256=5lBOqe1bjH34aUqjzKjNUcUk4Nh7w0MZ5S7vtirv6qU,78
+coverbot/cover.py,sha256=Zk22E1hiJP2vGan_rouAzPzPi7E673dT2av7AbeOqLQ,1203
+coverbot/deal.py,sha256=sM7NjvmnpYk8ZYgDDZMkkKiOObzFzTlhrmArlHHvP9E,2871
+coverbot/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+coverbot-0.0.1.dist-info/LICENSE,sha256=T4F-vFa7Zq4Te4O2_auHrNOQqPMUUzXtKq5MUbdRK-U,1075
+coverbot-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+coverbot-0.0.1.dist-info/METADATA,sha256=rU0iFNhaFBu3Pk4jjqAM-hedpSyuspc-Ky3m4Qx5Dcs,998
+coverbot-0.0.1.dist-info/RECORD,,
