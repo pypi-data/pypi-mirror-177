@@ -1,0 +1,118 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116
+
+
+"Assembly. Court. Prosecutor. Reconsider OTP-CR-117/19."
+
+
+import importlib
+import os
+import sys
+import termios
+import traceback
+
+
+from genocide.handler import Callback, Command, Handler, parse
+from genocide.object import Wd
+from genocide.handler import command, scan
+from genocide.thread import name
+
+
+from genocide import cmds, irc, rss
+
+
+__version__ = "86"
+
+
+Wd.workdir = os.path.expanduser("/var/lib/genocide/")
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+def cprint(txt):
+    print(txt)
+    sys.stdout.flush()
+
+
+def from_exception(exc, txt="", sep=" "):
+    result = []
+    for frm in traceback.extract_tb(exc.__traceback__):
+        fnm = os.sep.join(frm.filename.split(os.sep)[-2:])
+        result.append(f"{fnm}:{frm.lineno}")
+    nme = name(exc)
+    res = sep.join(result)
+    return f"{txt} {res} {nme}: {exc}"
+
+
+def importer(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    scan(mod)
+
+
+def init(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    if "init" in dir(mod):
+        mod.init()
+
+
+def isopt(cfg, ostr):
+    for opt in ostr:
+        if opt in cfg.opts:
+            return True
+    return False
+
+
+def ver(event):
+    event.reply("GENOCIDE %s" % __version__)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        cprint("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+    for err in Callback.errors:
+        cprint(from_exception(err))
+
+
+
+def main():
+    cfg = parse(' '.join(sys.argv[1:]))
+    Command.add(ver)
+    cli = CLI()
+    evt = command(cli, cfg.otxt)
+    evt.wait()
+    for exc in Callback.errors:
+        cprint(from_exception(exc))
+
+
+wrap(main)
