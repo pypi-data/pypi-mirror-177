@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+FerriteLib/__init__.py
+FerriteLib/getfile.py
+FerriteLib/getvalue.py
+FerriteLib.egg-info/PKG-INFO
+FerriteLib.egg-info/SOURCES.txt
+FerriteLib.egg-info/dependency_links.txt
+FerriteLib.egg-info/top_level.txt
