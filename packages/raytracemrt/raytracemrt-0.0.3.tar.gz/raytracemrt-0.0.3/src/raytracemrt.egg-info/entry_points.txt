@@ -1,0 +1,2 @@
+[console_scripts]
+raytracemrt = raytracemrt.raytracemrt:main
