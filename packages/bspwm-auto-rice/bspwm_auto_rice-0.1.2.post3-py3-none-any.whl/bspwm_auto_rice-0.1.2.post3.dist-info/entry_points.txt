@@ -1,0 +1,3 @@
+[console_scripts]
+bspar=bspwm_auto_rice.bspar:cli
+
