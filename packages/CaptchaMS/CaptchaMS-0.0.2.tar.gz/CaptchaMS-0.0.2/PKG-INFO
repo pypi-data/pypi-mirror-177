@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CaptchaMS
+Version: 0.0.2
+Summary: Python module for captcha generation
+Home-page: https://github.com/KirillMonster/CaptchaMS
+Author: KirillMonster
+Author-email: k1rill_monster@mail.ru
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Python module for captcha generation
