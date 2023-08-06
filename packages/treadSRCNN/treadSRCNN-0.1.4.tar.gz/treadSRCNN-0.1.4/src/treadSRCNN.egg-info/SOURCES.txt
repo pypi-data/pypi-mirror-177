@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/treadSRCNN/__init__.py
+src/treadSRCNN/treadSRCNN.py
+src/treadSRCNN.egg-info/PKG-INFO
+src/treadSRCNN.egg-info/SOURCES.txt
+src/treadSRCNN.egg-info/dependency_links.txt
+src/treadSRCNN.egg-info/requires.txt
+src/treadSRCNN.egg-info/top_level.txt
