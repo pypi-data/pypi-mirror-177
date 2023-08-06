@@ -1,0 +1,15 @@
+video2dataset/__init__.py,sha256=UGjX5ai1F3HeXmEfj_F1GAzTNbScPjNM6sclFBw-oSc,53
+video2dataset/data_reader.py,sha256=TiPIQ_ak_pDgiokuClhv6PIE4Ldmrnx6elciLX49BwQ,2042
+video2dataset/data_writer.py,sha256=ypQahsTLzuXu6mQsqN21G3l8xMDC_ztRuTUh1T2gxBA,11324
+video2dataset/distributor.py,sha256=AyQ2L_dy1HVhCFPZpD_Qvofuz1xTqSHBMrOMCGKsYlM,3255
+video2dataset/input_sharder.py,sha256=a446pHZQuSgHXG99V00rTH-fCQOCKtZrmQoI6gCBpds,7501
+video2dataset/logger.py,sha256=HsvzthGW5F3oagZBGWhs2nnA37xnX1UEKjKcFKoSzUQ,11123
+video2dataset/main.py,sha256=r1n92m2WuRBMkSyX8yYnNoQIqLHjHTTPJPFRvFOfSAw,4487
+video2dataset/worker.py,sha256=OUu6J3Ss3Oi_oOBAX1Mx7plm763VoWfu7hjTNqEFguk,5958
+video2dataset-1.0.0.data/data/README.md,sha256=oRmOFroHepzYiKV2xRTWh24fSxN82qktr5qkQxnRpoU,9136
+video2dataset-1.0.0.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+video2dataset-1.0.0.dist-info/METADATA,sha256=11oMigI7P9QY1TLnbCpIbUcnk9wGDcNBpshaavriNdo,10018
+video2dataset-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+video2dataset-1.0.0.dist-info/entry_points.txt,sha256=x0XCLbvrs-uamjLnMtgDnqvIyh-yHkVfA3Q1PdsOJYk,59
+video2dataset-1.0.0.dist-info/top_level.txt,sha256=ApgBg-S7oRWEFFvlzhNgyumPuiebppazqbdiSjMQZVQ,14
+video2dataset-1.0.0.dist-info/RECORD,,
