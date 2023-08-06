@@ -1,0 +1,5 @@
+
+[docs]
+Sphinx
+sphinx-book-theme
+sphinx-copybutton
