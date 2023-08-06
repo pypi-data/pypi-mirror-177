@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: j-pandas-datalib
+Version: 0.0.6
+Summary: Dataabstractionlayer For Pandas
+Home-page: https://github.com/OpenJKSoftware/j-pandas-datalib
+License: LGPL-3
+Keywords: pandas
+Author: Joshua Kreuder
+Author-email: joshua_kreuder@outlook.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pandas (>=1.0.0,<1.4.0)
+Project-URL: Repository, https://github.com/OpenJKSoftware/j-pandas-datalib
+Description-Content-Type: text/markdown
+
+# Python Datalib
+
+Useful Python abstractions around the Pandas file Interaction and other common Tasks.
+
+## VS Code Devcontainer
+
+This workspace contains a [Vscode devcontainer](https://code.visualstudio.com/docs/remote/containers).
+
+## Development
+
+### Bump / Release Version
+
+- Trigger [Version Bump](https://github.com/OpenJKSoftware/j-pandas-datalib/actions/workflows/version-bump.yml) pipeline with appropriate target.
+- Merge the created PullRequest
+- This will create a Tag on `main`
+- Create a realease from this Tag. The Pipeline will automatically push to [Pypi](https://pypi.org/project/j-pandas-datalib/)
+
