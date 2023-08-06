@@ -1,0 +1,9 @@
+rich
+python-dateutil
+base58
+pysha3
+pytest
+pymongo
+requests
+apprise
+py-graphql-client
