@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ashfaquecodes
+Version: 0.1
+Summary: Codes which can be used to increase productivity.
+Home-page: https://github.com/ashfaque/ashfaquecodes
+Author: Ashfaque Alam
+Author-email: ashfaquealam496@yahoo.com
+License: GNU GPLv3
+Download-URL: https://github.com/ashfaque/ashfaquecodes/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: ASHFAQUE,ASHFAQUECODES,PRODUCTIVITY
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
