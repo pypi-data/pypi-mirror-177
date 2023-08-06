@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: imagecat
+Version: 0.7.0
+Summary: Flexible, high-quality tools for procedural image editing.
+Author-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Maintainer-email: "Timothy M. Shead" <tim@shead-custom-design.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Pillow>=8.0.0
+Requires-Dist: graphcat>=1.0.0
+Requires-Dist: mmh3
+Requires-Dist: numpy>=1.17
+Requires-Dist: scikit-image
+Requires-Dist: IPython ; extra == "all"
+Requires-Dist: OpenEXR ; extra == "all"
+Requires-Dist: behave ; extra == "all"
+Requires-Dist: coverage ; extra == "all"
+Requires-Dist: ipywidgets ; extra == "all"
+Requires-Dist: nbsphinx ; extra == "all"
+Requires-Dist: pygraphviz ; extra == "all"
+Requires-Dist: sphinx >= 3.5 ; extra == "all"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "all"
+Requires-Dist: sphinx_rtd_theme ; extra == "all"
+Requires-Dist: nbsphinx ; extra == "doc"
+Requires-Dist: pygraphviz ; extra == "doc"
+Requires-Dist: sphinx >= 3.5 ; extra == "doc"
+Requires-Dist: sphinx-gallery < 0.11 ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: OpenEXR ; extra == "exr"
+Project-URL: Chat, https://github.com/shead-custom-design/imagecat/discussions
+Project-URL: Coverage, https://coveralls.io/r/shead-custom-design/imagecat
+Project-URL: Documentation, https://imagecat.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/shead-custom-design/imagecat/issues
+Project-URL: Regression Tests, https://github.com/shead-custom-design/imagecat/actions
+Project-URL: Source, https://github.com/shead-custom-design/imagecat
+Provides-Extra: all
+Provides-Extra: doc
+Provides-Extra: exr
+
+Imagecat provides flexible, high-quality tools for procedural image editing. See the Imagecat documentation at http://imagecat.readthedocs.io, and the Imagecat sources at http://github.com/shead-custom-design/imagecat
