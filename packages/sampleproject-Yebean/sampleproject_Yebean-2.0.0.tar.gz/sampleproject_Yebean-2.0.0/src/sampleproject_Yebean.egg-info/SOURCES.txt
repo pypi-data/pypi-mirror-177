@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/sampleproject_Yebean/__init__.py
+src/sampleproject_Yebean/package_data.dat
+src/sampleproject_Yebean/simple.py
+src/sampleproject_Yebean.egg-info/PKG-INFO
+src/sampleproject_Yebean.egg-info/SOURCES.txt
+src/sampleproject_Yebean.egg-info/dependency_links.txt
+src/sampleproject_Yebean.egg-info/entry_points.txt
+src/sampleproject_Yebean.egg-info/requires.txt
+src/sampleproject_Yebean.egg-info/top_level.txt
