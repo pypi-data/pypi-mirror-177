@@ -1,0 +1,18 @@
+AccessToken:
+  $ref: ./accessToken.yml
+BugId:
+  $ref: ./bugId.yml
+DocId:
+  $ref: ./docId.yml
+DocSpaceId:
+  $ref: ./docSpaceId.yml
+Limit:
+  $ref: ./limit.yml
+MemberUserId:
+  $ref: ./memberUserId.yml
+Offset:
+  $ref: ./offset.yml
+ProjectId:
+  $ref: ./projectId.yml
+TaskId:
+  $ref: ./taskId.yml

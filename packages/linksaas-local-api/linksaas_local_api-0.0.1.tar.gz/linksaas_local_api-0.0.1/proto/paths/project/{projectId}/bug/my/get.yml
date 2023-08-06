@@ -1,0 +1,44 @@
+tags:
+  - projectBug
+summary: 指派给我的缺陷
+description: 列出指派给我的缺陷
+operationId: "projectProjectIdBugMyGet"
+parameters:
+  - $ref: "../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../parameters/accessToken.yml"
+  - name: state
+    in: query
+    required: true
+    schema:
+      type: string
+      description: 缺陷状态
+      default: all
+      enum:
+        - all
+        - closed
+        - unclose
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: array
+          items:
+            $ref: "../../../../../schemas/bugInfo.yml"
+  "500":
+    description:  失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../schemas/errInfo.yml"
