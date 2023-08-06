@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyzabbix/__init__.py
+pyzabbix/api.py
+pyzabbix/sender.py
+zabbix.egg-info/PKG-INFO
+zabbix.egg-info/SOURCES.txt
+zabbix.egg-info/dependency_links.txt
+zabbix.egg-info/requires.txt
+zabbix.egg-info/top_level.txt
