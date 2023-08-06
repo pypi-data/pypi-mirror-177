@@ -1,0 +1,14 @@
+LXMF/Handlers.py,sha256=Tr1vKMFAy7e8WOh1tV3yzCJovUW7d27EMQnOnSqpkpo,1740
+LXMF/LXMF.py,sha256=dM6AuHJYcF25XMAhvVj29_TdjlTqmemSfhwVyQzMbWQ,17
+LXMF/LXMPeer.py,sha256=l42BYFACCrheSy8vQw6nyH9J0cb4RDGe0KGq5Gnx0j0,10414
+LXMF/LXMRouter.py,sha256=ioTEtHqogZP3Lw9X5ZD4kmPiD1lnEs1tKO41pcSJJPM,63768
+LXMF/LXMessage.py,sha256=6OU8HevNVQD9GRO69Wt91C9PRyI_f88C3ddlycZL_LU,25635
+LXMF/__init__.py,sha256=7meRaCR3WrjYhdliEFiTHs_JfU3GyuD7EXSgLBZsdtg,266
+LXMF/_version.py,sha256=Xsa3ayOMVkhUWm4t06YeyHE0apjpZefxLH4ylp0CDtU,22
+LXMF/Utilities/lxmd.py,sha256=7tqj9nRbH1J5Yv7JbMYRrePbjkBX8-8HuLFL7LvAzHw,20439
+lxmf-0.2.5.dist-info/LICENSE,sha256=4Flvutyi2SRX9i58mVdmKw1bBlRyxhOBtUTmsk_M2l4,1081
+lxmf-0.2.5.dist-info/METADATA,sha256=mpfd16SQbiktmVWRGrZYx5vfV_BOYgu4008Jyk3eITw,7518
+lxmf-0.2.5.dist-info/WHEEL,sha256=ZL1lC_LiPDNRgDnOl2taCMc83aPEUZgHHv2h-LDgdiM,92
+lxmf-0.2.5.dist-info/entry_points.txt,sha256=oHSC664-MexpGBF7QRF1hcoW0GVj-b0md9tZp2zC8Ww,50
+lxmf-0.2.5.dist-info/top_level.txt,sha256=ym0CzFeFciFeKD8jRXI0MmHLGgGf2kCM8vvYUYCsQt0,5
+lxmf-0.2.5.dist-info/RECORD,,
