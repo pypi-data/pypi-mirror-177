@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+scrapy_ipfs_filecoin/__init__.py
+scrapy_ipfs_filecoin/client.py
+scrapy_ipfs_filecoin/feedexport.py
+scrapy_ipfs_filecoin/pipelines.py
+scrapy_ipfs_filecoin.egg-info/PKG-INFO
+scrapy_ipfs_filecoin.egg-info/SOURCES.txt
+scrapy_ipfs_filecoin.egg-info/dependency_links.txt
+scrapy_ipfs_filecoin.egg-info/requires.txt
+scrapy_ipfs_filecoin.egg-info/top_level.txt
