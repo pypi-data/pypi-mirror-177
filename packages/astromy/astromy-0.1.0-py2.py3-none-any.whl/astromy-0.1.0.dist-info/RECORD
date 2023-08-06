@@ -1,0 +1,13 @@
+astromy/__init__.py,sha256=6Do3hZ6Yu5umwuWiO6CY9nVZiH8mYEYjBSRzqAxGimQ,441
+astromy/__version__.py,sha256=cOCobm6J7OueqvscMn6w8bIkeMCwBKwfzR_NyWe7kNU,389
+astromy/astromatic.py,sha256=ru2bcqzR-GP1_yOp1zA4UqA6wBX9L0cUcwaUd1pWLuA,8489
+astromy/catalog.py,sha256=X006MxI1FUWgZMrBfQPSDx9VbSCp67P9R5p268JVIYg,1049
+astromy/cube.py,sha256=nq-HZXzjDZVnc5s1ucwQY9p_Y3PIpcZq3DlNWOFIgYs,1264
+astromy/image-old.py,sha256=L-OyKY_Six9vrS6Kf5Dl0GXcn1JHttVofnxuS6mj33c,9786
+astromy/image.py,sha256=SR7kxgMXNb4EB2c-NyRYoNAT38ESAb68pGo2BD6vHNk,7136
+astromy/wcs.py,sha256=RlQJOgp_M-_R17-mF8ujsPCubzyIBf45SvV6rnbhKnw,2211
+astromy-0.1.0.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+astromy-0.1.0.dist-info/METADATA,sha256=S5pmuwZtih_p4mBdIwXILWAHrDENksWVaERETAknYy4,794
+astromy-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+astromy-0.1.0.dist-info/top_level.txt,sha256=_XIslmuci68mr_UH5crPZSVqD3vRBLFs4K5wkRrd0RI,8
+astromy-0.1.0.dist-info/RECORD,,
