@@ -1,0 +1,13 @@
+IPython>=7.6.0
+jupyter-client<7.0.0,>=5.3.4
+jupyter-core>=4.6.0
+nbformat
+ipykernel>=5.1.4
+notebook>=6.0.0
+packaging>20
+
+[dev]
+pytest
+pytest-clarity
+testfixtures
+pytest-cov
