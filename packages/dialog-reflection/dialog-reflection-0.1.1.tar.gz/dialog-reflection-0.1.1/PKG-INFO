@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dialog-reflection
+Version: 0.1.1
+Summary: A library for dialog systems that attempt to respond to messages as Reflective Listening.
+License: GNU General Public License v3.0
+Author: Sadahiro YOSHIKAWA
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: katsuyo-text (==0.1.2)
+Requires-Dist: spacy (>=3.4.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Dialog Reflection
+
+A library for dialog systems that attempt to respond to messages as Reflective Listening.
+
+## Demo
+
+Need `git` and `poetry` to run this demo.
+
+```
+$ git clone git@github.com:sadahry/dialog-reflection.git
+$ cd dialog-reflection
+$ poetry install
+$ poetry run python examples/interactive_ja.py
+```
+
+## How to Use
+
+(WIP)
+
