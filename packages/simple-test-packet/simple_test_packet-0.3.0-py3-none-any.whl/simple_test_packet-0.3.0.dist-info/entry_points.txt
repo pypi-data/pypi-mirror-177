@@ -1,0 +1,3 @@
+[console_scripts]
+start=simple_test_packet.main:start
+
