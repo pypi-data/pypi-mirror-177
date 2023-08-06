@@ -1,0 +1,6 @@
+sendgrid_cli/__init__.py,sha256=yc-1OaJ9lJEd-1YBbj8JVOM64nN0DYD74wgNFJ-d8HU,45
+sendgrid_cli/cli.py,sha256=a5qBkHgKPuXrkZzeD-NF0aqck5TS_E3kiXm6ONWCNIA,2145
+sendgrid_cli-0.1.4.dist-info/entry_points.txt,sha256=mlHagm-5-xGIT4YXV-RX6KwXkEVh7mdWEeTpmvjUaFY,50
+sendgrid_cli-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+sendgrid_cli-0.1.4.dist-info/METADATA,sha256=ka15AoPRAbd1U3yOGwaLnE4w8IcxuZK6nQdQoPvMF1g,2920
+sendgrid_cli-0.1.4.dist-info/RECORD,,

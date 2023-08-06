@@ -1,0 +1,3 @@
+[console_scripts]
+sendgrid=sendgrid_cli.cli:main
+
