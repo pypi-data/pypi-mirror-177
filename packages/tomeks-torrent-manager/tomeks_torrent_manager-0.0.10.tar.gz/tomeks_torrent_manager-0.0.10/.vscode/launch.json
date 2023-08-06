@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "SQLITE_DB":"/home/tom/git/home/tracker_predictor/torrent_history.sqlite3.db",
+                "TRANSMISSION_URL":"http://192.168.1.50:9091/transmission/rpc/",
+                "TRANSMISSION_USERNAME":"tom",
+                "TRANSMISSION_PASSWORD":"b0nb0n",
+
+                "AVISTAZ_COOKIE":"remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6Ik9wZEdEWFkwRHZJS3NGRjg2UDlvSGc9PSIsInZhbHVlIjoiZUtQNjJDWnUwckJLMW9pYVFIRlNOUVFkSmR4RXBmR0daYTF6U09WQ0NLaWtYNWM2bzl0TXRhN0JtaCtiMXY5MjlpYjFFcXBUS1oyQW1VR3J2OFhUUzZcLytqV3VwdmlSNys4SjBZajlJdHdjYXVKZlpvdzI3NHhUbm5RZzR5S3FNNVdGbHZyWmxGSkFYd0lGYXlDeldWZnpIUVBDR2ZObHNwVkJaY3R4UlJyUXpkMU1VUDBaeENLMHhOY1pVNnhWQ01EYlY2MmF5WmZyZTQ5WDVFdUhibWdvTzRjbUUzampMd3Axbll6eDZNUWM9IiwibWFjIjoiMDM1NWRlMGU1YjE1N2RkZWY0ZmRmOWRlNzMyNjZjMWE3YzllMTMwZDk3NDA2ZjdhNDdmZGVjZjc2NWY1ZTUwMCJ9; love=eyJpdiI6IldSTVVPdlRHaEdBSVVCTys5UXo4dVE9PSIsInZhbHVlIjoiODRMYTNWY0JvVVJoNHVmNlNtU2R1NzV5QTk4dVhZcnhWajFxa0xWNkNTcjgrdlZqREliTE5ZaDk4WFp3S0hSbiIsIm1hYyI6IjYzMDVlZDExZjc5YjQ2MGY0ZTAyNjlmMTk2YjhlMGE3MzM3Njk1ZGU2NzU1MzQ2NTgyZDkzYTdkYmUyOTE1ODYifQ%3D%3D; XSRF-TOKEN=eyJpdiI6Ik5BXC8ybExCUUR4QjNWUjlpY1N3dGd3PT0iLCJ2YWx1ZSI6Ikt3aXlUcXNqQ1kwUkZCYkNFckExTERtXC9YaXV3NHZRUysyUEhWMVZYUjJRazZoYWNHcWVuUWN5b0UyV0ZocVwvNyIsIm1hYyI6IjFhYTgzNDI5YzdiNTkyYmFmODVhZTM4NmRmMGQ5NmZjNGRiMDczMTI2NGM4OTY3MzU0MjE4ZDM4ODNmZjE5ZjEifQ%3D%3D; avistazx_session=eyJpdiI6IllCN25CbGl3aEY3dWNhRVF1S0g5TFE9PSIsInZhbHVlIjoiUmpaNmtaM1pQRVwvV1wvcG43RE5aOW1sQ0tcL00yKytLcXpraThlbVpTRTk3dWpweThIQXo4NW00S0kyYW9xKzExWEhTRmpJWXVUT2hxb1Q2aUpaUU5naDI0c2NONkpyZTUrWFdSNmd1cXhQRTNTckVVcE5oXC96RytRdnUwV3dEcTJRIiwibWFjIjoiOWVkM2JjNjdhMzg5YWY4NTcwYWIxMGZjNDM1OGY0YmE5MDdkZWMwMDEyOTMyZmRkMzgzOGZiZWZlMDY4ZjNkZiJ9",
+                "CINEMAZ_COOKIE":"remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6Ik9lZGhSQmxxc01NSWZnR1V4ZktWVkE9PSIsInZhbHVlIjoiT2pBMHpjQUIxTzU3VUhOS29zV25lMGVOeDFYelJ4ZndlaTdCakJFbjY4d2VlK3hSelBPTisxVUc3U1l4Ykg2Z2NyZ3NmZVNLZWpOaWExSU44UVZ3Q1BIeEY4a0V3ZWYxWEVTWUpGUE1BUllYN09rZFlpNTlMMEM1cmhOR2hiYjlWbk8wT2MydUhcL1ZiSGlzYng2ejNaOEdHdm54NCs5c0RxTVJuKytYY2c0cklSMzJOenU0VE50YzJwNHRMVkt5a2RoKzdzUEN0Vyttc0lxWSttdXdzb284V3diSHArRURuM0JJZGxnNTRBWDA9IiwibWFjIjoiNzZmMDA1ZTVmMTJmNzMxMTRkZjI4MzdjMGNmN2Q2N2Q4YTExNjEyMjRiMGI4YmI5NDM2YTJiMjMxYzNhNGIzNCJ9; love=eyJpdiI6ImQ3aWZIV1k4S3NMSVh5R2x4MDE0NkE9PSIsInZhbHVlIjoiRlBnOXVSalFJYTdqTTBUNmVRRnloaUdHMlptN2ZDUWh6V01zd1VmMmVDckpWQ0ZTUWxxWUNcL3VkQ1E3Qkt5OFciLCJtYWMiOiIyYWE5NGYwY2Y0YTIyYzFmZDZiMTBlYzc4M2YwZWY3OTI0OWJhZTFmYjdhNWE0Y2U0MDgyZjNiYWQxNWIxYTNiIn0=; XSRF-TOKEN=eyJpdiI6ImdxeTNCR25uQ3VJRGhYZmRcL09hMFlBPT0iLCJ2YWx1ZSI6ImN1T1hkK3BOeFIzdWNWenB1QkhPWk1HZ1BWbzBFNnpJeVE0aXVcL3dKR2ptN0Z0V0hSd1wvM3dpMFFnVHpaZDZYUSIsIm1hYyI6IjZkMzQxZTM0MGNiZjNmY2ZjZDNkZjE1NzZmMWFhZDc2MDk4ZWU0ODcyNjVhMjc0ODZiMjVkNjJmMjc1ZTU2YTEifQ==; cinemazx_session=eyJpdiI6InJDVDBkNG1lWkEycWdCMmJJc0hVNGc9PSIsInZhbHVlIjoiSFozaGVXM3gyMERQZUpnUWlVTWpmbkZBbDh3Y0VuVldkaEhkVU1hdDJldmo5NHJqa1N1bXhtNXNTRTZCMmpYXC9wOVJxU2pYejFxMmZkV2NuYVkzM3Y0SUFBZlhvem9LWDNwS2NsaTYzWTRpbjV3QWpYbmhtZWMwWCthRm9vanphIiwibWFjIjoiMTc3MDEyYzVhMDlkNGM4YjkwOGUxNjliZjhiNWMzMWU1YzY3MmMxOWU2MmJmMGMyY2E4Zjc1MmEwMjI3MjJmMiJ9",
+
+                "AVISTAZ_RSS":"https://avistaz.to/rss/feed?fid=29186&pid=82292d24010149ab8d7d6fe373fdee09",
+                "CINEMAZ_RSS":"https://cinemaz.to/rss/feed?fid=1796&pid=5723d0315d9d266b3052fb36e49e0035"
+            }
+        }
+    ]
+}
