@@ -1,0 +1,14 @@
+3219a501864e4a26eb38__mypyc.cp311-win_amd64.pyd,sha256=1KyLhLUfrOMfGmmTNq9HwRySuy_a1uNJfMMkkTXCzvQ,97792
+crossandra/__init__.cp311-win_amd64.pyd,sha256=DpJ_LcawnUFdgvA3BN7LJEW9SBvk2vDC6IVYZap4UZg,10752
+crossandra/common.cp311-win_amd64.pyd,sha256=J-nFo4ddV7wrCOtrM6sf6sMgPnprT7IVVD6vvuqCwGU,10752
+crossandra/lib.cp311-win_amd64.pyd,sha256=EB9tQyLgXWln602REVGtj2UiupNpwur67PmgjTbuaVg,10752
+crossandra/rule.cp311-win_amd64.pyd,sha256=sc5kVj7D9DiaGOxgqyoawnE_xZgyWR_XzHMCoq7oCfw,10752
+src/crossandra/__init__.py,sha256=wiuN-nNxhfnyIZxO3tcCCiYRwfedqguXzh0ViA0W4bc,181
+src/crossandra/common.py,sha256=z6cu7eHlE3iHQNYejVWZLOWzB0sY9pfV96K76bR26Hs,984
+src/crossandra/lib.py,sha256=oCU60NuGk9HopGXGYuS5N4lYpm7nop0M7oLjF525UhU,3587
+src/crossandra/rule.py,sha256=sZ_LItS0aThEJ1oUPTTshj2GWyI1TKdTeq6PQlCAl3M,1703
+crossandra-1.2.3.dist-info/LICENSE,sha256=07QrtH7Z6su6qgdC42YtHoBgCUropDqWmY29q7H6XUA,1067
+crossandra-1.2.3.dist-info/METADATA,sha256=Zk0D_QSlf3M0UlIzCWx8GVcJIn9JLjYb_ezwQQ1uvm0,4900
+crossandra-1.2.3.dist-info/WHEEL,sha256=wklNeoByNLhdCl-oEQTdaHIeDl4q9zaQVqAlPxUEgLU,102
+crossandra-1.2.3.dist-info/top_level.txt,sha256=liue53kF5Oo7WwiAjHGQmUXhFkM2oY8M05g_84_5GqM,54
+crossandra-1.2.3.dist-info/RECORD,,
