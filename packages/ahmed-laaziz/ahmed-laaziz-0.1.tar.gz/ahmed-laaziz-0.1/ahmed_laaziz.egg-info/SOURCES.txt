@@ -1,0 +1,10 @@
+setup.py
+ahmed-laaziz/Binomialdistribution.py
+ahmed-laaziz/Gaussiandistribution.py
+ahmed-laaziz/Generaldistribution.py
+ahmed-laaziz/__init__.py
+ahmed_laaziz.egg-info/PKG-INFO
+ahmed_laaziz.egg-info/SOURCES.txt
+ahmed_laaziz.egg-info/dependency_links.txt
+ahmed_laaziz.egg-info/not-zip-safe
+ahmed_laaziz.egg-info/top_level.txt
