@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+package/__init__.py
+package/__main__.py
+package/example.py
+package/listfunc/__about__.py
+package/listfunc/__init__.py
+package/listfunc/funcs.py
+package/tests/__init__.py
+package/tests/test_selection_sort.py
+sorting_array_package.egg-info/PKG-INFO
+sorting_array_package.egg-info/SOURCES.txt
+sorting_array_package.egg-info/dependency_links.txt
+sorting_array_package.egg-info/requires.txt
+sorting_array_package.egg-info/top_level.txt

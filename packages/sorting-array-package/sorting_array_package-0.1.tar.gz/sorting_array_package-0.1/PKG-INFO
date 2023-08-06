@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sorting_array_package
+Version: 0.1
+Summary: selection sort
+Author: Quirrel
+Author-email: symmlux@gmail.com
+License: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Практическая работа №6 – Модульные программы
+
+**Савельев Александр**,
+**КИ22-16/1Б**,
+**Вариант 28**
+
+`$ python listfunc` — вызов интерфейса для демонстрации работы
+
+`$ python -m unittest -v test_selection_sort` — вызов тестов
+
+`$ python package\listfunc\funcs.py` — ввод, сортировка массива
