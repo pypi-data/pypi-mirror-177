@@ -1,0 +1,8 @@
+airflow_oracle_snowflake_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_oracle_snowflake_plugin/hooks/ract_snowflake_hook.py,sha256=sCD1Io0wwlZm_8w23kU5H8ZQvu1u8pZS_pZkzJnXa4M,1426
+airflow_oracle_snowflake_plugin/oracle_to_snowflake_operator.py,sha256=G20ydz3a9D0q9tJQEsZ3hbebQJYeDtvco07LJxy-3hM,4050
+airflow_oracle_snowflake_plugin/utils/sql_utils.py,sha256=_uRkjLPM-wtEjI7gOXkAo14LVBvCjgeLhFAdS4Og37g,1949
+airflow_oracle_snowflake_plugin-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_oracle_snowflake_plugin-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+airflow_oracle_snowflake_plugin-0.1.0.dist-info/METADATA,sha256=90ekrBznOQXbHz3mpe9sAnmWuWASLiKYPsVabL-dQ5A,5678
+airflow_oracle_snowflake_plugin-0.1.0.dist-info/RECORD,,
