@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+Akela.egg-info/PKG-INFO
+Akela.egg-info/SOURCES.txt
+Akela.egg-info/dependency_links.txt
+Akela.egg-info/entry_points.txt
+Akela.egg-info/requires.txt
+Akela.egg-info/top_level.txt
+akela/__init__.py
+akela/config.py
+akela/find.py
+akela/geturi.py
+akela/sync.py
+akela/uri.py
+akela/zimread.py
