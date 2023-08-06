@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jgtpy
+Version: 0.1.0
+Summary: Enhanced JGTPy
+Home-page: https://github.com/jgwill/jgtpy
+Author: GUillaume Isabelle
+Author-email: Guillaume Isabelle <jgi@jgwill.com>
+License: MIT
+Project-URL: Homepage, https://github.com/jgwill/jgtpy
+Project-URL: Bug Tracker, https://github.com/jgwill/jgtpy/issues
+Keywords: technical analyse indicators pandas forex stocks
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: dev-lint
+Provides-Extra: dev-test
+Provides-Extra: dev-docs
+License-File: LICENSE
+License-File: AUTHORS
+
+
+
+# jgtpy
+JGTechnical Indicators for the Pandas' Dataframes
+
+
+Documentation: https://pandastechindicators.readthedocs.io/en/latest/
+
+
+## Installation
+```
+pip install -U jgtpy
+```
+
+## Example
+```
+>>> import pandas as pd
+>>> import jgtpy
+
+
+
