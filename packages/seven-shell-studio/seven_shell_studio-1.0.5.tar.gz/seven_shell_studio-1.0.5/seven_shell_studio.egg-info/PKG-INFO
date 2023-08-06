@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: seven-shell-studio
+Version: 1.0.5
+Summary: seven shell studio
+Home-page: http://gitlab.tdtech.gao7.com/python/pypi_packages/seven_shell_studio
+Author: seven
+Author-email: tech@gao7.com
+License: MIT
+Description: # seven_shell_stuido
+        
+        seven-shell-studio后台python库
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: ~=3.4
+Description-Content-Type: text/markdown
