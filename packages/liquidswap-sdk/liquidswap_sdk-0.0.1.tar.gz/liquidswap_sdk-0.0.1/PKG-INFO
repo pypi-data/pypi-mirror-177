@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: liquidswap-sdk
+Version: 0.0.1
+Summary: Liquidswap Python SDK
+Home-page: https://github.com/WayneAl/liquidswap-sdk-python
+License: GPLv3
+Author: Wayne Kuo
+Author-email: wayne01213@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aptos-sdk (>=0.4.1)
+Project-URL: Repository, https://github.com/WayneAl/liquidswap-sdk-python
+Description-Content-Type: text/markdown
+
+# liquidswap-sdk-python
+
+WIP:
+
+- [x] convert_to_decimals
+- [x] calculate_rates
+- [x] swap
+- [ ] create pypl package
+
+
