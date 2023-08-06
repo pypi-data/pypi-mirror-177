@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ECHAIM",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ECHAIM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ECHAIM-Debug-70a464c9e468dcf8b9ab.json",
+					"name" : "ECHAIM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ECHAIM_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ECHAIM_test-Debug-917d7a5bbfd1d410e409.json",
+					"name" : "ECHAIM_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lap1dem/dev-python/echaim/src/echaim/source_c/cmake-build-debug",
+		"source" : "/home/lap1dem/dev-python/echaim/src/echaim/source_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
