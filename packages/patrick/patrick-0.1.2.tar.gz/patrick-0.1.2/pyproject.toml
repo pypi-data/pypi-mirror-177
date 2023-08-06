@@ -1,0 +1,35 @@
+[project]
+name = "patrick"
+version = "0.1.2"
+description = ""
+authors = [
+    { name = "Patrick Arminio", email = "patrick.arminio@gmail.com" },
+]
+dependencies = [
+    "typer>=0.7.0",
+    "rich>=12.6.0",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+
+[project.scripts]
+patrick = "patrick.cli:main"
+cli = "patrick.cli:main"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.10.0",
+    "flake8>=5.0.4",
+    "mypy>=0.991",
+]
