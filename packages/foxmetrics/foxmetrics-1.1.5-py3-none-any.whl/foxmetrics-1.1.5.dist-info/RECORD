@@ -1,0 +1,11 @@
+foxmetrics/__init__.py,sha256=UIWBhJjLwfnLguTDl5HRbM_wTD94ms6cMrYwvdMhJSk,121
+foxmetrics/averagemeter.py,sha256=hj-e-wGvN2WragnebyaRd1NjPm_2CR0WyZ_qHXuLl8c,2143
+foxmetrics/meter_interface.py,sha256=FEQWLV3qkzc3PLg7p8klAGn6Ve_QuEApqF3aRaiu2O0,3803
+foxmetrics/metric.py,sha256=MACn0_9extaHvhBbik0ti0aPliamuN84q5qLAHfLWAU,1686
+foxmetrics/pprint.py,sha256=2gmoChwaiAkTDdFCjhRRIxPcxAB2OZY0uQAEbRYVSXw,4119
+foxmetrics/storage_interface.py,sha256=ZF_Qh5SnE9xFUjZ6pOP84IV2Yls7Y76DS4JXTsi_knc,2770
+foxmetrics/utils.py,sha256=IZTeutjMpwS5C3Mf0JsrLBhojAJNobqDgYx8bGLomWA,2047
+foxmetrics-1.1.5.dist-info/METADATA,sha256=-CcQChOpbG6AUqM8QpHABg0HcZhsEvFWKih9YUHXr_Q,254
+foxmetrics-1.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+foxmetrics-1.1.5.dist-info/top_level.txt,sha256=-mvxC7YiM4niBNI-cuz6RVnWlAfSmXNqjP7G4962kPo,11
+foxmetrics-1.1.5.dist-info/RECORD,,
