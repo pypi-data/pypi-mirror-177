@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+example_package_avivlevy/__init__.py
+example_package_avivlevy/example.py
+example_package_avivlevy.egg-info/PKG-INFO
+example_package_avivlevy.egg-info/SOURCES.txt
+example_package_avivlevy.egg-info/dependency_links.txt
+example_package_avivlevy.egg-info/top_level.txt
