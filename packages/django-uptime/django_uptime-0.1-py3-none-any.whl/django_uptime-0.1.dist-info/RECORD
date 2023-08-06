@@ -1,0 +1,8 @@
+django_uptime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_uptime/urls.py,sha256=70lDU4GLd9Hgo2OTSmSvtCKF6GtSapAztQNv3i3qSmg,133
+django_uptime/views.py,sha256=yDrclnLxiR0TjZ1UR5NolRuBBy5eYxriRVzP161P79g,510
+django_uptime-0.1.dist-info/LICENSE,sha256=gJlD0EjvHbTvdFSugHQDr9HfaWxe3-i4ACWNg247buw,1067
+django_uptime-0.1.dist-info/METADATA,sha256=y4B8Dxw7wt8CzeeZA4XG7qM6ulTC3A9EYGH-6QgFXS4,541
+django_uptime-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_uptime-0.1.dist-info/top_level.txt,sha256=gPWbhU_orq-892dpl4-OMMFMEMQg5YqHJzdZW1gKS18,14
+django_uptime-0.1.dist-info/RECORD,,
