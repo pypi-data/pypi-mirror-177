@@ -1,0 +1,10 @@
+README.md
+setup.py
+freqsignals_client/__init__.py
+freqsignals_client/client.py
+freqsignals_client/exceptions.py
+freqsignals_client.egg-info/PKG-INFO
+freqsignals_client.egg-info/SOURCES.txt
+freqsignals_client.egg-info/dependency_links.txt
+freqsignals_client.egg-info/requires.txt
+freqsignals_client.egg-info/top_level.txt
