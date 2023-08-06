@@ -1,0 +1,9 @@
+LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_oracle_snowflake_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_oracle_snowflake_plugin/hooks/custom_snowflake_hook.py,sha256=4eSawOINTublUW59WHGn3O4O-TQY7qIy-HXFqWsPEaA,1417
+airflow_oracle_snowflake_plugin/oracle_to_snowflake_operator.py,sha256=6K1CdwNy23aIHWUrtVBsLYNwu7VoawcP1F0K7rYKFlk,4052
+airflow_oracle_snowflake_plugin/utils/sql_utils.py,sha256=_uRkjLPM-wtEjI7gOXkAo14LVBvCjgeLhFAdS4Og37g,1949
+airflow_oracle_snowflake_plugin-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+airflow_oracle_snowflake_plugin-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+airflow_oracle_snowflake_plugin-0.1.1.dist-info/METADATA,sha256=U9JvuSczBqEx9ZX3nhzvkOZp6ACIUF4uLY-II9rUKc4,5835
+airflow_oracle_snowflake_plugin-0.1.1.dist-info/RECORD,,
