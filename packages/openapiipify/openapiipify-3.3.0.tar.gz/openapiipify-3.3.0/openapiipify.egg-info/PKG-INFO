@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: openapiipify
+Version: 3.3.0
+Summary: openapi-ipify
+Home-page: https://github.com/cliffano/openapi-ipify
+Author: Cliffano Subagio
+Author-email: blah@cliffano.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,openapi-ipify
+Requires-Python: >=3.7
+
+    OpenAPI client for ipify, a simple public IP address API  # noqa: E501
+    
