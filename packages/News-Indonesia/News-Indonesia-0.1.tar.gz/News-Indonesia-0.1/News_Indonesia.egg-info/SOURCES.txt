@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+News_Indonesia.egg-info/PKG-INFO
+News_Indonesia.egg-info/SOURCES.txt
+News_Indonesia.egg-info/dependency_links.txt
+News_Indonesia.egg-info/top_level.txt
+berita_indonesia/__init__.py
