@@ -1,0 +1,10 @@
+veeam_em/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veeam_em/const.py,sha256=OzTB5EO_Xhk9KyViDbF2z-S2wdSkEPx7CG82UxPmh_w,891
+veeam_em/exceptions.py,sha256=RGpSwnBMqxDl6tMhbMvKnUwClndm7NCCE0LOxJJm1Do,40
+veeam_em/helper.py,sha256=REixVJuuqRb2uUD3yPaFdowuUxj3BexHWvUvJIz6bCs,2033
+veeam_em/manager.py,sha256=TxyyoLMm_pyImrhFpQ3XOK3IPMb0ObcROReZ1tEuzqs,43049
+veeam_em-2022.11.0.dist-info/LICENSE,sha256=6r0WwIHnKkBueNdHj6a-hEpxUHnUNUeKwJHfmOkD0x4,1077
+veeam_em-2022.11.0.dist-info/METADATA,sha256=SAKckex-aB80BO7nNNpjKijL3UdyagkSijqGZCAZ1-0,4482
+veeam_em-2022.11.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+veeam_em-2022.11.0.dist-info/top_level.txt,sha256=nyhLKOgKWJ2vv70gYDFyKyXgDt6yrEcWEiPA0dKvRsM,9
+veeam_em-2022.11.0.dist-info/RECORD,,
