@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: foo515114
+Version: 0.5.0
+Summary: A short description of the package.
+Provides-Extra: deploy
+Provides-Extra: tests

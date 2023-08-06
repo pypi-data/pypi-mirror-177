@@ -1,0 +1,31 @@
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "foo515114"
+version = "0.5.0"
+description = "A short description of the package."
+dependencies = [
+    # "black",
+]
+
+[project.optional-dependencies]
+deploy = [
+    "python-semantic-release",
+]
+tests = [  # pip install foo[tests]
+    'coverage>=5.0.3',
+    'pytest',
+    'pytest-benchmark[histogram]>=3.2.1',
+]
+
+
+[tool.semantic_release]
+version_variable = "src/foo/main.py:__version__"
+version_toml = "pyproject.toml:project.version"
+build_command = "pip install build && python -m build"
+upload_to_release = true
+upload_to_pypi = true
