@@ -1,0 +1,3 @@
+[console_scripts]
+ms=multi-search.interface.tui:main
+
