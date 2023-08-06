@@ -1,0 +1,10 @@
+setup.py
+distributionsByHam/Binomialdistribution_challenge.py
+distributionsByHam/Gaussiandistribution.py
+distributionsByHam/Generaldistribution.py
+distributionsByHam/__init__.py
+distributionsByHam.egg-info/PKG-INFO
+distributionsByHam.egg-info/SOURCES.txt
+distributionsByHam.egg-info/dependency_links.txt
+distributionsByHam.egg-info/not-zip-safe
+distributionsByHam.egg-info/top_level.txt
