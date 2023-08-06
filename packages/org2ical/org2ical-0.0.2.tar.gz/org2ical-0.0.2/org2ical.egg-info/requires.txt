@@ -1,0 +1,8 @@
+
+[testing]
+pytest
+mypy
+flake8
+pylint
+icalendar
+python-dateutil
