@@ -1,0 +1,14 @@
+include *.md
+include *.sh
+include *.txt
+include *.py
+include license
+include .pylintrc
+include Makefile
+include .editorconfig
+recursive-include invenio_config_kth *.csv
+recursive-include invenio_config_kth *.py
+recursive-include invenio_config_kth *.yaml
+recursive-include tests *.py
+include *.lock
+include Pipfile
