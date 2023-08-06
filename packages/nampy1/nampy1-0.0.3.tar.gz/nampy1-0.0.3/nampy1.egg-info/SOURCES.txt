@@ -1,0 +1,7 @@
+setup.py
+nampy1/__init__.py
+nampy1/hello.py
+nampy1.egg-info/PKG-INFO
+nampy1.egg-info/SOURCES.txt
+nampy1.egg-info/dependency_links.txt
+nampy1.egg-info/top_level.txt
