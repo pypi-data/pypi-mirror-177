@@ -1,0 +1,13 @@
+parangonar/__init__.py,sha256=Ro3icrfNdrCGhxekwJitWRt7H-BPeWcYcawizxVDUcU,525
+parangonar/assets/mozart_k265_var1.match,sha256=gjIS_WI_5ik7XIwcCbuFS46LseCWdIczoajjmVp_h5M,20420
+parangonar/evaluate/__init__.py,sha256=UK2WimhxWm7aJ-uQ3d-y_b07q_XaU1dfXhaTWLCEgI8,7951
+parangonar/match/__init__.py,sha256=lUigG72DMDrsctM_J8YWFTUOZsA2VAM-9g7mtMjju8s,644
+parangonar/match/dtw.py,sha256=xyMG2ZCJHUsfjE_ruuYnjK1nvbyqiHnzCc_h5jpoWlE,4976
+parangonar/match/matchers.py,sha256=tiYsqA8NqBkhimfClIZp1LcZfrcOUIfqMoNDCMOa4Xc,19355
+parangonar/match/nwtw.py,sha256=6pLGJ16893aqqzCd4Wtd133te9agEGL8BZBUZgtOwck,6438
+parangonar/match/preprocessors.py,sha256=YgWd3D9NoXaOdO4NbbmwaAV1NeXWOqwk4ktFb3stz1g,22443
+parangonar-0.0.9.dist-info/LICENSE,sha256=UPhl6YESfmx5710pD0wkFQbnCKQB9jZeEO8_OkXaXv0,11630
+parangonar-0.0.9.dist-info/METADATA,sha256=c74oDj4J97E2j3ZfKoGueAiBmEys5Hfbo5wK-HIeH_0,5917
+parangonar-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parangonar-0.0.9.dist-info/top_level.txt,sha256=d8j1ODuAoMKAY83V6u5uXhyhQ9JiLdzRGnoUvZoY9kQ,11
+parangonar-0.0.9.dist-info/RECORD,,
