@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+prob_distros_gausso_bino/Binomialdistribution.py
+prob_distros_gausso_bino/Gaussiandistribution.py
+prob_distros_gausso_bino/Generaldistribution.py
+prob_distros_gausso_bino/__init__.py
+prob_distros_gausso_bino.egg-info/PKG-INFO
+prob_distros_gausso_bino.egg-info/SOURCES.txt
+prob_distros_gausso_bino.egg-info/dependency_links.txt
+prob_distros_gausso_bino.egg-info/not-zip-safe
+prob_distros_gausso_bino.egg-info/top_level.txt
