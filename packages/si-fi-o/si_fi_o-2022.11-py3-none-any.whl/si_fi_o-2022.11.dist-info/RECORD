@@ -1,0 +1,13 @@
+si_fi_o/__init__.py,sha256=s-Ld8_4XCxsEBD202jzJbGU8cf2rvjRtoPWSf14g3iY,1592
+si_fi_o/app.py,sha256=2vqeeehgnLJnlvORLO129OGnZgYtzp3OH5fjFbf8_hs,3102
+si_fi_o/generic.py,sha256=e2s3BjGuLhA3rI1PamtxLAefrE9-ORMMkuhLfoSaXZs,1758
+si_fi_o/routes.py,sha256=yWA6UiPgUXb8NPyUZ6pTAocSlwjwD-Er9w_s5MXtoLE,5830
+si_fi_o/version.py,sha256=KlRVsEXCb2cTt9D7bJSNO-OPCNJ1Nc4em5Rn-ueRMB4,1576
+si_fi_o/html/home_page.py,sha256=nnTwlv2yorTIiQDKvO7d33ZalkYhJnyd-DRkMvxZrRI,2598
+si_fi_o/html/session.py,sha256=wwhVfRPdGcBzpbtOGxXiOq3vLRQXI9JViDORJsM3zDo,5842
+si_fi_o/session/form.py,sha256=g7nAmOofn9LfPfTzGYppu8CTQRN5L_Z706amGuwYJkI,4356
+si_fi_o/session/session.py,sha256=gU95AaUwUGzPigfcOnUYW-R8qeE8vbym4KqrPBJ3-nk,5092
+si_fi_o-2022.11.dist-info/METADATA,sha256=o2NpVwBIgeF7yQ2SX71cGGx3ojsnXWtrWP6DS2saA-Q,4462
+si_fi_o-2022.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+si_fi_o-2022.11.dist-info/top_level.txt,sha256=sYpsePXhLQRNmFt7_vaoAtsjpMgS67bAEI0d0QTNnbs,8
+si_fi_o-2022.11.dist-info/RECORD,,
