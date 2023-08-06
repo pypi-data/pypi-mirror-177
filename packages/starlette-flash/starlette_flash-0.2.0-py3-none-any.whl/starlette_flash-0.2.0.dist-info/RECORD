@@ -1,0 +1,7 @@
+starlette_flash/__init__.py,sha256=_USY1Pn2l0VojCGeS6XObHHsj2ayMkOZDRelekQQlxM,108
+starlette_flash/flash.py,sha256=g9IEBzL1GMcpTE1ovcKqSqs1DxNWzZEZHW0NFs8IXzA,2215
+starlette_flash/templates/starlette_flash/flash_messages.html,sha256=6J7mp638dD7xA1ZCESfVmr_8t6De1d-JWgZ-dWfCxLE,243
+starlette_flash-0.2.0.dist-info/LICENSE,sha256=e7rSfX5G0RZFmKc2-m8WazsMidzrQjpt6O8cHw_gook,1074
+starlette_flash-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+starlette_flash-0.2.0.dist-info/METADATA,sha256=BgbGFr-mfD5TcqQ7h-XtyjWle9kyFPGePrHlt3_7IPM,3847
+starlette_flash-0.2.0.dist-info/RECORD,,
