@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/quackpass/__init__.py
+src/quackpass/quackpass.py
+src/quackpass.egg-info/PKG-INFO
+src/quackpass.egg-info/SOURCES.txt
+src/quackpass.egg-info/dependency_links.txt
+src/quackpass.egg-info/top_level.txt
