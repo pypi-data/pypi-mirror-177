@@ -1,0 +1,5 @@
+cyac/ac.cpython-38-darwin.so
+cyac/trie.cpython-38-darwin.so
+cyac/utf8.cpython-38-darwin.so
+cyac/util.cpython-38-darwin.so
+cyac/xstring.cpython-38-darwin.so
