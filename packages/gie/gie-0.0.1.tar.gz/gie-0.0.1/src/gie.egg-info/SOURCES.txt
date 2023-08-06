@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/gie/__init__.py
+src/gie/gie.py
+src/gie.egg-info/PKG-INFO
+src/gie.egg-info/SOURCES.txt
+src/gie.egg-info/dependency_links.txt
+src/gie.egg-info/top_level.txt
