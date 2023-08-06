@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cookiecutter-aws-extensions
+Version: 0.0.12
+Summary: small aws utilitary package
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+
