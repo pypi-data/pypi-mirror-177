@@ -1,0 +1,10 @@
+xsentinels/__init__.py,sha256=SnVWE66dB6z8JY4VeJz4OdYrzZSsAxheSKcV_BnUl3I,145
+xsentinels/default.py,sha256=CPu-LoHIpyn8mWKGxp4oHBER9emW6sg-7pr-IO8-vCM,924
+xsentinels/null.py,sha256=6gL3xJEG15MTCOXs4bxd6FI9h2SPJR4Pt3LgSSZNzC4,2957
+xsentinels/sentinel.py,sha256=8ToGpQ8iAidosoGLGDfBShr7_vng3vapJhOj3ZghmbA,71
+xsentinels/singleton.py,sha256=Rbrz9jb8IhGMnGNUOejDIDnig2GQMxUbOllizpxXWYQ,3037
+xsentinels/unwrap.py,sha256=EllABQ-XEmGvRlqHabUe1s4A-givMvF4v-AQyJEK17c,2154
+xsentinels-1.2.0.dist-info/LICENSE,sha256=fr5VHvkkKJ-x75cu5aGRRMC0C3xVaz78OHry7hNy6Gs,907
+xsentinels-1.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+xsentinels-1.2.0.dist-info/METADATA,sha256=UibtdvSeiy_-2ocjXzjCjmw0XHeC9jZuj-nMCM8SBPg,1853
+xsentinels-1.2.0.dist-info/RECORD,,
