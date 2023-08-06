@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: crgoauth
+Version: 0.0.1.dev3
+Summary: Cloudreach implementation of Google SignIn OAuth
+Home-page: https://github.com/nikolay-tonev/crgoauth
+Author: Cloudreach
+Author-email: nikolay.tonev@cloudreach.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: MacOS X
