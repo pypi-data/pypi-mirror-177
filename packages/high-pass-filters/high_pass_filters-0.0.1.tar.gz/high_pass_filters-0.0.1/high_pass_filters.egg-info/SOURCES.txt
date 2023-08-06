@@ -1,0 +1,11 @@
+README.md
+setup.py
+high_pass_filters/__init__.py
+high_pass_filters/fprewitt.py
+high_pass_filters/fsobel.py
+high_pass_filters/image.py
+high_pass_filters.egg-info/PKG-INFO
+high_pass_filters.egg-info/SOURCES.txt
+high_pass_filters.egg-info/dependency_links.txt
+high_pass_filters.egg-info/requires.txt
+high_pass_filters.egg-info/top_level.txt
