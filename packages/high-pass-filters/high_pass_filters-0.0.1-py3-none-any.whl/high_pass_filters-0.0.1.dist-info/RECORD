@@ -1,0 +1,8 @@
+high_pass_filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+high_pass_filters/fprewitt.py,sha256=UE8mFb5wn0WBfWDHP_-_xITrHqw1T86aXBlKbiAE4Lg,1403
+high_pass_filters/fsobel.py,sha256=FkuDn-Vazi4yPrHnbKfA2TtmYusRXo3raSsZRIoXkFA,1452
+high_pass_filters/image.py,sha256=TVG6PYqav2xMT4qE6QxDUKQtEdN_Chn6PtH-zTJKb_s,198
+high_pass_filters-0.0.1.dist-info/METADATA,sha256=9fGfIJ_6H4NFAFZFNBtR0vJJuYALJRDLPzTkeqRR_c8,1045
+high_pass_filters-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+high_pass_filters-0.0.1.dist-info/top_level.txt,sha256=wJD-dqv92wk1bNYzLcuy3qwU2lCjOj8SzBFuTJMgnh4,18
+high_pass_filters-0.0.1.dist-info/RECORD,,
