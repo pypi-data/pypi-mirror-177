@@ -1,0 +1,3 @@
+[console_scripts]
+compose=compose_companion.cli:app
+
