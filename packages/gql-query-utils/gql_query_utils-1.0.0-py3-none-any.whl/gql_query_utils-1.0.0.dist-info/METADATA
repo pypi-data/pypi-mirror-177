@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gql_query_utils
+Version: 1.0.0
+Summary: Python package that converts GraphQL query into dictionary.
+Project-URL: Homepage, https://github.com/pgollangi/graphql-query-to-dict
+Project-URL: Bug Tracker, https://github.com/pgollangi/graphql-query-to-dict/issues
+Author-email: Prasanna Kumar Gollangi <pgollangi@pm.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# graphql-query-to-dict
+Python package that converts GraphQL query into dictionary.
