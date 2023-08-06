@@ -1,0 +1,4 @@
+[project]
+name = "astronomer-airflow-version-check"
+description = "Placeholder to prevent dependency confusion attacks"
+version = "0.0.0"

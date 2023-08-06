@@ -1,0 +1,5 @@
+pyproject.toml
+astronomer_airflow_version_check.egg-info/PKG-INFO
+astronomer_airflow_version_check.egg-info/SOURCES.txt
+astronomer_airflow_version_check.egg-info/dependency_links.txt
+astronomer_airflow_version_check.egg-info/top_level.txt
