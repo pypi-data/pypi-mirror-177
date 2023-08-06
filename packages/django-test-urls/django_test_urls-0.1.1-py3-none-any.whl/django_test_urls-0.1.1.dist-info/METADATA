@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: django-test-urls
+Version: 0.1.1
+Summary: A package used to test URL dispatching in Django applications.
+Author-email: Alan Verresen <dev@alanverresen.com>
+License: MIT
+Project-URL: Homepage, https://github.com/alanverresen/django-test-urls
+Keywords: Django,URL,URL dispatch,test,testing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+##############################################################################
+django-test-urls 0.1.1
+##############################################################################
+
+This small Python package defines a small set of functions that can be used
+to test the mapping of URLs in a Django application:
+
+* whether a URL is mapped correctly to a view
+* whether a URL is not mapped to a view
+* whether arguments are captured as expected
+
+
+==============================================================================
+Installation
+==============================================================================
+
+This package is available on the Python Package Index (PyPI), so you can
+install this package using `pip`:
+
+.. code-block:: sh
+
+    $ python -m pip install django-test-urls
+
+
+==============================================================================
+Usage
+==============================================================================
+
+The fictional app that is being tested in this example contains a view that
+lists every article that has been released in a given month. The following
+URL pattern is used to map URLs to the aforementioned view, and captures two
+values, `year` and `month`, to pass along.
+
+.. code-block:: python
+
+    # urls.py
+    urlpatterns = [
+        ...
+        path('articles/<int:year>/<int:month>/', views.month_archive),
+        ...
+    ]
+
+
+The following test verifies that an example URL is mapped correctly to the
+right view and that values are captured correctly.
+
+.. code-block:: python
+
+    # test_urls.py
+    from django_test_urls import resolves_to_view
+    from django_test_urls import resolves_to_args
+    from my_app import views
+
+
+    def test_monthly_archive():
+        assert resolves_to_view("articles/2022/11/", views.month_archive)
+        assert resolves_to_args("articles/2022/11", {"year": 2022, "month": 11})
+
