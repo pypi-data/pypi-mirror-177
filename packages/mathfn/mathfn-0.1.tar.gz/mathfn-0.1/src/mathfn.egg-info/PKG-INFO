@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mathfn
+Version: 0.1
+Home-page: https://github.com/certik/mathfn
+Author: Ondřej Čertík
+Author-email: ondrej@certik.us
+License: MIT
+Keywords: fast math functions lpython

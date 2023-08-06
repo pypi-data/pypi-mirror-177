@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/mathfn/__init__.py
+src/mathfn/sin.py
+src/mathfn.egg-info/PKG-INFO
+src/mathfn.egg-info/SOURCES.txt
+src/mathfn.egg-info/dependency_links.txt
+src/mathfn.egg-info/top_level.txt
