@@ -1,0 +1,4 @@
+ep-launch==3.5.3
+eplus-rmd==0.2
+ep-transition-tools==2.0.2
+energyplus-pet==0.43
