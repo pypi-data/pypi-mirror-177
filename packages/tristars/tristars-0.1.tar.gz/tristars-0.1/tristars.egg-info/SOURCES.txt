@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+tristars/__init__.py
+tristars/match.py
+tristars/test.py
+tristars/version.py
+tristars.egg-info/PKG-INFO
+tristars.egg-info/SOURCES.txt
+tristars.egg-info/dependency_links.txt
+tristars.egg-info/requires.txt
+tristars.egg-info/top_level.txt

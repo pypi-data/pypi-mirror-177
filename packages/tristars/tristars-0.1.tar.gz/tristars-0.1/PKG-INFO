@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tristars
+Version: 0.1
+Summary: Match coordinate lists with similar triangles
+Home-page: https://github.com/gbrammer/tristars
+Author: Gabriel Brammer
+Author-email: gbrammer@gmail.com
+License-File: LICENSE
