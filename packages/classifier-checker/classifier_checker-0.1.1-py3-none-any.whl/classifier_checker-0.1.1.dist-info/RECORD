@@ -1,0 +1,14 @@
+classifier_checker/__init__.py,sha256=NylUxyB4GwHx8LfHnPCyrBIBrsEjznXvfhFE7sOI9p8,2455
+classifier_checker/__main__.py,sha256=W51uVqIiUaXF51sFs9DG1yzgEi_1BcEUi99DGgfZ8Y4,102
+classifier_checker/argparser.py,sha256=iKACh3PuKcIOWDxss3DcqEbg5zdHTocx6s-G_br6oi4,1772
+classifier_checker/classifier_checks.py,sha256=-3W4dbczdOO67lif96rDzzGuX7nzj2qOSRcUgWry4Ys,4867
+classifier_checker/logger.py,sha256=-2I2YX2-4BE62-UFFRcCOJeHQFA_Zz7KMSooPXlj4YI,2066
+classifier_checker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+classifier_checker/utils.py,sha256=sJ__5NsDq8NJMZdltAt_lKcW70O1g6LvHVLqYEskXv8,1591
+classifier_checker/version.py,sha256=4MXJq_qmcyAh0VnU1kx24mCK6BZu94BHgCPUJbXBLi0,60
+classifier_checker-0.1.1.dist-info/LICENSE,sha256=eGU0SfhPDRXpkV_djZIgj-W8W_J7xovIjP0xj42wAFs,1074
+classifier_checker-0.1.1.dist-info/METADATA,sha256=Yx6R0i8Mpa5V3nIuXAPRCOC_uReTRz105ojt_wvl_w0,2344
+classifier_checker-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+classifier_checker-0.1.1.dist-info/entry_points.txt,sha256=L420RQS5U_zE_I0wEJ_0GFc4KjjMVUgdqVTqIV0jjI4,63
+classifier_checker-0.1.1.dist-info/top_level.txt,sha256=aZtf0FwV9PmQ2qO345A_bYJiNwyXcANvrLvZmOCYNbA,19
+classifier_checker-0.1.1.dist-info/RECORD,,
