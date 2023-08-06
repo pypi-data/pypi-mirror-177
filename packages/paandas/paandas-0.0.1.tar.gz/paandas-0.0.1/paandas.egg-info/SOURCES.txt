@@ -1,0 +1,7 @@
+setup.py
+paandas/__init__.py
+paandas/hello.py
+paandas.egg-info/PKG-INFO
+paandas.egg-info/SOURCES.txt
+paandas.egg-info/dependency_links.txt
+paandas.egg-info/top_level.txt
