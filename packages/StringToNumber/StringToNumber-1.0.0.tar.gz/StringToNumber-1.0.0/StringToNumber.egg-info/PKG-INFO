@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: StringToNumber
+Version: 1.0.0
+Summary: easy math library
+Author: Luka
+Author-email: app6onpython@gmail.com
+License: MIT
+Keywords: string,math,String,Math,number,Number,to,To,StringToNumber,stringToNumber,string to number,String To Number,string to number,String to number
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

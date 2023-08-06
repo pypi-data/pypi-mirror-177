@@ -1,0 +1,7 @@
+setup.py
+StringToNumber/StringToNumber.py
+StringToNumber/__init__.py
+StringToNumber.egg-info/PKG-INFO
+StringToNumber.egg-info/SOURCES.txt
+StringToNumber.egg-info/dependency_links.txt
+StringToNumber.egg-info/top_level.txt
