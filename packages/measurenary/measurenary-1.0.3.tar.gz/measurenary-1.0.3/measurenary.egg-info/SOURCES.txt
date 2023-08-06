@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+measurenary/__init__.py
+measurenary/agglomerative_best.py
+measurenary/distance.py
+measurenary/pair_best.py
+measurenary/similarity.py
+measurenary/utility.py
+measurenary.egg-info/PKG-INFO
+measurenary.egg-info/SOURCES.txt
+measurenary.egg-info/dependency_links.txt
+measurenary.egg-info/requires.txt
+measurenary.egg-info/top_level.txt
