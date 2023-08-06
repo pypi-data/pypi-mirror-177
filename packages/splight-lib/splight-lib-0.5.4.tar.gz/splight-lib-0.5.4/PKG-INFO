@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: splight-lib
+Version: 0.5.4
+Summary: Library for public use. Splight
+Home-page: UNKNOWN
+Author: Splight
+Author-email: factory@splight-ae.com
+License: LICENSE.txt
+Description: [![Lib upload](https://github.com/splightplatform/splight-lib/actions/workflows/libupload.yml/badge.svg)](https://github.com/splightplatform/splight-lib/actions/workflows/libupload.yml)
+        
+        ## How to install
+        
+        For development
+        
+        - `python setup.py develop`
+        
+        For productive envs.
+        
+        - `python setup.py install`
+        
+        ## Tests
+        
+        ```
+        pytest splight_lib/tests
+        ```
+        
+Platform: UNKNOWN
