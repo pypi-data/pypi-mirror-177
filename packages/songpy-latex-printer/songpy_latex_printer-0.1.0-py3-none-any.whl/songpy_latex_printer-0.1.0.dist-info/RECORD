@@ -1,0 +1,11 @@
+latexprinter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latexprinter/songbook.py,sha256=5pfMVtp-cw03D1hGUpu4N5RCQHIK1ABAKclThGg0hq0,3604
+latexprinter/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latexprinter/resources/postamble.txt,sha256=_vGcqHhdzLKsgZaqBjUkUxBPWQ2RyMtZqjeDkbAj8JM,16
+latexprinter/resources/preamble.txt,sha256=0a8K8Jm8VVAbKA2Z7PEoQS3l3C7_s_HAzn99s02fhWE,497
+latexprinter/utils/__init__.py,sha256=NMeiQXYlSocCVBMFPRGdwSjC4I4JzacxZt5ZUyuopCw,39
+latexprinter/utils/utils.py,sha256=Yk2zZvhZQujFJddguV89GFDVfm0Alx22pP_JL5KUqaE,283
+songpy_latex_printer-0.1.0.dist-info/METADATA,sha256=RaoeP7W5U7da-hllkLdyaEps1REqxJXTEAAajUxYy08,237
+songpy_latex_printer-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+songpy_latex_printer-0.1.0.dist-info/top_level.txt,sha256=MDM4fccJPu1lKheytW56HSmWTkSJKHz0EdrI_CsJ-Rw,13
+songpy_latex_printer-0.1.0.dist-info/RECORD,,
