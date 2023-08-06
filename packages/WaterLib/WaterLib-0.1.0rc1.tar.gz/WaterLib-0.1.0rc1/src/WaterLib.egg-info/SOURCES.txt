@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/WaterAPI/__init__.py
+src/WaterAPI/main.py
+src/WaterLib.egg-info/PKG-INFO
+src/WaterLib.egg-info/SOURCES.txt
+src/WaterLib.egg-info/dependency_links.txt
+src/WaterLib.egg-info/top_level.txt

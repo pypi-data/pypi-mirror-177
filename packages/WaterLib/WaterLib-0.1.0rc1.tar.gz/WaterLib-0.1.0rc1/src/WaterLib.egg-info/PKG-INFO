@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: WaterLib
+Version: 0.1.0rc1
+Summary: WaterLib is a Libary built for new and old developers
+Author-email: KnowingXR <knowing@mailfence.com>
+Project-URL: Homepage, https://github.com/Boxei/Water
+Project-URL: Bug Tracker, https://github.com/Boxei/Water/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Water
+A python package

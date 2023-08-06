@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WaterLib"
+version = "0.1.0-rc1"
+authors = [
+  { name="KnowingXR", email="knowing@mailfence.com" },
+]
+description = "WaterLib is a Libary built for new and old developers" 
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Boxei/Water"
+"Bug Tracker" = "https://github.com/Boxei/Water/issues"
