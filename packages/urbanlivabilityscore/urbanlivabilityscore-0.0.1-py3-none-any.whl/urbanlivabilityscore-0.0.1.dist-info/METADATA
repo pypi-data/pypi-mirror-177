@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: urbanlivabilityscore
+Version: 0.0.1
+Summary: This package provides functions to calculate various livability scores
+Home-page: https://github.com/BharatSingh314/UrbanLivabilityScore.git
+Author: Bharat Singh and Vaidehi Raipat
+Author-email: bharat.singh.1908@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UrbanLivabilityScore
+
+## Installing the package:
+
+```python
+pip install urbanlivabilityscore
+```
+
+## Syntax
+
+```python
+street_lighting_score(road_width, number_of_poles)
+# road_width and number_of_poles are expected to be arrays
+```
+
+## Few ways of using the package
+
+```python
+from urbanlivabilityscore import street_lighting_score
+street_lighting_score(road_width, number_of_poles)
+```
+
+```python
+from urbanlivabilityscore import street_lighting_score as sls
+sls(road_width, number_of_poles)
+```
+
+```python
+import urbanlivabilityscore
+urbanlivabilityscore.street_lighting_score(road_width, number_of_poles)
+```
+
+```python
+import urbanlivabilityscore as uls
+uls.street_lighting_score(road_width, number_of_poles)
+```
