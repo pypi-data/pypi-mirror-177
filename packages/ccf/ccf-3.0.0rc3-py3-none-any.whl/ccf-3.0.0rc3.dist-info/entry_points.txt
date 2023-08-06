@@ -1,0 +1,3 @@
+[console_scripts]
+ccf_cose_sign1 = ccf.cose:sign_cli
+
