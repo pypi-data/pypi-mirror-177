@@ -1,0 +1,14 @@
+tensorflow
+pandas
+scikit-learn
+importlib_resources
+gensim
+SimpleITK
+matplotlib
+
+[docs]
+pdoc
+
+[test]
+pytest
+pytest-xdist
