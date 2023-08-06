@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: SnappyKO
+Version: 0.5.6
+Summary: Fast Keplerian orbit computation using Taylor series expansions.
+Home-page: https://github.com/hpparvi/snappyko
+Author: Hannu Parviainen
+Author-email: hpparvi@gmail.com
+License: GPLv3
+Keywords: astronomy astrophysics exoplanets
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: semantic-version
+Requires-Dist: deprecated
+
