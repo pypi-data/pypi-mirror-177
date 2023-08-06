@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  gather_facts: false
+  become: true
+  tasks:
+  - name: Converge
+    ansible.builtin.debug:
+      msg: "Converge"
