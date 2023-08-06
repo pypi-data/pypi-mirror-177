@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SmartDjango
+Version: 3.7.0
+Summary: fast Django app development
+Home-page: https://github.com/Jyonn/SmartDjango
+Author: Jyonn Liu
+Author-email: i@6-79.cn
+License: MIT Licence
+Keywords: django
+Platform: any
+License-File: LICENSE
+
+field validation detector, model advanced search, unified error class
+
