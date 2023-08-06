@@ -1,0 +1,16 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+.github/workflows/python-test-publish.yml
+linien_influxdb/__init__.py
+linien_influxdb/app.py
+linien_influxdb/example_config.ini
+linien_influxdb.egg-info/PKG-INFO
+linien_influxdb.egg-info/SOURCES.txt
+linien_influxdb.egg-info/dependency_links.txt
+linien_influxdb.egg-info/entry_points.txt
+linien_influxdb.egg-info/requires.txt
+linien_influxdb.egg-info/top_level.txt
