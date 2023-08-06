@@ -1,0 +1,3 @@
+[console_scripts]
+dbf-to-yaml=skoufas_dbf_reader.dbf_to_yaml:main
+
