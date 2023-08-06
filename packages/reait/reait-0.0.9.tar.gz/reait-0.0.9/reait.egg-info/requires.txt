@@ -1,0 +1,5 @@
+tqdm
+requests
+rich
+argparse
+tomli
