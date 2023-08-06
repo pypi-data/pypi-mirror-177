@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyuserfox/__init__.py
+pyuserfox/agent.py
+pyuserox.egg-info/PKG-INFO
+pyuserox.egg-info/SOURCES.txt
+pyuserox.egg-info/dependency_links.txt
+pyuserox.egg-info/top_level.txt
