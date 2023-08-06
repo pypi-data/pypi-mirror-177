@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tabtransformertf
+Version: 0.0.8
+Summary: Tab Transformer - TensorFlow
+Author: Antons Ruberts
+Author-email: rubertant@gmail.com
+License: MIT
+Keywords: artificial intelligence,transformers,attention mechanism,tabular data
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
