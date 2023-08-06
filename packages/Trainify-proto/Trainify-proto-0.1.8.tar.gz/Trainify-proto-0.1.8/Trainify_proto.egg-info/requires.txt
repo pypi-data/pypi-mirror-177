@@ -1,0 +1,11 @@
+torch
+numpy
+scipy
+gym
+colorlog
+tensorboardx
+pandas
+rtree
+matplotlib
+lark
+setuptools
