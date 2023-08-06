@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+meta_notebook/__init__.py
+meta_notebook/_modidx.py
+meta_notebook/core.py
+meta_notebook.egg-info/PKG-INFO
+meta_notebook.egg-info/SOURCES.txt
+meta_notebook.egg-info/dependency_links.txt
+meta_notebook.egg-info/entry_points.txt
+meta_notebook.egg-info/not-zip-safe
+meta_notebook.egg-info/requires.txt
+meta_notebook.egg-info/top_level.txt
