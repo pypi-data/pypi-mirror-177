@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+photoprism/Photo.py
+photoprism/Session.py
+photoprism/__init__.py
+photoprism_client.egg-info/PKG-INFO
+photoprism_client.egg-info/SOURCES.txt
+photoprism_client.egg-info/dependency_links.txt
+photoprism_client.egg-info/requires.txt
+photoprism_client.egg-info/top_level.txt
