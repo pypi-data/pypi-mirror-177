@@ -1,0 +1,9 @@
+gymnasium~=0.26
+pybullet
+numpy
+
+[dev]
+pytest
+yapf
+ipdb
+glfw
