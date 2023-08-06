@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SonaDB.egg-info/PKG-INFO
+SonaDB.egg-info/SOURCES.txt
+SonaDB.egg-info/dependency_links.txt
+SonaDB.egg-info/top_level.txt
+sona/__init__.py
+sona/__main__.py
+sona/database.py
