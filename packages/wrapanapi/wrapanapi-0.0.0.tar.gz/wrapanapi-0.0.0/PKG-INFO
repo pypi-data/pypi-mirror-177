@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wrapanapi
+Version: 0.0.0
+Summary: A base system for provider management
+Home-page: UNKNOWN
+Author: Peter Savage
+Author-email: psavage@redhat.com
+License: UNKNOWN
+Keywords: setup,distutils
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Provides-Extra: setup
+License-File: LICENSE
+
+UNKNOWN
+
