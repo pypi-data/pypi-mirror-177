@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: python-icc
+Version: 0.0.9
+Summary: IoT Control Center home automation project packages
+Home-page: https://github.com/patterson-project/icc-models
+Author: Patterson Project
+Author-email: patterson.n.adrian@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+
+
+Home automation data models, packaged to prevent code duplication throughout microservices.
