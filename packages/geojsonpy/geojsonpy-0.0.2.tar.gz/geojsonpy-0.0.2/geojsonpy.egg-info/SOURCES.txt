@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+geojsonpy/__init__.py
+geojsonpy/geojsonpy.py
+geojsonpy.egg-info/PKG-INFO
+geojsonpy.egg-info/SOURCES.txt
+geojsonpy.egg-info/dependency_links.txt
+geojsonpy.egg-info/entry_points.txt
+geojsonpy.egg-info/not-zip-safe
+geojsonpy.egg-info/requires.txt
+geojsonpy.egg-info/top_level.txt
