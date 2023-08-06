@@ -1,0 +1,2 @@
+[console_scripts]
+sketchlib = pp_sketch.__main__:main
