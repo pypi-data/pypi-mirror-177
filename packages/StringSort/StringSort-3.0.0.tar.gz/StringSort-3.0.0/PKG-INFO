@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: StringSort
+Version: 3.0.0
+Summary: string sorting library
+Author: Luka
+Author-email: app6onpython@gmail.com
+License: MIT
+Keywords: sort,string,StringSort,string sort,String Sort,string_sort,String_sort
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

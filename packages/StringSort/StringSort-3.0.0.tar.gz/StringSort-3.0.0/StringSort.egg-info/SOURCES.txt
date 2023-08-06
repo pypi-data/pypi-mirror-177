@@ -1,0 +1,7 @@
+setup.py
+StringSort/StringSort.py
+StringSort/__init__.py
+StringSort.egg-info/PKG-INFO
+StringSort.egg-info/SOURCES.txt
+StringSort.egg-info/dependency_links.txt
+StringSort.egg-info/top_level.txt
