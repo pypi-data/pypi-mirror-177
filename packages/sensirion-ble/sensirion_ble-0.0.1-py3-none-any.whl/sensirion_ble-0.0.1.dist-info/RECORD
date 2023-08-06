@@ -1,0 +1,8 @@
+sensirion_ble/__init__.py,sha256=C7nSffiFoapORCsJ6qzbeMPocv9SZIz7_oEXiyZFhIs,123
+sensirion_ble/const.py,sha256=fCalNsbwl6gP-Ebw5f_dvMEypSugME_r11a35Z7oodg,28
+sensirion_ble/parser.py,sha256=VH4ydDXyTiDHlLBWdjWekWpDqwf9uwBwVkgey-E4AuA,2587
+sensirion_ble/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sensirion_ble-0.0.1.dist-info/METADATA,sha256=AKNo6ovjNN5aSw9C0cidCDAePG8_HJblMrqIGhNMcKM,1293
+sensirion_ble-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+sensirion_ble-0.0.1.dist-info/licenses/LICENSE,sha256=glmrKnQruUqfWQ8AcDoHHvhxukkapYjuuJGWZOsWQuM,1070
+sensirion_ble-0.0.1.dist-info/RECORD,,
