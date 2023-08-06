@@ -1,0 +1,24 @@
+\documentclass[a5paper]{leadsheet}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{leadsheets}
+
+\definesongtitletemplate{kamuzo}{
+{ \noindent \huge \textbf{\songproperty{counter}. \\ \large \songproperty{title}} }
+}
+
+\setleadsheets{
+title-template = kamuzo,
+smash-chords=true,
+align-chords=c
+}
+
+\setchords{
+  minor={lowercase},
+  output-notation=german,
+  input-notation=german
+}
+
+\begin{document}
