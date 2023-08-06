@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: santitools
+Version: 1.0.2
+Summary: Santi's Tools: useful APIs for every Python dev!
+Project-URL: Homepage, https://github.com/santi100a/santitools-python
+Project-URL: Bug Tracker, https://github.com/santi100a/santitools-python/issues
+Author-email: Santiago Rojas <santyrojasprieto9+pypi@gmail.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Santi's Tools
+
+This repo contains a set of Python tools and APIs that I use for personal projects.
+
+These utilities are:
+
+- **Filesystem (```filesystem.py```):** A collection of tools for working with files, synchronously, callback-based or using co-routines.
+- **Colors (```colors.py```):** It provides 3 ways to colorize your text with ANSI escape sequences: using an already-built dictionary, a function or a special colorizer object.
+- **Math (```math.py```):** A set of math functions (for randomness mostly) and highly accurate math constants.
+- **Time (```time.py```):** A time API that's very similar to JavaScript's ```Date``` object.
+- **Screen Clear (```__init__.py```):** A function to easily clear the screen, by using 1 of 2 methods: the ```os``` module's ```system``` function or an ANSI escape sequence.
+- **Bisect (```__init__.py```):** A binary-search algorithm as a function. It's useful for finding a value in a sorted list, with a logarithmic time complexity.
+It so happens I just packaged this project, so now you can install it with the command
+```pip install santitools```. Try it out!
