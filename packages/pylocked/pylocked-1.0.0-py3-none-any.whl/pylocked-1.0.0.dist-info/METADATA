@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: pylocked
+Version: 1.0.0
+Summary: pylocked provides utility classes (and functions) to lock any resource (or function) and thus make them thread and / or concurrency safe.
+Author-email: Eyal Halpern Shalev <eyalsh@gmail.com>
+Project-URL: homepage, https://Eyal-Shalev.github.io/pylocked
+Project-URL: documentation, https://Eyal-Shalev.github.io/pylocked
+Project-URL: repository, https://github.com/Eyal-Shalev/pylocked
+Project-URL: issues, https://github.com/Eyal-Shalev/pylocked/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: build (~=0.9) ; extra == 'build'
+Requires-Dist: semver (~=2.13) ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: pylocked[build,doc,publish,test] ; extra == 'dev'
+Requires-Dist: ipython (~=8.6) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: pdoc (~=12.3) ; extra == 'docs'
+Provides-Extra: publish
+Requires-Dist: twine (~=4.0) ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest (~=7.2) ; extra == 'test'
+Requires-Dist: pytest-asyncio (~=0.20) ; extra == 'test'
+Requires-Dist: black (~=22.10) ; extra == 'test'
+Requires-Dist: mypy (~=0.990) ; extra == 'test'
+Requires-Dist: isort (~=5.10) ; extra == 'test'
+
+pylocked provides utility classes (and functions) to lock any resource (or function) and thus make them thread and / or concurrency safe.
+
+## Install
+
+From pip:
+
+```shell
+pip install pylocked
+```
+
+From repository:
+
+```shell
+pip install git+https://github.com/Eyal-Shalev/pylocked
+```
+
+## Examples
+
+### AsyncIO
+
+#### `pylocked.asyncio.AsyncLocked`
+
+```python
+from pylocked.asyncio import AsyncLocked
+
+locked_arr: Locked[list[int]] = Locked([])
+
+async def double():
+  async with locked_arr as arr:
+    for i in range(len(arr)):
+      arr[i] += arr[i]
+
+async def reset():
+  await locked_arr.replace(list(range(10)))
+
+async def duplicate():
+  await locked_arr.update(lambda arr: arr * 2)
+```
+
+#### `pylocked.asyncio.async_locked()`
+
+```python
+from typing import Optional
+
+from pylocked.asyncio import locked
+
+class LockedSingleton:
+    _instance: Optional[LockedSingleton] = None
+
+    @locked
+    @staticmethod
+    async def get_instance() -> LockedSingleton:
+        if LockedSingleton._instance is None:
+            LockedSingleton._instance = LockedSingleton()
+        return LockedSingleton._instance
+```
+
+### Threading
+
+#### `pylocked.threading.RLocked`
+> You can use `pylocked.threading.Locked` if you want to use `threading.Lock` instead.
+
+```python
+from pylocked.threading import RLocked
+
+locked_arr: RLocked[list[int]] = RLocked([])
+
+def double():
+  with locked_arr as arr:
+    for i in range(len(arr)):
+      arr[i] += arr[i]
+
+def reset():
+  locked_arr.replace(list(range(10)))
+
+def duplicate():
+  locked_arr.update(lambda arr: arr * 2)
+```
+
+#### `pylocked.threading.rlocked()`
+> You can use `pylocked.threading.locked()` if you want to use `threading.Lock` instead.
+
+```python
+from typing import Optional
+
+from pylocked.threading import rlocked
+
+class LockedSingleton:
+    _instance: Optional[LockedSingleton] = None
+
+    @rlocked
+    @staticmethod
+    def get_instance() -> LockedSingleton:
+        if LockedSingleton._instance is None:
+            LockedSingleton._instance = LockedSingleton()
+        return LockedSingleton._instance
+```
