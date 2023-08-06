@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bncutils
+Version: 0.0.4
+Summary: Utils for Bulls and Cows game project
+Project-URL: Homepage, https://github.com/EugeneDlg/bncweb
+Project-URL: Bug Tracker, https://github.com/EugeneDlg/bncweb
+Author-email: eugenedg <orfray@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This is an essensial package for Bulls and Cows game (https://github.com/EugeneDlg/bncweb)
+This package shares functions and configuration for GUI tkinter version and web version of BnC game.
+It includes - bnc_lib.py file which contains some functions which are needeed to function BnC game properly; bnc_config contains a default configuration, normally you should not change it.
+good_phrases file is used only in GUI tkinter version, it's not needed for the web version.
+
+
