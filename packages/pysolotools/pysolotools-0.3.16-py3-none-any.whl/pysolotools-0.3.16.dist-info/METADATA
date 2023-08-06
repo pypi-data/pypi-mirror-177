@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pysolotools
+Version: 0.3.16
+Summary: unity computer vision dataset toolchain
+Home-page: https://https://github.com/Unity-Technologies/pysolotools
+Author: Unity Technologies
+Author-email: computer-vision@unity3d.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: setuptools (>=65.5.1)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: tqdm (>=4.62.3)
+Requires-Dist: responses (>=0.20.0)
+Requires-Dist: ratelimit (~=2.2.1)
+Requires-Dist: pytest (>=6.2.2)
+Requires-Dist: pytest-cov (>=3.0.0)
+Requires-Dist: dataclasses-json (~=0.5.7)
+Requires-Dist: pandas (~=1.4.3)
+Requires-Dist: PyWavelets (>=1.3.0)
+Requires-Dist: numpy (~=1.23.2)
+Requires-Dist: opencv-python (~=4.5.5.64)
+Requires-Dist: pillow (~=9.3.0)
+Requires-Dist: scipy (~=1.9.0)
+Requires-Dist: pycocotools (~=2.0.4)
+Requires-Dist: seaborn (>=0.12.0)
+
+unity computer vision dataset toolchain
