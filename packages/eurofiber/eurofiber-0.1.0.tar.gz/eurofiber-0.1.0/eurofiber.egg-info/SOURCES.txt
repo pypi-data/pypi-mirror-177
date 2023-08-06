@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+eurofiber/__init__.py
+eurofiber/eurofiber_functions.py
+eurofiber.egg-info/PKG-INFO
+eurofiber.egg-info/SOURCES.txt
+eurofiber.egg-info/dependency_links.txt
+eurofiber.egg-info/top_level.txt
