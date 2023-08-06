@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.py
+tena_dgg_bot.egg-info/PKG-INFO
+tena_dgg_bot.egg-info/SOURCES.txt
+tena_dgg_bot.egg-info/dependency_links.txt
+tena_dgg_bot.egg-info/top_level.txt
+tenadggbot/__init__.py
+tenadggbot/bot.py
+tenadggbot/chat.py
+tenadggbot/errors.py
+tenadggbot/event.py
+tenadggbot/message.py
+tenadggbot/user.py
