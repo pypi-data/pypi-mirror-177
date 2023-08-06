@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "nagiosplugin-stubs"
+version = "0.2.0"
+description = "Type stubs for the nagiosplugin package."
+authors = ["Josef Friedrich <josef@friedrich.rocks>"]
+readme = "README.rst"
+repository = "https://github.com/Josef-Friedrich/nagiosplugin-stubs"
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+packages = [
+    {include = "nagiosplugin-stubs"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typing-extensions = "^4.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry>=1.2.0b2"]
+build-backend = "poetry.masonry.api"
