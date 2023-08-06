@@ -1,0 +1,12 @@
+earthpy
+geojson
+geopandas
+jsonschema
+matplotlib
+ndjson
+numpy
+pandas
+python-dotenv
+requests
+shapely
+tqdm
