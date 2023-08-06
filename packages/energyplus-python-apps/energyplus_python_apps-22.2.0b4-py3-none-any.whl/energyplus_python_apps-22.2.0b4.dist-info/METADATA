@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: energyplus-python-apps
+Version: 22.2.0b4
+Summary: Meta-package collecting all official EnergyPlus Python utilities
+Home-page: https://github.com/Myoldmopar/EnergyPlusPythonApps
+Author: Edwin Lee, for NREL, for United States Department of Energy
+Author-email: a@a.a
+License: UnlicensedForNow
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ep-launch (==3.5.3)
+Requires-Dist: eplus-rmd (==0.2)
+Requires-Dist: ep-transition-tools (==2.0.2)
+Requires-Dist: energyplus-pet (==0.43)
+
+# EnergyPlus Python Apps
+
+This is a meta-project which simply depends on all the EnergyPlus "Official" Python utilities.
+This project itself does not create any new utilities, or contain any code.
+This really just pins the dependencies at specific versions and ensures compatability in the installation dependencies.
+
+## Releases
+
+[![PyPIRelease](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/release.yml/badge.svg)](https://github.com/Myoldmopar/EnergyPlusPythonApps/actions/workflows/release.yml)
+
+I think long term, this "project" itself will be tagged with versions in sync with EnergyPlus itself.
+Then to install all EnergyPlus Python utilities, simply execute, for example,  `pip install energyplus_python_apps==22.2.0`.
+
+
