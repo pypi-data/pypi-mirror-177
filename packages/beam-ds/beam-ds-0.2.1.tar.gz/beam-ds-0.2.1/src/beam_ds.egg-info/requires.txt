@@ -1,0 +1,6 @@
+loguru
+torch
+tensorboard
+optuna
+tensorboardX
+ray[tune]
