@@ -1,0 +1,5 @@
+vsui_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsui_client/vsui_client.py,sha256=DiGPqU59cMKQKt3Wnf9wKa4xDemV0PqTinNb5ovsbW8,3047
+vsui_client-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+vsui_client-0.1.3.dist-info/METADATA,sha256=Z4g8ltd59w6Ho9WFNUvLiMBsP_SRoVOd0SOcIhIDXzY,1975
+vsui_client-0.1.3.dist-info/RECORD,,
