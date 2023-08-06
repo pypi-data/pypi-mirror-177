@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lcss
+Version: 0.2.2
+Summary: CSS pre-processor written in Python with limited set of features: nesting, mixins, bundling and nothing more. It's simple and fast.
+License: BSD 2-Clause License
+Author-email: Sergei Minaev <i@zenux.ru>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# lcss
+
