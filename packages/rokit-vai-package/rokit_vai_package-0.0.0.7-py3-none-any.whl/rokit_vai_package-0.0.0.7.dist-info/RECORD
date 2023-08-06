@@ -1,0 +1,11 @@
+rokit_vai_package/__init__.py,sha256=h0jlwkgwDZ6X-YZxxzDeynG2h2SPYcfLE7W-N6L_VwY,213
+rokit_vai_package/global_variable.py,sha256=lay7IilyO9mcmJSKz3AG2twBV51Rl2CUmPPRsEEQdSU,4514
+rokit_vai_package/dataset_mgmt/__init__.py,sha256=e5pqwCHfFhW1hHTReElpx0JWfDOME3Q3UJ3ZIVNJMrE,128
+rokit_vai_package/dataset_mgmt/aws_dataset_mgmt.py,sha256=COaANCmw-cdyqcjtAMQjxiUaov7HpCPeTJl-edly0zo,1875
+rokit_vai_package/dataset_mgmt/dataset_mgmt.py,sha256=GNSSuuSJ7GjzBw0HYJ5Cs56GiAJcX4QP_KZ4bp0PuU0,2809
+rokit_vai_package/dataset_mgmt/gcp_dataset_mgmt.py,sha256=hhGWGhjHoKThkrrH7yQUoiJ2EmBDfPt12OkKSycJQkI,8669
+rokit_vai_package/dataset_mgmt/storage_mgmt.py,sha256=1VsqfhIY8hLFKsg07OiEWBRvp4xU8vODdN4LuGdVlQQ,2422
+rokit_vai_package-0.0.0.7.dist-info/METADATA,sha256=AcIl0FtHY8k4V_Zjx5oa3h5Ax7WOr0ter2_1xjDc4CM,318
+rokit_vai_package-0.0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rokit_vai_package-0.0.0.7.dist-info/top_level.txt,sha256=D518oTV9eRMQn455vw444iucB5gUyj1Hq7h0-mFSIlY,18
+rokit_vai_package-0.0.0.7.dist-info/RECORD,,

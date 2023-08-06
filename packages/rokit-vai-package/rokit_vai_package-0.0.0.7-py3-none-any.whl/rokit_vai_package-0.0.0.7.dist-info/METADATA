@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rokit-vai-package
+Version: 0.0.0.7
+Summary: rokithealthcare vertex ai tutorial pipeline package
+Author-email: SangMin Lee <snack@rokit.co.kr>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: opencv-python
+
