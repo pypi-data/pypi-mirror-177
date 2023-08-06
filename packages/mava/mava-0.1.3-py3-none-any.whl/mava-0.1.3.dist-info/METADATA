@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mava
+Version: 0.1.3
+Summary: A python dataclass library, that can work as an ORM/ODM
+Home-page: https://github.com/warevil/mava
+License: MIT
+Author: warevil
+Author-email: jg@warevil.dev
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argon2-cffi (>=21.3.0,<22.0.0)
+Project-URL: Repository, https://github.com/warevil/mava
+Description-Content-Type: text/markdown
+
+## MAVA
+A simple dataclass like model, that can be adapted for multiple purposes. It can be used pretty easily with any DB and become an ORM/ODM.
+# Local installation
+Run `./install.sh`.
+
+## Notes
+Models cannot have attributes that start with '_' or with a capital letter.
+
+>Note: It's already working, but need some time to add docs.
+
