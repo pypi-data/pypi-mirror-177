@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "n6py"
+version = "0.1.4"
+description = "N6 AI Python Tools"
+authors = ["Sergej Samsonenko <contact@sergej.codes>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/n6ai/n6py"
+repository = "https://github.com/n6ai/n6py"
+documentation = "https://github.com/n6ai/n6py"
+keywords = ["n6py", "ai", "artificial intelligence", "dl", "deep learning", "ml", "machine learning", "jupyter", "notebook"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/n6ai/n6py/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
