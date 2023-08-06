@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ipdon/IPdon.py
+ipdon/__init__.py
+ipdon.egg-info/PKG-INFO
+ipdon.egg-info/SOURCES.txt
+ipdon.egg-info/dependency_links.txt
+ipdon.egg-info/requires.txt
+ipdon.egg-info/top_level.txt
