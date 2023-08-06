@@ -1,0 +1,7 @@
+pyproject.toml
+cookiecutter_aws_extensions/__init__.py
+cookiecutter_aws_extensions/aws.py
+cookiecutter_aws_extensions.egg-info/PKG-INFO
+cookiecutter_aws_extensions.egg-info/SOURCES.txt
+cookiecutter_aws_extensions.egg-info/dependency_links.txt
+cookiecutter_aws_extensions.egg-info/top_level.txt
