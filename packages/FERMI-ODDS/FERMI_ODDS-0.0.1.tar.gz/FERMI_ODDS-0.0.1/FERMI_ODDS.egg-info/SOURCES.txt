@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+FERMI/AdultDataset.py
+FERMI/FERMIBinary.py
+FERMI/__init__.py
+FERMI/test.py
+FERMI_ODDS.egg-info/PKG-INFO
+FERMI_ODDS.egg-info/SOURCES.txt
+FERMI_ODDS.egg-info/dependency_links.txt
+FERMI_ODDS.egg-info/top_level.txt
