@@ -1,0 +1,21 @@
+README.md
+pyproject.toml
+setup.py
+nonebot-plugin-novelai/__init__.py
+nonebot-plugin-novelai/aidraw.py
+nonebot-plugin-novelai/config.py
+nonebot-plugin-novelai/manage.py
+nonebot-plugin-novelai/mode copy.py
+nonebot-plugin-novelai/mode.py
+nonebot-plugin-novelai/version.py
+nonebot-plugin-novelai/novelai/fifo.py
+nonebot-plugin-novelai/novelai/post.py
+nonebot-plugin-novelai/utils/__init__.py
+nonebot-plugin-novelai/utils/data.py
+nonebot-plugin-novelai/utils/prepocess.py
+nonebot-plugin-novelai/utils/save.py
+nonebot_plugin_novelai.egg-info/PKG-INFO
+nonebot_plugin_novelai.egg-info/SOURCES.txt
+nonebot_plugin_novelai.egg-info/dependency_links.txt
+nonebot_plugin_novelai.egg-info/requires.txt
+nonebot_plugin_novelai.egg-info/top_level.txt
