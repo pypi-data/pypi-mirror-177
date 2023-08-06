@@ -1,0 +1,2 @@
+robotpy-wpiutil<2024.0.0,>=2023.0.0b4
+robotpy-wpinet<2024.0.0,>=2023.0.0b3

@@ -1,0 +1,359 @@
+---
+
+extra_includes:
+- pybind11/stl.h
+- networktables/Topic.h
+
+functions:
+  GetDefaultInstance:
+    ignore: true
+  CreateInstance:
+    ignore: true
+  ResetInstance:
+    ignore: true
+  DestroyInstance:
+    ignore: true
+  GetInstanceFromHandle:
+    ignore: true
+  GetEntry:
+    overloads:
+      NT_Inst, std::string_view:
+        ignore: true
+      NT_Topic, NT_Type, std::string_view, std::span<const PubSubOption>:
+        ignore: true
+  GetEntryName:
+    ignore: true
+  GetEntryType:
+    ignore: true
+  GetEntryLastChange:
+    ignore: true
+  GetEntryValue:
+    ignore: true
+  SetDefaultEntryValue:
+    ignore: true
+  SetEntryValue:
+    ignore: true
+  SetEntryFlags:
+    ignore: true
+  GetEntryFlags:
+    ignore: true
+  ReadQueueValue:
+    ignore: true
+  GetTopics:
+    overloads:
+      NT_Inst, std::string_view, unsigned int:
+        ignore: true
+      NT_Inst, std::string_view, std::span<const std::string_view>:
+        ignore: true
+  GetTopicInfo:
+    overloads:
+      NT_Inst, std::string_view, unsigned int:
+        ignore: true
+      NT_Inst, std::string_view, std::span<const std::string_view>:
+        ignore: true
+      NT_Topic:
+        ignore: true
+  GetTopic:
+    ignore: true
+  GetTopicName:
+    ignore: true
+  GetTopicType:
+    ignore: true
+  GetTopicTypeString:
+    ignore: true
+  SetTopicPersistent:
+    ignore: true
+  GetTopicPersistent:
+    ignore: true
+  SetTopicRetained:
+    ignore: true
+  GetTopicRetained:
+    ignore: true
+  GetTopicExists:
+    ignore: true
+  GetTopicProperty:
+    ignore: true
+  SetTopicProperty:
+    ignore: true
+  DeleteTopicProperty:
+    ignore: true
+  GetTopicProperties:
+    ignore: true
+  SetTopicProperties:
+    ignore: true
+  Subscribe:
+    ignore: true
+  Unsubscribe:
+    ignore: true
+  Publish:
+    ignore: true
+  PublishEx:
+    ignore: true
+  Unpublish:
+    ignore: true
+  ReleaseEntry:
+    ignore: true
+  Release:
+    ignore: true
+  GetTopicFromHandle:
+    ignore: true
+  SubscribeMultiple:
+    ignore: true
+  UnsubscribeMultiple:
+    ignore: true
+  CreateListenerPoller:
+    ignore: true
+  DestroyListenerPoller:
+    ignore: true
+  ReadListenerQueue:
+    ignore: true
+  RemoveListener:
+    internal: true
+  WaitForListenerQueue:
+    ignore: true
+  AddListener:
+    overloads:
+      NT_Inst, std::span<const std::string_view>, unsigned int, std::function<void ( const Event & )>:
+        ignore: true
+      NT_Handle, unsigned int, std::function<void ( const Event & )>:
+        ignore: true
+  AddPolledListener:
+    overloads:
+      NT_ListenerPoller, std::span<const std::string_view>, unsigned int:
+        ignore: true
+      NT_ListenerPoller, NT_Handle, unsigned int:
+        ignore: true
+  GetNetworkMode:
+    ignore: true
+  StartLocal:
+    ignore: true
+  StopLocal:
+    ignore: true
+  StartServer:
+    ignore: true
+  StopServer:
+    ignore: true
+  StartClient3:
+    ignore: true
+  StartClient4:
+    ignore: true
+  StopClient:
+    ignore: true
+  SetServer:
+    overloads:
+      NT_Inst, char*, unsigned int: 
+        ignore: true
+      NT_Inst, std::span<const std::pair<std::string_view, unsigned int>>:
+        ignore: true
+  SetServerTeam:
+    ignore: true
+  StartDSClient:
+    ignore: true
+  StopDSClient:
+    ignore: true
+  FlushLocal:
+    ignore: true
+  Flush:
+    ignore: true
+  GetConnections:
+    ignore: true
+  IsConnected:
+    ignore: true
+  Now:
+    internal: true
+  SetNow:
+    internal: true
+  GetTypeFromString:
+    ignore: true
+  GetStringFromType:
+    ignore: true
+  StartEntryDataLog:
+    ignore: true
+  StopEntryDataLog:
+    ignore: true
+  StartConnectionDataLog:
+    ignore: true
+  StopConnectionDataLog:
+    ignore: true
+  AddLogger:
+    ignore: true
+  AddPolledLogger:
+    internal: true
+classes:
+  EventFlags:
+    attributes:
+      kNone:
+      kImmediate:
+      kConnected:
+      kDisconnected:
+      kConnection:
+      kPublish:
+      kUnpublish:
+      kProperties:
+      kTopic:
+      kValueRemote:
+      kValueLocal:
+      kValueAll:
+      kLogMessage:
+  TopicInfo:
+    attributes:
+      name:
+      type_str:
+      properties:
+    methods:
+      GetProperties:
+      swap:
+        ignore: true
+    inline_code: |
+      .def_property_readonly("topic", [](const TopicInfo &self) {
+        return std::make_shared<nt::Topic>(self.topic);
+      })
+      .def("__repr__", [](const TopicInfo &self) -> py::str {
+        return py::str("<TopicInfo name={} type={}>")
+          .format(self.name, self.type_str);
+      })
+  ConnectionInfo:
+    attributes:
+      remote_id:
+      remote_ip:
+    methods:
+      swap:
+        ignore: true
+    inline_code: |
+      .def_readwrite("remote_port", &ConnectionInfo::remote_port)
+      .def_readwrite("last_update", &ConnectionInfo::last_update)
+      .def_readwrite("protocol_version", &ConnectionInfo::protocol_version)
+      .def("__repr__", [](const ConnectionInfo &self) -> py::str {
+        return py::str("<ConnectionInfo id={} addr={}:{} last_update={} protocol={}>")
+          .format(self.remote_id, self.remote_ip, self.remote_port, 
+                  self.last_update, self.protocol_version);
+      })
+  ValueEventData:
+    attributes:
+      value:
+    methods:
+      ValueEventData:
+        overloads:
+          "":
+            ignore: true
+          NT_Topic, NT_Handle, Value:
+            ignore: true
+    inline_code: |
+      .def_property_readonly("topic", [](const ValueEventData &self) {
+        return std::make_shared<nt::Topic>(self.topic);
+      })
+      .def("__repr__", [](const ValueEventData &self) -> py::str {
+        auto topicInfo = nt::GetTopicInfo(self.topic);
+        return py::str("<ValueEventData topic_name=\"{}\" topic_type={} value={}>")
+          .format(topicInfo.name, topicInfo.type_str, self.value);
+      })
+  LogMessage:
+    attributes:
+      filename:
+      message:
+    methods:
+      LogMessage:
+        overloads:
+          "":
+            ignore: true
+          unsigned int, std::string_view, unsigned int, std::string_view:
+            ignore: true
+    inline_code: |
+      .def_readwrite("level", &nt::LogMessage::level)
+      .def_readwrite("line", &nt::LogMessage::line)
+  Event:
+    attributes:
+      data:
+    methods:
+      Event:
+        overloads:
+          "":
+            ignore: true
+          NT_Listener, unsigned int, nt::ConnectionInfo:
+            ignore: true
+          NT_Listener, unsigned int, nt::TopicInfo:
+            ignore: true
+          NT_Listener, unsigned int, nt::ValueEventData:
+            ignore: true
+          NT_Listener, unsigned int, nt::LogMessage:
+            ignore: true
+          NT_Listener, unsigned int, NT_Topic, NT_Handle, Value:
+            ignore: true
+          NT_Listener, unsigned int, unsigned int, std::string_view, unsigned int, std::string_view:
+            ignore: true
+      Is:
+        rename: is_
+      GetConnectionInfo:
+        overloads:
+          '[const]':
+            ignore: true
+          "":
+            ignore: true
+      GetTopicInfo:
+        overloads:
+          '[const]':
+            ignore: true
+          "":
+            ignore: true
+      GetValueEventData:
+        overloads:
+          '[const]':
+            ignore: true
+          "":
+            ignore: true
+      GetLogMessage:
+        overloads:
+          '[const]':
+            ignore: true
+          "":
+            ignore: true
+    inline_code: |
+      .def_readwrite("listener", &nt::Event::listener)
+      .def_readwrite("flags", &nt::Event::flags)
+      .def_readwrite("data", &nt::Event::data)
+      .def("__repr__", [](const nt::Event &self) -> py::str {
+        return py::str("<Event listener={} flags={} data={}>")
+          .format(self.listener, self.flags, self.data);
+      })
+  PubSubOption:
+    attributes:
+      type:
+      value:
+    methods:
+      PubSubOption:
+      Periodic:
+      SendAll:
+      TopicsOnly:
+      KeepDuplicates:
+      PollStorage:
+    inline_code: |
+      .def("__repr__", [](const PubSubOption& self) -> py::str {
+        const char * tname = "kNone";
+        switch (self.type) {
+        case NT_PUBSUB_PERIODIC:
+          tname = "kPeriodic";
+          break;
+        case NT_PUBSUB_SENDALL:
+          tname = "kSendAll";
+          break;
+        case NT_PUBSUB_TOPICSONLY:
+          tname = "kTopicsOnly";
+          break;
+        case NT_PUBSUB_POLLSTORAGE:
+          tname = "kPollStorage";
+          break;
+        case NT_PUBSUB_KEEPDUPLICATES:
+          tname = "kKeepDuplicates";
+          break;
+        }
+        return py::str("PubSubOption(type=PubSubOption.Type.{}, value={})")
+          .format(tname, self.value);
+      });
+
+      py::enum_<NT_PubSubOptionType>(cls_PubSubOption, "Type", py::arithmetic())
+        .value("kNone", (NT_PubSubOptionType)0)
+        .value("kPeriodic", NT_PUBSUB_PERIODIC)
+        .value("kSendAll", NT_PUBSUB_SENDALL)
+        .value("kTopicsOnly", NT_PUBSUB_TOPICSONLY)
+        .value("kPollStorage", NT_PUBSUB_POLLSTORAGE)
+        .value("kKeepDuplicates", NT_PUBSUB_KEEPDUPLICATES)
