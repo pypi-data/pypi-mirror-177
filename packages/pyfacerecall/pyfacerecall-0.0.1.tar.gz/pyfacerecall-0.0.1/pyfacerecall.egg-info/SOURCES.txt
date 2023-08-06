@@ -1,0 +1,14 @@
+README.md
+setup.py
+pyfacerecall/__init__.py
+pyfacerecall/__main__.py
+pyfacerecall/_version.py
+pyfacerecall/dataset_generator.py
+pyfacerecall/face_detection_operation.py
+pyfacerecall/face_recognition.py
+pyfacerecall/model.py
+pyfacerecall.egg-info/PKG-INFO
+pyfacerecall.egg-info/SOURCES.txt
+pyfacerecall.egg-info/dependency_links.txt
+pyfacerecall.egg-info/requires.txt
+pyfacerecall.egg-info/top_level.txt
