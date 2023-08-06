@@ -1,0 +1,3 @@
+[plover.macro]
+find_homophone = split_previous:find_homophone
+space_or_split = split_previous:space_or_split
