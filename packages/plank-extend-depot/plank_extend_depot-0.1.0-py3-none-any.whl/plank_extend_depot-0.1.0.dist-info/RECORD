@@ -1,0 +1,6 @@
+plank/depot/__init__.py,sha256=Y5uEIiVa3LNQkd9zpAD-EwuKJCFFTHpfq0cgi-Sjmjk,1502
+plank/depot/storage/__init__.py,sha256=dB25f6bejln1kI5JGVSZq_ChFWjTsnEAoiID8Ruv_0U,824
+plank/depot/storage/dataframe.py,sha256=XsdQuKoXmM3FNIXkwb-DfqSDFAIE9R1Q-rS1ycTX5zw,4065
+plank_extend_depot-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+plank_extend_depot-0.1.0.dist-info/METADATA,sha256=bj4oaGFmNqq15aW9w4vOf_sHSlN8TivSghax6hGnV1s,713
+plank_extend_depot-0.1.0.dist-info/RECORD,,
