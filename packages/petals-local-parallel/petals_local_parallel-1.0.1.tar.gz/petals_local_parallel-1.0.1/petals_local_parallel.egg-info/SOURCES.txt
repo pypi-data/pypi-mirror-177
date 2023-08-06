@@ -1,0 +1,6 @@
+LICENCE
+setup.py
+petals_local_parallel.egg-info/PKG-INFO
+petals_local_parallel.egg-info/SOURCES.txt
+petals_local_parallel.egg-info/dependency_links.txt
+petals_local_parallel.egg-info/top_level.txt
