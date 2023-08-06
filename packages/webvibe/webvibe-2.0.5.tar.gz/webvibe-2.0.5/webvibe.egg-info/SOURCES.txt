@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+webvibe/__init__.py
+webvibe/webvibe.py
+webvibe.egg-info/PKG-INFO
+webvibe.egg-info/SOURCES.txt
+webvibe.egg-info/dependency_links.txt
+webvibe.egg-info/entry_points.txt
+webvibe.egg-info/requires.txt
+webvibe.egg-info/top_level.txt
