@@ -1,0 +1,2 @@
+class NoElevatorError(IndexError):
+  pass
