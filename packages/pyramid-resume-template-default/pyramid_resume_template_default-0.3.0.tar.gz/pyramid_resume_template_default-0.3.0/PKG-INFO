@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyramid-resume-template-default
+Version: 0.3.0
+Summary: Default template for pyramid_resume
+License: MIT
+Author: Steve Locke
+Author-email: steve@locke.codes
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+
+===============================
+Pyramid Resume Template Default
+===============================
+
+Default template for pyramid_resume
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `opensource/templates/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`opensource/templates/cookiecutter-pypackage`: https://gitlab.com/genomicsengland/opensource/templates/cookiecutter-pypackage
+
