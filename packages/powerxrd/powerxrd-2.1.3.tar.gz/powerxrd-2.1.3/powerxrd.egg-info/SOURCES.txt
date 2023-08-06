@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+powerxrd/__init__.py
+powerxrd/main.py
+powerxrd.egg-info/PKG-INFO
+powerxrd.egg-info/SOURCES.txt
+powerxrd.egg-info/dependency_links.txt
+powerxrd.egg-info/requires.txt
+powerxrd.egg-info/top_level.txt
