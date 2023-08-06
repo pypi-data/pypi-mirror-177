@@ -1,0 +1,4 @@
+click
+more_itertools
+requests
+rich
