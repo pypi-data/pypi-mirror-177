@@ -1,0 +1,13 @@
+airflow/providers/dingding/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/dingding/get_provider_info.py,sha256=A5qu97tnIllpvwajtfdzsw1xxTZsbhPS0FLwI-cWa3k,2522
+airflow/providers/dingding/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/dingding/hooks/dingding.py,sha256=TO_96SVDjZQiWJr6uFV2e8rZpP4IThgGbHvQCp1nzDM,4985
+airflow/providers/dingding/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/dingding/operators/dingding.py,sha256=8lVkGLOjZysBvfAZKaXgJJVeY0VCsSrQzNpeJWikjq0,2739
+apache_airflow_providers_dingding-3.1.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_dingding-3.1.0.dist-info/METADATA,sha256=CerlAi-GcwKLCscZOxSClqA39md1bp_Oi4yr4ZaKvGU,10713
+apache_airflow_providers_dingding-3.1.0.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_dingding-3.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_dingding-3.1.0.dist-info/entry_points.txt,sha256=Wq3tO43IP2pclPSpUGkRfhigt94jZ3C-ouu--TmllRI,106
+apache_airflow_providers_dingding-3.1.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_dingding-3.1.0.dist-info/RECORD,,
