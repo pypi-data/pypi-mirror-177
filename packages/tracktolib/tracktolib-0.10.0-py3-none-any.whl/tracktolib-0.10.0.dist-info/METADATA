@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: tracktolib
+Version: 0.10.0
+Summary: Utility library for python
+Home-page: https://github.com/tracktor/tracktolib
+License: MIT
+Keywords: utility
+Author: Julien Brayere
+Author-email: julien.brayere@tracktor.fr
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: api
+Provides-Extra: http
+Provides-Extra: logs
+Provides-Extra: pg-sync
+Provides-Extra: s3
+Provides-Extra: s3-minio
+Provides-Extra: tests
+Requires-Dist: aiobotocore (>=2.4.0,<3.0.0); extra == "s3"
+Requires-Dist: deepdiff (>=6.2.1,<7.0.0); extra == "tests"
+Requires-Dist: fastapi (>=0.87.0,<0.88.0); extra == "api"
+Requires-Dist: httpx (>=0.23.0,<0.24.0); extra == "http"
+Requires-Dist: minio (>=7.1.12,<8.0.0); extra == "s3-minio"
+Requires-Dist: psycopg2 (>=2.9.5,<3.0.0); extra == "pg-sync"
+Requires-Dist: python-json-logger (>=2.0.4,<3.0.0); extra == "logs"
+Project-URL: Repository, https://github.com/tracktor/tracktolib
+Description-Content-Type: text/markdown
+
+# Tracktolib
+
+[![Python versions](https://img.shields.io/pypi/pyversions/tracktolib)](https://pypi.python.org/pypi/tracktolib)
+[![Latest PyPI version](https://img.shields.io/pypi/v/tracktolib?logo=pypi)](https://pypi.python.org/pypi/tracktolib)
+[![CircleCI](https://circleci.com/gh/Tracktor/tracktolib/tree/master.svg?style=shield)](https://app.circleci.com/pipelines/github/Tracktor/tracktolib?branch=master)
+
+Utility library for python
+
+# Installation
+
+You can choose to not install all the dependencies by specifying
+the [extra](https://python-poetry.org/docs/cli/#options-4) parameter such as:
+
+```bash
+poetry add tracktolib@latest -E pg-sync -E tests --group dev 
+```
+
+Here we only install the utilities using `psycopg2` (pg-sync) and `deepdiff` (tests) for the dev environment.
+
+# Utilities
+
+- **log**
+
+Utility functions for logging.
+
+- **pg-sync**
+
+Utility functions based on psycopg2 such as `fetch_one`, `insert_many`, `fetch_count` ...
+
+- **tests**
+
+Utility functions for tests such as `get_uuid` (that generates a test uuid based on an integer)
+
+- **s3-minio**
+
+Utility functions for [minio](https://min.io/docs/minio/linux/developers/python/API.html)
+
+- **s3**
+
+Utility functions for [aiobotocore](https://github.com/aio-libs/aiobotocore)
+
+- **logs**
+
+Utility functions to initialize the logging formatting and streams
+
+- **http**
+
+Utility functions using [httpx](https://www.python-httpx.org/)
+
+- **api**
+
+Utility functions using [fastapi](https://fastapi.tiangolo.com/)
+
