@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bfmd
+Version: 0.0.1
+Summary: backbone for mobile device
+Home-page: https://github.com/pminimd/bfmd
+Author: pminimd
+Author-email: pminimd@gmail.com
+License: Apache License 2.0
+Keywords: artificial intelligence,computer vision,Real-Time Neural Networks
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+
