@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-translations-version 4
+Version: 1.0
+Summary: Django model translation for perfectionists with deadlines for version 4.
+Home-page: https://bbmokhtari.github.io/django-translations/
+Author: Youssef Shaker
+Author-email: youssefaymanshaker@outlook.com
+Project-URL: Documentation, https://bbmokhtari.github.io/django-translations/
+Keywords: django model translation internationalization localization
+Classifier: Development Status :: 6 - Mature
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Internationalization
+Requires-Python: >=3.6, <=4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# translations for Django version 4

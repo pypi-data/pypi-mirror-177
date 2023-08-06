@@ -1,0 +1,19 @@
+{
+    "project": {
+        "name": "Django Translations Version 4", 
+        "dist": "django-translations-version 4", 
+        "desc": "Django model translation for perfectionists with deadlines for version 4."
+    }, 
+    "author": {
+        "name": "Youssef Shaker", 
+        "email": "youssefaymanshaker@outlook.com", 
+        "github": "JoeAtEgypt"
+    },  
+    "keywords": ["django", "model", "translation", "internationalization", "localization"], 
+    "release": {
+        "name": "1.0", 
+        "version": "1.0", 
+        "status": null, 
+        "classifier": "6 - Mature"
+    }
+}
