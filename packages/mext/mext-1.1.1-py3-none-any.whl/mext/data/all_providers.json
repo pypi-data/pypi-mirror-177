@@ -1,0 +1,14 @@
+[
+  {
+    "name": "MangaDex",
+    "netloc": "mangadex.org",
+    "file": "p_mangadex_org",
+    "class": "MangadexOrg"
+  },
+  {
+    "name": "AsuraScans",
+    "netloc": "asura.gg",
+    "file": "p_asurascans_com",
+    "class": "AsuraScansCom"
+  }
+]
