@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+sage/graphs/graph_decompositions/tdlib.pyx
+sagemath_tdlib.egg-info/PKG-INFO
+sagemath_tdlib.egg-info/SOURCES.txt
+sagemath_tdlib.egg-info/dependency_links.txt
+sagemath_tdlib.egg-info/requires.txt
+sagemath_tdlib.egg-info/top_level.txt
