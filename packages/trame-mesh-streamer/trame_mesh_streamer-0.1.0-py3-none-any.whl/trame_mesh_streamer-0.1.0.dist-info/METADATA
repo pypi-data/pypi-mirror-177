@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: trame-mesh-streamer
+Version: 0.1.0
+Summary: Client/Server library for progressive delivery of meshes
+Home-page: UNKNOWN
+Author: Kitware Inc.
+License: Apache Software License
+Keywords: Python,Interactive,Web,Application,Framework
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: trame-client
+
+===================
+trame-mesh-streamer
+===================
+
+Client/Server library for progressive delivery of meshes with vtk.js and VTK/ParaView on the server side with trame.
+
+
+Installation
+--------------------
+
+.. code-block:: console
+
+    pip install trame-mesh-streamer
+
+
+Usage
+--------------------
+
+The example provided in this repository provide a good illustration on how that library can be used.
+
+
+License
+--------------------
+
+trame-mesh-streamer is made available under the Apache License, Version 2.0. For more details, see LICENSE
+
+
+Development setup
+--------------------
+
+Build and install the Vue components
+
+.. code-block:: console
+
+    cd vue-components
+    npm i
+    npm run build
+    cd -
+
+Install the application
+
+.. code-block:: console
+
+    pip install -e .
+
+
