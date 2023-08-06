@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proteyn"
+version = "0.0.1"
+authors = [
+  { name="Timon Schneider", email="mail@timonschneider.de" },
+]
+description = "Computational Protein Design Library for Python Developers"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Tdsone/proteyn"
+"Bug Tracker" = "https://github.com/Tdsone/proteyn/issues"
