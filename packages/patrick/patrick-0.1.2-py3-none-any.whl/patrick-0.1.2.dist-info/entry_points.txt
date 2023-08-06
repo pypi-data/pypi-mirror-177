@@ -1,0 +1,4 @@
+[console_scripts]
+cli=patrick.cli:main
+patrick=patrick.cli:main
+
