@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyci-utils
+Version: 0.0.1
+Summary: Python CI Tools to improve the coding experience and the coding quality at a better way.
+Author: Ricardo Leal
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=8.1)
+Requires-Dist: attrs (>=22.1.0)
+Requires-Dist: rich (>=2.6)
+Requires-Dist: pylint (>=2.15)
+
+# PyCI
+Python CI Tools with a personal website. This last part is still in work. Made by Ricardo Leal.
