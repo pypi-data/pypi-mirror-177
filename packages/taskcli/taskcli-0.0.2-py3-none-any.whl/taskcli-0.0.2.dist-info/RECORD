@@ -1,0 +1,9 @@
+taskcli/__init__.py,sha256=3N11D6iCGRpj_QySF-0mzFMuCkVzpZTSZqwYrLL10-0,181
+taskcli/core.py,sha256=TlVkwHVgoHKCnnt9otJo_YSwc65ZNeCUZhFOI0qRIBg,6273
+taskcli/taskcli.py,sha256=bjcOvyW1eN4PmKE9jToewerosida6CkfKMayynrkcJ0,5950
+taskcli/usage.py,sha256=eHVcza_xw9yBLmujZXlpdFKo91dRf8CSfoSQmOtABEI,3154
+taskcli-0.0.2.dist-info/LICENSE,sha256=xpk8lyY4goEQpKZtzeUf_F9KyZrYoeXnlZIlg3L5rN8,1062
+taskcli-0.0.2.dist-info/METADATA,sha256=aAfwBUhwdUoUHUmshXLdbSn64P99afwV98o279kSZPk,220
+taskcli-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+taskcli-0.0.2.dist-info/top_level.txt,sha256=j07xEIcPhQsmQ1Ae_qQHktNvOFSovflFVMIFgcmkQWM,8
+taskcli-0.0.2.dist-info/RECORD,,
