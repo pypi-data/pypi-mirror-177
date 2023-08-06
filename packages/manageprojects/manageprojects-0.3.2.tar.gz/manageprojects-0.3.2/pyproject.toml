@@ -1,0 +1,77 @@
+[project]
+name = "manageprojects"
+version = "0.3.2"
+description = "Manage Python / Django projects"
+readme = "README.md"
+authors = [{name = 'Jens Diemer', email = 'python@jensdiemer.de'}]
+license = {text = "GNU General Public License v3.0"}
+requires-python = ">=3.9,<4.0.0"
+
+[project.urls]
+"Homepage" = "https://github.com/jedie/manageproject"
+"Bug Tracker" = "https://github.com/jedie/manageproject/issues"
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["manageprojects*"]
+namespaces = false
+
+
+[project.scripts]
+manageprojects = "manageprojects.cli:main"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.darker]
+src = ['.']
+revision = "origin/main..."
+line_length = 100
+verbose = true
+skip_string_normalization = true
+diff = false
+check = false
+stdout = false
+isort = true
+lint = [
+    "flake8",
+]
+log_level = "INFO"
+
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/config_files/#pyprojecttoml-preferred-format
+atomic=true
+profile='black'
+skip_glob=['.*', '*/htmlcov/*']
+known_first_party=['manageprojects']
+line_length=100
+lines_after_imports=2
+
+
+[tool.coverage.run]
+branch = true
+source = ['.']
+omit = ['.*', '*/tests/*']
+command_line = "-m unittest"
+
+[tool.coverage.report]
+skip_empty = true
+fail_under = 45
+
+
+[tool.mypy]
+warn_unused_configs = true
+ignore_missing_imports = true
+allow_redefinition = true  # https://github.com/python/mypy/issues/7165
+show_error_codes = true
+plugins = []
+exclude = [
+    '.venv',
+    'tests',
+    'manageprojects/project_templates',
+]
