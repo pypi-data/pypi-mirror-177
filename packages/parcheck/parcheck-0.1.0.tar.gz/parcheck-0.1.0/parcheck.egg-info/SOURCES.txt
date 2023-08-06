@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+parcheck/__init__.py
+parcheck/checker.py
+parcheck/exceptions.py
+parcheck/patterner.py
+parcheck/static.py
+parcheck/tools.py
+parcheck.egg-info/PKG-INFO
+parcheck.egg-info/SOURCES.txt
+parcheck.egg-info/dependency_links.txt
+parcheck.egg-info/top_level.txt
