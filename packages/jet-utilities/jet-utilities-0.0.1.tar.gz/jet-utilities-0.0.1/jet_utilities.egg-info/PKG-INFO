@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: jet-utilities
+Version: 0.0.1
+Summary: Some common utilities for RODEM jet data handling
+Home-page: https://gitlab.cern.ch/geneva-anomalous-jets/jet-utilities
+Author: Matthew Leigh, Knut Zoch, Matthias Schlaffer
+License: MIT
+Project-URL: Bug Tracker, https://gitlab.cern.ch/geneva-anomalous-jets/jet-utilities/issues
+Description-Content-Type: text/markdown
+
+# jet utilities
