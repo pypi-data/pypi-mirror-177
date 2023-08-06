@@ -1,0 +1,2 @@
+[console_scripts]
+encolor = encolor.__main__:main

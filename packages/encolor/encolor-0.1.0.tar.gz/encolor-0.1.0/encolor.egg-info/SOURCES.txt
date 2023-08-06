@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+encolor/__init__.py
+encolor/__main__.py
+encolor/gfx.py
+encolor/sub.py
+encolor/utils.py
+encolor.egg-info/PKG-INFO
+encolor.egg-info/SOURCES.txt
+encolor.egg-info/dependency_links.txt
+encolor.egg-info/entry_points.txt
+encolor.egg-info/top_level.txt
