@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "modelator"
+version = "0.6.6"
+description = "Framework for Model Based Testing"
+authors = [
+  "Andrey Kuprianov <andrey@informal.systems>",
+  "Hernán Vanzetto <hernan@informal.systems>",
+  "Ivan Gavran <ivan@informal.systems>",
+  "Ranadeep Biswas <mail@rnbguy.at>",
+]
+keywords = [
+  "testing",
+  "model based testing",
+  "formal method",
+  "model checker",
+  "tla",
+  "apalache",
+  "tlc",
+]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/informalsystems/atomkraft"
+include = ["LICENSE"]
+classifiers = [
+  "Topic :: Software Development :: Testing",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+deepdiff = "^6.2.1"
+tabulate = "^0.9.0"
+modelator-py = "^0.2.6"
+watchdog = "^2.1.9"
+typing-extensions = "^4.4.0"
+wget = "^3.2"
+appdirs = "^1.4.4"
+toml = "^0.10.2"
+typer = {extras = ["all"], version = "^0.7.0"}
+rich = "^12.6.0"
+pyrsistent = "^0.19.2"
+munch = "^2.5.0"
+semver = "^2.13.0"
+
+[tool.poetry.dev-dependencies]
+fire = "^0.4.0"
+pytest = "^7.1.2"
+syrupy = "^2.3.0"
+prospector = { extras = ["with_mypy", "with_bandit"], version = "^1.7.7" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+modelator = "modelator.cli:app"
+
+[tool.poetry.plugins]
+pytest11 = { pytest-modelator = "modelator.pytest" }
+
+[tool.pytest.ini_options]
+markers = [
+  "network: marks test as running over network (deselect with '-m \"not network\"')",
+]
+
+[tool.semantic_release]
+version_variable = ["modelator/_version.py:__version__"]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+major_on_zero = true
+branch = "dev"
+upload_to_release = true
+upload_to_repository = true
+build_command = "pip install poetry && poetry build"
+
+[tool.isort]
+profile = "black"
