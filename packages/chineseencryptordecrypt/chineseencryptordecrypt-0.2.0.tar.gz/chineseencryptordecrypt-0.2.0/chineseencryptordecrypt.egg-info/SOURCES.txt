@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chineseencryptordecrypt.egg-info/PKG-INFO
+chineseencryptordecrypt.egg-info/SOURCES.txt
+chineseencryptordecrypt.egg-info/dependency_links.txt
+chineseencryptordecrypt.egg-info/top_level.txt
+decrypt/__init__.py
+decrypt/__version__.py
+decrypt/decrypt.py
+encrypt/__init__.py
+encrypt/__version__.py
+encrypt/encrypt.py
