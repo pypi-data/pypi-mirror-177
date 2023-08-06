@@ -1,0 +1,3 @@
+# aici vom scrie toate fisierele care nu sunt python
+include README.md
+include requirements.txt
