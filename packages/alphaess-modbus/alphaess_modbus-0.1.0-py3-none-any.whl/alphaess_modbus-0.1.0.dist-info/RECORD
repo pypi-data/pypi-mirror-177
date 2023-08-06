@@ -1,0 +1,8 @@
+alphaess_modbus/__init__.py,sha256=P4ZUG3Klkmyx1S3RbAxzL8VzWm0P7bQoRJBgbZ3M2eo,26
+alphaess_modbus/formatter.py,sha256=rbBSbJqH9zgYYzJzTQMxmdqTY0hx-j7Ah10bHi3_Xtw,2272
+alphaess_modbus/reader.py,sha256=ynBms5g1522OUeFCnsuoOqceOl31_K3iBh5-OfkOi8g,3782
+alphaess_modbus/registers.json,sha256=Pl-Hz-PIHUYFg5UtW1q9c6Xh1czFjFR5cHcYRE4IhPc,209420
+alphaess_modbus-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+alphaess_modbus-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+alphaess_modbus-0.1.0.dist-info/METADATA,sha256=fvRKY2fzsT2rvgVsbffl_3AOG-SwlzfSNoZ-8uI0fyk,9238
+alphaess_modbus-0.1.0.dist-info/RECORD,,
