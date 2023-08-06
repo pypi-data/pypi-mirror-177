@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pipetex2tex/__init__.py
+pipetex2tex/cli.py
+pipetex2tex/metadata.py
+pipetex2tex/tools.py
+pipetex2tex.egg-info/PKG-INFO
+pipetex2tex.egg-info/SOURCES.txt
+pipetex2tex.egg-info/dependency_links.txt
+pipetex2tex.egg-info/entry_points.txt
+pipetex2tex.egg-info/not-zip-safe
+pipetex2tex.egg-info/top_level.txt

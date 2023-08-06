@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pipetex2tex
+Version: 0.0.0
+Summary: CL tool to convert tex-files that contain \input{|command} with the actual output of these commands.
+Home-page: https://github.com/benmaier/pipetex2tex
+Author: Benjamin F. Maier
+Author-email: contact@benmaier.org
+License: MIT
+Project-URL: Documentation, http://pipetex2tex.benmaier.org
+Project-URL: Contributing Statement, https://github.com/benmaier/pipetex2tex/blob/master/CONTRIBUTING.md
+Project-URL: Bug Reports, https://github.com/benmaier/pipetex2tex/issues
+Project-URL: Source, https://github.com/benmaier/pipetex2tex/
+Project-URL: PyPI, https://pypi.org/project/pipetex2tex/
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+License-File: LICENSE
+
+pipetex2tex
+===========
+
+CLI to convert LaTeX source with piped ``\input{|...}`` commands into
+pure LaTeX.
+
+Install
+-------
+
+.. code::
+
+   pip install pipetex2tex
+
+Usage
+-----
+
+.. code::
+
+   pipetex2tex manuscript.tex > manuscript_with_executed_commands.tex
+   cat manuscript.tex | pipetex2tex > manuscript_cmds.tex
+
+Or in python:
+
+.. code:: python
+
+   import pipetex2tex as p2t
+
+   tex = "There's \inp{|python -c 'print(int(24*60*60*365.25))'} seconds in a year."
+   print("source:", tex)
+   print("out   :", p2t.convert(tex), '\n')
+
+   tex = "There's $\input { | ls -al ~ | wc -l }$ files/directories in your user directory."
+   print("source:", tex)
+   print("out   :", p2t.convert(tex))
+
+Results in
+
+.. code::
+
+   source: There's \inp{|python -c 'print(int(24*60*60*365.25))'} seconds in a year.
+   out   : There's 31557600 seconds in a year.
+
+   source: There's $\input { | ls -al ~ | wc -l }$ files/directories in your user directory.
+   out   : There's $      62$ files/directories in your user directory.
+
+Dependencies
+------------
+
+``pipetex2tex`` only uses the Python standard library.
+
+License
+-------
+
+This project is licensed under the `MIT
+License <https://github.com/benmaier/pipetex2tex/blob/main/LICENSE>`__.

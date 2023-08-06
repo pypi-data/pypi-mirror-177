@@ -1,0 +1,2 @@
+[console_scripts]
+pipetex2tex = pipetex2tex.cli:main
