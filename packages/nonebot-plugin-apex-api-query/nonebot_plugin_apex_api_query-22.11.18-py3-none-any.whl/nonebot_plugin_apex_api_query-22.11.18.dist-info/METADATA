@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-apex-api-query
+Version: 22.11.18
+Summary: 基于 NoneBot2 的 Apex Legends API 查询插件
+Home-page: https://github.com/H-xiaoH/nonebot-plugin-apex-api-query
+License: MIT
+Author: HxiaoH
+Author-email: 412454922@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: nonebot2 (>=2.0.0rc1,<3.0.0)
+Project-URL: Documentation, https://github.com/H-xiaoH/nonebot-plugin-apex-api-query/blob/main/README.md
+Project-URL: Repository, https://github.com/H-xiaoH/nonebot-plugin-apex-api-query
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+[![nonebot](https://v2.nonebot.dev/logo.png)](https://v2.nonebot.dev/)
+
+# nonebot-plugin-apex-api-query
+
+*✨ NoneBot Apex Legends API 查询插件 ✨*
+
+![GitHub](https://img.shields.io/github/license/H-xiaoH/nonebot-plugin-apex-api-query)
+![PyPI](https://img.shields.io/pypi/v/nonebot-plugin-apex-api-query)
+
+</div>
+
+## 使用方法
+在 `__init__.py` 中第 9 行 `api_key = ''` 里填入您的 API 密钥。
+
+您可以点击 [此处](https://portal.apexlegendsapi.com/) 申请 API 密钥。
+
+在与 Bot 私聊 或 已加入的群聊 中发送命令。
+
+### 查询玩家信息
+`/bridge [玩家名称]` 、
+`/玩家 [玩家名称]`、
+`/uid [玩家UID]`、
+`/UID [玩家UID]`
+
+暂不支持除 PC 外的平台查询。
+
+输出示例：
+```text
+玩家信息: 
+名称: HxiaoH 
+UID: 1002727553409 
+平台: PC 
+等级: 220 
+封禁状态: 否 
+剩余秒数: 0 
+最后封禁原因: 竞技逃跑冷却 
+大逃杀段位: 黄金 1 
+大逃杀分数: 7691 
+竞技场段位: 白银 3 
+竞技场分数: 2317 
+大厅状态: 打开 
+在线: 否 
+游戏中: 否 
+可加入: 否 
+群满员: 否 
+已选传奇: 地平线 
+当前状态: 离线 
+```
+
+### 查询大逃杀地图轮换
+`/maprotation` 、 `/地图`
+
+输出示例：
+```text
+大逃杀: 
+当前地图: 破碎月亮 
+下个地图: 奥林匹斯 
+剩余时间: 00:30:20 
+竞技场: 
+当前地图: 栖息地 4 
+下个地图: 再来一次 
+剩余时间: 00:00:20 
+排位赛联盟: 
+当前地图: 破碎月亮 
+下个地图: 奥林匹斯 
+剩余时间: 1513:00:20 
+排位竞技场: 
+当前地图: 栖息地 4 
+下个地图: 再来一次 
+剩余时间: 00:00:20 
+```
+
+### 查询猎杀者信息
+`/predator` 、 `/猎杀`
+
+输出示例：
+```text
+大逃杀: 
+PC 端: 
+猎杀者人数: 750 
+猎杀者分数: 15551 
+大师和猎杀者人数: 1077 
+PS4/5 端: 
+猎杀者人数: -1 
+猎杀者分数: 15000 
+大师和猎杀者人数: 484 
+Xbox 端: 
+猎杀者人数: -1 
+猎杀者分数: 15000 
+大师和猎杀者人数: 232 
+Switch 端: 
+猎杀者人数: -1 
+猎杀者分数: 15000 
+大师和猎杀者人数: 16 
+竞技场: 
+PC 端: 
+猎杀者人数: 750 
+猎杀者分数: 8063 
+大师和猎杀者人数: 971 
+PS4/5 端: 
+猎杀者人数: 742 
+猎杀者分数: 8291 
+大师和猎杀者人数: 1812 
+Xbox 端: 
+猎杀者人数: -1 
+猎杀者分数: 8000 
+大师和猎杀者人数: 648 
+Switch 端: 
+猎杀者人数: -1 
+猎杀者分数: 8000 
+大师和猎杀者人数: 96 
+```
+
+### 查询复制器轮换
+`/crafting` 、 `/制造`
+
+输出示例：
+```text
+每日制造: 
+加长式重型弹匣 等级3 35 点 
+铁砧接收器 等级4 45 点
+每周制造: 
+击倒护盾 等级3 30 点
+移动重生信标 等级2 50 点
+赛季制造: 
+和平捍卫者 等级1 30 点
+喷火轻机枪 等级1 30 点
+```
