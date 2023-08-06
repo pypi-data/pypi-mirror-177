@@ -1,0 +1,13 @@
+cldfzenodo/__init__.py,sha256=mf2Dt1KwBJqxPAsTRv5JdSmSLbWslnUP-uKk7Y0ua38,452
+cldfzenodo/oai.py,sha256=YGRaWZHuxVE-AYcdV1I21TEnyOmYy4FNQ0UWHn-5unQ,1016
+cldfzenodo/record.py,sha256=xh97p6HcZr3DwSgBxnDSNocoMLI1vTRZkCBx7wMgemo,9796
+cldfzenodo/search.py,sha256=uTafoUvT3QzxPDdw0BvVAeOfFCxRiyflB4pJGv4PmAw,1726
+cldfzenodo/util.py,sha256=LB2x4VrKQpqgN4UqMbkGDRhOL8-2hXg_2a0Q8mwu4HQ,851
+cldfzenodo/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cldfzenodo/commands/download.py,sha256=wJpiSWo54WiO7tMVTs56hALxibr5gsOLIho198zPRN0,495
+cldfzenodo-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cldfzenodo-1.0.0.dist-info/METADATA,sha256=jNowbN0Kt1ue0SiPlFXkFtN0tC_ubgxcNbSrNpjTztQ,5364
+cldfzenodo-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+cldfzenodo-1.0.0.dist-info/entry_points.txt,sha256=H9Zb9EnFwHZx9mRwmazP-GFIk1E0mydlvcUqudnOaNs,120
+cldfzenodo-1.0.0.dist-info/top_level.txt,sha256=cZitaA6V2Ks0hCHl9kixgB5nNKEXuerpnD7NXtnYSEI,11
+cldfzenodo-1.0.0.dist-info/RECORD,,
