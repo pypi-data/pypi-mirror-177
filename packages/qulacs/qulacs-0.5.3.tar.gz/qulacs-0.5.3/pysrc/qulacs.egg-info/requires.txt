@@ -1,0 +1,17 @@
+numpy
+scipy
+
+[ci]
+openfermion
+mypy
+pybind11-stubgen
+
+[dev]
+black
+flake8
+openfermion
+mypy
+pybind11-stubgen
+
+[test]
+openfermion
