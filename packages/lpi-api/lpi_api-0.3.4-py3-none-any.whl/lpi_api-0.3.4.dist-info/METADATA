@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lpi-api
+Version: 0.3.4
+Summary: Wrap calls to GLPI REST API.
+Home-page: https://github.com/unistra/python-lpi-api
+Author: François Ménabé
+Author-email: francois.menabe@unistra.fr
+License: GPLv3+
+Keywords: rest,api,glpi
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+
+********
+glpi-api
+********
+
+https://di.pages.unistra.fr/glpi/python-glpi-api/
+
+`Changelog <https://github.com/unistra/python-glpi-api/blob/master/CHANGELOG.rst>`__
+
+
