@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: giphon
+Version: 0.1.2
+Summary: Copy locally a Gitlab group or instance
+Home-page: https://github.com/kabooboo/giphon
+Author: Gabriel Creti
+Author-email: gabrielcreti@gmail.com
+Project-URL: Documentation, https://github.com/kabooboo/giphon
+Project-URL: Bug Reports, https://github.com/kabooboo/giphon/issues
+Project-URL: Source Code, https://github.com/kabooboo/giphon
+Keywords: gitlab,clone,copy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Giphon
+
+Giphon is the contraction of _Gitlab_ and _siphon_. This CLI tools allows users
+to recursively clone all projects in a given Gitlab group or instance.

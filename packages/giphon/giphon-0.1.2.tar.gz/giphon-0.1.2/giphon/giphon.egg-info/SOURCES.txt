@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+giphon/giphon.egg-info/PKG-INFO
+giphon/giphon.egg-info/SOURCES.txt
+giphon/giphon.egg-info/dependency_links.txt
+giphon/giphon.egg-info/entry_points.txt
+giphon/giphon.egg-info/requires.txt
+giphon/giphon.egg-info/top_level.txt
