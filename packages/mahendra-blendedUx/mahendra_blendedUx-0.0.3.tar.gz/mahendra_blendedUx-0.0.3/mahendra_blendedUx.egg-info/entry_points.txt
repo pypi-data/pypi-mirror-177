@@ -1,0 +1,3 @@
+[console_scripts]
+bd = blendedUx.blendedcli.blendedcli:main
+blended = blendedUx.blendedcli.blendedcli:main
