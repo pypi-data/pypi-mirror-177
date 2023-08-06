@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+modeldeploy_proxy_lib/mock.py
+modeldeploy_proxy_lib/utils.py
+modeldeploy_proxy_lib.egg-info/PKG-INFO
+modeldeploy_proxy_lib.egg-info/SOURCES.txt
+modeldeploy_proxy_lib.egg-info/dependency_links.txt
+modeldeploy_proxy_lib.egg-info/not-zip-safe
+modeldeploy_proxy_lib.egg-info/requires.txt
+modeldeploy_proxy_lib.egg-info/top_level.txt
