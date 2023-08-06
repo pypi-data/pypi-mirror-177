@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=7.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bot-ui-kitty"
+description = "A UI kit containing reusable, dynamic, and intuitive views for Discord bots."
+authors = [
+    { name = "Nuztalgia" },
+    { email = "nuztalgia@gmail.com" }
+]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = "==3.10.*"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+keywords = ["bot", "components", "discord", "kitty", "ui", "ui kit", "utilities", "views"]
+dynamic = ["dependencies", "urls", "version"]
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pydocstyle]
+convention = "google"
+add-ignore = ["D100", "D417"]
+match = "uikitty/.*\\.py"
