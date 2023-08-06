@@ -1,0 +1,4 @@
+requests
+datetime
+moviepy>=1.0.3
+python-slugify>=4.0
