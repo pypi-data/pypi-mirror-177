@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hdoc
+Version: 0.1.0
+Summary: 
+License: AGPLv3
+Author: hdoc
+Author-email: pypi@hdoc.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# hdoc
+
+This project holds Python bindings for [hdoc](https://hdoc.io).
+
