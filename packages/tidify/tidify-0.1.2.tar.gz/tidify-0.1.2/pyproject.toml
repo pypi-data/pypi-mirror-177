@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "tidify"
+version = "0.1.2"
+description = "Convert nested objects into tidy data"
+authors = ["Austin Howard <austin@tangibleintelligence.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/tangibleintelligence/tidify"
+repository = "https://github.com/tangibleintelligence/tidify"
+keywords = [
+    "Tidy Data",
+    "Data Analysis"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+jupyterlab = "^3.4.3"
+nb-black = "^1.0.7"
+black = "^22.3.0"
+tabulate = "^0.8.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+known_local_folder=["tidify"]
+profile = "black"
+line_length = 140
+multi_line_output = 3
+
+[tool.black]
+line-length = 140
