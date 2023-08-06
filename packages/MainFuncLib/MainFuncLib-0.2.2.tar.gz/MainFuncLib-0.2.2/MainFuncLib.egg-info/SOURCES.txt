@@ -1,0 +1,9 @@
+README.md
+setup.py
+MainFuncLib/MainFunction.py
+MainFuncLib/__init__.py
+MainFuncLib.egg-info/PKG-INFO
+MainFuncLib.egg-info/SOURCES.txt
+MainFuncLib.egg-info/dependency_links.txt
+MainFuncLib.egg-info/requires.txt
+MainFuncLib.egg-info/top_level.txt
