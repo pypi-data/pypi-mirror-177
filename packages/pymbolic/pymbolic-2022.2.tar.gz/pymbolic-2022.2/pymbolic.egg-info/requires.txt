@@ -1,0 +1,4 @@
+pytools>=2
+
+[test]
+pytest>=2.3
