@@ -1,0 +1,16 @@
+pyrefact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrefact/__main__.py,sha256=6pXwneZ0yZfX8n0APSTul-dL0VZ3Iw1VJ8zh-NykVFM,127
+pyrefact/abstractions.py,sha256=8gUNrn3_ZCgaIlQGlX2aPFNcSYwG-N1GixGSu6B3RDI,23979
+pyrefact/completion.py,sha256=NFx5LEqRuyVxWT_YpCmtLn3L0F5hXhZ_osaP_0rSUw8,2148
+pyrefact/constants.py,sha256=jYhZpsO2M-P06UbWgU4fCK8sDUs90EKXChO3_RPZ-eI,5931
+pyrefact/fixes.py,sha256=L9dZmV-eCxqSNIM6PjnwMW30rFubT7Q-6w1-Aiy2NB0,36673
+pyrefact/main.py,sha256=Yq5_txp0hLBvKDW2k8PSMJpDiz7qkaB8Yawa-ErM4aE,5015
+pyrefact/object_oriented.py,sha256=_Z6bam3_Scq4jnrNrxmY9jeID00fpiRZAkv-SKxaCnA,8033
+pyrefact/parsing.py,sha256=7e3TU3RE3-I4ipx424F4V6kwyKeI3eojI3v6mxXUcjc,19037
+pyrefact/performance.py,sha256=AryoyNc0StpGvmkn1CNR7EWwBSffp_mzqlegfLrg0YA,8110
+pyrefact/processing.py,sha256=q_8Tm0hn7M4hI1WrFR8i9kko3jYSx8ufcGSMf1ELEzQ,4695
+pyrefact-27.dist-info/LICENSE,sha256=VtYxu4K4xe--JOpiccEDatS7M_tOZgTjOIAUUgGrTaM,1069
+pyrefact-27.dist-info/METADATA,sha256=rU7vt3X3XIWuhDDUoY8m-aXaynlebvn0kU82c_E-BFw,2245
+pyrefact-27.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyrefact-27.dist-info/top_level.txt,sha256=TRkGmgGqFRZxwozAFp5w_t_28VB6GLXgUv-_rKuw2YU,9
+pyrefact-27.dist-info/RECORD,,
