@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: sphinx_timeline
+Version: 0.2.0
+Summary: A sphinx extension to create timelines.
+Keywords: sphinx,timeline
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Framework :: Sphinx :: Extension
+Requires-Dist: sphinx
+Requires-Dist: jinja2
+Requires-Dist: pyyaml
+Requires-Dist: backports.zoneinfo;python_version<'3.9'
+Requires-Dist: tzdata
+Requires-Dist: python-dateutil
+Requires-Dist: myst-parser ; extra == "docs"
+Requires-Dist: furo ; extra == "furo"
+Requires-Dist: pydata-sphinx-theme ; extra == "pst"
+Requires-Dist: sphinx-rtd-theme ; extra == "rtd"
+Requires-Dist: pytest ; extra == "testing"
+Requires-Dist: pytest-cov ; extra == "testing"
+Requires-Dist: pytest-regressions ; extra == "testing"
+Requires-Dist: pytest-param-files ; extra == "testing"
+Requires-Dist: sphinx-pytest>=0.0.4 ; extra == "testing"
+Requires-Dist: beautifulsoup4 ; extra == "testing"
+Project-URL: Homepage, https://github.com/chrisjsewell/sphinx-timeline
+Provides-Extra: docs
+Provides-Extra: furo
+Provides-Extra: pst
+Provides-Extra: rtd
+Provides-Extra: testing
+
+# sphinx-timeline
+
+[![PyPI][pypi-badge]][pypi-link]
+
+A [sphinx](https://www.sphinx-doc.org) extension to create timelines.
+
+## Usage
+
+Install `sphinx-timeline` with `pip install sphinx-timeline`,
+then add `sphinx_timeline` to your `conf.py` file's `extensions` variable:
+
+```python
+extensions = ["sphinx_timeline"]
+```
+
+Now add a `timeline` directive to your document:
+
+```restructuredtext
+.. timeline::
+   - start: 1980-02-03
+     name: 1st event
+   - start: 1990-02-03
+     name: 2nd event
+   - start: 2000-02-03
+     name: 3rd event
+   ---
+   **{{dtrange}}**
+
+   *{{e.name}}*
+
+   Description ...
+```
+
+[pypi-badge]: https://img.shields.io/pypi/v/sphinx_timeline.svg
+[pypi-link]: https://pypi.org/project/sphinx_timeline
+
