@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+pymodify/__init__.py
+pymodify/modify.py
+pymodify.egg-info/PKG-INFO
+pymodify.egg-info/SOURCES.txt
+pymodify.egg-info/dependency_links.txt
+pymodify.egg-info/top_level.txt
