@@ -1,0 +1,151 @@
+#!/usr/bin/env python3
+
+"""Move a molecule over the center of a certain number of atoms in a bulk"""
+import argparse
+import numpy as np
+from math import radians
+from pyRDTP.geomio import VaspContcar, CatObj, file_to_mol
+from pyRDTP.molecule import CatalyticSystem, Molecule
+
+PARSER = argparse.ArgumentParser(description="""Read two different files, one
+                                 with the geometry of the bulk and another
+                                 with the geometry of a molecule molecule,
+                                 then put the molecule over the center of the
+                                 atoms with the index given""")
+
+PARSER.add_argument("-o", type=str, default='TRANSFER',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("-rx", type=float, default=None,
+                    help="Apply a rotation to the molecule in the x axis.")
+PARSER.add_argument("-ry", type=float, default=None,
+                    help="Apply a rotation to the molecule in the y axis.")
+PARSER.add_argument("-rz", type=float, default=None,
+                    help="Apply a rotation to the molecule in the z axis.")
+PARSER.add_argument("-shift", type=float, default=None,
+                    help="""If given, move the molecule in the z-axis the given
+                    armstrongs""")
+PARSER.add_argument("-elem", type=str, nargs='+', default=None,
+                    help="Elements of the molecule that will be extracted")
+PARSER.add_argument("-nelem", type=str, nargs='+', default=None,
+                    help="""Elements that not compose the molecule that will
+                    be extracted""")
+PARSER.add_argument("-ran", type=str, nargs='+', default=None,
+                    help="Range of atoms of the molecule")
+PARSER.add_argument("-zs", action='store_true', default=None,
+                    help="""If true atoms of the surface will be ordered
+                    within the z-axis""")
+PARSER.add_argument("-join", action='store_true', default=None,
+                    help="""If true surface and molecules will be joined""")
+PARSER.add_argument("-l", action='store_true', default=False,
+                    help="""Use the lower atom instead of the centroid of the
+                          molecule to move the molecule.""")
+PARSER.add_argument("-ls", action='store_true', default=False,
+                    help="""If true, the lower atom of the transferred molecule
+                         will be integrated with the nearest atom of the surface
+                         """)
+PARSER.add_argument("-name", type=str, default='POSCAR',
+                    help="Name of the new file")
+PARSER.add_argument("-dist", type=float, default=None,
+                    help="Distance between the molecule and the atoms.")
+PARSER.add_argument("-atoms", type=int, nargs='+', default=None,
+                    help="""Move the new molecule over these atoms.""")
+PARSER.add_argument("-c", action='store_true', default=False,
+                    help="Center the molecule over the host")
+PARSER.add_argument("host", type=str,
+                    help="CONTCAR/POSCAR containing the geometry of the bulk.")
+PARSER.add_argument("guest", type=str,
+                    help="CONTCAR/POSCAR containing the geometry of the molecule.")
+
+
+ARGS = PARSER.parse_args()
+
+GUEST = file_to_mol(ARGS.guest, 'contcar', bulk=False)
+HOST = file_to_mol(ARGS.host, 'contcar', bulk=True)
+
+# Get Molecule from GUEST
+
+INDEX_LST = []
+
+if ARGS.ran is not None:
+    for item in ARGS.ran:
+        tmp_split = item.replace('l', '-')
+        tmp_split = tmp_split.split(',')
+        if len(tmp_split) == 1:
+            INDEX_LST.append(int(tmp_split[0]) - 1)
+        else:
+            INDEX_LST += list(range(int(tmp_split[0]) - 1, int(tmp_split[1])))
+
+if ARGS.elem is not None:
+    INDEX_LST += GUEST.atom_element_filter(ARGS.elem, option='index',
+                                          invert=False)
+
+if ARGS.nelem is not None:
+    INDEX_LST += GUEST.atom_element_filter(ARGS.nelem, option='index',
+                                          invert=True)
+
+if all((arg is None for arg in (ARGS.ran,
+                                ARGS.elem,
+                                ARGS.nelem))):
+    INDEX_LST = list(range(0, len(GUEST.atoms)))
+
+# Delete repeated atoms
+INDEX_LST = list(set(INDEX_LST))
+INDEX_LST.sort()
+
+# Create new molecule
+TMP_ATOMS = [GUEST.atoms[atom_index].copy() for atom_index in INDEX_LST]
+MOL_EX = Molecule('dummy')
+MOL_EX.atom_add_list(TMP_ATOMS)
+MOL_EX.cell_p_add(HOST.cell_p.copy())
+MOL_EX.coords_convert_update('direct')
+
+# Create and prepare CatalyticSystem
+CATY = CatalyticSystem(ARGS.name)
+CATY.surface_set(HOST)
+CATY.molecule_add(MOL_EX)
+
+# Perform rotations before.
+if ARGS.rx is not None:
+    MOL_EX.rotate((1, 0, 0), radians(ARGS.rx))
+if ARGS.ry is not None:
+    MOL_EX.rotate((0, 1, 0), radians(ARGS.ry))
+if ARGS.rz is not None:
+    MOL_EX.rotate((0, 0, 1), radians(ARGS.rz))
+
+# Get Centroid
+if ARGS.l:
+    ORIGIN = MOL_EX.atom_obtain_lowest(dimension='z').coords
+else:
+    ORIGIN = 'centroid'
+
+# If atoms, move over the center.
+if ARGS.atoms is not None:
+    ATOMS_MO = HOST[ARGS.atoms]
+    CATY.move_over_multiple_atoms(MOL_EX, ATOMS_MO, ARGS.dist,
+                                  dimension='z', origin=ORIGIN)
+# If center, move over the center.
+if ARGS.c:
+    CATY.move_over_surface_center(MOL_EX, ARGS.dist)
+
+# If shift, aplly it.
+if ARGS.shift is not None:
+    MOL_EX.move_vector([0, 0, ARGS.shift])
+
+# Apply Lower atom correction
+if ARGS.ls:
+    LOWEST_ATOM = MOL_EX.atom_obtain_lowest(dimension='z')
+    HOST_COORDS = HOST.coords_array('cartesian') - LOWEST_ATOM.coords
+    HOST_COORDS = np.linalg.norm(HOST_COORDS, axis=1)
+    MIN_INDEX = np.argmin(HOST_COORDS)
+    HOST.atom_remove(int(MIN_INDEX))
+
+# Print new molecule
+OUTPUT = CatObj()
+OUTPUT.read(CATY)
+if ARGS.zs:
+    OUTPUT.z_sort = True
+if ARGS.join:
+    OUTPUT.mol_join = True
+UNIV = OUTPUT.universal_convert()
+CONT = VaspContcar(UNIV)
+CONT.file_write(ARGS.o)

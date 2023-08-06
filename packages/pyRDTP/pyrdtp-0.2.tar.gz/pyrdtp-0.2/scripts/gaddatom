@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+
+"""Add an atom of the specified element over a surface."""
+import argparse
+from pyRDTP import geomio
+from pyRDTP import molecule
+
+PARSER = argparse.ArgumentParser(description="""Read two different files, one
+                                 with the geometry of the bulk and another
+                                 with the geometry of a molecule molecule,
+                                 then put the molecule over the center of the
+                                 atoms with the index given""")
+
+PARSER.add_argument("-o", type=str, default='POSCAR',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("bulk", type=str,
+                    help="CONTCAR/POSCAR containing the geometry of the bulk.")
+PARSER.add_argument("element", type=str,
+                    help="Element of the atom that will be adde to the bulk.")
+PARSER.add_argument("distance", type=float,
+                    help="Distance between the element and the surface.")
+PARSER.add_argument("atoms", type=int, nargs='+',
+                    help="""Atoms indexes (IN THE BULK) from which the
+                         center will be computed.""")
+
+ARGS = PARSER.parse_args()
+
+CATY = molecule.CatalyticSystem('MyCat')
+BULK = geomio.file_to_mol(ARGS.bulk, 'contcar', bulk=True)
+ATOM = molecule.Atom(ARGS.element, coords=[0.5]*3)
+MOL = molecule.Molecule('MyMol')
+
+MOL.atom_add(ATOM)
+
+ATOMS = tuple([BULK.atoms[int(index) - 1] for index in ARGS.atoms])
+
+CATY.surface_set(BULK)
+CATY.molecule_add(MOL)
+
+CATY.move_over_multiple_atoms(MOL, ATOMS, ARGS.distance,
+                              dimension='z', origin='centroid')
+
+geomio.mol_to_file(CATY, ARGS.o, 'contcar')

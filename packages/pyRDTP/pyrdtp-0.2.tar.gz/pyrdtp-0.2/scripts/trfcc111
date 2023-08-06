@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+import argparse
+import sys
+sys.path.append("/home/spgarcia/Workshop/Software")
+import pyRDTP
+from pyRDTP.operations import identify
+
+CORR_DICT = {'Ru': {'C': 2.0896296874, 'Br': 2.6406844410, 'H': 1.8502843652},
+             'Co': {'C': 1.9332935924, 'Br': 2.5774244804, 'H': 1.8954120743},
+             'Cu': {'C': 2.0109530692, 'Br': 2.5555498852, 'H': 1.7064979055},
+             'Ir': {'C': 2.0484047008, 'Br': 2.6479020125, 'H': 1.7961171984},
+             'Ni': {'C': 1.9154156899, 'Br': 2.4374429221, 'H': 1.6836195253},
+             'Pd': {'C': 2.0544738942, 'Br': 2.6041611155, 'H': 1.7669616290},
+             'Pt': {'C': 2.0350235759, 'Br': 2.6081679622, 'H': 1.8162353625},
+             'Rh': {'C': 2.0527819684, 'Br': 2.6131047212, 'H': 1.8067875283},
+             'Ag': {'C': 2.1452271928, 'Br': 2.9173474712, 'H': 1.8807446664},
+             'Fe': {'C': 2.0497284432, 'Br': 2.6254093867, 'H': 1.9212763206}}
+             
+
+parser = argparse.ArgumentParser(
+        description='''Read two CONTCAT/POSCAR files containing an FCC or HCP
+                    structures. Then transfer the molecules from one structure
+                    to the another''',
+        epilog="""Transfer done!""")
+
+parser.add_argument('base_loc', type=str,
+                    help='''Location of the POSCAR/CONTCAR file containing the
+                    slab with the molecule that will be transfer.''')
+
+parser.add_argument('base_lay',
+                    help='''Number of layers down the molecule in the base
+                    structure.''')
+
+parser.add_argument('surf_loc', type=str,
+                    help='''Location of the file containing the slab to which
+                    the molecule will be transfer.''')
+
+parser.add_argument('surf_lay',
+                    help='''Number of layers down the molecule in the surface
+                    structure.''')
+
+parser.add_argument('--th', type=float, default=3.,
+                    help='''Angstroms to consider a bond''')
+
+parser.add_argument('--o', type=str, default='CONTCAR.OUT',
+                    help='''Location of the output file''')
+
+parser.add_argument('--rz', type=float, default=0,
+                    help='''Rotate the molecule in the z axis after the
+                    transfer. Value in radians.''')
+
+parser.add_argument('--ro', type=str, default='CONTCAR.OUTROT',
+                    help='''Location of the output file''')
+
+parser.add_argument('--inter', action='store_true',
+                    help='''HCP and FCC holes will be treated as the same''')
+
+parser.add_argument('--uel', action='store_true', default=False,
+                    help='''base_lay and surf_lay will use the elements of the
+                    bulk to split it from the molecule instead the number of
+                    layers''')
+
+parser.add_argument('--ori', action='store_true', default=False,
+                    help='''Move the molecule over the same position 
+                    layers''')
+
+parser.add_argument('--opt', action='store_true', default=False,
+                    help='''Find the optimum rotation using the second lowest
+                    atom.''')
+
+parser.add_argument('--corr', action='store_true', default=False,
+                    help='''Use a correction.''')
+
+
+args = parser.parse_args()
+
+
+MOL_1 = pyRDTP.vaspio.read_from_file_vasp(args.base_loc, definition='bulk')
+if args.uel:
+    try:
+        ELEM_NUM = int(args.uel)
+        ATOM_DICT = MOL_1.elem_inf(opt='disordered')
+        args.base_lay = [key for key in sorted(ATOM_DICT, key=ATOM_DICT.get,
+                                               reverse=True)[:ELEM_NUM]]
+    except ValueError:
+        pass
+    Bulking = MOL_1.split_by_element(args.base_lay)
+    BASE_LAY = Bulking.surface.layer_detect_smart(threshold=0.05)
+else:
+    MOL_1.layer_detect_smart(threshold=0.04)
+    Bulking = MOL_1.split_by_layer(args.base_lay)
+    BASE_LAY = args.base_lay
+Bulking.surface.connectivity_search_voronoi()
+
+MOL_2 = pyRDTP.vaspio.read_from_file_vasp(args.surf_loc, definition='bulk')
+if args.uel:
+    try:
+        ELEM_NUM = int(args.uel)
+        ATOM_DICT = MOL_2.elem_inf(opt='disordered')
+        args.surf_lay = [key for key in sorted(ATOM_DICT, key=ATOM_DICT.get,
+                                               reverse=True)[:ELEM_NUM]]
+    except ValueError:
+        pass
+    Bulking2 = MOL_2.split_by_element(args.surf_lay)
+    SURF_LAY = Bulking2.surface.layer_detect_smart(threshold=0.05)
+else:
+    MOL_2.layer_detect_smart(threshold=0.04)
+    Bulking2 = MOL_2.split_by_layer(args.surf_lay)
+    SURF_LAY = args.surf_lay
+Bulking2.surface.connectivity_search_voronoi()
+
+means3 = identify.ident_hcp_111(Bulking.surface, (BASE_LAY - 1), all_fcc=args.inter)
+bridge2 = identify.ident_bridges_2d(Bulking.surface, (BASE_LAY - 1))
+top2 = identify.atoms_positions(Bulking.surface, (BASE_LAY - 1))
+
+means3_2 = identify.ident_hcp_111(Bulking2.surface, (SURF_LAY - 1), all_fcc=args.inter)
+bridge2_2 = identify.ident_bridges_2d(Bulking2.surface, (SURF_LAY - 1))
+top2_2 = identify.atoms_positions(Bulking2.surface, (SURF_LAY - 1))
+
+positions = means3 + bridge2 + top2
+positions2 = means3_2 + bridge2_2 + top2_2
+connected_pairs = identify.lower_atom_positions(Bulking, positions, 2)
+
+identify.transfer(Bulking2, Bulking.molecules[0], connected_pairs, positions2, opt_rot=args.opt, use_ori=args.ori)
+if args.corr:
+    ELEM_1 = [key for key in sorted(MOL_1.elem_inf(opt='disordered'), key=MOL_1.elem_inf(opt='disordered').get,
+                                    reverse=True)[:1]][0]
+
+    ELEM_2 = [key for key in sorted(MOL_2.elem_inf(opt='disordered'), key=MOL_2.elem_inf(opt='disordered').get,
+                                    reverse=True)[:1]][0]
+
+    print(ELEM_1, ELEM_2)
+
+    LOW_ELEM = connected_pairs[0][0].element
+    Z_CORRECTION = CORR_DICT[ELEM_2][LOW_ELEM] - CORR_DICT[ELEM_1][LOW_ELEM]
+    Bulking2.molecules[0].move_vector((0., 0., Z_CORRECTION), 'cartesian')
+
+pyRDTP.vaspio.print_vasp(Bulking2, args.o)
+lowest_atom = Bulking2.molecules[-1].atom_obtain_lowest()
+if args.rz:
+    Bulking2.molecules[-1].rotate((0, 0, 1), args.rz, origin=lowest_atom.coords)
+    pyRDTP.vaspio.print_vasp(Bulking2, args.ro)
+

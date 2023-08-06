@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyRDTP"
+version = "0.2"
+authors = [
+  { name="Sergio Pablo García Carrillo", email="sp.garcia@utoronto.ca" },
+]
+maintainers = [{name="Santiago Morandi", email="smorandi@iciq.es"}, 
+               {name="Oliver Loveday", email="oloveday@iciq.es" }]
+description = "Manipulate chemical geometries for heterogeneous catalysis"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["heterogeneous catalysis", "computational chemistry", "VASP"]
+dependencies = ["shapely >= 1.4.8",
+        "numpy >= 1.23.3",
+        "scipy >= 1.9.3",
+        "networkx >= 2.8.4",
+        "matplotlib >= 3.5.3",
+        "py3Dmol >= 1.8.1"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/iciq-tcc/nlopez-group/pyrdtp"
+
+
+

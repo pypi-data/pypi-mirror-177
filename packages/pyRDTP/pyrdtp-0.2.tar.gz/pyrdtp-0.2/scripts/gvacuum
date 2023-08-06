@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Add vacuum to a certain vasp geometry file"""
+import argparse
+from pyRDTP import geomio
+
+PARSER = argparse.ArgumentParser(description="Add vacuum to a vasp geometry.")
+
+PARSER.add_argument("-i", type=str, default='POSCAR',
+                    help="Location of the infile with the coordinates.")
+PARSER.add_argument("-o", type=str, default='POSCAR',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("-a", type=str, default='z',
+                    help="Axis in which the vacuum will be added.")
+PARSER.add_argument("distance", type=float, default=12.0,
+                    help="Distance of the vacuum, in arngstroms.")
+
+ARGS = PARSER.parse_args()
+
+BULK = geomio.file_to_mol(ARGS.i, 'contcar', bulk=True)
+BULK.vacuum_add(ARGS.distance, ARGS.a)
+geomio.mol_to_file(BULK, ARGS.o, 'contcar')

@@ -1,0 +1,39 @@
+{
+	"surface": {
+		"name": "graph",
+		"layer": 2,
+		"bond_thresh": 1.5,
+		"pbt": true
+	},
+	"molecules": [
+		{
+			"name": "OH",
+			"quantity": 33,
+			"form": "Top",
+			"distance": 1.51,
+			"pvector": [ 0.0, 0.1 ],
+			"priority": 0,
+			"inverse": {
+				"distance": 1.47,
+				"chance": 0.30
+			}
+		},
+		{
+			"name": "O",
+			"quantity": 2,
+			"form": "Bridge",
+			"distance": 1.27,
+			"pvector": [ 0.0 ],
+			"priority": 0
+		},
+		{
+			"name": "COOH",
+			"quantity": 9,
+			"form": "Top",
+			"distance": 1.63,
+			"pvector": [ 0.0, 0.0 ],
+			"priority": 1
+		}
+	],
+	"seed": 51
+}

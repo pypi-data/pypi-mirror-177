@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+
+"""Reorder the atoms of two different systems using a RMS algorithm."""
+import argparse
+from shutil import copy
+from os import mkdir
+from pyRDTP import geomio
+from pyRDTP.operations.comparisons import obtain_pairs
+
+PARSER = argparse.ArgumentParser(description='Reorder the given molecule.')
+PARSER.add_argument("first", type=str,
+                    help="""Location of the POSCAR file containing the first
+                    structure""")
+PARSER.add_argument("second", type=str,
+                    help="""Location of the POSCAR file containing the second
+                    structure""")
+PARSER.add_argument("-bak", action='store_true', default=False,
+                    help="""Create a BACKUP copy of the files before reorder them.""")
+PARSER.add_argument("-o", type=str, default='POSCAR_NEW',
+                    help="Location of the output with the new coordinates.")
+
+ARGS = PARSER.parse_args()
+
+FIRST = geomio.file_to_mol(ARGS.first, 'contcar')
+SECOND = geomio.file_to_mol(ARGS.second, 'contcar')
+
+PAIRS = obtain_pairs(FIRST, SECOND, pbc=True, min_path=True)
+
+FIRST.atoms = PAIRS[:, 0]
+SECOND.atoms = PAIRS[:, 1]
+
+if ARGS.bak:
+    NEW_FOLD = "./OLD_COORDS/"
+    mkdir(NEW_FOLD)
+    copy(ARGS.first, NEW_FOLD + ARGS.first)
+    copy(ARGS.second, NEW_FOLD + ARGS.first)
+
+geomio.mol_to_file(FIRST, ARGS.first, 'contcar')
+geomio.mol_to_file(SECOND, ARGS.second, 'contcar')

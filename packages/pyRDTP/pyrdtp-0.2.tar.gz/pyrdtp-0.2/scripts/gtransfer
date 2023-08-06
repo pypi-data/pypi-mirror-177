@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+"""Copy atoms from one structure to another structure. Note that the atoms
+will not be moved during the transfer."""
+import argparse
+from pyRDTP import vaspio
+
+PARSER = argparse.ArgumentParser(description='Apply a vector to a molecule.')
+PARSER.add_argument("base", type=str,
+                    help="Location of the POSCAR file containing the base.")
+PARSER.add_argument("mol", type=str,
+                    help="Location of the POSCAR file containing the mol.")
+PARSER.add_argument("elements", type=str, nargs='+',
+                    help="""Elements that will be transfer from the mol system
+                    to the base system.""")
+PARSER.add_argument("-r", action='store_true', default=False,
+                    help="""Use the atom that doesn't match instead of the
+                    ones that match.""")
+PARSER.add_argument("-o", type=str, default='POSCAR_NEW',
+                    help="Location of the output with the new coordinates.")
+
+ARGS = PARSER.parse_args()
+
+BASE = vaspio.read_from_file_vasp(ARGS.base)
+MOL = vaspio.read_from_file_vasp(ARGS.mol)
+
+if ARGS.r:
+    MATCH = [atom for atom in MOL.atoms if atom.element not in ARGS.elements]
+else:
+    MATCH = [atom for atom in MOL.atoms if atom.element in ARGS.elements]
+
+BASE.atom_add_list(MATCH)
+
+vaspio.print_vasp(BASE, ARGS.o)

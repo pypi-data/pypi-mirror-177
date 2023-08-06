@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+
+import argparse
+from pyRDTP import geomio
+from pyRDTP import molecule
+
+PARSER = argparse.ArgumentParser(description="Add vacuum to a vasp geometry.")
+
+PARSER.add_argument("-i", type=str, default='POSCAR',
+                    help="Location of the infile with the coordinates.")
+PARSER.add_argument("-o", type=str, default='MOLECULE',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("-cp", type=float, default=20,
+                    help="Size of the cell parameters.")
+PARSER.add_argument("-nr", action='store_false', default=True,
+                    help="Do not repair the molecule before write the file.")
+PARSER.add_argument("-r", action='store_true', default=False,
+                    help="""Extract the atoms that not match with the given
+                         element instead of the ones that match""")
+PARSER.add_argument("-xyz", action='store_true', default=False,
+                    help="Output will be in xyz format")
+PARSER.add_argument("-cen", action='store_true', default=False,
+                    help="Center the molecule in the box")
+PARSER.add_argument("elements", type=str, nargs='+',
+                    help="Elements of the molecule that will be extracted.")
+
+ARGS = PARSER.parse_args()
+
+BULK = geomio.file_to_mol(ARGS.i, 'contcar')
+
+ATOMS = [ATOM.copy() for ATOM in BULK.atom_element_filter(ARGS.elements,
+                                                          invert=ARGS.r)]
+
+MOLECULE = molecule.Molecule("".join(ARGS.elements))
+MOLECULE.atom_add_list(ATOMS)
+
+if ARGS.nr:
+    MOLECULE.cell_p_add(BULK.cell_p)
+    MOLECULE.repair()
+
+CELL_P = molecule.CellParameters([[ARGS.cp, 0, 0],
+                                  [0, ARGS.cp, 0],
+                                  [0, 0, ARGS.cp]])
+MOLECULE.cell_p_add(CELL_P)
+
+if ARGS.cen:
+    MOLECULE.move_to([0.5, 0.5, 0.5], system='direct', origin='centroid')
+
+if ARGS.xyz:
+    geomio.mol_to_file(MOLECULE, ARGS.o, 'xyz')
+else:
+    geomio.mol_to_file(MOLECULE, ARGS.o, 'contcar')

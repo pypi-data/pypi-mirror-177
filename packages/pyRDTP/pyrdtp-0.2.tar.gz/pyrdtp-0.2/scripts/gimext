@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+"""Extract the selected image from a vasprun.xml file"""
+import argparse
+from pyRDTP.io import vasp
+from pyRDTP import geomio
+
+PARSER = argparse.ArgumentParser(description="""Extract the selected
+                                             image from a vasprum.xml file""")
+
+PARSER.add_argument("-i", type=str, default='vasprun.xml',
+                    help="Location of the infile with the coordinates.")
+PARSER.add_argument("-o", type=str, default='IMAGE',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("image", type=int,
+                    help="""Image to extract""")
+
+ARGS = PARSER.parse_args()
+VASPRUN = vasp.Package.from_vasprun(ARGS.i)
+
+geomio.mol_to_file(VASPRUN[ARGS.image - 1].molecule, ARGS.o, 'contcar')

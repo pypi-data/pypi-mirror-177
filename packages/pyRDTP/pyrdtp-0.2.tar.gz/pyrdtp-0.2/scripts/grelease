@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+
+"""Release a certain number of layers in a vasp geometry"""
+from sys import exit
+import argparse
+from pyRDTP import geomio
+
+PARSER = argparse.ArgumentParser(description="""Release certain number of
+                                 layers for a vasp geometry.""")
+
+PARSER.add_argument("-i", type=str, default='POSCAR',
+                    help="Location of the infile with the coordinates.")
+PARSER.add_argument("-o", type=str, default='POSCAR',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("-a", type=str, default='z',
+                    help="Axis in which the layers will be detected.")
+PARSER.add_argument("-t", type=float, default=0.04,
+                    help="Threshold that will be used in the layer detection.")
+PARSER.add_argument("-e", nargs='+', default=None,
+                    help="""If used, the atoms with matching elements will be
+                         released""")
+PARSER.add_argument("-ie", nargs='+', default=None,
+                    help="""If used, the atoms with unmatching elements will be
+                         released""")
+PARSER.add_argument("-fm", type=int, default=None,
+                    help="""If used, the number of elements with the major number
+                         of atoms will be freeze.""")
+PARSER.add_argument("-cf", type=str, nargs=3, default=[True, True, True],
+                    help="""If used, the number of elements with the major number
+                         of atoms will be freeze.""")
+PARSER.add_argument("layers", nargs='?', type=int,
+                    help="""Number of layers that will be released. If a
+                    negative number is used, then the layers will freeze
+                    from 0 to this number""")
+
+ARGS = PARSER.parse_args()
+LAYERS = ARGS.layers
+
+BULK = geomio.file_to_mol(ARGS.i, 'contcar', bulk=True)
+
+ATOMS_LST = []
+if ARGS.e is not None or ARGS.ie is not None or ARGS.fm is not None:
+    BULK.atom_change_mov_all('freeze')
+    if ARGS.e is not None:
+        ATOMS_LST += BULK.atom_element_filter(ARGS.e, option='atom', invert=False)
+    if ARGS.ie is not None:
+        ATOMS_LST += BULK.atom_element_filter(ARGS.ie, option='atom', invert=True)
+    if ARGS.fm is not None:
+        ATOM_DICT = BULK.elem_inf(opt='disordered')
+        ELEMS = [key for key in sorted(ATOM_DICT, key=ATOM_DICT.get, reverse=True)[:ARGS.fm]]
+        ATOMS_LST += BULK.atom_element_filter(ELEMS, option='atom', invert=True)
+    for atom in ATOMS_LST:
+        atom.freeze = ARGS.cf
+    geomio.mol_to_file(BULK, ARGS.o ,extension='contcar')
+    exit(0)
+
+
+NLAYERS = BULK.layer_detect_smart(dimension=ARGS.a, threshold=ARGS.t)
+if LAYERS < 0:
+    BULK.atom_change_mov_all('release')
+    LAYERS = abs(LAYERS)
+    LAYERS = tuple(range(0, LAYERS))
+    BULK.atom_change_mov_layer(ARGS.a, LAYERS, option='freeze')
+else:
+    BULK.atom_change_mov_all('freeze')
+    LAYERS = tuple(range(NLAYERS-1, NLAYERS-1-LAYERS, -1))
+    BULK.atom_change_mov_layer(ARGS.a, LAYERS, option='release')
+geomio.mol_to_file(BULK, ARGS.o ,extension='contcar')

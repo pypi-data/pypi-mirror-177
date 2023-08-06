@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+
+"""Displace all the atoms of the molecule along the cell vectors"""
+from fractions import Fraction
+from pyRDTP import geomio
+from pyRDTP.molecule import DIM_DICT
+import numpy as np
+import argparse
+
+
+PARSER = argparse.ArgumentParser(description='Apply a vector to a molecule.')
+PARSER.add_argument("-i", type=str, default='POSCAR',
+                    help="Location of the POSCAR file.")
+PARSER.add_argument("-o", type=str, default='POSCAR',
+                    help="Location of the output with the new coordinates.")
+PARSER.add_argument("-d", action='store_const',
+                    const='direct', default='cartesian',
+                    help="Use direct coordinates instead of cartesian.")
+PARSER.add_argument("-x", type=str, default=None,
+                    help="""Distance vector (in x axis) to apply. Must be
+                    fractional. Ex: 1/3""")
+PARSER.add_argument("-y", type=str, default=None,
+                    help="""Distance vector (in y axis) to apply. Must be
+                    fractional. Ex: 1/3""")
+PARSER.add_argument("-z", type=str, default=None,
+                    help="""Distance vector (in z axis) to apply. Must be
+                    fractional. Ex: 1/3""")
+PARSER.add_argument("-inv", type=str, nargs='+', default=None,
+                    help="""Invert the atoms of the cell in the given axis.
+                    Take into account that the inversion will be performed
+                    after the displacement.""")
+
+ARGS = PARSER.parse_args()
+MOL = geomio.file_to_mol(ARGS.i, 'contcar')
+
+for axis, displacement in enumerate((ARGS.x, ARGS.y, ARGS.z)):
+    if displacement in (0, None):
+        continue
+    FRACTIONAL = Fraction(displacement)
+    DCOORDS = MOL.coords_array('direct')
+    DCOORDS[:, axis] = np.asarray(DCOORDS[:, axis] + FRACTIONAL, dtype=float)
+
+if ARGS.inv is not None:
+    mult_arr = np.zeros(3)
+    for axis in ARGS.inv:
+        DCOORDS[:, DIM_DICT[axis]] *= -1
+
+MOL.coords_update(DCOORDS, 'direct')
+MOL.dcoords_correct()
+MOL.dcoords_correct()
+
+MOL.coords_convert_update('cartesian')
+geomio.mol_to_file(MOL, ARGS.o, 'contcar')
