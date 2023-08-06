@@ -1,0 +1,10 @@
+circle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circle/code.py,sha256=i1djXnSfuqGkqrNPAig-duC_REu8kkoKORYIh9I-jXI,263
+square/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+square/code.py,sha256=o6q_9UeifjRGP51-m_jx1u5U7yZstJJRtGEzfGc2z90,152
+triangle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triangle/code.py,sha256=Hsv9mJsl00dhuUTycEdRxVVcs3u3PEn23GP1Hd9Ctow,354
+my_new_math_package-0.1.dist-info/METADATA,sha256=oXz0flqd2ECx-Rfux3HlOVaPBaLR9QfD27IuCDNE8Ok,102
+my_new_math_package-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+my_new_math_package-0.1.dist-info/top_level.txt,sha256=k-U0XwuQ30DpfwMm_0Xkr1ZQoBBwbfr9LYqEMbxppaM,23
+my_new_math_package-0.1.dist-info/RECORD,,
