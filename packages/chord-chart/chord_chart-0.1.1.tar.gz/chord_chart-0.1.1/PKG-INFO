@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chord-chart
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: pytest; extra == 'test'
+Provides-Extra: test
+Requires-Python: >=3.7
