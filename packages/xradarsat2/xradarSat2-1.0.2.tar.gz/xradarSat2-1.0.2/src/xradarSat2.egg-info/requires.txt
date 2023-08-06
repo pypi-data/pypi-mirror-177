@@ -1,0 +1,4 @@
+xmltodict
+numpy
+xarray
+xarray-datatree
