@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mlplatform_lib
+Version: 8.4.0.0.17.0.0
+Summary: mlplatform_lib
+Home-page: 
+Download-URL: 
+Author: mlplatform_lib
+Author-email: mansu_kim@tmax.co.kr
+Keywords: mlplatform_lib
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
