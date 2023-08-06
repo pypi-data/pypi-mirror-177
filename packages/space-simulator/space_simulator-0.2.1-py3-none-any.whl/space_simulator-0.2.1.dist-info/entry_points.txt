@@ -1,0 +1,3 @@
+[console_scripts]
+space-simulator=space_simulator.game:main
+
