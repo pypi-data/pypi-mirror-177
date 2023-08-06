@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dir_sizer
+Version: 0.0.5
+Summary: Get the folder size using a base path
+Author: Madhankumar
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt

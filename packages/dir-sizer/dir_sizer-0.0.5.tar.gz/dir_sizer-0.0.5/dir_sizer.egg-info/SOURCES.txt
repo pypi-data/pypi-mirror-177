@@ -1,0 +1,8 @@
+LICENCE.txt
+setup.py
+dir_sizer/__init__.py
+dir_sizer/get_data.py
+dir_sizer.egg-info/PKG-INFO
+dir_sizer.egg-info/SOURCES.txt
+dir_sizer.egg-info/dependency_links.txt
+dir_sizer.egg-info/top_level.txt
