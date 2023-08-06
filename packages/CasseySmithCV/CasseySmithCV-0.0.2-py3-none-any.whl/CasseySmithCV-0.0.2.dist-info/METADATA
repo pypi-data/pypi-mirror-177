@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: CasseySmithCV
+Version: 0.0.2
+Summary: Produces critical values using the methods described in Cassey Smith (2014).  Code is modernized from version published with paper to take advantage of advances in computing.
+Home-page: https://github.com/tazzben/CasseySmithCV
+Download-URL: https://github.com/tazzben/CasseySmithCV/archive/v0.0.2.tar.gz
+Author: Ben Smith
+Author-email: bosmith@unomaha.edu
+License: MIT
+Keywords: Monte Carlo,EG Statistic,Statistics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
