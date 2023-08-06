@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flask_autoinject
+Version: 1.0.0
+Summary: Flask support for dependency injection with autoinject
+Home-page: https://github.com/turnbullerin/flask_autoinject
+Author: Erin Turnbull
+Author-email: erin.a.turnbull@gmail.com
+Project-URL: Bug Tracker, https://github.com/turnbullerin/flask_autoinject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flask AutoInject
+
+Flask integration to provide separate contexts 
+for each request regardless of the underlying 
+WSGI handler.
