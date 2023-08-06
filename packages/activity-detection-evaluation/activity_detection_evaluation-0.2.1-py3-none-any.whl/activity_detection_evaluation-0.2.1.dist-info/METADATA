@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: activity-detection-evaluation
+Version: 0.2.1
+Summary: Library for evaluating activity detection
+Author: Javier Smith
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: librosa (==0.9.2)
+
+# Activity Detection Evaluation Framework
+
+The purpose of this library is to provide an easy and standard way for evaluating activity detection comprehensively. In this context, activity detection is associated with any kind of detection involving the identification of time segments (or intervals) that contain relevant activity inside a timed sample. Given a signal that contains an activity occuring from time X to Y, this framework will evaluate how precisely predictions match the occurance of this activity.
+
+A task that can be evaluated using this framework is voice activity detection (VAD). The purpose of this task is to identify what parts of an audio clip contain voiced activity. By providing the time intervals that your detector predicted as having voice activity and those given by ground truth, this module will output several metrics that will reflect how well the detector is performing.
+
+## Expected formats
+
+Given the vast ammount of annotation and model prediction schemes out there, it is necessary to standardize annotations and predictions to make evaluation easier.
+
+### Annotation Scheme
+
+The library expects annotations to be formated according to the following example:
+
+```json
+
+{
+    "sample1.wav":[
+        {"category":"activity_1","s_time":0,"e_time":2300}, 
+        {"category":"activity_1","s_time":5200,"e_time":7800},
+        ...
+    ],
+    "sample2.wav":[],  
+    "sample3.wav":[
+        {"category":"activity_2","s_time":152,"e_time":3000}
+    ]
+    ...
+}
+```
+
+For each file```s_time``` is the time at which the activity started and ```e_time``` the time at which the activity ended, both in ms. The remaining time intervals inside the sample are automatically considered as a "background" class. 
+
+A label ```category``` is also included to identify the kind of activity being labeled. Though activity detection most often means a binary classification of samples (has activity or not), we find that by providing annotations with richer information of possible sources of error or truth for those activites can help illustrate what are the weakneses and strengths of the detection system.
+
+For example, consider the case in which we wish to detect the times when a flock of birds crosses the sky. In our annotations, we may also include the time intervals when other animal species are moving, so to identify cases when the system gets tricked by these situations.
+
+### Predictions scheme
+
+For predictions, the library follows a similar structure as the annotation scheme:
+
+```json
+
+{
+    "sample1.wav":[
+        [100,4000],
+        [6000,10000]
+
+        ...
+    ],
+    "sample2.wav":[1000,10000],  
+    "sample3.wav":[]
+    ...
+}
+```
+
+In this case, each file sample has an array containing the time intervals in which activity was predicted. So, considering the file "sample1.wav" shown above, the predictions indicate the model predicted activity occuring between 100-4000 ms and 6000-10000 ms.

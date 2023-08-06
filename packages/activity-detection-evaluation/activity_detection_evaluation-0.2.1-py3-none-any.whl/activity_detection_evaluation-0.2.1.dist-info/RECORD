@@ -1,0 +1,7 @@
+activity_detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+activity_detection/evaluation.py,sha256=kg8iDnE74oYS6oHROBh0Vp1HABuakHlH7R81Sd4tZaw,8826
+activity_detection/utils.py,sha256=oSqh5_RRWbNZ1F1iNI84aelIYc1Ds38yy_r10EU7fz0,714
+activity_detection_evaluation-0.2.1.dist-info/METADATA,sha256=ERcVN-iYnlSEf5UuXfPGADdIw4Z91Ylru26CB157OVA,3237
+activity_detection_evaluation-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+activity_detection_evaluation-0.2.1.dist-info/top_level.txt,sha256=kAKBTnv3IWbRVwRtAE1MOnbL8yJkAIwObhdS76tqVfA,19
+activity_detection_evaluation-0.2.1.dist-info/RECORD,,
