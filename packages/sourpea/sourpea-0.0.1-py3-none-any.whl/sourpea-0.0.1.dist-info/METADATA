@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sourpea
+Version: 0.0.1
+Summary: declarative language in python for testing experiment sequences for counterbalance.
+Project-URL: Homepage, https://github.com/AutoResearch/sourpea
+Project-URL: Bug Tracker, https://github.com/AutoResearch/sourpea/issues
+Author-email: Younes Strittmatter <younes_strittmatter@brown.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
