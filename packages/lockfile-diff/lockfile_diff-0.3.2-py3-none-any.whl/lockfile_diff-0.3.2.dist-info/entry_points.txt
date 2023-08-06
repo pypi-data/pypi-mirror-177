@@ -1,0 +1,2 @@
+[console_scripts]
+lockfile-diff = lockfile_diff.__main__:main
