@@ -1,0 +1,2 @@
+aiohttp>=3.8
+json_strong_typing>=0.2.4
