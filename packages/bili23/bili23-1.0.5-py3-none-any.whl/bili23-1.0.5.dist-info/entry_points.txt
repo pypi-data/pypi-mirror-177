@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    bili23=bili23.bili23:main
+    

@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: bili23
+Version: 1.0.5
+Summary: 下载 Bilibili 视频/番剧/电影/纪录片 等资源
+Home-page: https://github.com/ScottSloan/Bili23-Downloader-CLI
+Author: Scott Sloan
+Author-email: scottsloan@petalmail.com
+License: MIT License
+Project-URL: Home Page, https://github.com/ScottSloan/Bili23-Downloader-CLI
+Project-URL: Bug Tracker, https://github.com/ScottSloan/Bili23-Downloader-CLI/issues
+Keywords: pip,bilibili,video-downloader,cli
+Platform: any
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: colorama
+
+Bili23-Downloader-CLI
+======================
+
+|release| |python| |license|
+
+Bili23 Downloader CLI 命令行版本
+
+下载 Bilibili 视频/番剧/电影/纪录片 等资源
+
+Bili23 Downloader 系列
+----------------------
+`GUI 桌面端版本 <https://github.com/ScottSloan/Bili23-Downloader>`_ 
+
+`CLI 命令行版本 <https://github.com/ScottSloan/Bili23-Downloader-CLI>`_ 
+
+使用说明
+========
+详细信息请移步至 `项目主页 <https://github.com/ScottSloan/Bili23-Downloader-CLI>`_ 查看
+
+安装：
+
+.. code-block:: console
+    
+    pip install bili23
+
+
+下载视频示例：
+
+.. code-block:: console
+
+    $ bili23 --p "BV1fd4y117xT"
+    视频信息：
+
+    名称：“有温度的”
+
+    简介：2022年还有人做阳炎，没想到吧
+    BGM: 爱人错过 - 告五人
+    封面pid: 70203810
+    封面画师：RECNEPS-SAIS （侵删）
+
+    播放：5.8万
+    点赞：4806
+    投币：1543
+    弹幕：267
+    收藏：2150
+    评论：238
+
+    当前清晰度：高清 1080P   当前编码：HEVC/H.265
+
+    准备开始下载...
+
+    正在下载：此片献给正处于迷茫期的你
+    72% | ██████████████████        | 19.8MB/s
+
+
+联系方式
+========
+Email: scottsloan@petalmail.com
+
+Blog: https://scott.o5g.top
+
+.. |release| image:: https://img.shields.io/github/v/release/ScottSloan/Bili23-Downloader-CLI?style=flat-square
+.. |python| image:: https://img.shields.io/badge/Python-3.9.12-green?style=flat-square
+.. |license| image:: https://img.shields.io/badge/license-MIT-orange?style=flat-square
+
+
