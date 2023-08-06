@@ -1,0 +1,17 @@
+.gitignore
+Dockerfile
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/python-publish.yml
+.streamlit/config.toml
+src/openmc_plot/__init__.py
+src/openmc_plot/_version.py
+src/openmc_plot/app.py
+src/openmc_plot/launch.py
+src/openmc_plot.egg-info/PKG-INFO
+src/openmc_plot.egg-info/SOURCES.txt
+src/openmc_plot.egg-info/dependency_links.txt
+src/openmc_plot.egg-info/entry_points.txt
+src/openmc_plot.egg-info/requires.txt
+src/openmc_plot.egg-info/top_level.txt
