@@ -1,0 +1,12 @@
+ChangeLog.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+src/dexml/__init__.py
+src/dexml/fields.py
+src/dexml/test.py
+src/dexml3.egg-info/PKG-INFO
+src/dexml3.egg-info/SOURCES.txt
+src/dexml3.egg-info/dependency_links.txt
+src/dexml3.egg-info/top_level.txt
