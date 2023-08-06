@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pysos
+Version: 1.2.8
+Summary: Simple Object Storage - Persistent dicts and lists for python.
+Home-page: https://github.com/dagnelies/pysos
+Author: Arnaud Dagnelies
+Author-email: arnaud.dagnelies@gmail.com
+License: MIT
+Keywords: persistent persistence dict list file
+License-File: LICENSE
+Requires-Dist: chardet
+
