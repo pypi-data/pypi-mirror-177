@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bracord
+Version: 0.3.2
+Summary: A Disnake framework written in Python that speeds the development of Discord bots.
+Home-page: https://github.com/mrfellox/bracord
+License: MIT
+Keywords: discord,disnake,framework
+Author: MrFellox
+Author-email: jfernandohernandez28@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: disnake (>=2.7.0,<3.0.0)
+Requires-Dist: flake8 (>=5.0.4,<6.0.0)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Project-URL: Documentation, https://github.com/mrfellox/bracord
+Project-URL: Repository, https://github.com/mrfellox/bracord
+Description-Content-Type: text/markdown
+
+# Bracord
+A [Disnake](https://github.com/DisnakeDev/Disnake) framework written in Python that speeds the development of Discord bots.
+
+Bracord is a combination of a command line tool and ready-to-go cogs that might come useful when developing quick Discord bots.
+
+**Table of Contents**
+- [Installation](#installation)
+- [Usage](#usage)
+
+## Installation
+
+You can install Bracord using `pip`.
+
+```bash
+$ pip3 install bracord
+```
+
+## Usage
+
+### Project Initialization
+First, you will need to initialize a Bracord project. You can do so with the following command:
+
+```bash
+$ bracord init
+```
+
+This will start asking for information related to your bot and then create all necessary files in the current directory.
+
+### Cog Creation
+To create and register a cog, you can use the `cog` command:
+
+```bash
+$ bracord cog
+```
+
+This will ask you for the cog's name and will create it and load it whenever when the bot is started.
+

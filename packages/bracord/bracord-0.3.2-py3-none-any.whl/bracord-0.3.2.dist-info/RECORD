@@ -1,0 +1,12 @@
+disnake/ext/bracord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disnake/ext/bracord/boilerplate.py,sha256=FYpUxH55gfFfakz7fynV4M3F4N_NLxhY2GDStnILlHE,3270
+disnake/ext/bracord/cli/cog_init.py,sha256=xJWITWd5TyMBUANtXCYoH7ZD_mc2slEgcw-Pvow2QnQ,3458
+disnake/ext/bracord/cli/console_commands.py,sha256=bdjHS588_LLEtOkp9G0LwVXFMlm_p0uzLxZj2PekEdg,4632
+disnake/ext/bracord/cli/project_init.py,sha256=bB-QxPddEoUoIvBiwMCI1eTY9AyLvw6wP-jjdbY00SE,2648
+disnake/ext/bracord/entry.py,sha256=DM3uTMlSLbHUIECj6x2CMwSY2vFZktLbefgqH1LRSzg,742
+disnake/ext/bracord/utils.py,sha256=nBo3K4WsxIX3ChwHg2zYRxvNMqHKD2k-ITRRU_TKx2g,1653
+bracord-0.3.2.dist-info/entry_points.txt,sha256=Nk-Q400QcqEgBKtV4f9lqxAumoYZfkpk85mP2wIjN1k,58
+bracord-0.3.2.dist-info/LICENSE,sha256=_8eIGXs5q6nul6jNAXL3AUoLsnU5P5oIsulC_fuSDDw,1086
+bracord-0.3.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+bracord-0.3.2.dist-info/METADATA,sha256=qul-AbiomxztsvGdfnNpmSk2Q9-usFhQi-NaD8wXwCY,1910
+bracord-0.3.2.dist-info/RECORD,,
