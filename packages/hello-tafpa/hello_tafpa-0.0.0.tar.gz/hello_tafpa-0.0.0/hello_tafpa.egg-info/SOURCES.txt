@@ -1,0 +1,5 @@
+setup.py
+hello_tafpa.egg-info/PKG-INFO
+hello_tafpa.egg-info/SOURCES.txt
+hello_tafpa.egg-info/dependency_links.txt
+hello_tafpa.egg-info/top_level.txt
