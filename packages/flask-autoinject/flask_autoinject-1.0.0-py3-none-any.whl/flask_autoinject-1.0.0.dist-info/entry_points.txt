@@ -1,0 +1,2 @@
+[autoinject.registrars]
+flask_autoinject = flask_autoinject.contexts:register_flask_context
