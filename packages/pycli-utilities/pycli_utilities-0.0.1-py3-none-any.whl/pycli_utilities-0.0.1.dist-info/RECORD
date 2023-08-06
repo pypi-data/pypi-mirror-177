@@ -1,0 +1,15 @@
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/cli.py,sha256=odGfGDKZwmrL-hdMcqYe1moYLbJ1opGrclbTIL5xK0U,3939
+source/helpers.py,sha256=PS4bdwczL1WMFb8vRLyJ_UnNyz_S-i2FPX4Bl5bIk8A,1438
+source/utilities/__init__.py,sha256=cDQRjdbRTIb4xNYCddzrJii7FxxyNWpMl2uP8DPSkzo,1173
+source/utilities/csv_remove_column.py,sha256=A1ePYyojBBE9ErmSxj5fKzvy9PKbKelTI7NTSzL40Yc,3068
+source/utilities/csv_remove_nulls.py,sha256=Chr-r1Vs4EaqznMIHgjasQ6dZpASuXdvHhHXS_MQRSk,3020
+source/utilities/csv_shift_column.py,sha256=JF1H6qIkGYAwM8yMvOu3fIOTWkBcTYY-bJ9MxHYf83k,3637
+source/utilities/csv_split.py,sha256=TQxLvikek_EevtJ3aG5DMR5RqCZj3919_qJjlhnkGwI,3015
+source/utilities/csv_validate.py,sha256=ry-2crQFJ-htyR737YbTUINbvLVnNdkL68EfJZh-D10,1958
+pycli_utilities-0.0.1.dist-info/LICENSE,sha256=1EmyR8bRiP-IzAvFGd4bVu9GMfn1k-P-vcUpNpTYfuY,1086
+pycli_utilities-0.0.1.dist-info/METADATA,sha256=yg9pv9XNovc0IlHI7BuhIYR9imbAvud0Caj0Xiy1lNE,2097
+pycli_utilities-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pycli_utilities-0.0.1.dist-info/entry_points.txt,sha256=pCmxRvhk2HtWyGM2Sx3clIdHEjd5ZiWEGFbY82BkIsE,283
+pycli_utilities-0.0.1.dist-info/top_level.txt,sha256=uLsDT5tjvQJU-8fBV8rnRsdYU_RkPWzqhE3EjdtX9SI,7
+pycli_utilities-0.0.1.dist-info/RECORD,,
