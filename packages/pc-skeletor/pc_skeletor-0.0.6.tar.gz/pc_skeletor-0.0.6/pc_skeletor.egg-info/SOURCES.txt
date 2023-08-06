@@ -1,0 +1,12 @@
+LICENSE
+pc_skeletor/__init__.py
+pc_skeletor/download.py
+pc_skeletor/skeletor.py
+pc_skeletor/test.py
+pc_skeletor/utility.py
+pc_skeletor.egg-info/PKG-INFO
+pc_skeletor.egg-info/SOURCES.txt
+pc_skeletor.egg-info/dependency_links.txt
+pc_skeletor.egg-info/not-zip-safe
+pc_skeletor.egg-info/requires.txt
+pc_skeletor.egg-info/top_level.txt
