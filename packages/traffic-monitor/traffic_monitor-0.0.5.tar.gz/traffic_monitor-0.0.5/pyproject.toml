@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "traffic_monitor"
+version = "0.0.5"
+authors = [
+  { name="Alejo Severini Montanari", email="alejoseverini@mi.unc.edu.ar" },
+]
+description = "Small package for traffic monitoring."
+readme = "README.md"
+requires-python = ">=3.6.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	'Cython>=0.29.32',
+	'python-libpcap>=0.4.0',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AlejoSev/traffic_monitor"
+"Bug Tracker" = "https://github.com/AlejoSev/traffic_monitor/issues"
