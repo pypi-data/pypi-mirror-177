@@ -1,0 +1,13 @@
+PopCatAPIWrapper/__init__.py,sha256=WqaQY6r1OMXO7RKmArAvs0WBkyTjK8RQL70lxprfThc,166
+PopCatAPIWrapper/client.py,sha256=rbkJY9wJWly0KVqcxzhUkbLxN9G2z45TAW9p9fdujTs,9472
+PopCatAPIWrapper/errors.py,sha256=ndbxOgBxg3stwm4pOB--1L17iKqboBY1CGgbDhtl5_w,2285
+PopCatAPIWrapper/http.py,sha256=4k9FSR74sn5uHoqMMz2QJtQkl4giOGxEjZhY1z6IGGo,429
+PopCatAPIWrapper/objects/color.py,sha256=Pi_kTBDIae_CeJnibyrazXpx4qmEN0CyyyOANxwqKVc,852
+PopCatAPIWrapper/objects/element.py,sha256=5BT7OZfGj51RLAY68k8F9-qKLmPZnZCRHevkCMqleJg,1974
+PopCatAPIWrapper/objects/film.py,sha256=VbfKDty4cmrniOI09nTR9RtH4N9_scsaZlwynrOp0Nk,3436
+PopCatAPIWrapper/objects/lyrics.py,sha256=Bzcue9SOu1B7m72vq1YvB4JLRqlluD0cCkmHrX_xseQ,444
+PopCatAPIWrapper/objects/steamapp.py,sha256=NTFAjTJ0EVNldAL34QOW4ldyTzgasYKxnCDfbJ1m4jU,2125
+popcatapiwrapper-0.0.6.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popcatapiwrapper-0.0.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+popcatapiwrapper-0.0.6.dist-info/METADATA,sha256=uFXrzVQmFPsFrJLiSsYUnrfCtB6cY3ajWlATz0zPm9g,1747
+popcatapiwrapper-0.0.6.dist-info/RECORD,,
