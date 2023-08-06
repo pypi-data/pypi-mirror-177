@@ -1,0 +1,77 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "rofi-tmuxp"
+authors = [
+    {name = "Heinrich Kruger", email = "heindsight@kruger.dev"}
+]
+readme = "README.rst"
+version = "0.5.0.rc1"
+dynamic = ["description"]
+keywords = ["rofi", "tmux", "tmuxp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Desktop Environment :: Window Managers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = "~=3.7"
+dependencies = [
+    "pyyaml",
+    "tmuxp ~= 1.1"
+]
+
+[project.optional-dependencies]
+lint = [
+    "black",
+    "flake8",
+    "flake8-pytest-style",
+    "isort ~= 5.0.0",
+    "pytest",
+    "mypy",
+    "rstcheck",
+    "types-pyyaml",
+]
+dev = [
+    "pdbpp",
+]
+test = [
+    "coverage-conditional-plugin",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "pytest-randomly",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/heindsight/rofi-tmuxp"
+
+[project.scripts]
+rofi-tmuxp = "rofi_tmuxp:main"
+
+[tool.flit.module]
+name = "rofi_tmuxp"
+
+[tool.flit.sdist]
+include = ["test/", "tox.ini"]
+exclude = [".github/", ".gitignore"]
+
+[tool.isort]
+profile="black"
+lines_after_imports = 2
+
+[[tool.mypy.overrides]]
+module = "tmuxp.*"
+ignore_missing_imports = true
