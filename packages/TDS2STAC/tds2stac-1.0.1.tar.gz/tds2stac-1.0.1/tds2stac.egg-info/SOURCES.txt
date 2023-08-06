@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tds2stac/__init__.py
+tds2stac/constants.py
+tds2stac/funcs.py
+tds2stac/tds2stac.py
+tds2stac.egg-info/PKG-INFO
+tds2stac.egg-info/SOURCES.txt
+tds2stac.egg-info/dependency_links.txt
+tds2stac.egg-info/entry_points.txt
+tds2stac.egg-info/requires.txt
+tds2stac.egg-info/top_level.txt
