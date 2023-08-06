@@ -1,0 +1,7 @@
+stochastic
+numpy
+scipy
+
+[docs]
+
+[test]
