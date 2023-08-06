@@ -1,0 +1,11 @@
+LICENSE.md
+LICENSE.txt
+README.md
+setup.py
+CIMAP/CIMAP.py
+CIMAP/__init__.py
+CIMAP.egg-info/PKG-INFO
+CIMAP.egg-info/SOURCES.txt
+CIMAP.egg-info/dependency_links.txt
+CIMAP.egg-info/requires.txt
+CIMAP.egg-info/top_level.txt
