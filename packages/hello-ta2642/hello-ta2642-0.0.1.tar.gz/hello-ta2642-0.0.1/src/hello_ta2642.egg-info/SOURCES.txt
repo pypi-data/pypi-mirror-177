@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/hello.py
+src/test_helloworld.py
+src/hello_ta2642.egg-info/PKG-INFO
+src/hello_ta2642.egg-info/SOURCES.txt
+src/hello_ta2642.egg-info/dependency_links.txt
+src/hello_ta2642.egg-info/requires.txt
+src/hello_ta2642.egg-info/top_level.txt
