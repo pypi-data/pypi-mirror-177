@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+mkdocs_drawio_exporter_fork.egg-info/PKG-INFO
+mkdocs_drawio_exporter_fork.egg-info/SOURCES.txt
+mkdocs_drawio_exporter_fork.egg-info/dependency_links.txt
+mkdocs_drawio_exporter_fork.egg-info/entry_points.txt
+mkdocs_drawio_exporter_fork.egg-info/requires.txt
+mkdocs_drawio_exporter_fork.egg-info/top_level.txt
+mkdocsdrawioexporter/__init__.py
+mkdocsdrawioexporter/exporter.py
+mkdocsdrawioexporter/plugin.py
