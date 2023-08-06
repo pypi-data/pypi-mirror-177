@@ -1,0 +1,2 @@
+[console_scripts]
+sample = sampleproject_Yebean:main
