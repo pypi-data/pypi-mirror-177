@@ -1,0 +1,2 @@
+class CannotLoadError(LookupError):
+  pass
