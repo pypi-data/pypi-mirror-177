@@ -1,0 +1,14 @@
+civetqc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+civetqc/data.py,sha256=-bP4Ar_Sc3R-bdwic8LWMgAXJFhAmLI464xFioW7UiY,9494
+civetqc/exceptions.py,sha256=1cGGzm357-o1zry6AWUkfqR_f2G_h4CWT8TjE2_HKhk,1008
+civetqc/main.py,sha256=L5Sul3j70S-Bh4R70u1TAvTEVbpOSrN05TqbCJaBbiA,2507
+civetqc/model.py,sha256=N9B013mws6ohkiO_owBXkopzcCJGTcS4Xxhsj1gAfYY,1244
+civetqc/train.py,sha256=tIqsX08_O1hV80eyHIf2q98dpz6-1TVUjejh6gmJga8,2005
+civetqc/utils.py,sha256=hEK6ylJVUyVKx60vexiG0y3MyPLfHJ8KfXeP-c-cVes,2023
+civetqc/resources/model.pkl,sha256=3hQa_cWeT4ZlkUFOI8f-pHsCY3ZrA2aV0v-0-DYo8sg,2302834
+civetqc-0.1.6.dist-info/LICENSE,sha256=UwJ_PMzxH9F3UdWR3UZTU0VdB_fSWJFQ0bbpo_LO6PE,1069
+civetqc-0.1.6.dist-info/METADATA,sha256=PZvkQWeI_UL1Gkw2kTa1ah_EyLyGom8qC2q3YH_d8HQ,4827
+civetqc-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+civetqc-0.1.6.dist-info/entry_points.txt,sha256=5CauCCGPlIyPZSFFJ91RowAbImk8RxKnsxCmAuOSwrk,46
+civetqc-0.1.6.dist-info/top_level.txt,sha256=y2HWmX4G-wr9GAnO6ZG2NwtqayYIuLtD68S3bCzbPLA,8
+civetqc-0.1.6.dist-info/RECORD,,
