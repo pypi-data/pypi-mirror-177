@@ -1,0 +1,8 @@
+setup.py
+rubikaClient/__init__.py
+rubikaClient.egg-info/PKG-INFO
+rubikaClient.egg-info/SOURCES.txt
+rubikaClient.egg-info/dependency_links.txt
+rubikaClient.egg-info/not-zip-safe
+rubikaClient.egg-info/requires.txt
+rubikaClient.egg-info/top_level.txt
