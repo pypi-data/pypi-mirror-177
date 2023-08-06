@@ -1,0 +1,15 @@
+pvnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvnet/netcdf_dataset.py,sha256=iaNZKv2XwpJCIqmndEqLYjZOL9Ir_H3frXuHeMUFliQ,4433
+pvnet/training.py,sha256=q8WAQ9VDuLTwACp17nrrHD4PVdiR4NS9InSbB5tsZrA,3376
+pvnet/utils.py,sha256=RFVXRCxE1Ivuk_GSNl-AjKJHc85YNzEImPKR3A7H-0Q,5957
+pvnet/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvnet/models/base_model.py,sha256=rcM8BGSxFBffChzwewKlnRG-yGbtGg7YJpF7WSY8q_E,9828
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=G927YX-VoWUL2TZ8G_8CGiHfd_iBmSEazQZqtlbG2G4,2213
+tests/test_training.py,sha256=xIXRKQafMrSLWeAt4keZ7rm_m-ChXlRMnt2vB160PTc,640
+tests/test_utils.py,sha256=L_UKZaI5LgwvxOqmanE3zOP0XjdokaIstOSH2VxJuRU,523
+PVNet-0.0.6.dist-info/LICENSE,sha256=tKUnlSmcLBWMJWkHx3UjZGdrjs9LidGwLo0jsBUBAwU,1077
+PVNet-0.0.6.dist-info/METADATA,sha256=i_q7wlgMBOHW7MY7TpUFIWO1e4cT5nopB5Gb5k7y3CQ,1350
+PVNet-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PVNet-0.0.6.dist-info/top_level.txt,sha256=HmTWPq2ylXRUPDSofy2kGXs-GSavrUjAfPZ5POu11FM,12
+PVNet-0.0.6.dist-info/RECORD,,
