@@ -1,0 +1,26 @@
+{% if infobox %}
+    <div class="gutta-sidebox-container d-none d-lg-block">
+        <div class="gutta-sidebox">
+            <h5>{{title}}</h5>
+            <span class="text-secondary">{%-if date is defined-%}{{date}}{%-endif-%}
+                <a href="{{permalink}}"><i class="bi-link-45deg"></i></a>
+            </span>
+            <p>{{description}}</p>
+        </div>
+    </div>
+{%endif%}
+
+{% for pic in pix %}
+    <div class="gutta-comic-page">
+        <img 
+            loading="lazy" class="gutta-comic-page" 
+            src="{{assets}}{{pic.src}}" width="{{pic.width}}" height="{{pic.height}}"
+            style="background: transparent url('{{assets}}{{spinner.src}}') center no-repeat;)"
+            >
+    </div>
+{% endfor %}
+
+{%- for entry in entries -%}
+    <div id="{{entry.anchor}}" class="gutta-scroll-anchor"></div>
+    {{entry.innerbody}}
+{%- endfor -%}

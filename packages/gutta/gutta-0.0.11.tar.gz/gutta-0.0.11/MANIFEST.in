@@ -1,0 +1,4 @@
+include src/gutta/builder/templates/*.jinja
+recursive-include src/gutta/builder/resources *
+include src/gutta/VERSION
+recursive-include src/gutta/sample_comic *
