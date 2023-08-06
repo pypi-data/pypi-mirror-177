@@ -1,0 +1,8 @@
+{
+    "prog": "pmc_id_converter",
+    "desc": "ID converter between PMID, PMCID and DOI",
+    "url": "https://github.com/suqingdong/pmc_id_converter",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "version": "1.0.0"
+}

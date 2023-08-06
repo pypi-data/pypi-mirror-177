@@ -1,0 +1,3 @@
+[console_scripts]
+pmc_idconv = pmc_id_converter.bin:main
+
