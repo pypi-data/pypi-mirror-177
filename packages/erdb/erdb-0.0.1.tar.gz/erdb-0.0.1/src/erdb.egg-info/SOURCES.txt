@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/erdb/__init__.py
+src/erdb/__main__.py
+src/erdb/py.typed
+src/erdb.egg-info/PKG-INFO
+src/erdb.egg-info/SOURCES.txt
+src/erdb.egg-info/dependency_links.txt
+src/erdb.egg-info/entry_points.txt
+src/erdb.egg-info/not-zip-safe
+src/erdb.egg-info/requires.txt
+src/erdb.egg-info/top_level.txt
