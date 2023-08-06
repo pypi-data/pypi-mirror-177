@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+TCPipelineUtils/BaseSink.py
+TCPipelineUtils/BaseSource.py
+TCPipelineUtils/PipelineTransforms.py
+TCPipelineUtils/__init__.py
+TCPipelineUtils.egg-info/PKG-INFO
+TCPipelineUtils.egg-info/SOURCES.txt
+TCPipelineUtils.egg-info/dependency_links.txt
+TCPipelineUtils.egg-info/requires.txt
+TCPipelineUtils.egg-info/top_level.txt
