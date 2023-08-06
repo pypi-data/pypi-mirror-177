@@ -1,0 +1,10 @@
+cs2star/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cs2star/_version.py,sha256=ufze38oNuGbrFijv8Po7tPe-GVPhs4n88KfUQUQ9ink,176
+cs2star/cs2star.py,sha256=TIBQ2bVnyuwwP9OIZZE3TmQwnMzqhYLZOa6dpGoQFJA,10563
+cs2star/job_parser.py,sha256=rTlgExSxddtopNAi2My2WBlDNoCl-qYIlucob_zK504,2777
+cs2star-0.5.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cs2star-0.5.1.dist-info/METADATA,sha256=b5kKvxLuAYHWG9rfHG2pIddh_WJQSa_7bunfEjhqqfE,2495
+cs2star-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cs2star-0.5.1.dist-info/entry_points.txt,sha256=UiPUWttBQVt8NzCWX_LubHvW83nfxN77oVnfr6WMZfU,49
+cs2star-0.5.1.dist-info/top_level.txt,sha256=fD2QIYtz-vE9koNO2TYP9kQmzEm9NdX7Lnk2N9ABa4Q,8
+cs2star-0.5.1.dist-info/RECORD,,
