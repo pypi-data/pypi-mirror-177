@@ -1,0 +1,77 @@
+<html>
+    <head><title>FIDLE - CI Report</title></head>
+    <body>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: 0.9em;
+        }
+        div.title{ 
+            font-size: 1.4em;
+            font-weight: bold;
+            padding: 20px 0px 0px 0px; }
+        a{
+            color: SteelBlue;
+            text-decoration:none;
+        }
+        hr{
+            border: 1px solid #eeeeee
+         }
+        .message{ padding: 0px 0px 0px 10px; }
+        .powered{ margin: 10px 0px 0px 0px; font-size:0.8em;color:lightgray;text-align:right;}
+        .footer{ margin: 0px 0px 0px 0px; font-size:0.8em;color:gray;}
+
+    </style>
+
+    <div class='title'>Confirmation de présence</div>
+    <div class='message'>
+        <p>Votre présence a bien été <b>prise en compte</b> par le gestionnaire de présence.<br>
+
+            <p>Les paramètres nécessaires à la récupération de votre attestation seront :
+                <ul>
+                    <li>Site        : <b>https://fidle.cnrs.fr/attestation</b></li>
+                    <li>identifiant : <b>${mail_id}</b></li>
+                    <li>visa        : <b>${attestation_visa}</b></li>
+                </ul>
+            </p>
+
+            <p>Votre attestation peut être récupérée via le lien direct suivant :</p>
+            ${recovery_url}
+            
+        <p>Ce message est automatique et ne prend pas de réponse.
+        Si vous n'avez pas effectué de déclaration de présence et que vous recevez ce message, merci de contacter l'équipe
+        Fidle via l'adresse : contact(at)fidle.cnrs.fr</p>
+        L'équipe Fidle
+    </div>
+
+    <div class='title'>Confirmation of attendance.</div>
+    <div class='message'>
+
+        <p>Your attendance has been <b>validated</b> by the attendance manager.<br>
+
+        <p>The parameters required to retrieve your certificate will be :
+            <ul>
+                <li>Site        : <b>https://fidle.cnrs.fr/attestation</b></li>
+                <li>identifier  : <b>${mail_id}</b></li>
+                <li>visa        : <b>${attestation_visa}</b></li>
+            </ul>
+        </p>
+
+        <p>Your attendance can be retrieved via the following direct link:</p>
+        ${recovery_url}
+
+        <p>This message is automatic and takes no response.
+        If you have not made a declaration of presence and you receive this message, please contact the team Fidle
+        team via the address : contact(at)fidle.cnrs.fr</p>
+        Fidle Team
+    </div>
+
+
+    <div class='powered'>Powered by Fidle/TimeSheetManager - Version : ${fidle_version}</div>
+    <hr>
+    ${logo_ender}
+    <div class="footer">
+    Site Fidle : https://fidle.cnrs.fr
+    </div>
+    </body>
+</html>
