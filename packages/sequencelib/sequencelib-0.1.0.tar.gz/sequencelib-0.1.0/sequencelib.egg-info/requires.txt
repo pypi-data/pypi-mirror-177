@@ -1,0 +1,6 @@
+sequencelib
+phylotreelib
+numpy
+pandas
+rpy2
+Levenshtein
