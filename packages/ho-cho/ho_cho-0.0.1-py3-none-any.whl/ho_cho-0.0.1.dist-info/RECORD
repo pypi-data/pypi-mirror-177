@@ -1,0 +1,12 @@
+hocho/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hocho/cleaning.py,sha256=o2W3kZ2PIAH7mqWUDxpI5iM5dWEefs8LfPhmHCUjmiE,2507
+hocho/normalization.py,sha256=c2ZiJtUu4Y-0bj6iQC9Ty4g6iJLE3Tnms09eJz4Awp4,1144
+hocho/stopwords.py,sha256=ndk_8QGeXJ5LhZwgYQ5lYL6nopyIy4a0bYSUqVUP5VU,1804
+hocho/tokenizer/__init__.py,sha256=6G28_VI39lLFLjAso4S19QrjdTGCYhqEorAF19FSOJk,33
+hocho/tokenizer/tokenizer.py,sha256=tBLOMR-9xxXWVYWBVIzFoCP5BnF60c1lWFyyyw5hMHY,433
+hocho/tokenizer/impl/__init__.py,sha256=9ycCQpRYm6JkQILkD-9vTWv4apH-RKMt3yAO9i53BNQ,44
+hocho/tokenizer/impl/mecab_tokenizer.py,sha256=yyvsUGcyp4goTOOjwzKYK7LWr8sK39cretUu61lEXQE,1861
+ho_cho-0.0.1.dist-info/METADATA,sha256=Brql_ckGGWCb2vEPLMF6zMWqoLv8H4oklFwClbKhE_M,2653
+ho_cho-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ho_cho-0.0.1.dist-info/top_level.txt,sha256=PWVJmXUxkn_DfhZXubXNvWF_5W_WfbCpvlmNN9or6l0,6
+ho_cho-0.0.1.dist-info/RECORD,,
