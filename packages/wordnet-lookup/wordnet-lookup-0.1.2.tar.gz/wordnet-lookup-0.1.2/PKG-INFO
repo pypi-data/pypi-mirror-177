@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wordnet-lookup
+Version: 0.1.2
+Summary: Static Dictionaries for Rapid Wordnet Lookups
+Home-page: https://github.com/craigtrim/wordnet-lookup
+Keywords: wordnet,lexicon
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Maintainer: Craig Trim
+Maintainer-email: craigtrim@gmail.com
+Requires-Python: >=3.8.5,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: baseblock
+Project-URL: Repository, https://github.com/craigtrim/wordnet-lookup
+Description-Content-Type: text/markdown
+
+
