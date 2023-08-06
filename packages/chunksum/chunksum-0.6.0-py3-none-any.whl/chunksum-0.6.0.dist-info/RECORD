@@ -1,0 +1,15 @@
+chunksum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chunksum/cdc.py,sha256=azPWXwTur6n8JevGkfnBc2207CKsSoTe814U9tbUBN0,3265
+chunksum/chunksize.py,sha256=aeaINeWfFNcU-6usQV6URDsXTH1w_rAdQOXC0lOVdic,1708
+chunksum/chunksum.py,sha256=Ck5MnlQONkba0tlKZKKk5d9VwxylzWOQMiqxCQPZZGw,6534
+chunksum/cli.py,sha256=FpTfyHjoQ-uetSR3aOFuvG_JL4vdxXCjuteoe5vew4o,6988
+chunksum/hash.py,sha256=q2g5K_h-Pfx3r1F9SsG5eNeLapfGN0fjPRT3kRCS34E,1812
+chunksum/iter.py,sha256=lMVpqjTWq4Uv-TXEcw58LeJG5ugH27hPcUTCta1LLN0,1334
+chunksum/mp.py,sha256=ey9_86x80_nwYarrAGUG_SXTGv9-wxiMUJxX3FD-UBU,4313
+chunksum/parser.py,sha256=mE2fBCBZvh7oGpEUbcs3Tgz8A-_9HK23eztrB1pOE48,1905
+chunksum/utils.py,sha256=9wguqoCdQJfqj5D5GV7ZD8OxbAQ_HWqEpXojiFKdth0,2932
+chunksum-0.6.0.dist-info/entry_points.txt,sha256=4YgSbW7Z5TftjOj1PavIBQurb1XEsTrAVkQVd1M1Hc0,46
+chunksum-0.6.0.dist-info/LICENSE,sha256=mAtRveZ1NYzyo4AXHlKaJ6EAsXJpWwGDi8wXfxFZ4NY,1066
+chunksum-0.6.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chunksum-0.6.0.dist-info/METADATA,sha256=QJH0DXgD2vYqn0g6ieuN6j70LpVPm3SMVAYdCIZvYnw,3312
+chunksum-0.6.0.dist-info/RECORD,,

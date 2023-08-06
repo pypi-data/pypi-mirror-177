@@ -1,0 +1,3 @@
+[console_scripts]
+chunksum=chunksum.cli:main
+
