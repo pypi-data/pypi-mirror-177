@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zabbix
+Version: 2.0.2
+Summary: Python module to work with zabbix.
+Author: nixargh
+Author-email: nixargh@protonmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: packaging
+
+**It's a fork of** <https://github.com/adubkov/py-zabbix>.
+
+
+
+Please read more at <https://github.com/nixargh/py-zabbix>
