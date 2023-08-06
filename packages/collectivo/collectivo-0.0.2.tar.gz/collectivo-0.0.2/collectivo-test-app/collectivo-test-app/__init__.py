@@ -1,0 +1,1 @@
+"""The collectivo-test-app."""

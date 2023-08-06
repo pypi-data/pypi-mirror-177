@@ -1,0 +1,24 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "collectivo"
+license = {text = "GNU Affero General Public License v3"}
+requires-python = ">=3.9"
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3"
+]
+dynamic = ["version", "dependencies"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["collectivo-test-app"]
+
+[tool.setuptools.dynamic]
+version = {attr = "collectivo.__version__"}
+dependencies = {file = "requirements_package.txt"}
+readme = {file = "readme.md"}
