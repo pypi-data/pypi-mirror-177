@@ -1,0 +1,12 @@
+CiceroCoder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CiceroCoder/cifraCesar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CiceroCoder/cifraCesar/alphabet.py,sha256=QfQYswa_tr2a4SECQJO2oAMFDjcvVe18iMbQnYuSb6A,364
+CiceroCoder/cifraCesar/decode.py,sha256=k38PK8BlmN8d3S5VfOwF-hyuBk8ixHidtci_B2x95Bc,588
+CiceroCoder/cifraCesar/encode.py,sha256=HVS-uPBxq6E2k5mmXbX-tkFOe-B2czn1gzuUu_JUzGA,587
+CiceroCoder/module2_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CiceroCoder/module2_name/file1_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CiceroCoder/module2_name/file2_name.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cicero_coder-0.0.1.dist-info/METADATA,sha256=pukj3WFlAvIp5evZ5Vvivh2X5hf59NVvFm1SsrqQ9RA,1197
+cicero_coder-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cicero_coder-0.0.1.dist-info/top_level.txt,sha256=IVtC5_LiKSUkMpXYZyT-fq0-iO_OgwGKDOIxUqCliEA,12
+cicero_coder-0.0.1.dist-info/RECORD,,
