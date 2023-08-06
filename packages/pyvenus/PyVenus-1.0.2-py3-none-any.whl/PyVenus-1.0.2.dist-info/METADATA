@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyVenus
+Version: 1.0.2
+Summary: A Python interface to the Venus environment, used to program Hamilton liquid handlers
+Home-page: https://github.com/sniprbiome/pyvenus
+Project-URL: Bug Tracker, https://github.com/sniprbiome/pyvenus/issues
+Project-URL: Changelog, https://github.com/sniprbiome/pyvenus/releases/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: pandas
+Requires-Dist: jinja2
+Requires-Dist: pyodbc
+Requires-Dist: openpyxl
+
