@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: teamscalerobotplugin
+Version: 0.0.2b0
+Summary: A plugin that allows integration into the RobotFramework in order to allow testwise coverage recording for TIA.
+License: Apache-2.0
+Project-URL: Documentation, https://docs.teamscale.com/
+Keywords: teamscale,robot,robotframework,robot framework,tia,testwise coverage,coverage
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Framework :: Robot Framework :: Tool
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
