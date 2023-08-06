@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+sage/graphs/mcqd.pyx
+sagemath_mcqd.egg-info/PKG-INFO
+sagemath_mcqd.egg-info/SOURCES.txt
+sagemath_mcqd.egg-info/dependency_links.txt
+sagemath_mcqd.egg-info/requires.txt
+sagemath_mcqd.egg-info/top_level.txt
