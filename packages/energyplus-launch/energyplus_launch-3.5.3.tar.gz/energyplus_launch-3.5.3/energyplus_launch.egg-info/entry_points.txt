@@ -1,0 +1,3 @@
+[console_scripts]
+eplaunch = eplaunch.tk_runner:main_gui
+
