@@ -1,0 +1,5 @@
+requests
+backoff
+acryl-datahub[datahub-rest]
+validators
+python-dateutil
