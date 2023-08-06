@@ -1,0 +1,15 @@
+lifehacks/metaclasses/__init__.py,sha256=nNrwHC_pjkGqukLiCMGhJeDHiPRQcSF59nZotar76Zw,515
+lifehacks/metaclasses/__main__.py,sha256=sc6vPeKrr_E4M8eHpAX4SSSwvPmQAAGuTE2xRpJ9a3w,697
+lifehacks/metaclasses/enum.py,sha256=tgKEE3djmaP9vbmAWP3NCKHgSJnFHO2imawyIGxITMg,1360
+lifehacks/metaclasses/enum.pyi,sha256=pZ-OP53vdBdt3Rp0oB9FqOoKKEcImfEAXeKU5aZxBkU,1375
+lifehacks/metaclasses/exceptions.py,sha256=st-1XdSfnaSa4sv3iZ4TyD8lI9_HQ5FvG-VN9TGxEfU,226
+lifehacks/metaclasses/meta.py,sha256=3DGmmCmC596LM11pF65FSP-JAxBMjRYESsKLKgegv-Y,963
+lifehacks/metaclasses/meta.pyi,sha256=QjgXL_wG22mjrXULieBRacXDxgJXH-6nXa0GBGGYjqg,832
+lifehacks/metaclasses/metadeco.py,sha256=dxUSrMg347kTPMZIUvTM9kqGvC7OM2LukpZTS1ZOAMw,1115
+lifehacks/metaclasses/metadeco.pyi,sha256=tjShnrSbXEWSqOEuSNIPZ70GknkjBPPjKqwa82vAtVs,381
+lifehacks/metaclasses/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lifehacks.metaclasses-1.2.2.dist-info/LICENSE.md,sha256=cJlQphWMhVX0JHKBFPCLCK-_p8grEq4SEea0PPZ2Bgw,184
+lifehacks.metaclasses-1.2.2.dist-info/METADATA,sha256=vopCzwRXG3v_olgWEqfKuwbsX-jpqIEuNs45zIhIEHo,3177
+lifehacks.metaclasses-1.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lifehacks.metaclasses-1.2.2.dist-info/top_level.txt,sha256=6I9wVBAO7EzzFVeg9voBpZcFl_LEhIGAASO6sE1gSkc,10
+lifehacks.metaclasses-1.2.2.dist-info/RECORD,,
