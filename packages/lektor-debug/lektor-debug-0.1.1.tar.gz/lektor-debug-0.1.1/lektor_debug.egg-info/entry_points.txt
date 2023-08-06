@@ -1,0 +1,2 @@
+[lektor.plugins]
+debug = lektor_debug:DebugPlugin
