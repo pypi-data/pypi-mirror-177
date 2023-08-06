@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: noglobal
+Version: 1.0.4
+Summary: My python utility functions
+Author-email: Tatsuhiko Nakamine <bilzard@example.com>
+Project-URL: Homepage, https://github.com/bilzard/noglobal
+Project-URL: Bug Tracker, https://github.com/bilzard/noglobal/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# noglobal
+
+This python package provides the `@noglobal` decorator which prohibits the use of global variables from the function scope.
+
+## Install
+
+```bash
+pip install noglobal
+```
+
+## Usage
+
+```python
+import os.path as osp
+from noglobal import NoGlobal
+noglobal = NoGlobal(globals()).noglobal
+
+foo = 3
+
+def bar():
+    return "bar"
+
+@noglobal
+def f():
+    print(osp.join("foo", "bar"))
+    print(bar())
+    print(foo)
+
+f()
+```
+```
+foo/bar
+bar
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Input In [1], in <cell line: 16>()
+     13     print(bar())
+     14     print(foo)
+---> 16 f()
+
+Input In [1], in f()
+     12 print(osp.join("foo", "bar"))
+     13 print(bar())
+---> 14 print(foo)
+
+NameError: name 'foo' is not defined
+```
+
+## FAQ
+
+### How all this works?
+
+The function with `@noglobal` decorator are re-created as a `type.FunctionType` object, with no global variables.
+
+### All globals are affected?
+
+No. Althogh this package name is "noglobal", the globals below are not affected:
+1. modules
+2. callable objects (which means the objects which have `__call__` method)
+
+Thus you can not bother importing already imported modules everytime, and so on for the funcsions or classes.
+
+### Can we use explicit global variables?
+
+No. Functions with the `@noglobal` decorator also disallow the explicit use of global variables. That is, if you update a variable bound by a `global` declaration within a function, the original global variable will not be affected.
+The following code prints `10` on the standard output.
+
+```python
+bar = 10
+
+@noglobal
+def foo():
+    global bar
+    bar = 11
+foo()
+print(bar)
+```
+
+### What happens for the nested functions?
+
+Nested functions in the function decorated with `@noglobal` are also affected.
+For example, the code below returns error:
+
+```python
+buzz = 11
+
+@noglobal
+def foo():
+    def bar():
+        print(buzz)
+    bar()
+
+foo()
+```
+
+```
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In [8], line 1
+----> 1 foo()
+
+Cell In [7], line 5, in foo()
+      3 def bar():
+      4     print(buzz)
+----> 5 bar()
+
+Cell In [7], line 4, in foo.<locals>.bar()
+      3 def bar():
+----> 4     print(buzz)
+
+NameError: name 'buzz' is not defined
+```
+
+## Attribution
+
+Based on the source codes:
+- originally posted in StackOverflow: (CC BY-SA 3.0)
+  - skyking: https://stackoverflow.com/questions/31023060/disable-global-variable-lookup-in-python/31047259#31047259
+  - Glenn Maynard: https://stackoverflow.com/questions/4858100/how-to-list-imported-modules/4858123#4858123
+- later modified by
+  - Axel Huebl: https://gist.github.com/ax3l/59d92c6e1edefcef85ac2540eb056da3
+  - yoshipon: https://gist.github.com/yoshipon/3adba8cc5d7daac6c3256c9163f48920
+  - raven38: https://gist.github.com/raven38/4e4c3c7a179283c441f575d6e375510c
