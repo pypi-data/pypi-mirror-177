@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xblock-drag-and-drop-v2
+Version: 2.7.0
+Summary: XBlock - Drag-and-Drop v2
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: XBlock
+Requires-Dist: xblock-utils
+Requires-Dist: bleach
+
+UNKNOWN
+
+
