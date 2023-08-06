@@ -1,0 +1,4 @@
+requests
+python-snappy
+protobuf<3.20.1
+prometheus-api-client
