@@ -1,0 +1,6 @@
+supyr_struct
+threadsafe_tkinter>=1.0.4
+tkcolorpicker
+
+[bitmap_viewing]
+arbytmap
