@@ -1,0 +1,8 @@
+certbot_dns_dreamhost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_dreamhost/dns_dreamhost.py,sha256=hOd5eRKur0vcwAZT6eAI-V76jzjTna0UJrEDTZOzmWc,6403
+certbot_dns_dreamhost-0.3.0.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+certbot_dns_dreamhost-0.3.0.dist-info/METADATA,sha256=8z4Kuc96om6ekRm3GvJBS6QVQ2sJRXrg5EXwE4-U2-Q,414
+certbot_dns_dreamhost-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+certbot_dns_dreamhost-0.3.0.dist-info/entry_points.txt,sha256=TrcyeDX1jbUTU3aS-O0JCGgt2Lq7u7PdjYZ1Q_MpVAM,84
+certbot_dns_dreamhost-0.3.0.dist-info/top_level.txt,sha256=uadMQXKHEO2J8OzODeNl3zB4s-74qfb7lAV_JXm3Qy0,22
+certbot_dns_dreamhost-0.3.0.dist-info/RECORD,,
