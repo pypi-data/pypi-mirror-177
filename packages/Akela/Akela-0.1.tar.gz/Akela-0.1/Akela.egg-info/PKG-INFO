@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Akela
+Version: 0.1
+Summary: Offline browser converting HTML to Markdown
+Home-page: UNKNOWN
+Author: sherekhan at pypi.org
+Author-email: sherekhan@jungle.tes
+License: GNU GPL3+
+Description: Akela
+        =====
+        
+        Akela - программа, которая скачивает веб-страницы и сохраняет их в
+        формате Markdown.
+        
+        Использование
+        -------------
+        
+        `Akela url path`
+        
+        Программа создаст папку ~/.akela/library для 
+        сохранения файлов.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Natural Language :: Russian
+Description-Content-Type: text/markdown
