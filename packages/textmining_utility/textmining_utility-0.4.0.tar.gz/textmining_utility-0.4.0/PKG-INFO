@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: textmining_utility
+Version: 0.4.0
+Summary: textmining package that uses existing libraries
+Author-email: Roxanne El Baff <roxanneelbaff@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Requires-Dist: spacy_arguing_lexicon
+Requires-Dist: numpy
+Requires-Dist: nltk
+Requires-Dist: gensim>=3.8.1
+Requires-Dist: spacy
+Requires-Dist: wordcloud
+Requires-Dist: matplotlib
+Requires-Dist: empath
+Requires-Dist: pyLDAvis
+Requires-Dist: scikit_learn
+Requires-Dist: torchvision
+Requires-Dist: pyarrow
+Requires-Dist: simpletransformers
+Requires-Dist: tqdm
+Project-URL: Home, https://github.com/roxanneelbaff/textmining_tool
+
+## Textmining and others
