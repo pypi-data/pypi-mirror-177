@@ -1,0 +1,10 @@
+setup.py
+otsuwinAPI/__init__.py
+otsuwinAPI/user32.py
+otsuwinAPI.egg-info/PKG-INFO
+otsuwinAPI.egg-info/SOURCES.txt
+otsuwinAPI.egg-info/dependency_links.txt
+otsuwinAPI.egg-info/top_level.txt
+otsuwinAPI/constants/__init__.py
+otsuwinAPI/constants/hWndInsertAfter.py
+otsuwinAPI/constants/uFlags.py
