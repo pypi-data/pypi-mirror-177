@@ -1,0 +1,4 @@
+include a_pandas_ex_adb_to_df/requirements.txt
+include a_pandas_ex_adb_to_df/thirdparty.json
+include a_pandas_ex_adb_to_df/README.MD
+include a_pandas_ex_adb_to_df/LICENSE
