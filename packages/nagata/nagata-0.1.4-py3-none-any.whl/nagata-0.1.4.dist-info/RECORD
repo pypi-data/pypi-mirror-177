@@ -1,0 +1,7 @@
+nagata/__init__.py,sha256=3KgJI405Ehsy6rVqrVpVTwXC6VRNwoMIPhsBZGBJEgg,2465
+nagata/core.py,sha256=IjsaWjw4MX6zK1ZGrC84Q-6N0AkfgkTi_BKanP7hVvU,23575
+nagata/formats.py,sha256=J3-XBIYshevK0rWcQOGgiFoBk-ZwdT6LaxheULEYPRM,21524
+nagata/lazy.py,sha256=s7Ggo9gFhA-oCMsACaF81AX5FScTDzwiTM2n9D0sl0k,10028
+nagata-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+nagata-0.1.4.dist-info/METADATA,sha256=hIBwckgoqyIfVSXz_VhqNIYL1Mz5N_FZt9n_-NpAjdQ,1048
+nagata-0.1.4.dist-info/RECORD,,
