@@ -1,0 +1,11 @@
+distrans/__init__.py,sha256=KKsdDfOQOK1PrpzvvY0lylbqcbpQBfXQV6uzdG4QvNA,91
+distrans/exceptions.py,sha256=EqLjI1mN4_IrW87zmAMIvYMjzqNovvcrDWxB3B_wSxI,233
+distrans/formatting.py,sha256=rI2mpJqP9tyYoci8FaPcC7Eg6QpcSygudz58-klpB3Q,2080
+distrans/main.py,sha256=nUvURc51mOc16ijx4HRuE-QUM-xZzxPoaDBreZ1-A6g,5993
+distrans/snake.py,sha256=xjtzRYcvK5PLkNIaESzkEGPvanqf9tOoZMezv1eZmGw,2978
+distrans/type.py,sha256=UzcJxVRazLpGKn3ptF_TUwcOnBTyAdoEbf471rY0CKc,58
+distrans-1.1.1.dist-info/METADATA,sha256=QBTKqDDrOwwH3lm4OyzFT5GHZy9ZVZ1vGpChwiAbWYk,2530
+distrans-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+distrans-1.1.1.dist-info/license.txt,sha256=blDehosNgNf1sfHlpdfhqQeq9qaXWuQGA4Dm7BXuvKg,1090
+distrans-1.1.1.dist-info/top_level.txt,sha256=Qb-YcPXtDinI6IZ8erMWr2-Fh6m_5ZhpyStkwCWI1ZM,9
+distrans-1.1.1.dist-info/RECORD,,
