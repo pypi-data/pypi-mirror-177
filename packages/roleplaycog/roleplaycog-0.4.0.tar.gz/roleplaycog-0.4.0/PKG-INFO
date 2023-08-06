@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: roleplaycog
+Version: 0.4.0
+Summary: Roleplay cog for py-cord
+Home-page: https://github.com/mariohero24/roleplaycog
+Author: Guard Boi
+Author-email: guard@cow.futbol
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Roleplay Cog
+This package is a cog edition of [my roleplay bot repository](https://github.com/mariohero24/Roleplay-Bot)
+## Usage
+In your bot's cogs directory, make a new file named `roleplay.py` and enter:
+```py
+from roleplaycog.roleplay import cog
+
+def setup(bot):
+	bot.add_cog(cog(bot))
+```
+Or if you want the commands to be in a slash command group named `roleplay`, import from `roleplaygrouped` instead.
+
+In your main bot file:
+```py
+bot.add_extension("cogs.roleplay")
+```
+From there you are set!
