@@ -1,0 +1,4 @@
+[console_scripts]
+willspeak=willspeak.cli:entrypoint
+willspeak-srv=willspeak.cliwin:server
+
