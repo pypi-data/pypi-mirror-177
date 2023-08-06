@@ -1,0 +1,23 @@
+[section]
+	- "foo"
+	- "bar"
+	- 123
+	7: true
+	- (0.1)
+	- -22.2
+	- -12
+	<William's classes>
+		"CPSC DATASTRUCTURES"
+		"CPSC DATABASES AND FILESTRUCTURES"
+	<->
+	<Ludia's classes:{FOO}:>
+		"CHEMISTRY"
+		"PYTHON/JAVA"
+	<->
+
+	[names/ages]
+		"William":22
+		"Ludia":21
+	[-]
+	- 333
+[-]
