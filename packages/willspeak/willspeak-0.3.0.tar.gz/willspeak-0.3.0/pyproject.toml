@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "willspeak"
+version = "0.3.0"
+description = "Python Text to Speach using Microsoft Sapi5 with a server/client model"
+authors = ["willforde <willforde@gmail.com>"]
+readme = "README.md"
+license = "GPL-2.0-only"
+repository = "https://github.com/willforde/willspeek.git"
+keywords = ["tts", "sapi5", "speech", "voice"]
+packages = [
+    { include = "willspeak", from = "src" },
+]
+classifiers = [
+    "Natural Language :: English",
+    "Development Status :: 3 - Alpha",
+    "Environment :: No Input/Output (Daemon)",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio :: Sound Synthesis",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyperclip = "^1.8.2"
+pyaudio = "^0.2.12"
+comtypes = {version = "^1.1.14", platform = "win32"}
+pydantic = "^1.10.2"
+aiohttp = "^3.8.3"
+requests = "^2.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+willspeak = "willspeak.cli:entrypoint"
