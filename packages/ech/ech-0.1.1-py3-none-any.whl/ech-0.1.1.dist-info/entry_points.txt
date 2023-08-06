@@ -1,0 +1,2 @@
+[console_scripts]
+ech = ech:main
