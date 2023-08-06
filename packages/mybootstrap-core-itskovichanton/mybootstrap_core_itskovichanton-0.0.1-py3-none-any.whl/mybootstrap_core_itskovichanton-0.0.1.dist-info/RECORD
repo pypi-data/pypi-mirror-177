@@ -1,0 +1,12 @@
+src/mybootstrap_core_itskovichanton/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/mybootstrap_core_itskovichanton/alerts.py,sha256=SQIigPVhEF-tfD-sqPNZNn5YO94sPQytVDWAGqapcDI,2577
+src/mybootstrap_core_itskovichanton/app.py,sha256=HSUoXIJjVQPez5OQ9Qm_jDZ_BOWm0kQ4jOSYFpyTslE,352
+src/mybootstrap_core_itskovichanton/config.py,sha256=pQNfmI8vdO9sc-oTRjnUFDhtJZnPTjgQA7u0ajyh6Rw,2094
+src/mybootstrap_core_itskovichanton/di.py,sha256=nvcQ2m7AbGh3LnAuh7q_b7_ifPtdnOueexuAlc2KqWw,993
+src/mybootstrap_core_itskovichanton/email_service.py,sha256=EjK4aJg3f7Cg6uF2v2fn1m02ibClIENi23DlzJYy0Vc,1941
+src/mybootstrap_core_itskovichanton/fr.py,sha256=IyPnvkgCX8U719pe88fTON6rlgyBvt6nimIFApOc-Ys,1041
+src/mybootstrap_core_itskovichanton/utils.py,sha256=KtWUApAkP5uINukPQiFTJlZ7A3T0QbDOc6tOyUWWG9Y,197
+mybootstrap_core_itskovichanton-0.0.1.dist-info/METADATA,sha256=JcyinTwsJt5BVAIAGK_ya407uzlA6URaGNJQ1q2X4V0,541
+mybootstrap_core_itskovichanton-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+mybootstrap_core_itskovichanton-0.0.1.dist-info/licenses/LICENCE,sha256=UcUOLl_MiQM4GpOo_f4iMcBN29WhoBTSw52Bscs4ZnY,1091
+mybootstrap_core_itskovichanton-0.0.1.dist-info/RECORD,,
