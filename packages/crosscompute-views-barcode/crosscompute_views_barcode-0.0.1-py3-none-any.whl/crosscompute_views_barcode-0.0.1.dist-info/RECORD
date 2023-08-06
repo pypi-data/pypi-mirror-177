@@ -1,0 +1,13 @@
+crosscompute_views_barcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crosscompute_views_barcode/constants.py,sha256=rE3hhsMDOUWK1zL825hm8v0bthYtwPthGcdoW7oDgdo,250
+crosscompute_views_barcode/routines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crosscompute_views_barcode/routines/variable.py,sha256=ZyXNB194jum0BrCS-xFukyL-7WUIk5J5GLXp9l11zFI,1755
+crosscompute_views_barcode/templates/barcode.html,sha256=s9cBqhy7I46GyQL-8cpF1cHX1l7GtJURvyQ1ZTxs94A,111
+crosscompute_views_barcode/templates/barcode.js,sha256=R4r_SR8BimSLSq4BV6vIa-ZUKlCNj5leBGGLq2T0HmU,448
+crosscompute_views_barcode-0.0.1.dist-info/LICENSE.md,sha256=KVZHOdCYf6XLfQmdW-XaFYLAlEQKKHJjjSZvMlcZ58I,1057
+crosscompute_views_barcode-0.0.1.dist-info/METADATA,sha256=l5l_FDhIb-Ggkll2BJ_lwMeNfzg8JdT81UFujGT7RRc,1644
+crosscompute_views_barcode-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+crosscompute_views_barcode-0.0.1.dist-info/entry_points.txt,sha256=CB9hmhbgxJtwSBZ5TSeZOTrOXcZQ2Igw9S6gftMjfK4,88
+crosscompute_views_barcode-0.0.1.dist-info/top_level.txt,sha256=XnMAKhAW9squ3GF2ikMGoJrtsHnveG0_f-f5zUxu8QI,27
+crosscompute_views_barcode-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+crosscompute_views_barcode-0.0.1.dist-info/RECORD,,
