@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+edbojz/__init__.py
+edbojz/acquisition.py
+edbojz/model.py
+edbojz/optimizer.py
+edbojz/optimizer_botorch.py
+edbojz/scope_generator.py
+edbojz/utils.py
+edbojz.egg-info/PKG-INFO
+edbojz.egg-info/SOURCES.txt
+edbojz.egg-info/dependency_links.txt
+edbojz.egg-info/requires.txt
+edbojz.egg-info/top_level.txt
