@@ -1,0 +1,8 @@
+README.md
+setup.py
+test.py
+redlog.egg-info/PKG-INFO
+redlog.egg-info/SOURCES.txt
+redlog.egg-info/dependency_links.txt
+redlog.egg-info/requires.txt
+redlog.egg-info/top_level.txt
