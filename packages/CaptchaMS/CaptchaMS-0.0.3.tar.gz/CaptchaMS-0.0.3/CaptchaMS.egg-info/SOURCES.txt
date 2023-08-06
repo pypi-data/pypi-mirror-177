@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+CaptchaMS/CaptchaMS.py
+CaptchaMS/__init__.py
+CaptchaMS.egg-info/PKG-INFO
+CaptchaMS.egg-info/SOURCES.txt
+CaptchaMS.egg-info/dependency_links.txt
+CaptchaMS.egg-info/requires.txt
+CaptchaMS.egg-info/top_level.txt
