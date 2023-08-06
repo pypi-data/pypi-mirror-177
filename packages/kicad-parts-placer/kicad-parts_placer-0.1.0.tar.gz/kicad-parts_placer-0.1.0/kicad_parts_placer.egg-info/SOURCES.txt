@@ -1,0 +1,9 @@
+README.md
+setup.py
+kicad_parts_placer.egg-info/PKG-INFO
+kicad_parts_placer.egg-info/SOURCES.txt
+kicad_parts_placer.egg-info/dependency_links.txt
+kicad_parts_placer.egg-info/entry_points.txt
+kicad_parts_placer.egg-info/requires.txt
+kicad_parts_placer.egg-info/top_level.txt
+kicad_parts_placer.egg-info/zip-safe
