@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+first/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+first/first_level.py,sha256=gDiREZMCMtlu9JQRuNzsWNM1xN9qT6pyYbnI9N5Z2EA,117
+second/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+second/second_level.py,sha256=FdhU5mfjiMrTMgHg3cTyTnYtEtwxBOg_KM5G_B6GH94,221
+third/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+third/third_level.py,sha256=DQbzAOuP8kMfL8KYBcr5kK7wUFvulsKnw9ZyGbQK2_c,225
+example_package_vajain-0.0.1.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+example_package_vajain-0.0.1.dist-info/METADATA,sha256=BE_V37vu17qbbFDs3eewdJdKaGj5mD3cDH9WPooqr0Q,556
+example_package_vajain-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+example_package_vajain-0.0.1.dist-info/top_level.txt,sha256=xaq01ftpToxZL68rbpm73nOE2ZsgsCEKnVyGM9h5Vb8,36
+example_package_vajain-0.0.1.dist-info/RECORD,,
