@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: entity-classification
+Version: 0.1.2
+Summary: Perform Intent Classification using a list of Entities
+Home-page: https://github.com/craigtrim/entity-classification
+License: MIT
+Keywords: nlp,nlu,ai,classification,intents
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Maintainer: Craig Trim
+Maintainer-email: craigtrim@gmail.com
+Requires-Python: >=3.8.5,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: baseblock
+Project-URL: Repository, https://github.com/craigtrim/entity-classification
+Description-Content-Type: text/markdown
+
+# entity-classification
+
+Perform Entity Classification via two inputs: `entity_names: list` and `input_tokens: list`
+
+Assume you wish to classify `network_topology` and you have these tokens extracted from your text:
+```python
+[
+    'edge', 
+    'network',
+    'moderate', 
+    'cat5', 
+    'topology', 
+    'locate'
+]
+```
+
+Use this code
+```python
+from entity_classification import classify
+
+classify(entity_names=['network_topology'], input_tokens=input_tokens)
+```
+
+The result will be
+```python
+{
+    'result': ['network_topology'],
+    'tokens': ['network', 'topology']
+}
+```

@@ -1,0 +1,11 @@
+entity_classification/__init__.py,sha256=_CaP-bC6RzwI0SAr1-IAR2tTHEU-3waMihu2De2Z4j0,261
+entity_classification/bp/__init__.py,sha256=-YcF4VjQ2EKhicLY7imEom8Z_Z8JC4pXHKlPeXicU-o,53
+entity_classification/bp/entity_orchestrator.py,sha256=-ZSLiKjBIFh-usAbBvRXddi_66Vm1_AmO5gMXrOH1Do,3779
+entity_classification/dmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+entity_classification/svc/__init__.py,sha256=CWZsz7Sp93H3I-gNJbHWCGHlUPh6qF_X1ofFybAU5kQ,164
+entity_classification/svc/analyze_entity_names.py,sha256=VM04EGccWErSMrjBobHLf7DSHd_ClH0mmR_hTbG7lLw,1669
+entity_classification/svc/find_entity_triggers.py,sha256=6qFjQbQ7RJgqxyjBzovGSZphetlMB4fnnqRIosT90T0,1091
+entity_classification/svc/form_entity_inference.py,sha256=1Lh52Dt5hJ1xArWvfFyiHYr6-lgxutqqwPrEbFVoXAw,1594
+entity_classification-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+entity_classification-0.1.2.dist-info/METADATA,sha256=a3PJ70lE6sWV-CCyB0sU6znRZ6ybW7NJ61fH902_edE,1502
+entity_classification-0.1.2.dist-info/RECORD,,
