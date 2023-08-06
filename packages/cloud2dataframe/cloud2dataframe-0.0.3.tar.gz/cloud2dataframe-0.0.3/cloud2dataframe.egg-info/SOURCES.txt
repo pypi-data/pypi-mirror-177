@@ -1,0 +1,5 @@
+setup.py
+cloud2dataframe.egg-info/PKG-INFO
+cloud2dataframe.egg-info/SOURCES.txt
+cloud2dataframe.egg-info/dependency_links.txt
+cloud2dataframe.egg-info/top_level.txt
