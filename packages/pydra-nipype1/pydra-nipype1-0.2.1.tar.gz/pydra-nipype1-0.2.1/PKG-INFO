@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pydra-nipype1
+Version: 0.2.1
+Summary: Tools for importing nipype 1.x interfaces into Pydra
+Keywords: pydra,nipype
+Author-email: Chris Markiewicz <markiewicz@stanford.edu>
+Maintainer-email: Ghislain Vaillant <ghislain.vaillant@icm-institute.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: pydra >=0.6.2
+Requires-Dist: nipype
+Requires-Dist: attrs >=21.3.0
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: pytest>=4.4.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: homepage, https://github.com/nipype/pydra-nipype1
+Project-URL: repository, https://github.com/nipype/pydra-nipype1
+Provides-Extra: dev
+Provides-Extra: test
+
+# Nipype 1 Tasks for Pydra
+
+[![PyPI version](https://badge.fury.io/py/pydra-nipype1.svg)](https://badge.fury.io/py/pydra-nipype1)
+[![github](https://github.com/nipype/pydra-nipype1/actions/workflows/pythonpackage.yml/badge.svg)](https://github.com/nipype/pydra-nipype1/actions/workflows/pythonpackage.yml)
+[![codecov](https://codecov.io/gh/nipype/pydra-nipype1/branch/main/graph/badge.svg?token=WP83ZHM410)](https://codecov.io/gh/nipype/pydra-nipype1)
+
+[Pydra](https://nipype.github.io/pydra/) is a redesign of the Nipype dataflow
+engine, and the core of the emerging
+[Nipype 2 ecosystem](https://github.com/nipype).
+
+This is a task package, a set of Pydra Tasks that inhabits the
+`pydra.tasks.*` namespace, to ease wrapping Nipype 1 Interfaces.
+
+Additional tools for migrating from Nipype 1 to Pydra may find their home here.
+
+## Installation
+
+```
+pip install pydra-nipype1
+```
+
+## Usage
+
+```
+from pydra.tasks.nipype1.utils import Nipype1Task
+from nipype.interfaces import fsl
+
+thresh = Nipype1Task(fsl.Threshold())
+res = thresh(in_file=fname, thresh=0.5)
+```
+
+## For developers
+
+Install repo in developer mode from the source directory. It is also useful to
+install pre-commit to take care of styling via black:
+
+```
+pip install -e .[dev]
+pre-commit install
+```
+
