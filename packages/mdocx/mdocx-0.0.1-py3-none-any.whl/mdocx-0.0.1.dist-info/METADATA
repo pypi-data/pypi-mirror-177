@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mdocx
+Version: 0.0.1
+Summary: mdocx is a tool/package for convert markdown to docx
+Home-page: https://github.com/matrixji/mdocx
+Author: Ji Bin
+Author-email: matrixji@live.com
+License: Apache License
+Platform: all
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
