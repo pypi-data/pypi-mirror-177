@@ -1,0 +1,8 @@
+pytest_zest/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_zest/__init__.py,sha256=qUJYmbATFBNE9DR8LkDrP6mu6rXh5i80m_xgCmZPSYU,47
+pytest_zest/hooks.py,sha256=mkOAK5f6sZIw4-OuhENUDCvbxL4lAfFudmQRDyM7KkM,241
+pytest_zest-0.0.1.dist-info/entry_points.txt,sha256=wuTEY8kKqXmhmyVF9SSk49ap6vs8sIiKesW5nPIVBw4,29
+pytest_zest-0.0.1.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+pytest_zest-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pytest_zest-0.0.1.dist-info/METADATA,sha256=YVd42Vqqj_ZimU-OVk2SvhrdYzHAUKYw4ebXHxP4ABQ,335
+pytest_zest-0.0.1.dist-info/RECORD,,
