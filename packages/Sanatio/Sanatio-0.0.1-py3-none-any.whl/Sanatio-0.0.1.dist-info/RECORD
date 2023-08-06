@@ -1,0 +1,12 @@
+Sanatio-0.0.1.data/data/assets/country.json,sha256=rDQTO5cC4qWhyX-Z3WJjie6zAEoHMDlZxsFmMm3VU7o,30994
+Sanatio-0.0.1.data/data/assets/regex.json,sha256=bXYtNGDQ9EzUYBNRtSugboGmF0MqWt-scQYh7SESQ2g,1181
+sanatio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sanatio/main.py,sha256=sliYTUNI-1vAPqCBixxwwVb1meImknylkjmprRcY_3M,14407
+sanatio/utils.py,sha256=PFurYVXy71MMuEj5BMUsr-SnsUUkBjExQUhaOTVHHQA,670
+sanatio/assets/country.json,sha256=rDQTO5cC4qWhyX-Z3WJjie6zAEoHMDlZxsFmMm3VU7o,30994
+sanatio/assets/regex.json,sha256=bXYtNGDQ9EzUYBNRtSugboGmF0MqWt-scQYh7SESQ2g,1181
+Sanatio-0.0.1.dist-info/LICENSE,sha256=yX-iqIKvKvlr4uCo92uu0h1TihuGT6FbLNJT3AkhW5w,11545
+Sanatio-0.0.1.dist-info/METADATA,sha256=WF7lphlfT1CEiwS9rXML-MOz0Z4bIouI0YXkS5YsO4k,1494
+Sanatio-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Sanatio-0.0.1.dist-info/top_level.txt,sha256=OzDU8qyiaKIhYuWNlwPZ4hGT2kYyhta1TQr8UOmxehM,8
+Sanatio-0.0.1.dist-info/RECORD,,

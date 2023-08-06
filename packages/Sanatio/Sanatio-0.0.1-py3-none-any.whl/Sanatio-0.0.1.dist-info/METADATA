@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Sanatio
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Py-Contributors/validator.py
+Author: Deepak Raj
+Author-email: deepak008@live.com
+License: UNKNOWN
+Project-URL: Documentation, https://pycontributors.readthedocs.io/projects/morse/en/latest/
+Project-URL: Source, https://github.com/Py-Contributors/validator.py
+Project-URL: Tracker, https://github.com/Py-Contributors/validator.py/issues
+Keywords: audiobook
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: python-Levenshtein (==0.20.8)
+
+<h1 align="center"><a href="#">Sanatio</a></h1>
+Sanatio is a latin word which mean Validation.
+
+Document/String/Number/Date/Email/Username/Password Validator for Python. Inspired by [validator.js](https://github.com/validatorjs/validator.js).
+
+## Installation
+
+```bash
+pip install sanatio
+```
+
+## Documentation
+
+Check out the [documentation](https://validator-py.readthedocs.io/en/latest/index.html) for more information.
+
+After the stable release, we will add more countries.
+Support us by giving a ⭐️ to this repository and follow us for more updates. 
+
+## Roadmap
+
+Check out the [roadmap](https://github.com/py-contributors/sanatio/ROADMAP.MD) for more information.
+
+
