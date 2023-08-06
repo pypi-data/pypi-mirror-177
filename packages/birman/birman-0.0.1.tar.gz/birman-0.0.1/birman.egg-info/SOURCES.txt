@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+birman/__init__.py
+birman/decoder.py
+birman/encoder.py
+birman.egg-info/PKG-INFO
+birman.egg-info/SOURCES.txt
+birman.egg-info/dependency_links.txt
+birman.egg-info/top_level.txt
