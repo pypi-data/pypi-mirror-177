@@ -1,0 +1,17 @@
+spirit_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spirit_extras/calculation_folder.py,sha256=f3stet80zJovgAl4CYqgVLwOySqFA9Effyuvk9lMSsw,5496
+spirit_extras/chain_io.py,sha256=i28l9_84RNvm1SL9qiCfWl5_yw2RWk_fOJECOvibtDo,3445
+spirit_extras/configurations.py,sha256=yf03mRa-P2ft4Hi52-BC_z9tkZvlX3uafv0LKluWIy4,4167
+spirit_extras/data.py,sha256=xl22p3R_PeEbk506NZY2b6Gzjy6eDx8ED9oFG8IhLzc,8085
+spirit_extras/gneb_workflow.py,sha256=qBeJQtT-RalRev6YO00AZXOPDg3oLxPpXtHcXCs5N68,35150
+spirit_extras/import_spirit.py,sha256=Bal-Lgkqegn_Xo3F3joY9zzGs8dNp6ebipeFzhMtHdQ,4410
+spirit_extras/memory_monitor.py,sha256=LyDSKXwBJ-rDv8cnquVtlnaTpd0T3cIMkBMjBk536W0,2678
+spirit_extras/plotting.py,sha256=-l2FL9etG0gurvd8WW64ywJd4rlIYiU1_2UsE3Td_Ck,14446
+spirit_extras/post_processing.py,sha256=fwDnrbP0tE4EX5dUMDrAsNTp4OcvlWj14KxoaVol5Dc,10662
+spirit_extras/pyvista_plotting.py,sha256=K8-Q43WO4s6SlsHXl8yZ9kaQPkMXh1BakpUo7AEcS5Q,13780
+spirit_extras/util.py,sha256=-PLXj7Vey_ODB7hJBln72ThFbcrAfUDhBY43jyOK9zw,1823
+spirit_extras-0.0.22.dist-info/LICENSE,sha256=kTi3lfZX6zIXSBJ4cxqB33mcWCWOJBasrViytDfo-GI,1056
+spirit_extras-0.0.22.dist-info/METADATA,sha256=GZAn7FmK4SmtlsNXGL0an09ju_Tzi_N3HJoDrKXUkug,635
+spirit_extras-0.0.22.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+spirit_extras-0.0.22.dist-info/top_level.txt,sha256=V6TrI80wtB6ZWekVAoltZ1-0yPnnfY5-ckIdD5InHC4,14
+spirit_extras-0.0.22.dist-info/RECORD,,
