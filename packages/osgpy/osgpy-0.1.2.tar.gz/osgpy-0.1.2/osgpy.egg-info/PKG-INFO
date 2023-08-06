@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: osgpy
+Version: 0.1.2
+Summary: Python utilities of the Operating System Group
+Home-page: http://github.com/tuhhosg/osgpy
+Author: Christian Dietrich
+Author-email: christian.dietrich@tuhh.de
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+OSG Python Tools
+======================
+
+The Operating System Group: https://osg.tuhh.de
+
+This repository has multiple targets. It is
+
+1. An opinionated selection of Python packages that we want to use for
+   managing our experiments and data.
+
+2. An collection of small functions that we use for looking at said
+   data.
+
+Installation
+------------
+
+## Just install without local checkout and code editing possibility
+     pip3 install git+https://github.com/tuhhosg/osgpy
+
+## With local code checkout and code changes have immediate effects
+	git clone git@github.com:tuhhosg/osgpy.git
+	cd osgpy
+	pip3 install -e .

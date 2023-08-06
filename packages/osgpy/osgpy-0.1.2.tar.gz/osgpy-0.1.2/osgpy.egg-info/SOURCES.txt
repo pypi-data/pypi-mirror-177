@@ -1,0 +1,12 @@
+README.md
+setup.py
+./requirements.txt
+osg/__init__.py
+osg/pandas.py
+osg/plot.py
+osgpy.egg-info/PKG-INFO
+osgpy.egg-info/SOURCES.txt
+osgpy.egg-info/dependency_links.txt
+osgpy.egg-info/not-zip-safe
+osgpy.egg-info/requires.txt
+osgpy.egg-info/top_level.txt
