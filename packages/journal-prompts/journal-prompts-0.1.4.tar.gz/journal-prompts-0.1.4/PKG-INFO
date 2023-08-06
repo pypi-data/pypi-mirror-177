@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: journal-prompts
+Version: 0.1.4
+Summary: Corpus of Random Journal Prompts
+Home-page: https://github.com/craigtrim/journal-prompts
+License: None
+Keywords: nlp,text,corpus,prompts
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Maintainer: Craig Trim
+Maintainer-email: craigtrim@gmail.com
+Requires-Python: >=3.8.5,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: baseblock
+Project-URL: Bug Tracker, https://github.com/craigtrim/journal-prompts/issues
+Project-URL: Repository, https://github.com/craigtrim/journal-prompts
+Description-Content-Type: text/markdown
+
+# Journal Prompts
+A corpus of journal prompts with a finder facade
+
+### Usage
+```python
+from journal_prompts import find_random_question
+
+find_random_question()
+```
+Each function call returns a single random question.
+
+### Results
+```
+What's the funniest brand name you've ever seen?
+Have you ever broken a safety rule? What was it?
+What's the most ridiculous warning sign you've ever seen?
+Have you ever tried to lick your elbow?
+...
+Do you believe in UFOs, and have you seen one?
+```
+
+### Corpus Size
+```python
+from journal_prompts import corpus_size
+assert corpus_size() == 3642
+```
+
