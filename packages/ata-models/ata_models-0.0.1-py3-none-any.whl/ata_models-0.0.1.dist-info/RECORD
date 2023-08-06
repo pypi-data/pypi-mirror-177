@@ -1,0 +1,8 @@
+ata_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ata_models/helpers.py,sha256=Mke_JS0sD1KQtaGfwipx2pN4HACdiLpDtslgsQK3Wlc,5187
+ata_models/init_db.py,sha256=AX9e9zXt6IPquzKhhRttZhsbmSU3XmoCQPX38TE0_FM,3061
+ata_models/models.py,sha256=2oGAQK8_Y9-2gHgUxGYFICECxu3e4BhzAt5zi3ZK_8I,3068
+ata_models-0.0.1.dist-info/LICENSE,sha256=ChZGHhL4VlW6ASbC7aiJHgVkbbF9DA8VKGZWp-CgoT8,1070
+ata_models-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ata_models-0.0.1.dist-info/METADATA,sha256=k8Sn5NEcyhA4GqACA4c8b2BVzCAj1TVV__VYZSOn1vY,5225
+ata_models-0.0.1.dist-info/RECORD,,
