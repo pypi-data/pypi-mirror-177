@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: comoresolve
+Version: 0.1.0
+Summary: Utilitário para encontrar soluções para problemas no Python
+Home-page: https://github.com/eduardoklosowski/comoresolve
+License: MIT
+Author: Eduardo Klosowski
+Author-email: eduardo_klosowski@yahoo.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Project-URL: Repository, https://github.com/eduardoklosowski/comoresolve
+Description-Content-Type: text/markdown
+
+# Como Resolve?
+
+Utilitário para encontrar soluções para problemas no Python.
+
+## Instalação
+
+Instale o pacote `comoresolve`. Exemplo:
+
+```sh
+pip install comoresolve
+```
+
+## Uso
+
+Utilize o comando `comoresolve` como se fosse o interpretador do Python. Exemplo:
+
+```sh
+# Para:
+python meu_arquivo.py
+# Execute:
+comoresolve meu_arquivo.py
+
+# Para:
+python -m meu_modulo
+# Execute:
+comoresolve -m meu_modulo
+```
+
