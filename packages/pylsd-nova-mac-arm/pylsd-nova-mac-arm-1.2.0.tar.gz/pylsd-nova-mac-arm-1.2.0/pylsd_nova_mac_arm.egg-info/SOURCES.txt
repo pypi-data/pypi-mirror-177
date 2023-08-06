@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pylsd/__init__.py
+pylsd/lsd.py
+pylsd/bindings/__init__.py
+pylsd/bindings/lsd_ctypes.py
+pylsd/lib/darwin/arm64/liblsd.dylib
+pylsd/lib/darwin/x64/liblsd.dylib
+pylsd/lib/linux/liblsd.so
+pylsd/lib/win32/x64/liblsd.dll
+pylsd/lib/win32/x86/liblsd.dll
+pylsd_nova_mac_arm.egg-info/PKG-INFO
+pylsd_nova_mac_arm.egg-info/SOURCES.txt
+pylsd_nova_mac_arm.egg-info/dependency_links.txt
+pylsd_nova_mac_arm.egg-info/top_level.txt
