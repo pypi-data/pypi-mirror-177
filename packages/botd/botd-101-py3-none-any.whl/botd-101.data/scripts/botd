@@ -1,0 +1,48 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116,C0413
+
+
+"24/7 channel daemon"
+
+
+__version__ = "101"
+
+
+import os
+import time
+
+
+from bot.object import Wd
+from bot.handler import scan
+from bot.util import wait
+from bot.irc import Config
+
+
+from bot import cmds, irc, rss
+
+
+Config.channel = "#botd"
+Config.nick = "botd"
+Config.username = "botd"
+Config.realname = "24/7 channel daemon"
+
+
+Wd.workdir = "/var/lib/botd/"
+
+
+starttime = time.time()
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+def main():
+    irc.init()
+    rss.init()
+    wait()
+
+
+main()
