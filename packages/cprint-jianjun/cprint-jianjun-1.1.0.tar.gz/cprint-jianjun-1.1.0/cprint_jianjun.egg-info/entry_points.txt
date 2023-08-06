@@ -1,0 +1,4 @@
+[console_scripts]
+cpdemo = cprint:_demo
+cpshow = cprint:_cpshow
+cpshoww = cprint:_cpshoww
