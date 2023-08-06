@@ -1,0 +1,16 @@
+dbnomics_pptx_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbnomics_pptx_tools/charts.py,sha256=dEqn6dfJAhx1XR0Iiab_ktaKnskV4GHSyhQjsllRPhY,5194
+dbnomics_pptx_tools/cli.py,sha256=tcmmX4Q270hzQcx6NCqJ5p5B0xxvhohyGZf5bYkAEsw,4479
+dbnomics_pptx_tools/dbnomics_api.py,sha256=-7E14R8ZWZDO9JMPzUH0A4kKraOFlltpTKorlqLCZKs,2995
+dbnomics_pptx_tools/formatters.py,sha256=IkaMSMrFJf0o6cFTeofHNBByoCLTYOHaqyHLJWsbLg8,485
+dbnomics_pptx_tools/metadata.py,sha256=a79byATaTJKMX3TknPMOKLzd4hANC1yCLE_PY0b4YDY,4016
+dbnomics_pptx_tools/module_utils.py,sha256=9_-sewAo4gRltbQEOX31Y7kJpqlTdfrQhw1VqPsmj1Q,719
+dbnomics_pptx_tools/parsing.py,sha256=tCtwpw_lcf6W7rceBCM0VvRS-6OnhaVK9Yyq8zjn50Y,252
+dbnomics_pptx_tools/pptx_copy.py,sha256=pMXr0KNBSGeMs2hzTIxO8Xm4c10DWr_KZbbz38SI3Io,10578
+dbnomics_pptx_tools/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbnomics_pptx_tools/slides.py,sha256=F46enZ8qAwl0M0b29fUWZaboeptcPcxl4TYIeWv7tHQ,5574
+dbnomics_pptx_tools/tables.py,sha256=aGJVBs_umkZevSKXzLz1_4B3NG3PoawbRjw4VljuaTM,7877
+dbnomics_pptx_tools-0.1.1.dist-info/entry_points.txt,sha256=MoFr8ya_Tn6NGwJ4Gs4oqBNHMlReYbuFRRG8zHBICV8,61
+dbnomics_pptx_tools-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dbnomics_pptx_tools-0.1.1.dist-info/METADATA,sha256=kSRe6V5unJ8tcGn32C5Q0s15ghtraWZ1Rp4uXW_W-jk,4704
+dbnomics_pptx_tools-0.1.1.dist-info/RECORD,,
