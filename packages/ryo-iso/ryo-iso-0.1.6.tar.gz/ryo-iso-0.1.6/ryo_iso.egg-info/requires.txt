@@ -1,0 +1,8 @@
+appdirs
+delegator.py
+doit
+importlib_resources
+loguru
+pyyaml
+requests
+tqdm
