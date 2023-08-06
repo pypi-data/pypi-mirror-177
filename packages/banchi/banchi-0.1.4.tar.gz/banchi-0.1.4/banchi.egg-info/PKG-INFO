@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: banchi
+Version: 0.1.4
+Summary: Financial securities valuation library.
+Keywords: convertible,bond,SPAC,warrant,securities,quant
+Description-Content-Type: text/markdown
+Provides-Extra: reports
+Provides-Extra: dev
+
+# Welcome to the Banchi python library
+
+## Getting started
+
+If you haven't already, you can install the banchi python library via `pip`. 
+
+`pip install banchi`
