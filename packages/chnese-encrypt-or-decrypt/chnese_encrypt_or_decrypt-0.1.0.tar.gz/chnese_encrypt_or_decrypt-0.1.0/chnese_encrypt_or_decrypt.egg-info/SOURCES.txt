@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chnese_encrypt_or_decrypt.egg-info/PKG-INFO
+chnese_encrypt_or_decrypt.egg-info/SOURCES.txt
+chnese_encrypt_or_decrypt.egg-info/dependency_links.txt
+chnese_encrypt_or_decrypt.egg-info/top_level.txt
+decrypt/__init__.py
+decrypt/__version__.py
+decrypt/decrypt.py
+encrypt/__init__.py
+encrypt/__version__.py
+encrypt/encrypt.py
