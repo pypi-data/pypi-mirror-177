@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+XTTOOLS/__init__.py
+XTTOOLS/xtjson.py
+XTTOOLS.egg-info/PKG-INFO
+XTTOOLS.egg-info/SOURCES.txt
+XTTOOLS.egg-info/dependency_links.txt
+XTTOOLS.egg-info/requires.txt
+XTTOOLS.egg-info/top_level.txt
