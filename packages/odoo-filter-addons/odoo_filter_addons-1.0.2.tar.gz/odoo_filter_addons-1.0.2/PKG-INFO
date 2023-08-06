@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: odoo_filter_addons
+Version: 1.0.2
+Summary: Simple utlity to filter odoo addons into a single directory
+Author-email: Pablo Esteban <pablo.esteban@forgeflow.com>
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: Operating System :: POSIX
+Classifier: Framework :: Odoo
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
