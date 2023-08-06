@@ -1,0 +1,3 @@
+[console_scripts]
+djtodo-cli=djtodo_cli.djtodo.djtodo:cli
+
