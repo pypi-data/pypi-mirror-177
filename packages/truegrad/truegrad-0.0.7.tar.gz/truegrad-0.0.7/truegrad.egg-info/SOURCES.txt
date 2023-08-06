@@ -1,0 +1,13 @@
+LICENSE
+README.md
+build.sh
+setup.py
+truegrad/__init__.py
+truegrad/functional.py
+truegrad/nn.py
+truegrad/optim.py
+truegrad/utils.py
+truegrad.egg-info/PKG-INFO
+truegrad.egg-info/SOURCES.txt
+truegrad.egg-info/dependency_links.txt
+truegrad.egg-info/top_level.txt
