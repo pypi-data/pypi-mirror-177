@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+fastedit/Composing.py
+fastedit/Errors.py
+fastedit/Medias.py
+fastedit/__init__.py
+fastedit.egg-info/PKG-INFO
+fastedit.egg-info/SOURCES.txt
+fastedit.egg-info/dependency_links.txt
+fastedit.egg-info/requires.txt
+fastedit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_Composing.py
+tests/test_Medias.py
