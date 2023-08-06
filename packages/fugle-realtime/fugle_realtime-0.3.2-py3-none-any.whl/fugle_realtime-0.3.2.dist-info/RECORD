@@ -1,0 +1,13 @@
+fugle_realtime/__init__.py,sha256=TYPGJAdHnVkWyl3RfIYkUq95PNP7hBrnDw19Tu1D5sM,105
+fugle_realtime/base_client.py,sha256=1D3ODM9Gy0CUYv0HsxSki-glKpyx3xx-9GAsnrp5Iuw,362
+fugle_realtime/http_client/__init__.py,sha256=VChKttGrrNw-Ke0Gya8aqmcKkKjosPwk5UwB4IvOrUc,35
+fugle_realtime/http_client/http_client.py,sha256=stzEs0buvkPAlUIcmOwMz5nBdUL4uCkZsC5PA-VK_RU,375
+fugle_realtime/http_client/intraday.py,sha256=NSZVXbnP-hcOc74kOzJuruHOFnvWsIIthCmsau5xMqA,1010
+fugle_realtime/websocket_client/__init__.py,sha256=baMgIfvIt7CIqCiu38O16whtS3k2Cs5rdczrOyJPWVI,46
+fugle_realtime/websocket_client/intraday.py,sha256=wuj9GhGc9OS_IPsF1rH1Z_pulm9Pck8WT6ARKMKtTBs,1234
+fugle_realtime/websocket_client/websocket_client.py,sha256=zJAjaCsqVP9e4JFs8K8jQNN-Em3ikxm1Yt1-NsUZ8Qw,374
+fugle_realtime/websocket_client/ws.py,sha256=Hx4ArpPAcl_WbiLpsHBr5-mUYc1GrgDuRiN6ns2NPOQ,1359
+fugle_realtime-0.3.2.dist-info/LICENSE,sha256=eQEAOUMT6uzW9forbtD7exNUvju2HqOPB2pcj_UWrYc,1096
+fugle_realtime-0.3.2.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+fugle_realtime-0.3.2.dist-info/METADATA,sha256=1lEJyFg33-E1Mw4OLAyvwrKWb5nQJTwIozRox-3-zmw,2601
+fugle_realtime-0.3.2.dist-info/RECORD,,
