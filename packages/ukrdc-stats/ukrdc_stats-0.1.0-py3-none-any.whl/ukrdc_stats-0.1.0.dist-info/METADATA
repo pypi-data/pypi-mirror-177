@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ukrdc-stats
+Version: 0.1.0
+Summary: A package to produce stats from the ukrdc database to be displayed on the dashboard
+Home-page: https://github.com/renalreg/dashboard-stats
+License: MIT
+Author: Philip Main
+Author-email: Philip.Main@renalregistry.nhs.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (>=1.4.40,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0)
+Requires-Dist: pydantic (>=1.10.1,<2.0.0)
+Requires-Dist: ukrdc-sqla (>=1.11.0,<2.0.0)
+Project-URL: Repository, https://github.com/renalreg/dashboard-stats
+Description-Content-Type: text/markdown
+
+# Dashboard Statistics Library
+
+Library for generating statistics for the ukrdc dashboard
+
+[![Test](https://github.com/renalreg/dashboard-stats/actions/workflows/main.yml/badge.svg)](https://github.com/renalreg/dashboard-stats/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/renalreg/dashboard-stats/branch/master/graph/badge.svg?token=Ay8mk0zrKj)](https://codecov.io/gh/renalreg/dashboard-stats)
+
+## Developer notes
+
+### Installation
+
+```bash
+poetry install
+```
+
+### Iterating version numbers
+
+The library should follow [semantic versioning](https://semver.org/).
+
+[Use Poetry to set the application version.](https://python-poetry.org/docs/cli/#version)
+
+E.g. `poetry version patch` for fix releases, `poetry version minor` for new functionality releases, or `poetry version major` for breaking-change releases.
+
+### Running the demo notebooks
+
+Install additional demo notebook dependencies with
+
+```bash
+poetry install --with demo
+```
+
