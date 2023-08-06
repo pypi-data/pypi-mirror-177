@@ -1,0 +1,16 @@
+biblescrapeway/__init__.py,sha256=GjWMw-ubbIgVo9y5lAyYtVclU0JsSwB5bXRKrzM4nfU,254
+biblescrapeway/cache.py,sha256=I_6FcgpQPxPQVycI5uh8FkghEjAH0oGT6cCJyDI4hH0,5486
+biblescrapeway/cleaner.py,sha256=lgfGwWkdqTIyZFk8_KuMGoo31ou-F6buKclDDBGQ4wk,275
+biblescrapeway/cli.py,sha256=VQBGLYt4NgHVmW3Kh3taQD6I_n2OeNnxGjedJOTY514,1350
+biblescrapeway/constants.py,sha256=KtVg6_65zSXXT3pp1J5lSJtDyzpxVSJH78mlwEYyeck,2099
+biblescrapeway/errors.py,sha256=WR7XNnRFQso-N9OanYKCPlB4rlQiZmqjiesXuTRYQeo,190
+biblescrapeway/query.py,sha256=E-H2w2MKWaRTkyaY2Ikofl0ZfLvwr_78eakG9em5GXA,2487
+biblescrapeway/reference.py,sha256=8VyB1J6S8XU0roUPBIi3omETgEg7mGA2Kxpw_23zkLA,8385
+biblescrapeway/scraper.py,sha256=W5y93nXySvZugmTfYAfIdp9kLLhCrV6SC75HrWWp2rg,6651
+biblescrapeway/version.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+biblescrapeway-0.1.5.dist-info/LICENSE,sha256=utj9eaJWX1IMXY0IpTbEplfpXg7sCWLE4bDpRNye0Sg,1081
+biblescrapeway-0.1.5.dist-info/METADATA,sha256=9pm204JRw3G-ew3SkgP7ZkkpXXi9_wr1nNhTLBWpKt4,3628
+biblescrapeway-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+biblescrapeway-0.1.5.dist-info/entry_points.txt,sha256=tJ7X-W5WOfHUFISquHLZSya3ekH-8SvxkxKMSgEHfPo,68
+biblescrapeway-0.1.5.dist-info/top_level.txt,sha256=FYWo3gkAGKGZZ6LwJH32jsOxrZ_qznWrJDyx8-MEj9o,15
+biblescrapeway-0.1.5.dist-info/RECORD,,
