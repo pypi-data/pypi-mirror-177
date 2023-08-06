@@ -1,0 +1,6 @@
+README.md
+setup.py
+algmonbody.egg-info/PKG-INFO
+algmonbody.egg-info/SOURCES.txt
+algmonbody.egg-info/dependency_links.txt
+algmonbody.egg-info/top_level.txt
