@@ -1,0 +1,12 @@
+README.md
+setup.py
+CRISPRbean.egg-info/PKG-INFO
+CRISPRbean.egg-info/SOURCES.txt
+CRISPRbean.egg-info/dependency_links.txt
+CRISPRbean.egg-info/requires.txt
+CRISPRbean.egg-info/top_level.txt
+beige/__init__.py
+beige/model.py
+beige/plotting/__init__.py
+beige/readwrite/__init__.py
+bin/CRISPRbean
