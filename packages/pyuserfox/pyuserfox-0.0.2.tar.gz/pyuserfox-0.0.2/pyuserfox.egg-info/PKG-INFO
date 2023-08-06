@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyuserfox
+Version: 0.0.2
+Summary: Python command-line parsing library
+Home-page: https://github.com/ThomasWaldmann/argparse
+Author: James root
+Author-email: jamesroot7@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+The argparse module makes it easy to write user friendly command line interfaces.
+
+The program defines what arguments it requires, and argparse will figure out how 
+to parse those out of sys.argv. The argparse module also automatically generates 
+help and usage messages and issues errors when users give the program invalid arguments.
+
+As of Python >= 2.7 and >= 3.2, the argparse module is maintained within the Python 
+standard library. For users who still need to support Python < 2.7 or < 3.2, it is also 
+provided as a separate package, which tries to stay compatible with the module in the 
+standard library, but also supports older Python versions.
+
+Also, we can fix bugs here for users who are stuck on some non-current python version, 
+like e.g. 3.2.3 (which has bugs that were fixed in a later 3.2.x release).
+
+
+Bugs
+
+If you find a bug in argparse (pypi), please try to reproduce it with latest python 2.7 and 3.4 (and use argparse from stdlib).
+
+If it happens there also, please file a bug in the python.org issue tracker. If it does not happen there, file a bug in the argparse package issue tracker.
