@@ -1,0 +1,7 @@
+marko==1.2.2
+requests>=2.0.0
+
+[tests]
+pytest
+pytest-xdist
+pytest-cov
