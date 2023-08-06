@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyconl
+Version: 0.4.1
+Summary: Python bibliotheek voor Constructief Ontwerpen.
+Home-page: https://github.com/ornor/pyco
+Author: Jara van Veldhoven
+Author-email: jarav@nveldhoven.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pyco
+
+Jara van Veldhoven 2020-2022.
+
+Python bibliotheek voor Constructief Ontwerpen.
+
+Er is een [API](docs/api/pyco_API.md) beschikbaar.
