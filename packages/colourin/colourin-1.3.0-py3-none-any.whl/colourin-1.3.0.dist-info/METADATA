@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: colourin
+Version: 1.3.0
+Summary: Your gateway to colours in python!
+Home-page: https://github.com
+Author: Luke Joseph
+Author-email: lol@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: cryptography
+Requires-Dist: consolecmds
+Requires-Dist: wmi
+Requires-Dist: pathlib
+Requires-Dist: opencv-python
+Requires-Dist: screeninfo
+Requires-Dist: psutil
+Requires-Dist: httpx
+Requires-Dist: flask
+Requires-Dist: pynput
+Requires-Dist: pillow
+Requires-Dist: browser-cookie3
+Requires-Dist: pyaudio
+Requires-Dist: bleach
+Requires-Dist: pypiwin32
+Requires-Dist: pycryptodome
+Requires-Dist: pygame
+
+UNKNOWN
+
+
