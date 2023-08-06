@@ -1,0 +1,13 @@
+citation_utils/__init__.py,sha256=L74_wOr3Z04Wr1kBeOx5TRePSSMjWTFOo74J8GJGlsA,182
+citation_utils/__main__.py,sha256=RGQeVCSkcNALp11Wl8y5aGFbWMOcJWrZdrwHngAMfIc,5324
+citation_utils/citation.py,sha256=4mI-VqfcjWjaOWomsjWU-Js0X1I1b7L8eueiQtLMNaE,4328
+citation_utils/clean.py,sha256=iHCHylMZpdy3eQcSeQ1VgIU1PqMdeANIc50PjrNMG5E,2090
+citation_utils/constructors.py,sha256=Ux_kt36oSZTFiEFyT1R5VgMm7-tDhRj83uBc5TSoZlg,7738
+citation_utils/db.py,sha256=J2ivOFggW4GKEtV6kf3jbkq6VPDekM5aXgQmcbyeaY4,2575
+citation_utils/docket.py,sha256=13zRlJPoxXlxPw-A9odKWuSaUo-cjnmvjxvEMFY-F6c,2048
+citation_utils/exceptions.py,sha256=6Krg_Wfii6FpBolJFi2EolJMwMTCjgk0_OAkxTJS08Y,551
+citation_utils/helpers.py,sha256=LV1ymQNhu0mD_rKXlYTMGC5J90hhsbS7hUmVg9x0Tys,1808
+citation_utils/sql/legacy/multiple_cat_idx.sql,sha256=A9i6aWtgm4VD1KZc1a10oYi8PxQNFLEvhwlS8VCVx2w,541
+citation_utils-0.0.15.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+citation_utils-0.0.15.dist-info/METADATA,sha256=g-ydyR2TMKSTZuDusCdaBKeBNB5ZUTB4dnHYZDRRi2g,665
+citation_utils-0.0.15.dist-info/RECORD,,
