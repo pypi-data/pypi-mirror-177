@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+SmithWagnerCV/Methods.py
+SmithWagnerCV/__init__.py
+SmithWagnerCV.egg-info/PKG-INFO
+SmithWagnerCV.egg-info/SOURCES.txt
+SmithWagnerCV.egg-info/dependency_links.txt
+SmithWagnerCV.egg-info/requires.txt
+SmithWagnerCV.egg-info/top_level.txt

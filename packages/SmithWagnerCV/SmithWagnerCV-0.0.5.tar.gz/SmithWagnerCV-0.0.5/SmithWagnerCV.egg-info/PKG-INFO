@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SmithWagnerCV
+Version: 0.0.5
+Summary: Produces critical values for value-added learning scores proposed in Smith and Wagner (2018) through Monte Carlo simulations.
+Home-page: https://github.com/tazzben/SmithWagnerCV
+Download-URL: https://github.com/tazzben/SmithWagnerCV/archive/v0.0.5.tar.gz
+Author: Ben Smith
+Author-email: bosmith@unomaha.edu
+License: MIT
+Keywords: Monte Carlo,Value-added Learning,Statistics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
