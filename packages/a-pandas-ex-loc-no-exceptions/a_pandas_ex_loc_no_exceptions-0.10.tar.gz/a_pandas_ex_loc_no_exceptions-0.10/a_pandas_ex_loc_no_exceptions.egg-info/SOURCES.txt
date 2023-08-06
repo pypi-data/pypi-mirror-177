@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_loc_no_exceptions/LICENSE
+a_pandas_ex_loc_no_exceptions/README.MD
+a_pandas_ex_loc_no_exceptions/__init__.py
+a_pandas_ex_loc_no_exceptions/requirements.txt
+a_pandas_ex_loc_no_exceptions/thirdparty.json
+a_pandas_ex_loc_no_exceptions.egg-info/PKG-INFO
+a_pandas_ex_loc_no_exceptions.egg-info/SOURCES.txt
+a_pandas_ex_loc_no_exceptions.egg-info/dependency_links.txt
+a_pandas_ex_loc_no_exceptions.egg-info/requires.txt
+a_pandas_ex_loc_no_exceptions.egg-info/top_level.txt
