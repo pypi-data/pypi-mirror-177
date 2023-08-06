@@ -1,0 +1,5 @@
+tickerdax:
+  routes:
+    into-the-block/predictions: ["BTC", "LTC"]
+  start: 2022-11-13T00:00:00
+  timeframe: 1h
