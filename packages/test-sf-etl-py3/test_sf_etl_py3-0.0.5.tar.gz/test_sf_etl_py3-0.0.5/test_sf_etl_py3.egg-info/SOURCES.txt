@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+sf_etl_py3/Bot.py
+sf_etl_py3/SfQy.py
+sf_etl_py3/Utils.py
+sf_etl_py3/_SfSql.py
+sf_etl_py3/_Sfconfig.py
+sf_etl_py3/__init__.py
+test/test1.py
+test/test2.py
+test_sf_etl_py3.egg-info/PKG-INFO
+test_sf_etl_py3.egg-info/SOURCES.txt
+test_sf_etl_py3.egg-info/dependency_links.txt
+test_sf_etl_py3.egg-info/requires.txt
+test_sf_etl_py3.egg-info/top_level.txt
