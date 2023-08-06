@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: dastyletools
+Version: 0.0.2
+Summary: 一些简单的工具方法
+Home-page: UNKNOWN
+Author: da
+Author-email: 3205727707@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# dastyletools
+
+## 使用dastyletools
+```
+pip install dastyletools
+```
+
+```python
+from dastyletools import tools
+```
+
+## 打包python模块
+
+### 安装必要的模块
+```
+pip install setuptools
+pip install wheel
+pip3 install twine
+```
+
+### 创建~/.pypirc文件并且进行一些配置
+在[pypi](https://pypi.org/)注册你的账号
+```
+[distutils]
+index-servers = pypi
+
+[pypi]
+username:xxx
+password:xxx
+```
+
+```
+# 生成gz压缩包跟wheel文件，可以直接用pip install安装
+python setup.py sdist bdist_wheel       
+# 直接源码编译与安装    
+python setup.py build install           
+```  
+
+### [上传源码到pypi](https://www.xiexianbin.cn/python/pypi/publish-python-package-to-pypi/index.html)
+```
+twine upload dist/*
+```  
+
