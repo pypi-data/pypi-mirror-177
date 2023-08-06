@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mongodb_toolbox
+Version: 0.0.3
+Summary: Tools to automate mongodb read/write operations.
+Home-page: https://github.com/lorien/mongodb_toolbox
+Download-URL: https://github.com/lorien/mongodb_toolbox/releases
+Author: Gregory Petukhov
+Author-email: lorien@lorien.name
+Maintainer: Gregory Petukhov
+Maintainer-email: lorien@lorien.name
+License: MIT
+Keywords: mongodb database
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# MongoDB Toolbox
+
+Tools to automate mongodb read/write operations.
