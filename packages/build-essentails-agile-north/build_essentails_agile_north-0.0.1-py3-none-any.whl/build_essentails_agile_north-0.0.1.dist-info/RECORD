@@ -1,0 +1,6 @@
+src/build-essentials-agile-north/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/build-essentials-agile-north/devutils/__init__.py,sha256=goNY_cfMxsc8JiFMBxF9VVzoPHGYb3DBjVg0TroXcIE,530
+src/build-essentials-agile-north/devutils/devutils.py,sha256=PPJK0AbCLGOKxfRxOgaCULTejFkuOBZu_2ArWBCyT5E,6886
+build_essentails_agile_north-0.0.1.dist-info/METADATA,sha256=_PirgLsv7S_xAno-_HIpN4mfwXxfyj73RnuDH0U-MW4,797
+build_essentails_agile_north-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+build_essentails_agile_north-0.0.1.dist-info/RECORD,,
