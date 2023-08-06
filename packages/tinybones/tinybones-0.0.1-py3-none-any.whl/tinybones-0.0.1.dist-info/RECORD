@@ -1,0 +1,9 @@
+tinybones/__init__.py,sha256=zKKJL72IINRlWC5zEVNtZ2OF-UrRuSeqp2rDf_sz8l0,57
+tinybones/columns.py,sha256=FT2jlNBNgYuwYIyKo39NCKJ86xMnVkjCQN2fYEzl3NI,24
+tinybones/rows.py,sha256=1jIYYIjZnou8cfq9C4TPP_CU-XoCnZ3yHniNNq7YScM,22
+tinybones/table.py,sha256=3KLms1KSKaoF-Mw9Se2_8bTGdLVCVj3fEVGo-h3AuwU,236
+tinybones/value.py,sha256=BfSqZZZehcG55Bxkppd75FUFyWbLKqhhCFAF9Lxheu4,108
+tinybones-0.0.1.dist-info/METADATA,sha256=8l-E3tkCuqmPzEpasPZuJ2BSZ1tGeNSSFDPkZUCGuSA,984
+tinybones-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tinybones-0.0.1.dist-info/top_level.txt,sha256=hhGI3KQxMvgUnzOcwdHPCjKsZB0R-PUZxMT2px9hWxI,10
+tinybones-0.0.1.dist-info/RECORD,,
