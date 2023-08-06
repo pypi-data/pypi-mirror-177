@@ -1,0 +1,12 @@
+setup.py
+BetterryguysFirstPackage/__init__.py
+BetterryguysFirstPackage/add.py
+BetterryguysFirstPackage/subtract.py
+BetterryguysFirstPackage.egg-info/PKG-INFO
+BetterryguysFirstPackage.egg-info/SOURCES.txt
+BetterryguysFirstPackage.egg-info/dependency_links.txt
+BetterryguysFirstPackage.egg-info/top_level.txt
+BetterryguysFirstPackage/extras/__init__.py
+BetterryguysFirstPackage/extras/divide.py
+BetterryguysFirstPackage/extras/multiply.py
+BetterryguysFirstPackage/extras/power.py
