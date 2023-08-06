@@ -1,0 +1,5 @@
+BetterPrinting
+pyaudio
+pyautogui
+pynput
+Pillow
