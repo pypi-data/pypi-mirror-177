@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pypleski
+Version: 0.0.3
+Summary: Simplified API access of the PLESK XML API
+Home-page: https://codingcow.de/pypleski
+Author: Uli Toll
+Author-email: pypleski@codingcow.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+UNKNOWN
+

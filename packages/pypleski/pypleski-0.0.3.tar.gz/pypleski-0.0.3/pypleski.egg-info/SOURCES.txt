@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+pypleski/__init__.py
+pypleski/core.py
+pypleski/managers.py
+pypleski.egg-info/PKG-INFO
+pypleski.egg-info/SOURCES.txt
+pypleski.egg-info/dependency_links.txt
+pypleski.egg-info/requires.txt
+pypleski.egg-info/top_level.txt
