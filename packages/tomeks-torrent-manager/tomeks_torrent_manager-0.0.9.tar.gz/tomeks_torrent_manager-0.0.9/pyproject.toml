@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+  "hatchling"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "tomeks_torrent_manager"
+version = "0.0.9"
+authors = [
+  { name="Tomek", email="thomas.r.waller@gmail.com" },
+]
+description = "My torrent manager"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "beautifulsoup4==4.10.0",
+  "requests==2.28.1",
+  "pytimeparse==1.1.8",
+  "datasize==1.0.0",
+  "tqdm",
+  "transmission-clutch==6.0.3",
+  "feedparser==6.0.10"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
