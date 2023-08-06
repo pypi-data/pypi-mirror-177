@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+crgoauth/__init__.py
+crgoauth/auth.py
+crgoauth/getauth.py
+crgoauth/math.py
+crgoauth.egg-info/PKG-INFO
+crgoauth.egg-info/SOURCES.txt
+crgoauth.egg-info/dependency_links.txt
+crgoauth.egg-info/requires.txt
+crgoauth.egg-info/top_level.txt
