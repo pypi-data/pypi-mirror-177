@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools<63"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tuos_its_sphinx_theme"
+version = "0.0.1"
+authors = [
+  { name="Sheffield University IT Services Research IT", email="research-it@sheffield.ac.uk" },
+]
+description = "A Sphinx theme for the Sheffield University IT Services Research IT documentation pages."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rcgsheffield/tuos_its_sphinx_theme/"
+"Bug Tracker" = "https://github.com/rcgsheffield/tuos_its_sphinx_theme/issues"
