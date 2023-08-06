@@ -1,0 +1,13 @@
+PyroXd
+aiohttp
+asyncio
+gitpython
+heroku3
+pymediainfo
+python-decouple
+python-dotenv
+requests
+telethon==1.24.0
+tgcrypto
+tracemoepy
+urllib3
