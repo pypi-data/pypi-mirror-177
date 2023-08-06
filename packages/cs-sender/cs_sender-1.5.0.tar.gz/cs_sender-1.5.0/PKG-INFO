@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cs_sender
+Version: 1.5.0
+Summary: scrapy extension for spider monitor web framework cralwer-studio
+Author: liuxianglong
+Author-email: liu_xianglong@live.com
+Maintainer: liuxianglong
+Maintainer-email: liu_xianglong@live.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# CS-Sender
+scrapy extension for spider monitor web framework cralwer-studio
+
+
+## Install
+```
+pip install cs-sender
+```
+
+## Usage 
+Config following settings to settings.py of scrapy project
+```
+CS_BACKEND = http://localhost:8000
+CS_API_TOKEN = '6452c52c4acee2044fe9d953467e6e45be1f367c'
+EXTENSIONS = {
+    'cs_sender.ScrapyMonitor': 802
+}
+```
