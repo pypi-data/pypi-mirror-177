@@ -1,0 +1,15 @@
+beancount
+pandas
+
+[dev]
+beanahead[tests]
+mypy
+pip-tools
+pre-commit
+pylint
+
+[tests]
+black
+flake8
+flake8-docstrings
+pytest
