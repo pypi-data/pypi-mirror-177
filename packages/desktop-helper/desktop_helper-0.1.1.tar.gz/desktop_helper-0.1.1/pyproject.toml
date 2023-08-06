@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "desktop-helper"
+version = "0.1.1"
+authors = [
+  { name="Haonan Lin", email="zflinhaonan@gmail.com" },
+]
+description = "A simple desktop helper for various kinds of tedious jobs on your desktop."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+  "PyQt6 >= 6.4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BARaphael/desktop-helper"
+"Bug Tracker" = "https://github.com/BARaphael/desktop-helper/issues"
