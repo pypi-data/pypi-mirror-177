@@ -1,0 +1,19 @@
+[Global]
+contrast_enhance_method = "clahe"
+# debias_params_func = "[300,3,3x3x3,3]" # for MSC
+warp_direction = "y"
+skip_synthtarget_affine = true
+bandwidth = 6 # ABCD data uses 6, MSC data uses 10
+distortion_correction_step_size = [3.0, 1.0, 0.1]
+distortion_correction_shrink_factors = "4x3x2x1"
+distortion_correction_smoothing = "2x1x0x0"
+field_variance = 2
+use_initializing_warp = true
+
+[omni_pipeline]
+use_allineate = true
+atlas = "trio"
+data_resolution = 3.0
+combine_sessions = false # false for ABCD data, true for MSC data
+single_rest_run = true
+
