@@ -1,0 +1,8 @@
+some_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+some_tool/some_tool.py,sha256=7n1tGjBDDwbM4HGHWU_jzHs5kv2tM7IpV3DW4bCP3U0,304
+some_tool/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+some_tool/tests/test_some_tool.py,sha256=gk4bq3CTIZyjbK-kEUhDbNbtHqLksHMDfAoXxa4y8W4,686
+some_tool_mbrochh-0.0.1.dist-info/METADATA,sha256=Do4WpL0mOsQ7E9FZLEg7g0vt2oaoR5c8GS8lLoA-Ybc,473
+some_tool_mbrochh-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+some_tool_mbrochh-0.0.1.dist-info/licenses/LICENSE,sha256=sw5R9x7YiaESz--wct2pp-gEY_aBiJlnEMnoPHzU0m4,1075
+some_tool_mbrochh-0.0.1.dist-info/RECORD,,
