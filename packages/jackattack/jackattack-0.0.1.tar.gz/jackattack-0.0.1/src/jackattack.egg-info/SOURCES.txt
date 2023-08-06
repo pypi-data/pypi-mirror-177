@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/jackattack.py
+src/jackattack.egg-info/PKG-INFO
+src/jackattack.egg-info/SOURCES.txt
+src/jackattack.egg-info/dependency_links.txt
+src/jackattack.egg-info/top_level.txt

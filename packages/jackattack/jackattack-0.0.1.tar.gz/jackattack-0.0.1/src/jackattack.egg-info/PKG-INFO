@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: jackattack
+Version: 0.0.1
+Summary: An attack class for Jack
+Home-page: https://github.com/jackrmcshane/jackattack
+Author: Jack McShane
+Author-email: jackrmcshane@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Jack Attack
+
+<br>
+
+A repository for the purposes of learning to create python libraries and implements the JackAttack class.
+<br>
+Methods for instantiation:
+* Install through the Python Package Index
+*  Cloning this repository directly
+
+
+#### PyPi Installation
+---
+From your command line, run:
+<br>
+`pip install jackattack`
+
+#### Cloning the Repo
+---
+In your working directory, use your command line to run:
+<br>
+`git clone https://github.com/jackrmcshane/jackattack.git`
+
+#### Usage
+---
+```python
+from jackattack import JackAttack
+
+jack = JackAttack()
+jack.attack()
+...
+jack.run()
+```
+
+#### Output
+---
+```
+Jack attacks you.
+Jack attacks you.
+Jack attacks you.
+You die.
+...
+You scare Jack.
+He runs away.
+```
+
+
+#### Developing jackattack
+---
+To install jackattack along with the tools you will need to develop and run tests, run the following in your virtual environment:
+
+```bash
+pip install -e .[dev]
+```
+
