@@ -1,0 +1,9 @@
+import libcst
+from typing import Any
+from viktor._codemod.helpers import collect_class_attributes as collect_class_attributes, match_controller_class as match_controller_class
+
+class Visitor(libcst.CSTVisitor): ...
+
+class Transformer(libcst.CSTTransformer):
+    def __init__(self, visitor: Any) -> None: ...
+    def leave_ClassDef(self, original_node: Any, updated_node: Any): ...
