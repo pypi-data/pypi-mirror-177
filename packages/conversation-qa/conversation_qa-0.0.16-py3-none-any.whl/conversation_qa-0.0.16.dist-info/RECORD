@@ -1,0 +1,8 @@
+conversation_qa/__init__.py,sha256=Nj76U09yz-aJaWENI2el7lBKwV4kl8qvvtWUoeRvK1o,74
+conversation_qa/qa.py,sha256=GOdC5RXj1QcEdpZXGmffd440lIZreIYrGqa50RcF-WI,1101
+conversation_qa/upload_to_hf.py,sha256=RfRi9KvtJDTgGMRYbH5HbWTWab7bwfV-mHahrtokCM4,511
+conversation_qa/utils.py,sha256=6seper33Isl5WLDXg9wJmFuKGu9fT2F-qHxpsZ6uF-g,1280
+conversation_qa-0.0.16.dist-info/METADATA,sha256=E3CjvA2GAwqxzEE8UZZ0pu9iqfd6WIKD7yEXhg7JE1A,868
+conversation_qa-0.0.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+conversation_qa-0.0.16.dist-info/top_level.txt,sha256=vWgsPEz6_b9iHKyQHGWxR6cO7j3AB7CfUBktfgvcNGc,16
+conversation_qa-0.0.16.dist-info/RECORD,,
