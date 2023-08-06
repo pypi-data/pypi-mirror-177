@@ -1,0 +1,3 @@
+[console_scripts]
+sobo=icb.main.main:main
+

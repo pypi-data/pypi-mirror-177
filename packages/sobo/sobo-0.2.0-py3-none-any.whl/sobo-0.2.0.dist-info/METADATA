@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: sobo
+Version: 0.2.0
+Summary: Regioselectivity of the iridium-catalyzed borylation.
+Author: Caldeweyher, Eike
+Author-email: e.caldeweyher@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (==8.1.3)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: joblib (==1.2.0)
+Requires-Dist: kallisto (==1.0.9)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: pillow (==9.3.0)
+Requires-Dist: pygments (==2.13.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.6)
+Requires-Dist: rdkit (==2022.9.1)
+Requires-Dist: rich (==12.6.0)
+Requires-Dist: scikit-learn (==1.1.1)
+Requires-Dist: scipy (==1.9.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: threadpoolctl (==3.1.0)
+Description-Content-Type: text/markdown
+
+# Environment setup
+Start with setting up a new `conda` virtual environment (venv)
+
+```bash
+> conda create --name sobo python=3.9
+```
+
+and activate the created venv
+
+```bash
+> conda activate sobo
+```
+
+# Install dependencies
+Get `openbabel` and `xtb` dependencies
+
+```bash
+> conda install -c conda-forge openbabel
+...
+> conda install -c conda-forge xtb
+...
+```
+
+Then install the SoBo method
+
+```bash
+> pip install sobo
+```
+
