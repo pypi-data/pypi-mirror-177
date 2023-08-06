@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CasseySmithCV/ReadFiles.py
+CasseySmithCV/Simulation.py
+CasseySmithCV/__init__.py
+CasseySmithCV.egg-info/PKG-INFO
+CasseySmithCV.egg-info/SOURCES.txt
+CasseySmithCV.egg-info/dependency_links.txt
+CasseySmithCV.egg-info/requires.txt
+CasseySmithCV.egg-info/top_level.txt
