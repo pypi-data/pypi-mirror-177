@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: certbot-dns-dreamhost
+Version: 0.2.0
+Summary: DreamHost DNS Authenticator plugin for Certbot
+Home-page: https://github.com/goncalo-leal/certbot-dns-dreamhost
+Author: Gonçalo Leal
+Author-email: goncalolealsilva@ua.pt
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: acme (>=0.29.0)
+Requires-Dist: certbot (>=0.34.0)
+Requires-Dist: mock
+Requires-Dist: requests
+Requires-Dist: requests-mock
+Requires-Dist: setuptools
+
+UNKNOWN
+
