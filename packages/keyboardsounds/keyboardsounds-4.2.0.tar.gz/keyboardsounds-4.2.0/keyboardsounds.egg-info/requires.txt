@@ -1,0 +1,4 @@
+pygame
+pynput
+psutil
+imageio-ffmpeg
