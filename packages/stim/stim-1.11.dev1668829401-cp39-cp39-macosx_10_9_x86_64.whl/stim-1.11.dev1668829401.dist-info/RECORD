@@ -1,0 +1,13 @@
+stim/__init__.py,sha256=mwMNz7q11YFAe66oAdObDnbkhM7r0PbzdDSd8ZTKx98,2357
+stim/__init__.pyi,sha256=5m4wGwM8Ws94dPdxmWLhjnm5Vz1Fn7Ew0_sgzRRSaPc,302076
+stim/_detect_machine_architecture.cpython-39-darwin.so,sha256=WvX5JtQjBHEDlONYk2HXGTE50jjPUmM_ZZ1RNmlQ1-Q,132392
+stim/_main_argv.py,sha256=8gHM50pjV8l_X1okiK0V7GCxy_UHPhWUbFc_d7_5wPQ,134
+stim/_stim_avx2.cpython-39-darwin.so,sha256=-2bTugw16zdZMcyH59U9PaaTCW4MfyA-Ujk33N6viRg,3707056
+stim/_stim_polyfill.cpython-39-darwin.so,sha256=ws3_8nVdH5ElZdkeYrtzEMx02V1uNAcYxnmbnrmhJHI,3707296
+stim/_stim_sse2.cpython-39-darwin.so,sha256=F1rhnL4iAmG09fXK0fHgv4zz0UF-h38UIrs77e7lWok,3707288
+stim-1.11.dev1668829401.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+stim-1.11.dev1668829401.dist-info/METADATA,sha256=C7UacEkPv1NBDVrKBDZZ2fLI0vH4P5nVj-OnsCH-8Eo,4180
+stim-1.11.dev1668829401.dist-info/WHEEL,sha256=UlNw_PQRbc8y2O60L5paNCXmEdKCjgP3umWDtB6RxVY,109
+stim-1.11.dev1668829401.dist-info/entry_points.txt,sha256=nKrnVit2TO7zlOC9PzFDbziXiGroRejQTIeqeJ2VS6Q,51
+stim-1.11.dev1668829401.dist-info/top_level.txt,sha256=_h6lQZBgzVLumwrXyf13DY71YT6dUkd4SY-ZRjcljFQ,5
+stim-1.11.dev1668829401.dist-info/RECORD,,
