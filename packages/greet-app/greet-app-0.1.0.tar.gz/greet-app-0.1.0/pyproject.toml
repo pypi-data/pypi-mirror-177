@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "greet-app"
+version = "0.1.0"
+description = ""
+authors = ["Kamil Woźniak <jestem.kamil.wozniak@gmail.com>"]
+readme = "README.md"
+packages = [{include = "greet_app"}]
+
+[tool.poetry.scripts]
+greet-app = "greet_app.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
