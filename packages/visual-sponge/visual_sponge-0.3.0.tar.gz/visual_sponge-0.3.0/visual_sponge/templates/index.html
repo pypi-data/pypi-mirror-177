@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visual Sponge</title>
+        <meta charset="UTF-8">
+        <script>{{ translation | safe }}</script>
+        <script>{{ myCodeMirrorCommands | safe}}</script>
+        <script src="/static/3dmol.js" async></script>
+        <link rel="stylesheet" href="/static/codemirror.css">
+        <script src="/static/codemirror.js"></script>
+        <script src="/static/myCodeMirror.js"></script>
+        <link rel="stylesheet" href="/static/navi.css"/>
+        <link rel="stylesheet" href="/static/button.css">
+    </head>
+    <body>
+        <div class="pop-up" id="gray-warp"></div>
+        <div class="pop-up centered" id="pop-upper"></div>
+        <div class="nav hint">
+            <ul class="navbar">
+                <li><a>{{"File" | localization}}</a>
+                  <ul>
+                    <li><a title='{{"Open Model File" | localization}}' onclick="open_model_file_click()">{{"Open Model File" | localization}}</a></li>
+                    <li><a title='{{"Open Trajectory File" | localization}}' onclick="open_traj_file_click()">{{"Open Trajectory File" | localization}}</a></li>
+                    <li><a title='{{"Append Trajectory" | localization}}' onclick="append_traj_file_click()">{{"Append Trajectory" | localization}}</a></li>
+                    <li><a title='{{"Print Screen" | localization}}' onclick="print_screen_click()">{{"Print Screen" | localization}}</a></li>
+                    <li><a title='{{"Make Movie" | localization}}' onclick="make_movie_click()">{{"Make Movie" | localization}}</a></li>
+                    <!--<li><a title='{{"Save Configuration" | localization}}'>{{"Save Configuration" | localization}}</a></li>-->
+                  </ul>
+                </li>
+                <li><a>{{"Display" | localization}}</a>
+                  <ul>
+                    <li><a title='{{"Background Color" | localization}}' onclick="bg_color_click()">{{"Background Color" | localization}}</a></li>
+                  </ul>
+                </li>
+                <li><a>{{"Settings" | localization}}</a>
+                  <ul>
+                    <li><a title='{{"Language" | localization}}' onclick="language_click()">{{"Language" | localization}}</a></li>
+                  </ul>
+                </li>
+                <li><a>{{"Help" | localization}}</a>
+                  <ul>
+                    <li><a title='{{"Command Help" | localization}}' onclick=vs_backend_command("HELP()")>{{"Command Help" | localization}}</a></li>
+                  </ul>
+                </li>
+                <li><a>{{"Contact Us" | localization}}</a>
+                  <ul>
+                    <li><a target="_blank" title='{{"Official Website" | localization}}' href="https://spongemm.cn">{{"Official Website" | localization}}</a></li>
+                    <li><a target="_blank" title='{{"Gitee Page" | localization}}' href="https://gitee.com/gao_hyp_xyj_admin/visual-sponge">{{"Gitee Page" | localization}}</a></li>
+                    <li><a target="_blank" title='{{"Group Page" | localization}}' href="https://www.chem.pku.edu.cn/gaoyq/">{{"Group Page" | localization}}</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="box1">
+                <textarea id="show_code">{{ "Welcome to Use Visual Sponge!" | localization}}</textarea>
+                <div id="input_box">
+                <p class="hint">cmd ></p>
+                <textarea id="write_code"></textarea>
+                </div>
+            </div>
+            <div class="box2 centered">
+                <div class="box2_frame" style="height:100px">
+                <p class="hint">{{"Frame" | localization}}:
+                <input type="number" id="curframe" min="0" max="0" value="0" oninput="frame_change(value)" style="width:20%">
+                /
+                <input type="number" id="maxframe" value="0" disabled="disabled" style="width:20%"></p>
+                <input type="range" value="0" min="0" max="0" id="curframeRange" oninput="frame_change(value)" style="width:90%">
+                <select id="play_select" class="small button" disabled=true>
+                    <option value="forward">{{ "forward" | localization}}</option>
+                    <option value="backward">{{ "backward" | localization}}</option>
+                    <option value="backAndForth">{{ "backAndForth" | localization}}</option>
+                </select>
+                <button class="blue button" id="play_button" onclick="play_click()" disabled=true>{{ "Play" | localization}}</button>
+                </div>
+                <div class="box2_frame" style="height:calc(100% - 140px);overflow: auto;">
+                <p class="hint">{{"Model" | localization}}:</p>
+                <div id="models">
+                </div>
+                </div>
+            </div>
+            <div id="3dmol_viewer" class="box3 viewer_3Dmoljs" data-backgroundcolor='0x000000'></div>
+        </div>
+    </body>
+    <script type="text/javascript">
+    var debug;
+    var v;
+    var sm;
+    var working_m;
+    function vs_wait(time)
+    {
+        return new Promise(resolve => setTimeout(resolve, time));
+    }
+    function refresh_models()
+    {
+        $('#models').children().remove();
+        let v = $3Dmol.viewers["3dmol_viewer"];
+        let ms = v.addModels();
+        $(".default_button").attr("disabled", false);
+        for (let i = 0; i < ms.length; i++)
+        {
+            if (ms[i])
+            {
+                let j = ms[i].getID();
+                $('#models').append("<div class='model_present centered' id='model_div_" + j + "'></div>");
+                let that = $('#model_div_' + j)
+                that.append("<p class='hint'>{{ "Model" | localization }} " + j + ": " + ms[i].name + "</p>");
+                that.append("<div class='three-grid-div' id='three-grid-div-" + j + "'></div>");
+                tthatt = $('#three-grid-div-' + j);
+                let stat = ms[i].getInternalState();
+                tthatt.append("<p class='hint'>#{{ "Atom" | localization }}: " + stat.atoms.length + "</p>");
+                tthatt.append("<p class='hint'>|</p>");
+                tthatt.append("<p class='hint'>#{{ "Frame" | localization }}: " + stat.frames.length + "</p>");
+                that.append("<div class='two-grid-div' id='two-grid-div-" + j + "'></div>");
+                that.append('<ul class="button-group">' + 
+                             '<li><button id="default_button_' + j + '" class="small button default_button" onclick="vs_backend_command(' + "'DEFAULT(" + j + ")'" + ')">{{ "Default" | localization}}</button></li>' + 
+                             '<li><button id="show_hide_button_' + j + '" class="small button show_hide_button" onclick="show_hide_button(' + j + ')">{{ "Hide" | localization}}</button></li>' +
+                             '<li><button class="small red button" onclick="vs_backend_command(' + "'DELETE(Model, " + j + ")'" + ')">{{ "Delete" | localization}}</button></li>' +
+                             '</ul>');
+                if (ms[i] == working_m)
+                {
+                    $("#default_button_" + j).attr("disabled", true);
+                }
+            }
+        }
+        let max_frame = v.getNumFrames() - 1;
+
+        if (max_frame > 0)
+        {
+            $('#curframe').attr("disabled", false);
+            $('#curframeRange').attr("disabled", false);
+            $('#play_button').attr("disabled", false);
+            $('#play_select').attr("disabled", false);
+            $('#maxframe').val(max_frame);
+            $('#curframe').val(v.getFrame());
+            $('#curframe').attr("max",max_frame);
+            $('#curframeRange').attr("max",max_frame);
+        }
+        else
+        {
+            $('#play_button').attr("disabled", true);
+            $('#play_select').attr("disabled", true);
+            $('#maxframe').val(0);
+            $('#curframe').val(0);
+            $('#curframe').attr("disabled", true);
+            $('#curframeRange').attr("disabled", true);
+        }
+        v.render();
+    }
+    function vs_initialize()
+    {
+        vs_backend_command("VERSION()", false);
+        v = $3Dmol.viewers["3dmol_viewer"];
+        sm = v.ui.initiateUI();
+    }
+    function vs_finalize()
+    {
+        navigator.sendBeacon('exit', {});
+    }
+    function pngURLToFile(dataurl)
+    {
+        let bstr = atob(dataurl.split(',')[1]);
+        let n = bstr.length;
+        let u8arr = new Uint8Array(n);
+        while (n--)
+        {
+          u8arr[n] = bstr.charCodeAt(n);
+        }
+        return new File([u8arr], "temp.png", {type:"image/png"});
+    }
+    function videoBlobToFile(Blob)
+    {
+        return new File([Blob], "temp.webm", {type:"video/webm"});
+    }
+    function vs_frontend_command(command)
+    {
+        try
+        {
+            let m;
+            switch (command.cmd)
+            {
+                case "MODEL":
+                    m = v.addModel();
+                    m.addAtoms(command.atoms);
+                    if (command.crds)
+                    {
+                        m.setCoordinates(command.crds, "array");
+                    }
+                    m.name = command.name;
+                    m.setStyle({sphere:{}});
+                    refresh_models();
+                    break;
+                case "TRAJ":
+                    m = v.getModel(command.mid);
+                    m.setCoordinates(command.crds, "array", command.append);
+                    v.setFrame(v.getNumFrames() - 1)
+                    refresh_models();
+                    break;
+                case "DEFAULT":
+                    working_m = v.getModel(command.mid);
+                    v.zoomTo({"model":working_m});
+                    refresh_models();
+                    break;
+                case "SHOW":
+                    switch (command.obj)
+                    {
+                        case "Model":
+                            m = v.getModel(command.id);
+                            m.show();
+                            v.render();
+                            that = $("#show_hide_button_" + command.id);
+                            that.removeClass("checked");
+                            that.removeClass("green");
+                            that.text('{{"Hide" | localization}}');
+                            break;
+                        default:
+                            editor.setValue(editor.getValue() + "\nFrontendError: "+ "ValueError: " + command.obj + " is not a valid value for SHOW");
+                            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+                    }
+                    break;
+                case "PRINTSCREEN":
+                    m = v.getCanvas();
+                    let url = m.toDataURL();
+                    let file = pngURLToFile(url);
+                    let form = new FormData();
+                    form.append("file", file);
+                    form.append("suffix", command.suffix);
+                    form.append("fname", command.png);
+                    $.ajax({type:"POST", url:"/get_png", data:form, contentType:false, processData:false, 
+                            success: result => {editor.setValue(editor.getValue() + "\n" + result); editor.scrollTo(0, editor.getScrollInfo()["height"]);}});
+                    break;
+                case "MOVIE":
+                    m = v.getCanvas();
+                    let chunks = [];
+                    let mediaStream = m.captureStream(command.fps);
+                    let mediaRecord = new MediaRecorder(mediaStream, {mimeType:'video/webm', videoBitsPerSecond: command.bitRate});
+                    mediaRecord.ondataavailable = (e) => {chunks.push(e.data)};
+                    v.setFrame(command.start);
+                    if (command.stop < 0)
+                    {
+                        command.stop = v.getNumFrames() + command.stop;
+                    }
+                    let runTime = command.interval * ((command.stop - command.start + 1) / command.stride + 0.9);
+                    mediaRecord.start();
+                    v.animate({"stride": command.stride, "interval":command.interval});
+                    vs_wait(runTime).then(function()
+                        {
+                            v.stopAnimate();
+                            mediaRecord.stop();
+                            vs_wait(500).then(function()
+                                {
+                                    let blob = chunks[0];
+                                    let file = new File([blob], "temp.webm", {type:"video/webm"});
+                                    let form = new FormData();
+                                    form.append("file", file);
+                                    form.append("suffix", command.suffix);
+                                    form.append("fname", command.webm);
+                                    $.ajax({type:"POST", url:"/get_webm", data:form, contentType:false, processData:false, 
+                                            success: result => {editor.setValue(editor.getValue() + "\n" + result); editor.scrollTo(0, editor.getScrollInfo()["height"]);}});
+                                }
+                            );
+                        }
+                    );
+                    break;
+                case "HIDE":
+                    switch (command.obj)
+                    {
+                        case "Model":
+                            m = v.getModel(command.id);
+                            m.hide();
+                            v.render();
+                            that = $("#show_hide_button_" + command.id);
+                            that.addClass("checked");
+                            that.addClass("green");
+                            that.text('{{"Show" | localization}}');
+                            break;
+                        default:
+                            editor.setValue(editor.getValue() + "\nFrontendError: "+ "ValueError: " + command.obj + " is not a valid value for HIDE");
+                            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+                    }
+                    break;
+                case "DELETE":
+                    switch (command.obj)
+                    {
+                        case "Model":
+                            v.removeModel(command.id);
+                            refresh_models();
+                            break;
+                        default:
+                            editor.setValue(editor.getValue() + "\nFrontendError: "+ "ValueError: " + command.obj + " is not a valid value for HIDE");
+                            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+                    }
+                    break;
+                default:
+                    editor.setValue(editor.getValue() + "\nFrontendError: "+ "CommandNotFoundError: " + command.cmd + " is not a valid command");
+                    editor.scrollTo(0, editor.getScrollInfo()["height"]);
+            }
+        }
+        catch (error)
+        {
+            editor.setValue(editor.getValue() + "\nFrontendError: "+ error);
+            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+        }
+    }
+    function vs_backend_command(command, show_command=true) 
+    {
+        if (command && show_command)
+        {
+            editor.setValue(editor.getValue() + "\ncmd> "+ command);
+            editor.scrollTo(0, editor.getScrollInfo()["height"]);
+        }
+        if (command)
+        {
+            $.post('cmd',
+                   {value: command},
+                    function(result) {
+                        editor.setValue(editor.getValue() + "\n"+ result["text"]);
+                        if (result["cmd"])
+                        {
+                            result["cmd"].forEach(vs_frontend_command)
+                        }
+                        editor.scrollTo(0, editor.getScrollInfo()["height"]);
+                        editor2_flag = true;
+                    }
+            );
+        }
+    }
+    var editor = CodeMirror.fromTextArea(document.getElementById("show_code"),
+    {
+        lineNumbers: true,
+        lineWrapping: true,
+        mode: "text/x-python",
+        readOnly: 'true',
+        firstLineNumber: 0,
+        scrollbarStyle: "native",
+    });
+    editor.setSize('auto','130px');
+    var editor2 = CodeMirror.fromTextArea(document.getElementById("write_code"),
+    {
+        mode: "text/x-python",
+        scrollbarStyle: "null",
+    });
+    editor2.setSize('auto','25px');
+    var editor2_flag = true;
+    editor2.setOption("extraKeys",
+    {
+        Enter: function(cm)
+        {
+            if (editor2_flag)
+            {
+                vs_backend_command(cm.getValue());
+                if (cm.getValue())
+                {
+                    cm.setValue("");
+                    editor2_flag = false;
+                }
+            }
+        }
+    });
+    setTimeout(vs_initialize, 100);
+    window.onbeforeunload = function () {return "{{ 'Really quit?' | localization }}"}
+    window.onunload = vs_finalize;
+    function frame_change(value)
+    {
+        $('#curframe').val(Number(value));
+        $('#curframeRange').val(Number(value));
+        v.setFrame(Number(value));
+        v.render();
+    }
+    function play_click()
+    {
+        that = $("#play_button")
+        if (that.hasClass("checked"))
+        {
+            that.text(' {{ "Play" | localization }}')
+            $('#curframe').attr("disabled", false);
+            $('#curframeRange').attr("disabled", false);
+            v.stopAnimate();
+            that.removeClass("checked")
+        }
+        else
+        {
+            that.text(' {{ "Stop" | localization }}')
+            $('#curframe').attr("disabled", true);
+            $('#curframeRange').attr("disabled", true);
+            v.animate({"loop":$("#play_select").val()});
+            that.addClass("checked")
+        }
+    }
+    function show_hide_button(j)
+    {
+        that = $("#show_hide_button_" + j);
+        if (that.hasClass("checked"))
+        {
+            vs_backend_command("SHOW(Model, " + j + ")");
+        }
+        else
+        {
+            vs_backend_command("HIDE(Model, " + j + ")");
+        }
+    }
+    var click_function;
+    function ask_for_file(folder=".", special="")
+    {
+        $.post('file',
+            {folder: folder, special: special},
+            result => 
+            {
+                $("#pop-upper").append(result);
+            }
+        );
+
+    }
+    function ask_for_setting(title, head, main, foot, heights, title_style, head_style, main_style, foot_style)
+    {
+        $.post('setting',
+            {title:title, head:head, main:main, foot:foot, heights:heights,
+            title_style:title_style, head_style:head_style,
+            main_style:main_style, foot_style:foot_style},
+            result => 
+            {
+                $("#pop-upper").append(result);
+            }
+        );
+    }
+    function open_model_file_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("MODEL('" + $("#file_temp_p").text() + "/" + $("#file_name_input").val() + "','" + $("#file_format_input").val() + "')");
+            pop_up_cancel();
+        }
+        ask_for_file();
+    }
+    function pop_up_cancel()
+    {
+        $("#pop-upper").empty();
+        $(".pop-up").css("display", "none");
+    }
+    function open_traj_file_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("TRAJ('" + $("#file_temp_p").text() + "/" + $("#file_name_input").val() + "','" + $("#file_format_input").val() + "', m=" + working_m.getID() + ")");
+            pop_up_cancel();
+        }
+        ask_for_file();
+    }
+    function append_traj_file_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("TRAJ('" + $("#file_temp_p").text() + "/" + $("#file_name_input").val() + "','" + $("#file_format_input").val() + "', m=" + working_m.getID() + ", append=True)");
+            pop_up_cancel();
+        }
+        ask_for_file();
+    }
+    function print_screen_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("PRINTSCREEN('" + $("#file_temp_p").text() + "/" + $("#file_name_input").val() + "')");
+            pop_up_cancel();
+        }
+        ask_for_file();
+    }
+    function make_movie_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("MOVIE('" + $("#file_temp_p").text() + "/" + $("#file_name_input").val() + "',interval=100, start=0, stop=-1, stride=1)");
+            pop_up_cancel();
+        }
+        ask_for_file();
+    }
+    function bg_color_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            v.setBackgroundColor($("#color_selector").val(), $("#color_opacity_selector").val());
+            v.render();
+            pop_up_cancel();
+        }
+        ask_for_setting('{{"Background Color" | localization}}',
+            '',
+            "<p>{{'Color' | localization}}<input type='color' id='color_selector'></p>" +
+        "<p style='margin:10px;'>{{'Opacity' | localization}}<input id='color_opacity_selector' type=number value=1 min=0 max=1 step=0.01></p>",
+            "<ul class='button-group'><button class='button' onclick=color_selector_change('#FFFFFF',1)>{{'White' | localization}}</button>" +
+        "<button class='button' onclick=color_selector_change('#000000',1)>{{'Black' | localization}}</button>" +
+        "<button class='button' onclick=color_selector_change('#33BBBB',1)>{{'Cyan' | localization}}</button>" +
+        "<button class='button' onclick=color_selector_change('#FFFFFF',0)>{{'Clear' | localization}}</button></ul>",
+        "30px 50px 1fr 1fr 30px",
+        "text-align:center;", "text-align:center;", "text-align:center;", "text-align:center;");
+    }
+    function color_selector_change(color, opacity)
+    {
+        $("#color_selector").val(color);
+        $("#color_opacity_selector").val(opacity);
+    }
+    function language_click()
+    {
+        $(".pop-up").css("display", "block");
+        click_function = function()
+        {
+            vs_backend_command("CONFIGURE('DEFAULT', 'language', '" + $("#language_selector").val() + "')");
+            pop_up_cancel();
+        }
+        ask_for_setting('{{"Language" | localization}}',
+            '{{ "Language Setting will be taken into effect after restarting Visual Sponge" | localization}}',
+            '<button onclick=$("#language_selector").val("chinese") class="button">中文</button>' +
+          '<button onclick=$("#language_selector").val("english") class="button">English</button>',
+            "<input disabled=true id=language_selector>",
+            "30px 50px 1fr 50px 30px",
+        "text-align:center;", "text-align:center;", "display:grid;text-align:center;", "text-align:center;");
+    }
+    </script>
+</html>
