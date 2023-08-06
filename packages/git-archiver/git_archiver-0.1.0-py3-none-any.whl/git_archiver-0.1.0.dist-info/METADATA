@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: git-archiver
+Version: 0.1.0
+Summary: A tool for mass archiving git repositories
+Keywords: git,scm,archive
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Framework :: AsyncIO
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Intended Audience :: System Administrators
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Git Archiver
+A tool designed to mass archive a collection of git repositories on a file system into a format that can be put into "cold storage".
+
+> This project is still early in development
+
+## Archived Format
+When running an archive into specific structure, shown below:
+
+```
+dst/
+    enchant97/
+        git-archiver/
+            branches/
+                pre.<archive-type>
+            tags/
+            all.bundle
+            HEAD.<archive-type>
+            meta.json
+```
+
+## Install
+There are many ways of installing and running a Python app. These are the recommended methods.
+
+### pipx
+[pipx](https://pypa.github.io/pipx/) is used when you want it installed on the system for a user.
+
+```
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+
+pipx install git+https://github.com/enchant97/git-archiver.git
+
+git-archiver --help
+```
+
+## Docker
+This method allows running the program inside a docker container.
+
+```
+docker build -t git-archiver .
+
+docker run --rm -it git-archiver <app args here>
+```
+
+## License
+This project is Copyright (c) 2022 Leo Spratt, licences shown below:
+
+Code
+
+    Apache License - Version 2.0. Full license found in `LICENSE.txt`
