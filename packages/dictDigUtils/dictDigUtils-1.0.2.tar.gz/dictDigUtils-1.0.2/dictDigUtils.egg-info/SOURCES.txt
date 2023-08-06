@@ -1,0 +1,8 @@
+MANIFEST.in
+Readme.md
+dictDigUtils.py
+pyproject.toml
+dictDigUtils.egg-info/PKG-INFO
+dictDigUtils.egg-info/SOURCES.txt
+dictDigUtils.egg-info/dependency_links.txt
+dictDigUtils.egg-info/top_level.txt

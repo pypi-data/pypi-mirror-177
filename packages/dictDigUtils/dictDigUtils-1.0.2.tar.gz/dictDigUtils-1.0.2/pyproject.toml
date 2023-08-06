@@ -1,0 +1,25 @@
+# dictDigUtils package to dive into dicts and help getting information
+# out of them
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name= "dictDigUtils"
+version = "1.0.2"
+authors = [
+    {name= "Tomio13", email = "haraszti@dwi.rwth-aachen.de"},
+]
+readme = "Readme.md"
+# summary = "Helper functions to dig into dict trees"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+include-package-data = true
+
