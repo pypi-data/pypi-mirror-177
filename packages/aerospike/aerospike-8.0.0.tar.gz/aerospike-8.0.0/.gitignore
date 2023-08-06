@@ -1,0 +1,13 @@
+.DS_Store
+.cache
+.settings
+MANIFEST
+build/
+dist/
+/.cproject
+/.project
+/.pydevproject
+aerospike.egg-info/
+*.log
+tmp
+*.pyc
