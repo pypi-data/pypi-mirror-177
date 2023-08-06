@@ -1,0 +1,13 @@
+utils.py,sha256=eifZeDey0k0QLW6r9tUggOHxF9kbGWgBov8_ZmzobN8,416
+axiom/__data.py,sha256=Jc2I1sbQmPmO71snOsu81bCgAbxyrOUTQu5XTzRiNOM,475
+axiom/__import.py,sha256=9bAo_K5bjMh6OpP7NhyTzVxHbB56LxlJfAvn3UY6_V0,3659
+axiom/__init__.py,sha256=9DBAwKPVNwuontWHMmFzrmFr-767jApSRMJZpFadxSg,182
+axiom/__main__.py,sha256=Sy4R7spEUi8L-59zptQfDcDg2heLbxxkAzMzLAEwsW0,6109
+axiom/__type.py,sha256=zeBCm6VHgIlBm4o2eX90CJVUkUYjxzIFTgTdbrLkmv0,21
+axiom/common.py,sha256=ioAimYbhaTqGFyRmbNcz0s4XrqbwpmjM40j5-DIh6ss,4562
+axiom/info.py,sha256=lTQGfuPd1UAnEGH6JUjYM7OmFZk6lNbsZudD87cgiCk,82
+axiom/settings.py,sha256=SNIr6lV6Vt1MdD6F4jvKjBSV0CmVA5mCtXh6uVK-YOo,259
+reaxiom-0.0.3.dist-info/METADATA,sha256=b4WZDirzK5P80CS4b86usNPbK5Dn54BqJ9FXbUM8BBA,417
+reaxiom-0.0.3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+reaxiom-0.0.3.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+reaxiom-0.0.3.dist-info/RECORD,,
