@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tensorlearn/__init__.py
+tensorlearn/tl_methods.py
+tensorlearn.egg-info/PKG-INFO
+tensorlearn.egg-info/SOURCES.txt
+tensorlearn.egg-info/dependency_links.txt
+tensorlearn.egg-info/requires.txt
+tensorlearn.egg-info/top_level.txt
+tensorlearn/decomposition/__init__.py
+tensorlearn/decomposition/candecomp_parafac.py
+tensorlearn/decomposition/tensor_train.py
+tensorlearn/operations/__init__.py
+tensorlearn/operations/matrix_operations.py
+tensorlearn/operations/tensor_operations.py
