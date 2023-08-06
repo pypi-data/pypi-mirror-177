@@ -1,0 +1,11 @@
+click
+jinja2
+pyyaml
+oyaml
+markdown
+libsass
+imagesize
+numpy
+python-dateutil
+feedgen
+pytz
