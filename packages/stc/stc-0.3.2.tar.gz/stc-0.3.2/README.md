@@ -1,0 +1,1 @@
+Moved to https://pypi.org/project/bornrule/
