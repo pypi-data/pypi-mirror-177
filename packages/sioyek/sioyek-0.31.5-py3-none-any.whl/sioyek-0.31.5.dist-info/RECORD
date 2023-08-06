@@ -1,0 +1,12 @@
+sioyek/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sioyek/dual_panelify.py,sha256=P40HSm_LNemogTd9hE1ZAN8YA1BQPY2alyjwp7h4wIM,5392
+sioyek/embed_annotations.py,sha256=N0Ibyq18ULOHyTmPg8sjfBZ9jR9kcN_AR9HZ1bXW1eA,670
+sioyek/extract_highlights.py,sha256=-VvT0NONxdwqPkOXs9rRhbDIKdAz2WMLZ3uDfOdj38s,5718
+sioyek/import_annotations.py,sha256=N5csl7KKFmxzTNt_4O8_kGigk9HGaweoT34EFMPq2z8,603
+sioyek/paper_downloader.py,sha256=lHLVe576DhtEKtTL-lwWuPTuYVGT00XvoJUIlWorr5k,6767
+sioyek/sioyek.py,sha256=0RVQKVAP6EufGIU07BsFhPWGERevBMcikLCO5CIksZg,43649
+sioyek/translate.py,sha256=I6a5eTHNPIc6jpgKJbYEcQN1Oc_GlewxwThPvE382SA,355
+sioyek-0.31.5.dist-info/METADATA,sha256=HViTNAp9y9piB_8U5v0jNHPJ1-ziy6x2Qiemto6Ia6o,3704
+sioyek-0.31.5.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+sioyek-0.31.5.dist-info/licenses/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sioyek-0.31.5.dist-info/RECORD,,
