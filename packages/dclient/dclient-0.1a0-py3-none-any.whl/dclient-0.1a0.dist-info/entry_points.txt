@@ -1,0 +1,2 @@
+[console_scripts]
+dclient = dclient.cli:cli

@@ -1,0 +1,9 @@
+dclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dclient/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+dclient/cli.py,sha256=7IaWsujxHuyXe4KHDftB2yJ_nXmPNZhVYR1u0DQt6Rk,840
+dclient-0.1a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dclient-0.1a0.dist-info/METADATA,sha256=92wCb-TkTSzjzzo4rRpIr4jxOvbM4e9OL6A41MNpzAw,2185
+dclient-0.1a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dclient-0.1a0.dist-info/entry_points.txt,sha256=b55TaIgfjFAM2lmy00Pal8BPh1_UKsPbveGje8n11vo,44
+dclient-0.1a0.dist-info/top_level.txt,sha256=ObNuIHEqsodXlkL97siKRNsgYCq-9ujqUD6jB2oZRi8,8
+dclient-0.1a0.dist-info/RECORD,,
