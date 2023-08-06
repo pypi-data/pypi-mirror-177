@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pis/__init__.py
+pis/pypis.py
+pypis.egg-info/PKG-INFO
+pypis.egg-info/SOURCES.txt
+pypis.egg-info/dependency_links.txt
+pypis.egg-info/entry_points.txt
+pypis.egg-info/requires.txt
+pypis.egg-info/top_level.txt
