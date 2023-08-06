@@ -1,0 +1,82 @@
+{% if docstring_header %}
+{{ docstring_header }}
+{% endif %}
+
+
+{%- for from_, imports in from_imports.items() -%}
+from {{ from_ }} import {{ ", ".join(imports) }}{{"\n"}}
+
+{%- endfor -%}
+
+{%- if import_header -%}
+import {{ ", ".join(import_header) }}
+{{"\n"}}
+{%- endif -%}
+
+
+{# db class #}
+
+class {{ table_name }}Model({{ ", ".join(class_parents)}}):
+    {%+ for type in table_types %}
+        {%- if type.name == identifier.column_identifier -%}
+        {# If the column is the identifier, check that is allowed in the following model #}
+            {%- if identifier.include_in_model -%}
+                {{ type.name }}: 
+                    {%- if type.nullable -%}
+                        {{ " "}}Union[{{ ",".join(type.str_value) }}, None]
+                    {%- else -%}
+                        {{ " "}}{{ type.str_value[0] }}
+                    {%- endif -%}
+            {%- endif -%}
+        {%- else -%}
+            {{ type.name }}:
+            {%- if type.nullable -%}
+                {{ " " }}Union[{{ ",".join(type.str_value) }}, None]
+            {%- else -%}
+                {{ " "}}{{ type.str_value[0] }}
+            {%- endif -%}
+        {%- endif %}
+    {% endfor %}
+{# initializer Class #}
+
+class {{ table_name}}Initializer({{ ", ".join(class_parents)}}):
+    {%+ for type in table_types %}
+        {%- if type.name == identifier.column_identifier -%}
+            {# Checking column identifier #}
+            {%- if identifier.include_in_initializer -%}
+                {{ type.name }}: 
+                    {%- if type.has_default or type.nullable -%}
+                        {{ " " }}Union[{{ ", ".join(type.str_value) }}, None] = None 
+                    {%- else -%} 
+                        {%- if type.is_union -%}
+                            {{ " " }}Union[{{ ", ".join(type.str_value) }}]
+                        {%- else -%}
+                            {{ ", ".join(type.str_value) }}
+                        {%- endif -%}
+                    {%- endif -%}
+            {%- endif %}
+        {%- else -%}
+            {{ type.name }}:
+            {%- if type.has_default or type.nullable -%}
+                    {{ " " }}Union[{{ ", ".join(type.str_value) }}, None] = None 
+            {%- else -%} 
+                {%- if type.is_union -%}
+                    {{ " " }}Union[{{ ", ".join(type.str_value) }}]
+                {%- else -%}
+                    {{ " " }}{{ ", ".join(type.str_value) }}
+                {%- endif -%}
+            {%- endif -%}
+        {%- endif %}
+    {% endfor %}
+{# Updated Class #}
+
+class {{ table_name}}Updater({{ ", ".join(class_parents)}}):
+    {%+ for type in table_types -%}
+        {%- if type.name != identifier.column_identifier -%}
+            {{ type.name}}:{{ " " }}Union[{{ ", ".join(type.str_value) }}, None]
+        {%- else -%}
+            {%- if identifier.include_in_updater -%}
+            {{ type.name}}: {{ type.str_value[0]}}
+            {%- endif %}
+        {%- endif %}
+    {% endfor %}
