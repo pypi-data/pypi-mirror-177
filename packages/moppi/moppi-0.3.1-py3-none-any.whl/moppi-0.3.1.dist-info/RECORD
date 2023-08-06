@@ -1,0 +1,9 @@
+moppi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moppi/config.py,sha256=-f8ShSBbp586Dr90LTD0dMOhXi4BfoXf2ywDhUgVpyg,4323
+moppi/dependency.py,sha256=xjUDMFU_DYE0Y6bVMXv5kgYNbtJMBcRVUV1tXq2shck,2769
+moppi/installer.py,sha256=HO8K3ZHJo3D8qQ4717A52bQp3c8TEBE0lhYsjA7nJqw,6974
+moppi-0.3.1.dist-info/METADATA,sha256=Wnw921se-Z2ien0KuwsiAGmCvHg8Aaql6niEE3j8bvU,4436
+moppi-0.3.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+moppi-0.3.1.dist-info/entry_points.txt,sha256=wUP3Zw0SXpnAqGpbAFSuuXLz6x5891EM5Blq5NKQSwo,47
+moppi-0.3.1.dist-info/licenses/LICENSE,sha256=pTGLVYR1VcX4bzs57yUfMneX1ZaeKqnl_SvvjODtM_4,1072
+moppi-0.3.1.dist-info/RECORD,,

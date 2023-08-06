@@ -1,0 +1,2 @@
+[console_scripts]
+moppi = moppi.installer:main
