@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: upgrade-knausj
+Version: 0.1.0
+Summary: 
+Author: Pokey Rule
+Author-email: 755842+pokey@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gitpython (>=3.1.29,<4.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Upgrade `knausj`
+
+Helper for performing `knausj` upgrades.
+
+## Assumptions
+
+- You have a fork of `knausj`
+
+## Installation
+
+1. Install [`pipx`](https://pypa.github.io/pipx/)
+2. `pipx install knausj-upgrade`
+
+## How to run
+
+1. Push your changes to your fork
+2. Run `knausj-upgrade`
+3. Perform any necessary merges, then re-run `knausj-upgrade`
+4. Repeat steps 3-4 until it says you're done
+
