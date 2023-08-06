@@ -1,0 +1,10 @@
+EnforceTypes/Classes.py,sha256=2WNCVUUdwCvsP8GipsWkbK1CKYQsT9r3ytEaVuQLan8,4402
+EnforceTypes/Combined.py,sha256=h1ZJXNdwyyeeWF_ZqsR3cuc4A6NreUn0DikpP4wjSbE,222
+EnforceTypes/Functions.py,sha256=xfeGpQ90vf3vquJaee1ruudnaQpUUBmBcBldZzXmM9E,1928
+EnforceTypes/__init__.py,sha256=yH28xaCfMH_fBRJsU3zzmelp1HVdTwDyB1sZ6Qpzsy0,286
+EnforceTypes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EnforceTypes/types.py,sha256=BdgwDzyom5B7XnKRbRSpCzf3BRuahBpTgnKHw_BJGQU,252
+enforcetypes-0.0.4.dist-info/LICENSE,sha256=zvlai3xTd6oiNn9LsSdWkbpvI6R8hFeXQpwHHstTHqA,1084
+enforcetypes-0.0.4.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+enforcetypes-0.0.4.dist-info/METADATA,sha256=k3QSO9qJ7w5div8tzSAhQS8VUwRq7api2QUVePDJB_w,2945
+enforcetypes-0.0.4.dist-info/RECORD,,
