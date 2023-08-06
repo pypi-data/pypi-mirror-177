@@ -1,0 +1,5 @@
+langchain
+openai
+dataclasses_json
+transformers
+nltk
