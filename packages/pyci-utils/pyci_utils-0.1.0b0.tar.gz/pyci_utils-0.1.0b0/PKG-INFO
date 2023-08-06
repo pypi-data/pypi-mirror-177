@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyci_utils
+Version: 0.1.0b0
+Summary: Python CI Tools to improve the coding experience and the coding quality at a better way.
+Author: Ricardo Leal
+Author-email: rick.leal420@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+
+# PyCI
+Python CI Tools with a personal website. This last part is still in work. Made by Ricardo Leal.
