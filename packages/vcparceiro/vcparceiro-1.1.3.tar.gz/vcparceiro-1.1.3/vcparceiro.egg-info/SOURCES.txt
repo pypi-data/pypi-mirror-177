@@ -1,0 +1,17 @@
+AUTHORS
+MANIFEST.in
+requirements.txt
+setup.py
+vcparceiro/__init__.py
+vcparceiro/resources.py
+vcparceiro.egg-info/PKG-INFO
+vcparceiro.egg-info/SOURCES.txt
+vcparceiro.egg-info/dependency_links.txt
+vcparceiro.egg-info/requires.txt
+vcparceiro.egg-info/top_level.txt
+vcparceiro/subsystem/__init__.py
+vcparceiro/subsystem/parceiro/__init__.py
+vcparceiro/subsystem/parceiro/resource.py
+vcparceiro/tests/__init__.py
+vcparceiro/tests/functional/__init__.py
+vcparceiro/tests/functional/fixtures.py
