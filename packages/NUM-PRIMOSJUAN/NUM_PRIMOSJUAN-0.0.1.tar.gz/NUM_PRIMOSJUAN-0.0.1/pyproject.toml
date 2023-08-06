@@ -1,0 +1,20 @@
+
+
+[project]
+name = "NUM_PRIMOSJUAN"
+version = "0.0.1"
+authors = [
+    { name="xxx", email="xxx@gmail.com" },
+]
+description = "Ejemplo de como crear un paquete NUM_PRIMOS"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/albertorc87/subir-paquete-pypi"
+"Bug Tracker" = "https://github.com/albertorc87/subir-paquete-pypi/issues"

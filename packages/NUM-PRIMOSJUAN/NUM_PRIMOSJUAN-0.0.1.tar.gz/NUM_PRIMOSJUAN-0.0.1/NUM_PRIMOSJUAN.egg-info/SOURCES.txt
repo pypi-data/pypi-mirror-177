@@ -1,0 +1,6 @@
+primos.py
+pyproject.toml
+NUM_PRIMOSJUAN.egg-info/PKG-INFO
+NUM_PRIMOSJUAN.egg-info/SOURCES.txt
+NUM_PRIMOSJUAN.egg-info/dependency_links.txt
+NUM_PRIMOSJUAN.egg-info/top_level.txt
