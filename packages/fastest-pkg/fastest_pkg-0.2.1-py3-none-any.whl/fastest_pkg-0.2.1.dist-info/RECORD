@@ -1,0 +1,11 @@
+fastest_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastest_pkg/fastest_pkg.py,sha256=rHgH9D3urnV4L-JsdezsjkTcK4UsNODvu-_j-07is0E,4569
+fastest_pkg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastest_pkg/utils/human_bytes.py,sha256=I7pSIeVBOTeygh4GVfNmZNGJLX9G7x1EP5fL53S20zk,2676
+fastest_pkg/utils/pkg_mirror.py,sha256=Rd91OnxGXs05THoqrkhWEj7lF0Koop3cx7R-PlaGKNo,1693
+fastest_pkg-0.2.1.dist-info/METADATA,sha256=mKoU7fNcmHTq-XrQo4DTPE1f4cyWQHusMkK-nleQ_MA,2315
+fastest_pkg-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fastest_pkg-0.2.1.dist-info/entry_points.txt,sha256=qpjpLVXMcLY9iX0F5JQI1jQUG6lN8tx3wgy9nevILvU,61
+fastest_pkg-0.2.1.dist-info/top_level.txt,sha256=gIkdTOieLNYndqgWICTMfsoNS78ytgaLLh-khriIO0w,12
+fastest_pkg-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fastest_pkg-0.2.1.dist-info/RECORD,,
