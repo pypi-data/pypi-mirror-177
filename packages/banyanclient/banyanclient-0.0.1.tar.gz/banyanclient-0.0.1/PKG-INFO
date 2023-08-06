@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: banyanclient
+Version: 0.0.1
+Summary: Banyan Rest APIs
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,Banyan Rest APIs
+Requires-Python: >=3.7
+
+    This swagger spec contains list of all Banyan APIs.  # noqa: E501
+    
