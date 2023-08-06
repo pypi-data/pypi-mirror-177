@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "UselessConsole"
+version = "0.1.3"
+authors = [
+  { name="Alternate", email="alternated@mooncorerbx.com" },
+]
+description = "Console package that has the ability to print and replace console output. That's literally it, this package is useless."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://google.com/"
+"Bug Tracker" = "https://google.com/"
