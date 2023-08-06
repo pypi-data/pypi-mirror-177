@@ -1,0 +1,49 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sphinx_timeline"
+dynamic = ["version", "description"]
+authors = [{name = "Chris Sewell", email = "chrisj_sewell@hotmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup",
+    "Framework :: Sphinx :: Extension",
+]
+keywords = ["sphinx", "timeline"]
+requires-python = ">=3.8"
+dependencies = [
+    "sphinx",
+    "jinja2",
+    "pyyaml",
+    "backports.zoneinfo;python_version<'3.9'",
+    "tzdata",
+    "python-dateutil"
+]
+
+[project."optional-dependencies"]
+testing = [
+    "pytest",
+    "pytest-cov",
+    "pytest-regressions",
+    "pytest-param-files",
+    "sphinx-pytest>=0.0.4",
+    "beautifulsoup4",
+]
+docs = ["myst-parser"]
+furo = ["furo"]
+pst = ["pydata-sphinx-theme"]
+rtd = ["sphinx-rtd-theme"]
+
+[project.urls]
+Homepage = "https://github.com/chrisjsewell/sphinx-timeline"
+
+[tool.isort]
+profile = "black"
+force_sort_within_sections = true
