@@ -1,0 +1,240 @@
+Metadata-Version: 2.1
+Name: pdmongo
+Version: 0.3.4
+Summary: Transfer data between pandas dataframes and MongoDB
+Home-page: https://github.com/pakallis/python-pandas-mongo
+Author: Pavlos Kallis
+Author-email: pakallis@gmail.com
+License: MIT
+Project-URL: Documentation, https://python-pandas-mongo.readthedocs.io/
+Project-URL: Changelog, https://python-pandas-mongo.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/pakallis/python-pandas-mongo/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pymongo (<4.4,>=3.13)
+Requires-Dist: pandas (<1.6,>=0.20)
+Provides-Extra: test
+Requires-Dist: pytest (>=4.0.2) ; extra == 'test'
+Requires-Dist: pytest-mock (>=1.10.0) ; extra == 'test'
+
+========
+Overview
+========
+
+
+
+This package allows you to read/write pandas dataframes in MongoDB in the simplest way possible.
+
+* Free software: MIT license
+
+===========
+Quick Start
+===========
+
+Install pdmongo::
+
+    pip install pdmongo
+
+Write a pandas DataFrame to a MongoDB collection::
+
+    import pandas as pd
+    import pdmongo as pdm
+
+    df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+    df.to_mongo("MyCollection", "mongodb://localhost:27017/mydb")
+
+Read a MongoDB collection into a pandas DataFrame::
+
+    import pdmongo as pdm
+
+    df = pdm.read_mongo("MyCollection", [], "mongodb://localhost:27017/mydb")
+    print(df)
+
+
+
+====================
+Examples / use cases
+====================
+
+Reading a MongoDB collection into a pandas data frame (aggregation query)
+=========================================================================
+
+You can use an aggregation query to filter/transform data in MongoDB before fetching them into a data frame.
+This allows you to delegate the slow operation to MongoDB.
+
+Reading a collection from MongoDB into a pandas DataFrame by using an aggregation query::
+
+    import pdmongo as pdm
+    import pandas as pd
+
+    # First generate some data and write them to MongoDB
+    df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+    df.to_mongo(df, 'MyCollection', "mongodb://localhost:27017/mydb")
+
+    # Filter with an aggregate query and parse results into a data frame.
+    query = [{"$match": {'A': 1} }]
+    df = pdm.read_mongo("MyCollection", query, "mongodb://localhost:27017/mydb")
+    print(df) # Only values where A > 1 is returned
+
+The *query* accepts the same arguments as the *aggregate* method of pymongo package.
+
+
+
+Write MongoDB to a PostgreSQL table
+===================================
+
+You can write a MongoDB collection to a PostgreSQL table::
+
+    import numpy as np
+    import pandas as pd
+    import pdmongo as pdm
+    from sqlalchemy import create_engine
+
+    # Generate some data and write them to MongoDB
+    df = pd.DataFrame({'A': [1, 2, 3]})
+    df.to_mongo("MyCollection", "mongodb://localhost:27017/mydb")
+
+    # Read data from MongoDB and write them to PostgreSQL
+    new_df = pdm.read_mongo("MyCollection", [], "mongodb://localhost:27017/mydb")
+    engine = create_engine('postgres://postgres:postgres@localhost:5432', echo=False)
+    new_df[["A"]].to_sql("APostgresTable", engine)
+
+
+Plot data retrieved from a MongoDB Collection
+=============================================
+
+You can plot a collection retrieved from MongoDB
+
+::
+
+    import numpy as np
+    import pandas as pd
+    import pdmongo as pdm
+    import matplotlib.pyplot as plt
+
+    # Generate data and write them to MongoDB
+    df = pd.DataFrame({'Value': np.random.randn(1000)})
+    df.to_mongo('TimeSeries', 'mongodb://localhost:27017/mydb')
+
+    # Read collection from MongoDB and plot data
+    new_df = pdm.read_mongo("TimeSeries", [], "mongodb://localhost:27017/mydb")
+    new_df.plot()
+    plt.show()
+
+
+============
+Installation
+============
+
+::
+
+    pip install pdmongo
+
+You can also install the in-development version with::
+
+    pip install https://github.com/pakallis/python-pandas-mongo/archive/master.zip
+
+
+=============
+Documentation
+=============
+
+You can find the documentation at::
+
+    https://python-pandas-mongo.readthedocs.io/
+
+===========
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.3.4 (2022-11-17)
+------------------
+* Support for python3.7-3.10
+* Fix wrong version of Python in CI
+
+0.3.3 (2022-11-17)
+------------------
+* Restrict pandas to >=0.20,<1.6
+* Restrict pymongo to >=13,<4.4
+* Remove hypothesis
+* Run tests with tox in CI
+* Add flake8 checks in CI
+
+0.2.3 (2022-11-12)
+------------------
+* Add prepare release script
+
+0.2.2 (2022-11-12)
+------------------
+* Fix lint offenses
+
+0.2.1 (2022-11-12)
+------------------
+* Minor changes
+
+0.2.0 (2022-11-12)
+------------------
+* Add compatibility for pymongo 4+
+
+
+0.1.0 (2020-05-05)
+------------------
+* Added static typing
+* Added mypy to travis CI
+* Removed unecessary params
+
+0.0.2 (2020-05-04)
+------------------
+
+* Dropped support for pypy3
+
+0.0.1 (2020-04-30)
+------------------
+
+* Added read_mongo and basic support for reading MongoDB collections into pandas dataframes
+* Added to_mongo and basic support for writing pandas dataframes in MongoDB collections
+
+0.0.0 (2020-03-22)
+------------------
+
+* First release on PyPI.
