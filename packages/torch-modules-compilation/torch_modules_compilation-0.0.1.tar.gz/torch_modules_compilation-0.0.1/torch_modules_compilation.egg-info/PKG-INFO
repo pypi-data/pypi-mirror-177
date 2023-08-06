@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: torch-modules-compilation
+Version: 0.0.1
+Summary: Compilation of Torch Modules from various ML papers
+Author: Link An Jarad
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
