@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+
+import sys
+import json
+import subprocess
+import shlex
+from typing import Any, Optional
+
+import click
+from autotui.fileio import namedtuple_sequence_dumps
+from autotui.pick import pick_namedtuple
+from ttally.autotui_ext import glob_namedtuple
+from ttally.file import ttally_merged_path
+from ttally.config import Food  # type: ignore
+
+
+@click.command()
+@click.option(
+    "--scale/--no-scale",
+    help="scale quantity based on new calories/water amounts",
+    default=True,
+    is_flag=True,
+)
+def main(scale: bool):
+    """
+    updates the water/calorie count for a food and fix the old quantities based on new calorie count
+    """
+    # merge data into single file
+    subprocess.run(shlex.split("ttally merge food --sort-key when"), check=True)
+
+    # pick
+    food: list[Food] = list(glob_namedtuple(Food))
+    picked: Optional[Food] = pick_namedtuple(food)
+    if picked is None:
+        click.echo("No food picked", err=True)
+        sys.exit(1)
+
+    print(picked)
+
+    # prompt calories/water
+    cals = int(click.prompt("Calories", type=int))
+    water = int(click.prompt("Water", type=int))
+
+    # update and fix quantity based on new calories ratio
+    data = json.loads(namedtuple_sequence_dumps(food))
+    edited_list: list[dict[str, Any]] = []
+    for blob in data:
+        if blob["food"] == picked.food:
+            assert "calories" in blob and "water" in blob and "quantity" in blob
+            print("Before:", blob)
+            blob["calories"] = cals
+            blob["water"] = water
+            if scale:
+                if cals == 0:
+                    blob["quantity"] = blob["quantity"] / (water / picked.water)
+                else:
+                    blob["quantity"] = blob["quantity"] / (cals / picked.calories)
+            print("After:", blob)
+        edited_list.append(blob)
+
+    # write back to merged file
+    ttally_merged_path("food").write_text(json.dumps(edited_list))
+
+
+if __name__ == "__main__":
+    main()
