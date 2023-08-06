@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Earth_Observation_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_AUX_ORBRES_0300.XSD" schemaVersion="3.0" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Observation_Header>
+    <Fixed_Header>
+      <File_Name>MA1_TEST_AUX_ORBRES_20210610T045753_20210610T065853_0001</File_Name>
+      <File_Description>FOS Orbit File</File_Description>
+      <Notes>
+               WARNING: this is an example of file compliant with formats defined and supported
+                        within the Earth Observation Mission CFI Software.
+                        This file does not reflect the actual satellite orbit
+                        attitude or instrument configuration.
+                        This file shall not be used in production environments.
+      </Notes>
+      <Mission>MetOpSGA1</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>AUX_ORBRES</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2021-06-10T04:57:53</Validity_Start>
+        <Validity_Stop>UTC=2021-06-10T05:02:23</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <EOFFS_Version>3.0</EOFFS_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2022-06-23T10:06:43</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header>
+      <Ref_Frame>EARTH_FIXED</Ref_Frame>
+      <Time_Reference>UTC</Time_Reference>
+    </Variable_Header>
+  </Earth_Observation_Header>
+  <Data_Block type="xml">
+    <List_of_OSVs count="10">
+      <OSV>
+        <TAI>TAI=2021-06-10T04:57:17.817060</TAI>
+        <UTC>UTC=2021-06-10T04:57:52.817060</UTC>
+        <UT1>UT1=2021-06-10T04:57:53.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-1606749.988</X>
+        <Y unit="m">-5677008.966</Y>
+        <Z unit="m">-4135675.595</Z>
+        <VX unit="m/s">-2876.652288</VX>
+        <VY unit="m/s">-3541.028256</VY>
+        <VZ unit="m/s">+5985.303441</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T04:57:47.817060</TAI>
+        <UTC>UTC=2021-06-10T04:58:22.817060</UTC>
+        <UT1>UT1=2021-06-10T04:58:23.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-1692498.057</X>
+        <Y unit="m">-5780328.489</Y>
+        <Z unit="m">-3954158.508</Z>
+        <VX unit="m/s">-2839.280733</VX>
+        <VY unit="m/s">-3346.408701</VY>
+        <VZ unit="m/s">+6114.864985</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T04:58:17.817060</TAI>
+        <UTC>UTC=2021-06-10T04:58:52.817060</UTC>
+        <UT1>UT1=2021-06-10T04:58:53.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-1777071.239</X>
+        <Y unit="m">-5877762.949</Y>
+        <Z unit="m">-3768841.929</Z>
+        <VX unit="m/s">-2798.330806</VX>
+        <VY unit="m/s">-3148.726613</VY>
+        <VZ unit="m/s">+6238.580048</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T04:58:47.817060</TAI>
+        <UTC>UTC=2021-06-10T04:59:22.817060</UTC>
+        <UT1>UT1=2021-06-10T04:59:23.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-1860362.547</X>
+        <Y unit="m">-5969223.512</Y>
+        <Z unit="m">-3579903.098</Z>
+        <VX unit="m/s">-2753.827485</VX>
+        <VY unit="m/s">-2948.185095</VY>
+        <VZ unit="m/s">+6356.326763</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T04:59:17.817060</TAI>
+        <UTC>UTC=2021-06-10T04:59:52.817060</UTC>
+        <UT1>UT1=2021-06-10T04:59:53.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-1942265.810</X>
+        <Y unit="m">-6054627.481</Y>
+        <Z unit="m">-3387522.823</Z>
+        <VX unit="m/s">-2705.800113</VX>
+        <VY unit="m/s">-2744.990125</VY>
+        <VZ unit="m/s">+6467.988891</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T04:59:47.817060</TAI>
+        <UTC>UTC=2021-06-10T05:00:22.817060</UTC>
+        <UT1>UT1=2021-06-10T05:00:23.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-2022675.801</X>
+        <Y unit="m">-6133898.380</Y>
+        <Z unit="m">-3191885.318</Z>
+        <VX unit="m/s">-2654.282392</VX>
+        <VY unit="m/s">-2539.350345</VY>
+        <VZ unit="m/s">+6573.455948</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T05:00:17.817060</TAI>
+        <UTC>UTC=2021-06-10T05:00:52.817060</UTC>
+        <UT1>UT1=2021-06-10T05:00:53.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-2101488.371</X>
+        <Y unit="m">-6206966.029</Y>
+        <Z unit="m">-2993178.022</Z>
+        <VX unit="m/s">-2599.312370</VX>
+        <VY unit="m/s">-2331.476850</VY>
+        <VZ unit="m/s">+6672.623344</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T05:00:47.817060</TAI>
+        <UTC>UTC=2021-06-10T05:01:22.817060</UTC>
+        <UT1>UT1=2021-06-10T05:01:23.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-2178600.577</X>
+        <Y unit="m">-6273766.615</Y>
+        <Z unit="m">-2791591.420</Z>
+        <VX unit="m/s">-2540.932421</VX>
+        <VY unit="m/s">-2121.582960</VY>
+        <VZ unit="m/s">+6765.392502</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T05:01:17.817060</TAI>
+        <UTC>UTC=2021-06-10T05:01:52.817060</UTC>
+        <UT1>UT1=2021-06-10T05:01:53.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-2253910.812</X>
+        <Y unit="m">-6334242.755</Y>
+        <Z unit="m">-2587318.864</Z>
+        <VX unit="m/s">-2479.189219</VX>
+        <VY unit="m/s">-1909.883998</VY>
+        <VZ unit="m/s">+6851.670979</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2021-06-10T05:01:47.817060</TAI>
+        <UTC>UTC=2021-06-10T05:02:22.817060</UTC>
+        <UT1>UT1=2021-06-10T05:02:23.117059</UT1>
+        <Absolute_Orbit>+00999</Absolute_Orbit>
+        <X unit="m">-2327318.932</X>
+        <Y unit="m">-6388343.555</Y>
+        <Z unit="m">-2380556.386</Z>
+        <VX unit="m/s">-2414.133705</VX>
+        <VY unit="m/s">-1696.597062</VY>
+        <VZ unit="m/s">+6931.372578</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+    </List_of_OSVs>
+  </Data_Block>
+</Earth_Observation_File>

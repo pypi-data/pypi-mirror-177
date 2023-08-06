@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Earth_Observation_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_ATTREF_0300.XSD" schemaVersion="3.0" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Observation_Header>
+    <Fixed_Header>
+      <File_Name>MA1_TEST_INT_ATTREF_20210610T045753_20210610T065853_0001</File_Name>
+      <File_Description>Attitude File</File_Description>
+      <Notes>
+               WARNING: this is an example of file compliant with formats defined and supported
+                        within the Earth Observation Mission CFI Software.
+                        This file does not reflect the actual satellite orbit
+                        attitude or instrument configuration.
+                        This file shall not be used in production environments.
+      </Notes>
+      <Mission>MetOpSGA1</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_ATTREF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2021-06-10T04:57:53</Validity_Start>
+        <Validity_Stop>UTC=2021-06-10T05:02:23</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <EOFFS_Version>3.0</EOFFS_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2015-01-01T00:00:00</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Observation_Header>
+  <Data_Block type="xml">
+    <Attitude_File_Type>Sat_Nominal_Attitude</Attitude_File_Type>
+    <Attitude_Data_Type>Quaternions</Attitude_Data_Type>
+    <Max_Gap unit="s">200.000000</Max_Gap>
+    <Quaternion_Data>
+      <Reference_Frame>EARTH_FIXED</Reference_Frame>
+      <List_of_Quaternions count="10">
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T04:57:52.817060</Time>
+          <Q1>0.227295830</Q1>
+          <Q2>0.858181037</Q2>
+          <Q3>-0.460218863</Q3>
+          <Q4>-0.007778996</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T04:58:22.817060</Time>
+          <Q1>0.228189876</Q1>
+          <Q2>0.850571630</Q2>
+          <Q3>-0.473646797</Q3>
+          <Q4>-0.010770089</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T04:58:52.817060</Time>
+          <Q1>0.228979697</Q1>
+          <Q2>0.842760516</Q2>
+          <Q3>-0.486962990</Q3>
+          <Q4>-0.013786147</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T04:59:22.817060</Time>
+          <Q1>0.229664541</Q1>
+          <Q2>0.834749830</Q2>
+          <Q3>-0.500163721</Q3>
+          <Q4>-0.016827696</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T04:59:52.817060</Time>
+          <Q1>0.230243759</Q1>
+          <Q2>0.826541761</Q2>
+          <Q3>-0.513245271</Q3>
+          <Q4>-0.019895242</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T05:00:22.817060</Time>
+          <Q1>0.230716808</Q1>
+          <Q2>0.818138549</Q2>
+          <Q3>-0.526203917</Q3>
+          <Q4>-0.022989275</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T05:00:52.817060</Time>
+          <Q1>0.231083246</Q1>
+          <Q2>0.809542486</Q2>
+          <Q3>-0.539035946</Q3>
+          <Q4>-0.026110260</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T05:01:22.817060</Time>
+          <Q1>0.231342736</Q1>
+          <Q2>0.800755916</Q2>
+          <Q3>-0.551737649</Q3>
+          <Q4>-0.029258638</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T05:01:52.817060</Time>
+          <Q1>0.231495046</Q1>
+          <Q2>0.791781233</Q2>
+          <Q3>-0.564305330</Q3>
+          <Q4>-0.032434817</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2021-06-10T05:02:22.817060</Time>
+          <Q1>0.231540049</Q1>
+          <Q2>0.782620880</Q2>
+          <Q3>-0.576735306</Q3>
+          <Q4>-0.035639176</Q4>
+        </Quaternions>
+      </List_of_Quaternions>
+    </Quaternion_Data>
+  </Data_Block>
+</Earth_Observation_File>

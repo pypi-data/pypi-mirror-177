@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_MPL_ORBPRE_0200.XSD" schemaVersion="2.0" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>S1A_TEST_MPL_ORBPRE_20111231T102653_20120107T115724_0001</File_Name>
+      <File_Description>FOS Predicted Orbit File</File_Description>
+      <Notes>
+                 WARNING: this is an example of file compliant with formats defined and supported
+                          within the Earth Observation Mission CFI Software.
+                          This file does not reflect the actual satellite orbit
+                          attitude or instrument configuration.
+                          This file shall not be used in production environments.
+      </Notes>
+      <Mission>Sentinel1A</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>MPL_ORBPRE</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2011-12-31T10:26:53</Validity_Start>
+        <Validity_Stop>UTC=2012-01-01T01:15:34</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0001</File_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2012-01-24T11:56:10</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header>
+      <Ref_Frame>EARTH_FIXED</Ref_Frame>
+      <Time_Reference>UTC</Time_Reference>
+    </Variable_Header>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <List_of_OSVs count="10">
+      <OSV>
+        <TAI>TAI=2011-12-31T10:27:26.906682</TAI>
+        <UTC>UTC=2011-12-31T10:26:52.906682</UTC>
+        <UT1>UT1=2011-12-31T10:26:52.906684</UT1>
+        <Absolute_Orbit>+01761</Absolute_Orbit>
+        <X unit="m">-2797510.395</X>
+        <Y unit="m">+6500475.042</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">+1458.377481</VX>
+        <VY unit="m/s">+0617.969409</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T12:06:11.478111</TAI>
+        <UTC>UTC=2011-12-31T12:05:37.478111</UTC>
+        <UT1>UT1=2011-12-31T12:05:37.478113</UT1>
+        <Absolute_Orbit>+01762</Absolute_Orbit>
+        <X unit="m">+0173009.448</X>
+        <Y unit="m">+7074765.573</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">+1583.188849</VX>
+        <VY unit="m/s">-0047.582930</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T13:44:56.049539</TAI>
+        <UTC>UTC=2011-12-31T13:44:22.049539</UTC>
+        <UT1>UT1=2011-12-31T13:44:22.049541</UT1>
+        <Absolute_Orbit>+01763</Absolute_Orbit>
+        <X unit="m">+3111907.433</X>
+        <Y unit="m">+6355963.524</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">+1418.632360</VX>
+        <VY unit="m/s">-0704.438283</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T15:23:40.620968</TAI>
+        <UTC>UTC=2011-12-31T15:23:06.620968</UTC>
+        <UT1>UT1=2011-12-31T15:23:06.620970</UT1>
+        <Absolute_Orbit>+01764</Absolute_Orbit>
+        <X unit="m">+5482025.524</X>
+        <Y unit="m">+4475448.172</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">+0994.784879</VX>
+        <VY unit="m/s">-1232.539700</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T17:02:25.192396</TAI>
+        <UTC>UTC=2011-12-31T17:01:51.192396</UTC>
+        <UT1>UT1=2011-12-31T17:01:51.192398</UT1>
+        <Absolute_Orbit>+01765</Absolute_Orbit>
+        <X unit="m">+6850164.615</X>
+        <Y unit="m">+1776931.324</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">+0389.115268</VX>
+        <VY unit="m/s">-1535.363272</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T18:41:09.763825</TAI>
+        <UTC>UTC=2011-12-31T18:40:35.763825</UTC>
+        <UT1>UT1=2011-12-31T18:40:35.763827</UT1>
+        <Absolute_Orbit>+01766</Absolute_Orbit>
+        <X unit="m">+6966262.639</X>
+        <Y unit="m">-1246364.726</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">-0287.675012</VX>
+        <VY unit="m/s">-1557.560322</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T20:19:54.335254</TAI>
+        <UTC>UTC=2011-12-31T20:19:20.335254</UTC>
+        <UT1>UT1=2011-12-31T20:19:20.335256</UT1>
+        <Absolute_Orbit>+01767</Absolute_Orbit>
+        <X unit="m">+5809099.741</X>
+        <Y unit="m">-4041856.057</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">-0911.885399</VX>
+        <VY unit="m/s">-1295.073777</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T21:58:38.906682</TAI>
+        <UTC>UTC=2011-12-31T21:58:04.906682</UTC>
+        <UT1>UT1=2011-12-31T21:58:04.906684</UT1>
+        <Absolute_Orbit>+01768</Absolute_Orbit>
+        <X unit="m">+3590176.747</X>
+        <Y unit="m">-6098595.831</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">-1369.425635</VX>
+        <VY unit="m/s">-0795.879701</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2011-12-31T23:37:23.478111</TAI>
+        <UTC>UTC=2011-12-31T23:36:49.478111</UTC>
+        <UT1>UT1=2011-12-31T23:36:49.478113</UT1>
+        <Absolute_Orbit>+01769</Absolute_Orbit>
+        <X unit="m">+0715058.029</X>
+        <Y unit="m">-7040662.767</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">-1576.668655</VX>
+        <VY unit="m/s">-0151.218453</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+      <OSV>
+        <TAI>TAI=2012-01-01T01:16:08.049539</TAI>
+        <UTC>UTC=2012-01-01T01:15:34.049539</UTC>
+        <UT1>UT1=2012-01-01T01:15:34.049541</UT1>
+        <Absolute_Orbit>+01770</Absolute_Orbit>
+        <X unit="m">-2290755.653</X>
+        <Y unit="m">-6695870.274</Y>
+        <Z unit="m">+0000000.000</Z>
+        <VX unit="m/s">-1495.735548</VX>
+        <VY unit="m/s">+0521.081796</VY>
+        <VZ unit="m/s">+7430.334805</VZ>
+        <Quality>0000000000000</Quality>
+      </OSV>
+    </List_of_OSVs>
+  </Data_Block>
+</Earth_Explorer_File>

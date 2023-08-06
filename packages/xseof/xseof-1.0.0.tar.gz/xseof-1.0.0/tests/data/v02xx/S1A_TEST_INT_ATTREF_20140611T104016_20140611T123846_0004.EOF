@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Earth_Explorer_File xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://eop-cfi.esa.int/CFI http://eop-cfi.esa.int/CFI/EE_CFI_SCHEMAS/EO_OPER_INT_ATTREF_0203.XSD" schemaVersion="2.3" xmlns="http://eop-cfi.esa.int/CFI">
+  <Earth_Explorer_Header>
+    <Fixed_Header>
+      <File_Name>S1A_TEST_INT_ATTREF_20140611T104016_20140611T123846_0004</File_Name>
+      <File_Description>Attitude File</File_Description>
+      <Notes>
+               WARNING: this is an example of file compliant with formats defined and supported
+                        within the Earth Observation Mission CFI Software.
+                        This file does not reflect the actual satellite orbit
+                        attitude or instrument configuration.
+                        This file shall not be used in production environments.
+      </Notes>
+      <Mission>Sentinel1A</Mission>
+      <File_Class>TEST</File_Class>
+      <File_Type>INT_ATTREF</File_Type>
+      <Validity_Period>
+        <Validity_Start>UTC=2014-06-11T10:40:16</Validity_Start>
+        <Validity_Stop>UTC=2014-06-11T10:44:46</Validity_Stop>
+      </Validity_Period>
+      <File_Version>0004</File_Version>
+      <Source>
+        <System>System Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</System>
+        <Creator>Creator Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator>
+        <Creator_Version>Creator Version Identification as per Ground Segment File Format Standard (PE-TN-ESA-GS-0001)</Creator_Version>
+        <Creation_Date>UTC=2015-01-01T00:00:00</Creation_Date>
+      </Source>
+    </Fixed_Header>
+    <Variable_Header/>
+  </Earth_Explorer_Header>
+  <Data_Block type="xml">
+    <Attitude_File_Type>Sat_Nominal_Attitude</Attitude_File_Type>
+    <Attitude_Data_Type>Quaternions</Attitude_Data_Type>
+    <Max_Gap unit="s">200.000000</Max_Gap>
+    <Quaternion_Data>
+      <Reference_Frame>EARTH_FIXED</Reference_Frame>
+      <List_of_Quaternions count="10">
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:40:15.855382</Time>
+          <Q1>0.885506447</Q1>
+          <Q2>0.098371412</Q2>
+          <Q3>-0.151937500</Q3>
+          <Q4>-0.427921014</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:40:45.855382</Time>
+          <Q1>0.878632093</Q1>
+          <Q2>0.094808219</Q2>
+          <Q3>-0.154045603</Q3>
+          <Q4>-0.441912886</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:41:15.855382</Time>
+          <Q1>0.871522526</Q1>
+          <Q2>0.091270015</Q2>
+          <Q3>-0.156089486</Q3>
+          <Q4>-0.455800773</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:41:45.855382</Time>
+          <Q1>0.864179710</Q1>
+          <Q2>0.087758393</Q2>
+          <Q3>-0.158067266</Q3>
+          <Q4>-0.469581337</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:42:15.855382</Time>
+          <Q1>0.856605691</Q1>
+          <Q2>0.084274859</Q2>
+          <Q3>-0.159977074</Q3>
+          <Q4>-0.483251254</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:42:45.855382</Time>
+          <Q1>0.848802585</Q1>
+          <Q2>0.080820826</Q2>
+          <Q3>-0.161817056</Q3>
+          <Q4>-0.496807212</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:43:15.855382</Time>
+          <Q1>0.840772586</Q1>
+          <Q2>0.077397618</Q2>
+          <Q3>-0.163585382</Q3>
+          <Q4>-0.510245911</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:43:45.855382</Time>
+          <Q1>0.832517959</Q1>
+          <Q2>0.074006467</Q2>
+          <Q3>-0.165280245</Q3>
+          <Q4>-0.523564066</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:44:15.855382</Time>
+          <Q1>0.824041040</Q1>
+          <Q2>0.070648513</Q2>
+          <Q3>-0.166899869</Q3>
+          <Q4>-0.536758405</Q4>
+        </Quaternions>
+        <Quaternions>
+          <Time ref="UTC">UTC=2014-06-11T10:44:45.855382</Time>
+          <Q1>0.815344237</Q1>
+          <Q2>0.067324804</Q2>
+          <Q3>-0.168442509</Q3>
+          <Q4>-0.549825669</Q4>
+        </Quaternions>
+      </List_of_Quaternions>
+    </Quaternion_Data>
+  </Data_Block>
+</Earth_Explorer_File>

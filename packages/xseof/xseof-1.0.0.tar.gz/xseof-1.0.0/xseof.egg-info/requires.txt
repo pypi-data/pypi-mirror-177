@@ -1,0 +1,4 @@
+xsdata
+
+[podhub]
+lxml
