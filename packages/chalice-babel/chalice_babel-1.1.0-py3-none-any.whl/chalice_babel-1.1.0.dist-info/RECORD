@@ -1,0 +1,10 @@
+chalice_babel/__init__.py,sha256=y0E9VXmpMNZgGbpbDCihgNxkeo3O0yUJlpO5yvETjvc,17333
+chalice_babel/lazy_string.py,sha256=moGrHeg_M-c5sqUdmudwnKZ55-FH-Uh4iktpjiHGSpo,1669
+chalice_babel/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chalice_babel/command/main.py,sha256=hN8U_j7o-PjK7dILI08LJkhqEzDTHGpjl1PO8LJ2zOY,5940
+chalice_babel-1.1.0.dist-info/LICENSE,sha256=Ke-wvyKbE6tcLEqZ0Bi4a8HUYOOW6X0uJ8GW2kt34VI,1062
+chalice_babel-1.1.0.dist-info/METADATA,sha256=YJa10pMH6CCfdntC6pxdStNlhBSkADHdExNmGw_ccpY,10706
+chalice_babel-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+chalice_babel-1.1.0.dist-info/entry_points.txt,sha256=UeNKWM0lT-olsE68BM-hTEi_DjQYNf-DGdwHK2qcJgg,198
+chalice_babel-1.1.0.dist-info/top_level.txt,sha256=6xEiSEgeuTJm4I4_4FPFDV8SUiB5BvD6QnFyIHLlwC0,14
+chalice_babel-1.1.0.dist-info/RECORD,,
