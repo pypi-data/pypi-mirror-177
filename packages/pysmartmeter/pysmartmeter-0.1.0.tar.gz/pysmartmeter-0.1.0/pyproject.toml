@@ -1,0 +1,130 @@
+[tool.poetry]
+name = "pysmartmeter"
+version = "0.1.0"
+description = "Collect data from Hitchi Smartmeter and expose it via MQTT"
+authors = [
+    "Jens Diemer <pysmartmeter@jensdiemer.de>",
+]
+maintainers = [
+    "Jens Diemer <pysmartmeter@jensdiemer.de>",
+]
+homepage = "https://github.com/jedie/pysmartmeter"
+packages = [{ include = "pysmartmeter" }]
+license = "GPL-3.0-or-later"
+readme = 'README.md'
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/jedie/pysmartmeter/issues"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+pyserial = "*"
+paho-mqtt = "*"
+typer = "*"
+rich = "*"
+bx_py_utils = "*"
+
+# TODO: Use keyring for store MQTT credentials:
+#keyring = "*" # https://github.com/jaraco/keyring
+
+
+[tool.poetry.dev-dependencies]
+tox = "*"
+darker = "*"  # https://github.com/akaihola/pytest-darker
+coveralls = "*"
+isort = "*"
+flake8 = "*"
+EditorConfig = "*"  # https://github.com/editorconfig/editorconfig-core-py
+safety = "*"  # https://github.com/pyupio/safety
+poetry-publish = "*"  # https://github.com/jedie/poetry-publish
+mypy = "*"
+pyproject-flake8="*"
+tomli = "*"
+
+
+[tool.poetry.scripts]
+pysmartmeter = "pysmartmeter.main:main"
+publish = "pysmartmeter.publish:publish"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.darker]
+src = ['.']
+revision = "origin/main..."
+line_length = 100
+verbose = true
+skip_string_normalization = true
+diff = false
+check = false
+stdout = false
+isort = true
+lint = [
+    "flake8",
+]
+log_level = "INFO"
+
+
+[tool.isort]
+# https://pycqa.github.io/isort/docs/configuration/config_files/#pyprojecttoml-preferred-format
+atomic=true
+profile='black'
+skip_glob=["*/htmlcov/*"]
+known_first_party=['pysmartmeter']
+line_length=100
+lines_after_imports=2
+
+
+[tool.coverage.run]
+branch = true
+source = ['.']
+omit = ['.*', '*/tests/*']
+command_line = "-m unittest"
+
+
+[tool.mypy]
+warn_unused_configs = true
+ignore_missing_imports = true
+allow_redefinition = true  # https://github.com/python/mypy/issues/7165
+show_error_codes = true
+plugins = []
+exclude = ['.venv', 'tests']
+
+
+[tool.tox]
+# https://tox.readthedocs.io/en/latest/example/basic.html#pyproject-toml-tox-legacy-ini
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py{39,310}
+skip_missing_interpreters = True
+
+[testenv]
+passenv = *
+whitelist_externals = make
+commands =
+    make test
+"""
+
+
+[manageprojects] # https://github.com/jedie/manageprojects
+initial_revision = "e826e73"
+initial_date = 2022-11-14T08:20:55+01:00
+cookiecutter_template = "https://github.com/jedie/cookiecutter_templates/"
+cookiecutter_directory = "poetry-python"
+
+[manageprojects.cookiecutter_context.cookiecutter]
+full_name = "Jens Diemer"
+github_username = "jedie"
+author_email = "pysmartmeter@jensdiemer.de"
+package_name = "pysmartmeter"
+package_version = "0.0.1"
+package_description = "Collect data from Hitchi Smartmeter and expose it via MQTT"
+package_url = "https://github.com/jedie/pysmartmeter"
+issues_url = "https://github.com/jedie/pysmartmeter/issues"
+license = "GPL-3.0-or-later"
+_template = "https://github.com/jedie/cookiecutter_templates/"
