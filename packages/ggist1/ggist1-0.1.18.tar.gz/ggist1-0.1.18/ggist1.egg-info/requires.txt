@@ -1,0 +1,5 @@
+Click>=6.0
+rich
+inquirer
+dacite
+pyyaml
