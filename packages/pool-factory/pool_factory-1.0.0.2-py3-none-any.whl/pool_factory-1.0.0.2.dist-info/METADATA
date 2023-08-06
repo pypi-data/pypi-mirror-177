@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pool-factory
+Version: 1.0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: tqdm-pathos
+Requires-Dist: requests
+
+UNKNOWN
+
