@@ -1,0 +1,10 @@
+FactorBacktesterModel/__init__.py,sha256=v-KPTVN170TJRveG-6KTDuglxTTSEm1dgWoSon1iFvI,64
+FactorBacktesterModel/extractdata.py,sha256=diYiI7hiDYqAcwgqV9GiZfzrDZCSvmiH3nQkLo3_nYs,1313
+FactorBacktesterModel/Factors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Model/__init__.py,sha256=v-KPTVN170TJRveG-6KTDuglxTTSEm1dgWoSon1iFvI,64
+Model/extractdata.py,sha256=diYiI7hiDYqAcwgqV9GiZfzrDZCSvmiH3nQkLo3_nYs,1313
+Model/Factors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FactorBacktesterModel-0.0.1.dist-info/METADATA,sha256=Ez-K1NQb6DSBIlEK6BUKyLGpMTrOIWgWijRbt2iayyk,534
+FactorBacktesterModel-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+FactorBacktesterModel-0.0.1.dist-info/top_level.txt,sha256=qE2hWSEuDC54rZwYmaUcJaTSbNYJHSAzDnWSCVU1pI0,22
+FactorBacktesterModel-0.0.1.dist-info/RECORD,,
