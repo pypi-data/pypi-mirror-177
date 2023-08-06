@@ -1,0 +1,152 @@
+name: Collection Docs
+concurrency:
+  group: docs-${{ github.head_ref }}
+  cancel-in-progress: true
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+
+env:
+  GHP_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+
+jobs:
+  validate-docs:
+    permissions:
+      contents: read
+    name: Validate Ansible Docs
+    uses: ansible-community/github-docs-build/.github/workflows/_shared-docs-build-pr.yml@main
+    with:
+      init-lenient: false
+      init-fail-on-error: true
+      extra-collections: 'git+https://github.com/ansible-collections/amazon.aws.git,main'
+      # Please also update docs-push.yml
+      provide-link-targets: |
+        ansible_collections.amazon.aws.autoscaling_group_info_module
+        ansible_collections.amazon.aws.autoscaling_group_module
+        ansible_collections.amazon.aws.cloudtrail_module
+        ansible_collections.amazon.aws.cloudwatchevent_rule_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_info_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_metric_filter_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_module
+        ansible_collections.amazon.aws.cloudwatch_metric_alarm_module
+        ansible_collections.amazon.aws.ec2_eip_info_module
+        ansible_collections.amazon.aws.ec2_eip_module
+        ansible_collections.amazon.aws.elb_application_lb_info_module
+        ansible_collections.amazon.aws.elb_application_lb_module
+        ansible_collections.amazon.aws.execute_lambda_module
+        ansible_collections.amazon.aws.iam_policy_info_module
+        ansible_collections.amazon.aws.iam_policy_module
+        ansible_collections.amazon.aws.iam_user_info_module
+        ansible_collections.amazon.aws.iam_user_module
+        ansible_collections.amazon.aws.kms_key_info_module
+        ansible_collections.amazon.aws.kms_key_module
+        ansible_collections.amazon.aws.lambda_alias_module
+        ansible_collections.amazon.aws.lambda_event_module
+        ansible_collections.amazon.aws.lambda_execute_module
+        ansible_collections.amazon.aws.lambda_info_module
+        ansible_collections.amazon.aws.lambda_module
+        ansible_collections.amazon.aws.lambda_policy_module
+        ansible_collections.amazon.aws.rds_cluster_info_module
+        ansible_collections.amazon.aws.rds_cluster_module
+        ansible_collections.amazon.aws.rds_cluster_snapshot_module
+        ansible_collections.amazon.aws.rds_instance_info_module
+        ansible_collections.amazon.aws.rds_instance_module
+        ansible_collections.amazon.aws.rds_instance_snapshot_module
+        ansible_collections.amazon.aws.rds_option_group_info_module
+        ansible_collections.amazon.aws.rds_option_group_module
+        ansible_collections.amazon.aws.rds_param_group_module
+        ansible_collections.amazon.aws.rds_snapshot_info_module
+        ansible_collections.amazon.aws.rds_subnet_group_module
+        ansible_collections.amazon.aws.route53_health_check_module
+        ansible_collections.amazon.aws.route53_info_module
+        ansible_collections.amazon.aws.route53_module
+        ansible_collections.amazon.aws.route53_zone_module
+
+  build-docs:
+    permissions:
+      contents: read
+    name: Build Ansible Docs
+    uses: ansible-community/github-docs-build/.github/workflows/_shared-docs-build-pr.yml@main
+    with:
+      init-lenient: true
+      init-fail-on-error: false
+      extra-collections: 'git+https://github.com/ansible-collections/amazon.aws.git,main'
+      # Please also update docs-push.yml
+      provide-link-targets: |
+        ansible_collections.amazon.aws.autoscaling_group_info_module
+        ansible_collections.amazon.aws.autoscaling_group_module
+        ansible_collections.amazon.aws.cloudtrail_module
+        ansible_collections.amazon.aws.cloudwatchevent_rule_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_info_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_metric_filter_module
+        ansible_collections.amazon.aws.cloudwatchlogs_log_group_module
+        ansible_collections.amazon.aws.cloudwatch_metric_alarm_module
+        ansible_collections.amazon.aws.ec2_eip_info_module
+        ansible_collections.amazon.aws.ec2_eip_module
+        ansible_collections.amazon.aws.elb_application_lb_info_module
+        ansible_collections.amazon.aws.elb_application_lb_module
+        ansible_collections.amazon.aws.execute_lambda_module
+        ansible_collections.amazon.aws.iam_policy_info_module
+        ansible_collections.amazon.aws.iam_policy_module
+        ansible_collections.amazon.aws.iam_user_info_module
+        ansible_collections.amazon.aws.iam_user_module
+        ansible_collections.amazon.aws.kms_key_info_module
+        ansible_collections.amazon.aws.kms_key_module
+        ansible_collections.amazon.aws.lambda_alias_module
+        ansible_collections.amazon.aws.lambda_event_module
+        ansible_collections.amazon.aws.lambda_execute_module
+        ansible_collections.amazon.aws.lambda_info_module
+        ansible_collections.amazon.aws.lambda_module
+        ansible_collections.amazon.aws.lambda_policy_module
+        ansible_collections.amazon.aws.rds_cluster_info_module
+        ansible_collections.amazon.aws.rds_cluster_module
+        ansible_collections.amazon.aws.rds_cluster_snapshot_module
+        ansible_collections.amazon.aws.rds_instance_info_module
+        ansible_collections.amazon.aws.rds_instance_module
+        ansible_collections.amazon.aws.rds_instance_snapshot_module
+        ansible_collections.amazon.aws.rds_option_group_info_module
+        ansible_collections.amazon.aws.rds_option_group_module
+        ansible_collections.amazon.aws.rds_param_group_module
+        ansible_collections.amazon.aws.rds_snapshot_info_module
+        ansible_collections.amazon.aws.rds_subnet_group_module
+        ansible_collections.amazon.aws.route53_health_check_module
+        ansible_collections.amazon.aws.route53_info_module
+        ansible_collections.amazon.aws.route53_module
+        ansible_collections.amazon.aws.route53_zone_module
+
+  comment:
+    permissions:
+      pull-requests: write
+    runs-on: ubuntu-latest
+    needs: [build-docs]
+    name: PR comments
+    steps:
+    - name: PR comment
+      uses: ansible-community/github-docs-build/actions/ansible-docs-build-comment@main
+      with:
+        body-includes: '## Docs Build'
+        reactions: heart
+        action: ${{ needs.build-docs.outputs.changed != 'true' && 'remove' || '' }}
+        on-closed-action: remove
+        on-merged-body: |
+          ## Docs Build 📝
+
+          Thank you for contribution!✨
+
+          This PR has been merged and your docs changes will be incorporated when they are next published.
+        body: |
+          ## Docs Build 📝
+
+          Thank you for contribution!✨
+
+          The docsite for **this PR** is available for download as an artifact from this run:
+          ${{ needs.build-docs.outputs.artifact-url }}
+
+          You can compare to the docs for the `main` branch here:
+          ${{ env.GHP_BASE_URL }}/branch/main
+
+          File changes:
+
+          ${{ needs.build-docs.outputs.diff-files-rendered }}
+
+          ${{ needs.build-docs.outputs.diff-rendered }}

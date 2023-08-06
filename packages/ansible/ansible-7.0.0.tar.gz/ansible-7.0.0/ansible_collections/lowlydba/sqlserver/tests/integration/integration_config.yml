@@ -1,0 +1,4 @@
+---
+sqlserver_instance: 172.24.160.1 # ping DESKTOP-4QJ92EM.local
+sqlserver_username: lowlydba
+sqlserver_password: lowlysa
