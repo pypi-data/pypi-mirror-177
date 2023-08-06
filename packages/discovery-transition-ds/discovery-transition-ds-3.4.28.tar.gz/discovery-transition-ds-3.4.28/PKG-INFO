@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: discovery-transition-ds
+Version: 3.4.28
+Summary: Advanced data cleaning, data wrangling and feature extraction tools for ML engineers
+Home-page: http://github.com/gigas64/discovery-transition-ds
+Author: Gigas64
+Author-email: gigas64@opengrass.net
+License: BSD
+Keywords: Wrangling ML Visualisation Dictionary Discovery Productize Classification Feature Engineering Cleansing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE.txt
