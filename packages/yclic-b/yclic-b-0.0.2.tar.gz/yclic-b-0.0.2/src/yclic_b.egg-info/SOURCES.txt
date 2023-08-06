@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cyclic/__init__.py
+src/cyclic/b.py
+src/yclic_b.egg-info/PKG-INFO
+src/yclic_b.egg-info/SOURCES.txt
+src/yclic_b.egg-info/dependency_links.txt
+src/yclic_b.egg-info/requires.txt
+src/yclic_b.egg-info/top_level.txt
