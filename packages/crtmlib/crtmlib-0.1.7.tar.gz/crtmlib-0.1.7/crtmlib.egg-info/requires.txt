@@ -1,0 +1,7 @@
+requests
+pandas
+s3fs
+sys
+io
+datetime
+psycopg2
