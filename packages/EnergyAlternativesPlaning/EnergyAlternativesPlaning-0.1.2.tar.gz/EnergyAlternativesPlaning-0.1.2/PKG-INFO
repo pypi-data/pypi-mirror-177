@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: EnergyAlternativesPlaning
+Version: 0.1.2
+Summary: A Python package for energy system modeling
+Home-page: https://github.com/robingirard/Energy-Alternatives-Planing
+Author: Robin Girard
+Author-email: robin.girard@minesparis.psl.eu
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
