@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: compas_igs2
+Version: 0.2.0
+Summary: Interactive 2D graphic statics based on compas_ags
+Home-page: https://github.com/BlockResearchGroup/compas_igs2
+Author: Tom Van Mele, Juney Lee, Li Chen
+Author-email: van.mele@arch.ethz.ch, juney.lee@som.com, li.chen@arch.ethz.ch
+License: MIT license
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# compas-IGS2
+
+Interactive 2D graphic statics based on compas_ags
