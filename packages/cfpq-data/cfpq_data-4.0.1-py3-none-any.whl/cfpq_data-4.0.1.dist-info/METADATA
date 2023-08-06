@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: cfpq-data
+Version: 4.0.1
+Summary: Python package containing Graphs and Grammars for experimental analysis of Context-Free Path Querying algorithms
+Home-page: https://jetbrains-research.github.io/CFPQ_Data/
+Author: Vadim Abzalov
+Author-email: vadim.i.abzalov@gmail.com
+Maintainer: Nikita Kovalev
+Maintainer-email: Nikitoskova123@gmail.com
+Project-URL: Documentation, https://jetbrains-research.github.io/CFPQ_Data
+Project-URL: Source Code, https://github.com/JetBrains-Research/CFPQ_Data
+Project-URL: Bug Tracker, https://github.com/JetBrains-Research/CFPQ_Data/issues
+Keywords: graphs,grammars,context-free,path-query,cfpq-data
+Platform: Linux
+Platform: Mac OSX
+Platform: Unix
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+Requires-Dist: networkx (==2.6.2)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: pyformlang (==1.0.1)
+Requires-Dist: rdflib (==6.0.0)
+Requires-Dist: requests (==2.26.0)
+Provides-Extra: developer
+Requires-Dist: black (==22.10) ; extra == 'developer'
+Requires-Dist: pre-commit (==2.20) ; extra == 'developer'
+Requires-Dist: pytest (==6.2.4) ; extra == 'developer'
+Provides-Extra: docs
+Requires-Dist: nb2plots (==0.6) ; extra == 'docs'
+Requires-Dist: numpydoc (==1.1.0) ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme (==0.6.3) ; extra == 'docs'
+Requires-Dist: sphinx (==4.1.2) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (==0.4.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: codecov (>=2.1) ; extra == 'tests'
+Requires-Dist: pytest (>=6.2) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.10) ; extra == 'tests'
+
+CFPQ_Data
+=========
+
+.. image:: https://github.com/JetBrains-Research/CFPQ_Data/actions/workflows/tests.yml/badge.svg?branch=master
+   :target: https://github.com/JetBrains-Research/CFPQ_Data/actions/workflows/tests.yml
+
+.. image:: https://codecov.io/gh/JetBrains-Research/CFPQ_Data/branch/master/graph/badge.svg?token=6IAZM6KZT7
+   :target: https://codecov.io/gh/JetBrains-Research/CFPQ_Data
+
+.. image:: https://img.shields.io/pypi/v/cfpq-data.svg
+   :target: https://pypi.org/project/cfpq-data/
+
+.. image:: https://img.shields.io/pypi/pyversions/cfpq-data.svg
+   :target: https://pypi.org/project/cfpq-data/
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/ambv/black
+
+.. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+   :target: https://github.com/JetBrains-Research/CFPQ_Data/blob/master/LICENSE.txt
+
+CFPQ_Data is a Python package for the creation, manipulation, and study of the
+structure, dynamics, and functions of complex Graphs and Grammars used for
+experimental analysis of Context-Free Path Querying algorithms.
+
+- **Website:** https://jetbrains-research.github.io/CFPQ_Data
+- **Tutorial:** https://jetbrains-research.github.io/CFPQ_Data/tutorial.html
+- **Documentation:** https://jetbrains-research.github.io/CFPQ_Data/reference/index.html
+- **Source Code:** https://github.com/JetBrains-Research/CFPQ_Data
+- **Bug Tracker:** https://github.com/JetBrains-Research/CFPQ_Data/issues
+
+Examples
+********
+
+Dataset content
+---------------
+
+.. code-block:: python
+
+   >>> import cfpq_data
+   >>> cfpq_data.DATASET
+   ['skos', 'wc', 'generations', 'travel', 'univ', 'atom', 'biomedical', 'bzip', 'foaf', 'people', 'pr', 'funding', 'ls', 'wine', 'pizza', 'gzip', 'core', 'pathways', 'enzyme', 'eclass', 'go_hierarchy', 'go', 'apache', 'init', 'mm', 'geospecies', 'ipc', 'lib', 'block', 'arch', 'crypto', 'security', 'sound', 'net', 'fs', 'drivers', 'postgre', 'kernel', 'taxonomy', 'taxonomy_hierarchy']
+
+Load graph from Dataset
+-----------------------
+
+.. code-block:: python
+
+   >>> bzip_path = cfpq_data.download("bzip")
+   >>> bzip = cfpq_data.graph_from_csv(bzip_path)
+
+How to add a new graph?
+***********************
+
+Just create
+
+- an ``Issue`` corresponding to the `"Issue template for adding a new graph" <https://github.com/JetBrains-Research/CFPQ_Data/blob/master/.github/ISSUE_TEMPLATE/graph-add-template.md>`_.
+- a ``Pull Request`` corresponding to the `"Pull request template for adding a new graph" <https://github.com/JetBrains-Research/CFPQ_Data/blob/master/.github/PULL_REQUEST_TEMPLATE/new_graph.md>`_.
