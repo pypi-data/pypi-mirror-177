@@ -1,0 +1,10 @@
+globalPrimePay/__init__.py,sha256=go20U3RCVaJ2N55RnX4tO5rinfUCRV0puFyrHCto8yw,23
+globalPrimePay/_nbdev.py,sha256=T1dXuZozOS64AeH9crhJ38E_Zn56Cos7AUPys8oWRZo,899
+globalPrimePay/client.py,sha256=dcwdt3ZhPHsIE47rbsnwDjVkngwkskneeVEeQXsoHEI,7003
+globalPrimePay/exceptions.py,sha256=nz7jbjAlMqexxkPC8F93GSVOKM7GP_e4sRXWzMAK_RI,311
+globalPrimePay/helper.py,sha256=MXcCtua2dyBFJXPSk1aAoN_rNe9PUkvaqFc_KLSdOuU,819
+globalPrimePay-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+globalPrimePay-0.0.15.dist-info/METADATA,sha256=4N0GNRJsFaCQ7HzP2ejynzad6HsoQWMXjmwY9NnuZMI,4964
+globalPrimePay-0.0.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+globalPrimePay-0.0.15.dist-info/top_level.txt,sha256=70QaD_pHtY7fCRjRAUQZsj2RrZlnDRMjlRDZbu8AxCM,15
+globalPrimePay-0.0.15.dist-info/RECORD,,
