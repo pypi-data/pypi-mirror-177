@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/petals_local_parallel.egg-info/PKG-INFO
+src/petals_local_parallel.egg-info/SOURCES.txt
+src/petals_local_parallel.egg-info/dependency_links.txt
+src/petals_local_parallel.egg-info/top_level.txt
