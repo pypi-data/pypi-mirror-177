@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rcclab-gui
+Version: 0.0.10
+Summary: Primer intento de subir algo a PyPI
+Home-page: https://github.com/RosarioCCLab/GUI
+Author: Bruno A. Franco
+Author-email: rosariocclab@gmail.com
+License: MIT
+Keywords: Graphical User Interface
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# GUI (Graphical User Interface)
+## Probando q onda esto
+
+Authors: Bruno A. Franco
+
+Usage: `GUI` 
+
+### Installation Requirements
+
+**GUI.py** needs python 3.8 or later to work. You can install the module from the command line console using:
+`pip3 install rcclab_gui`
+
+### User Guide
+
+Data para completar proximamente :)
