@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+GPMM/FUWMM.py
+GPMM/FWMM.py
+GPMM/UWMM.py
+GPMM/WMM.py
+GPMM/__init__.py
+GPMM.egg-info/PKG-INFO
+GPMM.egg-info/SOURCES.txt
+GPMM.egg-info/dependency_links.txt
+GPMM.egg-info/requires.txt
+GPMM.egg-info/top_level.txt
