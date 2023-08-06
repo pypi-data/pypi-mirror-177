@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: coderfastapi
+Version: 0.4.0
+Summary: coderfastapi
+Author-email: Code R <hello@coderstudio.dev>
+Description-Content-Type: text/markdown
+Requires-Dist: codercore (~=1.0)
+Requires-Dist: fastapi[all] (~=0.86.0)
+Requires-Dist: pydantic (~=1.10.2)
+Provides-Extra: dev
+Requires-Dist: black (~=22.10.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (~=7.2.0) ; extra == 'test'
+Requires-Dist: pytest-cov (~=4.0.0) ; extra == 'test'
+Requires-Dist: pytest-xdist[psutil] (~=3.0.2) ; extra == 'test'
+
+# Code R FastAPI Web Framework
