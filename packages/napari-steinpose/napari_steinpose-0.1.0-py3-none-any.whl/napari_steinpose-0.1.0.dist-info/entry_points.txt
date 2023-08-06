@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-steinpose = napari_steinpose:napari.yaml
