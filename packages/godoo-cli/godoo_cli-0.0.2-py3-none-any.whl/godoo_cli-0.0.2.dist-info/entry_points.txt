@@ -1,0 +1,3 @@
+[console_scripts]
+godoo=src.godoo_cli:launch_cli
+
