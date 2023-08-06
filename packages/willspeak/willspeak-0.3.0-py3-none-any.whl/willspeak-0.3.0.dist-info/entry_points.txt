@@ -1,0 +1,3 @@
+[console_scripts]
+willspeak=willspeak.cli:entrypoint
+
