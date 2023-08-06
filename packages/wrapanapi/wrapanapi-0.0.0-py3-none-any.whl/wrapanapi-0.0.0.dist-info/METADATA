@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: wrapanapi
+Version: 0.0.0
+Summary: A base system for provider management
+Home-page: UNKNOWN
+Author: Peter Savage
+Author-email: psavage@redhat.com
+License: UNKNOWN
+Keywords: setup,distutils
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: azure (<5.0.0)
+Requires-Dist: azure-storage-common (>=1.0)
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: boto
+Requires-Dist: cached-property
+Requires-Dist: dateparser
+Requires-Dist: fauxfactory
+Requires-Dist: google-api-python-client
+Requires-Dist: google-compute-engine
+Requires-Dist: inflection
+Requires-Dist: miq-version
+Requires-Dist: oauth2client
+Requires-Dist: ovirt-engine-sdk-python (~=4.3)
+Requires-Dist: openshift (==0.3.4)
+Requires-Dist: packaging
+Requires-Dist: pyvmomi (>=6.5.0.2017.5.post1)
+Requires-Dist: python-cinderclient
+Requires-Dist: python-swiftclient
+Requires-Dist: python-glanceclient
+Requires-Dist: python-ironicclient
+Requires-Dist: python-keystoneclient
+Requires-Dist: python-neutronclient (==6.12.0)
+Requires-Dist: python-novaclient (==7.1.2)
+Requires-Dist: python-heatclient
+Requires-Dist: pyvcloud (==19.1.2)
+Requires-Dist: py3winrm (==0.0.1)
+Requires-Dist: redfish-client (==0.1.0)
+Requires-Dist: requests
+Requires-Dist: tzlocal
+Requires-Dist: vspk (==5.3.2)
+Requires-Dist: wait-for
+Requires-Dist: websocket-client
+Requires-Dist: lxml
+Provides-Extra: setup
+Requires-Dist: setuptools ; extra == 'setup'
+Requires-Dist: setuptools-scm ; extra == 'setup'
+Requires-Dist: wheel ; extra == 'setup'
+Requires-Dist: twine ; extra == 'setup'
+
+UNKNOWN
+
