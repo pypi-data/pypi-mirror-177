@@ -1,0 +1,3 @@
+[console_scripts]
+datasafe = datasafe.parseArgs:parseArgs
+

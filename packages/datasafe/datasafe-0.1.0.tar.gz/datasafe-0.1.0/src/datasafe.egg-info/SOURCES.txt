@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/datasafe.egg-info/PKG-INFO
+src/datasafe.egg-info/SOURCES.txt
+src/datasafe.egg-info/dependency_links.txt
+src/datasafe.egg-info/entry_points.txt
+src/datasafe.egg-info/not-zip-safe
+src/datasafe.egg-info/requires.txt
+src/datasafe.egg-info/top_level.txt
+src/datavault/__init__.py
+src/datavault/_utils.py
+src/datavault/_version.py
+src/datavault/parseArgs.py
