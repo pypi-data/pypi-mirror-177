@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+min_diffusion/__init__.py
+min_diffusion/_modidx.py
+min_diffusion/core.py
+min_diffusion/utils.py
+min_diffusion.egg-info/PKG-INFO
+min_diffusion.egg-info/SOURCES.txt
+min_diffusion.egg-info/dependency_links.txt
+min_diffusion.egg-info/entry_points.txt
+min_diffusion.egg-info/not-zip-safe
+min_diffusion.egg-info/requires.txt
+min_diffusion.egg-info/top_level.txt
