@@ -1,0 +1,7 @@
+certifi
+pyparsing
+pysocks
+rdflib
+requests
+requests_toolbelt
+six
