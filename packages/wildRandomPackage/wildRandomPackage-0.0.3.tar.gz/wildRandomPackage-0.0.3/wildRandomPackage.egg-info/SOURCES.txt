@@ -1,0 +1,12 @@
+setup.py
+wildRandomPackage/__init__.py
+wildRandomPackage/add.py
+wildRandomPackage/power.py
+wildRandomPackage/subtract.py
+wildRandomPackage.egg-info/PKG-INFO
+wildRandomPackage.egg-info/SOURCES.txt
+wildRandomPackage.egg-info/dependency_links.txt
+wildRandomPackage.egg-info/top_level.txt
+wildRandomPackage/extras/__init__.py
+wildRandomPackage/extras/divide.py
+wildRandomPackage/extras/multiply.py
