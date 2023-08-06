@@ -1,0 +1,8 @@
+tqdm
+requests
+rich
+argparse
+tomli
+scikit-learn
+pandas
+numpy
