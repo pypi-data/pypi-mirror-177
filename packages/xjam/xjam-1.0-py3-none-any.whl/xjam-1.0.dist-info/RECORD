@@ -1,0 +1,9 @@
+xjam/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+xjam/jamd.py,sha256=FIKDi-_jbI_8tJUtCurpgj3-Jakqrtoj2PKOF1tW598,2509
+xjam/jamio.py,sha256=2tb8OE4JeFuAg0iiRpeGc63oJKsr7shVzympSrLtheY,2790
+xjam/jamp.py,sha256=_Kyt3WBMai-qGmyFtdKwwvUQTp6pH5jq4lKhunb396E,2445
+xjam-1.0.data/scripts/x.jam,sha256=gmzuOF6pnHx-KIospVvpaGmsiUhw5c2P5dwzGW4nwRE,5555
+xjam-1.0.dist-info/METADATA,sha256=wH4iQJ6kUTRQbSUk0o9gv6m6An5giUv2h6WpKIpkR7s,1718
+xjam-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xjam-1.0.dist-info/top_level.txt,sha256=L6ANcqcu9OowQLq7iU1Km0iIbzdjZOCZqjQv9QJqdHs,5
+xjam-1.0.dist-info/RECORD,,
