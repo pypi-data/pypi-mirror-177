@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+greyout/__init__.py
+greyout/command_line.py
+greyout.egg-info/PKG-INFO
+greyout.egg-info/SOURCES.txt
+greyout.egg-info/dependency_links.txt
+greyout.egg-info/entry_points.txt
+greyout.egg-info/not-zip-safe
+greyout.egg-info/requires.txt
+greyout.egg-info/top_level.txt
