@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: ausData
+Version: 0.0.4
+Summary: Generate and validate Australian related data such as ABN, ACN, TFN.
+Home-page: https://github.com/DucAnhD/ausData
+Author: Jimmy Do
+Author-email: ducanh0827@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: Freely Distributable
+Description-Content-Type: text/markdown
+
+# ausData
+
+This is a simple python module to generate and validate Australian related data such as ABN, ACN and TFN.
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install ausdata
+```
+
+## Usage
+
+```python
+from ausData import acn,abn,tfn
+
+#Generate
+fakeAbn = abn.generate()
+fakeAcn = acn.generate()
+fakeTfn = tfn.generate()
+
+print(fakeAbn, fakeAcn, fakeTfn) #return string data type
+
+#Validate - Accept both int or str
+abnCheck = abn.validate(fakeAbn)
+acnCheck = acn.validate(fakeAcn)
+tfnCheck = tfn.validate(fakeTfn)
+
+print(abnCheck, acnCheck, tfnCheck) #return boolean True/False
+
+```
+
+
+
