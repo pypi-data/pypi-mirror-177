@@ -1,0 +1,13 @@
+django>=2.2
+dramatiq>=1.11
+
+[dev]
+bumpversion
+flake8
+flake8-quotes
+isort
+pytest
+pytest-cov
+pytest-django
+tox
+twine

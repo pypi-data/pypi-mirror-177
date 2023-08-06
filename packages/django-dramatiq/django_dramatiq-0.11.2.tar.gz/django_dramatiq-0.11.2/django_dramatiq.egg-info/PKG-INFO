@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-dramatiq
+Version: 0.11.2
+Summary: A Django app for Dramatiq.
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Provides-Extra: dev
+License-File: LICENSE
+
+Visit https://github.com/Bogdanp/django_dramatiq for more information.
