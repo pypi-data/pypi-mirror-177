@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SortOfFigs
+Version: 0.0.5
+Summary: PythonProgram
+Author: Gopal Tiwari,Ranu Singh,Karishma Patel,Aman Pandey
+Author-email: gopaltiwarigopal786@gmail.com
+Keywords: python,tutorial,sorting and ordering of figs,areas
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package for sorting, searching and ordering of different figures
