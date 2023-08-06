@@ -1,0 +1,8 @@
+inter/__init__.py,sha256=J7DJof_aAFUPG6B6lF0uImlsGFHiEfHb2QwPm6AwvvI,208
+inter/_client.py,sha256=eQGJE_dDoqoC-TJTvozbShPlyaor0_B4QSPpJuIZZGU,3974
+inter/_inter.py,sha256=iNmlZVE2iE19JQgzk2lIZ2eXSRiHIZVrEXvEvBRrUo0,5017
+inter/testing.py,sha256=14v4y8me_yUK2MWuujv55gEG2J0aDGflDkIizym1RF4,5125
+bancointer-0.0.7.dist-info/LICENSE,sha256=0qjskHfcAiciauYYqAog07pgY3SltInNamGoFh19CJ8,26527
+bancointer-0.0.7.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+bancointer-0.0.7.dist-info/METADATA,sha256=M57BK_xLsJPVxZ8ZfrP6i9pRxmGBA8GCZ6VZZ3HW5E4,3919
+bancointer-0.0.7.dist-info/RECORD,,
