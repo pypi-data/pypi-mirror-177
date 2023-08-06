@@ -1,0 +1,6 @@
+python-decouple
+robotframework
+fastapi
+uvicorn
+boto3
+requests
