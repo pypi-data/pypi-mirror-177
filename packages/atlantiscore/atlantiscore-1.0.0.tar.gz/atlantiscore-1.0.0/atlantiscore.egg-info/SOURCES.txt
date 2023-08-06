@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+atlantiscore/__init__.py
+atlantiscore.egg-info/PKG-INFO
+atlantiscore.egg-info/SOURCES.txt
+atlantiscore.egg-info/dependency_links.txt
+atlantiscore.egg-info/requires.txt
+atlantiscore.egg-info/top_level.txt
