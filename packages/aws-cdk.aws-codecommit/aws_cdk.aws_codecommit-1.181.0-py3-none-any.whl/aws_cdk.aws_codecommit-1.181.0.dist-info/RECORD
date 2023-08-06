@@ -1,0 +1,10 @@
+aws_cdk/aws_codecommit/__init__.py,sha256=9l8xYwg5NDhEewHTQ6CllyKGi31gbFp-mIwcC_N7-Aw,211844
+aws_cdk/aws_codecommit/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codecommit/_jsii/__init__.py,sha256=qydld_5pN9dfDozaRECkibGjjZlUK7mPH2HeBzpzjkM,569
+aws_cdk/aws_codecommit/_jsii/aws-codecommit@1.181.0.jsii.tgz,sha256=5q6uMRA_HSj3mvwbMPvBcFIzsiIE530hH9a45ry7UmI,70756
+aws_cdk.aws_codecommit-1.181.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_codecommit-1.181.0.dist-info/METADATA,sha256=ysJP8a-9JtjPwj9ZiiKHD9q-JEvyda2akl1gZEOT1mQ,4231
+aws_cdk.aws_codecommit-1.181.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_codecommit-1.181.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_codecommit-1.181.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codecommit-1.181.0.dist-info/RECORD,,
