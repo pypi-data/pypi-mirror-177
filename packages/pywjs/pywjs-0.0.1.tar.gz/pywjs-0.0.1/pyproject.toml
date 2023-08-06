@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pywjs"
+version = "0.0.1"
+description = ""
+authors = ["Denis Vetkin"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jsonpickle = "2.2.0"
+websockets = "^10.4"
+pydantic = "^1.10.2"
+aiosqlite = "^0.17.0"
+logsmal = "0.0.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
