@@ -1,0 +1,4 @@
+dearpygui>=1.6.0
+pandas
+python-magic
+vt-py
