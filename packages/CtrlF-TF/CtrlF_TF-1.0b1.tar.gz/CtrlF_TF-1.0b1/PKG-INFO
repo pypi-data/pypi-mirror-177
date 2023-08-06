@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CtrlF_TF
+Version: 1.0b1
+Summary: Protein-DNA binding site caller from kmer data
+Author: Zachery Mielko
+License: BSD 3-Clause License
+Keywords: Bioinformatics,Scientific Computing
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >3.7
+License-File: LICENSE
