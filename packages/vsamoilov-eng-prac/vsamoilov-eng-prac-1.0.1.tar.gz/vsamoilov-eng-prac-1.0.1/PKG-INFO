@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vsamoilov-eng-prac
+Version: 1.0.1
+Summary: Homework for eng prac
+Author-email: Vitya Samoilov <victor.samoilov.1234@gmail.com>
+Project-URL: Homepage, https://github.com/Atos1337/EngineeringPracticesML
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# EngineeringPracticesML
+
+To make experiment, run in shell:
+```shell
+cd decision_tree
+python3 main.py
+```
