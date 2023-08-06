@@ -1,0 +1,11 @@
+evadevice/__init__.py,sha256=sOmfOQroVStnS654cNJbFWXKk_vvc2kftmHVDSs-weE,46
+evadevice/eva_device.py,sha256=zvqT5BWs4F6CtQ7RhabSQ2z1gUx9qUqtiqHv-cOPKL8,13301
+evadevice/airtest_plus/android.py,sha256=n4IBFrfX-nQSLOFvaopGh-Q3fkKB2tOsh2TTop9Me90,2362
+evadevice/airtest_plus/template_online.py,sha256=2zhMNQUebSXgaT7t94d4d9X505J0RxwzjEhrc2gtbq0,386
+evadevice/utils/logger.py,sha256=ev6Xe06V2lCMY7pQKSQiZggVi5VCM4uyWH4a60tGTMY,802
+evadevice/utils/wrapper.py,sha256=OnU-Pt6fL-zTMuDTKiKgVTq5Plr3yZTS2c7xyF9QUlI,763
+evadevice-0.1.0.dist-info/LICENSE,sha256=a7w_qJZ1tC0mAVy9lCt46W6QXTT49CRk5FNmRoiWbY8,1067
+evadevice-0.1.0.dist-info/METADATA,sha256=4os7F9KG6eFkMhgEGNuhhCXWEhnMHnutuJfKPZ1kT40,3644
+evadevice-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+evadevice-0.1.0.dist-info/top_level.txt,sha256=ZDLjkHOt9ZvgN8PR5Aay_oLkHJbU43Q2wLImK1Za7AQ,10
+evadevice-0.1.0.dist-info/RECORD,,
