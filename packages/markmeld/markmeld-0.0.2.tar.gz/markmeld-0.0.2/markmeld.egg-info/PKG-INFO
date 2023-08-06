@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: markmeld
+Version: 0.0.2
+Summary: Markmeld is a markup melder that combines structured yaml or markdown data into templated markdown output using jinja2.
+Home-page: http://markmeld.databio.org
+Author: Nathan Sheffield
+License: BSD2
+Keywords: bioinformatics,sequencing,ngs
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# <img src="docs/img/markmeld_logo_long.svg" alt="markmeld logo" height="70">
+
+Read the complete documentation at [markmeld.databio.org](https://markmeld.databio.org).
+
+## Testing
+
+```
+pytest
+```
+
+You can also just build the demos.
+
+```
+cd demo
+mm default
+```
+
+
