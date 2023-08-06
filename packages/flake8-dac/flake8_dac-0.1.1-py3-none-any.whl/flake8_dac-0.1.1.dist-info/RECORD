@@ -1,0 +1,8 @@
+flake8_dac/__init__.py,sha256=VfIcjuN_CI8BoNxWKybanz18M5jCOR-HOOcbalOQD0M,58
+flake8_dac/__main__.py,sha256=CXfjm1WazimDUXevwEnVk3s42HwBVuWlU1EQDLst9Q4,327
+flake8_dac/formatting.py,sha256=2T3N316LjiGAUSZha0fludazoSEO4HhqVXub4zxH_0g,1391
+flake8_dac-0.1.1.dist-info/METADATA,sha256=n-SedYf4co1G3B9qmOGVWFiWGE-qVDi9a0s35kdhc70,1686
+flake8_dac-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+flake8_dac-0.1.1.dist-info/entry_points.txt,sha256=MhWFVPlTH8kfR6Br7LEvSyLMMWEgCbdQ_m65emIhnsw,56
+flake8_dac-0.1.1.dist-info/top_level.txt,sha256=ZX4xaWOeC-oOSbCbjGnjj9PtD9ku_f1wkCSEg3RXU7k,11
+flake8_dac-0.1.1.dist-info/RECORD,,
