@@ -1,0 +1,22 @@
+name: Distribute latest image
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build-push-develop-images:
+    if: github.event_name == 'push' && !startsWith(github.ref, 'refs/tags/')
+    name: Build and push develop images
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get install -y make
+      - uses: actions/checkout@v3
+        with:
+          repository: Nitrate/containers
+      - run: make all-images engine=docker
+      - run: |
+          echo "${{ secrets.quay_token }}" | \
+            docker login -u "${{ secrets.quay_username }}" --password-stdin quay.io
+          make push-all engine=docker
