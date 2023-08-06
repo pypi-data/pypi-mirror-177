@@ -1,0 +1,6 @@
+pyautd3
+pyautd3/bin/linux_arm32
+pyautd3/bin/linux_arm64
+pyautd3/bin/linux_x64
+pyautd3/bin/macos_universal
+pyautd3/bin/win_x64
