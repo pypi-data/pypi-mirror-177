@@ -1,0 +1,21 @@
+CAMPUS AND COMMUNITY
+Breast cancer screening developed at Técnico in the Top-3 at Fraunhofer Portugal Challenge 2019
+December 11th 2019updated on December 12th 2019 at 17:10
+João Felício, researcher at Instituto de Telecomunicações, won 3rd place in Fraunhofer Portugal Challenge 2019, for his work “Microwave breast imaging using dry setup”.
+
+
+Fraunhofer Portugal
+
+Mammography is the most frequently used form of medical imaging for breast cancer screening, particularly in older patients. However, this method uses ionizing radiation, which can damage tissues, thus causing long-term health problems. Alternatively, or in order to complement mammography information, it is used ultrasound or magnetic resonance imaging, which is expensive and time-consuming, and may lead to wrong diagnosis. The solution to these problems is being developed and tested at Instituto de Telecomunicações (IT), by João Felício, who won 3rd place at Fraunhofer Portugal Challenge 2019.
+
+João Felício proposed the use of dry microwave imaging (MWI) setup for breast cancer screening, as an alternative to current imaging modalities. “If we compare mammography with electromagnetic contrast, we conclude that the last one is more favorable in cases where the predominant tissues are mammary glands or fibroglandular breast tissue”, says João Felício, author of the work “Microwave breast imaging using dry setup”.
+
+“The original idea didn’t come from me. It came from my mentors, professor Carlos Fernandes (Técnico) and professor Jorge Costa (ISCTE-IUL), who challenged me to study the viability of using microwave imaging setup for breast cancer screening”, explains the researcher. The idea had already been explored by other research groups that achieved some preliminary results. “Our goal was to deepen this technology in order to improve not only the comfort and hygiene of the medical exam, but also to reduce the time required to perform it”, explains João Felício. To this end, the researcher developed the hardware and software components in order to reconstruct an accurate image of the breast.
+
+The system has already been tested in a laboratory environment and, according to João Felício, the results obtained were “very positive”. The team is now finalizing a prototype to be tested on patients. “Only at this stage can we effectively draw conclusions concerning the viability of this technology for breast cancer screening”, says the IT researcher. “Based on the results we have obtained, I believe that microwaves can be used as a medical imaging modality complementary to those currently available for breast cancer detection”, he adds.
+
+João Felício had already applied for Fraunhofer Portugal Challenge in 2015. “I have never had any expectation about the results I might have, once this award focuses more on communication and information technologies and their practical implementation and industrial viability”, he says. The IT researcher presented his work on 30th October and won the 3rd place in the PhD Theses category.
+
+All ideas in competition at the 10th Fraunhofer Portugal Challenge were evaluated by a jury composed of members from Fraunhofer AICOS and a panel of invited experts. The ideas submitted were assessed according to criteria such as innovation and originality, technical feasibility, practical applicability, and market potential and by a jury composed of members from Fraunhofer Portugal AICOS,
+
+The winners – in MSc and PhD categories – took home a €2,000 cash prize.

@@ -1,0 +1,21 @@
+CAMPUS UND GEMEINSCHAFT
+Am Técnico entwickeltes Brustkrebs-Screening unter den Top-3 bei der Fraunhofer Portugal Challenge 2019
+11. Dezember 2019Aktualisiert am 12. Dezember 2019 um 17:10
+João Felício, Forscher am Instituto de Telecomunicações, hat den 3. Platz bei der Fraunhofer Portugal Challenge 2019 für seine Arbeit "Microwave breast imaging using dry setup" gewonnen.
+
+
+Fraunhofer Portugal
+
+Die Mammographie ist die am häufigsten eingesetzte Form der medizinischen Bildgebung zur Brustkrebsvorsorge, insbesondere bei älteren Patientinnen. Bei dieser Methode wird jedoch ionisierende Strahlung verwendet, die das Gewebe schädigen und damit langfristige gesundheitliche Probleme verursachen kann. Alternativ oder ergänzend zur Mammographie werden Ultraschall oder Magnetresonanztomographie eingesetzt, die teuer und zeitaufwändig sind und zu Fehldiagnosen führen können. Die Lösung für diese Probleme wird am Instituto de Telecomunicações (IT) von João Felício entwickelt und getestet, der bei der Fraunhofer Portugal Challenge 2019 den dritten Platz belegt hat.
+
+João Felício schlug die Verwendung einer trockenen Mikrowellen-Bildgebung (MWI) für das Brustkrebs-Screening als Alternative zu den aktuellen Bildgebungsmodalitäten vor. "Wenn wir die Mammographie mit dem elektromagnetischen Kontrast vergleichen, kommen wir zu dem Schluss, dass letzterer in Fällen, in denen das vorherrschende Gewebe Brustdrüsen oder fibroglanduläres Brustgewebe ist, günstiger ist", sagt João Felício, Autor der Arbeit "Microwave breast imaging using dry setup".
+
+"Die ursprüngliche Idee stammte nicht von mir. Sie stammte von meinen Mentoren, Professor Carlos Fernandes (Técnico) und Professor Jorge Costa (ISCTE-IUL), die mich aufforderten, die Machbarkeit der Verwendung von Mikrowellen-Bildgebungsgeräten für die Brustkrebsvorsorge zu untersuchen", erklärt der Forscher. Die Idee war bereits von anderen Forschergruppen untersucht worden, die einige vorläufige Ergebnisse erzielten. "Unser Ziel war es, diese Technologie zu vertiefen, um nicht nur den Komfort und die Hygiene der Untersuchung zu verbessern, sondern auch den Zeitaufwand für die Untersuchung zu verringern", erklärt João Felício. Zu diesem Zweck entwickelte der Forscher die Hardware- und Softwarekomponenten, um ein genaues Bild der Brust zu rekonstruieren.
+
+Das System wurde bereits in einer Laborumgebung getestet, und die Ergebnisse waren laut João Felício "sehr positiv". Das Team arbeitet nun an der Fertigstellung eines Prototyps, der an Patienten getestet werden soll. "Erst in diesem Stadium können wir tatsächlich Rückschlüsse auf die Tauglichkeit dieser Technologie für die Brustkrebsvorsorge ziehen", so der IT-Forscher. "Auf der Grundlage der von uns erzielten Ergebnisse glaube ich, dass Mikrowellen als medizinische Bildgebungsmodalität ergänzend zu den derzeit verfügbaren Verfahren zur Brustkrebserkennung eingesetzt werden können", fügt er hinzu.
+
+João Felício hatte sich bereits 2015 für die Fraunhofer Portugal Challenge beworben. "Ich hatte keine Erwartungen an die Ergebnisse, die ich erzielen könnte, nachdem sich dieser Preis mehr auf Kommunikations- und Informationstechnologien und deren praktische Umsetzung und industrielle Realisierbarkeit konzentriert", sagt er. Der IT-Forscher präsentierte seine Arbeit am 30. Oktober und gewann den 3. Platz in der Kategorie "Doktorarbeiten".
+
+Alle Ideen im Wettbewerb der 10. Fraunhofer Portugal Challenge wurden von einer Jury bewertet, die sich aus Mitgliedern von Fraunhofer AICOS und einer Gruppe eingeladener Experten zusammensetzte. Die eingereichten Ideen wurden nach Kriterien wie Innovation und Originalität, technische Machbarkeit, praktische Anwendbarkeit und Marktpotenzial von einer Jury, bestehend aus Mitgliedern von Fraunhofer Portugal AICOS, bewertet,
+
+Die Gewinner - in den Kategorien MSc und PhD - nahmen einen Geldpreis in Höhe von 2 000 € mit nach Hause.

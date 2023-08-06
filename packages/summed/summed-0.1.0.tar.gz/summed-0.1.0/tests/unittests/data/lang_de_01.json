@@ -1,0 +1,9 @@
+{
+    "source_file": {
+        "filename": "lang_de_01.txt",
+        "content_type": "text/plain"
+    },
+    "text": "Dies ist nur ein sehr einfacher Test für uns. Und der zweite Satz dieses einfachen Tests.",
+    "language": "de",
+    "is_translated": false
+}

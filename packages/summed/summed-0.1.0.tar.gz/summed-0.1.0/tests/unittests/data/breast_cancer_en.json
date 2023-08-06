@@ -1,0 +1,8 @@
+{
+    "source_file": {
+        "filename": "breast_cancer_en.txt",
+        "content_type": "text/plain"
+    },
+    "text": "This is a test. With a second sentence.",
+    "language": "en"
+}

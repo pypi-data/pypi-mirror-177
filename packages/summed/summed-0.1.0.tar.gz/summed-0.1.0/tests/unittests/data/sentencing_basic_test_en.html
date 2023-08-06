@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sentencing Basic Test - EN</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Zapp Brannigan" />
+        <meta
+            name="description"
+            content="A simple html test file to test sentencing (splitting text into sentences) capabilities. 
+            Note: changes to this file are likely to break the tests. We should mark tests as 'flaky'."
+        />
+        <meta
+            property="og:description"
+            content="The OpenGraph Data 'description"
+        />
+        <meta property="og:title" content="The Title" />
+    </head>
+    <body>
+        <h1>Some Heading</h1>
+        <p>This is a simple HTML article.</p>
+        <div>
+            Text can be nested in <span>html tags</span>. Multiple whitespaces
+            are collapsed, but we try to keep linebreaks (\n). Sentences can
+            span multiple
+
+            <div></div>
+
+            lines.
+        </div>
+
+        <div>
+            We should be able to split sentences that contain: 1. multiple dots
+            and interpunctation 2. lists and other things ... but still be just
+            one sentence.
+        </div>
+
+        <div>
+            <div>
+                <quote>
+                    However, this sentencing does not have to be perfect, e.g.
+                    deteciting some artifacts as sentences should still be ok.
+                    With the TextRank algorithm and other plausibility checks
+                    (e.g. POS checking with spaCy) we should be able to filter
+                    these.
+                </quote>
+            </div>
+        </div>
+
+        <div>
+            Here's a list of things, let's see how this split:
+            <ul>
+                <li>Point 1</li>
+                <li>Point 2</li>
+            </ul>
+        </div>
+    </body>
+</html>
