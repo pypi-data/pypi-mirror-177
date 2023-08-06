@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: faceyou
+Version: 0.2.0
+Summary: An interesting python package
+Author-email: Mark Hoo <markhoo@foxmail.com>
+Project-URL: Homepage, https://github.com/MarkHoo/faceyou
+Project-URL: Bug Tracker, https://github.com/MarkHoo/faceyou/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# faceyou
+
+#### Installing
+
+Install and update using pip:
+
+```
+$ pip install -U faceyou
+```
+
+#### A Simple Example
+
+```python
+import faceyou
+```
+
+#### Links
+
+- Documentation: [https://github.com/MarkHoo/faceyou](https://github.com/MarkHoo/faceyou)
+- PyPI Releases: [https://pypi.org/project/faceyou/](https://pypi.org/project/faceyou/)
+- Source Code: [https://github.com/MarkHoo/faceyou](https://github.com/MarkHoo/faceyou)
+- Issue Tracker: [https://github.com/MarkHoo/faceyou/issues](https://github.com/MarkHoo/faceyou/issues)
+- Website: [https://pypi.org/project/faceyou/](https://pypi.org/project/faceyou/)
+
