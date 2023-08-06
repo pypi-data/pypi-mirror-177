@@ -1,0 +1,11 @@
+discord_webhook/__init__.py,sha256=v_wpVG0TGHpanjHY75e3U73-Ar3YPMUYtNkKRggCzyo,172
+discord_webhook/__main__.py,sha256=QLpCnEqF07jCSx_olN6E2mAi7kZ9Twi3hCk1kTPdXe4,1027
+discord_webhook/async_webhook.py,sha256=eg5MESwN56Zh6ap0XeCm1GRtSDsc_6qqJicpBPO0Vk0,6781
+discord_webhook/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_webhook/webhook.py,sha256=-rDLYNKIgecMYCzg2ghIH_73UxC6L7An3-KD6eCb5_o,18531
+discord_webhook/webhook_exceptions.py,sha256=0ezHHI7xFYPoP52so0AhHre5Tk3PumSArB6MVsgJJU4,657
+python_discord_webhook-1.0.0.dist-info/entry_points.txt,sha256=bcsWCb0ra7D5FSml99DkedisVjDwZTc5cgquj9ChPMg,65
+python_discord_webhook-1.0.0.dist-info/LICENSE,sha256=KgAWpniRGLfq_6k5rXe_SsKabUD7R8vAU9JJTV4efSE,1093
+python_discord_webhook-1.0.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+python_discord_webhook-1.0.0.dist-info/METADATA,sha256=97qCRXrFg-EK3gSy9kWw0oEtlKxg_fzP38Xyxq2f2ao,12600
+python_discord_webhook-1.0.0.dist-info/RECORD,,
