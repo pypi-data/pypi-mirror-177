@@ -1,0 +1,5 @@
+logru-0.1.0.dist-info/METADATA,sha256=ufWaykaBkldW83U-3Y0bfUfKQt4Ksdz1e4eexx8pTSk,254
+logru-0.1.0.dist-info/WHEEL,sha256=dc0tVVVBkBQShHAgwDBmDvgqmUCo1NtlMl2WlBLa0Qc,105
+logru/__init__.py,sha256=APZXkvDWEQkrVPhMJaOoM5-IhzYyssGgCUGP1e8H3nc,103
+logru/logru.cpython-310-darwin.so,sha256=ho9crOdmC7odAQLwOQ7Vd9Hk2AkS8SVt9jeH1WinHxE,321368
+logru-0.1.0.dist-info/RECORD,,
