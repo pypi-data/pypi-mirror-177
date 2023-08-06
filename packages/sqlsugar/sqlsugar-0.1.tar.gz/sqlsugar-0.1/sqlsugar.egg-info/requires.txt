@@ -1,0 +1,10 @@
+sqlalchemy
+alembic
+
+[test]
+pytest
+pre-commit
+pytest-sugar
+sqlmodel
+black
+isort

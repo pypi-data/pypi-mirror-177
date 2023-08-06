@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sqlsugar/__init__.py
+sqlsugar.egg-info/PKG-INFO
+sqlsugar.egg-info/SOURCES.txt
+sqlsugar.egg-info/dependency_links.txt
+sqlsugar.egg-info/requires.txt
+sqlsugar.egg-info/top_level.txt
