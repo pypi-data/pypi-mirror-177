@@ -1,0 +1,11 @@
+security_constraints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+security_constraints/common.py,sha256=p8cKuNE1Hu4vQ4H-YoNPD1GP0nGY_K4MKKwemiqewzI,2941
+security_constraints/github_security_advisory.py,sha256=iWHm7jZXnGJvzgVfWckkG4oF0qDDVt30FLzCn2mJtXM,4461
+security_constraints/main.py,sha256=UOkkdyG_wVoF9RNeDll6WEzGuKtIPW7gO3RUz_aja_A,9191
+security_constraints/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+security_constraints-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+security_constraints-1.0.2.dist-info/METADATA,sha256=6QfOiMgbMq72T_6dRcZABvsv7NoxkdLRGyChvGn6RB8,16938
+security_constraints-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+security_constraints-1.0.2.dist-info/entry_points.txt,sha256=d-gNmjFBt1FcjiejkwZBn5tFGPqGNVKzskfqD0R8wUY,72
+security_constraints-1.0.2.dist-info/top_level.txt,sha256=Yv9wO_xBPE8sx9GJcbSrdj8xfXM84jJ1R90qGlo3A48,21
+security_constraints-1.0.2.dist-info/RECORD,,
