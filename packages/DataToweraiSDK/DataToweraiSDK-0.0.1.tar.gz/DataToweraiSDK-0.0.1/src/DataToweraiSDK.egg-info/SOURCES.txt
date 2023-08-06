@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/DataToweraiSDK.egg-info/PKG-INFO
+src/DataToweraiSDK.egg-info/SOURCES.txt
+src/DataToweraiSDK.egg-info/dependency_links.txt
+src/DataToweraiSDK.egg-info/top_level.txt
+src/dtsdk/__init__.py
+src/dtsdk/sdk.py

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: DataToweraiSDK
+Version: 0.0.1
+Summary: DataTower.ai SDK
+Author-email: LovinJoy <bill@nodetower.com>
+Project-URL: Homepage, https://github.com/lovinjoy/datatower.ai-python
+Project-URL: Bug Tracker, https://github.com/lovinjoy/datatower.ai-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DataTower.ai
+
+This is the official Python SDK for DataTower.ai.
+
+## Easy Installation
+
+You can get DataTower.ai SDK using pip.
+
+pip install DataToweraiSDK
+
+Once the SDK is successfully installed, use the SDK likes:
+
+python
+from dtsdk.sdk import DTAnalytics,DebugConsumer
+
+dt = DTAnalytics(DebugConsumer("app_id_xxxx", "xxxxx"))
+properties={"abc":123,"bcd":"xxx"}
+dt.track(dt_id="aaaa",acid='bbbb',event_name="ad_click",properties=properties)
+dt.flush()
+dt.close()
+
+
