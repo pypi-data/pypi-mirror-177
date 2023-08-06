@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg/__init__.py
+kickdoor1.egg-info/PKG-INFO
+kickdoor1.egg-info/SOURCES.txt
+kickdoor1.egg-info/dependency_links.txt
+kickdoor1.egg-info/top_level.txt
