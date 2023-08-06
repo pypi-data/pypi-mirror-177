@@ -1,0 +1,15 @@
+aiofiles
+aiohttp
+brotli
+loguru
+pycryptodomex
+pyopenssl
+quart
+requests
+validator
+
+[:platform_system == "Linux"]
+python-magic
+
+[:platform_system == "Windows"]
+python-magic-bin
