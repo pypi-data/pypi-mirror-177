@@ -1,0 +1,8 @@
+fstring_builder/__init__.py,sha256=NPKZpbNDsSliq0UY13DdviWh2Cx3KOOpjhTAJz8cJ8k,150
+fstring_builder/enums.py,sha256=nKIP_MrPnpfulj8ZULfVb4y_nFY3GopwarpEcYawajE,1437
+fstring_builder/fstring.py,sha256=QcJ2lU4LCg2kJc1loVdp9EWgbgSZRMJN1Mqv6uCaB-g,1162
+fstring_builder/replacement_field.py,sha256=ORmW6rvWvPJ0JmTodhgKuOaLimd_-MGVFvMB3s17uDQ,4882
+fstring_builder-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+fstring_builder-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fstring_builder-0.1.0.dist-info/METADATA,sha256=_YZ6olc-td4f1811gVfVYCiQGn3y4hkBN73DFqoFGms,4902
+fstring_builder-0.1.0.dist-info/RECORD,,
