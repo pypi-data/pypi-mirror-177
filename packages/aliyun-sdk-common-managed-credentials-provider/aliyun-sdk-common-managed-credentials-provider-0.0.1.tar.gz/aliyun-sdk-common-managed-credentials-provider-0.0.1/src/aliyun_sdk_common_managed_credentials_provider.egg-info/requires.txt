@@ -1,0 +1,15 @@
+apscheduler<=3.8.0
+aliyun-secret-manager-client>=0.0.6
+
+[:python_version <= "3.6"]
+protobuf<=3.17.0
+
+[:python_version == "2.7"]
+requests<=2.0.0
+cryptography<=3.3.0
+pyopenssl<=21.0.0
+
+[:python_version >= "3"]
+requests>=0.10.1
+cryptography<=38.0.0
+multidict<=5.1.0
