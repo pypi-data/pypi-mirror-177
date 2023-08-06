@@ -1,0 +1,4 @@
+mkm>=0.12.2
+pycryptodome
+base58
+ecdsa
