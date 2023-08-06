@@ -1,0 +1,17 @@
+vsdenoise/__init__.py,sha256=dnygPcIT5e8wOw3K2HTekNZnduFTi06EqDSahYzRWig,167
+vsdenoise/_metadata.py,sha256=zJHoDLQVjb252tBemLKdnVhsKUDVQq23MMUXifzAm9E,366
+vsdenoise/bm3d.py,sha256=BnaYeEY1_of1ioV4mtn2A9o5juhALv6Y9uAHUjAtJsA,19743
+vsdenoise/ccd.py,sha256=nneHuOsfbR2dIddhsZ2E05b-ZNzlyao1d_dqhaDKjPc,10814
+vsdenoise/funcs.py,sha256=aBnpIgzjtGIASpBPdDZ37VPidYIzUE6n-jH7z2lA_P4,6387
+vsdenoise/knlm.py,sha256=Br9oaajuiTBuILsDE2LEK_32PcNrmi7x6rxxSiEKKwQ,5790
+vsdenoise/mvtools.py,sha256=li8e31uumg6rwQJRXH_2nAeZtC1YXumVyIi1vPKOBWk,59457
+vsdenoise/prefilters.py,sha256=PVJuadTVyDxCga31BiXFXbwEalAzCGSMsyHyLhGbDB8,23327
+vsdenoise/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdenoise/regress.py,sha256=_nsEIuT9vNU45KAr-5V5aC3ZdFmKueLnPCWi2hIME9M,13847
+vsdenoise/types.py,sha256=wzGNVjYGZn2fZp71--uA_6C0adOl3jiWKid4K25IBX4,2085
+vsdenoise/utils.py,sha256=2dZ5R7q5eqKmRVD2ZqS8p6C9eYlEi1GIBuFNDEKOFFw,688
+vsdenoise-1.1.2.dist-info/LICENSE,sha256=Igfh-MD_q8oLKH-f12WyM0Y19TLBL7bBQeqjomDgJ8c,1085
+vsdenoise-1.1.2.dist-info/METADATA,sha256=87_D-XGDXCoQC32kNjzcNBnyXS6sPfqcllTYzLugcvc,1476
+vsdenoise-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vsdenoise-1.1.2.dist-info/top_level.txt,sha256=9ymAG2UQOaiwUqJR3xorzB22MhS8w_I3G40rr97GJEs,10
+vsdenoise-1.1.2.dist-info/RECORD,,
