@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tablemap
+Version: 0.1.1
+Summary: sql not knowing sql
+Home-page: https://github.com/nalssee/tablemap.git
+Author: nalssee
+Author-email: jinisrolling@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+# tablemap
+
+# Install
+pip install tablemap
+
+# 
+[Documentation]
+(https://tablemap.readthedocs.io/en/latest/index.html)
+
