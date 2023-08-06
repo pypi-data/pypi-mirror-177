@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: efa-utils
+Version: 0.6.2
+Summary: Custom utility functions for exploratory factor analysis with the factor_analyzer package.
+License: GNU General Public License v3.0
+Author: Marcel Wiechmann
+Author-email: mail@mwiechmann.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: factor-analyzer (>=0.4.1,<0.5.0)
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# efa_utils
+Custom utility functions for exploratory factor analysis
+
