@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "samplepoetpackage"
+version = "0.1.2"
+description = "Testing poetry out by building a py package!"
+authors = ["Rohan Sikand <rsikand29@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/rosikand/samplepoetpackage"
+keywords = ["packaging", "poetry"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.23.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
