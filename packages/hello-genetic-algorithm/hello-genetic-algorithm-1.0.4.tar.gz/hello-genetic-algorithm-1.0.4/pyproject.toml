@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42","wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-genetic-algorithm"
+version = "1.0.4"
+authors = [
+  { name="Jingxiao Zhang", email="rex.zhang2016@foxmail.com" },
+]
+description = "Implementation of genetic algorithm."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rexzhang2014/genetic-algorithm"
+"Bug Tracker" = "https://github.com/rexzhang2014/genetic-algorithm/issues"

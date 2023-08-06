@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/hello_genetic_algorithm.egg-info/PKG-INFO
+src/hello_genetic_algorithm.egg-info/SOURCES.txt
+src/hello_genetic_algorithm.egg-info/dependency_links.txt
+src/hello_genetic_algorithm.egg-info/top_level.txt
+src/helloga/__init__.py
+src/helloga/crossover.py
+src/helloga/environment.py
+src/helloga/fitness.py
+src/helloga/individual.py
+src/helloga/selector.py
+src/tests/run_local.py
+src/tests/test01.py
