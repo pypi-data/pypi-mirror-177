@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/erp_data_model/__init__.py
+src/erp_data_model/base.py
+src/erp_data_model/catalog.py
+src/erp_data_model.egg-info/PKG-INFO
+src/erp_data_model.egg-info/SOURCES.txt
+src/erp_data_model.egg-info/dependency_links.txt
+src/erp_data_model.egg-info/top_level.txt
