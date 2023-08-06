@@ -1,0 +1,15 @@
+LICENSE.txt
+pyproject.toml
+src/__init__.py
+src/example.py
+src/example_package_vajain.egg-info/PKG-INFO
+src/example_package_vajain.egg-info/SOURCES.txt
+src/example_package_vajain.egg-info/dependency_links.txt
+src/example_package_vajain.egg-info/requires.txt
+src/example_package_vajain.egg-info/top_level.txt
+src/first/__init__.py
+src/first/first_level.py
+src/second/__init__.py
+src/second/second_level.py
+src/third/__init__.py
+src/third/third_level.py
