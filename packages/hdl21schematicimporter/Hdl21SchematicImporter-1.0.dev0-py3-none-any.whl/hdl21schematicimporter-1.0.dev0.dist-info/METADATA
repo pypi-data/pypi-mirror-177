@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hdl21schematicimporter
+Version: 1.0.dev0
+Summary: Hdl21 Schematics Python Importer
+Author: Dan Fritchman
+Author-email: dan@fritch.mn
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: hdl21 (>=2.0)
+Requires-Dist: pydantic (>=1.9.1)

@@ -1,0 +1,10 @@
+hdl21schematicimporter/__init__.py,sha256=M_XLBXBozibF3VrQjVXWkHQ6WfAUaFvn0NGBfbAJ0FU,111
+hdl21schematicimporter/circuit.py,sha256=XZeosiyLQQ_vtjkUR1xq3dX9245aGHqrpjFLezue0xo,1327
+hdl21schematicimporter/code.py,sha256=TbTEkANj5Pc9FM_YwXk4zm4WslkhCu_4UJhrMe2oS5s,5723
+hdl21schematicimporter/pyimporter.py,sha256=YMp19dtVZjfSzd8Jkd7Zjvc3BZmSTcwljfxnHRzkCZQ,2241
+hdl21schematicimporter/svg.py,sha256=xCRofIMQ4b9MrmCWc29DuM3C1VdUa3v6KIayEwIWkiU,4080
+hdl21schematicimporter/svgdefs.py,sha256=BmNPe6C4DkMyG7LjqhdXeZwtfQQuG_WNDAUEYfX_qPk,1082
+hdl21schematicimporter-1.0.dev0.dist-info/LICENSE,sha256=pC3Ft4KIAU7mH2voWgfpu9GUdyJfHR5UWsLG72vC3DI,1521
+hdl21schematicimporter-1.0.dev0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+hdl21schematicimporter-1.0.dev0.dist-info/METADATA,sha256=dElogJCi2QrrRKTyRBKEu350Rj5h9xmgMKFyxUMUMo0,451
+hdl21schematicimporter-1.0.dev0.dist-info/RECORD,,
