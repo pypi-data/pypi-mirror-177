@@ -1,0 +1,8 @@
+README.md
+setup.py
+input_detect/__init__.py
+input_detect.egg-info/PKG-INFO
+input_detect.egg-info/SOURCES.txt
+input_detect.egg-info/dependency_links.txt
+input_detect.egg-info/requires.txt
+input_detect.egg-info/top_level.txt
