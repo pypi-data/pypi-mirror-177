@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: cmdcheatsheet
+Version: 0.0.9
+Summary: Terminal commands cheat sheet helper
+Home-page: https://github.com/obaranovskyi/cmdcheatsheet
+Author: obaranovskyi (Oleh Baranovskyi)
+Author-email: <oleh.baranovskyi.dev.acc@gmail.com>
+Keywords: python,command,terminal,console,utilities
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+
+
+# cmdcheatsheet
+A package that allows storing terminal commands.
+
+### Help command
+```bash
+cmdcheatsheet -h
+```
+or:
+```bash
+cmdcheatsheet --help
+```
+
+### Add command
+```bash
+cmdcheatsheet -a <command> <command_description>
+```
+for example:
+```bash
+cmdcheatsheet -a "ls" "list directory content"
+```
+
+### Display command
+
+Display all commands:
+```bash
+cmdcheatsheet -p
+```
+or:
+```bash
+cmdcheatsheet
+```
+Display commands along with ids:
+```
+cmdcheatsheet -i
+```
+Display commands using table view:
+```bash
+cmdcheatsheet -t
+```
+
+### Search for a command: 
+```bash
+cmdcheatsheet -f <command>
+```
+Search for a command and show it along with an id:
+```bash
+cmdcheatsheet -fi <command>
+```
+Search for a command and show it using the table view:
+```bash
+cmdcheatsheet -ft <command>
+```
+
+### Update command
+```bash
+cmdcheatsheet -u <command_id> <command> <command_description>
+```
+
+### Remove command
+```bash
+cmdcheatsheet -d <command_id>
+```
+
+### Show all command names
+```bash
+cmdcheatsheet -nl
+```
