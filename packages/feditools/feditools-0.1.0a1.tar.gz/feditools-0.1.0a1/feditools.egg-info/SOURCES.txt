@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+feditools/__init__.py
+feditools/actor.py
+feditools.egg-info/PKG-INFO
+feditools.egg-info/SOURCES.txt
+feditools.egg-info/dependency_links.txt
+feditools.egg-info/entry_points.txt
+feditools.egg-info/requires.txt
+feditools.egg-info/top_level.txt
