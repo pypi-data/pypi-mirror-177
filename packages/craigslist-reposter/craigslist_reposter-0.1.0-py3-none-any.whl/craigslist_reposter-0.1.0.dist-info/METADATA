@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: craigslist-reposter
+Version: 0.1.0
+Summary: A package for renewing and reposting posts on craigslist.com.
+Author: porkyc
+Project-URL: Homepage, https://github.com/porkyc/craigslist-reposter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# craigslist-reposter
+
+Simple automation of craigslist listing renewal and reposting:
+
+- Selenium to access craigslist.com, IMAPClient package to authenticate login
+- User information is imported from environment variables
+- Pings an optional Discord webhook when reposts are completed
