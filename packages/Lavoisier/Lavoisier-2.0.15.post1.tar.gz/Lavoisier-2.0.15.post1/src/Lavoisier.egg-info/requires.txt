@@ -1,0 +1,8 @@
+openturns
+pathlib
+pint
+xmltodict
+pycryptodome
+
+[test]
+pytest
