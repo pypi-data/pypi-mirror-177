@@ -1,0 +1,9 @@
+eversend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eversend/eversend.py,sha256=QaNdEykPgIhk5Mo1bvp52wr6PJQQuszeo6HiqDrqEcE,6510
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_eversend.py,sha256=AX8eXEFHUcFQ-YFra4mWUfTxTtgT5rqMkGIHaS9UU9Q,69
+eversend_api-0.1.0.dist-info/LICENCE,sha256=8YiZ6ENkJPIM5C53-UxFE-o9WoI9USrOWVjhbMOB6Hw,1071
+eversend_api-0.1.0.dist-info/METADATA,sha256=fW41RDjb_GGOu9n7OZViNwIlFXyi21mbLlkPmpiPu9k,210
+eversend_api-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eversend_api-0.1.0.dist-info/top_level.txt,sha256=VXVhR0HL68dx8F0aG4SYziaLkR0ZQViA32VdnNUJlSg,15
+eversend_api-0.1.0.dist-info/RECORD,,
