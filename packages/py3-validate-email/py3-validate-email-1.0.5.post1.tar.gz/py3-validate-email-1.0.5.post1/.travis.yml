@@ -1,0 +1,25 @@
+language: python
+dist: xenial
+python:
+  - "3.6"
+  - "3.6-dev"  # 3.6 development branch
+  - "3.7"
+  - "3.7-dev"  # 3.7 development branch
+  - "3.8"
+  - "3.8-dev"  # 3.8 development branch
+  - "3.9"
+  - "3.9-dev"  # 3.9 development branch
+  - "nightly"
+
+# command to install dependencies
+install:
+  - python -m pip install -U pip wheel setuptools
+  - python -m pip install -U isort flake8
+  - python -Wd setup.py sdist -v
+  - python -Wd -m pip install -v dist/py3-validate-email-*.tar.gz
+
+# command to run tests
+script:
+  - python -m isort -c --skip-glob=venv .
+  - python -m flake8 tests/ validate_email/ setup.py
+  - python -m unittest discover -v -s tests
