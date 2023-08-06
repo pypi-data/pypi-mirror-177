@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django_loggers_test"
+authors = [
+  { name="Vedran Sego", email="vsego@vsego.org" },
+]
+description = "A simple tester of Django's loggers' configuration"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/vsego/django_loggers_test"
+"Bug Tracker" = "https://github.com/vsego/django_loggers_test/issues"
+
+[tool]
+
+[tool.hatch.version]
+path = "src/django_loggers_test/version.py"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/django_loggers_test"]
