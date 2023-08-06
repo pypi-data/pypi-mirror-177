@@ -1,0 +1,23 @@
+[project]
+name = "wallet"
+version = "2.1.524a"
+authors = [
+  { name="Wallet SDK Development Team", email="sdk-python@wallet.inc" },
+]
+description = "OpenAPI compliant library to access resources on the Wallet Inc. Platform"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["digital wallet", "mobile wallet", "wallet as a service", "customer relationship management", "marketing platform", "fintech", "saas"]
+
+[project.urls]
+"Homepage" = "https://wallet.inc"
+"Documentation" = "https://hub.wallet.dev"
+"Changelog" = "https://hub.wallet.dev/changelog"
+"Repository" = "https://github.com/WalletInc/sdk-python"
+"Bug Tracker" =  "https://github.com/WalletInc/sdk-python/issues"
+"Blog" = "https://the.wallet.blog"
