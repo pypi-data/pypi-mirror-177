@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: MazIPAddress
+Version: 1.0
+Summary: Scrapes the IP address from checkip.dyndns.org
+Author: Mazen Mahari
+Author-email: mmahari@rrc.ca
