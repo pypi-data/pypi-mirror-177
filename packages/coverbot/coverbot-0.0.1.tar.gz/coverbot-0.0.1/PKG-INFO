@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: coverbot
+Version: 0.0.1
+Summary: A monitoring system with Shioaji.
+Author-email: ypochien <ypochien@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: shioaji
+Requires-Dist: loguru
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: black ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-mock ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
