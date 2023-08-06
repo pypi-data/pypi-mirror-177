@@ -1,0 +1,11 @@
+fire
+numpy
+
+[dev]
+black
+isort
+jupyter
+pydocstyle
+pylint
+pytest
+pytest-cov
