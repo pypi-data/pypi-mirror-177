@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+photomaker/__init__.py
+photomaker.egg-info/PKG-INFO
+photomaker.egg-info/SOURCES.txt
+photomaker.egg-info/dependency_links.txt
+photomaker.egg-info/requires.txt
+photomaker.egg-info/top_level.txt
