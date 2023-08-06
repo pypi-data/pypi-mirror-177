@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disconn"
+authors = [
+    {name = "disconn development"}
+]
+description = "A python wrapper for making discord bots"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+readme = "readme.md"
+version = "0.0.1"
+
+[tools.setuptools]
+packages = [
+    "disconn",
+]
+
+

@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.py
+disconn/__init__.py
+disconn/bot.py
+disconn.egg-info/PKG-INFO
+disconn.egg-info/SOURCES.txt
+disconn.egg-info/dependency_links.txt
+disconn.egg-info/top_level.txt
