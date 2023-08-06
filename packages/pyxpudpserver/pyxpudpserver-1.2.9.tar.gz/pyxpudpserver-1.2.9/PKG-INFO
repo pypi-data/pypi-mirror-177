@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyxpudpserver
+Version: 1.2.9
+Summary: Python class that allows to communicate with XPlane via UDP: Set/receive datarefs, send commands, redirect traffic to XP
+Home-page: https://github.com/leleopard/pyXPUDPServer
+Author: Stephane Teisserenc
+Author-email: 
+License: MIT
+License-File: LICENCE
