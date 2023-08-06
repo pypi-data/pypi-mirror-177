@@ -1,0 +1,9 @@
+setup.py
+e_socket/__init__.py
+e_socket/actions.py
+e_socket/more_connections.py
+e_socket/one_connections.py
+e_socket.egg-info/PKG-INFO
+e_socket.egg-info/SOURCES.txt
+e_socket.egg-info/dependency_links.txt
+e_socket.egg-info/top_level.txt
