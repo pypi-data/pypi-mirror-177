@@ -1,0 +1,5 @@
+[console_scripts]
+serve = zope.paste.serve:serve
+
+[paste.app_factory]
+main = zope.paste.factory:zope_app_factory
