@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: rcg_sheffield_sphinx_theme
+Version: 0.0.1
+Summary: A Sphinx theme for the Sheffield University IT Services Research IT documentation pages.
+Home-page: https://github.com/rcgsheffield/rcg_sheffield_sphinx_theme
+Author: rcgsheffield
+Author-email: Sheffield University IT Services Research IT <research-it@sheffield.ac.uk>
+Project-URL: Homepage, https://github.com/rcgsheffield/rcg_sheffield_sphinx_theme/
+Project-URL: Bug Tracker, https://github.com/rcgsheffield/rcg_sheffield_sphinx_theme/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.1,<4.0.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rcgsheffield Sphinx documentation theme
+
+A Sphinx theme for the Sheffield University IT Services Research IT documentation pages.
+
+Note: This package has not yet been tested, generated or released on Pypi.
+
+## Getting started
+
+The source code for this Sphinx theme is available at: https://github.com/rcgsheffield/rcg_sheffield_sphinx_theme. You
+can use this for your own Sphinx documentation by following the steps below.
+
+### Install the package
+
+The latest released version can be installed from the [Python Package](https://pypi.org/project/rcg_sheffield_sphinx_theme/):
+
+```shell
+pip install rcg_sheffield_sphinx_theme
+```
+
+### Amend your Sphinx `conf.py` configuration file
+
+To use this Sphinx theme, modify your Sphinx `conf.py` configuration file as follows:
+
+1. Add the theme in the list of `extensions`:
+   ```python
+   extensions = ["rcg_sheffield_sphinx_theme"]
+   ```
+2. Make sure the `author`, and `project` variables reflect your organisation name, and
+   project
+3. Set `html_theme = "rcg_sheffield_sphinx_theme"`
+
+
+## Licence
+
+Unless stated otherwise, the codebase is released under the MIT License. This covers
+both the codebase and any sample code in the documentation.
