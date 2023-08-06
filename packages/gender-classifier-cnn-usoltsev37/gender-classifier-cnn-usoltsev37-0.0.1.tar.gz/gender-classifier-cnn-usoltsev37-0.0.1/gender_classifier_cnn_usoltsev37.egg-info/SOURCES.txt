@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gender-classifier-cnn/__init__.py
+gender-classifier-cnn/pipeline.py
+gender_classifier_cnn_usoltsev37.egg-info/PKG-INFO
+gender_classifier_cnn_usoltsev37.egg-info/SOURCES.txt
+gender_classifier_cnn_usoltsev37.egg-info/dependency_links.txt
+gender_classifier_cnn_usoltsev37.egg-info/requires.txt
+gender_classifier_cnn_usoltsev37.egg-info/top_level.txt
+model/__init__.py
+model/cnn.py
+model/my_model.py
+preprocessing/__init__.py
+preprocessing/my_dataloader.py
+preprocessing/task_dataset.py

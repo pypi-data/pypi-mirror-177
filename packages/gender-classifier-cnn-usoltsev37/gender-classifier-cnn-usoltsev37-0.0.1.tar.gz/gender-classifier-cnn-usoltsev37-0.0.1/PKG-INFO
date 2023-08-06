@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gender-classifier-cnn-usoltsev37
+Version: 0.0.1
+Summary: hse-engineering-practices-gender-classifier-cnn
+Home-page: https://github.com/usoltsev37/hse-engineering-practices-ml/tree/main/gender-classifier-cnn
+Author: Nikita Usoltsev
+Author-email: nikitav030301@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.9.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hse-engineering-practices-ml
+
+### HW02
+
+#### Установка пакетного менеджера Pip (уже установленно, он дефолтный)
+
+#### Развертывание окружения
+```
+python -m venv ./gender-classifier-cnn/env
+```
+#### Сборка пакета
+
+#### Ссылка на пакет в pypi-test
+
+#### Установка пакета из pypi-test
+
+#### P.S. 
+Попробывал ```poetry```, возникли проблемы с установкой библиотеки torch на mac, это решение мне не помогло https://github.com/python-poetry/poetry/issues/6409?ysclid=lar7tjjma6220333470
+
