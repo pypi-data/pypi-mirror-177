@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cmply
+Version: 0.1.0
+Summary: A simple tool to validate if a repository adhears to specified rules.
+License: MIT
+Author: Paul Selibas
+Author-email: pselibas@gmail.com
+Requires-Python: >=3.7,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: GitPython (>=3.1.29,<4.0.0)
+Requires-Dist: docker (>=6.0.1,<7.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: schema (>=0.7.5,<0.8.0)
+Requires-Dist: termcolor (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# cmply
