@@ -1,0 +1,4 @@
+colorama
+pexpect
+python-libnmap
+xmltodict
