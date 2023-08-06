@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: agile-north-build-essentials
+Version: 0.0.1
+Summary: Python scripts to assist in setting up project dependencies in order to build and run projects
+Home-page: https://github.com/agile-north/build-essentails
+Author: Stefan Venter
+Author-email: stefan@nrth.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+## Installation
+
+Run pip install agile_north_build_essentials
+
