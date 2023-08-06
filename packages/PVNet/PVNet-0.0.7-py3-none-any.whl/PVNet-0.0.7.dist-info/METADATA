@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: PVNet
+Version: 0.0.7
+Summary: PVNet
+Author: Peter Dudfield
+Author-email: info@openclimatefix.org
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nowcasting-dataset
+Requires-Dist: nowcasting-utils
+Requires-Dist: nowcasting-dataloader
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: xarray
+Requires-Dist: ipykernel
+Requires-Dist: h5netcdf
+Requires-Dist: torch
+Requires-Dist: pytorch-lightning
+Requires-Dist: perceiver-pytorch
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: flake8
+Requires-Dist: jedi
+Requires-Dist: tables
+Requires-Dist: tilemapbase
+Requires-Dist: neptune-client[pytorch-lightning]
+Requires-Dist: rich
+Requires-Dist: omegaconf
+Requires-Dist: hydra-core
+Requires-Dist: python-dotenv
+Requires-Dist: hydra-optuna-sweeper
+Requires-Dist: black
+
+# PVNet
+[![test-release](https://github.com/openclimatefix/PVNet/actions/workflows/test-release.yml/badge.svg)](https://github.com/openclimatefix/PVNet/actions/workflows/test-release.yml)
+
+## Setup
+```bash
+git clone https://github.com/openclimatefix/PVNet.git
+cd PVNet
+pip install -r requirements.txt
+pip install git+https://github.com/SheffieldSolar/PV_Live-API
+```
+
+## Running
+```bash
+python run.py
+```
+
+## Development
+```bash
+pip install -r requirements.txt -r requirements-dev.txt
+pytest
+```
