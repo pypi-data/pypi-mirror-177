@@ -1,0 +1,16 @@
+pywatchman_unofficial-1.5.0.dist-info/METADATA,sha256=QWxVEZ7ukmOSF4oz5I-PMMPW8hV01twdqGV49A-gpDI,1790
+pywatchman_unofficial-1.5.0.dist-info/LICENSE,sha256=yz8PWtI_8YTkqqGViNvcKxkj9oHcmbY7B2UKz8RT07A,2766
+pywatchman_unofficial-1.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pywatchman_unofficial-1.5.0.dist-info/top_level.txt,sha256=KP1dJp3FQbEuOSxnvtdour8Vr5knGHI3mUzlqIzyXsc,11
+pywatchman_unofficial-1.5.0.dist-info/RECORD,,
+pywatchman_unofficial-1.5.0.dist-info/WHEEL,sha256=qgxNon0uKCCOupI3ymkqtD-XsZD1Xv1H7Rx5mOwdckA,164
+pywatchman/__init__.py,sha256=rQEa8EzG5EurWQWLYq-tpn8d0m8_hIU_Rjh0mb1nvXk,37756
+pywatchman/pybser.py,sha256=grQbS83kP0k_pKO3tqa7swxQ36lbCMU_dvnerdGbqmI,16339
+pywatchman/encoding.py,sha256=yYSH-bxiYP1vnkoeDr9uaqEPi8-HAy-n7RytIOCsLsM,795
+pywatchman/bser.pypy39-pp73-aarch64-linux-gnu.so,sha256=9SaQH2volI3wQcmMjecFmMB0UgBJM-dmblE4pGC92tQ,74904
+pywatchman/load.py,sha256=xbGFJqA6ZVzRsQZaUydCm7IrBUm2DFz9lMRxfE-qi_M,2800
+pywatchman/windows.py,sha256=F8t5n-zrT37K0mXpbz8-F-DQHm5_o7ubdRYsx4l536c,8488
+pywatchman/capabilities.py,sha256=EAUh-MdoAtY8KWTgpfIlqrt85vqSaMwPIIiTfR3DVjc,1397
+pywatchman_unofficial-1.5.0.data/scripts/watchman-make,sha256=psORmZ-YNuVW8bHe1NT6qTM55FrhRmHbmcGLlBjIjnY,9213
+pywatchman_unofficial-1.5.0.data/scripts/watchman-replicate-subscription,sha256=xa00NGX6zZdwfqOMHCBUQMYJXdxWTis2NHmllukYE9c,12336
+pywatchman_unofficial-1.5.0.data/scripts/watchman-wait,sha256=_jU0NrXiPNshcslN7vfgIqIaFVvJdU_dPv0GydIkwEk,8206
