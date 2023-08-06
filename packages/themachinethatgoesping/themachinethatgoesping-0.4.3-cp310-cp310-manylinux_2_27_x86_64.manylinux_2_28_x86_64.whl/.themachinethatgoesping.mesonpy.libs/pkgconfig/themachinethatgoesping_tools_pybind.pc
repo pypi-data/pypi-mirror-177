@@ -1,0 +1,11 @@
+prefix=/opt/_internal/cpython-3.10.6
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: themachinethatgoesping_tools_pybind
+Description: Shared functions and classes (C++) for pybind11 bindings
+URL: https://github.com/themachinethatgoesping/tools
+Version: 0.13.2
+Requires: themachinethatgoesping_tools, python
+Libs: -L${libdir} -lthemachinethatgoesping_tools_pybind -fopenmp
+Cflags: -I${includedir} -D_USE_MATH_DEFINES -I/usr/local/include -DBOOST_ALL_NO_LIB -fopenmp -DXTENSOR_USE_XSIMD
