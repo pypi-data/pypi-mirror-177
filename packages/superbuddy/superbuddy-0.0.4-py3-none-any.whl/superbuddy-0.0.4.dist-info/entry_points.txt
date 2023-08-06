@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    buddy=superbuddy.cli:main
+    
