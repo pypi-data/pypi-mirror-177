@@ -1,0 +1,10 @@
+DChemPy/Chem.py,sha256=xTgTcKImnkO69ihIHzLVLAlsAvXY4oGxa5r9GBhnj3s,162
+DChemPy/Dataset.py,sha256=CPq9_xCiy9aUp6elzSH0OrVntqSgUhKrfcM-A58KiPs,7330
+DChemPy/Drawing.py,sha256=3ht8VDOECwW1-1LCkyw6kAsT_IF1qEwGodsoTtS4TUo,17744
+DChemPy/Featurization.py,sha256=NUEoPKyKjID71DVcKSQhFIBvdIL1u-8OgbteHar6otc,52521
+DChemPy/Statistic.py,sha256=z8ow8yKbhkU4ZYTCzOd_HqZnuJ8KmYVO9_SLOYTmBJI,8781
+DChemPy/__init__.py,sha256=y4D4mcmKEh9aWYquo9GbEHrN6U_pUrneQEBzUmMEUaA,98
+dchempy-1.0.0.dist-info/METADATA,sha256=f6uLVDpbmphkvxzHaKrcpMEMyZxVo6hy_e2XOWOgGyg,661
+dchempy-1.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+dchempy-1.0.0.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dchempy-1.0.0.dist-info/RECORD,,
