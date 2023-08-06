@@ -1,0 +1,62 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer __MASTODON_PY_TEST_ACCESS_TOKEN
+      Connection:
+      - keep-alive
+      User-Agent:
+      - tests/v311
+    method: GET
+    uri: http://localhost:3000/api/v1/instance/activity
+  response:
+    body:
+      string: '[{"week":"1668357013","statuses":"18","logins":"3","registrations":"3"},{"week":"1667752213","statuses":"0","logins":"0","registrations":"0"},{"week":"1667147413","statuses":"0","logins":"0","registrations":"0"},{"week":"1666542613","statuses":"0","logins":"0","registrations":"0"},{"week":"1665937813","statuses":"0","logins":"0","registrations":"0"},{"week":"1665333013","statuses":"0","logins":"0","registrations":"0"},{"week":"1664728213","statuses":"0","logins":"0","registrations":"0"},{"week":"1664123413","statuses":"0","logins":"0","registrations":"0"},{"week":"1663518613","statuses":"0","logins":"0","registrations":"0"},{"week":"1662913813","statuses":"0","logins":"0","registrations":"0"},{"week":"1662309013","statuses":"0","logins":"0","registrations":"0"},{"week":"1661704213","statuses":"0","logins":"0","registrations":"0"}]'
+    headers:
+      Cache-Control:
+      - max-age=86400, public
+      Content-Security-Policy:
+      - 'base-uri ''none''; default-src ''none''; frame-ancestors ''none''; font-src
+        ''self'' http://localhost:3000; img-src ''self'' https: data: blob: http://localhost:3000;
+        style-src ''self'' http://localhost:3000 ''nonce-Vl50MxYX3VOuqAqXZn+a9g=='';
+        media-src ''self'' https: data: http://localhost:3000; frame-src ''self''
+        https:; manifest-src ''self'' http://localhost:3000; connect-src ''self''
+        data: blob: http://localhost:3000 http://localhost:3000 ws://localhost:4000
+        ws://localhost:3035 http://localhost:3035; script-src ''self'' ''unsafe-inline''
+        ''unsafe-eval'' http://localhost:3000; child-src ''self'' blob: http://localhost:3000;
+        worker-src ''self'' blob: http://localhost:3000'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 13 Nov 2022 16:30:13 GMT
+      ETag:
+      - W/"49ebbbcf0fc0297b21490499a8a0e24d"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 178dc2fd-dbb5-49dd-8a5e-f2271997ff15
+      X-Runtime:
+      - '0.014521'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1
