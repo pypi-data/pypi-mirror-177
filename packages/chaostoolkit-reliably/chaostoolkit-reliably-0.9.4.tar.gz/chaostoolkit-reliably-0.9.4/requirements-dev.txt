@@ -1,0 +1,11 @@
+coverage
+black
+flake8
+isort
+mypy
+pytest
+pytest-cov
+pytest-sugar
+pytest-httpx
+types-ujson
+types-simplejson
