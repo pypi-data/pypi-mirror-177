@@ -1,0 +1,16 @@
+setuptools>=19.3
+Click>=8.0.2
+requests
+packaging>=21.0
+dparse>=0.6.2
+ruamel.yaml>=0.17.21
+
+[:python_version == "3.6"]
+dataclasses==0.8
+
+[github]
+pygithub>=1.43.3
+jinja2>=3.1.0
+
+[gitlab]
+python-gitlab>=1.3.0
