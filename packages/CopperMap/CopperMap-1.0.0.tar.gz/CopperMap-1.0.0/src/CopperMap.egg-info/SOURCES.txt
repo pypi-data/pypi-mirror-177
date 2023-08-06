@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/CopperMap.egg-info/PKG-INFO
+src/CopperMap.egg-info/SOURCES.txt
+src/CopperMap.egg-info/dependency_links.txt
+src/CopperMap.egg-info/top_level.txt
