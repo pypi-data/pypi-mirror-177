@@ -1,0 +1,13 @@
+nltk>=3.2
+numpy
+scipy
+matplotlib
+scikit-learn
+pre-commit
+tqdm
+openai
+explainaboard>=0.11.2
+explainaboard_client>=0.0.9
+datalabs
+cohere
+python-dotenv
