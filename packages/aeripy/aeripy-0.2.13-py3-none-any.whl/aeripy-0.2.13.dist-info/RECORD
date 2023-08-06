@@ -1,0 +1,12 @@
+aeripy/__init__.py,sha256=Tymmj9g9jW_wpmHLTfqgIKtj57AiBbniwda7-5IO9ts,37
+aeripy/aeripy_api.py,sha256=qxlXBnVLvff1wAajlN09pMnx_98SQfeZZGD4e_j9iyA,7884
+aeripy/endpoints.py,sha256=8KnuGZQyb-aq4B76Ic0_XinVx4gNd5B91SyEePRSlFU,1073
+aeripy/exceptions.py,sha256=V5jt8gPMoWQbI2-0d1SBsqAzlNkMHVVCBVu5G3PuBZM,43
+aeripy/models.py,sha256=V62jSgXfgA9DkewLfjqS23LLxleySr7plTrlVX-Onwc,5728
+aeripy/rest_adapter.py,sha256=DTC2Q1H_Q0sFDKZLlTkiJRW0sS4YEDaSuo2-PGA1mzk,3912
+aeripy/util.py,sha256=klXvfofbVKm5oPLOcShBWlKJXQvjPTQsjjIB4Eo3ASg,609
+aeripy-0.2.13.dist-info/LICENSE,sha256=8po27v1gKAOJhlDqZyJ9sAxtgN06bAbqeDg9kiEaRWE,1322
+aeripy-0.2.13.dist-info/METADATA,sha256=aF_hZQ5nJbC_nDl_ZnPdm1oZAON4YL8Sgm7mkvuo-v0,3079
+aeripy-0.2.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aeripy-0.2.13.dist-info/top_level.txt,sha256=xr84s2ibZP0IVRPiey1xc6Dmt4Uju8BZb562MWRrlP0,7
+aeripy-0.2.13.dist-info/RECORD,,
