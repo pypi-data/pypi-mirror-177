@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Edit templates{% endblock %}
+
+{% block content %}
+<h1>Edit templates</h1>
+
+<ul>
+{% for template in templates %}
+    <li><a href="{{ urls.path("/-/edit-templates/" + template.name) }}">{{ template.name }}</a>{% if template.default %} (default){% endif %}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
