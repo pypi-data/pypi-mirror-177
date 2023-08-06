@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: safe-ruamel
+Version: 0.1.6
+Summary: A proxy class for ruamel.yaml.YAML that bypass the thread safety issue.
+Home-page: https://github.com/wonderbeyond/safe-ruamel
+License: MIT
+Keywords: python,yaml,safe-yaml,ruamel
+Author: Wonder
+Author-email: wonderbeyond@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: testing
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "testing"
+Requires-Dist: ruamel-yaml (>=0,<1)
+Requires-Dist: tox (>=3.25.0,<4.0.0); extra == "testing"
+Project-URL: Documentation, https://github.com/wonderbeyond/safe-ruamel
+Project-URL: Repository, https://github.com/wonderbeyond/safe-ruamel
+Description-Content-Type: text/markdown
+
+# Safe ruamel.yaml
+
+A proxy class for ruamel.yaml.YAML that bypass the thread-safe issue.
+
+---
+
+## Usage
+
+```python
+from safe_ruamel import YAML
+
+yaml = YAML()
+
+obj = yaml.load("a: 1")
+print(yaml.dump(obj).read())
+```
+
