@@ -1,0 +1,19 @@
+# 依赖
+- Python 3.6 及更高版本
+
+## 包
+- fastapi
+```shell
+pip install fastapi uvicorn[standard]
+```
+
+- pandas
+不需要刻意安装特定版本
+
+
+# 运行
+## windows 系统
+执行目录下的 `run.bat`
+
+## 其他系统
+使用你的python 执行目录中的 main.py 即可，注意启动目录必需为当前目录

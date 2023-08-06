@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pandas-query-tool
+Version: 1.0.5
+Summary: pandas method query helper
+Author: carson
+Author-email: 568166495@qq.com
+License: MIT license
+Keywords: pandas,tool,tools
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+
+
+# pandas_query_tool
+
+
+
+pandas method query tools
+
+
+
+# install
+
+```shell
+pip install pandas_query_tool
+```
+
+
+
+# startup
+
+```shell
+pandas_query_tool
+```
+

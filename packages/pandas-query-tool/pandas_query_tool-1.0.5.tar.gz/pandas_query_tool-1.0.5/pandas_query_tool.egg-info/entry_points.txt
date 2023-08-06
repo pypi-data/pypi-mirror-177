@@ -1,0 +1,2 @@
+[console_scripts]
+pandas_query_tool = pandas_query_tool.main:run
