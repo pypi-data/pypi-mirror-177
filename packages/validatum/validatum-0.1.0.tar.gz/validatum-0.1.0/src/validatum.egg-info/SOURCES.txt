@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/validatum/__init__.py
+src/validatum/_utils.py
+src/validatum/_version.py
+src/validatum.egg-info/PKG-INFO
+src/validatum.egg-info/SOURCES.txt
+src/validatum.egg-info/dependency_links.txt
+src/validatum.egg-info/not-zip-safe
+src/validatum.egg-info/requires.txt
+src/validatum.egg-info/top_level.txt
