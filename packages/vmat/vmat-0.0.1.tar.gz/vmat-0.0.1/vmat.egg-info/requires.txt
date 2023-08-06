@@ -1,0 +1,8 @@
+numpy
+vtk
+SimpleITK
+nibabel
+PySide2
+pydicom
+numba
+lz4
