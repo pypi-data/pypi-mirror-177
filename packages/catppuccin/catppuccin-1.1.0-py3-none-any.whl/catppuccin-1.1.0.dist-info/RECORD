@@ -1,0 +1,10 @@
+catppuccin/__init__.py,sha256=0KXGG9Cn4pPTzFwjNkHLUyjzgiO2AKKldzF1p3kqkkw,142
+catppuccin/colour.py,sha256=aUPVMIDKNlqZyfbPChCWyPSm-iICiO2AaNAVshJ5JmY,593
+catppuccin/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+catppuccin/extras/pygments.py,sha256=ON-auSJywMhhN9yMR739Db7Bmz1I4oXndiogrFUs8OU,2113
+catppuccin/flavour.py,sha256=e0yQy1Y3_fxmYNU8wM2rwZCpVOFZNJ9mT0MSON3Ys_4,5641
+catppuccin-1.1.0.dist-info/entry_points.txt,sha256=FM4Brf7jaicw7Jzz4etjX9ytae_N6s1cQjj914YBCcA,249
+catppuccin-1.1.0.dist-info/LICENSE,sha256=JksYmfUEcgQrSsHEvvxieeKovem2LMdD-7VguGHPzR8,1067
+catppuccin-1.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+catppuccin-1.1.0.dist-info/METADATA,sha256=NgxbUxaNrXV3vl4oIwnlTq3-fZWnByaqS9sDFBSKWMc,4545
+catppuccin-1.1.0.dist-info/RECORD,,
