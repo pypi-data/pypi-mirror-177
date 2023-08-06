@@ -1,0 +1,16 @@
+bonfire/Bot.py,sha256=KB7VLb61imuwNgZgBmUjKtx_5r6NAQnYFDoUoATUWT0,350
+bonfire/__init__.py,sha256=-ZAQgbOcdsFswZo5yX6Mg55zmvCewk3ubrGrCZCyUQ8,36
+bonfire/method/__init__.py,sha256=rnplpvA65_-ddg0fEeWsUIFLckWIz9SpJAXGW4-1Ysk,359
+bonfire/method/button.py,sha256=BL9oF6jE5tS9szoHFOqp_0PjpasWP-FXBHtjptQY_sw,938
+bonfire/method/delete.py,sha256=nXPguVvH9IaQlWoyjaGQTxppkYMDnyqOvgWfCkVEtH0,2112
+bonfire/method/edit.py,sha256=KPQRNuxlBmkumTO1iINmUgrUfGke25Fj7fDTbOcZrH8,2699
+bonfire/method/method_message.py,sha256=cF8l3eVM4VnPyLIj4tOM_biL0IZ6w2UNuCVFBUW_EhY,1454
+bonfire/method/method_reply_message.py,sha256=ZLBf7FTkKk48fwzTbjg5xabGete-y0_z26SjJUS86-g,1558
+bonfire/method/reply.py,sha256=HS9Gd04g7-kekGJE-8jk2gMLqHXWO_BOEsJ8Mbm2xYY,3155
+bonfire/method/send.py,sha256=A10aClMNkjMPaZMyLH8GULXQsHSG9oS8gpig4m-4NHM,2505
+bonfire/method/sticker.py,sha256=e8-8pT5sxDFi94U_Sv3TmoIlG06XYYPWkwi0gStPQ7E,2095
+bonfire_tg_libraly-1.0.8.dist-info/LICENSE,sha256=P-xTnnoq8pyzgrscaMIsTmhlDkz0kLnvcuzTkOSaK30,1088
+bonfire_tg_libraly-1.0.8.dist-info/METADATA,sha256=W_TT1uvU9E47eYE4mRTa_As0KR7scHENiBB5f4drxc0,6291
+bonfire_tg_libraly-1.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bonfire_tg_libraly-1.0.8.dist-info/top_level.txt,sha256=gS6035fhSDs4Wc57Cigr0pqT8DjtlDFutDYrLMAqfNQ,8
+bonfire_tg_libraly-1.0.8.dist-info/RECORD,,
