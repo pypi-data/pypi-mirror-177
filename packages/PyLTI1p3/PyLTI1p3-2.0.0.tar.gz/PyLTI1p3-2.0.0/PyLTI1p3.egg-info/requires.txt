@@ -1,0 +1,4 @@
+jwcrypto
+pyjwt>=1.5
+requests
+typing_extensions
