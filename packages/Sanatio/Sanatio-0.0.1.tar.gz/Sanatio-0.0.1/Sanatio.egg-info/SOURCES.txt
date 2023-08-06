@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Sanatio.egg-info/PKG-INFO
+Sanatio.egg-info/SOURCES.txt
+Sanatio.egg-info/dependency_links.txt
+Sanatio.egg-info/requires.txt
+Sanatio.egg-info/top_level.txt
+sanatio/__init__.py
+sanatio/main.py
+sanatio/utils.py
+sanatio/assets/country.json
+sanatio/assets/regex.json
