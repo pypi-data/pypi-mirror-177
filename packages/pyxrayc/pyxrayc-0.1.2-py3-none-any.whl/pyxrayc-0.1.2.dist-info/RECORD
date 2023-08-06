@@ -1,0 +1,13 @@
+LICENSE,sha256=1Dp-PDt2TupR0IxeRMEOHyH9ccTd_S0f-e3tyKg-Fxk,35822
+pyxrayc/__init__.py,sha256=O1y2i1C4m602NbHgLdHmpflu9TGf21O6bs3ZEn_x0w4,23
+pyxrayc/__main__.py,sha256=oJ9GWhGajqdDnBcF68q8g-4Y97NZk0en-V5VHXewc3Q,83
+pyxrayc/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyxrayc/cli/main.py,sha256=u19AfYoglJszY976psKem7WLvM7PK52Hm0zY9h88rno,597
+pyxrayc/errors.py,sha256=by9PHsPlnZolzXg8fXjsm_BSioAnQ07qNSfFvIVPVCQ,522
+pyxrayc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyxrayc/utils.py,sha256=EWMZ5vpV5m4t6XUMeMmwLpOMXBuH0NwmevmwYTpcSiQ,89
+pyxrayc-0.1.2.dist-info/entry_points.txt,sha256=mzT8LBtBSmK5gCEbndZXxCN2rZxV_cwi92eWv116TQU,48
+pyxrayc-0.1.2.dist-info/LICENSE,sha256=1Dp-PDt2TupR0IxeRMEOHyH9ccTd_S0f-e3tyKg-Fxk,35822
+pyxrayc-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyxrayc-0.1.2.dist-info/METADATA,sha256=hg-_SUJuPjfgjISooppnFXpLfnW1_Be6oHq4HUyXH5k,3333
+pyxrayc-0.1.2.dist-info/RECORD,,
