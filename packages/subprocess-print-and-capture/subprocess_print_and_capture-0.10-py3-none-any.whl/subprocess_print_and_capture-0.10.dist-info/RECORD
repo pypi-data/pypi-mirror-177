@@ -1,0 +1,10 @@
+subprocess_print_and_capture/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+subprocess_print_and_capture/README.MD,sha256=KrEdawdbY5foH48RAa8JNYnCfJXgJyBY5ws4krYzT70,3786
+subprocess_print_and_capture/__init__.py,sha256=F1qw8bPndW1UCfD8KO0tYvQuIHUacpYoV28KwDumVyM,1277
+subprocess_print_and_capture/requirements.txt,sha256=kfBgqa1LOesijZU3KS-rGdJS-u0GwWnQ_ctKkFYPVnY,8
+subprocess_print_and_capture/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+subprocess_print_and_capture-0.10.dist-info/LICENSE.rst,sha256=mUm-wCZOuzvKLxt9Gac_Zo5cah8QOM0gqn2Z-AluELM,1148
+subprocess_print_and_capture-0.10.dist-info/METADATA,sha256=A1cRucMfQ44edM8tLNl87GSNn6taOX2T0xKGzsLSP1U,4744
+subprocess_print_and_capture-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+subprocess_print_and_capture-0.10.dist-info/top_level.txt,sha256=6NAUwfCf7D3dkgP842xIpHwOw8WI6VEEvH-n86OaPMk,29
+subprocess_print_and_capture-0.10.dist-info/RECORD,,
