@@ -1,0 +1,10 @@
+truegrad/__init__.py,sha256=xECPy28oBc_IFDYfymB7O3uYShK3Yc8jW4_zncXrdao,100
+truegrad/functional.py,sha256=gYIonFaSGJFxCQV6PycLvtqvzCZnr2phYRHVAZjk8FY,4712
+truegrad/nn.py,sha256=1DJFddYPzSSF9D2qO6Q0v2ELd_x4qG0NQQCAh9deE6I,8497
+truegrad/optim.py,sha256=nspUFDgIwAwm2vhOLI4oOnzyIzOmIUTfmzQbtLhY5o0,2961
+truegrad/utils.py,sha256=dPQrBatNgWAjKqy23oPyk8dG1z3n1nYrWIqZciLs96A,314
+truegrad-0.0.2.dist-info/LICENSE,sha256=BEpNKqedEqYCsqnrC4STPdVQzFZ2VUGSzYh3ptqdL1U,1348
+truegrad-0.0.2.dist-info/METADATA,sha256=8nf56GvBuffeBTyrO_B1Ys-jbFZSdp62ep5haZjY4S0,933
+truegrad-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+truegrad-0.0.2.dist-info/top_level.txt,sha256=ndKYA85Vdwa4bN-NQL_lLJe5JWT6hnHIaEG939LY-ls,9
+truegrad-0.0.2.dist-info/RECORD,,
