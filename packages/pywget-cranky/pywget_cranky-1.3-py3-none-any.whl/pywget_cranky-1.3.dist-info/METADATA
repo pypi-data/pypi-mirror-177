@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pywget-cranky
+Version: 1.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: win
+Requires-Dist: click (>=8.0)
+Requires-Dist: python-dateutil (>=2.8)
+Requires-Dist: requests (>=2.25)
+Requires-Dist: tqdm (>=4.5)
+
+UNKNOWN
+
