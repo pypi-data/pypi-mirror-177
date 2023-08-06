@@ -1,0 +1,7 @@
+idna<3
+web3>=5.16
+httpx>=0.16
+pydantic>=1.7
+
+[test]
+mypy>=0.8
