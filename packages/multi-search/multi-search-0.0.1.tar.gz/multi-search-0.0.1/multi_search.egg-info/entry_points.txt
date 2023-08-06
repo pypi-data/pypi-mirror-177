@@ -1,0 +1,3 @@
+[console_scripts]
+ms = app:main
+

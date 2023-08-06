@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: multi-search
+Version: 0.0.1
+Summary: Simple ui wrapper and utility for single script search tools in python.
+Home-page: https://github.com/tylerhjones/multi-search/
+Author: tyler jones
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Multi-Search
+
+A plugin design pattern wrapper for multiple searching scripts.
+
