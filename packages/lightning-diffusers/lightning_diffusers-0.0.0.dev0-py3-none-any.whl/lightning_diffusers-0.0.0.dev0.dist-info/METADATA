@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lightning-diffusers
+Version: 0.0.0.dev0
+Summary: PyTorch Lightning Sample project.
+Home-page: https://github.com/Lightning-AI/lightning-sandbox
+Download-URL: https://github.com/Lightning-AI/lightning-sandbox
+Author: Lightning-AI et al.
+Author-email: name@lightning.ai
+License: TBD
+Project-URL: Bug Tracker, https://github.com/Lightning-AI/lightning-sandbox/issues
+Project-URL: Documentation, https://lightning-sandbox.rtfd.io/en/latest/
+Project-URL: Source Code, https://github.com/Lightning-AI/lightning-sandbox
+Keywords: deep learning,pytorch,AI
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.6)
+Requires-Dist: pytorch-lightning (>=1.0)
+
+
+What is it?
+-----------
+This is starter project template which shall simplify initial steps for each new PL project...
+
+Except the implemented sections:
+ - sample package
+ - setting CI
+ - setting Docs
