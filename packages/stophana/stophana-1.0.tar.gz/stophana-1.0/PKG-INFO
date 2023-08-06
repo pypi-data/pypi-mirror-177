@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: stophana
+Version: 1.0
+Summary: this is a test of packaging and publishing
+Home-page: https://sdfgsad.com
+Author: jean
+Author-email: 6159984@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

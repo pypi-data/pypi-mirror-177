@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stophana/__init__.py
+stophana/main.py
+stophana.egg-info/PKG-INFO
+stophana.egg-info/SOURCES.txt
+stophana.egg-info/dependency_links.txt
+stophana.egg-info/top_level.txt
