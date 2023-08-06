@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: hwhelp-ccoverstreet
+Version: 0.1.0
+Summary: Simple HW framework for splitting problems into different functions and running all
+Author: Cale Overstreet
+Author-email: cale.overstreet@gmail.com

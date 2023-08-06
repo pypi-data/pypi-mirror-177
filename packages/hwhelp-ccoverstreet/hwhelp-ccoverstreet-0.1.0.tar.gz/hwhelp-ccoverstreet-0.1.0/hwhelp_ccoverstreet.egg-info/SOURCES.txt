@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+hwhelp_ccoverstreet.egg-info/PKG-INFO
+hwhelp_ccoverstreet.egg-info/SOURCES.txt
+hwhelp_ccoverstreet.egg-info/dependency_links.txt
+hwhelp_ccoverstreet.egg-info/top_level.txt
