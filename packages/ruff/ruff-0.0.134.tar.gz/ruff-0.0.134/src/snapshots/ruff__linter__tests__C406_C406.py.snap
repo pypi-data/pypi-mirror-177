@@ -1,0 +1,77 @@
+---
+source: src/linter.rs
+expression: checks
+---
+- kind:
+    UnnecessaryLiteralDict: list
+  location:
+    row: 1
+    column: 5
+  end_location:
+    row: 1
+    column: 19
+  fix:
+    patch:
+      content: "{1: 2}"
+      location:
+        row: 1
+        column: 5
+      end_location:
+        row: 1
+        column: 19
+    applied: false
+- kind:
+    UnnecessaryLiteralDict: tuple
+  location:
+    row: 2
+    column: 5
+  end_location:
+    row: 2
+    column: 20
+  fix:
+    patch:
+      content: "{1: 2,}"
+      location:
+        row: 2
+        column: 5
+      end_location:
+        row: 2
+        column: 20
+    applied: false
+- kind:
+    UnnecessaryLiteralDict: list
+  location:
+    row: 3
+    column: 5
+  end_location:
+    row: 3
+    column: 13
+  fix:
+    patch:
+      content: "{}"
+      location:
+        row: 3
+        column: 5
+      end_location:
+        row: 3
+        column: 13
+    applied: false
+- kind:
+    UnnecessaryLiteralDict: tuple
+  location:
+    row: 4
+    column: 5
+  end_location:
+    row: 4
+    column: 13
+  fix:
+    patch:
+      content: "{}"
+      location:
+        row: 4
+        column: 5
+      end_location:
+        row: 4
+        column: 13
+    applied: false
+
