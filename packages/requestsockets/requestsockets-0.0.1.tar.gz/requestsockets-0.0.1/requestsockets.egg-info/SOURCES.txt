@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+requestsockets/__init__.py
+requestsockets/errors.py
+requestsockets/socketrequests_.py
+requestsockets/socketsession.py
+requestsockets/test.py
+requestsockets/types_.py
+requestsockets/utils.py
+requestsockets.egg-info/PKG-INFO
+requestsockets.egg-info/SOURCES.txt
+requestsockets.egg-info/dependency_links.txt
+requestsockets.egg-info/top_level.txt
