@@ -1,0 +1,11 @@
+pants_backend_k8s/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pants_backend_k8s/goals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pants_backend_k8s/goals/run.py,sha256=35cb5rxFR3YDCrfE8VGLU9E6uplGkvl8-rx1g1cwLHc,5501
+pants_backend_k8s/register.py,sha256=-WJ5CrfPEKk7H4S5JMBd3RwJlGOrqwduzWkWaeriRjk,295
+pants_backend_k8s/subsystem.py,sha256=qoqDZn8rLO5TkoLzBsicT1PDVjWYLlBYn2zlehiVJWo,1010
+pants_backend_k8s/target_generators.py,sha256=kdOEkQAysum5XQkn0QlKnsbcdMv6_x6RLyhmwu-Dbyk,4287
+pants_backend_k8s/target_types.py,sha256=F8x7UugL-_DfofXH0x35ji4BReyi7ljfrxyWp2RJx34,2420
+pants_backend_k8s-0.1.1.dist-info/WHEEL,sha256=TQSpXlWZjPl29LMjkpbkR7iGxKB2AMwzfSmPuPn1ZS8,87
+pants_backend_k8s-0.1.1.dist-info/METADATA,sha256=-yW-POIzlmzufjH2nSMFTQpWTK6Mp8lD-aanE-Wu974,3351
+pants_backend_k8s-0.1.1.dist-info/licenses/LICENSE-MIT.txt,sha256=ZTkm4_hxhGJ4vuyI3HVKvDrnOWhkhdCsJDWm5a8R71g,1068
+pants_backend_k8s-0.1.1.dist-info/RECORD,,
