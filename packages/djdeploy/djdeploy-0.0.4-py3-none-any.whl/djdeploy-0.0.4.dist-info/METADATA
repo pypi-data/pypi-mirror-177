@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: djdeploy
+Version: 0.0.4
+Summary: Django automate deployment
+Home-page: https://github.com/ardevpk/djdeploy
+Author: Abdul Rehman
+Author-email: adnan1470369258@gmail.com
+Project-URL: Bug Tracker, https://github.com/ardevpk/djdeploy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: paramiko (==2.12.0)
+Requires-Dist: PyAutoGUI (==0.9.53)
+
+# Django Deployment.
+
+## Just call the command in your terminal/powershell/cmd!
+
+
+### For pem file login!
+```
+
+djdeploy --pem
+
+```
+
+
+### For password file login!
+```
+
+djdeploy --passwd
+
+```
+
+
+### For help!
+```
+
+djdeploy --help
+
+```
