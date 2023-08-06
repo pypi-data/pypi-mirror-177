@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: huhangkai
+Version: 1.0.4
+Summary: 接口自动化
+Home-page: UNKNOWN
+Author: 胡杭凯
+Author-email: 3173825608@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: faker
+Requires-Dist: requests
+
+UNKNOWN
+
