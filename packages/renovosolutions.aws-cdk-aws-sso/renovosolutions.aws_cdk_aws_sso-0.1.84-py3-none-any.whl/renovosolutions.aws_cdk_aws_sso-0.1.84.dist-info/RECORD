@@ -1,0 +1,9 @@
+sso/__init__.py,sha256=djX9UZ39GszE2VedY97GBtgtPVCR8V6BspI6pe_g-iU,49620
+sso/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sso/_jsii/__init__.py,sha256=FnsgheRhWNGmmfaaTe01do0CtKgR5MZ2VvTDdWpVE6I,437
+sso/_jsii/cdk-library-aws-sso@0.1.84.jsii.tgz,sha256=eCJfM4KgjyTzTUIRU86iAIOPv15X0yf5FJgJidy8_9A,33902
+renovosolutions.aws_cdk_aws_sso-0.1.84.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renovosolutions.aws_cdk_aws_sso-0.1.84.dist-info/METADATA,sha256=4qUfopaPAf0EoTbCREn3UDDxR_uU7oztK245t-m-6VU,3678
+renovosolutions.aws_cdk_aws_sso-0.1.84.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renovosolutions.aws_cdk_aws_sso-0.1.84.dist-info/top_level.txt,sha256=NXIMnOw_fMRn0WKZ9D-W-3iQXHQSyWrGytOElEg2Opg,4
+renovosolutions.aws_cdk_aws_sso-0.1.84.dist-info/RECORD,,
