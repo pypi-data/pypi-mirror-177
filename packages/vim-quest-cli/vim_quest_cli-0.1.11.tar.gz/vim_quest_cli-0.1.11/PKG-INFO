@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: vim-quest-cli
+Version: 0.1.11
+Summary: 
+Author: Stolati
+Author-email: stolati@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ansi (>=0.3.6,<0.4.0)
+Requires-Dist: argparse-dataclass (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+# VimQuestCLI
+
+This is a vim implementation in python that tries to implement game using the vim shortcuts.
+
+## Why python ?
+
+I love python. Maybe one day it's going to be converted in Rust (for easy webassembly and faster execution). But for now it's python 3.8.
+
+## Choice when doing executions
+
+Executor :
+- local (the python vim implementation)
+- vim (calling vim to execute stuff, for compatibility tests)
+
+Terminal handling :
+- Curses wrapper : the way it's usually done in python.
+  It allows for curses to catch the input.
+- "manual" curses : Without using the full curses capabilities.
+
+Execution loop :
+- One method to start the whole loop.
+- One method that have the input as argument and returns what to print.
+
+The python version doesn't have just vim capabilities, but allows to expand for allowing for hooks and data attached to the cells.
+
+## Todo
+
+- Separate presentation layer
+
+- Add a vim executor (to be able to compare tests).
+- Have a context that is not a copy but modify itself (for speed).
+- Have a bunch of hooks, and use them to have game modes.
+- Have a command to choose between game modes.
+- See how neovim is made so I can use the same architecture.
+- Maybe have syntax highliting for game modes too ?
+- Activate the UTF-8, see how I can activate it.
+- Create docker images for website and terminal.
+- Add git hook for cleaning python before commit.
+- Use unicode characters (not necesseraly emojii) with colors for differents things happening.
+
+BUG CORRECTION :
+- Clean codebase.
+- ANSI is blinking.
+- Image location is not working.
+- Size of the terminal is not used.
+- Unicode block behavior is inconsistent.
+  - Maybe having replacement for unicode that include colors.
+
+# References
+
+- [vim-adventures.com](https://vim-adventures.com/) : really cool game. I keep paying for it as the licence is only for 6 months.
+- [vim.so](https://www.vim.so/lessons) : Manual tests using a modified javascript editor.
+- [vimgenius.com](http://www.vimgenius.com/lessons/vim-intro/levels/level-1)
+- [github.com/iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim/blob/master)
+
+- Python prompt toolking has a python implementation of vi commands :
+  - https://github.com/prompt-toolkit/python-prompt-toolkit/blob/master/src/prompt_toolkit/key_binding/bindings/vi.py
+
+Now vim implementationthat I could use for corectness :
+- ace js : https://github.com/ajaxorg/ace/blob/master/src/keyboard/vim_test.js
+- ideavim : https://github.com/JetBrains/ideavim/tree/master/src/test/java/org/jetbrains/plugins/ideavim
+
+ncurses implementation : https://github.com/mscdex/node-ncurses
+Maybe this implementation would be easier to understand than the c ncurses one.
+# Next steps to cover
+
+- hjkl x
+- [number]command
+- i
+- aA
+- dd
+- wbe
+- v, Shift-v
+- ypP
+- "ci<symbol>"
+
+
+# Next step.
+
+Vim core. That execute the commands and return a status. From a Contains the screen size and 
+
+Vim window. That take that buffer and return a screen. (matrix of data points with metadata).
+
+Attachable are game modes.
+
+Then there is terminal that push characters and returns a  
+
+Use an alternate screen : https://stackoverflow.com/questions/11023929/using-the-alternate-screen-in-a-bash-script
+
+
