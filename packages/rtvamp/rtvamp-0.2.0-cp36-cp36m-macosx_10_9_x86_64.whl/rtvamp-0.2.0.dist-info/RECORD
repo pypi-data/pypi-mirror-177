@@ -1,0 +1,10 @@
+rtvamp-0.2.0.dist-info/RECORD,,
+rtvamp-0.2.0.dist-info/LICENSE,sha256=jFgOWlTirELY4N3syzSc-Y0Wsulvy7_zuyQlsPbxhMg,1070
+rtvamp-0.2.0.dist-info/WHEEL,sha256=RmOv5zDD-EI5RU7E4cRfQTRzdROe2qz0_cXEdAwpRGo,104
+rtvamp-0.2.0.dist-info/top_level.txt,sha256=y__qOWGXp8XZ5r4abpNS5kSFN15ZOSS1Ay4aaKWwJds,7
+rtvamp-0.2.0.dist-info/METADATA,sha256=HNiJo0guxkc5iXfUy-MqSrcduIYC4ctynUEQxfPs55E,4274
+rtvamp/example-plugin.dylib,sha256=oPutTK1W6t1jdqWAMs3YXDWIEAn-CmOlkrVVIgvbkgs,132320
+rtvamp/__init__.py,sha256=3h49217CE2H91vvkpWg9xT7BWKgozghZP_xT-eheksM,10120
+rtvamp/_bindings.cpython-36m-darwin.so,sha256=hNq3Cajt5E8KRgxg8EFEBJS38TaGLLr5J3JcmaFD4vQ,458048
+rtvamp/.dylibs/libstdc++.6.dylib,sha256=xLoYuHbJis9BrrBRiGeaN62x2eeicvmdnqLgWNHbBbI,3412576
+rtvamp/.dylibs/libgcc_s.1.1.dylib,sha256=sHE0kx6slfYVVPeC6hVXLsI1FxqRaLlwFIr-xISs0GU,144336
