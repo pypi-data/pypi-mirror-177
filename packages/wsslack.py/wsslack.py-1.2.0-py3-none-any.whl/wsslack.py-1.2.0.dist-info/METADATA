@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wsslack.py
+Version: 1.2.0
+Summary: An APIwrapper for slack with python.
+Home-page: https://github.com/peco2282/slack.py
+Author: peco2282
+Author-email: pecop2282@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (~=3.8.3)
+Requires-Dist: setuptools (~=60.2.0)
+
+UNKNOWN
+
