@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+competitions/__init__.py
+competitions/app.py
+competitions/config.py
+competitions/utils.py
+competitions.egg-info/PKG-INFO
+competitions.egg-info/SOURCES.txt
+competitions.egg-info/dependency_links.txt
+competitions.egg-info/requires.txt
+competitions.egg-info/top_level.txt
