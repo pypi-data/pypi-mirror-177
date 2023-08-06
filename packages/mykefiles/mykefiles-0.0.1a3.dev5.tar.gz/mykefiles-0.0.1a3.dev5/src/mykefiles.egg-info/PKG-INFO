@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mykefiles
+Version: 0.0.1a3.dev5
+Home-page: https://codeberg.org/Fresh2dev/mykefiles
+Author: donald
+Author-email: hello@fresh2.dev
+Project-URL: Repository, https://codeberg.org/Fresh2dev/mykefiles
+Project-URL: Issues, https://codeberg.org/Fresh2dev/mykefiles/issues
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/mykefiles/i/docs
+Project-URL: Changelog, https://www.Fresh2.dev/code/r/mykefiles/i/docs/changelog
+Project-URL: Funding, https://www.Fresh2.dev/tip
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: myke
+License-File: LICENSE
+
+# mykefiles
+
+alias mk='myke --myke-file src/mykefiles/python-package.py'
+
+mk set-version
+
+mk env
