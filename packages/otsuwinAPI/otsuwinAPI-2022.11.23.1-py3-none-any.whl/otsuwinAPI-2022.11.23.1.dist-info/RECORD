@@ -1,0 +1,10 @@
+otsuwinAPI/__init__.py,sha256=SoC9iSgVSNEutxSVUbVPt4mWbecjraCOuV6WVFtmYZo,151
+otsuwinAPI/kernel32.py,sha256=1nhGG3g0aN-xR8WeCz6hr-7IYP9FPGMhp_1322eesmw,568
+otsuwinAPI/user32.py,sha256=BQ0WY30Easg3TuQ_cULr-5cHjgfAS9nHboShLk-p_Nk,11764
+otsuwinAPI/constants/__init__.py,sha256=IA5dwfRU5g732k2OxNW-r_w6XLhbYvop9QFzGdJmjX8,94
+otsuwinAPI/constants/hWndInsertAfter.py,sha256=pTgAokXHli0EwAFVE3edOaFpb6pwdG-Sc5piGSlm9qw,244
+otsuwinAPI/constants/uFlags.py,sha256=FW95Is1WqUsvGf0Mfnfc9Dkn4cSw5Pnmx2vKBfyr6t0,948
+otsuwinAPI-2022.11.23.1.dist-info/METADATA,sha256=Fn9vJsmNeXt1z7Bzhc_mopz6a48Lv0lwSXlc9GR7fCE,247
+otsuwinAPI-2022.11.23.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+otsuwinAPI-2022.11.23.1.dist-info/top_level.txt,sha256=sYufV7NljoubV1Jpknx-yyuNp8gAQV_ptOGBlcuZNsg,11
+otsuwinAPI-2022.11.23.1.dist-info/RECORD,,
