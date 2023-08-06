@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: free-torrents
+Version: 1.4.0
+Summary: Script to facilitate downloading free (as-in-speech) torrents
+Home-page: https://legoktm.com/w/index.php?title=free-torrents
+Author: Kunal Mehta
+Author-email: legoktm@debian.org
+License: GPL-3.0-or-later
+Requires-Python: >= 3.9
+License-File: COPYING
+Requires-Dist: requests
+
+free-torrents
+
+Automatically downloads free software torrents for seeding. Useful if
+you have some extra bandwidth lying around and want to do some good.
+
+You should create a watch folder and point free-torrents at it.
+
+usage: free-torrents [-h]
+                     [--only-debian | --only-fedora | --only-qubes | --only-slackware | --only-tails | --only-ubuntu]
+                     [--no-debian] [--no-fedora] [--no-qubes] [--no-slackware]
+                     [--no-tails] [--no-ubuntu]
+                     watch
+
+positional arguments:
+  watch             Watch folder to download torrents to
+
+options:
+  -h, --help        show this help message and exit
+  --only-debian     Only download debian torrents
+  --only-fedora     Only download fedora torrents
+  --only-qubes      Only download qubes torrents
+  --only-slackware  Only download slackware torrents
+  --only-tails      Only download tails torrents
+  --only-ubuntu     Only download ubuntu torrents
+  --no-debian       Skip debian torrents
+  --no-fedora       Skip fedora torrents
+  --no-qubes        Skip qubes torrents
+  --no-slackware    Skip slackware torrents
+  --no-tails        Skip tails torrents
+  --no-ubuntu       Skip ubuntu torrents
