@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+SimplyCleverPdf.egg-info/PKG-INFO
+SimplyCleverPdf.egg-info/SOURCES.txt
+SimplyCleverPdf.egg-info/dependency_links.txt
+SimplyCleverPdf.egg-info/top_level.txt
