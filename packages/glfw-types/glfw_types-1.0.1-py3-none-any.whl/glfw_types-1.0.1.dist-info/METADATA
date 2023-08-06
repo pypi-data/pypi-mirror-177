@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: glfw-types
+Version: 1.0.1
+Summary: A ctypes-based wrapper for GLFW3 (with typing).
+Home-page: https://github.com/romanin-rf/glfw-types
+Author: Florian Rhiem
+Author-email: florian.rhiem@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: glfw
+
+UNKNOWN
+
