@@ -1,0 +1,8 @@
+Pillow
+requests
+torch
+torchvision
+tqdm
+
+[dev]
+pytest
