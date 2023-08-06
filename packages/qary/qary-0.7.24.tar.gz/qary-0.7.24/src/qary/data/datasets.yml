@@ -1,0 +1,184 @@
+# GEC (Grammar Error Correction) Datasets
+# Datasets for machine learning and NLP
+#
+# SEE ALSO:
+#   qary repository: src/qary/data/datasets.yml
+#   nlpia2 repository: src/nlpia2/data/datasets.yml or resources-datsets-data-source.yml
+#   team repository: data/exercises/2-data/resources-datasets-data-sources.yml
+#
+-
+  problem: NLP code snippet generation (from Stack Overflow)
+  docs: Papers With Code CoNaLa dataset https://paperswithcode.com/dataset/conala
+-
+  problem: NLP python code generation from comments
+  docs: https://towardsdatascience.com/building-a-python-code-generator-4b476eec5804
+  author: The School of AI (TSAI) (https://theschoolof.ai/)
+  url: https://drive.google.com/file/d/1rHb0FQ5z5ZpaY2HpyFGY6CeyDG0kTLoO/view
+- problem: summarization
+  docs: https://thijs.ai/Wikipedia-Summary-Dataset/
+  url: http://blob.thijs.ai/wiki-summary-dataset/raw.tar.gz
+  urls:
+    - http://blob.thijs.ai/wiki-summary-dataset/raw.tar.gz
+    - http://blob.thijs.ai/wiki-summary-dataset/tokenized.tar.gz
+  description: Wikipedia article summary paragraphs and titles as of 2017
+-
+  problem: various datascience
+  docs: https://github.com/fivethirtyeight/data/
+  url: https://github.com/fivethirtyeight/data/
+-
+  problem: last name and ethnicity
+  docs: https://github.com/fivethirtyeight/data/tree/master/most-common-name
+  url: https://raw.githubusercontent.com/fivethirtyeight/data/master/most-common-name/surnames.csv
+-
+  problem: baby names
+  docs: https://data.world/alexandra/baby-names
+  url: https://query.data.world/s/i675sdfno3rlwphwfugcrhwk3myy3s
+-
+  problem: public health, governance, time-series, census
+  docs: https://opendatanepal.com/
+  description: Open Data Nepal
+  urls:
+    - https://opendatanepal.com/dataset/6368a9aa-4649-46e6-925a-ebbff0c49fc1/resource/e7fbeb74-d949-4964-a96c-7b5e973468d0/download/preliminary-data-of-national-population-and-housing-census-2021-nepali.csv
+    - https://opendatanepal.com/dataset/6368a9aa-4649-46e6-925a-ebbff0c49fc1/resource/b11d363a-91c3-4332-ba14-ee50b3a12ec4/download/preliminary-data-of-national-population-and-housing-census-2021-english.csv
+-
+# general NLP datasets
+-
+  url: https://adsei.org/datasets/
+  description: 
+  title: Starter Datasets and Lesson Plans from the Australian Data Science Education Institute
+-
+  url: https://data.opendatasoft.com/pages/home/
+  title: OpenDataSoft data sharing platform
+  api_docs: https://help.opendatasoft.com/apis/ods-search-v1/#search-api-v1
+  description: thousands of downloadable open data science data archives. Each dataset also available through their API  
+-
+  url: https://lunarcrush.com/
+  api: https://api.lunarcrush.com/v2?data=assets
+  description: cryptocurrency historical data
+-
+  url: https://medium.com/analytics-vidhya/top-100-open-source-datasets-for-data-science-cd5a8d67cc3d
+  title: Top 100 Open Source Datasets for Data Science
+  author: Sowhardh Honnappa
+-
+  url: https://opendatascience.com/25-excellent-machine-learning-open-datasets/
+  title: "Open Data Science: 25 Excellent Machine Learning Open Datasets"
+  tags: [meta, collection, database]
+- 
+  url: https://raw.githubusercontent.com/Davidelanz/nlp-contextual-meaning/master/dataset/situations_it.csv
+  problem: foreign language intent classification
+-
+  url: https://raw.githubusercontent.com/subashgandyer/NLP/master/Python-NLP/train.csv
+  problem: binary sentiment classification of tweets
+  example: https://github.com/subashgandyer/NLP/blob/master/Python-NLP/TextProcessingusingPython.ipynb
+-
+  url: https://github.com/google-research-datasets/sentence-compression/tree/master/data
+  problem: sentence compression, simplification, paraphrasing in English
+
+# Happiness datasets
+-
+  problem: predicting country gross happiness (World Happiness Report) and GNH (Gross National Happiness), also the Easterlin paradox
+  url: https://en.wikipedia.org/wiki/OECD_Better_Life_Index
+-
+  problem: predicting country gross happiness (World Happiness Report) and GNH (Gross National Happiness), also the Easterlin paradox
+  url: https://www.kaggle.com/unsdsn/world-happiness
+# GEC (Grammar Error Correction) Datasets
+-
+  problem: English GEC
+  docs: https://www.cl.cam.ac.uk/research/nl/bea2019st/
+  description: _FCE v2.1_ not NUCLE, Lang-8, W&I+LOCNESS v2.1
+  url: https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz
+-
+  problem: English GEC
+  docs: https://www.cl.cam.ac.uk/research/nl/bea2019st/
+  description: _W&I+LOCNESS v2.1_ not NUCLE, Lang-8, FCE v2.1
+  url: https://www.cl.cam.ac.uk/research/nl/bea2019st/data/wi+locness_v2.1.bea19.tar.gz
+-
+  problem: Russian grammer error correction
+  docs: https://github.com/arozovskaya/RULEC-GEC
+  data access: https://github.com/arozovskaya/RULEC-GEC/blob/master/RULEC%20User%20Agreement.pdf
+-
+  problem: CONNL - NUS Corpus of Learner English (NUCLE) grammar and fluency correction
+  docs: https://www.comp.nus.edu.sg/~nlp/conll14st.html#nucle32
+  url: https://www.comp.nus.edu.sg/~nlp/conll14st/conll14st-test-data.tar.gz
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html
+  description: Training data (42MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_train.xml.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Development data (5MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_dev.xml.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html
+  description: Test data (without edits - used for the AESW 2016 Shared Task (5MB)
+  url: http://textmining.lt/aesw/test.evaluation.xml.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html
+  description: Test data (with edits) (6MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_test.xml.zip).
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Training tokens (49MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_train.tok.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Training tPOS (20MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_train.pos.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Training tCFG (65MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_train.cfg.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Training tDEP (186MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_train.dep.bz2)
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html
+  description: Development tokens (6MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_dev.tok.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: POS (3MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_dev.pos.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: CFG (8MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_dev.cfg.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: DEP (23MB)
+  url: http://textmining.lt/aesw/aesw2016(v1.2)_dev.dep.bz2)
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html
+  description: Test (without edits) tokens (5MB)
+  url: http://textmining.lt/aesw/test.tok.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Test (without edits) POS (2MB)
+  url: http://textmining.lt/aesw/test.pos.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Test (without edits) CFG (6MB)
+  url: http://textmining.lt/aesw/test.cfg.bz2
+- 
+  problem: AESW (Automated Evaluation of Scientific Writing Data Set) grammar and fluency correction
+  docs: http://textmining.lt/aesw/aesw2016down.html 
+  description: Test (without edits) DEP (17MB)
+  url: http://textmining.lt/aesw/test.dep.bz2)
+
+  
