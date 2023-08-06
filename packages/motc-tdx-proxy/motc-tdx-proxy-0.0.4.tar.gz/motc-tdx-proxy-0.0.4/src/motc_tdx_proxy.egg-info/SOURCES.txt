@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/motc_tdx_proxy.egg-info/PKG-INFO
+src/motc_tdx_proxy.egg-info/SOURCES.txt
+src/motc_tdx_proxy.egg-info/dependency_links.txt
+src/motc_tdx_proxy.egg-info/requires.txt
+src/motc_tdx_proxy.egg-info/top_level.txt
+src/tdx_proxy/__init__.py
+src/tdx_proxy/tdx_proxy.py
