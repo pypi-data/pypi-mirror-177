@@ -1,0 +1,4 @@
+Cannot generate into /home/lap1dem/dev-python/echaim/src/echaim
+It was created with incompatible generator 'Unix Makefiles'
+
+Please either delete it manually or select another generation directory

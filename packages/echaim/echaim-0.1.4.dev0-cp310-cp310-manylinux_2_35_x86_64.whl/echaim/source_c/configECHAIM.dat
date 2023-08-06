@@ -1,0 +1,3 @@
+#This is the directory which contains the ECHAIM database (.DB) file,
+#the AACGM coefficient file, the COEFS database, and downloaded indices.
+/home/lap1dem/c-dev/echaim-3.2.4/etc

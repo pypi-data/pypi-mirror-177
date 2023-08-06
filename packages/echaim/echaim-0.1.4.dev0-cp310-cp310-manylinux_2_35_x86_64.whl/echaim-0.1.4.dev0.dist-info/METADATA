@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: echaim
+Version: 0.1.4.dev0
+Summary: 
+Author: lap1dem
+Author-email: vadym.bidula@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# echaim
+A Python interface to ECHAIM model (under development).
+
