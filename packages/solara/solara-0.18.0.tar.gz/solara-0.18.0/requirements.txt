@@ -1,0 +1,7 @@
+ipyvuetify
+reacton
+bqplot
+plotly
+.[server,documentation]
+vega_datasets
+altair
