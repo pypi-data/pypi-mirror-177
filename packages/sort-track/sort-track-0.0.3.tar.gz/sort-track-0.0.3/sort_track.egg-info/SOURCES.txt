@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+sort/__init__.py
+sort/tracker.py
+sort_track.egg-info/PKG-INFO
+sort_track.egg-info/SOURCES.txt
+sort_track.egg-info/dependency_links.txt
+sort_track.egg-info/requires.txt
+sort_track.egg-info/top_level.txt
