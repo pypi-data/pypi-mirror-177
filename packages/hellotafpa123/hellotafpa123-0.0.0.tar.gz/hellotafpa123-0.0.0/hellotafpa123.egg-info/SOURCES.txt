@@ -1,0 +1,5 @@
+setup.py
+hellotafpa123.egg-info/PKG-INFO
+hellotafpa123.egg-info/SOURCES.txt
+hellotafpa123.egg-info/dependency_links.txt
+hellotafpa123.egg-info/top_level.txt
