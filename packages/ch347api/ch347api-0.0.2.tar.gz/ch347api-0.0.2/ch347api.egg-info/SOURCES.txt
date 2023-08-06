@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ch347api/__init__.py
+ch347api/spi.py
+ch347api.egg-info/PKG-INFO
+ch347api.egg-info/SOURCES.txt
+ch347api.egg-info/dependency_links.txt
+ch347api.egg-info/requires.txt
+ch347api.egg-info/top_level.txt
