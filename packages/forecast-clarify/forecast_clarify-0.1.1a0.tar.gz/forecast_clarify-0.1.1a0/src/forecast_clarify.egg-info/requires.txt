@@ -1,0 +1,5 @@
+numpy
+pandas
+requests
+xarray
+scikit-learn==1.1.2
