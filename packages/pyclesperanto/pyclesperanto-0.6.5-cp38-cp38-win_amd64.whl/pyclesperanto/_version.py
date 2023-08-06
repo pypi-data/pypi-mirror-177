@@ -1,0 +1,3 @@
+VERSION_CODE = (0, 6, 5)
+VERSION_STATUS = ""
+VERSION = ".".join(str(x) for x in VERSION_CODE) + VERSION_STATUS
