@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: awsmfunc
+Version: 1.3.3
+Summary: awesome VapourSynth functions
+Home-page: https://github.com/OpusGang/awsmfunc
+Author: OpusGang
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# awsmfunc
+
+### Requirements
+* Python 3.9 minimum
+* [vapoursynth](http://www.vapoursynth.com/)
+* [numpy](https://numpy.org/)
+* [RemapFrames](https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames)
+* [FillBorders](https://github.com/dubhater/vapoursynth-fillborders)
+
+Optional plugins:
+* [vs-placebo](https://github.com/Lypheo/vs-placebo)
+* [vapoursynth-descale](https://github.com/Irrational-Encoding-Wizardry/vapoursynth-descale)
+* [vapoursynth-bilateral](https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bilateral)
+* [vsfpng](https://github.com/Mikewando/vsfpng)
+
+### Setting up
+
+	pip install --user git+https://github.com/OpusGang/awsmfunc.git
+
+### Updating everything
+
+	pip install --user --upgrade --force-reinstall .
+
+#### Dependencies
+* [rekt](https://github.com/OpusGang/rekt)
+* [vsutil](https://github.com/Irrational-Encoding-Wizardry/vsutil)
+
+#### Recommended VS Community Python Modules 
+* [See Wiki](https://github.com/OpusGang/awsmfunc/wiki/Recommended-VS-Community-Python-Modules)
+
+### Contact
+- **IRC Channel**: `#OpusGang` on `irc.libera.chat`
