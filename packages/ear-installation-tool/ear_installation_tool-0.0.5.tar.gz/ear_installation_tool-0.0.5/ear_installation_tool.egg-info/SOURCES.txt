@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+bear_installation_tool/__init__.py
+bear_installation_tool/installation_tool.py
+ear_installation_tool.egg-info/PKG-INFO
+ear_installation_tool.egg-info/SOURCES.txt
+ear_installation_tool.egg-info/dependency_links.txt
+ear_installation_tool.egg-info/entry_points.txt
+ear_installation_tool.egg-info/requires.txt
+ear_installation_tool.egg-info/top_level.txt

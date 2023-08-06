@@ -1,0 +1,3 @@
+[console_scripts]
+coala-install = ear_installation_tool.installation_tool:main
+

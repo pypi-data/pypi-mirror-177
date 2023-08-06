@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ear-installation-tool
+Version: 0.0.5
+Summary: Installation tool for coala-bears
+Home-page: UNKNOWN
+Author: Adrian Zatreanu
+Maintainer: Adrian Zatreanu
+Maintainer-email: adrianzatreanu1@gmail.com
+License: AGPL-3.0
+Platform: any
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: Gnome
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+
+This tool helps you install bears interactively.
+To see more about bears, check https://github.com/coala-analyzer/coala-bears.
+
+
