@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fourier_transforms
+Version: 0.0.1
+Summary: Fast Fourier Transform (FFT) and Discrete Fourier Transform (DFT) implementations
+Home-page: https://github.com/ygorbalves/fft-dft-package.git
+Author: Ygor
+Author-email: ygorbalves222@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# fourier_transforms
+
+Description. 
+The package fourier_transforms is used to:
+	- Fast Fourier Transform (FFT)
+	- Discrete Fourier Transform (DFT)
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install fourier_transforms
+```
+
+## Author
+Ygor
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
