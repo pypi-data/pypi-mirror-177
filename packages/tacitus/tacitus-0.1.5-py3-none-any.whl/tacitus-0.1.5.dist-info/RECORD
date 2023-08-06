@@ -1,0 +1,16 @@
+tacitus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacitus/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacitus/adapters/sqlalchemy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacitus/adapters/sqlalchemy/building.py,sha256=ozHgtFywwFu3rRu8B0aLwLX_XexxfKWSNfK41dH77Nc,6159
+tacitus/adapters/sqlalchemy/connecting.py,sha256=PwxpmahAbvBcGKG-Q9ByQL1U8laFXeVHoZRhwZNfVLs,973
+tacitus/adapters/sqlalchemy/generic.py,sha256=sV8xHWddc-M3VmrNkUWz-K9xxrUDh_FJGV478qcVl8o,412
+tacitus/adapters/sqlalchemy/obtaining.py,sha256=l9HOxWXR_JuBtSlSePqZA0jI0mjR8fL9mDHfg10i_-k,5976
+tacitus/adapters/sqlalchemy/registration.py,sha256=d0CEO6hgK7gBS-Mw2eF7CIezAcVqvO6tfDHoc3X9pts,3389
+tacitus/adapters/sqlalchemy/saving.py,sha256=2NcbBSn_QFsm97PSN4t95oNqkNtfa60wovAZpMzAzA0,8952
+tacitus/adapters/sqlalchemy/vendoring.py,sha256=oiM_ypxR0y5h_bYX-LKmWIE-NoBre6ZchPVrIOjnIUA,1337
+tacitus/definitions/__init__.py,sha256=jvqEHobuSgY4dL34CSKpMVlXlcMZq-sb-lqyaQquxC8,36
+tacitus/definitions/contracts.py,sha256=4buqv-SzabIv_rPQqTY31NWpORvhKgLx8su3mIZCjS8,2719
+tacitus/definitions/exceptions.py,sha256=8_W_VKWq7MA5q8Jx9mSwqVxa97k2gZz0yroMhcDwMVc,180
+tacitus-0.1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+tacitus-0.1.5.dist-info/METADATA,sha256=FOCt_mI3CObxi7KrufUjd_xgv18xomR3cUJ3lwjrWoM,329
+tacitus-0.1.5.dist-info/RECORD,,
