@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+src/Marius_firstpackage.egg-info/PKG-INFO
+src/Marius_firstpackage.egg-info/SOURCES.txt
+src/Marius_firstpackage.egg-info/dependency_links.txt
+src/Marius_firstpackage.egg-info/top_level.txt
+src/my_own_package/__init__.py
