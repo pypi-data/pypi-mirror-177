@@ -1,0 +1,11 @@
+pandas>=0.18.0
+requests>=2.0.0
+pickle
+toml
+uuid
+json
+itertools
+random
+threading
+pyzstd>=0.15
+numpy>=1.9.2
