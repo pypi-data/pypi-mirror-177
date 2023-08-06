@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+appstartup/__init__.py
+appstartup/__version__.py
+appstartup/core.py
+appstartup.egg-info/PKG-INFO
+appstartup.egg-info/SOURCES.txt
+appstartup.egg-info/dependency_links.txt
+appstartup.egg-info/requires.txt
+appstartup.egg-info/top_level.txt
