@@ -1,0 +1,12 @@
+pysrpm/__init__.py,sha256=SFugRv1b5b-E3CZIqplaXj34AzeWpn5ptRp4w04A9nc,207
+pysrpm/__main__.py,sha256=MWuWkTnFl_Udx40eYM5B-RqbjAalisejSisCsWaSvYo,3520
+pysrpm/convert.py,sha256=R5az5dRWTReVZsIhSg1YLQPO-2TMY1B3jWbZkSXsjyI,7135
+pysrpm/rpm.py,sha256=3tRbBnpYoGZ8PWRSN5pJLNUh1ecwl5lAChbjoR6zd_E,24601
+pysrpm/presets/00-base.conf,sha256=6B1DoHXa5MQMDQlMDEikRJn9Lo5LHXlJFPftUpBlqdY,3939
+pysrpm/presets/10-compat.conf,sha256=PplE2k8hUL-kF7srHEs70wNwkn9J-e9HGYz2RGRTeoQ,1031
+pysrpm/presets/10-sphinx.conf,sha256=ePC-YfAFmVzEhzclh8xFTX1pVgiy-PtuQ1ATKKKwZLk,1038
+pysrpm-0.0.10.dist-info/METADATA,sha256=-C5ZPI8uPbRYCRAOufIG02KWqgyJHMnmQYn5F6qBYLI,5379
+pysrpm-0.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pysrpm-0.0.10.dist-info/entry_points.txt,sha256=PK-HquNxBhnhp8dZnuhTuIbjZZ93uTbOpSixvvAw_x0,47
+pysrpm-0.0.10.dist-info/top_level.txt,sha256=vFjZyGKoWTRCJjw_d3jvxa6mLJXUxplb3_0DuCvVoqU,7
+pysrpm-0.0.10.dist-info/RECORD,,
