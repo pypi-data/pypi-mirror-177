@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: joyrl
+Version: 0.1.10
+Summary: A Library for Deep Reinforcement Learning
+Home-page: https://github.com/datawhalechina/joyrl
+Author: johnjim0816
+Author-email: johnjim0816@gmail.com
+License: MIT
+Keywords: reinforcement learning platform pytorch
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gym (==0.25.2)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: seaborn (==0.12.1)
+Requires-Dist: dill (==0.3.5.1)
+Requires-Dist: argparse (==1.4.0)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: pyglet (==1.5.26)
+Requires-Dist: importlib-metadata (<5.0)
+Requires-Dist: setuptools (==65.2.0)
+Provides-Extra: atari
+Requires-Dist: atari-py ; extra == 'atari'
+Requires-Dist: opencv-python ; extra == 'atari'
+Provides-Extra: mujoco
+Requires-Dist: mujoco-py ; extra == 'mujoco'
+Provides-Extra: pybullet
+Requires-Dist: pybullet ; extra == 'pybullet'
+
+[中文](./README_cn.md)|EN
+## JoyRL
+
+## Install
+
+```bash
+conda create -n easyrl python=3.7
+conda activate easyrl
+pip install -r requirements
+```
+Torch:
+
+```bash
+# CPU
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cpuonly -c pytorch
+# GPU
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+# GPU with mirrors
+pip install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.10.0 --extra-index-url https://download.pytorch.org/whl/cu113
+```
+## Usage
+
+you can simply change the parameters (like env_name, algo_name) in `config.config.GeneralConfig()` and run:
+```bash
+python main.py
+```
+then it will a new folder named `tasks` to save results and models.
+
+Or you can custom parameters with a `yaml` file as you can seen in  `config/custom_config_Train.yaml` and run:
+```bash
+python main.py --yaml config/custom_config_Train.yaml
+```
+And there are presets yaml files in the [defaults](./defaults/) folder and well trained results in the [benchmarks](./benchmarks/) folder.
+
+## Algorithms
+
+|       Name       |                          Reference                           |                    Author                     | Notes |
+| :--------------: | :----------------------------------------------------------: | :-------------------------------------------: | :---: |
+| DQN | [DQN Paper](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) | [johnjim0816](https://github.com/johnjim0816) |       |
