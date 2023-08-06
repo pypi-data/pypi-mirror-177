@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: oxeekparser
+Version: 2.0.0
+Summary: Universal parser with using regex
+Home-page: https://github.com/oxeekezy/universal-parser
+Author: oxeek
+Author-email: workkukin@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium (~=4.5.0)
+
+This is Universal parser with using regex created for mggflow
