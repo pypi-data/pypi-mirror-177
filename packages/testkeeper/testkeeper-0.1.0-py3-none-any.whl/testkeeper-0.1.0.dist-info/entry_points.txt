@@ -1,0 +1,6 @@
+[console_scripts]
+TK=testkeeper.client:entry
+TestKeeper=testkeeper.client:entry
+testkeeper=testkeeper.client:entry
+tk=testkeeper.client:entry
+
