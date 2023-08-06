@@ -1,0 +1,20 @@
+"""
+Get started with our docs, https://docs.slai.io/beam
+"""
+import beam
+
+app = beam.App(
+    name="{{ name }}",
+    cpu={{ cpu }},
+    memory="{{ memory }}",
+)
+
+{% if trigger -%}
+# Triggers determine how you app is deployed
+{%- endif %}
+{% if trigger == "webhook" -%}
+app.Trigger.Webhook(inputs={"x1": beam.Types.String()}, handler="run.py:main")
+{% elif trigger == "rest_api" -%}
+app.Trigger.RestAPI(inputs={"x1": beam.Types.String()}, outputs={"prediction": beam.Types.Float()}, handler="run.py:main")
+{% elif trigger == "cron_job" -%}
+{%- endif %}
