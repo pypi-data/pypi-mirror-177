@@ -1,0 +1,10 @@
+pyForMetrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyForMetrix/metrix.py,sha256=MVUmr9cYs0jCBHqFSVr7t-gx0u1TuGG-N6-kZZ58W1o,30221
+pyForMetrix/rasterizer.py,sha256=wsEegREu8p3KV9nw7QXkVc_mC0AIYCpvdS-VQehG3Eo,8497
+pyForMetrix/metricCalculators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyForMetrix/metricCalculators/publications.py,sha256=ufRjw0IVq2Qqf-s8oU2v8BQ_CGA4X8qrP01wnkbnmtI,12714
+pyForMetrix/metricCalculators/types.py,sha256=C8_snj95kPuaj4YQEQCJoFtW4wEaey1izQ06yuHF4OY,4681
+pyformetrix-0.0.2a2.dist-info/METADATA,sha256=v8OGqTu0dXC2sPQEY5uqaKPeK4Ak-P5c6sr5mL5q2U0,8270
+pyformetrix-0.0.2a2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pyformetrix-0.0.2a2.dist-info/licenses/LICENSE,sha256=lefrLZntJnVu6QsonRYl2xpppqzjZoTvoltaq5cuge8,1077
+pyformetrix-0.0.2a2.dist-info/RECORD,,
