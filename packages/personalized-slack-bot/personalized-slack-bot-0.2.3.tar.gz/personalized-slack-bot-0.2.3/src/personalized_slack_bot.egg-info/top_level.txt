@@ -1,0 +1,2 @@
+slackbot
+terminal_wrapper
