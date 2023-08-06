@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: pymodi-plus
+Version: 0.0.2
+Summary: Python API for controlling modular electronics, MODI+.
+Home-page: https://github.com/LUXROBO/pymodi-plus
+Author: LUXROBO
+Author-email: module.dev@luxrobo.com
+License: MIT
+Keywords: python,modi,modi-plus,modi_plus,modi+
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: nest-asyncio (==1.5.4)
+Requires-Dist: websocket-client (==1.2.3)
+Requires-Dist: bleak (==0.13.0) ; sys_platform == "darwin"
+Requires-Dist: pexpect ; sys_platform == "linux"
+Requires-Dist: bleak (==0.13.0) ; sys_platform == "win32"
+Requires-Dist: winusbcdc (==1.4) ; sys_platform == "win32"
+Provides-Extra: dev
+Requires-Dist: flake8 (==4.0.1) ; extra == 'dev'
+Requires-Dist: black (==21.10b0) ; extra == 'dev'
+Requires-Dist: tox (==3.24.4) ; extra == 'dev'
+Requires-Dist: coverage (==6.1.1) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.15.0) ; extra == 'dev'
+Requires-Dist: bumpversion (==0.6.0) ; extra == 'dev'
+
+Description
+===========
+> Python API for controlling modular electronics, MODI+.
+
+
+Features
+--------
+PyMODI+ provides a control of modular electronics.
+* Platform agnostic control of modules through serial connection
+* Utilities of wireless connection with BLE (Bluetooth Low Engery)
+
+Installation
+------------
+> When installing PyMODI+ package, we highly recommend you to use Anaconda to manage the distribution.
+> With Anaconda, you can use an isolated virtual environment, solely for PyMODI+.
+
+[Optional] Once you install [Anaconda](https://docs.anaconda.com/anaconda/install/), then:
+```
+# Install new python environment for PyMODI+ package, choose python version >= 3.9
+conda create --name pymodi_plus python=3.9
+
+# After you properly install the python environment, activate it
+conda activate pymodi_plus
+
+# Ensure that your python version is compatible with PyMODI+
+python --version
+```
+
+Install the latest PyMODI+ if you haven't installed it yet:
+```
+python -m pip install pymodi_plus --user --upgrade
+```
+
+Usage
+-----
+Import modi_plus package and create MODIPlus object (we call it "bundle", a bundle of MODI+ modules).
+```python
+# Import modi_plus package
+import modi_plus
+
+"""
+Create MODIPlus object, make sure that you have connected your network module
+to your machine while other modules are attached to the network module
+"""
+bundle = modi_plus.MODIPlus()
+```
+
+[Optional] Specify how you would like to establish the connection between your machine and the network module.
+```python
+# 1. Serial connection (via USB), it's the default connection method
+bundle = modi_plus.MODIPlus(connection_type="serialport")
+
+# 2. BLE (Bluetooth Low Energy) connection, it's wireless! But it can be slow :(
+bundle = modi_plus.MODIPlus(conn_type="ble", network_uuid="YOUR_NETWORK_MODULE_UUID")
+```
+
+List and create connected modules' object.
+```python
+# List connected modules
+print(bundle.modules)
+
+# List connected leds
+print(bundle.leds)
+
+# Pick the first led object from the bundle
+led = bundle.leds[0]
+```
+
+Let's blink the LED 5 times.
+```python
+import time
+
+for _ in range(5):
+    # turn on for 0.5 second
+    led.turn_on()
+    time.sleep(0.5)
+
+    # turn off for 0.5 second
+    led.turn_off()
+    time.sleep(0.5)
+```
+
+If you are still not sure how to use PyMODI, you can play PyMODI tutorial over REPL:
+```
+$ python -m modi_plus --tutorial
+```
+As well as an interactive usage examples:
+```
+$ python -m modi_plus --usage
+```
+
+Additional Usage
+----------------
+To diagnose MODI+ modules (helpful to find existing malfunctioning modules),
+```
+$ python -m modi_plus --inspect
+```
+
+To initialize MODI+ modules implicitly (set `i` flag to enable REPL mode),
+```
+$ python -im modi_plus --initialize
+```
+
+To see what other commands are available,
+```
+$ python -m modi_plus --help
+```
+
+History
+==
+
+0.0.1 (2022-11-15)
+--
+1. Release initial version of the package on in-house GitHub
+
+0.0.2 (2022-11-18)
+--
+* Feature
+1. change python minimum version to v3.9
+
+
