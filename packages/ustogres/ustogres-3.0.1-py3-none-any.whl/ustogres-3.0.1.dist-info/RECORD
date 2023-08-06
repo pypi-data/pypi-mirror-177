@@ -1,0 +1,10 @@
+dftopo/__init__.py,sha256=ZSYrYIRoGhjz7xXj2Q820VT89PNkjFtUo6KDJ9Ob7po,80
+dftopo/dfps.py,sha256=ZSYrYIRoGhjz7xXj2Q820VT89PNkjFtUo6KDJ9Ob7po,80
+justogres/__init__.py,sha256=ZSYrYIRoGhjz7xXj2Q820VT89PNkjFtUo6KDJ9Ob7po,80
+justogres/db.py,sha256=GqSAmxR2OcrwoRh0XbS5X_CR5_3YCD6nE20QMuU3tuU,111
+justogres/utils.py,sha256=ZSYrYIRoGhjz7xXj2Q820VT89PNkjFtUo6KDJ9Ob7po,80
+ustogres-3.0.1.dist-info/LICENSE,sha256=SFAyW0UDMm7Wsv1AxxBSFwDdNnF_6amzIfMKMo_LNIs,1067
+ustogres-3.0.1.dist-info/METADATA,sha256=CZrgH346_mCP42YV_fxtk_E-h3YxTlM_q8pXtnXB6RM,2402
+ustogres-3.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ustogres-3.0.1.dist-info/top_level.txt,sha256=XW268F9kTqmYBVoo6rPPyT4DAuWqF3EW4fW_TJq69S8,17
+ustogres-3.0.1.dist-info/RECORD,,
