@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lmsresources
+Version: 0.0.6
+Summary: Resource code for LMS.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: django
+Requires-Dist: requests
+Requires-Dist: pymongo
+
+This package contains resources, middlewares and services_interfaces code for LMS.
+
