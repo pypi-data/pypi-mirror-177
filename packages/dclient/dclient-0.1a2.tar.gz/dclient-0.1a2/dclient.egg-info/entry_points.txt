@@ -1,0 +1,5 @@
+[console_scripts]
+dclient = dclient.cli:cli
+
+[datasette]
+client = dclient.plugin

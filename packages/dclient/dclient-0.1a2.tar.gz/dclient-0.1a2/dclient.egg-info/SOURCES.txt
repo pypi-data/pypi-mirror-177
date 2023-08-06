@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+dclient/__init__.py
+dclient/__main__.py
+dclient/cli.py
+dclient/plugin.py
+dclient.egg-info/PKG-INFO
+dclient.egg-info/SOURCES.txt
+dclient.egg-info/dependency_links.txt
+dclient.egg-info/entry_points.txt
+dclient.egg-info/requires.txt
+dclient.egg-info/top_level.txt
