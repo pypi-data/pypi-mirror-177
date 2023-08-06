@@ -1,0 +1,13 @@
+litchi_wp/__init__.py,sha256=AN8P5kgsb7rvAGFx7Vni1BvrhyuCgevP6u7xFwXOAJQ,126
+litchi_wp/action.py,sha256=cMPAFFB_uHB_Mtf9-MbMf0dnNAlpxfB24yr42q1ZfL8,3147
+litchi_wp/altitude.py,sha256=TrBCG2ziU3y22Tap77N7GEIqnrDpSi2LOXz41TmDUOA,1060
+litchi_wp/enums.py,sha256=FshrUiPPX0uXXYj3N252O9e-1imSWsmLIExG50tCg08,663
+litchi_wp/gimbal.py,sha256=nRgeijyat_KEZr0Xw2YYIt7en3QaU_LESJDFUSxqA38,1535
+litchi_wp/photo.py,sha256=4sL2NyXCfNWhT5w3vNOCgCoCIO6UGIlnfDQ_QssKfyc,1364
+litchi_wp/poi.py,sha256=ztXQv31rI0OraSfGc7BYXRSqHuXsKqriMGtSR5znFPE,1957
+litchi_wp/waypoint.py,sha256=Cbz1bq9b3D8FXNdNNS1VKT_HVngDw3PpsHkWqRZ65Zs,14777
+litchi_wp-2.0.0.dist-info/LICENSE,sha256=8POQTbB6Dxv6b_8LROA2yzv2L7TdQPxHJAMI6PTRECc,1081
+litchi_wp-2.0.0.dist-info/METADATA,sha256=053zW_zQV6cwqoyci_p1AaAIc2TYyQyO3wfGf44m8a0,4877
+litchi_wp-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+litchi_wp-2.0.0.dist-info/top_level.txt,sha256=esdGExcq1djYS6vLxklOKIJHVmnBHaq391fkgqmpsk4,10
+litchi_wp-2.0.0.dist-info/RECORD,,
