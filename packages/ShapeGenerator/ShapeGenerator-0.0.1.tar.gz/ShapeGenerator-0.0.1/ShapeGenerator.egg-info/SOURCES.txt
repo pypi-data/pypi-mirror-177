@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ShapeGenerator.egg-info/PKG-INFO
+ShapeGenerator.egg-info/SOURCES.txt
+ShapeGenerator.egg-info/dependency_links.txt
+ShapeGenerator.egg-info/top_level.txt

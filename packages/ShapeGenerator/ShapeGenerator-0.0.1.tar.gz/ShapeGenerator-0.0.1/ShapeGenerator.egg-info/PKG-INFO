@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ShapeGenerator
+Version: 0.0.1
+Summary: Generates 2d shapes in console
+Home-page: 
+Author: Vishwesswaran Gopal
+Author-email: vishy11202022@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This library prints 2d shapes into the console which can be customized. 
+
+Change Log 
+==========
+0.0.1 (11/20/22)
+----------------
+- First Release
