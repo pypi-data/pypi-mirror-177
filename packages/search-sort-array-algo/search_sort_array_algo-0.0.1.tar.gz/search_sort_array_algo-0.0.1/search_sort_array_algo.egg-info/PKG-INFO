@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: search-sort-array-algo
+Version: 0.0.1
+Summary: This package includes algorithms such as LinearSearch,BinarySearch, Two pointer , Sliding window. It will get updated every week!!!
+Author: Rumour(Sarthak Samantaray)
+Author-email: <sarthak.samantaraycoding@gmail.com>
+License: UNKNOWN
+Keywords: python,Algorithms,Arrays,Strings,Linked List,Stacks
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
