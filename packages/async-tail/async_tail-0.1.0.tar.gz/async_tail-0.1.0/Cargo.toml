@@ -1,0 +1,38 @@
+[package]
+name = "async-tail"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://github.com/TheoBabilon/async-tail"
+repository = "https://github.com/TheoBabilon/async-tail.git"
+readme = "README.md"
+include = [
+    "/pyproject.toml",
+    "/README.md",
+    "/LICENSE",
+    "/Makefile",
+    "/src",
+    "/async_tail",
+    "/tests",
+    "/requirements",
+    "/.cargo",
+    "!__pycache__",
+    "!tests/.mypy_cache",
+    "!tests/.pytest_cache",
+    "!*.so",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "_async_tail"
+crate-type = ["cdylib"]
+
+[dependencies]
+linemux = "0.2.4"
+pyo3 = { version = "0.17.3", features = ["extension-module", "abi3-py37"] }
+pyo3-asyncio = { version = "0.17.0", features = ["attributes", "tokio-runtime"] }
+tokio = "1.21.2"
+
+
+[package.metadata.maturin]
+name = "async_tail._async_tail"
