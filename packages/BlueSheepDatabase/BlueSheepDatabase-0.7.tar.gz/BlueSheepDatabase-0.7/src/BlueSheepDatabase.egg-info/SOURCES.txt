@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/BlueSheepDatabase.egg-info/PKG-INFO
+src/BlueSheepDatabase.egg-info/SOURCES.txt
+src/BlueSheepDatabase.egg-info/dependency_links.txt
+src/BlueSheepDatabase.egg-info/requires.txt
+src/BlueSheepDatabase.egg-info/top_level.txt
+src/managedb/__init__.py
