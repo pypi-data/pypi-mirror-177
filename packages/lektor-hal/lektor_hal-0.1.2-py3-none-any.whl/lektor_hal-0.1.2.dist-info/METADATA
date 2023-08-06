@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: lektor-hal
+Version: 0.1.2
+Summary: Fetches publications from HAL
+Home-page: https://git.sr.ht/~nicoco/lektor-hal
+Author: Nicolas Cedilnik
+Author-email: nicoco@nicoco.fr
+License: MIT
+Keywords: Lektor plugin static-site blog
+Platform: UNKNOWN
+Classifier: Framework :: Lektor
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Requires: requests
+Requires: lektor
+Description-Content-Type: text/markdown
+
+# Lektor-HAL
+
+A plugin for [Lektor](https://www.getlektor.com) that uses the HAL API
+to easily maintain an up-to-date list of publications on a static website.
+
+[HAL](https://hal.archives-ouvertes.fr/) is an open archive where authors
+can deposit scholarly documents from all academic fields.
+
+## Configuration
+
+Add `lektor-hal` to the `[packages]` section of your `.lektorproject` file.
+
+In `./configs/hal.ini`, the query field must be specified, following to the
+[HAL docs](https://api.archives-ouvertes.fr/docs/search)
+
+Example:
+
+```
+query = ((authIdHal_s:my-id-hal) OR (authFullName_s:"My Name"))
+```
+
+## Usage
+
+### Example
+
+```html
+<ul class="publications" id="publications">
+  {% for publi in hal_publications %}
+  <li>
+    <a href={{ publi.link }}>{{ publi.title }}</a>
+    @
+    {{ publi.where }} -
+    {{ publi.authors|join(', ') }}
+    ({{ publi.date }})
+  </li>
+  {% endfor %}
+</ul>
+```
+
+Two global variables are available in your jinja template, `hal_publications` and
+`hal_request`.
+
+### `hal_publications`
+
+A list of `Publication`s, a dataclass with the following attributes:
+
+- `raw`: A dict containing everything about this publication returned by the
+  HAL API.
+- `title`: The title of the publication
+- `hal_id`: The HAL ID of the publication
+- `authors`: A list of strings (author names)
+- `date`: A string (`producedDate_s`)
+- `type`: The publication type, eg "ART", "COMM", "POSTER", etc/
+
+and properties:
+
+- `link`: URL pointing to the HAL resource
+- `where`: returns where the article was published (`journalTitle_s` or `conferenceTitle_s`
+  if missing)
+
+### `hal_request`
+
+URL used for the HAL API request.
+
+## Known caveat
+
+Lektor will not 'know' that the page must be rebuilt when new entries are
+returned by the HAL API request.
+As a workaround, the plugin allows to mark any page as "dirty", so it is rebuilt
+everytime. Add this to the template that uses the publications list:
+
+```jinja2
+{{ volatile() }}
+```
+
+
