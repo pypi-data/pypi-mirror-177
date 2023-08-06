@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: petals_local_parallel
+Version: 1.0.4
+Summary: description
+Home-page: https://github.com/BlackSamorez/petals_local_parallel
+Author-email: yalisnyak@nes.com
+License: MIT
+Keywords: torch distributed,bloom
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENCE
