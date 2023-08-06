@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+version.py
+zsmash/__init__.py
+zsmash/bootstrap.cpp
+zsmash/bootstrap.pyx
+zsmash/smash.cpp
+zsmash/smash.pyx
+zsmash/utils.py
+zsmash.egg-info/PKG-INFO
+zsmash.egg-info/SOURCES.txt
+zsmash.egg-info/dependency_links.txt
+zsmash.egg-info/requires.txt
+zsmash.egg-info/top_level.txt
