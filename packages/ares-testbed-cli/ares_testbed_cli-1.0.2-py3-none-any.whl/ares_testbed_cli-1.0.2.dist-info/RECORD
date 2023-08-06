@@ -1,0 +1,14 @@
+ares_testbed_cli-1.0.2.data/scripts/otbctl_directory.sh,sha256=9JxwCt8v-MGB_DI-j5dfWsw6hmvwCfHyddHEuyua2Vo,3672
+otbctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+otbctl/__main__.py,sha256=KhwvfUkZaoGYzI5qZn4IHo1wWgiR-J95i6Ol04VnNss,6533
+otbctl/github_service.py,sha256=i-zTwelu1bZDQgLQsGLdNNhVb5_qIzfDNlg5pe7nKRo,3035
+otbctl/log_management.py,sha256=SZ86kYW_c7bbvm4HbZwC6oW8En7tdG63VZH6M08_EJ0,4371
+otbctl/otbctl_main.py,sha256=l1bumRt7SsiBygFK-mZBnotfmQZEXAgolPaUtb-zLi4,869
+otbctl/otbctl_mock.py,sha256=yxLV5vT5Qh2IeWO_h6flwN0zVp9irD8oFkqP6QMghCo,4633
+otbctl/otbctl_server.py,sha256=gweW5-GWERMBgCM_urPpQ1PoEXfMrVLPsuRmMr6lcW0,17982
+otbctl/yaml_validate.py,sha256=e3FlYOgppzF9P78gTFyJHFbi7fnUYMZSUeKueR5ZpuA,3774
+ares_testbed_cli-1.0.2.dist-info/METADATA,sha256=ZeFCpNAuheB7j63Ak0e8HubaNdbfgeQJ5XJ2RExz8xM,434
+ares_testbed_cli-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ares_testbed_cli-1.0.2.dist-info/entry_points.txt,sha256=4NbrXiM4IkV5fe74iG-rjkso_P-DTbz4sAkvRI_tisU,48
+ares_testbed_cli-1.0.2.dist-info/top_level.txt,sha256=I6_JkltOvJLshG8NJn756_28H5IlRHRCFw8N5BYO110,7
+ares_testbed_cli-1.0.2.dist-info/RECORD,,
