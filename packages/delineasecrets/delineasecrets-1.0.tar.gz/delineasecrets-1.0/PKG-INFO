@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: delineasecrets
+Version: 1.0
+Summary: Secrets Generator
+Author: Humberto Machado, Bruna Paiva
+Author-email: humberto.machado@ssys.com.br, bruna.paiva@ssys.com.br
+Keywords: python,secrets
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Pacote para consumo de secrets do Delinea Vault
