@@ -1,0 +1,50 @@
+# -*- coding: utf-8 -*-
+"""
+:Author: Kangwenbin
+:Date: 2022-11-18 13:46:45
+:LastEditTime: 2022-11-21 16:15:07
+:LastEditors: Kangwenbin
+:Description: 
+"""
+
+#此文件由rigger自动生成
+from seven_framework.mysql import MySQLHelper
+from seven_framework.base_model import *
+
+
+class ExchangeModel(BaseModel):
+    def __init__(self, db_connect_key='db_seven_shell', sub_table=None, db_transaction=None, context=None):
+        super(ExchangeModel, self).__init__(Exchange, sub_table)
+        self.db = MySQLHelper(config.get_value(db_connect_key))
+        self.db_connect_key = db_connect_key
+        self.db_transaction = db_transaction
+        self.db.context = context
+
+    #方法扩展请继承此类
+    
+class Exchange:
+
+    def __init__(self):
+        super(Exchange, self).__init__()
+        self.id = 0  # 
+        self.order_id = ""  # 兑换单id
+        self.goods_id = 0  # 商品id
+        self.user_id = ""  # 用户id
+        self.nick_name = ""  # 用户昵称
+        self.user_avatar = ""  # 用户头像
+        self.goods_integral = 0  # 兑换积分
+        self.goods_count = 0  # 兑换的数量
+        self.goods_code = ""  # 商品编码
+        self.add_time = 0  # 兑换时间
+
+    @classmethod
+    def get_field_list(self):
+        return ['id', 'order_id', 'goods_id', 'user_id', 'nick_name', 'user_avatar', 'goods_integral', 'goods_count', 'goods_code', 'add_time']
+        
+    @classmethod
+    def get_primary_key(self):
+        return "id"
+
+    def __str__(self):
+        return "exchange_tb"
+    
