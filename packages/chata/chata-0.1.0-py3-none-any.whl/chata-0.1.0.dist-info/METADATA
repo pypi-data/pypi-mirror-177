@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: chata
+Version: 0.1.0
+Summary: A library for analysis and visualization of WhatsApp chats
+Home-page: https://github.com/kmaork/chata
+Author: Maor Kleinberger
+Author-email: kmaork@gmail.com
+License: UNKNOWN
+Keywords: whatsapp library analysis visualization
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: matplotlib
+Requires-Dist: python-bidi
+
+# Chata
+Visualize WhatsApp chats and groups with ease 🏄
+
+## Installation
+```bash
+pip install chata
+```
+
+## How to use
+1. Export chat to text format
+   1. Enter the chat thread that you want to export
+   2. Tap the `More options` button, represented as three vertical dots, in the top right of your screen
+   3. Then hit `More`
+   4. Then tap `Export Chat`
+   5. When asked, choose `WITHOUT MEDIA`
+   6. After a moment, you'll be prompted to share the exported files.
+
+      Get the .txt file to the device that will run chata (you can discard any other files)
+2. Run Chata
+   - To show all visualizations, run `chata show <path_to_exported.txt>`
+   - To save visualizations to a directory, run `chata save <path_to_exported.txt> <output_dir>`
+
+## Example outputs
+![](images/Leaderboard.png)
+![](images/FrequentHours.png)
+![](images/CommonIntervals.png)
+![](images/FrequentDays.png)
+![](images/PeopleOverTime.png)
+![](images/MessagesPerDay.png)
+![](images/MostActive.png)
+![](images/AverageMessagesOverTimeInGroup.png)
+
+

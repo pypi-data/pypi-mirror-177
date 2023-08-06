@@ -1,0 +1,3 @@
+[console_scripts]
+chata = chata.cli:main
+
