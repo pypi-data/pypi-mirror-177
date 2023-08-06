@@ -1,0 +1,199 @@
+Metadata-Version: 2.1
+Name: idem-tls
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Barnali Rakshit
+Author-email: brakshit@vmware.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pop (>=17.0)
+Requires-Dist: idem (>=18.6.1)
+Requires-Dist: cryptography (==37.0.4)
+Requires-Dist: pyopenssl
+
+===============
+idem-tls
+===============
+
+.. image:: https://img.shields.io/badge/made%20with-pop-teal
+   :alt: Made with pop, a Python implementation of Plugin Oriented Programming
+   :target: https://pop.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-python-yellow
+   :alt: Made with Python
+   :target: https://www.python.org/
+
+.. note::
+    Idem plugin to work with TLS keys and certificates.
+
+About
+=====
+
+TLS Provider Idem plugin
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *Plugin Oriented Programming (POP)*. POP seeks to bring
+together concepts and wisdom from the history of computing in new ways to solve
+modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+* Python 3.7+
+* git *(if installing from source, or contributing to the project)*
+
+Installation
+------------
+
+.. note::
+
+   If wanting to contribute to the project, and setup your local development
+   environment, see the ``CONTRIBUTING.rst`` document in the source repository
+   for this project.
+
+If wanting to use ``idem-tls``, you can do so from source.
+
+Install from source
++++++++++++++++++++
+
+.. code-block:: bash
+
+   # clone repo
+   git clone git@<your-project-path>/idem-tls.git
+   cd idem-tls
+
+   # Setup venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+
+Usage
+=====
+This Idem plugin can be used to fetch tls certificate information that can then be used with other idem plugin like idem-aws when creating resources that expose TLS services.
+
+Setup
+-----------------
+After installation, the tls Idem execution and state modules will be accessible to the pop `hub`.
+In order to customize the TLS method, we need to set up our credentials.
+Credentials for TLS idem-tls are optional and in case not setup plugin will use default TLS method "TLSv1".
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop hub <https://pop-book.readthedocs.io/en/latest/main/hub.html#>`__
+
+Create a new file called `credentials.yaml` and populate it with credentials.
+The `default` profile will be picked up automatically by `idem`.
+
+credentials.yaml:
+
+..  code:: sls
+
+    tls:
+      default:
+        method: TLSv1_2
+
+Next step is to encrypt the credentials file, and add the encryption key and encrypted file
+path to the ENVIRONMENT.
+
+Encrypt the credential file:
+
+.. code:: bash
+
+    acct encrypt credentials.yaml
+
+This will generate a credentials.yaml.fernet file and a command line output token::
+ -AXFSEFSSEjsfdG_lb333kVhCVSCDyOFH4eABCDEFNwI=
+
+Add these to your environment:
+
+.. code:: bash
+
+    export ACCT_KEY="-AXFSEFSSEjsfdG_lb333kVhCVSCDyOFH4eABCDEFNwI="
+    export ACCT_FILE=$PWD/credentials.yaml.fernet
+
+
+You are ready to use idem-tls!!!
+
+Exec Module
+-----------
+Exec modules can be run from SLS using the "exec.run" state. The return from the exec module is put in the state's "new_state", so it can be used in arg_binding. The desired state of a resource can be specified in sls file.
+Idem TLS plugins exec module allows TLS Certificate get and list operations.
+The "tls.certificate.get" to get the root CA certificate for given URL.
+The "tls.certificate.list" to get the certificate chain for given URL.
+
+Request Syntax:
+
+..  code:: sls
+
+    [Idem-state-name]:
+      exec.run:
+        - path: tls.certificate.get
+        - kwargs:
+            url: 'string'
+
+Examples Usage:
+
+..  code:: sls
+
+    unmanaged-tls_certificate:
+      exec.run:
+        - path: tls.certificate.get
+        - kwargs:
+            url: https://oidc.eks.us-east-2.amazonaws.com/id/sample
+    oidc.eks.us-east-2.amazonaws.com/id/sample:
+        aws.iam.open_id_connect_provider.present:
+          name: oidc.eks.us-east-2.amazonaws.com/id/sample
+          resource_id: oidc.eks.us-east-2.amazonaws.com/id/sample
+          url:  https://oidc.eks.us-east-2.amazonaws.com/id/sample
+          client_id_list:
+            - sample_client
+          thumbprint_list:
+            - ${exec:unmanaged-tls_certificate:sha1_fingerprint}
+          tags:
+            - Key: tag-key-1
+              Value: tag-value-1
+            - Key: tag-key-2
+              Value: tag-value-2
+
+It can be specified from command line when calling exec module as below
+
+.. code:: bash
+
+     idem exec exec.tls.certificate.list url=https://oidc.eks.us-east-2.amazonaws.com/id/sample
+
+Current Supported Resources states
+++++++++++++++++++++++++++++++++++
+
+tls
+"""""""""""""
+certificate
+
+
