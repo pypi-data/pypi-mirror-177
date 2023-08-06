@@ -1,0 +1,91 @@
+# PyWica - Wica Python API 
+[![coverage report](https://git.psi.ch/proscan_data/py-wica/badges/main/coverage.svg)](https://git.psi.ch/proscan_data/py-wica/-/commits/main)
+[![pipeline status](https://git.psi.ch/proscan_data/py-wica/badges/main/pipeline.svg)](https://git.psi.ch/proscan_data/py-wica/-/commits/main)
+#### Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Quick-start Guid](#quick-start-guide)
+- [Documentation](#documentation)
+- [Dependencies](#dependencies)
+- [Contribute](#contribute)
+- [Project Changes and Tagged Releases](#project-changes-and-tagged-releases)
+- [Developer Notes](#developer-notes)
+- [Contact](#contact)
+
+# Introduction
+This project/package aims to provide a simple python interface to the wica-http server.
+Check out the async branch to get the async version of the package
+
+# Installation
+Install with pip
+```bash
+pip install wica
+```
+# Quick-start Guide
+```python
+import asyncio
+import time
+
+from wica import WicaStream
+
+
+async def simple_example_blocking_io():
+    """A simple example of how to use WicaStream.
+
+    In this example we are using asyncio, but you could use any other concurrency or parallel processing package,
+    you just need the ability to interrupt the stream somehow!
+    Check out the async version of this package!
+    """
+
+    wica_stream = WicaStream(base_url="http://student08/ca/streams", channels=["MMAC3:STR:2"])
+
+    def run_stream():
+        wica_stream.create()
+        for message in wica_stream.subscribe():
+            print(message)
+
+    def stop_stream():
+        print("Starting to wait")
+        time.sleep(5)
+        print(wica_stream.destroy())
+
+    # The following functions put the blocking functions into their own thread.
+    async def thread_run_stream():
+        return await asyncio.to_thread(run_stream)
+
+    async def thread_stop_stream():
+        return await asyncio.to_thread(stop_stream)
+
+    return await asyncio.gather(thread_run_stream(), thread_stop_stream())
+
+async def main():
+    await simple_example_blocking_io()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+```
+
+# Documentation
+Current Features:
+* Custom Client to handle be able to extract last line of SSE with timestamp and message type.
+* Simple functions to create, delete and subscribe to streams
+* Blocking IO (non-blocking versions available in async branch)
+
+Check out the [wiki](https://proscan_data.gitpages.psi.ch/py-wica) for more info!
+
+# Dependencies
+* requests
+
+# Contribute
+To contribute, simply clone the project.
+
+# Project Changes and Tagged Releases
+* See the Changelog file for further information
+* project releases are available in pypi
+
+# Developer Notes
+Currently None
+
+# Contact
+If you have any questions pleas contact 'niklas.laufkoetter@psi.ch'
