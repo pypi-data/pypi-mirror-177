@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plank
+Version: 0.1.0
+Summary: 
+Author: Grady Zhuo
+Author-email: grady@ospark.org
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: envparse (>=0.2.0,<0.3.0)
+Requires-Dist: nest-asyncio (>=1.5.5,<2.0.0)
+Requires-Dist: plank-core (>=0.1.0,<0.2.0)
+Requires-Dist: plank-material (>=0.1.0,<0.2.0)
+Requires-Dist: plank-tool-logger (>=0.1.0,<0.2.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)

@@ -1,0 +1,3 @@
+[console_scripts]
+plank=plank.utils.command:root_cmd
+
