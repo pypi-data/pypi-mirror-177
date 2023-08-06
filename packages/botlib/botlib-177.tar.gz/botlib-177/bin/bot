@@ -1,0 +1,203 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=R,C,W,C0302
+
+
+"""The Python3 ``bot`` Namespace"""
+
+
+__version__ = "176"
+
+
+import atexit
+import importlib
+import os
+import readline
+import rlcompleter
+import signal
+import sys
+import termios
+import threading
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from bot.handler import Callback, Command, Event, Handler, parse
+from bot.object import Class, Object, Wd, keys, last, printable, update
+from bot.object import find, fntime, items, save, update
+from bot.handler import command, scan, scandir
+from bot.util import elapsed
+
+
+from bot import cmds, irc, rss
+
+
+Wd.workdir = os.path.expanduser("~/.bot")
+
+
+starttime = time.time()
+
+
+scan(cmds)
+scan(irc)
+scan(rss)
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        CLI.raw(txt)
+
+    @staticmethod
+    def raw(txt):
+        cprint(txt)
+
+    def say(self, channel, txt):
+        self.raw(txt)
+
+
+class Console(CLI):
+
+    @staticmethod
+    def handle(event):
+        Command.handle(event)
+        event.wait()
+
+    def poll(self):
+        event = Event()
+        event.txt = input("> ")
+        event.orig = repr(self)
+        return event
+
+
+class Completer(rlcompleter.Completer):
+
+    def __init__(self, options):
+        super().__init__()
+        self.options = options
+ 
+    def complete(self, text, state):
+        if state == 0:
+            if text:
+                self.matches = [s for s in self.options if s and s.startswith(text)]
+            else:
+                self.matches = self.options[:]
+        try:
+            return self.matches[state]
+        except IndexError:
+            return None
+
+
+def banner(cfg):
+    cprint(
+          "BOT started at %s %s" % (
+                                     time.ctime(time.time()).replace("  ", " "),
+                                     printable(cfg, "debug,verbose")
+                                    )
+         )
+
+
+def boot():
+    signal.signal(signal.SIGHUP, hup)
+    setcompleter(keys(Command.cmd))
+    txt = ' '.join(sys.argv[1:])
+    cfg = parse(txt)
+    return cfg
+
+
+def cprint(txt):
+    print(txt)
+    sys.stdout.flush()
+
+
+def hup(_sig, _frame):
+    cprint("signal 15 called")
+    sys.stdout.flush()
+
+
+def from_exception(exc, txt="", sep=" "):
+    result = []
+    for frm in traceback.extract_tb(exc.__traceback__):
+        fnm = os.sep.join(frm.filename.split(os.sep)[-2:])
+        result.append(f"{fnm}:{frm.lineno}")
+    nme = name(exc)
+    res = sep.join(result)
+    return f"{txt} {res} {nme}: {exc}"
+
+
+def importer(pname, mname, path):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    scan(mod)
+
+
+def init(pname, mname):
+    modname = "%s.%s" % (pname, mname)
+    mod = importlib.import_module(modname, pname)
+    if "init" in dir(mod):
+        mod.init()    
+        
+
+def isopt(cfg, ostr):
+    for opt in ostr:
+        if opt in cfg.opts:
+            return True
+    return False
+
+
+def setcompleter(optionlist):
+    completer = Completer(optionlist)
+    readline.set_completer(completer.complete)
+    readline.parse_and_bind("tab: complete")
+    atexit.register(lambda: readline.set_completer(None))
+
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    readline.redisplay()
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        cprint("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+    for err in Callback.errors:
+        cprint(from_exception(err))
+
+
+def ver(event):
+    event.reply("BOTLIB %s" % __version__)
+
+
+def main():
+    cfg = boot()
+    scandir("mod", importer)
+    Command.add(ver)
+    if cfg.txt:
+        cli = CLI()
+        evt = command(cli, cfg.otxt)
+        evt.wait()
+        return
+    if cfg.console:
+        banner(cfg)
+        scandir("mod", init)
+        irc.init()
+        rss.init()
+        csl = Console()
+        csl.start()
+        csl.wait()
+
+
+wrap(main)
+ 
