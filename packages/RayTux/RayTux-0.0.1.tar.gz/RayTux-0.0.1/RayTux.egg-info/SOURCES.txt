@@ -1,0 +1,8 @@
+setup.py
+RayTux.egg-info/PKG-INFO
+RayTux.egg-info/SOURCES.txt
+RayTux.egg-info/dependency_links.txt
+RayTux.egg-info/requires.txt
+RayTux.egg-info/top_level.txt
+libname/__init__.py
+libname/raytux.py
