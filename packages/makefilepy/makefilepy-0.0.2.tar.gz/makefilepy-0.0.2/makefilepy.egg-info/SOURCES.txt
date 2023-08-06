@@ -1,0 +1,15 @@
+README.md
+setup.py
+makefilepy/Command.py
+makefilepy/Makefile.py
+makefilepy/Variable.py
+makefilepy/__init__.py
+makefilepy.egg-info/PKG-INFO
+makefilepy.egg-info/SOURCES.txt
+makefilepy.egg-info/dependency_links.txt
+makefilepy.egg-info/requires.txt
+makefilepy.egg-info/top_level.txt
+tests/__init__.py
+tests/test_Command.py
+tests/test_Makefile.py
+tests/test_Variable.py
