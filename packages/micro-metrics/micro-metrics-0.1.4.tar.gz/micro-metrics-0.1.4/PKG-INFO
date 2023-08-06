@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: micro-metrics
+Version: 0.1.4
+Summary: Code Metrics on Python Microservices
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Requires-Python: >=3.8.5,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: baseblock
