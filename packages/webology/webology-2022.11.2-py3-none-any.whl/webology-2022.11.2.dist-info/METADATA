@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: webology
+Version: 2022.11.2
+Summary: My pypi/pipx card 🤗
+Home-page: https://github.com/jefftriplett/webology
+Author: Jeff Triplett
+Author-email: jeff.triplett@gmail.com
+License: Apache License 2.0
+Project-URL: Code, https://github.com/jefftriplett/webology
+Project-URL: Funding, https://github.com/users/jefftriplett/sponsorship
+Project-URL: Issues, https://github.com/jefftriplett/webology/issues
+Project-URL: Mastodon, https://mastodon.social/@webology
+Project-URL: Twitter, https://twitter.com/webology
+Keywords: webology
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Requires-Dist: typer
+
+<h1 align="center">Welcome to webology 👋</h1>
+
+Inspired by [bnb/bitandbang](https://github.com/bnb/bitandbang)
+
+### 🏠 [Homepage](https://github.com/jefftriplett/webology)
+
+## :rocket: Usage
+
+```shell
+$ pipx run webology
+```
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/jefftriplett/webology/issues). 
+
+<!-- [[[cog
+import cog
+import requests
+response = requests.get("https://raw.githubusercontent.com/jefftriplett/actions/main/footer.txt")
+response.raise_for_status()
+print(response.text.strip())
+]]] -->
+## Author
+
+👤 **Jeff Triplett**
+
+* Website: https://jefftriplett.com
+* Mastodon: [@webology](https://mastodon.social/@webology)
+* Twitter: [@webology](https://twitter.com/webology)
+* GitHub: [@jefftriplett](https://github.com/jefftriplett)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+<!-- [[[end]]] -->
