@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: conflux-web3py-signer
+Version: 1.0.0b1
+Summary: Plugin to monkey patch web3.py to support cfx2eth-bridge
+Home-page: https://github.com/conflux-fans/conflux-web3py-signer
+Author: Conflux-Dev
+Author-email: wenda.zhang@confluxnetwork.org
+Keywords: python,conflux,blockchain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Provides-Extra: tester
+Provides-Extra: linter
+Provides-Extra: docs
+Provides-Extra: dev
+
+# Introduction
+
+This is a library used to use `web3.py` on conflux-bridge(?). This library hacks the signing machanism of `web3.py`.
+
+## Install
+
+``` bash
+pip install conflux-web3py-signer
+```
+
+## How to use
+
+Import `conflux_we3py_signer` before import `web3`.
+
+```python
+import conflux_web3py_signer
+import web3
+```
+
+## How
+
+### Transaction Cast
+
+When the modified `construct_sign_and_send_raw_middleware` is going to sign a transaction, it will convert an EIP-1559 transaction to conflux transaction following the rule:
+
+* If `gasPrice` is missing, use `maxFeePerGas` as gas price.
+* Fill `epochHeight` with `w3.eth.block_number`, which correspondes to `epoch_number` in conflux.
+* Estimate the transaction and fill `storageLimit` from estimate result.
+
+### Address Cast
+
+EOA account addresses are all converted to begin with `0x1` and is encoded in checksum format

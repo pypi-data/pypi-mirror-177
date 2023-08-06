@@ -1,0 +1,10 @@
+README.md
+setup.py
+conflux_web3py_signer/__init__.py
+conflux_web3py_signer/hacked_signing.py
+conflux_web3py_signer/hook_web3.py
+conflux_web3py_signer.egg-info/PKG-INFO
+conflux_web3py_signer.egg-info/SOURCES.txt
+conflux_web3py_signer.egg-info/dependency_links.txt
+conflux_web3py_signer.egg-info/requires.txt
+conflux_web3py_signer.egg-info/top_level.txt
