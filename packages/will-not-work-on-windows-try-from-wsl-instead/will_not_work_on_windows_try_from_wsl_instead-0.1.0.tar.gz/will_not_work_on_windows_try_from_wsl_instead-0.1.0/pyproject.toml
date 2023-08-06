@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "will-not-work-on-windows-try-from-wsl-instead"
+version = "0.1.0"
+description = ""
+authors = ["Sorin Sbarnea <ssbarnea@redhat.com>"]
+readme = "README.md"
+packages = [{include = "will_not_work_on_windows_try_from_wsl_instead"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

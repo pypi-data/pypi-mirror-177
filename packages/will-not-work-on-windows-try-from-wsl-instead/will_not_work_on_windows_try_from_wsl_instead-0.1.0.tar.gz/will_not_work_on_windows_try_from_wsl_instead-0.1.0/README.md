@@ -1,0 +1,18 @@
+# will-not-work-on-windows-try-from-wsl-instead
+
+This is a placeholder package used for preventing installation on Windows for
+packages that are known to not work on Windows.
+
+If you have a Python package that only supports Unix-like systems, like Linux
+ or MacOS, you can add this package as a dependency to prevent installation on
+pure-Windows.
+
+```ini
+# setup.cfg
+
+[options]
+install_requires =
+  # Special order section for helping pip:
+  will-not-work-on-windows-try-from-wsl-instead; platform_system=="Windows"
+  ...
+```
