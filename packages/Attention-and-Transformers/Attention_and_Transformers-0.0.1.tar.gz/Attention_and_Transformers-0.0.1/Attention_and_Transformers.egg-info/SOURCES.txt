@@ -1,0 +1,12 @@
+README.md
+setup.py
+ATF/__init__.py
+Attention_and_Transformers/__init__.py
+Attention_and_Transformers.egg-info/PKG-INFO
+Attention_and_Transformers.egg-info/SOURCES.txt
+Attention_and_Transformers.egg-info/dependency_links.txt
+Attention_and_Transformers.egg-info/requires.txt
+Attention_and_Transformers.egg-info/top_level.txt
+Attention_and_Transformers/VisionTransformers/__init__.py
+Attention_and_Transformers/VisionTransformers/multihead_self_attention.py
+Attention_and_Transformers/VisionTransformers/vision_transformer.py
