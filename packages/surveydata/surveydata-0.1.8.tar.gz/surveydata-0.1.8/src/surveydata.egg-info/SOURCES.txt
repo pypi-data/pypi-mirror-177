@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+src/surveydata/__init__.py
+src/surveydata/dynamodbstorage.py
+src/surveydata/filestorage.py
+src/surveydata/s3storage.py
+src/surveydata/storagesystem.py
+src/surveydata/surveyctoexportstorage.py
+src/surveydata/surveyctoplatform.py
+src/surveydata/surveyplatform.py
+src/surveydata.egg-info/PKG-INFO
+src/surveydata.egg-info/SOURCES.txt
+src/surveydata.egg-info/dependency_links.txt
+src/surveydata.egg-info/top_level.txt
