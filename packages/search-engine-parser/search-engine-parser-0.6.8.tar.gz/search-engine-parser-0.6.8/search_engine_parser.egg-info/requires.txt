@@ -1,0 +1,7 @@
+lxml<5,>=4.6.5
+aiohttp<4,>=3.6.2
+beautifulsoup4<5,>=4.9.1
+fake-useragent<0.2,>=0.1.11
+
+[cli]
+blessed<2,>=1.15.0
