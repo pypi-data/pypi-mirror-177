@@ -1,0 +1,10 @@
+validir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validir/cli.py,sha256=aR0UOw7QTSXclusJfgCIXU54exPaCjE6yjeCIWAMPKo,2470
+validir/template.py,sha256=icPIVKJtFZ0h0FA65QOwsL3AVe11dkfCJRe1yiwExWk,6152
+validir/types.py,sha256=SRborC6fG_OVcyvmdcAvu3GW9UjXjSZKLIECuYgrw5I,2196
+validir-0.0.1.dist-info/LICENSE,sha256=wT1h_O5-vx8j2_UZ7flqlNh8VWPRBvyGaoNQfpfFCz4,1068
+validir-0.0.1.dist-info/METADATA,sha256=Vc8Tzcua2N8WBKbWomhjxPK5tAyP0F21etuXdQ8HpzA,2967
+validir-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+validir-0.0.1.dist-info/entry_points.txt,sha256=UDaem-k-cfhfWj8PrbFgYQ5fyB5jxJZ0-ueE2kl8GS8,45
+validir-0.0.1.dist-info/top_level.txt,sha256=aKg3fqUFp-RSSF3OooBg8aMPCfi4iJN12WpSdBmZOgE,8
+validir-0.0.1.dist-info/RECORD,,
