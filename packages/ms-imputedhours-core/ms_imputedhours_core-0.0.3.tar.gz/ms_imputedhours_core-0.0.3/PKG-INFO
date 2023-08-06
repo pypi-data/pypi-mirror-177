@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: ms_imputedhours_core
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Jonathan Rodriguez Alejos
+Author-email: jrodriguez.5716@gmail.com
+License: UNKNOWN
+Description: MS Jira hours imputed services
+        =============================
+        Este repositorio es una suite de metodos necesarios para extraer y calcular información acerca de las horas imputadas de los empleados y sus convenidos de trabajo
+        
+        
+        Acuerdo de horas
+        =======================
+        Las horas que debe hacer un empleado se registran en un Google Sheet donde se indica para cada día las horas necesarias por oficina.
+        
+        
+        ## ¿Cómo usar el servicio de agreements?
+        ----------------------------------
+        
+        Para que podamos conectar con los servicios de Google, necesitamos registrar una variable de entorno llamada `$GOOGLE_SHEET_CREDENTIALS` donde almacenaremos en Base64 el contenido del  JSON de nuestro service account de Google que tiene las credenciales para autenticarnos.
+        
+        ```bash
+        export GOOGLE_SHEET_CREDENTIALS=<SERVICE_ACCOUNT_BASE64_CONTENT>
+        ```
+        
+        ### Usage example
+        
+        #### Getting agreement hours for a month
+        ```python
+        from ms_imputedhours_core.agreements import Agreement
+        
+        month = 9
+        year = 2022
+        sheet_name = 'Sheet 1'
+        spreadsheet_id = '111111'
+        
+        service = Agreements(spreadsheet_id)
+        
+        service.get_hours_by_month(month, year, sheet_name)
+        ```
+        
+        #### Getting agreement hours by a dates range
+        ```python
+        from ms_imputedhours_core.agreements import Agreement
+        
+        spreadsheet_id = '111111'
+        from_date = datetime.strptime('12/09/2022', '%d/%m/%Y')
+        to_date = datetime.strptime('17/09/2022', '%d/%m/%Y')
+        sheet_name = 'SHEET_NAME_TEST'
+        
+        service = Agreements(spreadsheet_id)
+        
+        service.get_hours_by_range(from_date, to_date, sheet_name)
+        ```
+        
+        #### Getting all office names
+        ```python
+        from ms_imputedhours_core.agreements import Agreement
+        
+        spreadsheet_id = '111111'
+        
+        service = Agreements(spreadsheet_id)
+        
+        service..get_all_office_names()
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
