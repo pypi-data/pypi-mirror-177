@@ -1,0 +1,11 @@
+mamimo/__init__.py,sha256=YSrb0hgtrdgLpvhy6uOOBp7DjhvdBzj54iRKfJANqcc,76
+mamimo/analysis.py,sha256=hIsbHf5fKAX0vFZjWemmazDgyFCj6K76UUYEZtmVSBI,2007
+mamimo/carryover.py,sha256=SARp8ADRjNsOYaV8hS_5-vzlQT7LQOzrR-HZ6WsIBm4,9173
+mamimo/datasets/__init__.py,sha256=6DD_00sDGr8J3gmu8bgS_hTYlREQaYJ5c4aA4rbDIeE,129
+mamimo/datasets/_load_fake_mmm.py,sha256=Mb2sjyj7A-E5J-dmync-5hKh79pxmy9b19ulAIdhqYU,2229
+mamimo/linear_model.py,sha256=8-OwMpVFU0S4eLQWN-91Xh1vEBAgXssA0Me0zalTkX4,23763
+mamimo/saturation.py,sha256=gukeKJuT_s6eHOkd1xeYSp3W3fX0-eDi0XE-gGtHkUo,6187
+mamimo/time_utils.py,sha256=R7Ofn5K-vNtihj-bNf6dfyxWsjV221kqLYhsptlpSD0,8596
+mamimo-0.4.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mamimo-0.4.2.dist-info/METADATA,sha256=ZrF_Lbe7whgWXejAh5zPgA81Pi6ZtS8-iPbCjaKOeYg,7079
+mamimo-0.4.2.dist-info/RECORD,,
