@@ -1,0 +1,1 @@
+This is Universal parser with using regex created for mggflow
