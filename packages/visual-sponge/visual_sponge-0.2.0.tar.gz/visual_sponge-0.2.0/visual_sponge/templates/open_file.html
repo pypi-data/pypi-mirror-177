@@ -1,0 +1,21 @@
+<div style=" position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);height:50%;width:100%;display:grid;grid-template-rows:1fr 1fr 10fr 1fr 1fr;background-color:#fff;">
+<div>
+选择打开的文件
+</div>
+<div>
+<input value={{ folder }}><button>转到</button>
+</div>
+<div>
+    <button>向上</button>
+{% for file in files %}
+    <div><input type="radio" name="file" value="{{file}}" id="{{file}}"><label for="{{file}}">{{file}}</label>{% endfor %}</div>
+</div>
+<div>
+文件名<input>
+格式<input>
+</div>
+<div>
+<button class="button">提交</button>
+<button class="button" onclick='pop_up_cancel()'>取消</button>
+</div>
+</div>
