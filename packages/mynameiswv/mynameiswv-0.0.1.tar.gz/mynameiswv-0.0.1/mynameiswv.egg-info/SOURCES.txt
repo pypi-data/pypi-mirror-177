@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameiswv/__init__.py
+mynameiswv/wv.py
+mynameiswv.egg-info/PKG-INFO
+mynameiswv.egg-info/SOURCES.txt
+mynameiswv.egg-info/dependency_links.txt
+mynameiswv.egg-info/top_level.txt

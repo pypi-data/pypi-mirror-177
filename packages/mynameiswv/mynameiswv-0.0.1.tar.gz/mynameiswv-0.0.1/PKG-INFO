@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mynameiswv
+Version: 0.0.1
+Summary: Who is WV
+Home-page: https://github.com/WasinV
+Download-URL: https://github.com/WasinV
+Author: WV
+Author-email: wasinvechgama@gmail.com
+License: MIT
+Keywords: WV,Uncle Engineer
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.txt
+
+Python Package for WV detail”
+=============================
+
+Link: https://www.youtube.com/
+
+PyPi: https://pypi.org/project/mynameiswv/
+
+Hello, this is the package for showing WV detail. You will able to see
+my Github and Youtube as well as art.
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install mynameiswv
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from mynameiswv import WV
+
+   wv = WV() #class notification
+   wv.show_name() #show name
+   wv.show_youtube() #show youtube
+   wv.show_page() #show page
+   wv.about() #show others
+   wv.show_art() #show art
+
+พัฒนาโดย: ลุงวิศวกร สอนคำนวณ FB: https://www.facebook.com/UncleEngineer
+
+YouTube: https://www.youtube.com/UncleEngineer
