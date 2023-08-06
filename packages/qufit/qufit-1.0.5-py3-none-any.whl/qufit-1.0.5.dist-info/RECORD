@@ -1,0 +1,8 @@
+qufit/__init__.py,sha256=y8pV1_cfEWlnhgPFKaijduvYT8gpWVJCnLGP4hsrI5k,16
+qufit/dataTools.py,sha256=EJ-qSwMEYt2Elo3sixfV2e8PLxGoKknHO2qg-81EQTM,24217
+qufit/opt.py,sha256=ZS7RLwLhCtRXcmjvS0MEhRPQzA-CHa29QxaxSGyvwz0,3907
+qufit/optimize.py,sha256=O3Eyhog2KUI0sxm86p25A3moqjHcdWTDzoWn4CT-NPk,59836
+qufit-1.0.5.dist-info/METADATA,sha256=04xeNBjYZaBpv6QVNjarMSCK148D_19uNd1-FxoqBC0,802
+qufit-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qufit-1.0.5.dist-info/top_level.txt,sha256=-D1Hz0TJhFXvd6QSGjU_9zgDgk700-zyMWhxs6lDdiE,6
+qufit-1.0.5.dist-info/RECORD,,
