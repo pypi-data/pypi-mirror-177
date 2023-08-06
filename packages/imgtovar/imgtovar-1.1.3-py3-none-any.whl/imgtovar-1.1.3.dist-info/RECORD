@@ -1,0 +1,14 @@
+imgtovar/ImgtoVar.py,sha256=529b8ZYmutAnhQVHiIdxF5zgwJB1lvCwn3hHOS5ssw8,43115
+imgtovar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgtovar/models/Age.py,sha256=1W9YnqjgKPyD8TR83dvVe8PhZz31MTKZ--uCVNRCFFw,3453
+imgtovar/models/Background.py,sha256=8goNB58lpv-HDnbW1_MfyuDBWO9K-7mFGRFzfgVoBcM,1721
+imgtovar/models/Chart.py,sha256=RDVrId1BSS6_ocS0R5zPQ784H81fFcaNKhXDZEnjCJY,1485
+imgtovar/models/Inverted.py,sha256=4wYidvcwHjE1sX8xFUWSU_Ejd18nOiK4QXJLVtZpqV8,1637
+imgtovar/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgtovar/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgtovar/utils/functions.py,sha256=bLGNf30lSa-8zdHujNaO3MniVGyXsjhiI6H8ANboy2I,10333
+imgtovar-1.1.3.dist-info/LICENSE.md,sha256=_2ur7-ql7nEcyphnbYmQ5C9kW8YE-nlTsmZxX0y3d_A,1073
+imgtovar-1.1.3.dist-info/METADATA,sha256=WOZrmi7dWvabTCh0OCqhcqBGgTz4fBKMfHoeXqYlFbY,25024
+imgtovar-1.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imgtovar-1.1.3.dist-info/top_level.txt,sha256=tAwlkjWzSc1sRqe0VNuIka0f4XBLWW-yyViGhK2l1TE,9
+imgtovar-1.1.3.dist-info/RECORD,,
