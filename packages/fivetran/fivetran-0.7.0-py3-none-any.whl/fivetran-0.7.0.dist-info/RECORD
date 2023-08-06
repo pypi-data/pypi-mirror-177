@@ -1,0 +1,6 @@
+fivetran/__init__.py,sha256=9I648961ZXZXGW-9LxWK1sml5Shutt0UtaNZBZ72sFY,105
+fivetran/stream.py,sha256=oe47gKMwGalCb7lR7EJNQjEjGaEDaDZhDBBWCv-biBk,2989
+fivetran/stream_aggregator.py,sha256=4IkaU3B5exE-zHWAmmwDV-7MaaxkPBfmAKfvwoSQf-M,2242
+fivetran-0.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fivetran-0.7.0.dist-info/METADATA,sha256=DojviLDV_FeHm_7lVT-wITe86V7jQB0np2T6Ds_4jcg,252
+fivetran-0.7.0.dist-info/RECORD,,
