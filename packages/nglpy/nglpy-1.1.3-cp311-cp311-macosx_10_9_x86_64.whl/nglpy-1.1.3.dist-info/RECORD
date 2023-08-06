@@ -1,0 +1,15 @@
+nglpy/EmptyRegionGraph.py,sha256=_nQh-EOzbCpWUgF2v49kr6VyQIjOMAYCMci7l9pexXQ,6443
+nglpy/PrebuiltGraph.py,sha256=ZCrQzK5cgjd8BWNohYcIu1KeH_4nq03dGTculr4HQpY,2710
+nglpy/__init__.py,sha256=hX2TtwjVrc_ai4nLkk9ajmvXzYaYPSnsOfgN1ZfCxPE,159
+nglpy/_ngl.cpython-311-darwin.so,sha256=NkBnwVI3gfhgctd0fs1QfYpflHi5Q2JyjI4fct_vH5M,570800
+nglpy/ngl.py,sha256=kQWjvyOs_VCvg83hXFaPZTXmqHgkK7bXlB8nPcSHaVM,15112
+nglpy/utils.py,sha256=J-VEUqbEyjbQKsSKg3wWLtJle73FusYHXJbH7RDUue0,993
+nglpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nglpy/tests/test_bskeleton.py,sha256=fwstf8SnZLCajFNFc6PBbqWR3l4Y4EnGzDQo_4FhLvM,5696
+nglpy/tests/test_prebuilt.py,sha256=chK1-QLiAdx7p-azfRb2ipLgneXNwu180CB3W3tEw8U,1891
+nglpy/tests/test_utils.py,sha256=2ZUxeexghffGJc_SywZQ83eLQ_FvedCvRly_rHpbbsM,1216
+nglpy-1.1.3.dist-info/LICENSE,sha256=sy-QJh7ZOWzHLoBhtla8YqJEGw8bWMUx5nJhdrZCHUc,1672
+nglpy-1.1.3.dist-info/METADATA,sha256=OL1se6gsnQkWuzFMQj41IkC7CapIs8GCH4ws7I8EVa8,2791
+nglpy-1.1.3.dist-info/WHEEL,sha256=cU6VF8zMujJUYVnyrnmNyXlIvfRQGwjK6RJnNnUKSGE,111
+nglpy-1.1.3.dist-info/top_level.txt,sha256=HYVUemlO-33dE9clUt1x1xuiFjOk87-dDkPQJiawdEY,6
+nglpy-1.1.3.dist-info/RECORD,,
