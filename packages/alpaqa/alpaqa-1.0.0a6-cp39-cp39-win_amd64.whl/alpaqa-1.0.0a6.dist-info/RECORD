@@ -1,0 +1,15 @@
+alpaqa/__init__.py,sha256=YN5jO0Wlbjmot-9HrHzA9NsTR7yj-XTJ3g9CGNG9sOk,711
+alpaqa/__main__.py,sha256=pgSvnJTuOdvPG2QgTuWx_VAxVss1vestq9Qs0iRgyaM,1599
+alpaqa/_alpaqa.cp39-win_amd64.pyd,sha256=b-Juv7KzfboFsquO3eV2K6hs7Ym7eJQ0Ojnbip7g3zI,5499904
+alpaqa/cache.py,sha256=Y0Nb03tChP1ziiDBLu5pERkDhDsBMZMT5zcxv8qoEc0,1501
+alpaqa/_alpaqa/__init__.pyi,sha256=FmcHS37ndX3PfxmcO1aWFWu4hIrOd15PB1KKgMssCNg,18264
+alpaqa/casadi_generator/__init__.py,sha256=PgZr9Sh5znhUFfdj3FoEij8-U1q64IANv_YPndaRciw,9541
+alpaqa/casadi_loader/__init__.py,sha256=HN7LIngM-89BBQqYvhUoYiJfKlXz2uS1kHYMFZvqYZ4,10938
+alpaqa/_alpaqa/float32/__init__.pyi,sha256=Gc1okmmaag2cILV2DRcs8A1TCC1QQxUnTdr4OxRVS2E,47857
+alpaqa/_alpaqa/float64/__init__.pyi,sha256=sEg8cJ1RcpZkY4oogm8sbwGmJ4QLu8SgC6W4TWCt1yU,57453
+alpaqa/_alpaqa/longdouble/__init__.pyi,sha256=VJIoMFCao18yt0VAxqqwD2yNBfr61sGaSnxZi5B7ftw,47877
+alpaqa-1.0.0a6.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+alpaqa-1.0.0a6.dist-info/METADATA,sha256=vy7Sc4NWFVdFs8NFPD0lJZ6n-O87YriDctJkwVEzu9Y,3428
+alpaqa-1.0.0a6.dist-info/WHEEL,sha256=VOzDRR37QiPBYhFiRLiJ7vGm--MoG67p6Fckpx0-JxM,94
+alpaqa-1.0.0a6.dist-info/entry_points.txt,sha256=xAkJVhRJ8gNGVkCSbT8ttN3DQU3cQu-jU_teKLQULvQ,50
+alpaqa-1.0.0a6.dist-info/RECORD,,
