@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cocotb-job
+Version: 0.0.9
+Summary: todo
+Home-page: https://cocotb-job.pro
+Author: Daniel Qian
+Author-email: 909263817@qq.com
+License: MIT
+Keywords: todo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: py3fdfsv2
+Requires-Dist: pypinyin
+Requires-Dist: redis
+
+
+todo
+
+
