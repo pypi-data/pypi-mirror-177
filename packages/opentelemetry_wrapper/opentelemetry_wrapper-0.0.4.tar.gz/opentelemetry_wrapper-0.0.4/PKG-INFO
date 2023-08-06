@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: opentelemetry_wrapper
+Version: 0.0.4
+Summary: a wrapper around `opentelemetry` and `opentelemetry-instrumentation-*` to make life a bit easier
+Author-email: Avery Khoo <averykhoo@gmail.com>
+Requires-Python: >3.8.0
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Project-URL: Home, https://github.com/averykhoo/opentelemetry_wrapper
+
+# opentelemetry_wrapper
+
+a wrapper around `opentelemetry` and `opentelemetry-instrumentation-*` to make life a bit easier
+
+## what this does (or is supposed to do)
+
+* Make instrumentation (more) idempotent
+* Make re-instrumentation of logging actually work with different format strings
+* Make `logging` print as a one-line JSON dict by default
+* Provide support for decorating functions and classes
+* Provide support for instrumentation of dataclasses
+  * Global instrumentation needs to be run *before* any dataclasses are initialized
+  * Otherwise, use the decorator on each class as usual (it's idempotent anyway)
+* Add global instrumentation of FastAPI
+  * sometimes works even after apps are created for some reason, likely due to how Uvicorn runs in a new process
+  * but somehow sometimes doesn't work in prod, for equally unknown reasons
+  * probably best to instrument each app instance
+* logs some http headers received by fastapi as span attributes
+
+## usage
+
+todo: write stuff here
+
+## read the original docs
+
+* [OpenTelemetry](https://opentelemetry.io/docs)
+* [OpenTracing](https://opentracing.io/docs)
+* [SkyWalking](https://skywalking.apache.org/docs/skywalking-python/latest/readme/)
+
