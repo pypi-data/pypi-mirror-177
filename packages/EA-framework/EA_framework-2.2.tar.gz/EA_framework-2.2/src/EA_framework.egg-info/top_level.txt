@@ -1,0 +1,8 @@
+EA_multiproc
+EA_sequential
+EA_torch
+discrete_test
+main_ea
+multiprocess_comparison
+pytorch_test
+scripts
