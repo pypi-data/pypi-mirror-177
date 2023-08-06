@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: faciem
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Py-Contributors/faciem
+Author: Deepak Raj
+Author-email: deepak008@live.com
+License: UNKNOWN
+Project-URL: Documentation, https://pycontributors.readthedocs.io/projects/faciem/en/latest/
+Project-URL: Source, https://github.com/Py-Contributors/faciem
+Project-URL: Tracker, https://github.com/Py-Contributors/faciem/issues
+Description: <h1 align="center">Faciem</h1>
+        <p align="center">Face Detection model implementation in Tensorflow 2.0</p>
+        
+        ## Table of Contents
+        
+        - [Introduction](#introduction)
+          - [Installation](#installation)
+        
+        # Introduction
+        
+        This repository contains the implementation of the face detection models in Tensorflow 2.0.
+        
+        
+        ## Installation
+        
+        `pip install faciem`
+        
+        
+Keywords: audiobook
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown

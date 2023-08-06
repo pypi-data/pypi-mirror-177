@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+faciem/__init__.py
+faciem/main.py
+faciem.egg-info/PKG-INFO
+faciem.egg-info/SOURCES.txt
+faciem.egg-info/dependency_links.txt
+faciem.egg-info/requires.txt
+faciem.egg-info/top_level.txt
