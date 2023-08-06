@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+scikit-learn
+nltk
+datefinder
+matplotlib
+seaborn
+plotly
+gensim
+networkx
+pvlib
+pvanalytics
+timezonefinder
+pyDOE
+tensorflow
