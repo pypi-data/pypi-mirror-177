@@ -1,0 +1,11 @@
+parcheck/__init__.py,sha256=LW_jSiIST4Lm-gXaOVh2VjDOckByDay253sg3lmlZm4,76
+parcheck/checker.py,sha256=x69kmGmRReRvgl-DiMZLBaqi4-DnwMrEyPH9GRh8cDY,9040
+parcheck/exceptions.py,sha256=JxK_LR4OoTbqoBKxMqXNj8-U6xmig80N-lOKkuuMx3U,199
+parcheck/patterner.py,sha256=DznSYuFnOqLJZFuVovsTbAzyhV1EnNbIA9FW6cYGhIU,1943
+parcheck/static.py,sha256=f6xfgUa6ax3m15F-h5Jf0KdEduzi0OH-mb-IKWwxyjw,1134
+parcheck/tools.py,sha256=Y3trnIaV07u1vE4BoyUoiAExEa71AuF5UPmR-hLAfns,107
+parcheck-0.1.0.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+parcheck-0.1.0.dist-info/METADATA,sha256=SBwbcQB9wKP0zc9UHAOJ5YS86hQ_LCiaj6QyM4-1K5w,10741
+parcheck-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parcheck-0.1.0.dist-info/top_level.txt,sha256=PA-lFyVYrh4aEzGq3IyXms6nDPni7u9S6l5M3eR36qI,9
+parcheck-0.1.0.dist-info/RECORD,,
