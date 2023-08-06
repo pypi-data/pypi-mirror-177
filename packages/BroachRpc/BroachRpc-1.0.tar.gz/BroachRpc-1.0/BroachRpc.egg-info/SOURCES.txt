@@ -1,0 +1,6 @@
+README.rst
+setup.py
+BroachRpc.egg-info/PKG-INFO
+BroachRpc.egg-info/SOURCES.txt
+BroachRpc.egg-info/dependency_links.txt
+BroachRpc.egg-info/top_level.txt
