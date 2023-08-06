@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+cannuckfind.egg-info/PKG-INFO
+cannuckfind.egg-info/SOURCES.txt
+cannuckfind.egg-info/dependency_links.txt
+cannuckfind.egg-info/top_level.txt
+canuckfind/location.py
+canuckfind/setup.py

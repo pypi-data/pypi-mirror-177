@@ -1,0 +1,18 @@
+[project]
+name = "cannuckfind"
+version = "0.0.1"
+authors = [
+   { name="Harold Henson", email="economisthenson@gmail.com"},
+]
+description = "Identify Country of origin from informal text files"
+readme="README.md"
+requires-python = ">=3.9"
+classifiers = [ 
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/twitloccan"
+"Bug Tracker" = "https://github.com/pypa/twitloccan/issues"
