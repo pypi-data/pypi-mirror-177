@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vmat
+Version: 0.0.2
+Summary: virtual medical AI toolkit
+Home-page: 
+Author: linmengqi
+Author-email: leeemonq@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: vtk
+Requires-Dist: SimpleITK
+Requires-Dist: nibabel
+Requires-Dist: PySide2
+Requires-Dist: pydicom
+Requires-Dist: numba
+Requires-Dist: lz4
+Requires-Dist: scipy
+
+virtual medical AI toolkit
