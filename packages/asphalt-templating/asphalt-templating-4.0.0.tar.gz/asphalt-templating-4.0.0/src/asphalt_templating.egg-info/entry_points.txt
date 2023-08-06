@@ -1,0 +1,8 @@
+[asphalt.components]
+templating = asphalt.templating.component:TemplatingComponent
+
+[asphalt.templating.renderers]
+django = asphalt.templating.renderers.django:DjangoRenderer
+jinja2 = asphalt.templating.renderers.jinja2:Jinja2Renderer
+mako = asphalt.templating.renderers.mako:MakoRenderer
+tornado = asphalt.templating.renderers.tornado:TornadoRenderer
