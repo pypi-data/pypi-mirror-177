@@ -1,0 +1,2 @@
+[console_scripts]
+ms = multisearch.interface.tui:main
