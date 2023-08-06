@@ -1,0 +1,3 @@
+[console_scripts]
+cl-convert = cl_convert.convert:main
+cl-export = cl_export.export:main
