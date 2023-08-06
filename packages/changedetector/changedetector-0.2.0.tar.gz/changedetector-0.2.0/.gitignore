@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+env/
+*.chg.dtctr.py
+.venvinit.config.ini
