@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nth
+Version: 0.1.8
+Summary: 
+Author: Nils Olsson
+Author-email: nilso@enosis.net
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: cli
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0); extra == "cli"
