@@ -1,0 +1,19 @@
+{% filter indent(_indent + 4) %}
+
+{{ name }} class
+{%- if args|length > 0 %}
+
+Args:
+    {%- for arg in args %}
+    {{ arg.name }} ({{arg.annotation}}): TODO: to complete
+    {%- endfor %}
+{%- endif %}
+{%- if attributes|length > 0 %}
+
+Attributes:
+    {%- for attr in attributes %}
+    {{ attr.name }} ({{attr.annotation}}): TODO: to complete
+    {%- endfor %}
+{%- endif %}
+
+{% endfilter %}

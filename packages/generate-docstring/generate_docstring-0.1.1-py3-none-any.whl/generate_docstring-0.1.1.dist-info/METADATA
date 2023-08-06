@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: generate-docstring
+Version: 0.1.1
+Summary: 
+Author: manslaughter03
+Author-email: manslaughter03@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.1.1,<4.0.0)
+Requires-Dist: libcst (>=0.4.1,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Docstring generator
+
+## Install instruction
+
+```bash
+# Install docstring package
+pip install .
+
+# Copy vim plugin to vim pack
+mkdir -p ~/.vim/packs/plugins/start
+ln -s $PWD/plugins ~/.vim/packs/plugins/start/generate-docstring
+```
+
+## TODO:
+
+* add tox support                       [ ]
+* parse existing docstring              [ ]
+* don't fail if no typing (annotation)  [X]
+* recusrive subscipt (ex: typing.Dict)  [X]
+* add raise on function                 [X]
+* module attribute                      [ ]
+* module name, extract filename         [X]
+
+## Dev tools:
+
+```
+poetry run pylint --rcfile=.pylintrc ./src/
+```
+

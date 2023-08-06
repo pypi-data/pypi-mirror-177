@@ -1,0 +1,11 @@
+generate_docstring/__init__.py,sha256=q_qzNElTAsoGKH4ukJgPZBmoFzkbuvQ7RMiTTkSC970,73
+generate_docstring/__main__.py,sha256=abNVY1pynUdwq2YAq19JrZMMzUocz74if5rkxfRNAq0,1602
+generate_docstring/parser.py,sha256=E-R4REzQ78KPwZU8J__bkl67cPk1FIE3lM3gAYvnFgw,1188
+generate_docstring/templates/class_def.py.jinja2,sha256=DOMRnwT3Lw419Yf1udqEKr_iePludP_WWCn5IxTNVYg,389
+generate_docstring/templates/function_def.py.jinja2,sha256=AxDz6dAeyk5OgdP6yRp3GKi0WMozWSKYy7Z94kcdoKc,432
+generate_docstring/templates/module.py.jinja2,sha256=PDUhyiNaR_il8LW6M-75She3CklapapYbVom8_NrSXQ,194
+generate_docstring/transformer.py,sha256=ZbF6uog0jM1h17mWWAFKczNgLg6DFaNSUElPtwbmHwU,11695
+generate_docstring/visitor.py,sha256=jD9agHis2c5R_SXDJEnUO2ZjUoJHAWYXUG3xOmAompM,1784
+generate_docstring-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+generate_docstring-0.1.1.dist-info/METADATA,sha256=4jn9rosjeFRIDxpKVsi69YfNqVKOSIQEBuJ9oUQCw54,1151
+generate_docstring-0.1.1.dist-info/RECORD,,
