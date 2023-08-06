@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dexo
+Version: 1.0
+Summary: A cli for a quick and easy web dev kit
+Home-page: https://github.com/kavinbharathii/webdev
+Author: Kavin Bharathi
+Author-email: r.m.kavinbharathi@gmail.com
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: setuptools
+
