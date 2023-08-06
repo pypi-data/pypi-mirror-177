@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+dynascii/__init__.py
+dynascii/__main__.py
+dynascii/_args.py
+dynascii/_logging.py
+dynascii.egg-info/PKG-INFO
+dynascii.egg-info/SOURCES.txt
+dynascii.egg-info/dependency_links.txt
+dynascii.egg-info/top_level.txt
+dynascii/shell/lineshell.py
+dynascii/shell/nullshell.py
+dynascii/shell/pipeshell.py
+dynascii/shell/txtframeshell.py
+dynascii/shell/contrib/iplimitwrappershell.py
+dynascii/shell/contrib/rejshell.py
