@@ -1,0 +1,74 @@
+{% import "macros/tree.html" as mac_tree %}
+{% extends "pages/base.html" %}
+
+{% set title = "Energy consumption" %}
+
+{% block head_styles %}
+{{ super() -}}
+{% filter indent(width=8, first=True) %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/tree.css') }}">
+{% endfilter %}
+{% endblock head_styles %}
+
+{% block main_toolbar %}
+{{ super() -}}
+{% filter indent(width=20, first=True) %}
+<a id="dashboardSetupBtn" class="btn btn-sm btn-outline-secondary text-nowrap d-none" title="View energy consumption dashboard configuration"><i class="bi bi-tools"></i> Dashboard configuration</a>
+{% endfilter %}
+{% endblock main_toolbar %}
+
+{% block main_content %}
+{{ super() -}}
+<div class="container-fluid">
+    <div class="row mb-3">
+        <div class="col">
+            <div class="accordion" id="accordionSites">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSites">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSites" aria-controls="collapseSites" aria-expanded="true">
+                            <span class="fw-bold text-secondary"><i class="bi bi-building"></i> Sites</span>
+                        </button>
+                    </h2>
+                    <div id="collapseSites" class="accordion-collapse collapse show" aria-labelledby="headingSites" data-bs-parent="#accordionSites">
+                        <div class="accordion-body">
+                            <div id="treeSitesToolbar" class="d-flex justify-content-end gap-3">
+                                <a id="treeSitesCollapseAll" class="link-primary text-decoration-none" role="button"><i class="bi bi-arrows-collapse"></i> <small>collapse all</small></a>
+                                <a id="treeSitesExpandAll" class="link-primary text-decoration-none" role="button"><i class="bi bi-arrows-expand"></i> <small>expand all</small></a>
+                            </div>
+                            {% filter indent(width=20) %}
+                            {{ mac_tree.render_tree("treeSites", sites_tree_data) }}
+                            {% endfilter %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h5>Charts</h5>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}
+
+{% block body_scripts %}
+{{ super() -}}
+{% filter indent(width=8, first=True) %}
+<script type="module">
+    import { Tree } from "{{ url_for('static', filename='scripts/modules/tree.js') }}";
+    import { EnergyConsumptionExploreView } from "{{ url_for('static', filename='scripts/modules/views/dashboards/energyConsumptionExplore.js') }}";
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+
+        let energyConsExploreView = new EnergyConsumptionExploreView();
+        let treeSites = new Tree("treeSites", { selected: (id, type, path, name) => { energyConsExploreView.render(id, type, path, name); } });
+
+        treeSites.collapseAll();
+        energyConsExploreView.refresh();
+
+    });
+</script>
+{% endfilter %}
+{% endblock body_scripts %}
