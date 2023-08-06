@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=iArEaEhdW_uFJ821mNfTXeNq9YWPF4V4XOHE_YztBNs,72405
+README.md,sha256=5aWkkkPzyvlz94LuvdWaWioK-Fqe5w5Jmydfc1vF11k,1305
+myprj/__main__.py,sha256=t_BHNSFl7_dyC5rovYz3DvhyqUuzqDPDe097qJe8MAM,76
+myprj/__version__.py,sha256=-xoLEUF2QLB2XzuNUP3SEciWrG8YJzKhUkfFKIIIGh0,47
+myprj/cli.py,sha256=2WNDRBstCyWRlGqyuj8DgyRIYVZY8ngRUItPVxDUcYY,183
+python_project_poetry_template-0.11.4.dist-info/entry_points.txt,sha256=EignB21Z7Slv20IIkxKoY-HARvX3C1o48Hw-JRQEK68,39
+python_project_poetry_template-0.11.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+python_project_poetry_template-0.11.4.dist-info/METADATA,sha256=s0P4u7I4YKeZycF7P9sMNesNLBG4FNaG2Kogt1I5h2s,2257
+python_project_poetry_template-0.11.4.dist-info/RECORD,,
