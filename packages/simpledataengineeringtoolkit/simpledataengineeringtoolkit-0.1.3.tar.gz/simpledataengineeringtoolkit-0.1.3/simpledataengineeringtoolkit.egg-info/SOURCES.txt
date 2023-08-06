@@ -1,0 +1,10 @@
+README.md
+setup.py
+simpledataengineeringtoolkit/checker.py
+simpledataengineeringtoolkit/cleaner.py
+simpledataengineeringtoolkit/staticvalues.py
+simpledataengineeringtoolkit.egg-info/PKG-INFO
+simpledataengineeringtoolkit.egg-info/SOURCES.txt
+simpledataengineeringtoolkit.egg-info/dependency_links.txt
+simpledataengineeringtoolkit.egg-info/requires.txt
+simpledataengineeringtoolkit.egg-info/top_level.txt
