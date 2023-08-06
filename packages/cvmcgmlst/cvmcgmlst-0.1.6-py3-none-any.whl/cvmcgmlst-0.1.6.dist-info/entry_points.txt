@@ -1,0 +1,3 @@
+[console_scripts]
+cvmcgmlst = cvmcgmlst.cvmcgmlst:main
+
