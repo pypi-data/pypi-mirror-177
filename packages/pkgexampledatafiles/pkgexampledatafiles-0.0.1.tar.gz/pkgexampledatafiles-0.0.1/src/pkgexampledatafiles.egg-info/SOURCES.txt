@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/pkgexampledatafiles/__init__.py
+src/pkgexampledatafiles/my_datafiles_module.py
+src/pkgexampledatafiles.egg-info/PKG-INFO
+src/pkgexampledatafiles.egg-info/SOURCES.txt
+src/pkgexampledatafiles.egg-info/dependency_links.txt
+src/pkgexampledatafiles.egg-info/entry_points.txt
+src/pkgexampledatafiles.egg-info/top_level.txt
+src/pkgexampledatafiles/data/readme.json

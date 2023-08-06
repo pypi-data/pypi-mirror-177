@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgexampledatafiles"
+version = "0.0.1"
+authors = [
+  { name="Good Boy", email="pythonic@rexbytes.com" },
+]
+description = "A simple datafile package example"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.package-data]
+"pkgexampledatafiles.data"=["*.json"]
+
+[project.urls]
+"Homepage" = "https://github.com/RexBytes/pkgexampledatafiles"
+"Bug Tracker" = "https://github.com/RexBytes/pkgexampledatafiles/issues"
+"Download URL" ="https://github.com/RexBytes/pkgexampledatafiles/archive/refs/tags/v0.0.1.tar.gz"
+
+[project.scripts]
+rexdatafile = "pkgexampledatafiles:my_datafiles_module.datafiles"
