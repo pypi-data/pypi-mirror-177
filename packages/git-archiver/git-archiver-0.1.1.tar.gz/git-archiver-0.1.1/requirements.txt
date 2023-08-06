@@ -1,0 +1,2 @@
+git-interface==0.9.3
+aiofiles~=22.1.0
