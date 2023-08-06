@@ -1,0 +1,16 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+moonlightd/__init__.py
+moonlightd/__main__.py
+moonlightd/_version.py
+moonlightd/app.py
+moonlightd.egg-info/PKG-INFO
+moonlightd.egg-info/SOURCES.txt
+moonlightd.egg-info/dependency_links.txt
+moonlightd.egg-info/entry_points.txt
+moonlightd.egg-info/top_level.txt
