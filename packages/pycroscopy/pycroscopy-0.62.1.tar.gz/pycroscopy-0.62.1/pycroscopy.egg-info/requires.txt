@@ -1,0 +1,13 @@
+numpy>=1.13.0
+scipy>=0.17.1
+scikit-image>=0.12.3
+scikit-learn>=0.17.1
+matplotlib>=2.0.0
+torch>=1.0.0
+tensorly>=0.6.0
+tqdm
+ipywidgets>=5.2.2
+ipython
+simpleitk
+sidpy>=0.0.6
+pysptools
