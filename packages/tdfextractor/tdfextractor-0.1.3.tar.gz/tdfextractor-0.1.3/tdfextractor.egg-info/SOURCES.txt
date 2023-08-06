@@ -1,0 +1,13 @@
+README.md
+setup.py
+tdfextractor/__init__.py
+tdfextractor/constants.py
+tdfextractor/ms2_extractor.py
+tdfextractor/string_templates.py
+tdfextractor/utils.py
+tdfextractor.egg-info/PKG-INFO
+tdfextractor.egg-info/SOURCES.txt
+tdfextractor.egg-info/dependency_links.txt
+tdfextractor.egg-info/requires.txt
+tdfextractor.egg-info/top_level.txt
+test/test_ms2_extractor.py

@@ -1,0 +1,2 @@
+tdfpy==0.1.2
+serenipy==0.1.2
