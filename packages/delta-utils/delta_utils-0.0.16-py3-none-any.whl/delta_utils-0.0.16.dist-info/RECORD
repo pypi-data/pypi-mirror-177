@@ -1,0 +1,9 @@
+delta_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delta_utils/check_submission.py,sha256=N33lOor6N9mgKOHa-k5Yn70TQWwp6E740zV2_csDUEw,6331
+delta_utils/hash_game_mechanics.py,sha256=U3j9mOcqcsFIuU4Z3L7k1UTJ6npDyWmRctqC9uWTaoM,3357
+delta_utils/utils.py,sha256=vi0T5oN5uvNRrMBuaQL639t4FaMRcpi5ozTqioX5Nok,950
+delta_utils-0.0.16.dist-info/METADATA,sha256=JtauZmAD6wlkuIX9J6OENndb_gVL5zWN2ym18cuyxLY,789
+delta_utils-0.0.16.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+delta_utils-0.0.16.dist-info/entry_points.txt,sha256=7WHEf_LpdPBiIEz9L2OZNwegJALNS3_QDv5eqJRvuLI,77
+delta_utils-0.0.16.dist-info/licenses/LICENSE,sha256=HgFeraA0-kQtru2vFH_cXmKE_G9rXae-RgDX8Yn-EHY,35130
+delta_utils-0.0.16.dist-info/RECORD,,
