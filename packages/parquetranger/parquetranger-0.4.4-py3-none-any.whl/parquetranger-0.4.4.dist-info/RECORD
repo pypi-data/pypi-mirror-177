@@ -1,0 +1,13 @@
+parquetranger/__init__.py,sha256=aNGJtZiYcihomullpOt7QxHHMB1qDEQsgHfI2ndIljo,101
+parquetranger/core.py,sha256=IKD9jstFECSwgat-rp6dxxldpo59QvZm8XgF3c6b5Mk,10341
+parquetranger/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parquetranger/tests/test_core.py,sha256=jT5Cf-WuENnVgPi3csDOgmT5ASAG-U7yHzPsMXuTnsE,6535
+parquetranger/tests/test_diff_cols.py,sha256=qALyWxgkGZ5WHvYs0wb0p4r1S9zAWtXAGZz0b7ek0Ic,1066
+parquetranger/tests/test_envs.py,sha256=1ee-FKKx32KPLYEUrYyqC3nQkYAsYBt_GwBC4qFF1-g,961
+parquetranger/tests/test_init.py,sha256=u6rhpNA9r3zk_kEp-jmEKyQpiMNnH98I8KQB-FS8QRU,293
+parquetranger/tests/test_metadata.py,sha256=MUiMqup4kI10E4peAZmdH7Q1FgdBi238iS_AzNh-26Q,473
+parquetranger/tests/test_parallel.py,sha256=GfdhIMAyhu4Dtqc-lr3nHdWdTQ5Oas-gGVtZ-88Qpk8,2526
+parquetranger-0.4.4.dist-info/LICENSE,sha256=PsZAtTBheWHymkKBWeCbw96MkxuDK4NG8lJXLFUxDu4,1056
+parquetranger-0.4.4.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+parquetranger-0.4.4.dist-info/METADATA,sha256=GL9CtxZ9dFeCNGtfstGMpzETX6VCz-cYj--0OPI2kf4,1046
+parquetranger-0.4.4.dist-info/RECORD,,
