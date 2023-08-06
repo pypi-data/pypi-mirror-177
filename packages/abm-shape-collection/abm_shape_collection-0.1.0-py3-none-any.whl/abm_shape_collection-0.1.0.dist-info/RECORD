@@ -1,0 +1,11 @@
+abm_shape_collection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_shape_collection/__main__.py,sha256=hcpMhLGsV_fNZFoo400zbbJ2BIZNhWTstHsCXa5Wpfs,52
+abm_shape_collection/coefficient/__init__.py,sha256=3bRVXF09l-Cg9Os6UPfKsSdmI907dj0w96O6Ve8SU2A,114
+abm_shape_collection/coefficient/calculate_sh_coefficients.py,sha256=sH62HIMMio0YtG88s_ND9YdF8Y3Ni6c4evlGv1dsJ9I,464
+abm_shape_collection/coefficient/make_voxels_array.py,sha256=LIIp-HSJ1pkv_pynwbDhP5Fhr_fGUUvGoh0KVHZiwpk,957
+abm_shape_collection/coefficient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_shape_collection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_shape_collection-0.1.0.dist-info/LICENSE,sha256=yl2mZ8HTPRCGwew4fV5CNar9Y34y2qDiDhedEqADACQ,1519
+abm_shape_collection-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+abm_shape_collection-0.1.0.dist-info/METADATA,sha256=cXAY4RnfGCmsB1w-XXl8okhVtWJc7eg9WPj8QzU-bFs,1518
+abm_shape_collection-0.1.0.dist-info/RECORD,,
