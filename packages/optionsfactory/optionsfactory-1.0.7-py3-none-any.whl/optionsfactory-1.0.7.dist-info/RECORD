@@ -1,0 +1,16 @@
+optionsfactory/__init__.py,sha256=tRD9D8J7Z_i9155Lv5Qw8snVLtFNPDFGHyw2ndAafBw,274
+optionsfactory/_utils.py,sha256=wHLEQOTm2iAmfvCxKr6Q3v4kFzyWF20IMCTJhQZCIJM,3094
+optionsfactory/_version.py,sha256=yfKUqubyOkQbgEjrhba61qRhBwOkEcwyi9m9gnjixss,497
+optionsfactory/checks.py,sha256=GI1DL-0rMFa3iXwNTEk-5syQzgjkKs3doD8H1bG8US4,513
+optionsfactory/optionsfactory.py,sha256=_g5kXDZF4pFEjyGgPYEbEapYRk-Jq3m2vfheS6qw0UU,24257
+optionsfactory/withmeta.py,sha256=rdcXKEPiggRQUyd9ARuk4R2pYh-oJxUfLRGksMJ3TKo,7140
+optionsfactory/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optionsfactory/tests/test_check_utilities.py,sha256=9qkK3w9Q_9vEtygYmh6o92tP7rz687n7m7BgBdSSCyM,1105
+optionsfactory/tests/test_mutableoptions.py,sha256=_1DY5SsuO_lBnG9d09nTWyghSCJRv8bj8n-zfFABv2Q,50682
+optionsfactory/tests/test_options.py,sha256=SKBe8BalYvb2n_XFf8nWMJfTgJp0jJZXY8Ud8O_LfZI,28158
+optionsfactory/tests/test_withmeta.py,sha256=CTHFrlQMQJ3rXp9EEUxTgqtR3r9IwPe0oYZyYgWjTVQ,6614
+optionsfactory-1.0.7.dist-info/LICENSE,sha256=za9RsKF17SxD5PndsPHdgZC3vYJ6UAgFL7r-03peOo8,1541
+optionsfactory-1.0.7.dist-info/METADATA,sha256=dLYU8Mc8QkMIJvTQwaGiT-BWEVeADrP4fu_sFFv4s18,17796
+optionsfactory-1.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+optionsfactory-1.0.7.dist-info/top_level.txt,sha256=YiW5Ye_n3KbHz-nv14enU9GlV8kMwjPl11cmZxWhtaI,15
+optionsfactory-1.0.7.dist-info/RECORD,,
