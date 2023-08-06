@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: codercore
+Version: 1.0.5
+Summary: codercore
+Author-email: Code R <hello@coderstudio.dev>
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg (~=0.27.0)
+Requires-Dist: psycopg2 (~=2.9.5)
+Requires-Dist: redis (~=4.3.2)
+Requires-Dist: sqlalchemy[asyncio] (~=1.4.32)
+Requires-Dist: sqlalchemy-utils (~=0.38.3)
+Provides-Extra: dev
+Requires-Dist: black (~=22.10.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (~=7.2.0) ; extra == 'test'
+Requires-Dist: pytest-asyncio (~=0.20.1) ; extra == 'test'
+Requires-Dist: pytest-cov (~=4.0.0) ; extra == 'test'
+Requires-Dist: pytest-mock (~=3.10.0) ; extra == 'test'
+Requires-Dist: pytest-xdist[psutil] (~=3.0.2) ; extra == 'test'
+
+# coder core
