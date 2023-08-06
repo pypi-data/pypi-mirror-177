@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/Hastebin/Hastebin.py
+src/Hastebin/__init__.py
+src/HastebinAPI.egg-info/PKG-INFO
+src/HastebinAPI.egg-info/SOURCES.txt
+src/HastebinAPI.egg-info/dependency_links.txt
+src/HastebinAPI.egg-info/top_level.txt

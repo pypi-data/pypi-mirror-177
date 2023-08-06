@@ -1,0 +1,100 @@
+# Hastebin API
+
+__Version 0.1.2 Patch__
+In this version, a few patches were added to the code that prevents an empty input from going through. README.md was also updated.
+
+This is a simple Hastebin API that allows you to create pastes (or "hastes") and get raw text from a haste through code. It is extremely simple to use and doesn't require much setup, allowing it to be extremely simple to use.
+
+<h3>** Instructions/Setup **</h3>
+
+1. Install the package by running `pip install HastebinAPI` in your console.
+2. Once installed, add `import Hastebin` or `from Hastebin import Hastebin` to the top of your code.
+3. Once imported, use any of the functions freely throughout your code.
+
+Code Example:
+```
+import Hastebin
+# or
+from Hastebin import Hastebin
+
+# your code here
+```
+
+<h3>** Functions **</h3>
+
+This API has been designed for ease-of-use, allowing for creation and retrieval of hastes through one line of code. Currently, the API has two functions.
+
+<h4>** Creating Hastes **</h4>
+Once imported, you can use the "Hastebin.CreateHaste("text")" function to create a paste with the inputted text. This will create a haste and return the raw URL to that haste (or, the ID of that paste depending on the arguments provided.) The function can be called to return values as well as called raw.
+
+Returning Values:
+`link = Hastebin.CreateHaste("Demo")` and `print(Hastebin.CreateHaste("Demo"))`
+
+Raw:
+`Hastebin.CreateHaste("Demo")`
+
+__Arguments__
+The `Hastebin.CreateHaste()` function takes three arguments. 
+
+Content:
+The first argument, known as content, is a string value of which is required. This argument is the only required argument, and its name does not need to be specified in the function. Anything within this argument will be sent as the content of the haste. An example of this argument is as provided below:
+`link = Hastebin.CreateHaste("This is a test of the Hastebin Python API.")`
+
+Print:
+The second argument, known as print, is a bool value of which is not required. It specifies if you would like to automatically print the URL (or ID depending on the third argument) of the created haste once it has been created. It can be useful in cases where the function is called raw. This argument is by default set to False, so don't worry about specifying it if you want it to be False. This argument will be ignored if it is set to an invalid value (ex. a string or int). An example of this argument is provided below:
+`link = Hastebin.CreateHaste("This is a test of the Hastebin Python API", print=True)`
+
+FullURL:
+The third argument, known as FullURL, is a bool value of which is not required. It specifies if you would like the function to return (or print depending on the second argument) the full URL of the haste or just the ID. This argument is by default set to True, so if you would like to only return the haste ID, you will need to manually specify. This argument will be ignored if it is set to an invalid value (ex. a string or int). An example of this argument is provided below:
+`link = Hastebin.CreateHaste("This is a test of the Hastebin Python API", fullurl=False)`
+Or, as used with the print argument:
+`link = Hastebin.CreateHaste("This is a test of the Hastebin Python API", print=True, fullurl=False)`
+
+<h4> ** Retrieving Hastes ** </h4>
+Once imported, you can use the `Hastebin.GetPaste("id/url")` function to get the raw text from a haste.
+
+Returning Values:
+`link = Hastebin.GetHaste("id/url")` and `print(Hastebin.GetHaste("id/url"))`
+
+Raw:
+`Hastebin.GetHaste("id/url")`
+
+__Arguments__
+The `Hastebin.GetHaste("id/url")` function takes two arguments.
+
+Paste:
+The first argument, known as Paste, is a string value of which is required. This argument is the only required argument, and its name does not have to be specified in the function. This argument specifies the haste that content should be retrieved from. The haste can be specified through a hastes ID (ex. suxemamamo) or a hastes URL (ex. https://hastebin.com/suxemamamo.kotlin). The argument can take both regular and raw hastebin links to retrieve content from, and can also take multiple forms of haste URLs/IDs. Examples are shown below:
+
+• URL: https://hastebin.com/suxemamamo.kotlin
+• URL: https://hastebin.com/suxemamamo
+• URL: http://hastebin.com/suxemamamo
+• URL: hastebin.com/suxemamamo
+• URL: https://hastebin.com/raw/suxemamamo
+• URL: http://hastebin.com/raw/suxemamamo
+• URL: hastebin.com/suxemamamo
+... and various other URL combinations.
+
+• ID: suxemamamo.kotlin
+• ID: suxemamamo
+... and various other ID combinations.
+
+Print:
+The second argument, known as print, is a bool value of which is not required. It specifies if you would like to automatically print the raw text of the retrieved haste once it has been retrieved. It can be useful in cases where the function is called raw. This argument is by default set to False, so don't worry about specifying it if you want it to be False. This argument will be ignored if it is set to an invalid value (ex. a string or int). An example of this argument is provided below:
+`link = Hastebin.GetHaste("suxemamamo", print=True)`
+
+<h3> ** Hastebin Information ** </h3>
+The following information is as quoted on Hastebin.com:
+> While the contents of hastebin.com are not directly crawled by any search robot that obeys "robots.txt", there should be no great expectation of privacy. Post things at your own risk. Not responsible for any loss of data or removed pastes.
+> Pastes will stay for 7 days. They may be removed earlier and without notice.
+
+View at https://hastebin.com/about.md.
+
+<h3> ** Update Information ** </h3>
+Updates to this package may include bug fixes (patches), updates to features, new features, major updates, and redistribution. This package contains no update schedule.
+
+<h3> ** Redistribution Information ** </h3>
+Redistribution of this package should only be done by the official developer, known as and going by Alternate/AlternateD/TCK. If this package should not be updated in long periods of time, it should be noted that the most likely cause is the loss of the hosting account representing this package. In that event, a redistribution will be created on a new account that will be updated. It is up to the user to find this new version.
+
+
+
+<h2>This package provides, reads, and serves content from hastebin.com, and not any other unofficial Hastebin websites.</h2>
