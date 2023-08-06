@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: baekjoonapi
+Version: 0.1.0
+Summary: BaekjoonAPI for Python
+License: MisileLab License
+Author: MisileLaboratory
+Requires-Python: ==3.11.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: lxml (==4.9.1)
+Requires-Dist: requests (==2.28.1)
+Description-Content-Type: text/markdown
+
+# BaekjoonAPI
+
+BaekjoonAPI for python
+

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "baekjoonapi"
+version = "0.1.0"
+description = "BaekjoonAPI for Python"
+authors = ["MisileLaboratory"]
+license = "MisileLab License"
+readme = "README.md"
+packages = [{ include = "bojapi" }]
+
+[tool.poetry.dependencies]
+python = "3.11.0" # I just want support 3.11.0, you can change it
+requests = "2.28.1"
+bs4 = "0.0.1"
+lxml = "4.9.1"
+
+[tool.poetry.group.dev.dependencies]
+sentry-sdk = "1.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
