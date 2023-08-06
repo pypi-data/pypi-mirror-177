@@ -1,0 +1,7 @@
+ipython
+matplotlib
+imageio
+numpy
+pandas
+scikit-learn
+scikit-optimize

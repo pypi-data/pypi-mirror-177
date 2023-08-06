@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+digital_experiments.egg-info/PKG-INFO
+digital_experiments.egg-info/SOURCES.txt
+digital_experiments.egg-info/dependency_links.txt
+digital_experiments.egg-info/requires.txt
+digital_experiments.egg-info/top_level.txt
