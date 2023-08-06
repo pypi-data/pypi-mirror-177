@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/cloud_client/__init__.py
+src/cloud_client/azure.py
+src/cloud_sustainability.egg-info/PKG-INFO
+src/cloud_sustainability.egg-info/SOURCES.txt
+src/cloud_sustainability.egg-info/dependency_links.txt
+src/cloud_sustainability.egg-info/requires.txt
+src/cloud_sustainability.egg-info/top_level.txt
