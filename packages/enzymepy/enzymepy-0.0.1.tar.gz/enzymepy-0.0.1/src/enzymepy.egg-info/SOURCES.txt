@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/enzymepy/__init__.py
+src/enzymepy/chemdata.py
+src/enzymepy/dataloader.py
+src/enzymepy/reaction.py
+src/enzymepy/utils.py
+src/enzymepy.egg-info/PKG-INFO
+src/enzymepy.egg-info/SOURCES.txt
+src/enzymepy.egg-info/dependency_links.txt
+src/enzymepy.egg-info/top_level.txt
