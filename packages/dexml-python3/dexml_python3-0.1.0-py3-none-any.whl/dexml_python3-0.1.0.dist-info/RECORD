@@ -1,0 +1,16 @@
+dexml/__init__.py,sha256=8P0OG1J3L06MHDFHFDCVu4np2MlJRW4Z_9WDzNrDpJg,344
+dexml/constants.py,sha256=I5zXobodl5OVDcAWRN1TN9Grl42TmN88ck7FyBX6SqY,493
+dexml/exceptions.py,sha256=_E5FbE--B7JQ6L_5Qr2t4DmWxEwBlTlz5ybfZA2lDz0,375
+dexml/fields/__init__.py,sha256=YYs4F-8NEf-BL3yJnFt_v1YKUQ_Mn_x_BojTQTYz3d8,459
+dexml/fields/choice.py,sha256=11fAbINRO9X5uagvrB7C5_RxpDNbjIA6EoCVVsoDLmI,1737
+dexml/fields/dict.py,sha256=ZhbickOL0uea45iGCzN3uBZQyWiRylSpxaFxnxTdMgM,6674
+dexml/fields/field.py,sha256=0QCdqQscU7AqXyDhDUBG0HFIbv-vKZL13zEGw6m_XZ0,4835
+dexml/fields/list.py,sha256=NobmK2lA5YAU1U4FWJnpi3YbuwFEIWKndoH7-ZDFCPY,5518
+dexml/fields/model.py,sha256=z46Zc-AYzQRqK3R5E5FCn9cQCefxPUUGnSpqwxGNSGQ,2989
+dexml/fields/values.py,sha256=NcdJOHjQaX0Sxs6yNrqk6kbr8xxZSLJbHIPlXtC8Wd0,9751
+dexml/fields/xmlnode.py,sha256=um5bd9_6pmCyq7oG-hgToEyfC3Le6fNFiCUKpXlWjkI,1311
+dexml/meta.py,sha256=grsmyLwqs8P3soYHkeGqovWQZpo70a-I_NRTTxv3oA8,4667
+dexml/model.py,sha256=wYycwWhv6jcxx7MnQRzw-dt5yVCLg1XHr-j3CKWVwF0,15469
+dexml_python3-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dexml_python3-0.1.0.dist-info/METADATA,sha256=vyVoOT7yMf0iSErNFohftc16oQNfhfCMarb5FMga5ZA,3943
+dexml_python3-0.1.0.dist-info/RECORD,,
