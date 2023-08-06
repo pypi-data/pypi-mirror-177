@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+setup.py
+custom_component/__init__.py
+streamlit_custom_button.egg-info/PKG-INFO
+streamlit_custom_button.egg-info/SOURCES.txt
+streamlit_custom_button.egg-info/dependency_links.txt
+streamlit_custom_button.egg-info/requires.txt
+streamlit_custom_button.egg-info/top_level.txt
