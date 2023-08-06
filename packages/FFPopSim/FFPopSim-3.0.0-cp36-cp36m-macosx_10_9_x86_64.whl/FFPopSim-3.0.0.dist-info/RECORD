@@ -1,0 +1,8 @@
+_FFPopSim.abi3.so,sha256=GYlNlaSL9qe1bBA_kiRCBuPSiXwFdQL59Im7dZBB-60,1457280
+FFPopSim-3.0.0.dist-info/RECORD,,
+FFPopSim-3.0.0.dist-info/WHEEL,sha256=ye8A2lA8pjGNe7-ueOpggarJAhczq3EZGqnLZzzfQYQ,110
+FFPopSim-3.0.0.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+FFPopSim-3.0.0.dist-info/top_level.txt,sha256=79gr465prxyjhULNvPrmd2c8AN81mPTA1gxbvjWCBvQ,10
+FFPopSim-3.0.0.dist-info/METADATA,sha256=E3u5UDNmPPLCXRAa1Hu28vUZBTHBetlFNPUB1QRnnb0,2364
+FFPopSim.dylibs/libgsl.27.dylib,sha256=kB9KFOVJfe0MSXZwmH2fV48LnZnxXvoPdU7amO1wKnY,2284704
+FFPopSim.dylibs/libgslcblas.0.dylib,sha256=sUk0AjyGgoiYNEQ89iDXh7qm3HiDQ0n0VKDNGqMwB0Q,272784
