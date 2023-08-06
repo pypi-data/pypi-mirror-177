@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: estim8Beta
+Version: 0.0.1
+Summary: Conduct parameter estimations for Dymola and FMU models
+Home-page: UNKNOWN
+Author: Daniel Strohmeier
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: joblib
+Requires-Dist: pathlib
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: fmpy
+Requires-Dist: sdf
+
+UNKNOWN
+
+
