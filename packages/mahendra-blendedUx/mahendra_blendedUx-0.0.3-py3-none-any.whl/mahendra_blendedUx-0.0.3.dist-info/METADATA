@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mahendra-blendedUx
+Version: 0.0.3
+Summary: test_package_for_blendedUx
+Author: Sunny Prakash
+Author-email: <sprakash@cognam.com>
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: certifi (==2022.5.18.1)
+Requires-Dist: click (==5.1)
+Requires-Dist: Flask (==0.11.1)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==2.8)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: Pillow (==8.0.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: urllib3 (==1.26.9)
+Requires-Dist: Werkzeug (==2.0.1)
+Requires-Dist: blendedUx-Lang (==1.0.0)
+Requires-Dist: PyYAML (==5.2)
+Requires-Dist: antlr4-python2-runtime (==4.5.2)
+Requires-Dist: beautifultable (==0.8.0)
+Requires-Dist: cmd2 (==0.8.2)
+Requires-Dist: requests
+Requires-Dist: cliff (==2.16.0)
+Requires-Dist: django (==1.8.4)
+Requires-Dist: jinja2 (==2.8.0)
+Requires-Dist: json-source-map (==1.0.4)
+Requires-Dist: PyExecJS (==1.5.1)
+Requires-Dist: py-mini-racer (==0.1.18)
+
