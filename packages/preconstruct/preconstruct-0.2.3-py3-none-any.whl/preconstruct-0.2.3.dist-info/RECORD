@@ -1,0 +1,13 @@
+preconstruct/__init__.py,sha256=fJVOaleLyWIR9EP8UXJgHTSmTyIaqyWzHLbLTwYHHdM,1892
+preconstruct/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preconstruct/_tests/conftest.py,sha256=sNrxmJ3pbcmS1m94oWdmDG8pjTmikcxA6Yi5PuMRaaM,2704
+preconstruct/_tests/test_dataset.py,sha256=ojOxW-mWWAlPMwPXLH16eUCF63OrhXRNDfxX9hhBuRo,5916
+preconstruct/_tests/test_sources.py,sha256=RtyAENc3M-lSDSNTyGNMFG-M-5ZMZFypsaikL6DUI5M,2386
+preconstruct/_tests/test_stimuliformats.py,sha256=enlwNMmvIfgACPtXJ3TinXw_eCPY-SbIBAObpbmje6s,3346
+preconstruct/basisfunctions.py,sha256=8iPsE93xzlzF6zjLBAU9JJtIR5leiXoyT95dXmhc8_Q,2262
+preconstruct/dataset.py,sha256=v7yd1hfjUKFZ791X_biKfK6aTvwL0tDCa-0VL9rDSZU,22020
+preconstruct/sources.py,sha256=myiMwUjnHIMqJIUg0qvBZuiTivGA0c-ux4kdcZ1BAsQ,16091
+preconstruct/stimuliformats.py,sha256=Drk7HNPEydBh4xKBeg0m9pX4VxevaNA9SMtB7UC2ztU,7192
+preconstruct-0.2.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+preconstruct-0.2.3.dist-info/METADATA,sha256=YijUEP7QnaXVc9WMQCgeDvU2cH5aiAqvylP877qAQos,901
+preconstruct-0.2.3.dist-info/RECORD,,
