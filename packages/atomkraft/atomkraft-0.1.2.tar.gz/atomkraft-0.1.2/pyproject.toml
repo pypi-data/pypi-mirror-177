@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "atomkraft"
+version = "0.1.2"
+description = "Testing for Cosmos Blockchains"
+authors = [
+    "Andrey Kuprianov <andrey@informal.systems>",
+    "Hernán Vanzetto <hernan@informal.systems>",
+    "Ivan Gavran <ivan@informal.systems>",
+    "Ranadeep Biswas <mail@rnbguy.at>",
+]
+keywords = ["cosmos", "blockchain", "testing", "testnet"]
+readme = "README.md"
+license = "Apache-2.0"
+repository = "https://github.com/informalsystems/atomkraft"
+include = ["LICENSE"]
+classifiers = [
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^7.2.0"
+typer = {extras = ["all"], version = "^0.7.0"}
+modelator = "^0.6.6"
+numpy = "^1.23.4"
+hdwallet = "^2.1.2"
+bip-utils = "^2.7.0"
+tabulate = "^0.9.0"
+jsonrpcclient = "^4.0.2"
+websockets = "^10.4"
+tomlkit = "^0.11.6"
+case-converter = "^1.1.0"
+pytest-reportlog = "^0.1.2"
+terra-sdk = "^3.0.1"
+terra-proto = "^2.1.0"
+setuptools = "^65.5.1"
+tenacity = "^8.1.0"
+jinja2 = "^3.1.2"
+rich = "^12.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=42"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+atomkraft = "atomkraft.cli:app"
+
+[tool.poetry.plugins]
+pytest11 = { atomkraft-chain = "atomkraft.chain.pytest" }
+
+[tool.isort]
+profile = "black"
+known_third_party = ["atomkraft"]
+src_paths = ["atomkraft", "test", "examples"]
+
+[tool.pytest.ini_options]
+pythonpath = "."
+norecursedirs = "examples/*"
+
+[tool.semantic_release]
+version_variable = [
+    "atomkraft/_version.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+version_pattern = [
+    "atomkraft/templates/project/pyproject.toml:atomkraft = \"\\^{version}\""
+]
+branch = "dev"
+build_command = "pip install poetry && poetry build"
