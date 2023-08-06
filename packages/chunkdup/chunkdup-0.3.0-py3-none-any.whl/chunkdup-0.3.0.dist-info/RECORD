@@ -1,0 +1,8 @@
+chunkdup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chunkdup/chunkdiff.py,sha256=Z-4YMNMIMftrvfDdDt8qffipj-OfyPxZLThny5HBtjE,4083
+chunkdup/chunkdup.py,sha256=-AEi9hDNJFXjHfvae1Yn8ECIVPBDMlWgnScxDu9zCCk,7971
+chunkdup-0.3.0.dist-info/entry_points.txt,sha256=D876d3XEAoPlJ2Wk6NQl16zTNCyMyl-UcgUSJflMPN0,85
+chunkdup-0.3.0.dist-info/LICENSE,sha256=mAtRveZ1NYzyo4AXHlKaJ6EAsXJpWwGDi8wXfxFZ4NY,1066
+chunkdup-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chunkdup-0.3.0.dist-info/METADATA,sha256=IPoF-1DONbDSogrCiGIDOIJyvitd4z5dHZE2gbWfhKE,1865
+chunkdup-0.3.0.dist-info/RECORD,,

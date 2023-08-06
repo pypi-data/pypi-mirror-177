@@ -1,0 +1,4 @@
+[console_scripts]
+chunkdiff=chunkdup.chunkdiff:main
+chunkdup=chunkdup.chunkdup:main
+

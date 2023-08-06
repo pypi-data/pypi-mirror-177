@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: chunkdup
+Version: 0.3.0
+Summary: Find (partial content) duplicate files.
+Home-page: https://github.com/xyb/chunkdup
+License: MIT
+Author: Xie Yanbo
+Author-email: xieyanbo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: chunksum
+Project-URL: Bug Tracker, https://github.com/xyb/chunkdup/issues
+Project-URL: Repository, https://github.com/xyb/chunkdup
+Description-Content-Type: text/markdown
+
+# chunkdup
+
+Find (partial content) duplicate files using [chunksum](https://github.com/xyb/chunksum) outputs.
+
+[![test](https://github.com/xyb/chunkdup/actions/workflows/test.yml/badge.svg)](https://github.com/xyb/chunkdup/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/xyb/chunkdup/branch/main/graph/badge.svg?token=TVFUKMLFMX)](https://codecov.io/gh/xyb/chunkdup)
+[![Maintainability](https://api.codeclimate.com/v1/badges/0935f557916da1fdcddb/maintainability)](https://codeclimate.com/github/xyb/chunkdup/maintainability)
+[![Latest version](https://img.shields.io/pypi/v/chunkdup.svg)](https://pypi.org/project/chunkdup/)
+[![Support python versions](https://img.shields.io/pypi/pyversions/chunkdup)](https://pypi.org/project/chunkdup/)
+
+```
+Find (partial content) duplicate files.
+
+Usage: chunkdup <chunksums_file1> <chunksums_file2>
+
+Examples:
+
+  $ chunksum dir1/ -f chunksums.dir1
+  $ chunksum dir2/ -f chunksums.dir2
+  $ chunkdup chunksums.dir1 chunksums.dir2
+
