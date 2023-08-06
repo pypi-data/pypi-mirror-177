@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyci_utils.egg-info/PKG-INFO
+pyci_utils.egg-info/SOURCES.txt
+pyci_utils.egg-info/dependency_links.txt
+pyci_utils.egg-info/entry_points.txt
+pyci_utils.egg-info/requires.txt
+pyci_utils.egg-info/top_level.txt
