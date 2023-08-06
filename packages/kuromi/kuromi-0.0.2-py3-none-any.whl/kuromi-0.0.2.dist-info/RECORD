@@ -1,0 +1,10 @@
+kuromi/__init__.py,sha256=UhcxQIEhrQnWSLzVxILIYJMD5Zcrb09F2IJxg0YTx4Y,44
+kuromi/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kuromi/cli/main.py,sha256=JlgUq19Uwm4_60TAMpZwt5S2nmTFNqp9spZB3tTk4hM,298
+kuromi/cli/run.py,sha256=3fYTh_6h7fVBLJEcb4V0JgnTfROPaPWOllg622YJ2BI,20
+kuromi-0.0.2.dist-info/METADATA,sha256=OD1iTqOv3rUZxBq7vSzICZTUgDZrDLmmYM8RAP9LXuM,939
+kuromi-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kuromi-0.0.2.dist-info/entry_points.txt,sha256=N89OKvDFQo4UvTq4v3IQKtNDHYS08phuArf1TDFnFfM,48
+kuromi-0.0.2.dist-info/top_level.txt,sha256=Hfs1NyrBS9vNoUx9aboNzdrrhS3dFVIZQQSRHYpXUCg,7
+kuromi-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kuromi-0.0.2.dist-info/RECORD,,

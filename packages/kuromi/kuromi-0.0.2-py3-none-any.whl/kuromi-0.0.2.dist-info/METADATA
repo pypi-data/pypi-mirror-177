@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kuromi
+Version: 0.0.2
+Summary: system tool
+Home-page: http://github.com/ponponon/kuromi
+Author: ponponon
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Dist: click
+Requires-Dist: psutil
+
+# kuromi
+
+glances such tools are not detailed enough for single process monitoring, kuromi is responsible for the enhancement of single process monitoring, such as various socket, cpu, memory, etc.
