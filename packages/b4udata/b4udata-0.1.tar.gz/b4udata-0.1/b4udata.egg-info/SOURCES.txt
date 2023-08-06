@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+b4udata/__init__.py
+b4udata/connections.py
+b4udata/exclusions.py
+b4udata.egg-info/PKG-INFO
+b4udata.egg-info/SOURCES.txt
+b4udata.egg-info/dependency_links.txt
+b4udata.egg-info/not-zip-safe
+b4udata.egg-info/top_level.txt
