@@ -1,0 +1,17 @@
+aiohttp_cors
+aioxmpp
+pandas
+pyModbusTCP
+spade>=3.2.2
+PyYAML
+
+[build]
+build
+twine
+
+[dev]
+black
+isort
+mypy
+bumpver
+pipreqs
