@@ -1,0 +1,10 @@
+mitchiCalpackage/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+mitchiCalpackage/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+mitchiCalpackage/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+mitchiCalpackage/extras/__init__.py,sha256=WH_NDYeXDcviWAlS7M4KMvxfCl6JcxiV75w70avElZU,55
+mitchiCalpackage/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+mitchiCalpackage/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+mitchiCalpackage-0.0.5.dist-info/METADATA,sha256=y4XO82Mpkn8WPB_bTMPqJNgPWCRXgp4OlOLL5tUp2vw,609
+mitchiCalpackage-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mitchiCalpackage-0.0.5.dist-info/top_level.txt,sha256=kwTiuv8p_Y4V12GIumztt9kqGqaG_MRDF2tUykGKSlk,17
+mitchiCalpackage-0.0.5.dist-info/RECORD,,
