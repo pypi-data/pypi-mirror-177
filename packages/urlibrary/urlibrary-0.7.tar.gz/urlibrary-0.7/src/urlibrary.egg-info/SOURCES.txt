@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/urlibrary.egg-info/PKG-INFO
+src/urlibrary.egg-info/SOURCES.txt
+src/urlibrary.egg-info/dependency_links.txt
+src/urlibrary.egg-info/requires.txt
+src/urlibrary.egg-info/top_level.txt
