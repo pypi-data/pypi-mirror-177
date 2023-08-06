@@ -1,0 +1,10 @@
+HRR/__init__.py,sha256=oR0z4jlxuF-Bd3xmCGBZK-kz6th3YQ5kJHt6LXmeac8,280
+HRR/with_flax.py,sha256=5P6zOTGvOBglbHKX4hQrDTTOym_KwphKtJ3_NZPpyA0,1826
+HRR/with_jax.py,sha256=C3js6lCkSXL4jWOu2Ufw1U3_4LRARNkvKX_WM3NA6gg,2176
+HRR/with_pytorch.py,sha256=rJS1U_ngKm1Dn-pCtxcrmzKk8gy4MfvQm5DmpWiwaOI,2227
+HRR/with_tensorflow.py,sha256=dvrBCY20YZA_KEydf4Jn-Ey-I-S-E1uUJetTNOhEclw,1802
+hrr-1.1.0.dist-info/LICENSE,sha256=Xt9uy2sIWG9K8AaU-LFEYLElYWAopgNV_B5lf1ZRWYk,1089
+hrr-1.1.0.dist-info/METADATA,sha256=YKSp4LTTg3GScB9cSOhAJPF-_LGf7HtDKsK5pVckva0,7727
+hrr-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hrr-1.1.0.dist-info/top_level.txt,sha256=AllrhIcv9SUKW-Ypar2gXZiGAUq5y-fa11n-DB53tK0,4
+hrr-1.1.0.dist-info/RECORD,,
