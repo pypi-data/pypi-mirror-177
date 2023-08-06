@@ -1,0 +1,7 @@
+blinker
+ipython
+nbsphinx
+networkx
+pygraphviz
+sphinx-gallery < 0.11
+sphinx_rtd_theme

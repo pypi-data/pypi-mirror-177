@@ -1,0 +1,10 @@
+*.egg-info
+*.pyc
+.DS_Store
+.cover
+.coverage
+.ipynb_checkpoints
+artwork/backup
+artwork/ipr
+dist
+docs/user-guide/test.svg
