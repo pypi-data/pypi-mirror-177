@@ -1,0 +1,11 @@
+monthinfo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monthinfo/currentmonth.py,sha256=FykieL3BBAlrgLkjuY9PRU1Mkh1w8ZsI_Nj710HnM6Y,249
+monthinfo/monthinfo copy.py,sha256=qd5PLJQ2PlcB-YGxCh7fI253Ro9FAW4SEE_ljaV8J6c,5106
+monthinfo/monthinfo.py,sha256=S6MPf6KldLjDOsWccIBO7gG5SjwcTU8FilSePtYuyD4,5106
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_month_info.py,sha256=kNtTnD1el8qRh1v-9QDwlqocVY-kNdx9GAhK3h3-hHQ,7577
+monthinfo-1.0.0.dist-info/LICENSE,sha256=nwrhRx0Kx6GsdiiapKZeT0q3VSGOxlCxAtAdMj4-z7k,1105
+monthinfo-1.0.0.dist-info/METADATA,sha256=Y28oMh5AhqB5vmR12JOZhPE4Otse1S0NnNAhp-z-Bvk,3889
+monthinfo-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+monthinfo-1.0.0.dist-info/top_level.txt,sha256=xFr6V_e-B86kqcyEuXmgu9WhTVADrlMFNCNoHBSromg,16
+monthinfo-1.0.0.dist-info/RECORD,,
