@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/funAD/__init__.py
+src/funAD/__main__.py
+src/funAD/dual_number.py
+src/funAD/function.py
+src/funAD/operations.py
+src/funAD.egg-info/PKG-INFO
+src/funAD.egg-info/SOURCES.txt
+src/funAD.egg-info/dependency_links.txt
+src/funAD.egg-info/requires.txt
+src/funAD.egg-info/top_level.txt
