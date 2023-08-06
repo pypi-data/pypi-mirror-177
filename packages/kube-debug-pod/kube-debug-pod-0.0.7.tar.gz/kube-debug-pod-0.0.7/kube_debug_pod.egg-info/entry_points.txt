@@ -1,0 +1,2 @@
+[console_scripts]
+kdb = kube_debug_pod.__main__:kdb
