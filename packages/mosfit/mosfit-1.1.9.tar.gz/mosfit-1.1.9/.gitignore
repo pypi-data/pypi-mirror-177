@@ -1,0 +1,27 @@
+build/
+cache/
+products/
+output/
+dist/
+src/
+mosfit/modules/observables/filters
+mosfit/modules/observables/filters/*.dat
+mosfit/modules/observables/filters/*.xml
+/models/
+/jupyter/
+/modules/
+MANIFEST
+mosfit.egg-info/
+*.pyc
+*checkpoint.ipynb
+*.so
+*.prof
+*.swp
+.DS_Store
+/*.*
+mosfit/strings-*.json
+*.tags*
+
+# Documentation
+docs/_build
+docs/api
