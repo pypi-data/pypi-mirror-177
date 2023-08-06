@@ -1,0 +1,16 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+gammatone/__init__.py
+gammatone/fftweight.py
+gammatone/filters.py
+gammatone/gtgram.py
+gammatone/plot.py
+melizalab_gammatone.egg-info/PKG-INFO
+melizalab_gammatone.egg-info/SOURCES.txt
+melizalab_gammatone.egg-info/dependency_links.txt
+melizalab_gammatone.egg-info/not-zip-safe
+melizalab_gammatone.egg-info/requires.txt
+melizalab_gammatone.egg-info/top_level.txt
