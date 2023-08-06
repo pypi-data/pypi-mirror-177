@@ -1,0 +1,8 @@
+homeservices/__init__.py,sha256=dq0vGbQXV6r1uQmzel4S15CUemt9ItIZ6XGd0v8l2KQ,124
+homeservices/config-template.yml,sha256=9-eahdY_uSx-UO_o2JaJkNLFgmMVNgd0-lqSVslmu1I,205
+homeservices/webservice.py,sha256=C8WaoIpSoq3W8kCQWXljdgpaLdrcIkM9KYmzxIPcGQ0,4453
+homeservices/wsgi.py,sha256=EvG8sHUQ0SzNukCw9q02M3X9-Lp4yB1sifX6SnhkiXY,482
+homeservices-0.1.1.dist-info/METADATA,sha256=B0mipXdN_stfmAaTzEmHWtKo66ykp5mY2EcyUrHcnIA,716
+homeservices-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+homeservices-0.1.1.dist-info/top_level.txt,sha256=K20BjQ1Sb9BA1B9VC8jzCddSL0Qwqx1qfk791qEE_1k,13
+homeservices-0.1.1.dist-info/RECORD,,
