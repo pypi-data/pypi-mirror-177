@@ -1,0 +1,8 @@
+README.md
+setup.py
+avalia_temperatura/__init__.py
+avalia_temperatura/termometro.py
+avalia_temperatura.egg-info/PKG-INFO
+avalia_temperatura.egg-info/SOURCES.txt
+avalia_temperatura.egg-info/dependency_links.txt
+avalia_temperatura.egg-info/top_level.txt
