@@ -1,0 +1,15 @@
+jupyter_geppetto/__init__.py,sha256=2w4ER0C2JW9qbYMVmqsJEpfGRcPE7I2le_IRsfkabx4,5646
+jupyter_geppetto/handlers.py,sha256=RgQRlWNbRFLlql9Uaui89Mqgbpu1b1rVrQ30Z9YN2jw,581
+jupyter_geppetto/index.js,sha256=gDYd1pKDjVqUl3Z59L0T3xvSxyddIYMEm9mQ7qunnTw,1107657
+jupyter_geppetto/service.py,sha256=HWqKlRSt9RHhAqhKRjaKj9zIOXLA_3c93DXL_8sBIWw,900
+jupyter_geppetto/settings.py,sha256=8CcVGiDalvg14PP1s4HVkvTKQw_j8aJxVgPvZy2aJmI,649
+jupyter_geppetto/synchronization.py,sha256=MM08JPXwuyX6afcLB44Au0SFq_jHdDDtM2IgyhI9ZYc,5565
+jupyter_geppetto/utils.py,sha256=Er7H3GKUOzR9nfbnyHVs47AA1iimizH1hR87HwqP6Zo,2047
+jupyter_geppetto/webapi.py,sha256=rG55DqT5vNnxAf776Jq6DGD8e-lwHCzN_1x8ns5U9-8,4935
+jupyter_geppetto/websocket_connection.py,sha256=zR2DkDfHSNRkz4OrhwnYU-sk10BzLpn0eatiZMXg0Zc,2662
+jupyter_geppetto-1.1.5.data/data/share/jupyter/nbextensions/jupyter_geppetto/index.js,sha256=gDYd1pKDjVqUl3Z59L0T3xvSxyddIYMEm9mQ7qunnTw,1107657
+jupyter_geppetto-1.1.5.dist-info/LICENSE,sha256=a-4Y_OPbWCe4Iz4Y8A2ScH3vI2KOyFrybBMJrLg0AGQ,1384
+jupyter_geppetto-1.1.5.dist-info/METADATA,sha256=SGUhfffLKE5lB--71rC98CecaJOs9IM42aPTLXPHpDk,1416
+jupyter_geppetto-1.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jupyter_geppetto-1.1.5.dist-info/top_level.txt,sha256=upLX0IP6IIoBM5juTi2_ExjOsXJwQ6UGXKWxCkv4kKY,17
+jupyter_geppetto-1.1.5.dist-info/RECORD,,
