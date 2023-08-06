@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+vnnews/__init__.py
+vnnews/news_capture.py
+vnnews/util.py
+vnnews.egg-info/PKG-INFO
+vnnews.egg-info/SOURCES.txt
+vnnews.egg-info/dependency_links.txt
+vnnews.egg-info/requires.txt
+vnnews.egg-info/top_level.txt
