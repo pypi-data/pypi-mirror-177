@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.cfg
+setup.py
+test_native_core_dsk/__init__.py
+test_native_core_dsk/client.py
+test_native_core_dsk/session.py
+test_native_core_dsk.egg-info/PKG-INFO
+test_native_core_dsk.egg-info/SOURCES.txt
+test_native_core_dsk.egg-info/dependency_links.txt
+test_native_core_dsk.egg-info/requires.txt
+test_native_core_dsk.egg-info/top_level.txt
