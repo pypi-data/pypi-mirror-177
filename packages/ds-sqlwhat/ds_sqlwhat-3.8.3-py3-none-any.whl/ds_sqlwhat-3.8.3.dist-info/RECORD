@@ -1,0 +1,12 @@
+ds_sqlwhat/State.py,sha256=42RxkUC4aLWcKw9teS-dMtXhoXO5LvnT__BCKwESiyU,1545
+ds_sqlwhat/__init__.py,sha256=hgNnxC0REw4I_Dq027oR_As_ZaKsesisLU9Cfgjjtgc,77
+ds_sqlwhat/sct_syntax.py,sha256=S_SpjCB3orlSL9x2H95VC-1tZNY65mcvAvn8nURplHQ,530
+ds_sqlwhat/test_exercise.py,sha256=m0NHVG8b1mTUfwA8Y9qEXNnjAO6NhbDHYp7SNOniS_g,1613
+ds_sqlwhat/checks/__init__.py,sha256=dWAQsWmFn6skIeYbzZEzY7AozpEqTwGXRCHg3sbHXr4,720
+ds_sqlwhat/checks/check_funcs.py,sha256=RvfirIcQV_06ASa2hwyLpX3GfttapbA1CD301fFlmXQ,13394
+ds_sqlwhat/checks/has_funcs.py,sha256=s4sgIh3ulkKXzxIRmfcjB4CTUHE3t6gyhAsA389gPKA,7795
+ds_sqlwhat-3.8.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+ds_sqlwhat-3.8.3.dist-info/METADATA,sha256=7OaM5eCyVTXE1JNvL9owNj0ZCX2bY5coIx1xD6SLIhw,3491
+ds_sqlwhat-3.8.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ds_sqlwhat-3.8.3.dist-info/top_level.txt,sha256=XLUXvcAHwWNbKQvzjMrMh47x-t0HYMBCmtFUUQlZIH4,11
+ds_sqlwhat-3.8.3.dist-info/RECORD,,
