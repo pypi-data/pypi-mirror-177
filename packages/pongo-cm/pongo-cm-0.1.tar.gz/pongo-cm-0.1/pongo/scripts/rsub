@@ -1,0 +1,69 @@
+#!/bin/sh
+# A helper utility for rset(1)
+# Substitute lines in a file or append if not found
+# 2018 Eric Radman <ericshane@eradman.com>
+
+ret=1
+
+usage() {
+	>&2 echo "release: 2.4"
+	>&2 echo "usage: rsub [-A] -r line_regex -l line_text target"
+	>&2 echo "usage: rsub target < block_content"
+	exit 1
+}
+
+trap '' HUP
+append=1
+
+while [ $# -gt 1 ]; do
+	case "$1" in
+		-A) append=0 ;;
+		-r) shift; line_regex=$1 ;;
+		-l) shift; line_text=$1 ;;
+		 *) usage ;;
+	esac
+	shift
+done
+[ $# -eq 1 ] || usage
+
+source=$(mktemp rsub_XXXXXXXX)
+target=$1
+
+case $(dirname "$target") in
+	/*) ;;
+	*)
+		>&2 echo "rsub: $target is not an absolute path"
+		exit 1
+		;;
+esac
+
+test -f "$target" || {
+	>&2 echo "rsub: file not found: $target"
+	exit 3
+}
+
+if test -z "$line_regex$line_text"; then
+	start="${RSUB_START:-# start managed block}"
+	end="${RSUB_END:-# end managed block}"
+	cat <<-EOF > ${source}_b
+	${start}
+	`cat`
+	${end}
+	EOF
+	awk -v m="$start" -v n="$end" -v block=${source}_b '
+		$0 == m, $0 == n { if (!x) system("cat " block) ; x=1; next; }; 1
+		END { if (!x) system("cat " block) }
+		' "$target" > $source
+	rm ${source}_b
+else
+	awk -v n=$append -v a="$line_regex" -v b="$line_text" \
+		'{ n+=sub(a, b)}; {print}; END {if (n==0) print b}' \
+		"$target" > $source
+fi
+
+test -e "$target" && diff -U 2 "$target" $source || {
+	cp $source "$target"
+	rm -f $source
+	ret=0
+}
+exit $ret
