@@ -1,0 +1,11 @@
+requests_iap2/__init__.py,sha256=PtN87CLMgGHo7O-4i3Z_21FISkHDC0F0X3xq8eSqYSo,429
+requests_iap2/_version.py,sha256=o7NhlSee6tnKRrcDF1niKT4Fis9KHtw8JpGGBZQHKvY,176
+requests_iap2/constants.py,sha256=1zQRP-7GDQXaH3ID0Kty3KiBp_5It7k5jdWJUWp2Ka8,510
+requests_iap2/create_client_id_file.py,sha256=1Ppzh-ohPvgC6ERwwL4CCJjFQG4kf-COTThRCmbwTgA,990
+requests_iap2/get_credentials.py,sha256=lKZGDIl7NfqrESgf07eaL4I-c6V8dUGs_U_BggBGvLQ,1590
+requests_iap2/iapauth.py,sha256=cGxNr5Q0f48rbn5mGP4jFOWzjkqYn1w8fWnBo-TqMBo,5592
+requests_iap2-2.0.0.dist-info/LICENSE,sha256=SUPnDPkFKXjym7sSNUO9tYXrEcEq1xfzD0SD4wWg_34,1077
+requests_iap2-2.0.0.dist-info/METADATA,sha256=npXyeo5FYHPY1X4a9CskS65I3nm4AL0n1pF1d8XXdM8,6476
+requests_iap2-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+requests_iap2-2.0.0.dist-info/top_level.txt,sha256=0f7yb20cb2Q156ADUmsQtRMx3jx_v5aiRfxlLuCjMWA,14
+requests_iap2-2.0.0.dist-info/RECORD,,
