@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+stdeb.cfg
+./junkaptor/__about__.py
+./junkaptor/__init__.py
+./junkaptor/py.typed
+./junkaptor/trans.py
+./junkaptor/typehints.py
+junkaptor.egg-info/PKG-INFO
+junkaptor.egg-info/SOURCES.txt
+junkaptor.egg-info/dependency_links.txt
+junkaptor.egg-info/requires.txt
+junkaptor.egg-info/top_level.txt
+junkaptor.egg-info/zip-safe
