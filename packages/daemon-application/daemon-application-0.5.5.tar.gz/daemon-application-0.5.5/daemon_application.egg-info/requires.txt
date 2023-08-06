@@ -1,0 +1,5 @@
+six
+psutil
+click
+pyyaml
+zenutils>=0.3.12
