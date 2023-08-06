@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: input-detect
+Version: 1.0.2
+Author: Huang Bo-Xuan
+Author-email: r09142003@gmail.com
+Requires-Dist: pyaudio
+
