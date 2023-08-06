@@ -1,0 +1,10 @@
+prefix=/opt/_internal/cpython-3.8.13
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: pugixml
+Description: Light-weight, simple and fast XML parser for C++ with XPath support.
+URL: https://pugixml.org/
+Version: 1.12.1
+Libs: -L${libdir} -lpugixml
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/opt/_internal/cpython-3.8.13
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: themachinethatgoesping_echosounders
+Description: Library for reading, writing and processing single- and multibeam echsounder data formats.
+URL: https://github.com/themachinethatgoesping/echosounders
+Version: 0.8.9
+Requires: pugixml, themachinethatgoesping_tools, themachinethatgoesping_navigation
+Libs: -L${libdir} -lthemachinethatgoesping_echosounders /usr/local/lib/libboost_iostreams.a -fopenmp -lGeographicLib
+Cflags: -I${includedir} -I/usr/local/include -DBOOST_ALL_NO_LIB -fopenmp -D_USE_MATH_DEFINES -DXTENSOR_USE_XSIMD
