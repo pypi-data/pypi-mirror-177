@@ -1,0 +1,2 @@
+[console_scripts]
+unfollow = unfollow.cli:main

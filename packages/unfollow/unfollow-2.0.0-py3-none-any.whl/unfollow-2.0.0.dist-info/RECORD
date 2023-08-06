@@ -1,0 +1,13 @@
+.DS_Store,sha256=Mgb6_Ch1DXP7FfwEf0PFm42eJzKb0KmyrYSsLFe1Qms,6148
+unfollow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unfollow/beautify.py,sha256=iA74LDqQZT9G-kLCLXNp6XhUwYnhamkIZgeWJJZSI_w,1569
+unfollow/cli.py,sha256=ZRgg0Uo9mdyAfqvzg6h9AAId9L7Cc9hjUI-Kf7o3pLQ,5928
+unfollow/config.py,sha256=PW-Do6t8ZIsOFW2LMax0fjcWilJYq9lhCz9bEOQKehI,2547
+unfollow/input.py,sha256=VaO5u3uSgN3dxC0gcjmnL2eOQ0qT9wD81F4fkzo_uf0,1128
+unfollow/unfollow.py,sha256=1N5lyfOpezzjgjL0Bx1vZNikZdxbnpD1xd3kw6H3fzk,6318
+unfollow-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+unfollow-2.0.0.dist-info/METADATA,sha256=nOyDYOiSJi0Qz4M-tcartPjHWTfoEAL-mPHsOJTeFvk,266
+unfollow-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+unfollow-2.0.0.dist-info/entry_points.txt,sha256=LHxFllvP_JHqZcMP-2HmeiuZJBZMPmQmA_OhClxpkCk,47
+unfollow-2.0.0.dist-info/top_level.txt,sha256=2ReSQZfJaedE4mCraOta2GUEW8F12gj8M5RxmxLjoPQ,9
+unfollow-2.0.0.dist-info/RECORD,,
