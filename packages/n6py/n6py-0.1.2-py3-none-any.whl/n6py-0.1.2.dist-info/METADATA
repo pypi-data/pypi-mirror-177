@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: n6py
+Version: 0.1.2
+Summary: N6 AI Python Tools
+License: MIT
+Author: Sergej Samsonenko
+Author-email: contact@sergej.codes
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# N6 Py
