@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: helm-yaml-tui
+Version: 0.1.3
+Summary: TUI navigator for rendered Helm YAML output with tree navigation and syntax highlighting
+License: MIT
+Author: Adrian Rumpold
+Author-email: a.rumpold@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: ruamel.yaml (>=0.17.21,<0.18.0)
+Requires-Dist: textual (==0.5.0)
