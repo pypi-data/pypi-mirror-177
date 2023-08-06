@@ -1,0 +1,14 @@
+plotpen/__init__.py,sha256=_rxic-Y0VfeLC5zYAK_1Sbq92SwgdnNZMWyOHd7kv1o,10601
+plotpen/colors.py,sha256=Slsmo3uKCUmBvJcqv1ve2ra0qx4bCkdxHhaFAyJf8s0,67166
+plotpen/export.py,sha256=X7EuDf4a_FypbDUFLLKK7skcheqYEtAi6oYBelV05n8,3246
+plotpen/markers.py,sha256=c9MWuB_5_YRCZzN0s_hxiI8rNs4lbXEo8pXDlI6wOaw,4244
+plotpen/scale.py,sha256=1dCsGIHbfKWzeHrNMsYS84Po68bP-mxEh9OSgvHnfrE,5183
+plotpen/svg.py,sha256=KyyAri_fG8FWr_YpSLc70UwGq1Qxrq59rSWAyBLq6dc,26
+plotpen/tex.py,sha256=Hju-Pcd2cAx_-KAXCI0ZH-AUE743QlTDG-PENMHrqf0,8587
+plotpen/ticks.py,sha256=N4RHbKQJZ8U0YQdwdueR9EiLJrWzQIZk50ZjuwoaXCs,2903
+plotpen/tikz.py,sha256=5oRg_Eb4bjESFvCujYX2ZZUI1tOLgFGHQl1j1HdS-1c,10267
+plotpen-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+plotpen-0.0.3.dist-info/METADATA,sha256=xtpNbcOKpgWPjqU0pqk1-ggtlsrB6_Fv4xEEUXCn1pk,13514
+plotpen-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plotpen-0.0.3.dist-info/top_level.txt,sha256=fqE4nKHKt2_XgPizq4wruqMcgDyX9e4sFquS661ptMs,8
+plotpen-0.0.3.dist-info/RECORD,,
