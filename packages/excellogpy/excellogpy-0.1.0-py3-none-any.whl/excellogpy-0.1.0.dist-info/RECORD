@@ -1,0 +1,8 @@
+logpy/__init__.py,sha256=t-htJSNx-i5sLsEWfYXdbWjqQ2wveWhs6XOBmG1trCM,3193
+logpy/model/__init__.py,sha256=rKjaNnxOpv0YHnpqb0-CwMR6DQ6TVWWQSOkVeXLwQY0,68
+logpy/model/entry.py,sha256=ifUzZ6-_Z2Pg-9N4hMAthLMac2mjwPHZ-s0j_Ftd4Wc,1758
+logpy/model/log.py,sha256=XF4zeyUCWEkCVNGU1r55As_9nL2nvtYC1HRaJ0vZUD0,1110
+excellogpy-0.1.0.dist-info/METADATA,sha256=yDcwtNka06SSKbyvRh3PENJ5vChqHCN34bt7Wy44CL4,1136
+excellogpy-0.1.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+excellogpy-0.1.0.dist-info/licenses/LICENSE,sha256=dwiKIxJFgdDynnmvVWoJjmCWcFjI9rZUfUv4Kyx0RUA,1071
+excellogpy-0.1.0.dist-info/RECORD,,
