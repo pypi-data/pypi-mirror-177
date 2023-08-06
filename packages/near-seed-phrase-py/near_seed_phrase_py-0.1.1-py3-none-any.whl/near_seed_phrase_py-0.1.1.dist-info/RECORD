@@ -1,0 +1,11 @@
+LICENSE,sha256=MP78On1qAEFUGFgpO8vqLd5MqkwKWAL5lqf36MAIVlI,1022
+near_seed_phrase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+near_seed_phrase/main.py,sha256=cxLDkQls_hx-uY2kwp3ovKvrmaRC645LwuNeYl_KcbE,1317
+near_seed_phrase/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+near_seed_phrase/utils/hd_key.py,sha256=mUACRPgxKB-kIHPnAo2HbgDpElJ8eg_bQ9kIsPmQJWs,887
+near_seed_phrase/utils/near_keys.py,sha256=uC7YTrf5nxslhb0_3H6IWgaItbIW94eHI2znd7Bcu_A,461
+near_seed_phrase/utils/seed_phrase.py,sha256=31a-0q7N4IK6GMBytVi5Gq9k6TveC4_5S0LIlbFvGjY,242
+near_seed_phrase_py-0.1.1.dist-info/LICENSE,sha256=MP78On1qAEFUGFgpO8vqLd5MqkwKWAL5lqf36MAIVlI,1022
+near_seed_phrase_py-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+near_seed_phrase_py-0.1.1.dist-info/METADATA,sha256=2WP32wT8yBW6Xduy6hNNYIST0faQAZ1HVZ3XDNjQecc,2043
+near_seed_phrase_py-0.1.1.dist-info/RECORD,,
