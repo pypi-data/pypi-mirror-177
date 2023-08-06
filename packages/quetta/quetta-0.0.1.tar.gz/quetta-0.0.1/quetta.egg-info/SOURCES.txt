@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+quetta.egg-info/PKG-INFO
+quetta.egg-info/SOURCES.txt
+quetta.egg-info/dependency_links.txt
+quetta.egg-info/top_level.txt
