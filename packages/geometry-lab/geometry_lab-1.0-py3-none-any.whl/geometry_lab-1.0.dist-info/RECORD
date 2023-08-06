@@ -1,0 +1,11 @@
+.DS_Store,sha256=y3hB5QwtiXW0U-itVjEyJLP8IAzztGRtR34B_O6Z-BU,6148
+geometry_lab/.DS_Store,sha256=Wrb1bqbVf-WwAt2Ur_Z8fuH4cQKY8DK-DRC8WWE0RkM,6148
+geometry_lab/__init__.py,sha256=jT981QzDnd0F3VMKDnOn9SvoomGBOnzCZdm0lX8KLh0,31
+geometry_lab/point.py,sha256=bTV_u4ARyh82V-x1WHH17G7AHewgj75g1fkq4qSQl-A,312
+geometry_lab/figures/__init__.py,sha256=439jBuAA5QpL0Od5u6lnIfMk523-9YU1mA7ZIwEzkoc,31
+geometry_lab/figures/line.py,sha256=ZQ3WZGNGyJy4h0FWPlrb0JPU7v9kFoza7lFNFTWR5Rk,414
+geometry_lab/figures/triangle.py,sha256=imZh2AoOhuL1k9hbiKhqiRG7TkWScrzaO8vn3W5QW7s,1066
+geometry_lab-1.0.dist-info/METADATA,sha256=ypfDjzSEoIScMvclosv5gI3ZzZ_v-Mq8f9tfg-iUXzY,226
+geometry_lab-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+geometry_lab-1.0.dist-info/top_level.txt,sha256=evvkopKn1wusri9DjFJjLrnSx1GqzU501AYuejFNFHA,13
+geometry_lab-1.0.dist-info/RECORD,,
