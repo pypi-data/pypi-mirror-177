@@ -1,0 +1,8 @@
+resoto_plugin_aws_k8s/__init__.py,sha256=teK3oAeHWpga3uwHpJ9s75bRSqW4_y3bA2DYQ48tRTA,1724
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_collector.py,sha256=WkuvlQE45AWNMG6cGvi_rWLY59EbMwZFvw1w8wgEARY,592
+resoto_plugin_aws_k8s-3.0.0a0.dist-info/METADATA,sha256=3dnwiANCXs4PU8pTdWuhFmbViAvgd4qZjO9w-dHImsY,832
+resoto_plugin_aws_k8s-3.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+resoto_plugin_aws_k8s-3.0.0a0.dist-info/entry_points.txt,sha256=GnFRA4ODczyKvNPT_qiz7cWrWjIBmZY2J9QzpA6WVVY,81
+resoto_plugin_aws_k8s-3.0.0a0.dist-info/top_level.txt,sha256=CTGZGM-toApGEk_v7Be6oBt1CXpIEp12wGGLZXIgUC4,27
+resoto_plugin_aws_k8s-3.0.0a0.dist-info/RECORD,,
