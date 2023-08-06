@@ -1,0 +1,123 @@
+[tool.poetry]
+name = "python-project-poetry-template"
+version = "0.14.0"
+description = "Python Project Poetry Template"
+authors = ["mrjk"]
+license = "GPLv3"
+
+readme = "README.md"
+homepage = "https://mrjk.github.io/python-project-poetry-template/"
+repository = "https://github.com/mrjk/python-project-poetry-template"
+keywords = ["test", "lab", "template", "poetry"]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+]
+include = [
+    "README.md",
+    "CHANGELOG.md",
+]
+
+
+packages = [
+    { include = "myprj"}
+]
+
+
+[tool.poetry.scripts]
+myprj = "myprj.cli:cli"
+
+
+[tool.semantic_release]
+
+# Files
+version_variable = [
+    "myprj/__version__.py:^__version__",
+#    "pyproject.toml:^version ?= ?"
+]
+version_toml = [
+    'pyproject.toml:tool.poetry.version',
+  ]
+
+# Main config
+branch = "main"
+major_on_zero = true
+version_source = "commit"
+
+# Pattern that will be looked up in all commit that bumped things
+commit_version_number = true
+commit_subject = "bump: version v{version}"   # NEVER CHANGE THIS ONCE SET
+commit_message = "semantic-release new version: version {version}" # NEVER CHANGE THIS ONCE SET
+
+# Pipeline hooks
+pre_commit_command = "task release_changelog"
+include_additional_files = 'VERSION_NOTES.md'
+
+# Tag management
+tag_commit = false # By default, we don not tag, unless explicitely set
+tag_format = "v{version}" # NEVER CHANGE THIS ONCE SET
+
+# Build
+changelog_file = "CHANGELOG.md"
+commit_parser = 'semantic_release.history.angular_parser'
+#commit_parser = 'semantic_release.history.scipy_parser'
+
+# Run build ?
+#build_command = 'task build' # aka poetry build
+build_command = false
+
+dist_path = 'dist/'
+#remove_dist = false # uneeded anymore as we dont build wi pre-commit anymore
+upload_to_release = false
+ignore_token_for_push = true
+
+# Publish to github
+# Require: export GH_TOKEN=
+upload_to_repository = false # Disable wheel upload
+
+# Publish to Pypi
+# Require: PYPI_TOKEN REPOSITORY_USERNAME PYPI_USERNAME PYPI_PASSWORD
+upload_to_pypi = false
+
+# See: https://python-semantic-release.readthedocs.io/en/latest/automatic-releases/github-actions.html
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs = "^1.4.0"
+mkdocs-material = "^8.5.6"
+mkdocs-schema-reader = "^0.11.1"
+mkdocs-jupyter = "^0.22.0"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+mkdocs-literate-nav = "^0.5.0"
+mike = {git = "https://github.com/jimporter/mike", rev = "master"}
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+#[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+# Need to use: https://github.com/mrjk/python-semantic-release for <=7.32.2
+python-semantic-release = "^7.32.2"
+poetry = "^1.2.2"
+pre-commit = "^2.20.0"
+commitizen = "^2.37.0"
+#poetry-bumpversion = "0.0.1"
+
+
+# [tool.poetry_bumpversion.file."myprj/__version__.py"]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
