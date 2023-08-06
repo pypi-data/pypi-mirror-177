@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "vector-search-api"
+version = "0.4.2"
+description = "Vector-Search API of databases."
+authors = ["AllenChou <f1470891079@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">= 3.7.1, < 4.0.0"
+numpy = "1.*"
+faiss-cpu = {version = "1.*", optional = true}
+pinecone-client = {version = "2.*", optional = true}
+
+[tool.poetry.extras]
+all = ["faiss-cpu", "pinecone-client"]
+faiss = ["faiss-cpu"]
+pinecone = ["pinecone-client"]
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+pep440-version-utils = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+toml = "*"
+yapf = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+pep440-version-utils = "*"
+pytest = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+toml = "*"
+yapf = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.yapf]
+based_on_style = "yapf"
+indent_width = 4
+column_limit = 88
+blank_lines_between_top_level_imports_and_variables = 2
