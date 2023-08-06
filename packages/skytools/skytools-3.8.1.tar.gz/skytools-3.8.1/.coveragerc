@@ -1,0 +1,18 @@
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__
+    except ImportError:
+    raise NotImplementedError
+omit =
+    .tox/*
+    tests/*
+    */tests/*
+
+[paths]
+source_pkgs = 
+    skytools/
+    */skytools/
+
+[run]
+source_pkgs = skytools
