@@ -1,0 +1,14 @@
+numpy
+opencv-python
+lxml
+scipy
+numba
+torch>=1.12
+brnolm>=0.1.1
+scikit-learn
+scikit-image
+shapely==1.8
+safe-gpu
+pyamg
+imgaug
+arabic_reshaper
