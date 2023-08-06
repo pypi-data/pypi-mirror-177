@@ -1,0 +1,5 @@
+xstrle.egg-info/PKG-INFO
+xstrle.egg-info/SOURCES.txt
+xstrle.egg-info/dependency_links.txt
+xstrle.egg-info/requires.txt
+xstrle.egg-info/top_level.txt
