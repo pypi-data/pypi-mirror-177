@@ -1,0 +1,8 @@
+pysyncobj==0.3.10
+pyzmq==24.0.1
+protobuf==4.21.8
+requests>=2.2
+pyyaml==6.0
+
+[DEV]
+pyzmq>=22.3.0
