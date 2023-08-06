@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pkgexampledatabases
+Version: 0.0.3
+Summary: A simple database package example
+Author-email: Good Boy <pythonic@rexbytes.com>
+Project-URL: Homepage, https://github.com/RexBytes/pkgexampledatabases
+Project-URL: Bug Tracker, https://github.com/RexBytes/pkgexampledatabases/issues
+Project-URL: Download URL, https://github.com/RexBytes/pkgexampledatabases/archive/refs/tags/v0.0.3.tar.gz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# pkgexampledatabases
+
+A RexBytes example package that shows you how to,
+
+1) Create and address an sqlite3 database inside your python package.
+2) Create and address an sqlite3 database at anyother location on a filesystem.
+   Access to a users home directory is used as the example.
+
+
+The following config files are used to describe two sqlite databases.
+
+1) /pkgexampledatabases/data/config/packagedb.json
+   This is the json description file for the database that is constructed inside your package.
+
+2) /pkgexampledatabases/data/config/userdb.json
+   This is the json desctiption file for the database that is constructed inside a users home directory.
+
+
+You can have as many database entries in the above files as you like.
+It is convenient to describe your databases in json format and let your package create the
+end user databases.

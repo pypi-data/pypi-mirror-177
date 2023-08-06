@@ -1,0 +1,2 @@
+[console_scripts]
+rexdbp = pkgexampledatabases:my_database_module.rexdbp
