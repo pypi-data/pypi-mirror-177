@@ -1,0 +1,6 @@
+requests
+holoviews<1.13
+sympy
+
+[sklearn]
+scikit-learn
