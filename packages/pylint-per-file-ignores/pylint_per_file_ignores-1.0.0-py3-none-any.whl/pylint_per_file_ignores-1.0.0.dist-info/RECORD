@@ -1,0 +1,4 @@
+pylint_per_file_ignores/__init__.py,sha256=0gAExq1N0SnNOa_jMU9G813F-fuSf8szWGtWo3HI44s,6762
+pylint_per_file_ignores-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pylint_per_file_ignores-1.0.0.dist-info/METADATA,sha256=1KUV_Ee3EiLxPqXo0eMJCXuDKJIZ-iyZsjrHGSHVzrU,1549
+pylint_per_file_ignores-1.0.0.dist-info/RECORD,,
