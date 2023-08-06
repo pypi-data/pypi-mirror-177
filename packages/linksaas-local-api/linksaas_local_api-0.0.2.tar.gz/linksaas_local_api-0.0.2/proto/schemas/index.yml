@@ -1,0 +1,16 @@
+BugInfo:
+  $ref: ./bugInfo.yml
+DocInfo:
+  $ref: ./docInfo.yml
+DocSpaceInfo:
+  $ref: ./docSpaceInfo.yml
+EmptyRes:
+  $ref: ./emptyRes.yml
+ErrInfo:
+  $ref: ./errInfo.yml
+EventInfo:
+  $ref: ./eventInfo.yml
+SimpleMemberInfo:
+  $ref: ./simpleMemberInfo.yml
+TaskInfo:
+  $ref: ./taskInfo.yml

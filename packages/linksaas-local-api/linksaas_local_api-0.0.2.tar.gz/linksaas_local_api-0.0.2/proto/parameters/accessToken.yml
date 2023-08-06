@@ -1,0 +1,6 @@
+in: query
+name: accessToken
+schema:
+  type: string
+required: true
+description: 访问令牌

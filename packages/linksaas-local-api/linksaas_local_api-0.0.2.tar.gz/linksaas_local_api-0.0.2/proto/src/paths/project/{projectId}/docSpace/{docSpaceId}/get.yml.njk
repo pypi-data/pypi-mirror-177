@@ -1,0 +1,42 @@
+tags:
+  - projectDoc
+summary: 文档列表
+description: 列出文档列表
+operationId: "{{ uniqueOpId() }}"
+parameters:
+  - $ref: "@parameters/projectId.yml.njk"
+  - $ref: "@parameters/docSpaceId.yml.njk"
+  - $ref: "@parameters/accessToken.yml.njk"
+  - $ref: "@parameters/offset.yml.njk"
+  - $ref: "@parameters/limit.yml.njk"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            totalCount:
+              type: integer
+              description: 文档总数量
+            docList:
+              type: array
+              items:
+                $ref: "@schemas/docInfo.yml.njk"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "@schemas/errInfo.yml.njk"

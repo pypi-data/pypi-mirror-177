@@ -1,0 +1,32 @@
+tags:
+  - projectBug
+summary: 便签方式显示缺陷
+description: 便签方式显示缺陷
+operationId: "{{ uniqueOpId() }}"
+parameters:
+  - $ref: "@parameters/projectId.yml.njk"
+  - $ref: "@parameters/bugId.yml.njk"
+  - $ref: "@parameters/accessToken.yml.njk"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "@schemas/emptyRes.yml.njk"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "@schemas/errInfo.yml.njk"

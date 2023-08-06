@@ -1,0 +1,56 @@
+type: object
+properties:
+  eventId:
+    type: string
+    description: 事件ID
+  userId:
+    type: string
+    description: 事件相关用户ID
+  userDisplayName:
+    type: string
+    description: 用户名称
+  eventType:
+    type: string
+    description: 事件类型
+    enum:
+      - user
+      - project
+      - task
+      - bug
+      - sprit
+      - doc
+      - disk
+      - workSnapshot
+      - app
+      - bookShelf
+      - robot
+      - earthly
+      - gitlab
+      - github
+      - gitea
+      - gitee
+      - gogs
+      - jira
+      - confluence
+      - jenkins
+  refType:
+    type: string
+    description: 事件关联类型
+    enum:
+      - none
+      - user
+      - project
+      - channel
+      - sprit
+      - task
+      - bug
+      - doc
+      - book
+      - robot
+      - repo
+  refId:
+    type: string
+    description: 事件关联ID
+  eventData:
+    type: object
+    description: 事件内容

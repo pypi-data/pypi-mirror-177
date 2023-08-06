@@ -1,0 +1,41 @@
+tags:
+  - projectBug
+summary: 所有缺陷
+description: 列出所有缺陷
+operationId: "projectProjectIdBugAllGet"
+parameters:
+  - $ref: "../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../parameters/accessToken.yml"
+  - $ref: "../../../../../parameters/offset.yml"
+  - $ref: "../../../../../parameters/limit.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            totalCount:
+              type: integer
+              description: 缺陷总数量
+            bugList:
+              type: array
+              items:
+                $ref: "../../../../../schemas/bugInfo.yml"
+  "500":
+    description:  失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../schemas/errInfo.yml"

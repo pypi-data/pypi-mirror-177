@@ -1,0 +1,18 @@
+tags:
+  - global
+summary: 握手协议
+description: 检查是否linksaas desktop的本地接口服务
+operationId: "{{ uniqueOpId() }}"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      text/plain:
+        schema:
+          type: string
+          example: hello linksaas

@@ -1,0 +1,7 @@
+in: query
+name: limit
+schema:
+  type: integer
+  minimum: 1
+required: true
+description: 列表大小
