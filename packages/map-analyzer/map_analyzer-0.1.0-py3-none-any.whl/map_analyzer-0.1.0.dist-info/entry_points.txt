@@ -1,0 +1,3 @@
+[console_scripts]
+map-analyzer = map_analyzer.cli.map_analyzer:main
+
