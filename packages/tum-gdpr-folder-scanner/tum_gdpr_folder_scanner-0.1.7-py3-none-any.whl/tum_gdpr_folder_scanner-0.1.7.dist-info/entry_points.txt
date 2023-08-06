@@ -1,0 +1,3 @@
+[console_scripts]
+tum-gdpr-folder-scanner=tum_gdpr_folder_scanner.main:app
+
