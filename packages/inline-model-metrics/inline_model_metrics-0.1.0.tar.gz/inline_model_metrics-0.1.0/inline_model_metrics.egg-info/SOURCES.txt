@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+inline_model_metrics/__init__.py
+inline_model_metrics/frontal_identification.py
+inline_model_metrics/tempest_atmos_river.py
+inline_model_metrics/tempest_common.py
+inline_model_metrics/tempest_cyclone.py
+inline_model_metrics/um_postprocess.py
+inline_model_metrics/um_preprocess.py
+inline_model_metrics.egg-info/PKG-INFO
+inline_model_metrics.egg-info/SOURCES.txt
+inline_model_metrics.egg-info/dependency_links.txt
+inline_model_metrics.egg-info/requires.txt
+inline_model_metrics.egg-info/top_level.txt
