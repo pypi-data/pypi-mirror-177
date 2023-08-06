@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.1
+gensim==4.2.0
+mecab-python3==1.0.5
+nltk==3.7
