@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyBound"
+version = "1.0.5"
+description = "pyBound is a collection of helpful functions that are useful in almost every python file."
+authors = ["Xhaiden D'Souza <xhaidendsouza@gmail.com>", "Brenden D'Souza <brendendsouz922@gmail.com>", "Aaron D'Souza <aarondsouz922forrealz@gmail.com>"]
+readme = "README.md"
+homepage = "https://pypi.org/project/pybound/"
+documentation = "https://pypi.org/project/pybound/#description"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

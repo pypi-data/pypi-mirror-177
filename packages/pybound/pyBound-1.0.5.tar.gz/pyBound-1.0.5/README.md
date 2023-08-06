@@ -1,0 +1,132 @@
+# pyBound
+
+Allows you to access multiple useful tools in your python code quick and easy.
+
+---
+### Documentation:
+
+ - `clear()` - clears console
+
+ - `wait(time=___)` - pauses code for number for seconds inputed. `time` is an optional parameter. By default it is 1 second.
+```
+print("Hello, welcome to pyBound!")
+wait()
+print("This is some extra text!")
+wait(4)
+clear()
+```
+will display:
+```
+Hello, welcome to pyBound!
+```
+for 1 second, and then it will display:
+```
+Hello, welcome to pyBound!
+This is some extra text!
+```
+for 4 seconds, after which the console will be cleared. The final display will be:
+
+```
+```
+
+Here are some formatting functions that pybound has to offer:
+
+ - `rgb_fore(r, g, b)` - Changes color of printed text to an RGB value. 
+ - `rgb_back(r, g, b)` - Changes background of printed text to an RGB value
+
+There are also more formatting options for your python text. They are used the same way the `rgb_fore()` and rgb_back` is used. They are listed here:
+
+- `end()` - Deletes all existing formatting
+
+- `bold()` - Bolds text
+
+- `faint()` - Decreases the opacity of text
+
+- `italic()` - Italicizes text
+
+- `underline()` - Underlines text
+
+- `blink_slow()` - Makes text blink slowly
+
+- `blink_fast()` - Makes text blink quickly
+
+- `negative()` - Inverts the background color and the foreground color of text
+
+- `conceal()` - Makes text invisible
+
+- `crossed()` - Strikes through text
+
+```
+red = rgb_fore(255, 0, 0)
+blue = rgb_fore(0, 0, 255)
+print(red + "Hello, " + blue + "there!")
+print("I love pyBound!")
+```
+will print
+```
+Hello there!
+I love pyBound!
+```
+such that `Hello,` is in red and `there! I love pyBound!` is in blue. However, you can use `end()` to fix this.
+
+```
+red = rgb_fore(255, 0, 0)
+blue = rgb_fore(0, 0, 255)
+end = end()
+print(red + "Hello, " + blue + "there!" + end)
+print("I love pyBound!")
+```
+will print `Hello,` in red, and `there!` in blue, and `I love pyBound!` in the default console text color, usually white.
+
+pyBound also provides the `\x1b` ANSI Escape Codes with easier functionality. All parameters are optional. For most of the `\x1b` ANSI Escape Code functions, the default is 1. Exceptions are listed below the functions.
+
+- `cursor_up(num=___)` - Moves cursor up `num` number of times.
+- `cursor_down(num=___)` - Moves cursor down `num` number of times.
+- `cursor_forward(num=___)` - Moves cursor forward `num` number of times.
+- `cursor_back(num=___)` - Moves cursor backwards `num` number of times.
+- `cursor_next_line(num=___)` - Moves cursor to the next line `num` number of times.
+- `cursor_prev_line(num=___)` - Moves cursor to the previous line `num` number of times.
+- `cursor_horiz_abs_pos(col=___)` - Cursor is moved to the column that the `col` parameter provides, within the row that it is already in.
+- `cursor_pos(row=___, col=___)` - Moves cursor to the specified row and column provided by the `row` and `col` parameters from the top left.
+- `cursor_indent(num=___)` - Indents cursor. Can be used alternatively to \t.
+- `erase_in_display(mode=___)` - Check below for modes.
+- `erase_in_line(mode=___)` - Check below for modes.
+- `scroll_up(num=___)` - EXPLANATION NEEDED
+- `scroll_down(num=___)` - EXPLANATION NEEDED
+- `cursor_save_pos()` - Saves cursor position to be used when restoring cursor position.
+- `cursor_restore_pos()` - Uses saved cursor position to restore it.
+- `cursor_invisible()` - Makes cursor invisible in the console.
+- `cursor_visible()` - Makes the cursor visible in the console.
+
+
+---
+The following are exceptions for the \x1b functions' default parameter of "1":
+- `erase_in_display(mode=___)` -  Check the next section for information on this.
+- `erase_in_line(mode=___)` - Check the next section for information on this.
+- `cursor_save_pos()`, `cursor_restore_pos()`, `cursor_invisible()`, and `cursor_visible()` all don't have parameters.
+
+---
+The following are the modes for `erase_in_display(mode=___)`:
+- Mode `cursorToEnd` - Erase from cursor to end of screen.
+- Mode `startToCursor` - Erase from start of screen to cursor.
+- Mode `entireScreen` - Erase entire screen (default if mode not specified).
+- Mode `scrollback` - Erase scrollback.
+- 
+The following are the modes for `erase_in_line(mode=___):`
+- Mode `cursorToEnd` - Erase from cursor to end of line
+- Mode `startToCursor` - Erase from start of line to cursor
+- Mode `entireLine` - Erase entire line (default if mode not specified)
+---
+ - `slow_print(*strings, 
+time=___
+, sep=___
+, end=___)` - prints text in a typwriter animation, one character at a time. All parameters are optional.
+
+Pybound's `slow_print()` function was modeled after Python's original print statement, you can do virtually all the same things in `slow_print()` and in `print()`. The default paramaters are showcased below, such that the following lines will do the same thing:
+
+```
+slow_print("Hello", "Welcome!", time = 0.045, sep = ' ', end = '\n')
+
+slow_print("Hello", "Welcome!", )
+```
+This is basically the same as the `print()` function, but the `flush` parameter is replaced by the `time` parameter. Time represents the time in seconds between the printing of each character.   You have to write the time as an integer or a float, although it is recommended that you stay in between 0 and 1 seconds. 
