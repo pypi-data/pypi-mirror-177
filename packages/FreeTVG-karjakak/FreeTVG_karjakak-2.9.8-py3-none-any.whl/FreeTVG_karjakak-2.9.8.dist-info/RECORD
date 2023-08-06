@@ -1,0 +1,13 @@
+TVG/FreeTVG.py,sha256=vj6FbHjjglOI0q9hh4gsQD-r6ny6j8QEJyAb3JW3vhs,146109
+TVG/Tutorial TVG.pdf,sha256=DxqwT0Y9AIzGWsf0IG5tQ-XuZqonU1ykIl4VGdJJirQ,166908
+TVG/__init__.py,sha256=btf6dDizC3wwdwaF6--poJw14Vdcry67BqH6KOBKlbU,46
+TVG/utility/RegMail.py,sha256=90hmepf78LHJIpRXH8xkBnRhsrUYhHi9UXopEEaM7Bw,901
+TVG/utility/__init__.py,sha256=FdHGxKbDSGeOpVkCZH5Q_iL_wAE34lZBoMer5dG5jiM,110
+TVG/utility/mdh.py,sha256=yTwn8NkLWsIzdK5eNC7CpqFRn_7S0DzbRFTFjPJp3UU,3957
+TVG/utility/term.py,sha256=NYcJ2eQF5xR9k2f5fuJGcN1kZ1J3WmHGC8lWossNLWw,1049
+FreeTVG_karjakak-2.9.8.dist-info/LICENSE.txt,sha256=5_fueaZmX8vN9o01wIt4coABAd2qpsOipm6clMkYzlI,1082
+FreeTVG_karjakak-2.9.8.dist-info/METADATA,sha256=bK8TRgi7sBEzM9MGlf4cm2V6qLzMZnhS60F1FFvSLg8,6064
+FreeTVG_karjakak-2.9.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+FreeTVG_karjakak-2.9.8.dist-info/entry_points.txt,sha256=IQeo_p1F_yu-Ou372X3eE56Ot8KJ34oN6tqXIAwJjCs,29
+FreeTVG_karjakak-2.9.8.dist-info/top_level.txt,sha256=9h9r9IB3LAfX6aVQTvPnQBfTIrdg9SWEhKSJ3r2luw0,4
+FreeTVG_karjakak-2.9.8.dist-info/RECORD,,
