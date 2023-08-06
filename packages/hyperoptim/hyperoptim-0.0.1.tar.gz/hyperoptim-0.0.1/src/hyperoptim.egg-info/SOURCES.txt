@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/hyperoptim.py
+src/hyperoptim.egg-info/PKG-INFO
+src/hyperoptim.egg-info/SOURCES.txt
+src/hyperoptim.egg-info/dependency_links.txt
+src/hyperoptim.egg-info/top_level.txt
