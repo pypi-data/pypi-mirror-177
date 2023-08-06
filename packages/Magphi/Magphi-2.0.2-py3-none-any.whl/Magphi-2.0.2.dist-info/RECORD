@@ -1,0 +1,17 @@
+Magphi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Magphi/__main__.py,sha256=CE8v2iccd6KmL_MsbliuYs59TLOd0Mve-K70HyrHuiM,10628
+Magphi/check_depencies.py,sha256=3xVZTTN-P0qjiN-Imp85WaJ1hWKd-U5gCioG1KEu3Dk,7692
+Magphi/check_inputs.py,sha256=BX2qvFmgyE_TDmO93E3nzfiAW5xN42UhPp3wPzg0exU,10522
+Magphi/commandline_interface.py,sha256=PEk5zx_QP8eAQxmC59u-1CPei7grkoRg2XEviB-h0GI,6667
+Magphi/exit_with_error.py,sha256=dfhAtygnJW0weySQsxerJhIbU-MskoLVs1dfNJJMMOY,906
+Magphi/search_insertion_sites.py,sha256=eI1FL9B8vYSI2yfKlGB3sedrFw06i0pz-VyZBNfhdrA,50947
+Magphi/seed_handling.py,sha256=C0DIUjEByNXPpSbp61V2TzBcaT7Es2CfT6rZdnqNxR8,5942
+Magphi/split_gff_file.py,sha256=TPGv0hbwpiDPb_sfALr2fAJZO3NqYP0BCPOQ9GuR9RI,2825
+Magphi/wrangle_outputs.py,sha256=rFC0BesC3c8vWMA-HwxCGUnUYKl0UVbg8lirHtw8Nhw,3644
+Magphi/write_output_csv.py,sha256=EHPSPnIHjhQge-2iOhYiTAns-fheUMoz5XSi0dPG4jY,3775
+Magphi-2.0.2.dist-info/LICENSE,sha256=XUCNRJoxwU_Mvt_FYLP7m2BZt8oEvY2PrHNCRTmBDco,1069
+Magphi-2.0.2.dist-info/METADATA,sha256=LAMzPkRb8C1kx7Js0U1lLEp3r53HTUVb04bFc1-stpI,1191
+Magphi-2.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Magphi-2.0.2.dist-info/entry_points.txt,sha256=qXXQZmHQ11up-Poz6qkxpa5W1v5lmfRyYikrFJJDP1g,48
+Magphi-2.0.2.dist-info/top_level.txt,sha256=JJ7jHQG2M2r0dAj9SbD4wtu_uCGMDc5rUGsOXoOjUfI,7
+Magphi-2.0.2.dist-info/RECORD,,
