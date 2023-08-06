@@ -1,0 +1,14 @@
+getgit/args.py,sha256=eQ2TRCmnq7x483uxMNGdPFthFemtYC4g7scsWEDMc-A,544
+getgit/cli.py,sha256=iiqEQAK0y9UI5PFEt3QMMhsHK4uESh55KkLV5RG1pBU,3884
+getgit/clone.py,sha256=FBmP2XWbgLuQK-CrZn5oVi_cTky1MS5aSb40BnNeeWA,415
+getgit/config.py,sha256=Y_-bgT9uRKSCrTN8cioxKzrmiE1eABNw-mVCx27tWvY,215
+getgit/main.py,sha256=7gxVoiYjZVJsH8uElKlNhkSU8paxdgwkuRioX5KLhmE,1042
+getgit/parse.py,sha256=vZSWhQNcbwp1zbtkpFMe_Fca4ASwhDGEyJehrkJDc0w,1838
+getgit/wwyaml.py,sha256=Fx9ygBVQ--B4ybHY7DBQdblGK5TYaBzLLxdpoMXKz_I,2097
+getgit/config/parse.yaml,sha256=VlLE8T1nr3vwwyTeVyZ25URMChulOVSGoQLcfcVjAwA,411
+getgit-0.1.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+getgit-0.1.7.dist-info/METADATA,sha256=u88hT5LtiFeAG7bx57JtwFKuJKbHNhOj4Uciv3okRpI,2045
+getgit-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+getgit-0.1.7.dist-info/entry_points.txt,sha256=XkQU2Vz3rD53B3OGFIHUAEnZ8el8bkrcruQDU4uEcVk,44
+getgit-0.1.7.dist-info/top_level.txt,sha256=f3PrU5Y84xvxBgv0pJVVMSKefYYIia0tbZBiArq_i9c,7
+getgit-0.1.7.dist-info/RECORD,,
