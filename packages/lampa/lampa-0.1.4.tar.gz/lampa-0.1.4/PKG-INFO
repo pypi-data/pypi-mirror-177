@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lampa
+Version: 0.1.4
+Summary: 
+Author: panagop
+Author-email: gpanagop@gmail.com
+Requires-Python: ==3.10.8
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: bokeh (==2.4.3)
+Requires-Dist: dataclasses-json (>=0.5.7,<0.6.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: jupyterlab (>=3.5.0,<4.0.0)
+Requires-Dist: notebook (>=6.5.2,<7.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pyexcel (>=0.7.0,<0.8.0)
+Requires-Dist: pystrata (>=0.5.0,<0.6.0)
+Requires-Dist: seaborn (>=0.12.1,<0.13.0)
+Requires-Dist: streamlit (>=1.14.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+
