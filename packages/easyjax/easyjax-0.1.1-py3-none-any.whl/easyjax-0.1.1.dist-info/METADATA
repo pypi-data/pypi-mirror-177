@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: easyjax
+Version: 0.1.1
+Summary: Facilitates machine learning development for JAX.
+Home-page: https://github.com/rosikand/easyjax
+Keywords: python,machine-learning,jax
+Author: Rohan Sikand
+Author-email: rsikand29@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jax (==0.3.15)
+Description-Content-Type: text/markdown
+
+# EasyJax 
+
+> work-in-progress. 
+
+EasyJax is a python package that facilitates machine learning development for JAX. It does that by providing:
+
+1. A high-level API for machine learning workflows in JAX (specifically a trainer, experiment parent class). 
+2. Several machine learning specific utilities for working with JAX (e.g., `ml.update_step`). 
+
+
