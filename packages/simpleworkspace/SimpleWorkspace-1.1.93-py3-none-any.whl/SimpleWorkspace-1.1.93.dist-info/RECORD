@@ -1,0 +1,17 @@
+SimpleWorkspace/App.py,sha256=Q4mMZ7dm7bV31epwH1Nyt32_MjLA-WSaXpVVe8M24pE,1673
+SimpleWorkspace/ConsoleHelper.py,sha256=l8w8sSTBoBPwGPPKaUVmGjPrL8Z7r_dd0aaVAB7zCk0,1114
+SimpleWorkspace/Conversion.py,sha256=RviKC2hUQZFvfmqLbhiSQAO-Y3qa21dIIP3iDGCMQLM,893
+SimpleWorkspace/Directory.py,sha256=l4syceD0WfYNNg4236nCyKBagBhZSJMhU8e1guZp9Mg,3591
+SimpleWorkspace/File.py,sha256=lc5QD3ZJvzzX7pLzftfz_fS_UATV3EAxk1AJXwXv3P0,3517
+SimpleWorkspace/LogHelpers.py,sha256=s9a_c86wgP39kKJn_jgGNsIm8aY0Ca1ft7xQZHxgank,3096
+SimpleWorkspace/LogProviders.py,sha256=fgJEB8nn-mFGhC6Qtd8G5o5cKQwHjDcoSnJX-CwUgg4,3302
+SimpleWorkspace/Path.py,sha256=qBu3IC_u-6eS0Jrsz89t9-K4NCHCN5bY6fna7GtZxPg,858
+SimpleWorkspace/SettingsProviders.py,sha256=4kZsigSGqma-djQo9_BqLciqR30k1EqQHBSB6GLV76k,5296
+SimpleWorkspace/Utility.py,sha256=UDcrM0Si8FaUQZOSp_RXZ-Ds_AZPj2icxChZ_Vyund0,7069
+SimpleWorkspace/__init__.py,sha256=XUpnlE8oDLawIDp5y6HQwxpSM1WBarwOns3-pFDTIXI,427
+SimpleWorkspace/ExtLibs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleWorkspace/ExtLibs/appdirs.py,sha256=g99s2sXhnvTEm79oj4bWI0Toapc-_SmKKNXvOXHkVic,24720
+SimpleWorkspace-1.1.93.dist-info/METADATA,sha256=BIUuG2Es4KzIMgNSBaFvUqPqvWT6SHQjlK99Z280c4U,215
+SimpleWorkspace-1.1.93.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SimpleWorkspace-1.1.93.dist-info/top_level.txt,sha256=Hgx8VNBk7tIlfgdZQ_jgOoUhdcV_hItg-E19HxGfXUU,16
+SimpleWorkspace-1.1.93.dist-info/RECORD,,
