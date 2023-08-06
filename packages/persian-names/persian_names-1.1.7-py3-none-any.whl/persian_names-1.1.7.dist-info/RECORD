@@ -1,0 +1,16 @@
+persian_names/__init__.py,sha256=VYgxizCigrM7mCfmcjaKrwH91uia_nns25qIXK_wOHM,28
+persian_names/main.py,sha256=54Dh-IQY4GwuWu264DFiUEcAY6sSMww8jlLvyz4Y4vY,3277
+persian_names/persian_names.py,sha256=Uj6t5ZNK-tudkur2ymw6nCyhQ8WnbzulGUQBQS0_piA,3228
+persian_names/data/female.txt,sha256=-xrx22h_aF7IfY0kcu0uu3bMhj2VHZOU4bmimkXxh1I,1862
+persian_names/data/female_fa.txt,sha256=LiruGvnaMksyrRBIAWj31czoRt6w0oje4qrJgWGw5ko,2827
+persian_names/data/male.txt,sha256=UM09HPxU82WRUB0bFdFYXUiHoulQTBW08riX4cA109Q,1702
+persian_names/data/male_fa.txt,sha256=ru48ywxAAzjlw0RUfOD7Xi7DXHe_8hDvmYqytiA__PM,2575
+persian_names-1.1.7.data/data/female.txt,sha256=-xrx22h_aF7IfY0kcu0uu3bMhj2VHZOU4bmimkXxh1I,1862
+persian_names-1.1.7.data/data/female_fa.txt,sha256=LiruGvnaMksyrRBIAWj31czoRt6w0oje4qrJgWGw5ko,2827
+persian_names-1.1.7.data/data/male.txt,sha256=UM09HPxU82WRUB0bFdFYXUiHoulQTBW08riX4cA109Q,1702
+persian_names-1.1.7.data/data/male_fa.txt,sha256=ru48ywxAAzjlw0RUfOD7Xi7DXHe_8hDvmYqytiA__PM,2575
+persian_names-1.1.7.dist-info/LICENSE,sha256=YHT6cwg22je73e-dgH0Kes03Ok8cP627Zg-M_wqCZ2s,1068
+persian_names-1.1.7.dist-info/METADATA,sha256=Vnn7dE-VF3wCBElDtlC4BPmDiB2Ik0y24HfblREZhHQ,2739
+persian_names-1.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+persian_names-1.1.7.dist-info/top_level.txt,sha256=R0QnPD5cpcC8tBp5ekMEL2ZE3j8ZUP2Yc5TpC0j_wOo,14
+persian_names-1.1.7.dist-info/RECORD,,
