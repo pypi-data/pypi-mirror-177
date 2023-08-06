@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: aws_secrets
+Version: 0.1.5
+Summary: Python library for resolving secrets from AWS Secrets Manager
+Project-URL: Homepage, https://github.com/davidcroda/aws_secrets
+Project-URL: Bug Tracker, https://github.com/davidcroda/aws_secrets/issues
+Author-email: David Roda <davidcroda@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+
+AWS Secrets
+-----------
+
+This library allows you to use credentials stored in AWS Secrets Manager within
+your code. It will lazily resolve secret values when they are evaluated, or resolve
+all secrets when AWSCredential.resolve_secrets() is called.
+
+Usage
+=====
+
+.. code-block:: python
+
+    from aws_secrets import AWSCredential
+    db = AWSCredential('path/to/key')
+
+    # credential is resolved here
+    print(db['username'])
+
+    secret_one = AWSCredential('path/to/key_one')
+    secret_two = AWSCredential('path/to/key_one')
+
+    # both credentials are resolved here
+    AWSCredential.resolve_secrets()
+    print(secret_one)
+    print(secret_two)
