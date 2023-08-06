@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: openCDS
+Version: 0.0.2
+Summary: An open-source, artificial intelligence-based clinical decision support (CDS) systems
+Project-URL: Homepage, https://github.com/openCDS/OpenCDS
+Project-URL: Bug Tracker, https://github.com/openCDS/OpenCDS/issues
+Author-email: Kangkun Mao <maokangkun@pjlab.org.cn>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# OpenCDS
+OpenCDS: an open-source, artificial intelligence-based clinical decision support (CDS) systems
