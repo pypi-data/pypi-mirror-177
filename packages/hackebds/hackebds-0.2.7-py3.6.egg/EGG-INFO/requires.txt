@@ -1,0 +1,5 @@
+colorama
+mako==1.2.2
+pwn
+pygments==2.7.4
+requests
