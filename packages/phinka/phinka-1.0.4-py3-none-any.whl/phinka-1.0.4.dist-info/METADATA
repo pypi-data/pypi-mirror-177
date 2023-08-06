@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: phinka
+Version: 1.0.4
+Summary: Phinka tools for data processing
+Project-URL: Homepage, https://github.com/jackokring/www
+Project-URL: Bug Tracker, https://github.com/jackokring/www/issues
+Author-email: Simon Jackson <jackokring@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: autograd>=1.5
+Requires-Dist: numpy>=1.23.4
+Description-Content-Type: text/markdown
+
+# Phinka tools for data processing
+
+Launch by `python -m phinka` with `python-is-python3` installed. Help is available with the `--help` option. Check out the package source of `phinka.__main__.py` for more details.
+
+# `blwz` compression
+
+A data compression tool. A BWT transform followed by partition on the following letter, with an offset LZW per partition and then another partition into three symbol rate groups with a final gzip.
+
+The BWT groups similar symbols. The partition keeps the LZW dictionary smaller. The second partition removes some common most significant bits from the LZW dictionary keys. The gzip then chooses a good coding for the final symbol stream based on remaining entropy.
+
+Some say it's an experiment in removing self-partition mutual information. So when I say the LZW dictionary is smaller, each one is. But there is now an LZW dictionary for each partition. Along with common lettering in each partition from the BWT this improves the LZW.
+
+Making the LZW index down from the last dictionary entry as zero, makes more zeros in the stream, and uncommon individual symbols have lower (more zeros) entry codes from the partition. The high bits of dictionary codes also "gtow" slower and have more zeros earlier in the partition, so these can be grouped as a secondary partitioning and effectively compressed by gzip.
+
+It is thus an experiment in information "fission" in the partion of information blocks to test the limits of the Landau information mass energy equivalence with the "evaporated radiation" information being mutual and hence not stored with the remaining information "mass" pattern.
+
+The "evapourate" is inferred at decompression as it has to have a necessary form to refuse the block to the required form is the hypothesis. Either it then further implies a fusion form exists or it doesn't.
+
+Thanks
+The Management
