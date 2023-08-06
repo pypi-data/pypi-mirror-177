@@ -1,0 +1,14 @@
+pywjs/__init__.py,sha256=PmiiaREDWCgJbGa82LBRtyOUR_zPgmPtC5BHx-nnsfE,19
+pywjs/builder/template_auto_install.py,sha256=SMr82bFHFPYfIutBL5et3WumemlDziokXOtLrg0ETEY,3331
+pywjs/wbs/__init__.py,sha256=B8vuYeDnfPtyZZLVU_1UsmCf8T2hGBFhMhFpi3snzUs,162
+pywjs/wbs/allowed_func.py,sha256=5iq5GnfpgGIcVPdQqPDmJdO2zlUEmgIoNkoQYVK3ixo,5610
+pywjs/wbs/cache.py,sha256=X5obQ937h-qcShfm-XKAEHuMX1i4xvPRetxUGA1pZ9U,7907
+pywjs/wbs/handle.py,sha256=2n4fr4ErbFmq6bXQtCX_cx3ti1AZX-ReZzef2M3qKgA,19554
+pywjs/wbs/logger.py,sha256=cxSOkDOHRigYtpvn8eyzOb-xgnXD9BCBvhTjKaDjib0,1447
+pywjs/wbs/schema.py,sha256=KCJPLTnPZXt2aSH_aNGOMcxl0jPOT8k8Ys5KzDETMso,9280
+pywjs/wbs/server.py,sha256=76A4pQ8ooOwsvD5KGo6QERbTfmB92nsaGHxJ8Z0zDr0,3374
+pywjs/wbs/subscribe.py,sha256=snPsd0q68OrZciSuhRrGlAvrmE64lWKfwrdCIsINDwI,17931
+readme.md,sha256=KehWibiGb8UamC27JB_WJvUSLVAuagobEl2ICmo_4JU,69255
+pywjs-0.0.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pywjs-0.0.3.dist-info/METADATA,sha256=9tjKRbTR-UpE-n1IMor11P0farDBMtk5RgT08ahHpOE,69808
+pywjs-0.0.3.dist-info/RECORD,,
