@@ -1,0 +1,11 @@
+czneau/__init__.py,sha256=gB0KRGNnQaONA4X0H_oa1k7Eo4m3WvOzHrnuz8dObok,76
+czneau/__main__.py,sha256=loH7JO8jrW0dkAKJkUy-_N1kSUgjMd3Ty_CZutPOO90,853
+czneau/analyse.py,sha256=cQY7wd4QIXowLlyGfKa8ledDbeStskIZruNZ0zUdrQc,28
+czneau/czneau.py,sha256=9nFbzAtKbMDEC2GVTJss_fs831kmbOAm5auS9RPs47M,995
+czneau/refer.py,sha256=svRQ3ttTsD5_CjKVV85rynaqGGdnGYCzdA_XNLxWWJg,6957
+czneau-2.0.0.dist-info/LICENSE,sha256=celky-xRXlaQEgpvOWoAfcjGM_mA-wA5MqpqQusTga4,1099
+czneau-2.0.0.dist-info/METADATA,sha256=2xDngWqbBlLotqrIkDO5N70RGehxFSv5ZzFKJOc57yA,1478
+czneau-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+czneau-2.0.0.dist-info/entry_points.txt,sha256=gbWWzfN_FAaXxdhMpZug1RJQE66a7b--cO-uCiUJWWg,57
+czneau-2.0.0.dist-info/top_level.txt,sha256=3c4qz_0nepfqkXiKS8zr1EYst0HcBWeFnIGSulHEkXo,7
+czneau-2.0.0.dist-info/RECORD,,
