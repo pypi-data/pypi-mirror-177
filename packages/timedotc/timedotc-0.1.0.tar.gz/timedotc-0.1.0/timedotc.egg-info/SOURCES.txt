@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+timedotc/_init__.py
+timedotc/timedotc.py
+timedotc.egg-info/PKG-INFO
+timedotc.egg-info/SOURCES.txt
+timedotc.egg-info/dependency_links.txt
+timedotc.egg-info/not-zip-safe
+timedotc.egg-info/top_level.txt
