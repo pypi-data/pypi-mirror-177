@@ -1,0 +1,9 @@
+datasette_socrata/__init__.py,sha256=xac9UOoGAjfbTqoaEgtbVdUHpZ3VxmIcx5Up0gkydps,17273
+datasette_socrata/templates/datasette_socrata.html,sha256=zGQDJYSGZvyeLf32ARCkLLmt9N0TTkkZqPkKWAVnjvM,1420
+datasette_socrata/templates/datasette_socrata_error.html,sha256=G9FNaT7VGzHuTWzk3FiY19JjXLzbEUIlWpOhNRXVOLs,193
+datasette_socrata-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_socrata-0.3.1.dist-info/METADATA,sha256=bIqrWgfmNJoC-5u62WzxC2RrvQrUPfwZR-GB-qv2_UY,3212
+datasette_socrata-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasette_socrata-0.3.1.dist-info/entry_points.txt,sha256=kmt4d_y4dnv7kMFV_uEPVF8JbTm18f0nEh7mtnb5f5A,40
+datasette_socrata-0.3.1.dist-info/top_level.txt,sha256=Kr073z7UGSDYNkhsItMequkURXcVqy5W__YD1NEQtqg,18
+datasette_socrata-0.3.1.dist-info/RECORD,,
