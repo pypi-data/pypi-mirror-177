@@ -1,0 +1,4 @@
+include add_methods_and_properties_to_existing_object/requirements.txt
+include add_methods_and_properties_to_existing_object/thirdparty.json
+include add_methods_and_properties_to_existing_object/README.MD
+include add_methods_and_properties_to_existing_object/LICENSE

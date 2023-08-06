@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+add_methods_and_properties_to_existing_object/LICENSE
+add_methods_and_properties_to_existing_object/README.MD
+add_methods_and_properties_to_existing_object/__init__.py
+add_methods_and_properties_to_existing_object/requirements.txt
+add_methods_and_properties_to_existing_object/thirdparty.json
+add_methods_and_properties_to_existing_object.egg-info/PKG-INFO
+add_methods_and_properties_to_existing_object.egg-info/SOURCES.txt
+add_methods_and_properties_to_existing_object.egg-info/dependency_links.txt
+add_methods_and_properties_to_existing_object.egg-info/top_level.txt
