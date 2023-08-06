@@ -1,0 +1,12 @@
+graphrox/__init__.py,sha256=sINIRYBgCm-nMYqMYLrVZnp0acku-dGVS7602gdK4bQ,28079
+graphrox/graphrox-aarch64-apple-darwin.dylib,sha256=BY2mdEKg_7sgqGdGrHvT_2IEHpexheVIwM4pmUweerM,520510
+graphrox/graphrox-aarch64-unknown-linux-gnu.so,sha256=houFgamEWcEv-R3UxuUgBREUWOt2-j0ByGbsJVAqR1Q,4309216
+graphrox/graphrox-aarch64-w64.dll,sha256=RiUelSsGfq9W2_IX5dWFh3SNVGpgCNDnPUNlcez7moI,201728
+graphrox/graphrox-x86_64-apple-darwin.dylib,sha256=d7cTVuB7yjUFunbSDriTN4c-tsPzFMkGOqmW8aOChdU,534120
+graphrox/graphrox-x86_64-unknown-linux-gnu.so,sha256=ZPLJZdrj_g8g14-ZA6P-Ys8ukJuCNCA2cRrh4J93VE4,4126296
+graphrox/graphrox-x86_64-w64.dll,sha256=OqnX0zd8XdaVPotdz0i3MElX5O3Hs6OB87o0hE604fg,223232
+graphrox-1.0.4.dist-info/LICENSE,sha256=kkbOL-oVUztbYzlWiadBjZgrHCwnz4xg8C1oT6Gtchk,1070
+graphrox-1.0.4.dist-info/METADATA,sha256=_BtDm1ZLO05G7YHfTW5lKrwNZEk5NYniu4mtNfgkvoI,1559
+graphrox-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+graphrox-1.0.4.dist-info/top_level.txt,sha256=rMfcFRO5slHo7KAyyd93Curq1ctUy2_V-nrBfsKaKGc,9
+graphrox-1.0.4.dist-info/RECORD,,
