@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: geodetector
+Version: 0.0.3
+Summary: a tool for detect the relationship between variables
+Project-URL: Homepage, https://github.com/lvyaqiao/geodetector
+Project-URL: Bug Tracker, https://github.com/lvyaqiao/geodetector/issues
+Author-email: lvyaqiao <lvyaqiao@126.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# GeoDetector
+
+This is a simple GeoDetector which can be used to the determinant
+power of a covariate X of Y.
+
+Now only interaction_detect, and q_values is available.
+
+# Install
+```bash
+pip install geodetector
+```
+then the geodetector will be installed 
+```
+
+here is a basic example
+```python
+from geodetector import geodetector
+
+df = load_disease()
+gd = GeoDetector(df,["type", "region", "level"], "incidence")
+
+# directly plot the result
+gd.plot() # show the q_values bar of each covariate
+gd.plot_interaction() # show the interaction bar of each covariate
+
+# interaction detect and save the result
+result = gd.interaction_detect()
+result.to_excel("q.xlsx")
+
+```
