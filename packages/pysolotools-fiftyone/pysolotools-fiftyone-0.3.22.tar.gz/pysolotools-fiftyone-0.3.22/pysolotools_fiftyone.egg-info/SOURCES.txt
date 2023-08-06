@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+pysolotools_fiftyone/__init__.py
+pysolotools_fiftyone/bounding_box_3d.py
+pysolotools_fiftyone/exr_utils.py
+pysolotools_fiftyone/solo_fiftyone.py
+pysolotools_fiftyone.egg-info/PKG-INFO
+pysolotools_fiftyone.egg-info/SOURCES.txt
+pysolotools_fiftyone.egg-info/dependency_links.txt
+pysolotools_fiftyone.egg-info/entry_points.txt
+pysolotools_fiftyone.egg-info/requires.txt
+pysolotools_fiftyone.egg-info/top_level.txt
