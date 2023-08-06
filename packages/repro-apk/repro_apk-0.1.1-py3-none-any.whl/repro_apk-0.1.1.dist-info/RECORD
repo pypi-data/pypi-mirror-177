@@ -1,0 +1,10 @@
+repro_apk/__init__.py,sha256=W9Jfiyo8Qr6SwAnvfwf0P2-1fNe_3wJrsT8oRLcU7Hw,2223
+repro_apk/fix_newlines.py,sha256=7QOt1NTFTazVw2EEy6vCtrVNdww9MxLv65Wn-JqVUEc,4742
+repro_apk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repro_apk/sort_apk.py,sha256=LiO-NUckQmJ388NnXYHkTDbcZYG078XuihQkmQyY5Ek,5094
+repro_apk-0.1.1.dist-info/LICENSE.GPLv3,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+repro_apk-0.1.1.dist-info/METADATA,sha256=gVZ6GQRTtucmaDV1X41KsidXuYLW9Jo57R3T5dutqBg,5478
+repro_apk-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+repro_apk-0.1.1.dist-info/entry_points.txt,sha256=Gnisx9rndQpgV9GVi_qc3LkVEkijbpPEEQW9t_jzOgc,45
+repro_apk-0.1.1.dist-info/top_level.txt,sha256=x_V_vkIvzr2NfeQQl26v1X9tyFXotjVwC9nUFuIhwGM,10
+repro_apk-0.1.1.dist-info/RECORD,,
