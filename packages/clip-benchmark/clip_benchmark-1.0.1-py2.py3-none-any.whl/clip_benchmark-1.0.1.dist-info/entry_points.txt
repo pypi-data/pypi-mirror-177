@@ -1,0 +1,3 @@
+[console_scripts]
+clip_benchmark = clip_benchmark.cli:main
+
