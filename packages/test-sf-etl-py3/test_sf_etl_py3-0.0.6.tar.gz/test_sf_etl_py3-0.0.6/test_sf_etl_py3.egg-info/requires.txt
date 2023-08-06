@@ -1,0 +1,6 @@
+imgkit==1.2.2
+oss2==2.16.0
+psycopg2-binary==2.8.6
+pyecharts==1.9.1
+oss2==2.16.0
+requests
