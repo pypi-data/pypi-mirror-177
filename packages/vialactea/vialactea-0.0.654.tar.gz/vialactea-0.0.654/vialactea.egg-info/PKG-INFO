@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: vialactea
+Version: 0.0.654
+Summary: UNKNOWN
+Author: Sirius Technology Studio
+Maintainer: Sirius Technology Studio
+Maintainer-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#### Sirius Tech. Studio
+
+
+
+- Notas 22/11/2022
+
+        A vialactea esta sendo estruturada e as seguintes atualizações visam otimizar e trazer novos recursos
+       
+- Disponível
+        
+        bifrost.py: 
+        * Caminhos (Paths)
+            A ideia do módulo é concentrar em uma via única o acesso de recursos. De momento, apenas os caminhos principais estão disponíveis:
+                c_user: Usuário atual
+                local_appdata: Appdata Local
+                tmp: Pasta de arquivos temporários padrão do sistema
+                desktop: Pasta desktop
+                vialactea_in_dir: Pasta interna da Via Lactea
+                vialactea_dir: Pasta local da Via Lactea. Esta pasta é usada como referência dentro dos módulos
+                vialactea_import: Pasta para inputs de dados de forma manual ou automática
+                vialactea_export: Pasta de outputs gerados pelo sistema
+                vialactea_log:  Pasta local com o log
+                nav_dir: Pasta de atalhos criada na Área de Trabalho
+        * Classes
+            Atualmente a bifrost conta com apenas uma classe: Bifrost que está instanciada na variável _bifrost para viabilizar a importação.
+                Ex: from bifrost import _bifrost
+
+- Fase de Testes
+
+        feed.py:
+        * Classes
+            Notifications - Classe principal do módulo. A ideia é facilitar a comunicação do usuário com o sistema com mensagens de alterta e resposta de processos.
+            O uso é muito simples, dentro da classe, existe mensagens gravadas para determinado erro ou caso.
+        
+- Desenvolvimento
+
+        sirius.py
+            Basicamente sirius é um modulo core do sistema. Ele é constiuido por uma série de algoritmos para facilitar processos de construção de código e uso diário.
+            Ele está passando por uma série de mudanças. Assim que chegar em uma versão estável, vou publicar a documentação.
+
+- Planejamento
+
+        Mais detalhes serão adicionados em breve. Por hora, segue a lista de recursos na fase de planejamento:
+
+        QRCODE
+        REMESSAS
+        BOLETOS
+        APIS BLING
+
+
+
