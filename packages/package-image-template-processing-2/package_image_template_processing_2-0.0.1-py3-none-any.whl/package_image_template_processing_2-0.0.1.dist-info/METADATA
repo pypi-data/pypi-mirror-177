@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: package-image-template-processing-2
+Version: 0.0.1
+Summary: Template packages
+Home-page: https://github.com/lucimarNeves/package-template-image_dio
+Author: LucimarN
+Author-email: lucimar.neves@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-image (>=0.16.1)
+Requires-Dist: matplotlib
+
+# package_name
+
+# Processamento de Imagens
+
+Description.
+
+The package image_processing is used to:
+
+	Processing:
+		- Histogram matching;
+		- Structural similarity;
+		- Resize image
+	
+	Utils:
+		- Read image;
+		- Save image;
+		- Plot image;
+		- Plot result;
+		- Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image_processing
+```
+
+## Usage
+
+```
+
+## Author
+Lucimar Neves
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
