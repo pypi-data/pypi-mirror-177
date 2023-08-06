@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mytelegrambotlib
+Version: 0.1.0
+Summary: Library with telegram bot
+Home-page: UNKNOWN
+Author: Leonid Dubrovin
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+
+UNKNOWN
+
