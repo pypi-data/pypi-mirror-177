@@ -1,0 +1,7 @@
+[console_scripts]
+web2ldap = web2ldap.__main__:run_standalone
+
+[web2ldap_data]
+properties = web2ldapcnf.templates:get_properties_path
+schema = web2ldapcnf.templates:get_schema_path
+templates = web2ldapcnf.templates:get_templates_path

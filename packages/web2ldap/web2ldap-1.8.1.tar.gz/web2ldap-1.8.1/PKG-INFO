@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: web2ldap
+Version: 1.8.1
+Summary: Full-featured web-based LDAPv3 client
+Home-page: https://www.web2ldap.de
+Download-URL: https://www.web2ldap.de/download.html
+Author: Michael Stroeder
+Author-email: michael@stroeder.com
+Maintainer: Michael Stroeder
+Maintainer-email: michael@stroeder.com
+License: Apache-2.0
+Project-URL: Documentation, https://web2ldap.de/docs.html
+Project-URL: Code, https://code.stroeder.com/ldap/web2ldap
+Project-URL: Issue tracker, https://code.stroeder.com/ldap/web2ldap/issues
+Keywords: LDAP,LDAPv3,Web,Gateway
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown
+Provides-Extra: dns
+Provides-Extra: image
+Provides-Extra: metrics
+Provides-Extra: phonenumbers
+Provides-Extra: xml
+License-File: LICENSE
+
+web2ldap - Web-based LDAPv3 client
+==================================
+
+See HTML documentation in htdocs/ or visit
+[https://www.web2ldap.de](https://www.web2ldap.de)
+
+What is web2ldap?
+-----------------
+
+  * A generic LDAPv3 client which does not make any assumptions
+    about the tree structure or LDAP schema.
+  * Kind of a swiss-army knife for accessing/manipulating
+    LDAP servers without having to configure anything.
+  * A secure LDAP client with clean login behaviour.
+  * A schema browser which displays references/dependencies
+    within an LDAPv3 schema.
+  * A customizable platform for prototyping LDAP administration use-cases.
+  * For me it is a platform for implementing cutting edge LDAP features.
+  * Continuously maintained software since September 1998!
+
+Project status
+--------------
+
+This software is still actively developed.
+Check the [change log](https://www.web2ldap.de/changes.html) and the
+[roadmap](https://www.web2ldap.de/roadmap.html).
