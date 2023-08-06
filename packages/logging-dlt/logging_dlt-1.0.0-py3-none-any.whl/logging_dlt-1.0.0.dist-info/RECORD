@@ -1,0 +1,8 @@
+dlt/__init__.py,sha256=hrs8Nef6hb2Wasm6z87e2q_JXNtu-OsvagEG0eRfmBw,77
+dlt/adapter.py,sha256=DSNtmLxI40kgjx2S6gRrLk8NzwLynLZBGEw_wKw8q90,4732
+dlt/protocol.py,sha256=_4v0YVH07TCM_4tA62qnEGT2aBLQPUUAG9u92i83bIY,18917
+logging_dlt-1.0.0.dist-info/LICENSE,sha256=eJGgQ4JHf1j7GXU2BLfIW2uyUrRd7g6j4LWO5E7CNQE,35908
+logging_dlt-1.0.0.dist-info/METADATA,sha256=JpdAHAGfekZwzTzLPuldmii_z6m1g5g4pcc1Hv8QB1A,2883
+logging_dlt-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+logging_dlt-1.0.0.dist-info/top_level.txt,sha256=Pyz60IzN0HqRKcS0qenbnrbFa-C3eWc2BeQKYk8DHhw,4
+logging_dlt-1.0.0.dist-info/RECORD,,
