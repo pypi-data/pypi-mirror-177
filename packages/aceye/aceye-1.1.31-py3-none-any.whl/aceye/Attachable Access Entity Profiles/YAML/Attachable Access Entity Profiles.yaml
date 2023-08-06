@@ -1,0 +1,110 @@
+imdata:
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-default
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.955+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: default
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '0'
+      userdom: all
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-GK_AAEP
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T16:05:54.439+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: GK_AAEP
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-Heroes_phys
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_phys
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-SnV_corporate_external
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_corporate_external
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-SnV_phys
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_phys
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAttEntityP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/attentp-Heroes_corporate_external
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_corporate_external
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '6'

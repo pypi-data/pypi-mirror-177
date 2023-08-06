@@ -1,0 +1,13 @@
+Name,Name Alias,Annotation,Child Action,Description,DN,Externally Managed By,Local Owner,Last Modified,Monitoring Policy DN,Owner Key,Owner Tag,Status,Type,UID,User Domain
+ethernet1_1,,,,,uni/infra/accportprof-SnV_server2/hports-ethernet1_1-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_21,,,,,uni/infra/accportprof-Heroes_server1/hports-ethernet1_21-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_5-8,,,,,uni/infra/accportprof-SnV_FI-1A/hports-ethernet1_5-8-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_48,,,,,uni/infra/accportprof-SnV_corporate_external/hports-ethernet1_48-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_22-24,,,,,uni/infra/accportprof-Heroes_phys_act_pass/hports-ethernet1_22-24-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_1,,,,,uni/infra/accportprof-SnV_server1/hports-ethernet1_1-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_2-4,,,,,uni/infra/accportprof-SnV_phys_act_pass/hports-ethernet1_2-4-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_13-16,,,,,uni/infra/accportprof-Heroes_FI-2A/hports-ethernet1_13-16-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_9-12,,,,,uni/infra/accportprof-SnV_FI-1B/hports-ethernet1_9-12-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_17-20,,,,,uni/infra/accportprof-Heroes_FI-2B/hports-ethernet1_17-20-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_21,,,,,uni/infra/accportprof-Heroes_server2/hports-ethernet1_21-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:
+ethernet1_47,,,,,uni/infra/accportprof-Heroes_corporate_external/hports-ethernet1_47-typ-range,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,range,15374,:all:

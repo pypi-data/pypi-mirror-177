@@ -1,0 +1,70 @@
+imdata:
+- aaaUser:
+    attributes:
+      accountStatus: active
+      annotation: ''
+      certAttribute: ''
+      childAction: ''
+      clearPwdHistory: 'no'
+      descr: ''
+      dn: uni/userext/user-admin
+      email: ''
+      expiration: never
+      expires: 'no'
+      extMngdBy: ''
+      firstName: ''
+      lastName: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:19.250+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: admin
+      nameAlias: ''
+      otpenable: 'no'
+      otpenf: 'yes'
+      otpkey: DISABLEDDISABLED
+      ownerKey: ''
+      ownerTag: ''
+      phone: ''
+      pwdLifeTime: no-password-expire
+      pwdUpdateRequired: 'no'
+      rbacString: ''
+      restrictedRbacUser: 'no'
+      status: ''
+      uid: '0'
+      unixUserId: '15374'
+      userdom: all
+- aaaUser:
+    attributes:
+      accountStatus: active
+      annotation: ''
+      certAttribute: ''
+      childAction: ''
+      clearPwdHistory: 'no'
+      descr: ''
+      dn: uni/userext/user-oneaciapp
+      email: ''
+      expiration: never
+      expires: 'no'
+      extMngdBy: ''
+      firstName: oneaciapp
+      lastName: ''
+      lcOwn: local
+      modTs: '2022-11-17T17:48:48.200+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: oneaciapp
+      nameAlias: ''
+      otpenable: 'no'
+      otpenf: 'yes'
+      otpkey: DISABLEDDISABLED
+      ownerKey: ''
+      ownerTag: ''
+      phone: ''
+      pwdLifeTime: no-password-expire
+      pwdUpdateRequired: 'no'
+      rbacString: ''
+      restrictedRbacUser: 'no'
+      status: ''
+      uid: '15374'
+      unixUserId: '8405'
+      userdom: ':all:'
+totalCount: '2'

@@ -1,0 +1,9 @@
+# QOS Classes
+| Name | Name Alias | Admin | Annotation | Child Action | Description | DN | Externally Managed By | Local Owner | Last Modified | MTU | Owner Key | Owner Tag | Priority | Status | UID | User Domain |
+| ---- | ---------- | ----- | ---------- | ------------ | ----------- | -- | --------------------- | ----------- | ------------- | --- | --------- | --------- | -------- | ------ | --- | ----------- |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level6 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level6 |  | 0 | all |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level1 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level1 |  | 0 | all |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level3 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level3 |  | 0 | all |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level2 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level2 |  | 0 | all |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level5 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level5 |  | 0 | all |
+|  |  | enabled |  |  |  | uni/infra/qosinst-default/class-level4 |  | local | 2022-11-17T15:49:25.666+00:00 | 9216 |  |  | level4 |  | 0 | all |

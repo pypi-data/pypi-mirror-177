@@ -1,0 +1,170 @@
+imdata:
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-common/brc-default
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.367+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: default
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: context
+      status: ''
+      targetDscp: unspecified
+      uid: '0'
+      userdom: all
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-TEST_GK/brc-VERITAS_Ctr
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T16:03:23.034+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: VERITAS_Ctr
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: application-profile
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-common/brc-web
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: web
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: context
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-common/brc-sql
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: sql
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: application-profile
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-common/brc-power_up
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: power_up
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: context
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-SnV/brc-web
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T18:22:50.147+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: web
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: context
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzBrCP:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/tn-SnV/brc-database
+      extMngdBy: ''
+      intent: install
+      lcOwn: local
+      modTs: '2022-11-17T18:22:50.147+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: database
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      prio: unspecified
+      reevaluateAll: 'no'
+      scope: application-profile
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '7'

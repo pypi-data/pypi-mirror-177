@@ -1,0 +1,218 @@
+imdata:
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_server2/hports-ethernet1_1-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_1
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_server1/hports-ethernet1_21-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_21
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_FI-1A/hports-ethernet1_5-8-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_5-8
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_corporate_external/hports-ethernet1_48-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_48
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_phys_act_pass/hports-ethernet1_22-24-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_22-24
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_server1/hports-ethernet1_1-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_1
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_phys_act_pass/hports-ethernet1_2-4-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_2-4
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_FI-2A/hports-ethernet1_13-16-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_13-16
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_FI-1B/hports-ethernet1_9-12-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_9-12
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_FI-2B/hports-ethernet1_17-20-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_17-20
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_server2/hports-ethernet1_21-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_21
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+- infraHPortS:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_corporate_external/hports-ethernet1_47-typ-range
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: ethernet1_47
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      type: range
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '12'

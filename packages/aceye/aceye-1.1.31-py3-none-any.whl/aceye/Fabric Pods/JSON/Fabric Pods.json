@@ -1,0 +1,19 @@
+{
+    "imdata": [
+        {
+            "fabricPod": {
+                "attributes": {
+                    "childAction": "",
+                    "dn": "topology/pod-1",
+                    "id": "1",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:19.851+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "podType": "physical",
+                    "status": ""
+                }
+            }
+        }
+    ],
+    "totalCount": "1"
+}

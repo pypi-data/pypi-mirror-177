@@ -1,0 +1,4 @@
+# Fabric Membership
+| DN | Child Action | Description | Internal Label | Local Owner | Last Modified | Mode | Status | TPM In Use | Timestamp | Type | Version |
+| -- | ------------ | ----------- | -------------- | ----------- | ------------- | ---- | ------ | ---------- | --------- | ---- | ------- |
+| topology/pod-1/node-1/sys/ctrlrfwstatuscont/ctrlrrunning |  |  | 72bfb79869cf7edf6ad17c7bb072c16dd45fdbbd | local | 2022-11-17T15:51:31.070+00:00 | normal |  | no | 2022-11-17T15:51:31.075+00:00 | controller | 5.2(1g) |

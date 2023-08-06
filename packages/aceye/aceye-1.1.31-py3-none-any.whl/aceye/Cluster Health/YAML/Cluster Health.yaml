@@ -1,0 +1,31 @@
+imdata:
+- infraWiNode:
+    attributes:
+      addr: 10.0.0.1
+      adminSt: in-service
+      annotation: ''
+      apicMode: active
+      chassis: 10220833-ea00-3bb3-93b2-ef1e7e645889
+      childAction: ''
+      cntrlSbstState: approved
+      dn: topology/pod-1/node-1/av/node-1
+      extMngdBy: ''
+      failoverStatus: idle
+      health: fully-fit
+      id: '1'
+      lcOwn: local
+      mbSn: TEP-1-1
+      modTs: '2022-11-17T15:50:03.797+00:00'
+      monPolDn: uni/fabric/monfab-default
+      mutnTs: '2022-11-17T15:49:03.104+00:00'
+      name: ''
+      nameAlias: ''
+      nodeName: apic1
+      operSt: available
+      podId: '1'
+      routableIpAddr: 0.0.0.0
+      status: ''
+      targetMbSn: ''
+      uid: '0'
+      userdom: all
+totalCount: '1'

@@ -1,0 +1,5 @@
+# L3Outs
+| Name | Alias | Description | Status | DN | UID | Annotation | Child Action | Externally Managed By | Local Owner | Monitoring Policy DN | User Domain | Owner Key | Owner Tag | Priority | Enforce Route Control | Target DSCP | Modified Timestamp |
+| ---- | ----- | ----------- | ------ | -- | --- | ---------- | ------------ | --------------------- | ----------- | -------------------- | ----------- | --------- | --------- | -------- | --------------------- | ----------- | ------------------ |
+default |  |  |  | uni/tn-common/out-default | 0 |  |  |  | local |  | all |  |  |  | export | unspecified | 2022-11-17T15:49:25.041+00:00
+Heroes_external_corporate |  |  |  | uni/tn-Heroes/out-Heroes_external_corporate | 15374 |  |  |  | local | uni/tn-common/monepg-default | :all: |  |  |  | export | unspecified | 2022-11-17T18:22:49.779+00:00

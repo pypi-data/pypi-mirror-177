@@ -1,0 +1,157 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Cluster Health</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>Node Name</th>
+    <th>Name</th>
+    <th>Name Alias</th>
+    <th>IP Address</th>
+    <th>Admin State</th>
+    <th>Annotation</th>
+    <th>APIC Mode</th>
+    <th>Chassis</th>
+    <th>Child Action</th>
+    <th>Control Sbst State</th>
+    <th>DN</th>
+    <th>Externally Managed By</th>
+    <th>Failover Status</th>
+    <th>Health</th>
+    <th>ID</th>
+    <th>Local Owner</th>
+    <th>Member Serial Number</th>
+    <th>Last Modified</th>
+    <th>Monitoring Policy DN</th>
+    <th>Mutn Timestamp</th>
+    <th>Operational State</th>
+    <th>Pod ID</th>
+    <th>Routable IP Address</th>
+    <th>Status</th>
+    <th>Target Member Serial Number</th>
+    <th>UID</th>
+    <th>User Domain</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>apic1</td>
+    <td></td>
+    <td></td>
+    <td>10.0.0.1</td>
+    <td>in-service</td>
+    <td></td>
+    <td>active</td>
+    <td>10220833-ea00-3bb3-93b2-ef1e7e645889</td>
+    <td></td>
+    <td>approved</td>
+    <td>topology/pod-1/node-1/av/node-1</td>
+    <td></td>
+    <td>idle</td>
+    <td>fully-fit</td>
+    <td>1</td>
+    <td>local</td>
+    <td>TEP-1-1</td>
+    <td>2022-11-17T15:50:03.797+00:00</td>
+    <td>uni/fabric/monfab-default</td>
+    <td>2022-11-17T15:49:03.104+00:00</td>
+    <td>available</td>
+    <td>1</td>
+    <td>0.0.0.0</td>
+    <td></td>
+    <td></td>
+    <td>0</td>
+    <td>all</td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

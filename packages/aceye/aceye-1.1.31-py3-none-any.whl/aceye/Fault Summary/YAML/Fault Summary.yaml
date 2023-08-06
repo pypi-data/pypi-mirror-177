@@ -1,0 +1,524 @@
+imdata:
+- faultSummary:
+    attributes:
+      cause: protocol-arp-adjacency-down
+      childAction: ''
+      code: F1207
+      count: '1'
+      descr: This fault occurs when the operational state of the arp adjacency is
+        down
+      dn: fltcode-F1207
+      domain: access
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: arp-st-adj-ep-oper-st-down
+      severity: warning
+      status: ''
+      subject: oper-state-change
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F110344
+      count: '22'
+      descr: Threshold crossing alert for class l2IngrBytesPart5min, property dropRate
+      dn: fltcode-F110344
+      domain: infra
+      nonAcked: '22'
+      nonDelegated: '0'
+      nonDelegatedAndNonAcked: '0'
+      rule: tca-l2-ingr-bytes-part5min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F112128
+      count: '28'
+      descr: Threshold crossing alert for class l2IngrPkts5min, property dropRate
+      dn: fltcode-F112128
+      domain: infra
+      nonAcked: '28'
+      nonDelegated: '6'
+      nonDelegatedAndNonAcked: '6'
+      rule: tca-l2-ingr-pkts5min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F110473
+      count: '4'
+      descr: Threshold crossing alert for class l2IngrBytesAg15min, property dropRate
+      dn: fltcode-F110473
+      domain: infra
+      nonAcked: '4'
+      nonDelegated: '4'
+      nonDelegatedAndNonAcked: '4'
+      rule: tca-l2-ingr-bytes-ag15min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F110176
+      count: '28'
+      descr: Threshold crossing alert for class l2IngrBytes5min, property dropRate
+      dn: fltcode-F110176
+      domain: infra
+      nonAcked: '28'
+      nonDelegated: '6'
+      nonDelegatedAndNonAcked: '6'
+      rule: tca-l2-ingr-bytes5min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: dhcpd-fnv-out-of-sync
+      childAction: ''
+      code: F4144
+      count: '1'
+      descr: This fault is raised when dhcp client and pool are not in sync with fnv
+        data
+      dn: fltcode-F4144
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: dhcp-discovery-health-dhcpd-fnv-un-sync
+      severity: major
+      status: ''
+      subject: dhcp
+      type: operational
+- faultSummary:
+    attributes:
+      cause: configuration-failed
+      childAction: ''
+      code: F1690
+      count: '7'
+      descr: This fault occurs when there is incomplete or incorrect configuration,
+        intermittent system errors.
+      dn: fltcode-F1690
+      domain: tenant
+      nonAcked: '7'
+      nonDelegated: '7'
+      nonDelegatedAndNonAcked: '7'
+      rule: vns-conf-issue-conf-issue
+      severity: minor
+      status: ''
+      subject: management
+      type: config
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F381328
+      count: '15'
+      descr: Threshold crossing alert for class eqptIngrErrPkts5min, property crcLast
+      dn: fltcode-F381328
+      domain: infra
+      nonAcked: '15'
+      nonDelegated: '15'
+      nonDelegatedAndNonAcked: '15'
+      rule: tca-eqpt-ingr-err-pkts5min-crc-last
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: configuration-failed
+      childAction: ''
+      code: F0772
+      count: '1'
+      descr: This fault occurs when a Logical Interface configuration is invalid.The
+        config issues the exact reason for the error.
+      dn: fltcode-F0772
+      domain: tenant
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: vns-alif-validation-failed
+      severity: minor
+      status: ''
+      subject: management
+      type: config
+- faultSummary:
+    attributes:
+      cause: equipment-psu-missing
+      childAction: ''
+      code: F1318
+      count: '2'
+      descr: This fault occurs when PSU are not detected correctly
+      dn: fltcode-F1318
+      domain: infra
+      nonAcked: '2'
+      nonDelegated: '2'
+      nonDelegatedAndNonAcked: '2'
+      rule: eqpt-psg-pzero-pwr
+      severity: major
+      status: ''
+      subject: power-group
+      type: environmental
+- faultSummary:
+    attributes:
+      cause: product-not-registered
+      childAction: ''
+      code: F3057
+      count: '1'
+      descr: This fault is raised when APIC Controller product is not registered with
+        Cisco Smart Software Manager (CSSM).
+      dn: fltcode-F3057
+      domain: external
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: license-manager-product-not-registered
+      severity: warning
+      status: ''
+      subject: smart-licensing
+      type: config
+- faultSummary:
+    attributes:
+      cause: dhcp-client-missing-lease
+      childAction: ''
+      code: F4141
+      count: '1'
+      descr: This fault is raised when there is dhcp client without a lease
+      dn: fltcode-F4141
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: dhcp-discovery-health-dhcp-client-lease-check-failed
+      severity: warning
+      status: ''
+      subject: dhcp
+      type: operational
+- faultSummary:
+    attributes:
+      cause: config-error
+      childAction: ''
+      code: F3083
+      count: '72'
+      descr: This fault occurs when multiple MACs have same IP address in the same
+        VRF.
+      dn: fltcode-F3083
+      domain: tenant
+      nonAcked: '72'
+      nonDelegated: '72'
+      nonDelegatedAndNonAcked: '72'
+      rule: fv-ip-config-error
+      severity: major
+      status: ''
+      subject: same-ip-address-is-used-by-different-macs-in-the-same-context
+      type: config
+- faultSummary:
+    attributes:
+      cause: protocol-coop-adjacency-down
+      childAction: ''
+      code: F1360
+      count: '2'
+      descr: This fault occurs when the operational state of the coop adjacency is
+        down
+      dn: fltcode-F1360
+      domain: access
+      nonAcked: '2'
+      nonDelegated: '2'
+      nonDelegatedAndNonAcked: '2'
+      rule: coop-adj-ep-coop-adj-ep-down
+      severity: warning
+      status: ''
+      subject: oper-state-down
+      type: operational
+- faultSummary:
+    attributes:
+      cause: configuration-failed
+      childAction: ''
+      code: F0467
+      count: '68'
+      descr: This fault occurs when an End Point Group / End Point Security Group
+        is incompletely or incorrectly configured.
+      dn: fltcode-F0467
+      domain: tenant
+      nonAcked: '68'
+      nonDelegated: '34'
+      nonDelegatedAndNonAcked: '34'
+      rule: fv-nw-issues-config-failed
+      severity: minor
+      status: ''
+      subject: management
+      type: config
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F112296
+      count: '22'
+      descr: Threshold crossing alert for class l2IngrPktsPart5min, property dropRate
+      dn: fltcode-F112296
+      domain: infra
+      nonAcked: '22'
+      nonDelegated: '0'
+      nonDelegatedAndNonAcked: '0'
+      rule: tca-l2-ingr-pkts-part5min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: oper-state-change
+      childAction: ''
+      code: F4149
+      count: '1'
+      descr: This fault occurs when you remove LC/FM/SUP/SC from the slot
+      dn: fltcode-F4149
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: eqpt-slot-oper-st-change
+      severity: minor
+      status: ''
+      subject: lc-fm-sup-sc-removed
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F100264
+      count: '20'
+      descr: Threshold crossing alert for class eqptIngrDropPkts5min, property bufferRate
+      dn: fltcode-F100264
+      domain: infra
+      nonAcked: '20'
+      nonDelegated: '20'
+      nonDelegatedAndNonAcked: '20'
+      rule: tca-eqpt-ingr-drop-pkts5min-buffer-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: configuration-failed
+      childAction: ''
+      code: F0764
+      count: '1'
+      descr: This fault occurs when a logical device is being configured in a way
+        which is not compatible with the meta device information supplied by the device
+        package.
+      dn: fltcode-F0764
+      domain: tenant
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: vns-aldev-conf-mismatch
+      severity: minor
+      status: ''
+      subject: management
+      type: config
+- faultSummary:
+    attributes:
+      cause: port-down
+      childAction: ''
+      code: F0104
+      count: '1'
+      descr: This fault occurs when a bond interface on a controller is in the link-down
+        state.
+      dn: fltcode-F0104
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: cnw-aggr-if-down
+      severity: critical
+      status: ''
+      subject: equipment
+      type: operational
+- faultSummary:
+    attributes:
+      cause: resolution-failed
+      childAction: ''
+      code: F0956
+      count: '2'
+      descr: The object refers to an object that was not found.
+      dn: fltcode-F0956
+      domain: infra
+      nonAcked: '2'
+      nonDelegated: '2'
+      nonDelegatedAndNonAcked: '2'
+      rule: fv-rs-dom-att-resolve-fail
+      severity: warning
+      status: ''
+      subject: relation-resolution
+      type: config
+- faultSummary:
+    attributes:
+      cause: resolution-failed
+      childAction: ''
+      code: F1003
+      count: '1'
+      descr: The object refers to an object that was not found.
+      dn: fltcode-F1003
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: infra-rs-dom-presolve-fail
+      severity: warning
+      status: ''
+      subject: relation-resolution
+      type: config
+- faultSummary:
+    attributes:
+      cause: configuration-failure
+      childAction: ''
+      code: F0721
+      count: '1'
+      descr: This fault is raised when a VLAN/VxLAN/NVGRE pool cannot be deployed
+        due to a missing or invalid configuration.
+      dn: fltcode-F0721
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: fvns-ainst-pconfig-failed
+      severity: minor
+      status: ''
+      subject: infra-policy
+      type: config
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F96976
+      count: '20'
+      descr: Threshold crossing alert for class eqptEgrDropPkts5min, property errorRate
+      dn: fltcode-F96976
+      domain: infra
+      nonAcked: '20'
+      nonDelegated: '20'
+      nonDelegatedAndNonAcked: '20'
+      rule: tca-eqpt-egr-drop-pkts5min-error-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: configuration-failed
+      childAction: ''
+      code: F1298
+      count: '4'
+      descr: This fault occurs when deliverying EPg policies to a node has failed
+      dn: fltcode-F1298
+      domain: tenant
+      nonAcked: '4'
+      nonDelegated: '2'
+      nonDelegatedAndNonAcked: '2'
+      rule: fv-pol-delivery-status-configuration-failed
+      severity: minor
+      status: ''
+      subject: epg
+      type: config
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F96760
+      count: '20'
+      descr: Threshold crossing alert for class eqptEgrDropPkts5min, property bufferRate
+      dn: fltcode-F96760
+      domain: infra
+      nonAcked: '20'
+      nonDelegated: '20'
+      nonDelegatedAndNonAcked: '20'
+      rule: tca-eqpt-egr-drop-pkts5min-buffer-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F100480
+      count: '20'
+      descr: Threshold crossing alert for class eqptIngrDropPkts5min, property errorRate
+      dn: fltcode-F100480
+      domain: infra
+      nonAcked: '20'
+      nonDelegated: '20'
+      nonDelegatedAndNonAcked: '20'
+      rule: tca-eqpt-ingr-drop-pkts5min-error-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F112425
+      count: '4'
+      descr: Threshold crossing alert for class l2IngrPktsAg15min, property dropRate
+      dn: fltcode-F112425
+      domain: infra
+      nonAcked: '4'
+      nonDelegated: '4'
+      nonDelegatedAndNonAcked: '4'
+      rule: tca-l2-ingr-pkts-ag15min-drop-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F103824
+      count: '1'
+      descr: Threshold crossing alert for class eqptTemp5min, property normalizedLast
+      dn: fltcode-F103824
+      domain: infra
+      nonAcked: '1'
+      nonDelegated: '1'
+      nonDelegatedAndNonAcked: '1'
+      rule: tca-eqpt-temp5min-normalized-last
+      severity: critical
+      status: ''
+      subject: counter
+      type: operational
+- faultSummary:
+    attributes:
+      cause: threshold-crossed
+      childAction: ''
+      code: F100696
+      count: '20'
+      descr: Threshold crossing alert for class eqptIngrDropPkts5min, property forwardingRate
+      dn: fltcode-F100696
+      domain: infra
+      nonAcked: '20'
+      nonDelegated: '20'
+      nonDelegatedAndNonAcked: '20'
+      rule: tca-eqpt-ingr-drop-pkts5min-forwarding-rate
+      severity: warning
+      status: ''
+      subject: counter
+      type: operational
+totalCount: '30'

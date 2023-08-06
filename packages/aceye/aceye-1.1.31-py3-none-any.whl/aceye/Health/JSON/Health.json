@@ -1,0 +1,22 @@
+{
+    "imdata": [
+        {
+            "fabricHealthTotal": {
+                "attributes": {
+                    "childAction": "",
+                    "chng": "-88",
+                    "cur": "0",
+                    "dn": "topology/health",
+                    "lcOwn": "local",
+                    "maxSev": "info",
+                    "modTs": "2022-11-17T21:08:12.548+00:00",
+                    "prev": "88",
+                    "status": "",
+                    "twScore": "0",
+                    "updTs": "2022-11-17T21:08:12.549+00:00"
+                }
+            }
+        }
+    ],
+    "totalCount": "1"
+}
