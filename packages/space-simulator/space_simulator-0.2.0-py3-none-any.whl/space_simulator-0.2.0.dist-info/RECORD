@@ -1,0 +1,7 @@
+space_simulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+space_simulator/display.py,sha256=KExh4qgDCK8dGcpgsKJHUsyGFx_E2f8Mc0TY5_8Tu-w,2740
+space_simulator/sat.py,sha256=vI5a89P-W6JULUlAS_IxV_wColsvCKTZc9Vv2YqUleE,1824
+space_simulator-0.2.0.dist-info/entry_points.txt,sha256=t7tCRHgRlgusbBjWE-FEFEEltn_i2TnyKknoyWRAXGs,64
+space_simulator-0.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+space_simulator-0.2.0.dist-info/METADATA,sha256=E069MPuvbZBAVt9AbNmEnMyiMU3cS9R8LUSUXc-VsD8,407
+space_simulator-0.2.0.dist-info/RECORD,,
