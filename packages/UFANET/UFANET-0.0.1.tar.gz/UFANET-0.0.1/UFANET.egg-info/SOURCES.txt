@@ -1,0 +1,16 @@
+README.md
+setup.py
+UFA/__init__.py
+UFA/dataset_prep.py
+UFA/main_UDA.py
+UFA/main_pretrain.py
+UFA/mmd.py
+UFA/net/__init__.py
+UFA/net/st_gcn.py
+UFA/net/utils/__init__.py
+UFA/net/utils/tgcn.py
+UFANET.egg-info/PKG-INFO
+UFANET.egg-info/SOURCES.txt
+UFANET.egg-info/dependency_links.txt
+UFANET.egg-info/requires.txt
+UFANET.egg-info/top_level.txt
