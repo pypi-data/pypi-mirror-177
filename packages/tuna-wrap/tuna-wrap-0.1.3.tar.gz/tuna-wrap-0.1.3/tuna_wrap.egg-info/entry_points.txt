@@ -1,0 +1,3 @@
+[console_scripts]
+tuna-wrap = tuna_wrap:wrap.py
+
