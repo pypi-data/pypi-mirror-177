@@ -1,0 +1,7 @@
+strapi_client/__init__.py,sha256=3y_qilNv-hasEOaHaVJIvvWatri2TTEoN3G1zNMJVws,204
+strapi_client/strapi_client.py,sha256=VqGPhCeGXjApyi7DahpfeWryES_vpoUcPb3Kpmurm3k,9152
+strapi_client/strapi_client_sync.py,sha256=5gALmCtCbepzVoXIkzS7JWc3Aul2lKV01SutcKMdKow,2905
+strapi_client-2.6.0.dist-info/LICENSE,sha256=m4k2JrerHUjNJPxCZVZEJT9J5K1XaYppIkUrWStPvWg,1072
+strapi_client-2.6.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+strapi_client-2.6.0.dist-info/METADATA,sha256=jusUxr9NQLD9pjq1iuS5-6J1qh9Oemm92ncy1138KlE,1801
+strapi_client-2.6.0.dist-info/RECORD,,
