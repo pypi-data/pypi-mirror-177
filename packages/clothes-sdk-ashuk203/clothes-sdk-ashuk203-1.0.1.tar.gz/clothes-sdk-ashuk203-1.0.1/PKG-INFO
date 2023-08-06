@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: clothes-sdk-ashuk203
+Version: 1.0.1
+Summary: Python SDK for (dummy) Clothes APIs
+Home-page: 
+Author: Ashutosh Ukey
+Author-email: ashuk203@gmail.com
+Keywords: OpenAPI,OpenAPI-Generator,Clothes Warehouse
+Requires-Python: >=3.7
