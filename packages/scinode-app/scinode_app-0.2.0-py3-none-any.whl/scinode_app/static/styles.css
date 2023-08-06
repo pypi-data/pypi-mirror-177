@@ -1,0 +1,150 @@
+.node .control input, .node .input-control input {
+  width: 100px;
+}
+
+select, input {
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+  padding: 2px 6px;
+  border: 1px solid #999;
+  font-size: 110%;
+  width: 170px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 10px 10px;
+  border-bottom: 1px ridge;
+  min-height: 400px;}
+
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.editor {
+  background-color: rgb(205, 227, 215);
+  margin: 0px auto;
+  padding: 0px 0px;
+  min-height: 600px;
+  border: 4px solid rgb(0, 213, 255);
+}
+
+.node-content {
+  margin: 5px 20px;
+  padding: 0px 0px;
+  max-height: 200px;
+  border: 4px solid rgb(0, 213, 255);
+}
+
+
+#component-text {
+  min-height: 200px;
+  border: 4px solid rgb(0, 213, 255);
+}
+
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #512DA8; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+
+
+
+
+  .sidebar li .submenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sidebar .nav-link {
+      font-weight: 500;
+      color: var(--bs-dark);
+  }
+  .sidebar .nav-link:hover {
+      color: var(--bs-primary);
+  }
+
+
+  .btn-sq {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+.form-control {
+  font-size:16px;
+}
+
+.btn {
+  font-size:14px;
+}
+
+.node .title.failed {
+  background-color: red;
+}
+.node .title.finished {
+  background-color: green;
+}
+.node .title.paused {
+  background-color: rgb(225, 225, 3);
+}
+.node .title.running {
+  background-color: blue;
+}
+.node .title.waiting {
+  background-color: purple;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.scinode-tooltip .scinode-tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the scinode-tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.scinode-tooltip:hover .scinode-tooltiptext {
+  visibility: visible;
+}
+
+.control {
+  color: white;
+}
+
+.input-control {
+  color: white;
+}
