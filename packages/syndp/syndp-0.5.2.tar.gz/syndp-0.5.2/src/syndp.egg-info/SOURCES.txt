@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/syndp/__init__.py
+src/syndp/bounded_laplace_mechanism.py
+src/syndp/functions.py
+src/syndp/laplace_mechanism.py
+src/syndp/original_timedp.py
+src/syndp/preprocessing.py
+src/syndp/timedp_algorithm.py
+src/syndp.egg-info/PKG-INFO
+src/syndp.egg-info/SOURCES.txt
+src/syndp.egg-info/dependency_links.txt
+src/syndp.egg-info/requires.txt
+src/syndp.egg-info/top_level.txt
