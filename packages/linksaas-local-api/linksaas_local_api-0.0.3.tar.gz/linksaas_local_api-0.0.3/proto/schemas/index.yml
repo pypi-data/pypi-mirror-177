@@ -1,0 +1,30 @@
+BlockCollInfo:
+  $ref: ./blockCollInfo.yml
+BlockContentInfo:
+  $ref: ./blockContentInfo.yml
+BlockInfo:
+  $ref: ./blockInfo.yml
+BugInfo:
+  $ref: ./bugInfo.yml
+ChannelInfo:
+  $ref: ./channelInfo.yml
+DocInfo:
+  $ref: ./docInfo.yml
+DocSpaceInfo:
+  $ref: ./docSpaceInfo.yml
+EmptyRes:
+  $ref: ./emptyRes.yml
+ErrInfo:
+  $ref: ./errInfo.yml
+EventInfo:
+  $ref: ./eventInfo.yml
+IssueInfo:
+  $ref: ./issueInfo.yml
+MsgInfo:
+  $ref: ./msgInfo.yml
+SimpleMemberInfo:
+  $ref: ./simpleMemberInfo.yml
+SubTaskInfo:
+  $ref: ./subTaskInfo.yml
+TaskInfo:
+  $ref: ./taskInfo.yml

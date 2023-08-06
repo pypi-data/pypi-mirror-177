@@ -1,0 +1,90 @@
+/hello:
+  get:
+    $ref: ./hello/get.yml
+/project/{projectId}/blockColl:
+  get:
+    $ref: ./project/{projectId}/blockColl/get.yml
+/project/{projectId}/blockColl/{blockCollId}:
+  get:
+    $ref: ./project/{projectId}/blockColl/{blockCollId}/get.yml
+/project/{projectId}/blockColl/{blockCollId}/{blockId}:
+  get:
+    $ref: ./project/{projectId}/blockColl/{blockCollId}/{blockId}/get.yml
+/project/{projectId}/bug/all:
+  get:
+    $ref: ./project/{projectId}/bug/all/get.yml
+/project/{projectId}/bug/my:
+  get:
+    $ref: ./project/{projectId}/bug/my/get.yml
+/project/{projectId}/bug/record/{bugId}/events:
+  get:
+    $ref: ./project/{projectId}/bug/record/{bugId}/events/get.yml
+/project/{projectId}/bug/record/{bugId}/shortNote:
+  get:
+    $ref: ./project/{projectId}/bug/record/{bugId}/shortNote/get.yml
+/project/{projectId}/bug/record/{bugId}/show:
+  get:
+    $ref: ./project/{projectId}/bug/record/{bugId}/show/get.yml
+/project/{projectId}/channel/msg/{channelId}:
+  get:
+    $ref: ./project/{projectId}/channel/msg/{channelId}/get.yml
+/project/{projectId}/channel/my:
+  get:
+    $ref: ./project/{projectId}/channel/my/get.yml
+/project/{projectId}/channel/notJoin:
+  get:
+    $ref: ./project/{projectId}/channel/notJoin/get.yml
+/project/{projectId}/channel/orphan:
+  get:
+    $ref: ./project/{projectId}/channel/orphan/get.yml
+/project/{projectId}/create/bug:
+  get:
+    $ref: ./project/{projectId}/create/bug/get.yml
+/project/{projectId}/create/doc/{docSpaceId}:
+  get:
+    $ref: ./project/{projectId}/create/doc/{docSpaceId}/get.yml
+/project/{projectId}/create/task:
+  get:
+    $ref: ./project/{projectId}/create/task/get.yml
+/project/{projectId}/docSpace:
+  get:
+    $ref: ./project/{projectId}/docSpace/get.yml
+/project/{projectId}/docSpace/{docSpaceId}:
+  get:
+    $ref: ./project/{projectId}/docSpace/{docSpaceId}/get.yml
+/project/{projectId}/docSpace/{docSpaceId}/{docId}/show:
+  get:
+    $ref: ./project/{projectId}/docSpace/{docSpaceId}/{docId}/show/get.yml
+/project/{projectId}/event:
+  get:
+    $ref: ./project/{projectId}/event/get.yml
+/project/{projectId}/member:
+  get:
+    $ref: ./project/{projectId}/member/get.yml
+/project/{projectId}/member/{memberUserId}/show:
+  get:
+    $ref: ./project/{projectId}/member/{memberUserId}/show/get.yml
+/project/{projectId}/task/all:
+  get:
+    $ref: ./project/{projectId}/task/all/get.yml
+/project/{projectId}/task/my:
+  get:
+    $ref: ./project/{projectId}/task/my/get.yml
+/project/{projectId}/task/record/{taskId}/depend:
+  get:
+    $ref: ./project/{projectId}/task/record/{taskId}/depend/get.yml
+/project/{projectId}/task/record/{taskId}/events:
+  get:
+    $ref: ./project/{projectId}/task/record/{taskId}/events/get.yml
+/project/{projectId}/task/record/{taskId}/shortNote:
+  get:
+    $ref: ./project/{projectId}/task/record/{taskId}/shortNote/get.yml
+/project/{projectId}/task/record/{taskId}/show:
+  get:
+    $ref: ./project/{projectId}/task/record/{taskId}/show/get.yml
+/project/{projectId}/task/record/{taskId}/subTask:
+  get:
+    $ref: ./project/{projectId}/task/record/{taskId}/subTask/get.yml
+/show:
+  get:
+    $ref: ./show/get.yml

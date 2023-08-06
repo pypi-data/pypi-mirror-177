@@ -1,0 +1,6 @@
+in: path
+name: taskId
+schema:
+  type: string
+required: true
+description: 任务ID

@@ -1,0 +1,6 @@
+in: path
+name: docId
+schema:
+  type: string
+required: true
+description: 文档ID

@@ -1,0 +1,56 @@
+type: object
+properties:
+  issueId:
+    type: string
+    description: 工单ID
+  issueType:
+    type: string
+    description: 工单类型
+    enum:
+      - task
+      - bug
+  title:
+    type: string
+    description: 标题
+  state:
+    type: string
+    description: 状态
+    enum:
+      - plan
+      - process
+      - check
+      - close
+  createUserId:
+    type: string
+    description: 创建人ID
+  createDisplayName:
+    type: string
+    description: 创建人名称
+  execUserId:
+    type: string
+    description: 执行人ID
+  execDisplayName:
+    type: string
+    description: 执行人名称
+  checkUserId:
+    type: string
+    description: 检查人ID
+  checkDisplayName:
+    type: string
+    description: 检查人名称
+  execAwardPoint:
+    type: integer
+    minimum: 0
+    description: 执行奖励
+  checkAwardPoint:
+    type: integer
+    minimum: 0
+    description: 检查奖励
+  createTime:
+    type: integer
+    description: 创建时间
+    format: int64
+  updateTime:
+    type: integer
+    description: 更新时间
+    format: int64

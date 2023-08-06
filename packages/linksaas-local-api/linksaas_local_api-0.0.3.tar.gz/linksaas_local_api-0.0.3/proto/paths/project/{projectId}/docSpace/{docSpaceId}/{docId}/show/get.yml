@@ -1,0 +1,33 @@
+tags:
+  - projectDoc
+summary: 文档列表
+description: 列出文档列表
+operationId: "projectProjectIdDocSpaceDocSpaceIdDocIdShowGet"
+parameters:
+  - $ref: "../../../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../../../parameters/docSpaceId.yml"
+  - $ref: "../../../../../../../parameters/docId.yml"
+  - $ref: "../../../../../../../parameters/accessToken.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/emptyRes.yml"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/errInfo.yml"

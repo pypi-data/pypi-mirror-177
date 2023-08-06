@@ -1,0 +1,42 @@
+tags:
+  - projectContentBlock
+summary: 可变内容块
+description: 列出可变内容块
+operationId: "projectProjectIdBlockCollBlockCollIdGet"
+parameters:
+  - $ref: "../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../parameters/blockCollId.yml"
+  - $ref: "../../../../../parameters/accessToken.yml"
+  - $ref: "../../../../../parameters/offset.yml"
+  - $ref: "../../../../../parameters/limit.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            totalCount:
+              type: integer
+              description: 内容块总数量
+            blockList:
+              type: array
+              items:
+                $ref: "../../../../../schemas/blockInfo.yml"
+  "500":
+    description:  失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../schemas/errInfo.yml"

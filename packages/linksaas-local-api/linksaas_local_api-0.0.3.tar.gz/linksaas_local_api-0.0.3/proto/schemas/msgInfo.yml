@@ -1,0 +1,34 @@
+type: object
+properties:
+  msgId:
+    type: string
+    description: 消息ID
+  channelId:
+    type: string
+    description: 频道ID
+  content:
+    type: string
+    description: 消息内容(ProseMirror格式)
+  senderUserId:
+    type: string
+    description: 发送用户ID
+  senderDisplayName:
+    type: string
+    description: 发送者名称
+  senderType:
+    type: string
+    description: 发送者类型
+    enum:
+      - member
+      - robot
+  sendTime:
+    type: integer
+    description: 发送时间
+    format: int64
+  hasUpdateTime:
+    type: boolean
+    description: 是否有修改
+  updateTime:
+    type: integer
+    description: 修改时间
+    format: int64

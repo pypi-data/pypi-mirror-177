@@ -1,0 +1,6 @@
+in: path
+name: bugId
+schema:
+  type: string
+required: true
+description: 缺陷ID

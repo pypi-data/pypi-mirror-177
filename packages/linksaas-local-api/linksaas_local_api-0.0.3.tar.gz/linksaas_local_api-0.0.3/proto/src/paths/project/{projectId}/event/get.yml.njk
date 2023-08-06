@@ -1,0 +1,60 @@
+tags:
+  - projectEvent
+summary: 事件列表
+description: 列出事件列表
+operationId: "{{ uniqueOpId() }}"
+parameters:
+  - $ref: "@parameters/projectId.yml.njk"
+  - $ref: "@parameters/accessToken.yml.njk"
+  - name: from_time
+    in: query
+    required: true
+    schema:
+      type: integer
+      format: int64
+      description: 开始时间，1970年以来的毫秒数
+  - name: to_time
+    in: query
+    required: true
+    schema:
+      type: integer
+      format: int64
+      description: 结束时间，1970年以来的毫秒数
+  - name: userId
+    in: query
+    schema:
+      type: string
+      description: 非空表示只显示对应用户事件，空表示所有用户
+  - $ref: "@parameters/offset.yml.njk"
+  - $ref: "@parameters/limit.yml.njk"
+responses:
+  "200":
+    description: 成功
+    headers:
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            totalCount:
+              type: integer
+              description: 事件总数量
+            eventList:
+              type: array
+              items:
+                $ref: "@schemas/eventInfo.yml.njk"
+  "500":
+    description: 失败
+    headers:
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "@schemas/errInfo.yml.njk"

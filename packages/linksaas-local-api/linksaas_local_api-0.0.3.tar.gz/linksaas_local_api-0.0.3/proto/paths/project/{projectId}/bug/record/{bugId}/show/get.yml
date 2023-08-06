@@ -1,0 +1,32 @@
+tags:
+  - projectBug
+summary: 显示缺陷
+description: 显示缺陷
+operationId: "projectProjectIdBugRecordBugIdShowGet"
+parameters:
+  - $ref: "../../../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../../../parameters/bugId.yml"
+  - $ref: "../../../../../../../parameters/accessToken.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/emptyRes.yml"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/errInfo.yml"

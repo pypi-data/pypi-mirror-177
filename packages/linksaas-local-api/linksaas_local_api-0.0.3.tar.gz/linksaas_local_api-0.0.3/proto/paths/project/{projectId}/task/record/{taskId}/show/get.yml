@@ -1,0 +1,32 @@
+tags:
+  - projectTask
+summary: 显示任务
+description: 显示任务
+operationId: "projectProjectIdTaskRecordTaskIdShowGet"
+parameters:
+  - $ref: "../../../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../../../parameters/taskId.yml"
+  - $ref: "../../../../../../../parameters/accessToken.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/emptyRes.yml"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/errInfo.yml"

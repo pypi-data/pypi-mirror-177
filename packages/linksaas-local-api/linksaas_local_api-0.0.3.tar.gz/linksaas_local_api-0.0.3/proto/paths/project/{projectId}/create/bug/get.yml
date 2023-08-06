@@ -1,0 +1,31 @@
+tags:
+  - projectCreate
+summary: 创建缺陷
+description: 创建缺陷
+operationId: "projectProjectIdCreateBugGet"
+parameters:
+  - $ref: "../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../parameters/accessToken.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../schemas/emptyRes.yml"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../schemas/errInfo.yml"

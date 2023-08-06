@@ -1,0 +1,40 @@
+tags:
+  - projectChannel
+summary: 列出沟通内容
+description: 列出沟通内容(从后往前)
+operationId: "projectProjectIdChannelMsgChannelIdGet"
+parameters:
+  - $ref: "../../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../../parameters/channelId.yml"
+  - $ref: "../../../../../../parameters/accessToken.yml"
+  - $ref: "../../../../../../parameters/limit.yml"
+  - name: refMsgId
+    in: query
+    schema:
+      type: string
+      description: 相关消息ID，空表示最后一条消息
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: array
+          items:
+            $ref: "../../../../../../schemas/msgInfo.yml"
+  "500":
+    description:  失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../schemas/errInfo.yml"

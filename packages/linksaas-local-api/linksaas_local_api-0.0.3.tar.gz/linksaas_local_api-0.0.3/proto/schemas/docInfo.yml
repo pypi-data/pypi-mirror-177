@@ -1,0 +1,31 @@
+type: object
+properties:
+  docId:
+    type: string
+    description: 文档标题
+  docSpaceId:
+    type: string
+    description: 文档空间ID
+  title:
+    type: string
+    description: 文档标题
+  createUserId:
+    type: string
+    description: 创建人ID
+  createDisplayName:
+    type: string
+    description: 创建人名称
+  createTime:
+    type: integer
+    description: 创建时间
+    format: int64
+  updateUserId:
+    type: string
+    description: 更新人ID
+  updateDisplayName:
+    type: string
+    description: 更新人名称
+  updateTime:
+    type: integer
+    description: 更新时间
+    format: int64

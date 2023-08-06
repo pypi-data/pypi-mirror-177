@@ -1,0 +1,28 @@
+type: object
+properties:
+  subTaskId:
+    type: string
+    description: 子任务ID
+  taskId:
+    type: string
+    description: 任务ID
+  title:
+    type: string
+    description: 标题
+  createUserId:
+    type: string
+    description: 创建人ID
+  createDisplayName:
+    type: string
+    description: 创建人名称
+  done:
+    type: boolean
+    description: 是否完成
+  createTime:
+    type: integer
+    description: 创建时间
+    format: int64
+  updateTime:
+    type: integer
+    description: 更新时间
+    format: int64

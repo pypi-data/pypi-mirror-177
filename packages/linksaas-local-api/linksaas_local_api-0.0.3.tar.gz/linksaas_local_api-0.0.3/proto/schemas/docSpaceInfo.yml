@@ -1,0 +1,9 @@
+type: object
+properties:
+  docSpaceId:
+    type: string
+    description: 文档空间ID
+  title:
+    type: string
+    description: 文档空间标题
+  

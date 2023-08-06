@@ -1,0 +1,41 @@
+openapi: "3.0.0"
+info:
+  version: "{{ packageJson('version') }}"
+  title: "{{ packageJson('name') }}"
+  description: "{{ packageJson('description') }}"
+  contact:
+    name: linksaas
+    email: "{{ packageJson('author') }}"
+    url: https://jihulab.com/linksaas/local-api
+
+servers:
+  - url: localhost
+
+tags:
+  - name: global
+    description: 不属于项目范围的接口
+  - name: projectCreate
+    description: 项目中创建任务/缺陷和文档
+  - name: projectTask
+    description: 项目中任务相关接口
+  - name: projectBug
+    description: 项目中缺陷相关接口
+  - name: projectEvent
+    description: 项目中事件相关接口
+  - name: projectMember
+    description: 项目中成员相关接口
+  - name: projectDoc
+    description: 项目中文档相关接口
+  - name: projectChannel
+    description: 项目中的沟通频道
+  - name: projectContentBlock
+    description: 项目中的可变内容块
+
+paths:
+  $ref: paths/index.yml.njk
+
+components:
+  parameters:
+    $ref: parameters/index.yml.njk
+  schemas:
+    $ref: schemas/index.yml.njk

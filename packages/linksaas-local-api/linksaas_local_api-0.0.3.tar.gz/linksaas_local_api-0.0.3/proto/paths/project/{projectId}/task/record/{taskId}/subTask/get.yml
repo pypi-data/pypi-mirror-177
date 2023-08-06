@@ -1,0 +1,34 @@
+tags:
+  - projectTask
+summary: 列出子任务
+description: 列出子任务
+operationId: "projectProjectIdTaskRecordTaskIdSubTaskGet"
+parameters:
+  - $ref: "../../../../../../../parameters/projectId.yml"
+  - $ref: "../../../../../../../parameters/taskId.yml"
+  - $ref: "../../../../../../../parameters/accessToken.yml"
+responses:
+  "200":
+    description: 成功
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          type: array
+          items:
+            $ref: "../../../../../../../schemas/subTaskInfo.yml"
+  "500":
+    description: 失败
+    headers: 
+      Access-Control-Allow-Origin:
+        schema:
+          type: string
+          default: "*"
+    content:
+      application/json:
+        schema:
+          $ref: "../../../../../../../schemas/errInfo.yml"

@@ -1,0 +1,6 @@
+in: path
+name: blockCollId
+schema:
+  type: string
+required: true
+description: 内容集合ID

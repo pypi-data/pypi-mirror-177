@@ -1,0 +1,6 @@
+in: path
+name: blockId
+schema:
+  type: string
+required: true
+description: 可变内容块ID

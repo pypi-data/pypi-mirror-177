@@ -1,0 +1,17 @@
+{
+  "name": "local-api",
+  "version": "0.1.3",
+  "description": "local api for linksaas desktop",
+  "repository": {
+    "type": "git",
+    "url": "https://jihulab.com/linksaas/local-api"
+  },
+  "author": "panleiming@linksaas.pro",
+  "license": "GPL3",
+  "scripts": {
+    "build": "boats -i ./src/index.yml.njk -o index.yml"
+  },
+  "devDependencies": {
+    "boats": "^2.37.0"
+  }
+}
