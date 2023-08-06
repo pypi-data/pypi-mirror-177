@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: arcl
+Version: 1.7.9
+Summary: The CLI for Archimedes
+License: Apache-2.0
+Author: Optimeering AS
+Author-email: dev@optimeering.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: cookiecutter (>=2.1.1,<3.0.0)
+Requires-Dist: msal (>=1.10.0,<2.0.0)
+Requires-Dist: msal-extensions (>=1.0.0,<2.0.0)
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Archimedes CLI
+
+The Archimedes CLI tool is used to bootstrap archimedes projects. The projects are based on a template available 
+[here](https://github.com/OptimeeringAS/archimedes-cookiecutter/).
+
+The CLI tool also helps you authenticate using your organization credentials and get credentials to access the 
+[Archimedes API](https://github.com/OptimeeringAS/archimedes-api/) and the database.
+
+## Installation
+
+Archimedes-cli can be installed on Linux, macOS and Windows. Follow the instructions for your operating system:
+* [Install arcl on Linux](install-arcl-on-linux.md)
+* [Install arcl on macOS](install-arcl-on-macos.md)
+* [Install arcl on Windows](install-arcl-on-windows.md)
+
+
+## Post-installation setup
+
+After installation of arcl tool, you will need to install and configure some other tools to be able to use arcl on your
+operating system. Please follow the instructions below:
+* [Post-install setup on Linux](post-install-linux.md)
+* [Post-install setup on macOS](post-install-macos.md)
+* [Post-install setup on Windows](post-install-windows.md)
+
+## Usage
+
+```shell
+arcl --help
+```
+
+#### Login
+
+To login to Archimedes, which is required for using it, run the following command and follow the on-screen instructions:
+
+```shell
+arcl auth login optimeering
+```
+
+To login to the DEV environment:
+```shell
+arcl auth logout
+ENVIRONMENT=dev arcl auth login optimeering
+```
+
+## Dev setup
+
+```shell
+pyenv shell 3.10.8
+pip install --upgrade pip wheel
+pyenv rehash
+poetry install
+poetry shell
+arcl --help
+```
+
+## Publishing releases
+
+A new release can be made by 
+[creating a release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release) 
+using the GitHub web interface.
+
+When the release it created, as long as the tag naming convention is followed, it is automatically built and published 
+to pypi by GitHub Actions, which is configured in the [.github/workflows](.github/workflows) in this repo. Please refer 
+to the following instructions when making releases:
+
+* Make sure that [pyproject.toml](pyproject.toml) is updated with a new version. We use 
+[semantic versioning](https://semver.org/). Make sure the version hasn't already been published to 
+[pypi](https://pypi.org/project/arcl/#history). 
+* Go to the [Releases page](/releases) of the project
+* Click the `Create a new release` button
+* Click on `Choose a tag` and in the input field, enter `release/cli/v{VERSION_NUMBER_FROM_pyproject.toml}`, for e.g. 
+`release/v1.2.3`. This tag name should NOT already exist, so it will NOT appear in the dropdown menu which appears as 
+you enter text. You need to click on `Create new tag release/cli/v{VERSION_NUMBER_FROM_pyproject.toml} on publish` to create 
+the tag.
+* In the release title, write `v{VERSION_NUMBER_FROM_pyproject.toml}`, for e.g. `v1.2.3`.
+* In Release Notes, ideally, we should write the titles of all the Shortcut stories and link to them.
+* Click on the `Publish Release` button.
+* Then, check that the [release pipeline](/actions) is running and wait for it to complete successfully.
+* Verify the release is [published to pypi](https://pypi.org/project/arcl/#history).
+* New arcl version has now been released.
+* Then, you are ready to build and publish the Windows distribution of arcl, which we currently perform manually. See
+[here](arcl-win/README.md) for instructions on how to do that.
+
