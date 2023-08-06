@@ -1,0 +1,7 @@
+clojurebridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clojurebridge/cljbridge.py,sha256=IUti8tlXBTD2OMqAoe7aNXPHTD47S6NCThqkAcExseE,10183
+cljbridge-0.0.8.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+cljbridge-0.0.8.dist-info/METADATA,sha256=Y9wXPolczI2DBVDPaafKBkqKha9jz2mM0HEVFZkMiGc,619
+cljbridge-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cljbridge-0.0.8.dist-info/top_level.txt,sha256=Gx27mOyXffnNT1BP1gwfOShsSy5jPMNyneOWKchIQiM,14
+cljbridge-0.0.8.dist-info/RECORD,,
