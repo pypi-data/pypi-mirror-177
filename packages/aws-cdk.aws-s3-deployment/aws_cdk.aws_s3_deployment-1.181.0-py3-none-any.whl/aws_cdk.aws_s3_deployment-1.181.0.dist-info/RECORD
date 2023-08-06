@@ -1,0 +1,10 @@
+aws_cdk/aws_s3_deployment/__init__.py,sha256=hIDolDtqC-YvzYNdPm8BR_HFQF8NpzP4xcFcEnLG8FE,91818
+aws_cdk/aws_s3_deployment/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_s3_deployment/_jsii/__init__.py,sha256=ElBohlwaevqDpy0-JREL38B0YAFmzkOw-fFuvUtK14s,721
+aws_cdk/aws_s3_deployment/_jsii/aws-s3-deployment@1.181.0.jsii.tgz,sha256=IvJ7L00eQxgvNjQ7tDCjmrL8lI2LfxJy4aNhcSGvQS4,79728
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/METADATA,sha256=pis3fgoP-oyL8wTxHKWA1F9hon0FuD0El9P-YHOeMIE,16634
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/NOTICE,sha256=EAA28FBO75ohSYcGyQahgkpnjfbCz3GrYNDAr2mQuBg,1382
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_s3_deployment-1.181.0.dist-info/RECORD,,
