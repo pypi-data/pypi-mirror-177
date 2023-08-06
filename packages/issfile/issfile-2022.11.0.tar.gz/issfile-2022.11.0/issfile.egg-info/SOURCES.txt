@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+issfile/__init__.py
+issfile/_version.py
+issfile.egg-info/PKG-INFO
+issfile.egg-info/SOURCES.txt
+issfile.egg-info/dependency_links.txt
+issfile.egg-info/entry_points.txt
+issfile.egg-info/requires.txt
+issfile.egg-info/top_level.txt
