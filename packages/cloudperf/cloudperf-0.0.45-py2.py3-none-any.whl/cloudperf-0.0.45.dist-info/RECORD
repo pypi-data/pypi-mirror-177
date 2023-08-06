@@ -1,0 +1,13 @@
+cloudperf/__init__.py,sha256=PQ0Y5adA1k2LYjp5VrrvSxTPmPnHxVZ2APf2PyOfHQg,300
+cloudperf/benchmarks.py,sha256=tI_p2R3c1s6pnvVaWohVDLQcd9RaFPp4BYDPaAP6GxY,9590
+cloudperf/cli.py,sha256=qJDe21ZCqoWcGWEwCD2UrW9aDY46NEo4CfAtqYnMZYA,9084
+cloudperf/core.py,sha256=wZljvdxSNUWe5dcDUojgu8ROC1Fo8udW1RLnJxjWzGk,4997
+cloudperf/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudperf/providers/aws.py,sha256=RgDHGyOUyC8MZ8eC9Q-l5i82Fl9UF98SGfIDtCrPocs,4041
+cloudperf/providers/aws_helpers.py,sha256=vmp2kjLxR667WLRwV3exP_PpSU8PTDnDOuQVM7dHAFQ,31218
+cloudperf-0.0.45.data/scripts/cloudperf,sha256=7Lo7qxEt2GfGTUi59iiGM6rdVWL4avZPKAXje6wGiRY,360
+cloudperf-0.0.45.dist-info/LICENSE,sha256=11wLiDR0KmfmUYBFr-BrJ-xBSuAmP2u7D3gT5cWid-g,1069
+cloudperf-0.0.45.dist-info/METADATA,sha256=1XiVlGFuh1RCwFVjs23pZP6LiB9rzPzsPvDsnKlVolo,20536
+cloudperf-0.0.45.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+cloudperf-0.0.45.dist-info/top_level.txt,sha256=ii_9SIoPV9C0Rkf2Dkp3lshFrl6yAm-xWC2jfRwCtqU,10
+cloudperf-0.0.45.dist-info/RECORD,,
