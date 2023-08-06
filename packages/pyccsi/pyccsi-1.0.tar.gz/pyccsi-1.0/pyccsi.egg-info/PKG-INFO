@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyccsi
+Version: 1.0
+Summary: Python package for request and download data from CCSI 
+Home-page: https://github.com/gisat/pyccsi
+Author: Michal Opletal
+Author-email: michal.opletal@gisat.cz
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+ptr-metagen
+
+### Description 
+Python package for request and download data from CCSI 
+
+### Install
+```
+pip install pyccsi
+```
+
+### Exaples
+
+
+```
+
+```
+

@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+pyccsi/__init__.py
+pyccsi/downloader.py
+pyccsi/facade.py
+pyccsi/parser.py
+pyccsi/schema.py
+pyccsi.egg-info/PKG-INFO
+pyccsi.egg-info/SOURCES.txt
+pyccsi.egg-info/dependency_links.txt
+pyccsi.egg-info/requires.txt
+pyccsi.egg-info/top_level.txt
