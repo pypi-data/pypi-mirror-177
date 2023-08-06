@@ -1,0 +1,2 @@
+[console_scripts]
+qts = qts._cli:main
