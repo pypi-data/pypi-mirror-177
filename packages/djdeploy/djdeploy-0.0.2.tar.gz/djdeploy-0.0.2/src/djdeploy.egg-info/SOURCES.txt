@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/djdeploy/__init__.py
+src/djdeploy/index.py
+src/djdeploy.egg-info/PKG-INFO
+src/djdeploy.egg-info/SOURCES.txt
+src/djdeploy.egg-info/dependency_links.txt
+src/djdeploy.egg-info/entry_points.txt
+src/djdeploy.egg-info/requires.txt
+src/djdeploy.egg-info/top_level.txt
