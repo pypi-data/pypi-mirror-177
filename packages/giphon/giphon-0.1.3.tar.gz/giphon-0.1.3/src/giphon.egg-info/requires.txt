@@ -1,0 +1,7 @@
+typer>=0.7
+python-gitlab<4,>=3
+GitPython<4,>=3
+rich<13,>=12
+
+[test]
+pytest
