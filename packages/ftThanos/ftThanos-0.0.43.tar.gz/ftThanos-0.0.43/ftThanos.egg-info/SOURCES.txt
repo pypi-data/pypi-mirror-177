@@ -1,0 +1,10 @@
+setup.py
+ftThanos/ft_connector.py
+ftThanos/notion_connector.py
+ftThanos/notion_get_properties.py
+ftThanos/notion_update_properties.py
+ftThanos.egg-info/PKG-INFO
+ftThanos.egg-info/SOURCES.txt
+ftThanos.egg-info/dependency_links.txt
+ftThanos.egg-info/requires.txt
+ftThanos.egg-info/top_level.txt
