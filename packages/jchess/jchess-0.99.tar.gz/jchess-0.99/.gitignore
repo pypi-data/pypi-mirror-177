@@ -1,0 +1,16 @@
+# tooling
+.venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# editor related files
+.vscode/
+
+# build related files
+dist/
+jchess.egg-info/
+
+# python generated files
+__pycache__/
