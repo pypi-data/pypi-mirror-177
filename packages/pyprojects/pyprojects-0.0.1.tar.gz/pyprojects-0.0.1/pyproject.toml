@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyprojects"
+version = "0.0.1"
+description = "Python Projects for Humans"
+authors = ["Yi Zhang <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/pyprojects"
+repository = "https://github.com/imyizhang/pyprojects"
+documentation = "https://pyprojects.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
