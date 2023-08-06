@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rosamplepackage
+Version: 0.0.1
+Summary: The smallest python package module to test.
+Home-page: http://github.com/rosikand/rosamplepackage
+Author: Rohan Sikand
+Author-email: rohansikand2024@gmail.com
+License: UNKNOWN
+Description: # Test python package 
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

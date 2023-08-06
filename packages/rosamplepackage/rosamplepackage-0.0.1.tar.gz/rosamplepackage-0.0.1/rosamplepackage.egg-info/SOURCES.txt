@@ -1,0 +1,9 @@
+README.md
+setup.py
+rosamplepackage/__init__.py
+rosamplepackage/example.py
+rosamplepackage.egg-info/PKG-INFO
+rosamplepackage.egg-info/SOURCES.txt
+rosamplepackage.egg-info/dependency_links.txt
+rosamplepackage.egg-info/requires.txt
+rosamplepackage.egg-info/top_level.txt
