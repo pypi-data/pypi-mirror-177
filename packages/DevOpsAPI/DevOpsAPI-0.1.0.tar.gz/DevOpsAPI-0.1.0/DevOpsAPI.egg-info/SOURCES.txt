@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+DevOpsAPI/__init__.py
+DevOpsAPI/api.py
+DevOpsAPI/connection.py
+DevOpsAPI/wi.py
+DevOpsAPI.egg-info/PKG-INFO
+DevOpsAPI.egg-info/SOURCES.txt
+DevOpsAPI.egg-info/dependency_links.txt
+DevOpsAPI.egg-info/requires.txt
+DevOpsAPI.egg-info/top_level.txt
