@@ -1,0 +1,46 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "poetry-git-version-plugin"
+version = "0.0.1"
+description = ""
+authors = ["irocshers <develop.iam@rocshers.com>"]
+readme = "readme.md"
+packages = [{include = "poetry_git_version_plugin"}]
+
+[tool.poetry.plugins."poetry.plugin"]
+poetry-git-version-plugin = "poetry_git_version_plugin.plugins:PoetryGitVersionPlugin"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-git-version-plugin = "poetry_git_version_plugin.plugins:PoetryGitVersionApplicationPlugin"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "^1.2.0"
+gitpython = "^3.1.29"
+pep440nz = "^0.5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+mypy = "*"
+flake8 = "*"
+wemake-python-styleguide = "*"
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
+[tool.aliases]
+test = "poetry run pytest"
+format = "poetry run black . && poetry run isort ."
+
+[tool.poetry-git-version-plugin]
+ignore_exception = true
+use_last_tag = true
+use_dev_ref = true
