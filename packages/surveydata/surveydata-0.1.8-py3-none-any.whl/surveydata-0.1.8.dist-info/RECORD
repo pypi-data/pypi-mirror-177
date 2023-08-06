@@ -1,0 +1,13 @@
+surveydata/__init__.py,sha256=bgLPT3xFe_Spd3MTnL0STM-yowrPuxq0XXihznfTtvY,1114
+surveydata/dynamodbstorage.py,sha256=ZgdVgXNWiErtq_mf0r5Gf0efYSQBen55VsUFMVI9lYw,16100
+surveydata/filestorage.py,sha256=kDwYICGOZmWSiYGrw09T3p6UcpAtKcwuXChnJz5a4lI,16405
+surveydata/s3storage.py,sha256=wkHrvOq0rEVCWxZLmlMCwr_Jv1VJAdQbZBTJ0JxT1pQ,18435
+surveydata/storagesystem.py,sha256=tYjQTXRgWyJWcHtUpIY6xmP-3U3sjSxdkutz5kSy-c8,9748
+surveydata/surveyctoexportstorage.py,sha256=24FWKkrJty1p-HpSCYrgxCQotdFHdXyr_TT2M7GLda4,11825
+surveydata/surveyctoplatform.py,sha256=0OIZPOWSBr2HpQQ6_IXdhwwLVHTWHcORARbqdnoVyHU,29483
+surveydata/surveyplatform.py,sha256=lOvEJ9VpXCNJyxPGo-WNwpgAWbUYnu-fa9JgpCkwiPg,2129
+surveydata-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+surveydata-0.1.8.dist-info/METADATA,sha256=2nIXLi9M-jeIK71HKBCV1DOV3_0aWMPLzkNjYKW78mM,4288
+surveydata-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+surveydata-0.1.8.dist-info/top_level.txt,sha256=e5u9eDriT30jlV2uLLwjKwv1o4pi6i5p8w049Qsu65w,11
+surveydata-0.1.8.dist-info/RECORD,,
