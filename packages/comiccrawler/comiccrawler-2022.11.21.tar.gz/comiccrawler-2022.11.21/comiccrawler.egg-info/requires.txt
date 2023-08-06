@@ -1,0 +1,12 @@
+belfrywidgets~=1.0
+brotli~=1.0
+desktop3~=0.5.3
+docopt~=0.6.2
+lzstring~=1.0
+node_vm2~=0.4.5
+puremagic~=1.14
+pycryptodomex~=3.15
+pythreadworker~=0.10.0
+requests~=2.28
+safeprint~=0.2.0
+uncurl~=0.0.11
