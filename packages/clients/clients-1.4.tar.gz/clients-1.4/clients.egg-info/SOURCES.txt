@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+clients/__init__.py
+clients/aio.py
+clients/base.py
+clients/py.typed
+clients.egg-info/PKG-INFO
+clients.egg-info/SOURCES.txt
+clients.egg-info/dependency_links.txt
+clients.egg-info/requires.txt
+clients.egg-info/top_level.txt
