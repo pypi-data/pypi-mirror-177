@@ -1,0 +1,7 @@
+README.md
+setup.py
+SHAWPACK.egg-info/PKG-INFO
+SHAWPACK.egg-info/SOURCES.txt
+SHAWPACK.egg-info/dependency_links.txt
+SHAWPACK.egg-info/requires.txt
+SHAWPACK.egg-info/top_level.txt
