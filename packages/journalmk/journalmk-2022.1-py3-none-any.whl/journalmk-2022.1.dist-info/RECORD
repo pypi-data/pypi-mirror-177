@@ -1,0 +1,9 @@
+journalmk/__init__.py,sha256=q_fMBHgsH_8zgc97W6jKRtn3l2AJVMRYWYR2D98_lLY,25
+journalmk/__main__.py,sha256=Dmlax7itenEY63SgXdRcU7n3WhXNs7n28L2IzYbDVhg,52
+journalmk/journalmk.py,sha256=RWasL00XgmWyfNjoK2wR5h_gC4azzolUfMvoIIbb8IM,19760
+journalmk-2022.1.dist-info/LICENSE,sha256=tkZjeFD4yS82R1rinlk8JF6GEM9COiKbfkSDDsPjXME,1488
+journalmk-2022.1.dist-info/METADATA,sha256=tJfuWkt92PUve43ObCD48vQF6AymLtaHOWO09FiHRJ4,7937
+journalmk-2022.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+journalmk-2022.1.dist-info/entry_points.txt,sha256=-ZEgR97hXpBHErwMNxPSTK-JlARWOlCzBEmaCwW2b08,55
+journalmk-2022.1.dist-info/top_level.txt,sha256=iU0XkhLqYseaSxhMRgdRGAtzfM5Yk-Yo3snD4o9HNxg,10
+journalmk-2022.1.dist-info/RECORD,,
