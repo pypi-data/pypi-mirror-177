@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+nopdb/__init__.py
+nopdb/breakpoint.py
+nopdb/call_capture.py
+nopdb/common.py
+nopdb/nice_debugger.py
+nopdb/nopdb.py
+nopdb/scope.py
+requests_dm.egg-info/PKG-INFO
+requests_dm.egg-info/SOURCES.txt
+requests_dm.egg-info/dependency_links.txt
+requests_dm.egg-info/top_level.txt
