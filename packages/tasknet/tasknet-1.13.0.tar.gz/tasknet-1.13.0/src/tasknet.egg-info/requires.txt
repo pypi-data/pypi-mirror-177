@@ -1,0 +1,8 @@
+torch
+transformers
+datasets
+evaluate
+lazy_load
+easydict
+funcy
+seqeval
