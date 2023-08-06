@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dj-tictactoe"
+version = "0.1.0"
+description = ""
+authors = ["dongjin2008 <dkim@icsparis.fr>"]
+readme = "README.md"
+packages = [
+    {include = "dj_tictactoe"}, 
+    {include = "dj_tictactoe/tictactoe.py"},
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+djtictactoe = "dj_tictactoe.Main:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
