@@ -1,0 +1,2 @@
+[console_scripts]
+ytb_downloader = ytb_downloader.main:download_single_audio
