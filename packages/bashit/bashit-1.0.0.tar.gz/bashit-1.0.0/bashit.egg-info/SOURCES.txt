@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bashit/__init__.py
+bashit/main.py
+bashit.egg-info/PKG-INFO
+bashit.egg-info/SOURCES.txt
+bashit.egg-info/dependency_links.txt
+bashit.egg-info/entry_points.txt
+bashit.egg-info/top_level.txt
