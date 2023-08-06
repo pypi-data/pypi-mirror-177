@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "kclii"
+version = "0.1.8"
+description = "CLI multipurpose."
+authors = ["Andres Garcia <jose.andres.gm29@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+pydantic = "^1.10.2"
+sqlalchemy = "^1.4.43"
+psycopg2-binary = "^2.9.5"
+load-dotenv = "^0.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[tool.poetry.scripts]
+k = "kclii.main:app"
+kinit = "kclii.init:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
