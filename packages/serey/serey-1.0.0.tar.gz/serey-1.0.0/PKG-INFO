@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: serey
+Version: 1.0.0
+Summary: A python library for the Serey blockchain
+Home-page: https://github.com/serey-io/
+Author: serey
+Author-email: info@sery.io
+License: MIT
+Keywords: serey,cryptocurrency,blockchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Provides-Extra: dev
+Provides-Extra: build
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+
