@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dbpystream"
+version = "0.6"
+authors = [
+  { name="songroom", email="rustroom@163.com" },
+]
+description = "A data api "
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/songroom2016/dbpystream.git"
+"Bug Tracker" = "https://github.com/songroom2016/dbpystream/issues"
