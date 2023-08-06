@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+poly2pascal/__init__.py
+poly2pascal/annotations.py
+poly2pascal/data_loader.py
+poly2pascal.egg-info/PKG-INFO
+poly2pascal.egg-info/SOURCES.txt
+poly2pascal.egg-info/dependency_links.txt
+poly2pascal.egg-info/requires.txt
+poly2pascal.egg-info/top_level.txt
