@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mytelegrambotlib
+Version: 0.1.3
+Summary: Library with telegram bot for homework
+Home-page: UNKNOWN
+Author: Leonid Dubrovin
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Telegram bot
+for hw1.10
+
+Library with telegram bot
+
+## Install
+`pip install git+https://github.com/LeonidDubrovin/mytelegrambotlib.git`
+
+pr
+
+`pip install mytelegrambotlib`
+
+
+
+
