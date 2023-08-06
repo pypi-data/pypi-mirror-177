@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+openpyxl
+joblib
+pathlib
+matplotlib
+seaborn
+fmpy
+sdf
+notebook
