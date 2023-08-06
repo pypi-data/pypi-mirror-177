@@ -1,0 +1,2 @@
+[console_scripts]
+summed = summed.cli:main
