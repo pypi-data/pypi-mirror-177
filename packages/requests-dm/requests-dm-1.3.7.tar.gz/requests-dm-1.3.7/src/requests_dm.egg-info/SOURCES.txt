@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/requests_dm.egg-info/PKG-INFO
+src/requests_dm.egg-info/SOURCES.txt
+src/requests_dm.egg-info/dependency_links.txt
+src/requests_dm.egg-info/requires.txt
+src/requests_dm.egg-info/top_level.txt
