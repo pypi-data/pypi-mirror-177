@@ -1,0 +1,41 @@
+# Python Bindings for the Black Duck KB REST API
+
+Reference: https://kbdev.blackducksoftware.com/docs/index.html
+
+**For internal use only by SIG R&D**
+
+# How to Use
+
+This package assumes python3
+
+There are two requirements.txt files in the repository,
+
+1. In the top-level is a requirements.txt to use when working on the package (aka library) itself, including packages for testing
+2. In the examples folder is another requirements.txt file for using the package (aka library). It includes a reference to the Gitlab repository where this code is hosted.
+
+So, to use the package,
+
+1. Clone the repository OR copy the examples/requirements.txt file into your project
+
+2. Create your virtualenv
+
+3. Install the requirements, 
+
+   ```
+   pip install -r examples/requirements.txt
+   ```
+
+To use the KB API you will need a license key for it. 
+
+# How to Contribute
+
+Follow the usual flow and create a branch/PR to submit your contributions. 
+
+## How to Test
+
+testing details
+
+## Submitting PR's
+
+PR details
+

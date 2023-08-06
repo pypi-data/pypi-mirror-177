@@ -1,0 +1,12 @@
+README.md
+setup.py
+blackduck_kb/Authentication.py
+blackduck_kb/KBClient.py
+blackduck_kb/Utils.py
+blackduck_kb/__init__.py
+blackduck_kb/__version__.py
+blackduck_kb.egg-info/PKG-INFO
+blackduck_kb.egg-info/SOURCES.txt
+blackduck_kb.egg-info/dependency_links.txt
+blackduck_kb.egg-info/requires.txt
+blackduck_kb.egg-info/top_level.txt
