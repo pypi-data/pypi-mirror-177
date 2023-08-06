@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/MyLibTest/ExampleClass.py
+src/MyLibTest/__init__.py
+src/MyLibTest/exampleFunc.py
+src/MyLibTest_123gggwnnggg.egg-info/PKG-INFO
+src/MyLibTest_123gggwnnggg.egg-info/SOURCES.txt
+src/MyLibTest_123gggwnnggg.egg-info/dependency_links.txt
+src/MyLibTest_123gggwnnggg.egg-info/top_level.txt
