@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: otsuwinhdlr
+Version: 2022.11.20.1
+Summary: ウィンドウやエクスプローラのハンドル取得、操作を補助します。
+Home-page: https://github.com/Otsuhachi/OtsuWinHdlr
+Author: Otsuhachi
+Author-email: agequodagis.tufuiegoeris@gmail.com
+Requires-Dist: otsutil
+Requires-Dist: otsuvalidator
+
