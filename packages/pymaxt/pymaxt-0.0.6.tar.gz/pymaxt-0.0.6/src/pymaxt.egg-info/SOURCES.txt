@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pymaxt/__init__.py
+src/pymaxt/pycolor_main2.py
+src/pymaxt.egg-info/PKG-INFO
+src/pymaxt.egg-info/SOURCES.txt
+src/pymaxt.egg-info/dependency_links.txt
+src/pymaxt.egg-info/top_level.txt
