@@ -1,0 +1,4 @@
+xs_turtle.egg-info/PKG-INFO
+xs_turtle.egg-info/SOURCES.txt
+xs_turtle.egg-info/dependency_links.txt
+xs_turtle.egg-info/top_level.txt
