@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: preprocessing-pgp
+Version: 0.1.2
+Summary: Fix phone converter mechanism and add new indicator columns
+Author-email: quangvm9 <quangvm9@fpt.com.vn>
+License: MIT License
+        
+        Copyright (c) 2022 quangvm9@fpt.com.vn NLP Preprocessing Text
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: nlp,text,preprocessing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Unidecode
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: regex
+Requires-Dist: pyarrow
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+
+
+# preprocessing_pgp
+
+[![PyPI](https://shields.io/pypi/v/preprocessing-pgp)](https://pypi.org/project/nlp-preprocessing-qvm9/)
+[![Python](https://img.shields.io/pypi/pyversions/preprocessing-pgp.svg?style=plastic)](https://badge.fury.io/py/preprocessing-pgp)
+
+**preprocessing_pgp** -- The Preprocessing library for any kind of data -- is a suit of *open source Python modules, preprocessing techniques* supporting research and development in Machine Learning. preprocessing_pgp requires Python version **3.6, 3.7, 3.8, 3.9, 3.10**
+
+## Installation
+
+To install the current release:
+
+```shell
+pip install preprocessing-pgp
+```
+
+## Example
+
+### 1. Preprocessing Name
+
+```shell
+python
+```
+
+```python
+>>> import preprocessing_pgp as pgp
+>>> pgp.preprocess.basic_preprocess_name('Phan Thị    Thúy    Hằng *$%!@#')
+Phan Thị Thúy Hằng
+```
+
+### 1. Extracting Phones
+
+```shell
+python
+```
+
+```python
+>>> import pandas as pd
+>>> from preprocessing_pgp.phone.extractor import extract_valid_phone
+>>> data = pd.read_parquet('/path/to/data.parquet')
+>>> extract_valid_phone(phones=data, phone_col='col_contains_phone')
+# OF PHONE CLEAN : 0
+
+Sample of non-clean phones:
+Empty DataFrame
+Columns: [id, phone, clean_phone]
+Index: []
+
+100%|██████████| ####/#### [00:00<00:00, ####it/s]
+
+# OF PHONE 10 NUM VALID : ####
+
+
+# OF PHONE 11 NUM VALID : ####
+
+
+0it [00:00, ?it/s]
+
+# OF OLD PHONE CONVERTED : ####
+
+
+# OF OLD REGION PHONE : ####
+
+100%|██████████| ####/#### [00:00<00:00, ####it/s]
+
+# OF VALID PHONE : ####
+
+# OF INVALID PHONE : ####
+
+Sample of invalid phones:
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|      |      id |   clean_phone | is_phone_valid   | is_mobi   | is_new_mobi   | is_old_mobi   | phone_convert   | is_new_landline   | is_old_landline   |
++======+=========+===============+==================+===========+===============+===============+=================+===================+===================+
+|   ## | 12##### |     083###### | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 12##### |     098###### | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 13##### |   039######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 13##### |   093######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 14##### |   096######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 14##### |   097######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 15##### |   098######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 13##### |   032######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 14##### |   086######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+|   ## | 14##### |   078######## | False            | False     | False         | False         |                 | False             | False             |
++------+---------+---------------+------------------+-----------+---------------+---------------+-----------------+-------------------+-------------------+
+```
