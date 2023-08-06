@@ -1,0 +1,13 @@
+pandas
+polars>=0.14.17
+pyarrow
+scipy
+numpy>=1.20
+faker
+scikit-learn
+xmltodict
+jsonschema
+wget
+
+[:python_version < "3.9"]
+importlib-resources
