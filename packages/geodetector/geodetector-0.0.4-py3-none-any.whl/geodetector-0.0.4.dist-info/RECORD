@@ -1,0 +1,12 @@
+geodetector/__init__.py,sha256=lNeU3DP4yS15L3yGHF6ZW76eGMOOYktHRKWbrDZ1i8I,111
+geodetector/gd_regressor.py,sha256=zUGNABd1qSwrFtER8cKqjF1mR95E97znvzkG0JtYWko,5155
+geodetector/geodetector.py,sha256=_N3Lqa676_91ZFzJ6fgjGCm8fPYoE0vBFQBatCl1eYI,7609
+geodetector/dataset/__init__.py,sha256=ss3JznFXUi1UKtNkGyBA19Rx5MMJJI0AhKWmPqf0P4M,38
+geodetector/dataset/_load_data.py,sha256=IKhV7lTLpyxrtIcIbcd8i6XHu6Xc81mtfEarGrEWkLg,221
+geodetector/dataset/data/disease.csv,sha256=PK0F3hvkehVkhvTQMbZDX7UY4fO0-NpOY_1HkImYygI,2234
+geodetector/utils/__init__.py,sha256=cMoDhM_57zp0OooaYuORqBsrJ_va0WrlQ31AfU8-ueE,29
+geodetector/utils/_groupby.py,sha256=qSa3AQdFzauZDx8_HrIOO746LnvJBrHAmdoJBSdYyz0,1446
+geodetector-0.0.4.dist-info/METADATA,sha256=41qrONXax1raFx_wt-BSW9DBFZ8Zh2wuNynKeOLQyps,1304
+geodetector-0.0.4.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+geodetector-0.0.4.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+geodetector-0.0.4.dist-info/RECORD,,
