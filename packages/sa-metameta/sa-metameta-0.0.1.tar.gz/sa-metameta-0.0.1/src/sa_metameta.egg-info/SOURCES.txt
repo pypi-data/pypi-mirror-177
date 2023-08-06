@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sa_metameta/__init__.py
+src/sa_metameta/exceptions.py
+src/sa_metameta.egg-info/PKG-INFO
+src/sa_metameta.egg-info/SOURCES.txt
+src/sa_metameta.egg-info/dependency_links.txt
+src/sa_metameta.egg-info/not-zip-safe
+src/sa_metameta.egg-info/requires.txt
+src/sa_metameta.egg-info/top_level.txt
+src/sa_metameta/asyncmeta/__init__.py
+src/sa_metameta/meta/__init__.py
