@@ -1,0 +1,10 @@
+setup.py
+General_distributions_vic_xav/Binomialdistribution.py
+General_distributions_vic_xav/Gaussiandistribution.py
+General_distributions_vic_xav/Generaldistribution.py
+General_distributions_vic_xav/__init__.py
+General_distributions_vic_xav.egg-info/PKG-INFO
+General_distributions_vic_xav.egg-info/SOURCES.txt
+General_distributions_vic_xav.egg-info/dependency_links.txt
+General_distributions_vic_xav.egg-info/not-zip-safe
+General_distributions_vic_xav.egg-info/top_level.txt
