@@ -1,0 +1,12 @@
+MDAnalysis>=2.1.0
+Pillow>=8.1
+cython
+emcee
+fabio
+matplotlib>=3
+nglview
+numpy>=1.20
+numpydoc>=1.1.0
+pdb2pqr
+requests
+scipy>=1.8
