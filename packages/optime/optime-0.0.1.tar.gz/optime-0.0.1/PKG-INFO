@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: optime
+Version: 0.0.1
+Summary: Quick and simple optimization package. First implemented: A genetic algorithm (GA).
+Author-email: Maarten Tytgat <maarten.tytgat@gmail.com>
+Project-URL: Homepage, https://github.com/mtyt/optime
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Optime
+This is a work-in-progress optimization package.
+Currently only a (very basic) genetic algorithm is implemented.
+
+This project can be found on [GitHub](https://github.com/mtyt/optime).
