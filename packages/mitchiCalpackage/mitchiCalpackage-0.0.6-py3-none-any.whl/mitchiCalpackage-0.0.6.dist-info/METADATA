@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mitchiCalpackage
+Version: 0.0.6
+Summary: No description here. Look somewhere else maybe
+Home-page: UNKNOWN
+Author: Mitch Regan
+Author-email: <mregan1@g.emporia.com>
+License: UNKNOWN
+Keywords: python,simpleCalpackage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+What? another long description? I don't have time for this
+
+
