@@ -1,0 +1,3 @@
+[console_scripts]
+rabbitmark = rabbitmark.__main__:main
+
