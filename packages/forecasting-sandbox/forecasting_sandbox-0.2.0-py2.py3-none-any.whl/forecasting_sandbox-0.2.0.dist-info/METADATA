@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: forecasting-sandbox
+Version: 0.2.0
+Summary: Experimentations in Time Series forecasting
+Home-page: https://github.com/thierrymoudiki/forecasting_sandbox
+Author: T. Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD3 Clause License
+Keywords: forecasting
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: cmdstanpy (==1.0.8)
+Requires-Dist: contourpy (==1.0.6)
+Requires-Dist: convertdate (==2.4.0)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: ephem (==4.1.3)
+Requires-Dist: fonttools (==4.38.0)
+Requires-Dist: fuzzywuzzy (==0.18.0)
+Requires-Dist: hijri-converter (==2.2.4)
+Requires-Dist: holidays (==0.17)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: korean-lunar-calendar (==0.3.1)
+Requires-Dist: LunarCalendar (==0.0.9)
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: numpy
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas
+Requires-Dist: patsy (==0.5.3)
+Requires-Dist: Pillow (==9.3.0)
+Requires-Dist: prophet (==1.1.1)
+Requires-Dist: PyMeeus (==0.5.11)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-Levenshtein (==0.12.2)
+Requires-Dist: pytz (==2022.5)
+Requires-Dist: scipy (==1.9.3)
+Requires-Dist: setuptools-git (==1.2)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: statsmodels (==0.13.2)
+Requires-Dist: tqdm (==4.60.0)
+
+Experimentations in Time Series forecasting
