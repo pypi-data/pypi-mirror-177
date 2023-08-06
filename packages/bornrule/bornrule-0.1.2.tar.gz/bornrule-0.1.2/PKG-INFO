@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bornrule
+Version: 0.1.2
+Summary: Classification with Born's rule
+Home-page: https://github.com/eguidotti/bornrule
+License: GPL-3.0-or-later
+Author: Emanuele Guidotti
+Author-email: emanuele.guidotti@unine.ch
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: scikit-learn (>=0.24.2)
+Requires-Dist: scipy (>=1.5.4)
+Project-URL: Documentation, https://eguidotti.github.io/bornrule/
+Project-URL: Repository, https://github.com/eguidotti/bornrule
+Description-Content-Type: text/markdown
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" align="right" height="128"/>This package implements the classifier proposed in:
+
+> Emanuele Guidotti and Alfio Ferrara. Text Classification with Born’s Rule. *Advances in Neural Information Processing Systems*, 2022.
+
+<div align="center">
+  [<a href="https://github.com/eguidotti/bornrule">GitHub</a>] - 
+  [<a href="https://eguidotti.github.io/bornrule/">Docs</a>] - 
+  [<a href="https://openreview.net/pdf?id=sNcn-E3uPHA">Paper</a>] - 
+  [<a href="https://nips.cc/media/neurips-2022/Slides/54723.pdf">Slides</a>] - 
+  [<a href="https://nips.cc/media/PosterPDFs/NeurIPS%202022/8d7628dd7a710c8638dbd22d4421ee46.png">Poster</a>]
+</div>
+
+
