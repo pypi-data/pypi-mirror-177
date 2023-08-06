@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: collectivo
+Version: 0.0.3
+License: GNU Affero General Public License v3
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: Django (<4.2,>=4.1.1)
+Requires-Dist: djangorestframework (<3.14,>=3.13.1)
+Requires-Dist: django-filter (==22.1)
+Requires-Dist: drf-spectacular (<0.25,>=0.24.2)
+Requires-Dist: python-keycloak (<2.6,>=2.5.0)
+Requires-Dist: PyJWT (>=2.5.0)
+
