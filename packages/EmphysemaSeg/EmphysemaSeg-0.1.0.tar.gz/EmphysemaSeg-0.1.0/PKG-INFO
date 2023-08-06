@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: EmphysemaSeg
+Version: 0.1.0
+Summary: Lobe segmentation and emphysema quantification for chest CT
+Author-email: Thomas Li <thomas.z.li@vanderbilt.edu>
+Project-URL: Homepage, https://github.com/MASILab/EmphysemaSeg
+Requires-Python: >=3.7
+License-File: LICENSE.md
