@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/osio.egg-info/PKG-INFO
+src/osio.egg-info/SOURCES.txt
+src/osio.egg-info/dependency_links.txt
+src/osio.egg-info/top_level.txt
+src/osio_flylord/__init__.py
+src/osio_flylord/osio.py
