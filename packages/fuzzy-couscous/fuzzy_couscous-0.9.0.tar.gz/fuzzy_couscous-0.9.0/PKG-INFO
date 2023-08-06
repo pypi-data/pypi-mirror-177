@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fuzzy-couscous
+Version: 0.9.0
+Summary: Generate a django project from the fuzzy-couscous template.
+License: MIT
+Author: Tobi-De
+Author-email: tobidegnon@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# fuzzy-couscous-cli
+
+A cli helper for https://github.com/Tobi-De/fuzzy-couscous.
