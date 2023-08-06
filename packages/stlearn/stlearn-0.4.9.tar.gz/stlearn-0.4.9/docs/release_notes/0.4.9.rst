@@ -1,0 +1,6 @@
+0.4.9 `2022-11-22`
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. rubric:: Feature
+
+- Upgrade PSTS and CCI analysis methods for Xenium data.
