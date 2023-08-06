@@ -1,0 +1,23 @@
+{% filter indent(_indent + 4) %}
+{{name}} function
+{%- if params|length > 0 %}
+
+Args:
+    {%- for param in params %}
+    {{ param.name }} ({{param.annotation}}): TODO: to complete
+    {%- endfor %}
+{%- endif %}
+{%- if raises %}
+
+Raises:
+  {%- for raise in raises %}
+  {{ raise }}: TODO: to complete
+  {%- endfor %}
+{%- endif %}
+{%- if return_type %}
+
+Returns:
+    {{ return_type }}: TODO: to complete
+{%- endif %}
+{%- endfilter %}
+

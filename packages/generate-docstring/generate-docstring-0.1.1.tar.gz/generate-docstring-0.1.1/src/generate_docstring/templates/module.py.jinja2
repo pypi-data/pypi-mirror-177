@@ -1,0 +1,11 @@
+
+{{ name }} module
+
+{%- if attributes|length > 0 %}
+
+Attributes:
+    {%- for attr in attributes %}
+    {{ attr.name }} ({{ attr.annotation }}): TODO: to complete
+    {%- endfor %}
+{%- endif %}
+
