@@ -1,0 +1,5 @@
+docopt
+Jinja2
+kiwi>=9.21.21
+PyYAML
+schema

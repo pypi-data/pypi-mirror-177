@@ -1,0 +1,37 @@
+<service name="compose_kiwi_description">
+  <summary>Compose KIWI Image-Description from keg recipe</summary>
+  <description>The service creates a KIWI description from a given keg recipe and commits it to the project</description>
+  <parameter name="git-recipes">
+    <description>Git clone location to fetch keg recipes (multiples allowed)</description>
+    <required/>
+  </parameter>
+  <parameter name="git-branch">
+    <description>Git branch to check out (multiples allowed, optional)</description>
+  </parameter>
+  <parameter name="image-source">
+    <description>Keg path in git source pointing to the image description. The path must be relative to the images/ directory</description>
+    <required/>
+  </parameter>
+  <parameter name="image-version">
+    <description> Set image version to VERSION. If no version is given, the old version will be used with the patch number increased by one.</description>
+  </parameter>
+  <parameter name="arch">
+    <description>set build architecture (multiples allowed, optional)</description>
+  </parameter>
+  <parameter name="version-bump">
+    <description>Whether the patch version number should be incremented. Ignored if '--image-version' is set. If set to 'false' and '--image-version' is not set, the image version defined in the recipes will be used. If no image version is defined, image description generation will fail.  [default: true]
+    </description>
+  </parameter>
+  <parameter name="update-changelogs">
+    <description> Whether 'changes.yaml' files should be updated. [default: true]</description>
+  </parameter>
+  <parameter name="update-revisions">
+    <description>Whether '_keg_revisions' should be updated. [default: true]</description>
+  </parameter>
+  <parameter name="force">
+    <description>If 'true' refresh image description even if there are no new commits [default: false]</description>
+  </parameter>
+  <parameter name="generate-multibuild">
+    <description>If 'true', generate a _multibuild file if the image definition has profiles defined. [default: true]</description>
+  </parameter>
+</service>
