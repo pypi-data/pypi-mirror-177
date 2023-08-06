@@ -1,0 +1,4 @@
+[project]
+name = "astronomer-fab-security-manager"
+description = "Placeholder to prevent dependency confusion attacks"
+version = "0.0.0"
