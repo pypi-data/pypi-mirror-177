@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: elevator_game
+Version: 1.0.0
+Summary: A TUI game where you control elevators.
+Home-page: https://github.com/smwa/elevator_game
+Author: Michael Smith
+Author-email: michael.smith.ok@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Elevator Game
+
+A TUI game, thanks to curses, where you control elevators in a building to move people to where they want to go.
+The quicker they get to their destination, the more points you get.
+
+Install with `pip install elevator_game`

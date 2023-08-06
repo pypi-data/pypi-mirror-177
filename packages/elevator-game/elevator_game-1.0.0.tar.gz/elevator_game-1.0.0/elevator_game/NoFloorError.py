@@ -1,0 +1,2 @@
+class NoFloorError(IndexError):
+  pass
