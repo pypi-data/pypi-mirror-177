@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+ocsort/__init__.py
+ocsort/association.py
+ocsort/kalmanfilter.py
+ocsort/ocsort.py
+ocsort.egg-info/PKG-INFO
+ocsort.egg-info/SOURCES.txt
+ocsort.egg-info/dependency_links.txt
+ocsort.egg-info/requires.txt
+ocsort.egg-info/top_level.txt
