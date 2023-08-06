@@ -1,0 +1,28 @@
+[project]
+name = "ech"
+version = "0.1.1"
+authors = [{name = "Tom Shen", email = "me@tomshen.io"}]
+requires-python = ">=3.7"
+description = "Yet another simple AWS EC2 Tools"
+readme = "README.md"
+
+dependencies = [
+    "sshconf",
+    "boto3",
+    "toml",
+    "colorama"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console"
+]
+
+[project.scripts]
+ech = "ech:main"
+
+[project.urls]
+"Homepage" = "https://github.com/tsunrise/ech"
+
