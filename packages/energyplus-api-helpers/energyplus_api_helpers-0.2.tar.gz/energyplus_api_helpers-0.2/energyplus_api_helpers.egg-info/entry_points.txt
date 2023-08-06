@@ -1,0 +1,3 @@
+[console_scripts]
+energyplus_pet_gui = energyplus_pet.runner:main_gui
+

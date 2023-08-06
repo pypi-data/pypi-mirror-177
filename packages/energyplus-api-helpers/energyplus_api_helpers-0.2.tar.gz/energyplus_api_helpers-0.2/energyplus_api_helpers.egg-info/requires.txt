@@ -1,0 +1,4 @@
+matplotlib
+flask
+pysparklines
+asciichartpy
