@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-distributed
+Version: 0.1
+Summary: A python for distributed databases setup in Django
+Home-page: https://github.com/lodlaw/django-distributed
+Author: Anh Pham
+Author-email: anh.pham@lodlaw.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
