@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: arrow-markets-python-sdk
+Version: 1.0.0
+Summary: Arrow Markets SDK
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: web3
+
+### Getting Started
+
+1. Create a virtual environment `python -m venv venv`. 
+2. Activate the virtual environment `source venv/bin/activate`. 
+3. Install required dependencies `pip install -r requirements.txt`. 
+
+### To run the tests
+
+1. Make sure the virtual environment is activated. 
+2. Run `pytest`. 
