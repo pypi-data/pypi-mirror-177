@@ -1,0 +1,12 @@
+mypysql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypysql/alchemy.py,sha256=f_tlhA0R3f1S9_s1nSaM1kGR28Bd1zwjU6kCf-Wa5G4,2355
+mypysql/get_login.py,sha256=arihj_5kwjh6hMpb0STcIAPEkgr73vZ1KBNOYOLsvm4,1854
+mypysql/get_tables.py,sha256=5P22ZEJdm550aQqM2i0CEs_pPgFcyn-NHEZIT_Tdr5I,437
+mypysql/query.py,sha256=H7KRgAWud6J3WEqXIS_J1-9QXPLZ1tRkXUCgnTrgiUw,28696
+mypysql/query_tester.py,sha256=CE09KjxjVM5mup1bYiulAAFfAL9zTuJQmF0CXavQKmE,4594
+mypysql/sql.py,sha256=36WT7Ck89G0D71Fpk1ThdN_LMnWti5RjvaCla4samSg,22914
+mypysql/table_config.py,sha256=dClMR6fqSOkhwnCohR5GOyWRYkPjbJNczGXnFiNl6WI,2330
+mypysql-0.1.0.dist-info/METADATA,sha256=KOQcAHSn_yxg9jewpIGU_tdSJu5C-xlg6GRIEY3Y1mw,389
+mypysql-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mypysql-0.1.0.dist-info/top_level.txt,sha256=-66BZ7TwdFgihEd3vPvJQl1IuzFtw0zmkSnobYzPh9E,8
+mypysql-0.1.0.dist-info/RECORD,,
