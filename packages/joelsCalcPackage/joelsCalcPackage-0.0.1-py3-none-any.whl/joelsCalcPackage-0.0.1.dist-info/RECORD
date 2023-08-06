@@ -1,0 +1,16 @@
+joelsCalcPackage/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+joelsCalcPackage/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+joelsCalcPackage/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+joelsCalcPackage/extras/__init__.py,sha256=WH_NDYeXDcviWAlS7M4KMvxfCl6JcxiV75w70avElZU,55
+joelsCalcPackage/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+joelsCalcPackage/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+matiCalpackage/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+matiCalpackage/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+matiCalpackage/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+matiCalpackage/extras/__init__.py,sha256=WH_NDYeXDcviWAlS7M4KMvxfCl6JcxiV75w70avElZU,55
+matiCalpackage/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+matiCalpackage/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+joelsCalcPackage-0.0.1.dist-info/METADATA,sha256=wA6IIQJqGjzcbGNh0GQcH5xr3EbQvmw_rm2jxJuDSnY,540
+joelsCalcPackage-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+joelsCalcPackage-0.0.1.dist-info/top_level.txt,sha256=fmhtWwLUkH79vXzkluxiSr1Ic_XnX8Gqr4WD6aovQSk,17
+joelsCalcPackage-0.0.1.dist-info/RECORD,,
