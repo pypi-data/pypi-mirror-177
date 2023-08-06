@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-tofspec
+Version: 0.1.0
+Summary: 
+Author: Joe Palmo
+Author-email: jpalmo21@amherst.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: dask (>=2022.4.1,<2023.0.0)
+Requires-Dist: h5py (>=3.6.0,<4.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: pyarrow (>=7.0.0,<8.0.0)
+Requires-Dist: rich-click (>=1.5.1,<2.0.0)

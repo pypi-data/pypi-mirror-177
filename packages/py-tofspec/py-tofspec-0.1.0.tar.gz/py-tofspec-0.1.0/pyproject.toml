@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "py-tofspec"
+version = "0.1.0"
+description = ""
+authors = ["Joe Palmo <jpalmo21@amherst.edu>"]
+include = ["*.yml"]
+packages = [
+    { include="tofspec", from="." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+PyYAML = "^6.0"
+numpy = "^1.22.3"
+pandas = "^1.4.1"
+click = "^8.0.4"
+h5py = "^3.6.0"
+pyarrow = "^7.0.0"
+dask = "^2022.4.1"
+rich-click = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+coverage = "^6.3.2"
+pytest-coverage = "^0.0"
+Sphinx = "^4.4.0"
+toml = "^0.10.2"
+furo = "^2022.3.4"
+sphinx-copybutton = "^0.5.0"
+myst-parser = "^0.17.0"
+numpydoc = "^1.2"
+sphinx-togglebutton = "^0.3.2"
+sphinx-click = "^4.3.0"
+
+
+[tool.poetry.scripts]
+tofspec = "tofspec.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
