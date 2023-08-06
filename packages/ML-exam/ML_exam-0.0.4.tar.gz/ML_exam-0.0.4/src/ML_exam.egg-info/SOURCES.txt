@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ML_exam.egg-info/PKG-INFO
+src/ML_exam.egg-info/SOURCES.txt
+src/ML_exam.egg-info/dependency_links.txt
+src/ML_exam.egg-info/requires.txt
+src/ML_exam.egg-info/top_level.txt
+src/myMLpack/__init__.py
+src/myMLpack/try.py
