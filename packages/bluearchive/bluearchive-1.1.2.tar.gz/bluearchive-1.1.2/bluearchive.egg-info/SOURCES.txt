@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+bluearchive/__init__.py
+bluearchive/api.py
+bluearchive/log.py
+bluearchive/query.py
+bluearchive/types.py
+bluearchive.egg-info/PKG-INFO
+bluearchive.egg-info/SOURCES.txt
+bluearchive.egg-info/dependency_links.txt
+bluearchive.egg-info/top_level.txt
+bluearchive/models/__init__.py
+bluearchive/models/abc.py
+bluearchive/models/base.py
+bluearchive/models/enums.py
+bluearchive/models/student.py

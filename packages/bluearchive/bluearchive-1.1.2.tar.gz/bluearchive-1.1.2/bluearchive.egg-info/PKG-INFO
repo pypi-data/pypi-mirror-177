@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bluearchive
+Version: 1.1.2
+Summary: Wrapper of Blue Archive unofficial API 'BlueArchiveAPI'
+Author-email: Lapis0875 <lapis0875@gmail.com>
+Project-URL: Github Repository, https://github.com/Lapis0875/BlueArchiveAPIWrapper
+Project-URL: Bug Tracker, https://github.com/Lapis0875/BlueArchiveAPIWrapper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# BlueArchiveAPI Wrapper
+
+This is a wrapper package of unofficial Blue Archive API, [BlueArchiveAPI](https://github.com/torikushiii/BlueArchiveAPI)
