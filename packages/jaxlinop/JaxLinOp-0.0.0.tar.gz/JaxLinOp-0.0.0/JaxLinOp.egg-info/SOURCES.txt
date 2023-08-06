@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+JaxLinOp/__init__.py
+JaxLinOp.egg-info/PKG-INFO
+JaxLinOp.egg-info/SOURCES.txt
+JaxLinOp.egg-info/dependency_links.txt
+JaxLinOp.egg-info/top_level.txt
