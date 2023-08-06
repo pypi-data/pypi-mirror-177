@@ -1,0 +1,16 @@
+expelliarmus.cp39-win_amd64.pyd,sha256=01pFGmUDX6xAoi8V3nteUVNRdtldcwQ5j_gBUrKAGTg,24064
+expelliarmus/__init__.py,sha256=RFLHyUEtuMZ96wy0GxrEX8vDVCDw3pjLKSEjiqxXnRM,70
+expelliarmus/utils.py,sha256=9Zo-C2PlH0bYVRAWeNDDDVV5iHBNRm8dn6VYMeBnILY,1885
+expelliarmus/muggle/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+expelliarmus/muggle/clib.py,sha256=aJj7g90huieFtL7vCJD06X9O1ZKoOwjWZTI4ITDuNHU,2226
+expelliarmus/muggle/muggle.py,sha256=-ijTPBfqf7wd81t1T9bRbxXqUJVMrdS-7nUrTGYPBr4,3735
+expelliarmus/muggle/muggle_wrapper.py,sha256=SDg9ES1zcYW-GPmbPock8vq4_ryyZRQ6OWUmcoK85nQ,3753
+expelliarmus/wizard/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+expelliarmus/wizard/clib.py,sha256=dU7kfnnzYJk1nWgL9M_HDSvk0m3nYW0msPBGIat9vVE,1678
+expelliarmus/wizard/wizard.py,sha256=A6fn6ftH9qR9x1XJGF8hdOCvSNYWxLFguOW_2OPYlkA,3784
+expelliarmus/wizard/wizard_wrapper.py,sha256=R7Y4TaZ4UEWhuSRLFZZ9SjyPpDRyngn2lQA0R9s5SQk,5682
+expelliarmus-1.1.0.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+expelliarmus-1.1.0.dist-info/METADATA,sha256=QPipyM-QkKYFOF08w0gsH4nQx9cu1--yE56vF4WEJ50,5135
+expelliarmus-1.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+expelliarmus-1.1.0.dist-info/top_level.txt,sha256=W5Ux57ruAY9nFWYnbEdY5DcbfRxxU1ESO8_d70M4Tg8,13
+expelliarmus-1.1.0.dist-info/RECORD,,
