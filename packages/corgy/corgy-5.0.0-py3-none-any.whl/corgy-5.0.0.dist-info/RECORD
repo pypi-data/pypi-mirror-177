@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=Ee_9zqbmn3AMhOLd34UePI2G9eqVJhzTHfHYJk1jNII,16238
+corgy/__init__.py,sha256=z70ZQ1kBf9s0UlxJqPHXZ4XypJMHzJMg8avNsrL9uhE,233
+corgy/_corgy.py,sha256=9pXHAr_TctYh__ZY1DMQmmU94kXTrQAX4qOzfnzRdbw,39276
+corgy/_helpfmt.py,sha256=lXiEIMpJpnTF-yhXgnuMrjSff917YJNt2ctLW-Us9kk,27338
+corgy/_version.py,sha256=Jx9iH_0lAwz5vUhiuax6NYRJ0nBMnuiYU6Xoe7qcvBQ,64
+corgy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corgy/types.py,sha256=PXn2QQ2vYMPs54EtoBVOA_PHPbq5oAbGgSXsmWJluo4,29594
+corgy-5.0.0.dist-info/LICENSE,sha256=ffaY6GJuiYWDboUnN5AISBIIbXes9w6qVoVXpI6gUF4,1072
+corgy-5.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+corgy-5.0.0.dist-info/METADATA,sha256=Zevn6QSm4bOfpJNk1B5qHpW4TcTpagV7Yj8RL1Ks0T4,3715
+corgy-5.0.0.dist-info/RECORD,,
