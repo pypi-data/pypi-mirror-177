@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: plover-cycle-homophones
+Version: 0.0.1
+Summary: =?utf-8?q?Companion_plugin_for_B=C3=A9poSt=C3=A9no_-_cycle_through_homophones_and_split_words_at_previous_stroke?=
+Home-page: https://github.com/AntoineBalaine/plover_cycle_homophones
+Author: AntoineBalaine
+License: MIT
+Keywords: =?utf-8?q?plover=5Fplugin_plover_b=C3=A9po_steno?=
+Description-Content-Type: text/markdown
+Requires-Dist: plover (>=4.0.0.dev6)
+
+# Plover Cycle through homophones 
+
+Companion plugin for BépoSténo - includes the following macros:
+- split_previous
+  split the last word's two last syllables. This is in case plover reads the last two strokes as a single word (eg "A-LAn" turning into "allant" when you want "a lent")
+- space_or_split
+  insert a space or split the last word's two last syllables.
+- find_homophone
+  cycles through homophones from the dictionnary
+
+## Usage
+
