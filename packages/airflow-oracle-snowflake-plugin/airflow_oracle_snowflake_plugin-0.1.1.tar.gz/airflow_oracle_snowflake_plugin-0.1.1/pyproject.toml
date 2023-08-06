@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "airflow-oracle-snowflake-plugin"
+version = "0.1.1"
+description = "Package for airflow operator which copies tables from oracle database to snowflake."
+authors = ["Ali Bhayani <ali@cloudshuttle.com.au>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "airflow_oracle_snowflake_plugin"}]
+include = [
+    "LICENSE",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+oracledb = "^1.2.0"
+apache-airflow-providers-oracle = "^3.4.0"
+apache-airflow-providers-snowflake = "^3.3.0"
+
+[tool.poetry.urls]
+"CloudShuttle" = "https://www.cloudshuttle.com.au/"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
