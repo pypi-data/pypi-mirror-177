@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: pronoundb
+Version: 1.1.0
+Summary: API wrapper for pronoundb.org
+Home-page: https://gitlab.com/SteffoSpieler/pronoundb-library
+License: MIT
+Keywords: pronouns,pronoundb,api
+Author: SteffoSpieler
+Author-email: steffo@steffospieler.de
+Maintainer: SteffoSpieler
+Maintainer-email: steffo@steffospieler.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8,<4.0)
+Project-URL: Repository, https://gitlab.com/SteffoSpieler/pronoundb-library
+Description-Content-Type: text/markdown
+
+# PronounDB Python API
+
+Python API for the PronounDB API.
+
+## Installation
+
+```bash
+pip install pronoundb
+```
+
+## Examples
+
+lookup someones pronouns by their discord id:
+
+```py
+from pronoundb import lookup, Platform
+
+lookup(Platform.DISCORD, 123456789012345678)
+# -> {123456789012345678: ["he", "him"]}
+```
+
+lookup someones pronouns by their minecraft (java) uuid:
+
+```py
+from pronoundb import lookup, Platform
+
+lookup(Platform.MINECRAFT, "12345678-1234-1234-1234-123456789012")
+# -> {"12345678-1234-1234-1234-123456789012": ["they", "them"]}
+```
+
+lookup multiple users pronouns by their discord id:
+
+```py
+from pronoundb import lookup, Platform
+
+lookup(Platform.DISCORD, [123456789012345678, 987654321098765432])
+# -> {123456789012345678: ["he", "him"], 987654321098765432: ["she", "her"]}
+```
+
+## Supported Platforms
+
+- Discord
+- Facebook
+- GitHub
+- Minecraft (Java)
+- Twitch
+- Twitter
+
+## Contributing
+
+Contributions to this library are always welcome and highly encouraged.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
