@@ -1,0 +1,68 @@
+description: setup docker for desktop
+name: setup
+spec:
+  alias: null
+  globals: []
+  variations:
+  - depends: []
+    env: linux
+    label: debian
+    steps:
+    - content: "\n                        # Update instance\n                    \
+        \    sudo apt update -y\n                        sudo apt upgrade -y\n\n \
+        \                       # Install docker\n                        sudo apt\
+        \ install apt-transport-https ca-certificates curl software-properties-common\
+        \ -y\n                        curl -fsSL https://download.docker.com/linux/ubuntu/gpg\
+        \ | sudo apt-key add -\n                        sudo add-apt-repository \"\
+        deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable\"\n\
+        \                        apt-cache policy docker-ce\n                    \
+        \    sudo apt install docker-ce -y\n\n                        # Automatically\
+        \ start Docker and Containerd on boot for non debian or ubuntu distros.\n\
+        \                        sudo systemctl enable docker\n                  \
+        \      sudo systemctl enable containerd.service\n\n                      \
+        \  # Add possibility to call docker without sudo\n                       \
+        \ sudo usermod -aG docker ${USER}\n\n                        # Check is instalation\
+        \ successful\n                        docker --version\n                 \
+        \       "
+      description: This will install docker on your machine
+      runner: shell
+      title: Install docker
+    - content: "\n                        sudo curl -L \"https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname\
+        \ -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n                   \
+        \     sudo chmod +x /usr/local/bin/docker-compose\n                      \
+        \  docker-compose version\n                        "
+      description: This will install docker-compose on your machine
+      runner: shell
+      title: Install docker-compose
+  - depends:
+    - installed:brew
+    env: osx
+    label: '>10.x.x'
+    steps:
+    - content: "\n                        # Update instance\n                    \
+        \    sudo apt update -y\n                        sudo apt upgrade -y\n\n \
+        \                       # Install docker\n                        sudo apt\
+        \ install apt-transport-https ca-certificates curl software-properties-common\
+        \ -y\n                        curl -fsSL https://download.docker.com/linux/ubuntu/gpg\
+        \ | sudo apt-key add -\n                        sudo add-apt-repository \"\
+        deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable\"\n\
+        \                        apt-cache policy docker-ce\n                    \
+        \    sudo apt install docker-ce -y\n\n                        # Automatically\
+        \ start Docker and Containerd on boot for non debian or ubuntu distros.\n\
+        \                        sudo systemctl enable docker\n                  \
+        \      sudo systemctl enable containerd.service\n\n                      \
+        \  # Add possibility to call docker without sudo\n                       \
+        \ sudo usermod -aG docker ${USER}\n\n                        # Check is instalation\
+        \ successful\n                        docker --version\n                 \
+        \       "
+      description: This will install docker on your machine
+      runner: shell
+      title: Install docker
+    - content: "\n                        sudo curl -L \"https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname\
+        \ -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n                   \
+        \     sudo chmod +x /usr/local/bin/docker-compose\n                      \
+        \  docker-compose version\n                        "
+      description: This will install docker-compose on your machine
+      runner: shell
+      title: Install docker-compose
+title: 'Setup Docker '
