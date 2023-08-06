@@ -1,0 +1,12 @@
+semantic_code_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semantic_code_search/cli.py,sha256=qaoraFXctfu3aXftz6Yi9maJyZc8cCdRCokyu43CByw,4157
+semantic_code_search/cluster.py,sha256=o9h5BlwFeuNpN_BIh8NwJ3ooTxPeBf9tJ2-ybyNyyHU,3303
+semantic_code_search/embed.py,sha256=l6Q7QyvoFbzPXzcPM7pyZPcNqoy_PB5jD0LGFLWZwGU,3195
+semantic_code_search/prompt.py,sha256=r9aXJzw4DyyXYlnG_P5Md0vZH0iY0siHfe9Hs6cOkOI,5433
+semantic_code_search/query.py,sha256=d9XYrNz_YUCRDuwWhGzpD_UiNPHpTZLZOJAdV6scBrM,2214
+semantic_code_search-0.3.0.dist-info/LICENSE.txt,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+semantic_code_search-0.3.0.dist-info/METADATA,sha256=5kRdlNsX5eijvD6RH6IFsdr43GgZMYAWLTQ3YG_z2Ew,8262
+semantic_code_search-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+semantic_code_search-0.3.0.dist-info/entry_points.txt,sha256=LUpAof5h2xxs6JNxKaXQhOpwVS6jqEJaJh4tGqSkPgk,54
+semantic_code_search-0.3.0.dist-info/top_level.txt,sha256=_6JM5qfn12yDXNUrHXMeJITm5AUTk83BQkRAPvj1tdk,21
+semantic_code_search-0.3.0.dist-info/RECORD,,
