@@ -1,0 +1,13 @@
+si_fi_o/__init__.py,sha256=s-Ld8_4XCxsEBD202jzJbGU8cf2rvjRtoPWSf14g3iY,1592
+si_fi_o/app.py,sha256=EHcE92A14y0lHQfpwqeIc3JWHfYH6od-736tUZBI7Qo,3117
+si_fi_o/generic.py,sha256=e2s3BjGuLhA3rI1PamtxLAefrE9-ORMMkuhLfoSaXZs,1758
+si_fi_o/routes.py,sha256=Rq_rQiIRdkJB0EmKreVgY6U0nJ4qdEGncrMLFtDSeWg,5959
+si_fi_o/version.py,sha256=wdRfSJO-1K4FzL1z3LZmp4QBD6LDCarptKFDr_Nyrw4,1575
+si_fi_o/html/home_page.py,sha256=nnTwlv2yorTIiQDKvO7d33ZalkYhJnyd-DRkMvxZrRI,2598
+si_fi_o/html/session.py,sha256=mbINbE4TmvniXbGcWZ7myY8ENFQkIgtA0HkGiDXjjAo,5842
+si_fi_o/session/form.py,sha256=J8Pr2tEvb9hfjo7ITI2zcUdqJfiCRaHGp4uJqDmA9Mo,4361
+si_fi_o/session/session.py,sha256=NZ-n_MlLlpHkCvabJ_7BRUiDNqXr-bc403qzRWY0XaU,4588
+si_fi_o-2022.5.dist-info/METADATA,sha256=CGjhaoKYQo_Dpf-p1VEzKMIQDmMmCMwkfMFWkCI6H_0,4461
+si_fi_o-2022.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+si_fi_o-2022.5.dist-info/top_level.txt,sha256=sYpsePXhLQRNmFt7_vaoAtsjpMgS67bAEI0d0QTNnbs,8
+si_fi_o-2022.5.dist-info/RECORD,,
