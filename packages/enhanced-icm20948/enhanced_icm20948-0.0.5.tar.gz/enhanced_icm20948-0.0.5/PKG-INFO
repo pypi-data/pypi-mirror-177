@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: enhanced_icm20948
+Version: 0.0.5
+Summary: An ultra-fast and powerful ICM20948 sensor reading library
+Home-page: http://gogs.infcompute.com/mhy/enhanced_icm20948.git
+Author: Haoyuan Ma, Chenhao Zhang
+Author-email: flyinghorse0510@zju.edu.cn, 2019021412017@std.uestc.edu.cn
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Enhanced-ICM20948 Python Library
+
+## 1. Introduction
+
+Based on [libmraa](https://github.com/eclipse/mraa), this library aims to provide a tool for generic Linux boards to read data from [ICM-20948 9-Axis MotionTracking device](https://invensense.tdk.com/products/motion-tracking/9-axis/icm-20948/) at a high speed(200Hz+ for accelerometer,gyroscope and 100Hz for magnetometer).
+
+The core of the library is written in C++, with the help of [Pybind11](https://github.com/pybind/pybind11.git) providing Python bindings. The library also supports reading data from multiple ICM-20948 simultaneously from multiple I2C Bus(Works with single I2C Bus as long as there is no address conflict. However, limited by I2C Bus Frequency, the speed of reading data may be restricted)
+
+The library is a part of two students’ Undergraduate Final Year Project conducted in NUS(Suzhou) Research Institute, Zhejiang University and University of Electronic Science and Technology of China.
+
+At present, the library is under development.
+
+If you have problems with the library or find any bugs during usage, feel free to contact with us: flyinghorse0510@zju.edu.cn or 2019021412017@std.uestc.edu.cn
+
+## 2. Installation
+
+
+
+## 3. Usage Examples
+
+
+
+
