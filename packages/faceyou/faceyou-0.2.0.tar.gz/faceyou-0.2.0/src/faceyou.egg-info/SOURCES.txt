@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/faceyou/__init__.py
+src/faceyou/faceyou.py
+src/faceyou.egg-info/PKG-INFO
+src/faceyou.egg-info/SOURCES.txt
+src/faceyou.egg-info/dependency_links.txt
+src/faceyou.egg-info/top_level.txt
