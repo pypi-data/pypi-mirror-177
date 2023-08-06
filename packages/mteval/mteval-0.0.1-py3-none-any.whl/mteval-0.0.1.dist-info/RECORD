@@ -1,0 +1,16 @@
+mteval/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+mteval/_modidx.py,sha256=Hk1YnkXcOHUWeZcx71F-eOaKNk3SYF0m_-xuf-k6KoQ,4449
+mteval/awsmt.py,sha256=5m5uq1GjuyNYgjeBs5dLK8jWr19oKJNgnhDQGh3o6vA,814
+mteval/bleu.py,sha256=UGjZUa0vgdtGT4tAn2N_d3x0XqKxE3nmQYMKn75dTDo,1671
+mteval/comet.py,sha256=uJF3SXjyz8oKXrftdHPXe_Q2kkurSFdI9Y6_leu8XqQ,3017
+mteval/dataset.py,sha256=i3hQA8VFZQn0cOcGeCEKQeBIROWGAHy7aAH08AcRZ_Y,4939
+mteval/deeplmt.py,sha256=aYbFh5ZQHk-zL0h0qv7ieBUupsjxqmiayM9gN7SdAjo,1460
+mteval/googlemt.py,sha256=_UuKgQILsnWN3F8bShi7Mv4rs6aII3NHj-rUrOFuAX4,1404
+mteval/microsoftmt.py,sha256=T_oO47nM_G9jYeVStihvwHE9Nyp1h0NeOIIvv_TLkFM,1729
+mteval/util.py,sha256=4bnVw4O6zAQZVq1-YxcfL19FOPLLWHVakju8V8GifTg,691
+mteval-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+mteval-0.0.1.dist-info/METADATA,sha256=PH-jotm15RzzNNtx8tlYm6Js45JW5iTfyfR9MX6imLU,6154
+mteval-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mteval-0.0.1.dist-info/entry_points.txt,sha256=ZpdS_1FvgTjvhQKPdFe3HIZpx7cb3JiOu2yYq2ORP-Q,55
+mteval-0.0.1.dist-info/top_level.txt,sha256=zzWmEKVfbWatR76C_EH43yTRFV3Xk7cecLkNdS5daA4,7
+mteval-0.0.1.dist-info/RECORD,,
