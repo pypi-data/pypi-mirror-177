@@ -1,0 +1,2 @@
+[console_scripts]
+mhm = mhm.cli:mhm
