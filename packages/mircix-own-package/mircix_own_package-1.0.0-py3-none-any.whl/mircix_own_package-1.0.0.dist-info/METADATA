@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mircix-own-package
+Version: 1.0.0
+Summary: This is my first package
+Home-page: UNKNOWN
+Author: Mircea Surdoiu
+Author-email: mircea.surdoiu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# This is my first package
+
+## This is a test
+
+Another small test
+
