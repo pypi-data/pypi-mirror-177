@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "thrunting-tools"
+version = "8.5.1"
+description = "A collection of utilities to help with threat hunting on the command line."
+authors = ["Derek Ditch <dcode@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "elastic" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Typing :: Typed",
+]
+keywords = ["elasticsearch", "eql", "lucene", "command line"]
+repository = "https://github.com/elastic/securitylabs-thruntingtools"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/elastic/securitylabs-thruntingtools/issues"
+
+[tool.poetry.scripts]
+eql-query    = 'elastic.thrunting_tools.eql_query:app'
+lucene-query = 'elastic.thrunting_tools.lucene_query:app'
+
+[tool.poetry.dependencies]
+python         = "^3.10"
+typer          = { extras = ["all"], version = "^0.7.0" }
+scalpl         = "^0.4.2"
+pygments       = "^2.13.0"
+prompt-toolkit = "^3.0.32"
+elasticsearch  = "^8.5.0"
+appdirs        = "^1.4.4"
+ruamel-yaml    = "^0.17.21"
+pydantic       = { version = "^1.10.2" }
+
+[tool.poetry.group.dev.dependencies]
+pytest     = "^7.2.0"
+pre-commit = "^2.20.0"
+black      = "^22.10.0"
+flake8     = "^5.0.4"
+isort      = "^5.10.1"
+pylint     = "^2.15.5"
+devtools   = { extras = ["pygments"], version = "^0.9.0" }
+
+[build-system]
+requires      = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths  = ["."]
+
+[tool.isort]
+profile = "black"
+
+[tool.pyright]
+include = ["elastic", "tests"]
+exclude = ["**/__pycache__"]
