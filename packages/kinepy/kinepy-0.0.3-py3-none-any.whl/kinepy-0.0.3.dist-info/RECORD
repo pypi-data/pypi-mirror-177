@@ -1,0 +1,15 @@
+kinepy/__init__.py,sha256=74HMx7YVOs61q-lO4AR5NZVYlBB3Op0e6Eo5W6gJz8k,14767
+kinepy/compilation.py,sha256=hfqNj5IcPeXDcGbHcqIqa1yvPfjVj0oGyWKdEnJCjYE,8502
+kinepy/dynamic.py,sha256=UNGeuWttz1NIKm44B0Ls2VMebzx87SEgvqununA1iDA,9138
+kinepy/geometry.py,sha256=Cfq475SZQXU2eWqa4jT6MhQgFClIyEqbo2IArcGNaUE,3155
+kinepy/interactions.py,sha256=FyhlFjOdfLtyDRcUv-r_FB_BexfliRMM6KXXdNvH9sY,2419
+kinepy/kinematic.py,sha256=D58iNvm85Zj7-AG84Nyvd5HJJcn5WzgK4_GNY_iTQvw,9645
+kinepy/linkage.py,sha256=p6zWHR29lUO_BBETM4G98-bka5u0ng1mXQtdKPQu2L4,17414
+kinepy/metajoints.py,sha256=-awsmYi5zy_CrNK1pWitjrgH4Fm9tt75rTn0_aZxJ5Y,6282
+kinepy/solid.py,sha256=Jv5bHDfWeBmXGhZon_h7GlPWQgba4da_bmtP9XNUsc8,2667
+kinepy/tools.py,sha256=kJMiCv6b-AwACq5dyeDuIdDiTxVwGw9s6Au_UUYwQJQ,3933
+kinepy-0.0.3.dist-info/LICENSE,sha256=iu0CgGjnDbY7WB6yJ4VZZhcCVX4kTiU2lz9mwcnu6uA,1075
+kinepy-0.0.3.dist-info/METADATA,sha256=DVjZMnUIPeGgn5uBpPKEJxR6hvUNWE84q9iEwDazHQg,328
+kinepy-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kinepy-0.0.3.dist-info/top_level.txt,sha256=oC4vAkP-1o5QqCtjmXO_gXDpL0tw1Ey5uZAVkVXnFCA,7
+kinepy-0.0.3.dist-info/RECORD,,

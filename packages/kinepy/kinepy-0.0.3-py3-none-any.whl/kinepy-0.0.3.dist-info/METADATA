@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kinepy
+Version: 0.0.3
+Summary: Python library dedicated to plane mechanism simulation
+Home-page: https://github.com/valentin-burillier/kinepy
+Author: Loïc Chevalier - Valentin Burillier
+Keywords: robotics,dynamic,kinematics,static,inverse-kinematics,mechanism
+Requires: numpy
+License-File: LICENSE
+
