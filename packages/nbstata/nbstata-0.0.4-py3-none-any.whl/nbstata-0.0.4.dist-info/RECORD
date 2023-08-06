@@ -1,0 +1,15 @@
+nbstata/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+nbstata/__main__.py,sha256=H1NvEWTDGFRCIRBvsSmzKxVNvIr4bRpodqjlQE0mysY,135
+nbstata/_modidx.py,sha256=D_lyIXpZSFblKOErQzCx9S0uMcHSqDZEckMwT-Mw9fQ,6080
+nbstata/config.py,sha256=j79ydX5VPpqKN7RUiEzqGt8whRLrX9N_WVHsPG1gyao,4151
+nbstata/helpers.py,sha256=a3fbm2Ai9QwuuVkP_Ci-sIfsdiLPnKSU13oszx6acl0,3797
+nbstata/install.py,sha256=KQ-wXtYGbH4S1byO4mBVa0KT-bO1XaIbW3_Zcoyrans,3483
+nbstata/kernel.py,sha256=OHJ7WSItvOA9ZZ2tGuiPvx3_RP0lzMLtYEcmzwASW3A,3759
+nbstata/magics.py,sha256=1kjm9VFhVk89oCH6kZ5MfwLytuEj6FjGkQlEM06oEeQ,7288
+nbstata/utils.py,sha256=oapR8D3MQ1m8djKon4VfJ2oYgcxljJuwSgHfibeY8yw,6102
+nbstata-0.0.4.dist-info/LICENSE,sha256=Bf8jtE2j11QWQba5v4jxJG5iSsRBRs5jtsdkmDjPLX4,35136
+nbstata-0.0.4.dist-info/METADATA,sha256=EU0X3r0HUIaaJc8poDAlghrzXu8A6wVJwauJBVvLo0E,5785
+nbstata-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nbstata-0.0.4.dist-info/entry_points.txt,sha256=CuAMzR8MjgpG4jtqCiCvLvJ4owR3Ob53HrcBhbHY8iM,36
+nbstata-0.0.4.dist-info/top_level.txt,sha256=DeCauaFADbU2Q0EIY8HNvGBnfVh7W3-762KRzErf1q8,8
+nbstata-0.0.4.dist-info/RECORD,,
