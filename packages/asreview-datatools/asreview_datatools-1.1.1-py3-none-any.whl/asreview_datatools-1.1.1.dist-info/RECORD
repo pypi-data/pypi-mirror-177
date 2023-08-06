@@ -1,0 +1,13 @@
+asreviewcontrib/datatools/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+asreviewcontrib/datatools/_version.py,sha256=mpt-68hrOLvod1q3olg1T4TUx9JLmVO2OAIjsN7V_M8,497
+asreviewcontrib/datatools/compose.py,sha256=m3EYQmTMshCyj7h6NWxYdl7U-DEU3D8BZZA0HBliyws,9701
+asreviewcontrib/datatools/convert.py,sha256=C7FSyQgkZGKU1JCqWa6AbiqCDffRFckSNWveO0TIxaY,509
+asreviewcontrib/datatools/describe.py,sha256=tRpKJhqzgzVUI0qkl2cAht7_PFqcjr9LECTLwh-Ds8s,3115
+asreviewcontrib/datatools/entrypoint.py,sha256=aYVZxgZZwdSUoQr9nnlTj3udYsanUPzGUpeYcCQXjWk,5188
+asreviewcontrib/datatools/stack.py,sha256=8a4RinYBx3-3lUKT2ZQSbsyidqfrXEtxXl5XhKysK9Q,1612
+asreview_datatools-1.1.1.dist-info/LICENSE,sha256=c5pe02QKfmGmMXvvIUaGbR0ZswgvKw3OdkFIG2XLghs,1086
+asreview_datatools-1.1.1.dist-info/METADATA,sha256=iHXgiWeuYCZiEwFm9lRMW8C5H0DH4RusmytJDeQqzWQ,10577
+asreview_datatools-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+asreview_datatools-1.1.1.dist-info/entry_points.txt,sha256=27WnqDGk0aNSWSYEfnhljsVEpbI87lXsfMf7p0qGYRQ,83
+asreview_datatools-1.1.1.dist-info/top_level.txt,sha256=-csz-bYFHwIuinKUJ9gUZ_RbXwYqB80-4MPymSjd_Tg,16
+asreview_datatools-1.1.1.dist-info/RECORD,,
