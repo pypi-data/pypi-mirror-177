@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "poetry-auto-version"
+version = "0.0.1"
+description = "General Events Manager"
+readme = "README.md"
+homepage = "https://github.com/wonderbeyond/poetry-auto-version"
+repository = "https://github.com/wonderbeyond/poetry-auto-version"
+documentation = "https://github.com/wonderbeyond/poetry-auto-version"
+keywords = ["poetry-plugin"]
+authors = ["Wonder <wonderbeyond@gmail.com>"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.plugins."poetry.plugin"]
+poetry_auto_version = "poetry_auto_version.plugin:AutoVersionPlugin"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+poetry = "^1.2.2"
+pytest = {version = "^7.0", optional = true}
+
+[tool.poetry.extras]
+testing = ["pytest"]

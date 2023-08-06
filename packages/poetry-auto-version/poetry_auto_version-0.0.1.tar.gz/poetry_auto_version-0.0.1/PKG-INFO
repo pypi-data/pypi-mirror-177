@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: poetry-auto-version
+Version: 0.0.1
+Summary: General Events Manager
+Home-page: https://github.com/wonderbeyond/poetry-auto-version
+License: MIT
+Keywords: poetry-plugin
+Author: Wonder
+Author-email: wonderbeyond@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: testing
+Requires-Dist: poetry (>=1.2.2,<2.0.0)
+Requires-Dist: pytest (>=7.0,<8.0); extra == "testing"
+Project-URL: Documentation, https://github.com/wonderbeyond/poetry-auto-version
+Project-URL: Repository, https://github.com/wonderbeyond/poetry-auto-version
+Description-Content-Type: text/markdown
+
+# Poetry auto version plugin
+
