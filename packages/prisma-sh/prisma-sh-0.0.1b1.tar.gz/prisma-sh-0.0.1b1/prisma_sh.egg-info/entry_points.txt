@@ -1,0 +1,2 @@
+[console_scripts]
+prisma-sh = prisma_sh_lib:toolkit_client

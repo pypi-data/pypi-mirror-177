@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+prisma_sh.egg-info/PKG-INFO
+prisma_sh.egg-info/SOURCES.txt
+prisma_sh.egg-info/dependency_links.txt
+prisma_sh.egg-info/entry_points.txt
+prisma_sh.egg-info/requires.txt
+prisma_sh.egg-info/top_level.txt
+prisma_sh_lib/__init__.py
