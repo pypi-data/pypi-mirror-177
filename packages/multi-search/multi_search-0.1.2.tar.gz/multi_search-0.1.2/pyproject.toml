@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "multi-search"
+version = "0.1.2"
+description = "organize and call multiple scripts at once via a plugin style pattern"
+authors = ["tyler jones"]
+packages = [
+    { include = "multi-search" },
+]
+
+# [tool.poetry.dependencies]
+# # These packages are mandatory and form the core of this package’s distribution.
+# mandatory = "^1.0"
+
+# # A list of all of the optional dependencies, some of which are included in the
+# # below `extras`. They can be opted into by apps.
+# psycopg2 = { version = "^2.9", optional = true }
+# mysqlclient = { version = "^1.3", optional = true }
+
+
+[tool.poetry.scripts]
+# ms='multi-search.interface.tui:main [tui]'
+ms = { callable = "multi-search.interface.tui:main", extras = [] }
+
+[tool.poetry.dependencies]
+toml = "^0.10.2"
+[tool.semantic_release]
+version_variable = [
+    "multi-search/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_release = false
+build_command = "pip install poetry && poetry build"
+version_source = "commit"
+patch_without_tag = true
