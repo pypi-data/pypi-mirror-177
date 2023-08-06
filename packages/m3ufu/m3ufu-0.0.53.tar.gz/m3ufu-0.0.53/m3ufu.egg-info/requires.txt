@@ -1,0 +1,3 @@
+new_reader>=0.1.1
+pyaes
+threefive
