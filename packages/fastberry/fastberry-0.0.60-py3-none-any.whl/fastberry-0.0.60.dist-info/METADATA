@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fastberry
+Version: 0.0.60
+Summary: GraphQL Made Easy
+Author-email: hlop3z <23062270+hlop3z@users.noreply.github.com>
+Requires-Python: >=3.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click>=8.1.3
+Requires-Dist: fastapi>=0.79.0
+Requires-Dist: spoc>=0.1.5
+Requires-Dist: strawberry-graphql>=0.125.0
+Requires-Dist: uvicorn[standard]>=0.18.3
+Provides-Extra: mongo
+Requires-Dist: dbcontroller[mongo]>=0.1.45; extra == "mongo"
+Provides-Extra: sql
+Requires-Dist: dbcontroller[sql]>=0.1.45; extra == "sql"
+Provides-Extra: testing
+Requires-Dist: dbcontroller[testing]>=0.1.45; extra == "testing"
+Project-URL: Documentation, https://hlop3z.github.io/fastberry/
+Project-URL: Homepage, https://github.com/hlop3z/fastberry/
+Description-Content-Type: text/markdown
+
+# Welcome to **Fastberry**
+
+GraphQL Made Easy
+
+## Links
+
+- ### [PyPi](https://pypi.org/project/fastberry)
+- ### [Github](https://github.com/hlop3z/fastberry)
+- ### [Read the Documents](https://hlop3z.github.io/fastberry/)
+
