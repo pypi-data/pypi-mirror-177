@@ -1,0 +1,3 @@
+[console_scripts]
+nlgmetricverse = nlgmetricverse.cli:app
+
