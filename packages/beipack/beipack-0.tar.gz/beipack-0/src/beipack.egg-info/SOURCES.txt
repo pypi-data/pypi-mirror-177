@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/bei/beipack.py.template
+src/bei/pack.py
+src/beipack.egg-info/PKG-INFO
+src/beipack.egg-info/SOURCES.txt
+src/beipack.egg-info/dependency_links.txt
+src/beipack.egg-info/entry_points.txt
+src/beipack.egg-info/top_level.txt
