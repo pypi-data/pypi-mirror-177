@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: eerily
+Version: 0.0.7
+Summary: Time seRies plAYground (eerily) is a playground for time series
+Home-page: https://github.com/emptymalei/eerily
+Author: L Ma
+Author-email: hi@leima.is
+License: MIT
+Description: # EERILY
+        
+        timE sERIes pLaYground (EERILY) is a playground for time series.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: isort
+Provides-Extra: tests
+Provides-Extra: docs
+Provides-Extra: mkdocs-autorefs
+Provides-Extra: mkdocs-material
+Provides-Extra: mkdocstrings-python
+Provides-Extra: mkdocstrings[python]
+Provides-Extra: pytest
+Provides-Extra: pytest-cov
+Provides-Extra: all
