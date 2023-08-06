@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cluster-shapley
+Version: 0.1.6
+Summary: Explaining dimensionality reduction using SHAP values
+Home-page: https://github.com/wilsonjr/ClusterShapley
+Author: Wilson E. Marcílio-Jr
+Author-email: wilson_jr@outlook.com
+Provides-Extra: test
+License-File: LICENSE

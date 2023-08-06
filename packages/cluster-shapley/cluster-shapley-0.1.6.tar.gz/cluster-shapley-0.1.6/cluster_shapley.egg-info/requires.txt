@@ -1,0 +1,8 @@
+scipy
+sklearn
+numpy
+shap==0.41.0
+pybind11
+
+[test]
+pytest
