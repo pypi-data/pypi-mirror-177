@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/giphon/__init__.py
+src/giphon/__main__.py
+src/giphon/git.py
+src/giphon/gitlab.py
+src/giphon/siphon.py
+src/giphon.egg-info/PKG-INFO
+src/giphon.egg-info/SOURCES.txt
+src/giphon.egg-info/dependency_links.txt
+src/giphon.egg-info/entry_points.txt
+src/giphon.egg-info/requires.txt
+src/giphon.egg-info/top_level.txt
