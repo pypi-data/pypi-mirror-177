@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: ralph-malph
+Version: 3.1.0
+Summary: The ultimate toolbox for your learning analytics
+Home-page: https://openfun.github.io/ralph/
+Author: Open FUN (France Universite Numerique)
+Author-email: fun.dev@fun-mooc.fr
+License: MIT
+Keywords: Open edX,Analytics,xAPI,LRS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: langcodes (>=3.2.0)
+Requires-Dist: pydantic[dotenv,email] (>=1.10.0)
+Requires-Dist: rfc3987 (>=1.3.0)
+Provides-Extra: backend-es
+Requires-Dist: elasticsearch (>=8.0.0) ; extra == 'backend-es'
+Provides-Extra: backend-ldp
+Requires-Dist: ovh (>=1.0.0) ; extra == 'backend-ldp'
+Requires-Dist: requests (>=2.0.0) ; extra == 'backend-ldp'
+Provides-Extra: backend-mongo
+Requires-Dist: pymongo[srv] (>=4.0.0) ; extra == 'backend-mongo'
+Provides-Extra: backend-swift
+Requires-Dist: python-keystoneclient (>=5.0.0) ; extra == 'backend-swift'
+Requires-Dist: python-swiftclient (>=4.0.0) ; extra == 'backend-swift'
+Provides-Extra: backend-ws
+Requires-Dist: websockets (>=10.3) ; extra == 'backend-ws'
+Provides-Extra: ci
+Requires-Dist: twine (==4.0.1) ; extra == 'ci'
+Provides-Extra: cli
+Requires-Dist: click (>=8.1.0) ; extra == 'cli'
+Requires-Dist: click-option-group (>=0.5.0) ; extra == 'cli'
+Requires-Dist: sentry-sdk (>=1.9.0) ; extra == 'cli'
+Provides-Extra: dev
+Requires-Dist: bandit (==1.7.4) ; extra == 'dev'
+Requires-Dist: black (==22.10.0) ; extra == 'dev'
+Requires-Dist: factory-boy (==3.2.1) ; extra == 'dev'
+Requires-Dist: Faker (==15.3.1) ; extra == 'dev'
+Requires-Dist: flake8 (==5.0.4) ; extra == 'dev'
+Requires-Dist: hypothesis (==6.57.1) ; extra == 'dev'
+Requires-Dist: ipdb (==0.13.9) ; extra == 'dev'
+Requires-Dist: ipython (==8.6.0) ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: logging-gelf (==0.0.26) ; extra == 'dev'
+Requires-Dist: memory-profiler (==0.60.0) ; extra == 'dev'
+Requires-Dist: mkdocs (==1.4.2) ; extra == 'dev'
+Requires-Dist: mkdocs-click (==0.8.0) ; extra == 'dev'
+Requires-Dist: mkdocs-material (==8.5.10) ; extra == 'dev'
+Requires-Dist: mkdocstrings[python-legacy] (==0.19.0) ; extra == 'dev'
+Requires-Dist: pyfakefs (==5.0.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.15.5) ; extra == 'dev'
+Requires-Dist: pytest (==7.2.0) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.20.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (==4.0.0) ; extra == 'dev'
+Provides-Extra: lrs
+Requires-Dist: bcrypt (==4.0.1) ; extra == 'lrs'
+Requires-Dist: fastapi (==0.87.0) ; extra == 'lrs'
+Requires-Dist: h11 (>=0.11.0) ; extra == 'lrs'
+Requires-Dist: httpx (==0.23.0) ; extra == 'lrs'
+Requires-Dist: sentry-sdk (==1.10.1) ; extra == 'lrs'
+Requires-Dist: uvicorn[standard] (==0.19.0) ; extra == 'lrs'
+
+# Ralph
+
+Ralph is a toolbox for your learning analytics, it can be used as a:
+
+- **library**, to fetch learning events from various backends, (de)serialize or
+  convert them from various standard formats such as
+  [xAPI](https://adlnet.gov/projects/xapi/),
+- **command-line interface** (CLI), to build data pipelines the UNIX-way™️,
+- **HTTP API server**, to collect xAPI statements (learning events)
+  following the [ADL LRS
+  standard](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI-Communication.md#partthree).
+
+## Quick start guide
+
+Ralph is distributed as a standard python package; it can be installed _via_
+`pip` or any other python package manager (_e.g_ Poetry, Pipenv, etc.):
+
+```sh
+# Install the full package
+$ pip install \
+    ralph-malph[backend-es,backend-ldp,backend-mongo,backend-swift,backend-ws,cli,lrs]
+
+# Install only the core package (library usage without backends, CLI and LRS)
+$ pip install ralph-malph
+```
+
+If you installed the full package (including the CLI, LRS and supported
+backends), the `ralph` command should be available in your `PATH`. Try to
+invoke the program usage thanks to the `--help` flag:
+
+```
+$ ralph --help
+```
+
+You should see a list of available commands and global flags for `ralph`. Note
+that each command has its own usage that can be invoked _via_:
+
+```
+$ ralph COMMAND --help
+```
+
+> You should substitute `COMMAND` by the target command, _e.g._ `list`, to see
+> its usage.
+
+## Documentation
+
+We try our best to maintain an up-to-date reference documentation for this
+project. If you intend to install, test or contribute to ralph, we invite you
+to read this [documentation](https://openfun.github.io/ralph) and give us
+feedback if some parts are unclear or your use case is not (or poorly) covered.
+
+## Contributing
+
+This project is intended to be community-driven, so please, do not hesitate to
+get in touch if you have any question related to our implementation or design
+decisions.
+
+We try to raise our code quality standards and expect contributors to follow
+the recommandations from our
+[handbook](https://openfun.gitbooks.io/handbook/content).
+
+## License
+
+This work is released under the MIT License (see [LICENSE](./LICENSE.md)).
+
+
