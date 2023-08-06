@@ -1,0 +1,8 @@
+radarSat2_xarray_reader/__init__.py,sha256=dW5wXL3w84wT2Z1rq58D7TRe3TwPog0-CdacLLTMTKw,62
+radarSat2_xarray_reader/radarSat2_tiff_reader.py,sha256=PlBtmBfh6icME-bZPeE1zek0nMTeogu1gyll38sarfk,5774
+radarSat2_xarray_reader/radarSat2_xarray_reader.py,sha256=it4ITU7vayjpH6jDd1nkqhCQTUZ8v9pN73guuGJcJPQ,65698
+xradarSat2-1.0.2.dist-info/LICENSE.md,sha256=Q7TBHxOpWI_fNTTXVS2GqSaGFHdsefHrV_H6Mrs1S7s,1064
+xradarSat2-1.0.2.dist-info/METADATA,sha256=nuxop1KMnuRRgrhX7tdvwJVQemDlq016kDDfn1DKqZ0,9390
+xradarSat2-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xradarSat2-1.0.2.dist-info/top_level.txt,sha256=g8Jk1WkNF9tBaPKoLWi0-2xUQzCktWKjhpxjQ5C5JXA,24
+xradarSat2-1.0.2.dist-info/RECORD,,
