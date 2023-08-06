@@ -1,0 +1,10 @@
+MiniballCpp-0.2.3.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+MiniballCpp-0.2.3.dist-info/top_level.txt,sha256=7w-Hub_XB7y7YXXn_O6qAWlcGqknz7XrbhaD5ykA6EU,9
+MiniballCpp-0.2.3.dist-info/WHEEL,sha256=7nRn-QX6wfjdGAJ6B3mRka8PkOdW8yearLTS7tO2PXE,111
+MiniballCpp-0.2.3.dist-info/RECORD,,
+MiniballCpp-0.2.3.dist-info/METADATA,sha256=upMRyYesB31eDKb6hwP6MargO3OM340OtnyuFjp7xKE,2358
+miniball/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miniball/__init__.py,sha256=IcijNB26J7KgivRtGU1ybnHmRRekntv7ZJ3Dp5lRayk,1944
+miniball/bindings.cpython-39-x86_64-linux-gnu.so,sha256=ryb65ud4gCOWlTZBjXaX0iO6WQDapOQWxrgJwmvrJag,133608
+MiniballCpp.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+MiniballCpp.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
