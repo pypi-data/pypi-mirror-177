@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+graphrox/__init__.py
+graphrox/graphrox-aarch64-apple-darwin.dylib
+graphrox/graphrox-aarch64-unknown-linux-gnu.so
+graphrox/graphrox-aarch64-w64.dll
+graphrox/graphrox-x86_64-apple-darwin.dylib
+graphrox/graphrox-x86_64-unknown-linux-gnu.so
+graphrox/graphrox-x86_64-w64.dll
+graphrox.egg-info/PKG-INFO
+graphrox.egg-info/SOURCES.txt
+graphrox.egg-info/dependency_links.txt
+graphrox.egg-info/top_level.txt
