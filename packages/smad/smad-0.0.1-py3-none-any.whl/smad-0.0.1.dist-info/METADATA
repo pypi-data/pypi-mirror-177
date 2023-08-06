@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: smad
+Version: 0.0.1
+Summary: SMAD library
+Author: abox1337
+Author-email: abox-dev@fiduciagad.de
+Keywords: smad
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ==3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black (~=22.10.0) ; extra == 'dev'
+Requires-Dist: coverage (>=6.0) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort (>=5.9) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.15) ; extra == 'dev'
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.10.1) ; extra == 'dev'
+Requires-Dist: sphinx (~=4.5) ; extra == 'dev'
+Requires-Dist: sphinx-paramlinks ; extra == 'dev'
+Requires-Dist: sphinx-py3doc-enhanced-theme ; extra == 'dev'
+Requires-Dist: toml ; extra == 'dev'
+Requires-Dist: tox (>=3.24) ; extra == 'dev'
+Requires-Dist: twine (>=3.6) ; extra == 'dev'
+
+# SMAD Library
+
+### is WIP
