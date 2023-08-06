@@ -1,0 +1,13 @@
+_acb_speedup.cpython-38-darwin.so,sha256=sfYgwTlmVtQHI5mmjmOPyjGF0ZS9QowMf8f2EGqaLmk,50824
+acb/__init__.py,sha256=rlY8tSL-Znii2J4YzoEEqHYS6g6rz14o0VWI86xoXas,142
+acb/__main__.py,sha256=vQ_kWNVZfVZjJJPo8FMU2Y3Nv8BHIu8-nbF7K_P4R6Y,1170
+acb/acb.py,sha256=S5tr93PCOeBZ6i6fSwbYwzaJwhHDGTqUblrO1y8FHSI,15797
+acb/disarm.py,sha256=fYOPfNJqZz-kWpB6T17wgLHDAmmndL7ScKTQoHBozn8,10064
+acb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acb/utf.py,sha256=uRnovvtmqeVbmN2HbqB3FXdKDpgCyOAYH37st_jczCg,10036
+acb_py-1.2.4.dist-info/LICENSE,sha256=QKDaA0Q0SBg3C0oGd3hhqoQdBwHcIEogdG4sWZkMGV8,2194
+acb_py-1.2.4.dist-info/METADATA,sha256=id_zexEx7UJ2DCZUTIt6jmnAldCRZa2tq4er-FeNZHA,1457
+acb_py-1.2.4.dist-info/WHEEL,sha256=FD7-AF0nEqaeImnGafj5_AW9t4FL2N8tDssGZwowrv0,110
+acb_py-1.2.4.dist-info/entry_points.txt,sha256=as7bjZkDVc7QsN0kOcemjIihXlZfNVBJjeHPXsjhhpM,49
+acb_py-1.2.4.dist-info/top_level.txt,sha256=C8rDZqfjU8_fI5kvHXLKgSYi3Hf_mcKf2yJ4AG3K6FA,17
+acb_py-1.2.4.dist-info/RECORD,,
