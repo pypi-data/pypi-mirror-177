@@ -1,0 +1,11 @@
+MP_Calculator/__init__.py,sha256=6Zw2Majj0ImnZsOQw9NAQ-4_QkpeJ1BmfmBcpKR6g_g,52
+MP_Calculator/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+MP_Calculator/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+MP_Calculator/extras/__init__.py,sha256=AhtNIDAddnSAFvaLjc-XcOXBxCx56fWaFPWez5svDQk,79
+MP_Calculator/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+MP_Calculator/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+MP_Calculator/extras/power.py,sha256=qAjsmilF-nJ0CBio-FqHbRbyqvSuBRzmjXXRJN155MA,41
+MP_Calculator-0.0.1.dist-info/METADATA,sha256=JKzUDbjyfk1HxZJx0F_nqt1mdO2SoScaLjFxmV8Wz6w,545
+MP_Calculator-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MP_Calculator-0.0.1.dist-info/top_level.txt,sha256=puzAcBoHbbY6Cc46s2SGzjT1z1Lu33SNcDSoIjaREkM,14
+MP_Calculator-0.0.1.dist-info/RECORD,,
