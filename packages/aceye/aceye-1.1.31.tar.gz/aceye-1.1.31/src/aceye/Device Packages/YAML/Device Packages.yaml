@@ -1,0 +1,20 @@
+imdata:
+- vnsMDev:
+    attributes:
+      annotation: ''
+      auditOnBusy: 'no'
+      childAction: ''
+      dn: uni/infra/mDev-CISCO-CloudMode-1.0
+      extMngdBy: ''
+      funcMask: GoThrough,GoTo,L2
+      lcOwn: local
+      managed: 'yes'
+      modTs: '2022-11-17T15:49:19.250+00:00'
+      model: CloudMode
+      monPolDn: uni/fabric/monfab-default
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: CISCO
+      version: '1.0'
+totalCount: '1'

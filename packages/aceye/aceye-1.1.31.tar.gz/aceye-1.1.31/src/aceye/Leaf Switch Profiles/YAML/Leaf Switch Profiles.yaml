@@ -1,0 +1,53 @@
+imdata:
+- infraNodeP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/nprof-leaf_2
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: leaf_2
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraNodeP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/nprof-leaf_1
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: leaf_1
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraNodeP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/nprof-leafs_1-2
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: leafs_1-2
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '3'

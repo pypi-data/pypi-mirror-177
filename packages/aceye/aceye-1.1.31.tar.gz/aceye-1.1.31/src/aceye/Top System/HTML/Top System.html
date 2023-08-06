@@ -1,0 +1,369 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Top System</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Bootstrap State</th>
+    <th>Child Action</th>
+    <th>Cluster Time Diff</th>
+    <th>Configuration Issues</th>
+    <th>Control Plane MTU</th>
+    <th>Current Time</th>
+    <th>DN</th>
+    <th>Enforce Subnet Check</th>
+    <th>ETEP Address</th>
+    <th>Fabric Domain</th>
+    <th>Fabric ID</th>
+    <th>Fabric MAC</th>
+    <th>ID</th>
+    <th>Inband Mgmt Address</th>
+    <th>Inband Mgmt Address6</th>
+    <th>Inband Mgmt Address6 Mask</th>
+    <th>Inband Mgmt Address Mask</th>
+    <th>Inband Mgmt Gateway</th>
+    <th>Inband Mgmt Gateway6</th>
+    <th>Last Reboot Time</th>
+    <th>Last Reset Reason</th>
+    <th>LC Own</th>
+    <th>Modified Timestamp</th>
+    <th>Mode</th>
+    <th>Monitoring Policy DN</th>
+    <th>Name Alias</th>
+    <th>Node Type</th>
+    <th>Out of Band Mgmt Address</th>
+    <th>Out of Band Mgmt Address6</th>
+    <th>Out of Band Mgmt Address6 Mask</th>
+    <th>Out of Band Mgmt Address Mask</th>
+    <th>Out of Band Mgmt Gateway</th>
+    <th>Out of Band Mgmt Gateway6</th>
+    <th>Pod ID</th>
+    <th>Remote Network ID</th>
+    <th>Remote Node</th>
+    <th>RL Oper Pod ID</th>
+    <th>RL Routable Mode</th>
+    <th>RL Direct Mode</th>
+    <th>Role</th>
+    <th>Serial Number</th>
+    <th>Server Type</th>
+    <th>Site ID</th>
+    <th>State</th>
+    <th>Status</th>
+    <th>System Uptime</th>
+    <th>TEP Pool</th>
+    <th>Unicast XR EP Learn Disable</th>
+    <th>Version</th>
+    <th>Virtual Mode</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>apic1</td>
+    <td>10.0.0.1</td>
+    <td>none</td>
+    <td></td>
+    <td>0</td>
+    <td></td>
+    <td>9000</td>
+    <td>2022-11-17T21:09:16.574+00:00</td>
+    <td>topology/pod-1/node-1/sys</td>
+    <td>no</td>
+    <td>0.0.0.0</td>
+    <td>ACI Fabric1</td>
+    <td>1</td>
+    <td>00:22:BD:F8:19:FF</td>
+    <td>1</td>
+    <td>192.168.11.1</td>
+    <td>192.168.11.1</td>
+    <td>0</td>
+    <td>24</td>
+    <td>192.168.11.254</td>
+    <td>::</td>
+    <td>2022-11-17T15:43:44.240+00:00</td>
+    <td>unknown</td>
+    <td>local</td>
+    <td>2022-11-17T15:52:04.295+00:00</td>
+    <td>unspecified</td>
+    <td>uni/fabric/monfab-default</td>
+    <td></td>
+    <td>unspecified</td>
+    <td>10.10.20.14</td>
+    <td>fe80::200:ff:fe0:0</td>
+    <td>0</td>
+    <td>24</td>
+    <td>10.10.20.254</td>
+    <td>2001:420:28e:2020:acc:68ff:fe28:b540</td>
+    <td>1</td>
+    <td>0</td>
+    <td>no</td>
+    <td>0</td>
+    <td>no</td>
+    <td>no</td>
+    <td>controller</td>
+    <td>TEP-1-1</td>
+    <td>unspecified</td>
+    <td>0</td>
+    <td>in-service</td>
+    <td></td>
+    <td>00:05:25:32.000</td>
+    <td>0.0.0.0</td>
+    <td>no</td>
+    <td>5.2(1g)</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <td>leaf-1</td>
+    <td>10.0.136.64</td>
+    <td>done</td>
+    <td></td>
+    <td>-7</td>
+    <td></td>
+    <td>9000</td>
+    <td>2022-11-17T21:09:16.577+00:00</td>
+    <td>topology/pod-1/node-101/sys</td>
+    <td>no</td>
+    <td>0.0.0.0</td>
+    <td>ACI Fabric1</td>
+    <td>1</td>
+    <td>00:22:BD:F8:19:FF</td>
+    <td>101</td>
+    <td>0.0.0.0</td>
+    <td>0.0.0.0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>2022-11-17T15:43:45.006+00:00</td>
+    <td>unknown</td>
+    <td>local</td>
+    <td>2022-11-17T18:22:49.246+00:00</td>
+    <td>unspecified</td>
+    <td>uni/fabric/monfab-default</td>
+    <td></td>
+    <td>unspecified</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>1</td>
+    <td>0</td>
+    <td>no</td>
+    <td>1</td>
+    <td>no</td>
+    <td>no</td>
+    <td>leaf</td>
+    <td>TEP-1-101</td>
+    <td>unspecified</td>
+    <td>0</td>
+    <td>in-service</td>
+    <td></td>
+    <td>00:05:25:32.000</td>
+    <td>10.0.0.0/16</td>
+    <td>no</td>
+    <td>simsw-5.2(1g)</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <td>leaf-2</td>
+    <td>10.0.136.66</td>
+    <td>done</td>
+    <td></td>
+    <td>-8</td>
+    <td></td>
+    <td>9000</td>
+    <td>2022-11-17T21:09:16.578+00:00</td>
+    <td>topology/pod-1/node-102/sys</td>
+    <td>no</td>
+    <td>0.0.0.0</td>
+    <td>ACI Fabric1</td>
+    <td>1</td>
+    <td>00:22:BD:F8:19:FF</td>
+    <td>102</td>
+    <td>0.0.0.0</td>
+    <td>0.0.0.0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>2022-11-17T15:43:44.779+00:00</td>
+    <td>unknown</td>
+    <td>local</td>
+    <td>2022-11-17T18:25:14.595+00:00</td>
+    <td>unspecified</td>
+    <td>uni/fabric/monfab-default</td>
+    <td></td>
+    <td>unspecified</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>1</td>
+    <td>0</td>
+    <td>no</td>
+    <td>1</td>
+    <td>no</td>
+    <td>no</td>
+    <td>leaf</td>
+    <td>TEP-1-102</td>
+    <td>unspecified</td>
+    <td>0</td>
+    <td>in-service</td>
+    <td></td>
+    <td>00:05:25:32.000</td>
+    <td>10.0.0.0/16</td>
+    <td>no</td>
+    <td>simsw-5.2(1g)</td>
+    <td>no</td>
+  </tr>
+  <tr>
+    <td>spine-1</td>
+    <td>10.0.136.65</td>
+    <td>done</td>
+    <td></td>
+    <td>-9</td>
+    <td></td>
+    <td>9000</td>
+    <td>2022-11-17T21:09:16.579+00:00</td>
+    <td>topology/pod-1/node-201/sys</td>
+    <td>no</td>
+    <td>0.0.0.0</td>
+    <td>ACI Fabric1</td>
+    <td>1</td>
+    <td>00:22:BD:F8:19:FF</td>
+    <td>201</td>
+    <td>0.0.0.0</td>
+    <td>0.0.0.0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>2022-11-17T15:43:44.744+00:00</td>
+    <td>unknown</td>
+    <td>local</td>
+    <td>2022-11-17T18:24:23.652+00:00</td>
+    <td>unspecified</td>
+    <td>uni/fabric/monfab-default</td>
+    <td></td>
+    <td>unspecified</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0.0.0.0</td>
+    <td>::</td>
+    <td>1</td>
+    <td>0</td>
+    <td>no</td>
+    <td>1</td>
+    <td>yes</td>
+    <td>yes</td>
+    <td>spine</td>
+    <td>TEP-1-103</td>
+    <td>unspecified</td>
+    <td>0</td>
+    <td>in-service</td>
+    <td></td>
+    <td>00:05:25:32.000</td>
+    <td>10.0.0.0/16</td>
+    <td>no</td>
+    <td>simsw-5.2(1g)</td>
+    <td>no</td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

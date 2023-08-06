@@ -1,0 +1,23 @@
+{
+    "imdata": [
+        {
+            "firmwareCtrlrRunning": {
+                "attributes": {
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "topology/pod-1/node-1/sys/ctrlrfwstatuscont/ctrlrrunning",
+                    "internalLabel": "72bfb79869cf7edf6ad17c7bb072c16dd45fdbbd",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:51:31.070+00:00",
+                    "mode": "normal",
+                    "status": "",
+                    "tpmInUse": "no",
+                    "ts": "2022-11-17T15:51:31.075+00:00",
+                    "type": "controller",
+                    "version": "5.2(1g)"
+                }
+            }
+        }
+    ],
+    "totalCount": "1"
+}

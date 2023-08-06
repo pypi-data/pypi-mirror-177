@@ -1,0 +1,20 @@
+imdata:
+- l2extOut:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/tn-common/l2out-default
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.367+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: default
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      targetDscp: unspecified
+      uid: '0'
+      userdom: all
+totalCount: '1'

@@ -1,0 +1,206 @@
+imdata:
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_FI-2A
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_FI-2A
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_server1
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_server1
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_FI-2B
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_FI-2B
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_server2
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_server2
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_phys_act_pass
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_phys_act_pass
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_FI-1A
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_FI-1A
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_phys_act_pass
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_phys_act_pass
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_server1
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_server1
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_server2
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_server2
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-Heroes_corporate_external
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_corporate_external
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_corporate_external
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_corporate_external
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- infraAccPortP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/accportprof-SnV_FI-1B
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_FI-1B
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '12'

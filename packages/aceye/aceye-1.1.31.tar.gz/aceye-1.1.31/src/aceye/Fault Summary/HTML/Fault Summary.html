@@ -1,0 +1,626 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Fault Summary</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>Cause</th>
+    <th>Child Action</th>
+    <th>Code</th>
+    <th>Count</th>
+    <th>Description</th>
+    <th>DN</th>
+    <th>Domain</th>
+    <th>Non Acknowledged</th>
+    <th>Non Delegated</th>
+    <th>Non Delegated And Non Acknowledged</th>
+    <th>Rule</th>
+    <th>Severity</th>
+    <th>Status</th>
+    <th>Subject</th>
+    <th>Type</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>protocol-arp-adjacency-down</td>
+    <td></td>
+    <td>F1207</td>
+    <td>1</td>
+    <td>This fault occurs when the operational state of the arp adjacency is down</td>
+    <td>fltcode-F1207</td>
+    <td>access</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>arp-st-adj-ep-oper-st-down</td>
+    <td>warning</td>
+    <td></td>
+    <td>oper-state-change</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F110344</td>
+    <td>22</td>
+    <td>Threshold crossing alert for class l2IngrBytesPart5min, property dropRate</td>
+    <td>fltcode-F110344</td>
+    <td>infra</td>
+    <td>22</td>
+    <td>0</td>
+    <td>0</td>
+    <td>tca-l2-ingr-bytes-part5min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F112128</td>
+    <td>28</td>
+    <td>Threshold crossing alert for class l2IngrPkts5min, property dropRate</td>
+    <td>fltcode-F112128</td>
+    <td>infra</td>
+    <td>28</td>
+    <td>6</td>
+    <td>6</td>
+    <td>tca-l2-ingr-pkts5min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F110473</td>
+    <td>4</td>
+    <td>Threshold crossing alert for class l2IngrBytesAg15min, property dropRate</td>
+    <td>fltcode-F110473</td>
+    <td>infra</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>tca-l2-ingr-bytes-ag15min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F110176</td>
+    <td>28</td>
+    <td>Threshold crossing alert for class l2IngrBytes5min, property dropRate</td>
+    <td>fltcode-F110176</td>
+    <td>infra</td>
+    <td>28</td>
+    <td>6</td>
+    <td>6</td>
+    <td>tca-l2-ingr-bytes5min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>dhcpd-fnv-out-of-sync</td>
+    <td></td>
+    <td>F4144</td>
+    <td>1</td>
+    <td>This fault is raised when dhcp client and pool are not in sync with fnv data</td>
+    <td>fltcode-F4144</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>dhcp-discovery-health-dhcpd-fnv-un-sync</td>
+    <td>major</td>
+    <td></td>
+    <td>dhcp</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>configuration-failed</td>
+    <td></td>
+    <td>F1690</td>
+    <td>7</td>
+    <td>This fault occurs when there is incomplete or incorrect configuration, intermittent system errors.</td>
+    <td>fltcode-F1690</td>
+    <td>tenant</td>
+    <td>7</td>
+    <td>7</td>
+    <td>7</td>
+    <td>vns-conf-issue-conf-issue</td>
+    <td>minor</td>
+    <td></td>
+    <td>management</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F381328</td>
+    <td>15</td>
+    <td>Threshold crossing alert for class eqptIngrErrPkts5min, property crcLast</td>
+    <td>fltcode-F381328</td>
+    <td>infra</td>
+    <td>15</td>
+    <td>15</td>
+    <td>15</td>
+    <td>tca-eqpt-ingr-err-pkts5min-crc-last</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>configuration-failed</td>
+    <td></td>
+    <td>F0772</td>
+    <td>1</td>
+    <td>This fault occurs when a Logical Interface configuration is invalid.The config issues the exact reason for the error.</td>
+    <td>fltcode-F0772</td>
+    <td>tenant</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>vns-alif-validation-failed</td>
+    <td>minor</td>
+    <td></td>
+    <td>management</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>equipment-psu-missing</td>
+    <td></td>
+    <td>F1318</td>
+    <td>2</td>
+    <td>This fault occurs when PSU are not detected correctly</td>
+    <td>fltcode-F1318</td>
+    <td>infra</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>eqpt-psg-pzero-pwr</td>
+    <td>major</td>
+    <td></td>
+    <td>power-group</td>
+    <td>environmental</td>
+  </tr>
+  <tr>
+    <td>product-not-registered</td>
+    <td></td>
+    <td>F3057</td>
+    <td>1</td>
+    <td>This fault is raised when APIC Controller product is not registered with Cisco Smart Software Manager (CSSM).</td>
+    <td>fltcode-F3057</td>
+    <td>external</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>license-manager-product-not-registered</td>
+    <td>warning</td>
+    <td></td>
+    <td>smart-licensing</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>dhcp-client-missing-lease</td>
+    <td></td>
+    <td>F4141</td>
+    <td>1</td>
+    <td>This fault is raised when there is dhcp client without a lease</td>
+    <td>fltcode-F4141</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>dhcp-discovery-health-dhcp-client-lease-check-failed</td>
+    <td>warning</td>
+    <td></td>
+    <td>dhcp</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>config-error</td>
+    <td></td>
+    <td>F3083</td>
+    <td>72</td>
+    <td>This fault occurs when multiple MACs have same IP address in the same VRF.</td>
+    <td>fltcode-F3083</td>
+    <td>tenant</td>
+    <td>72</td>
+    <td>72</td>
+    <td>72</td>
+    <td>fv-ip-config-error</td>
+    <td>major</td>
+    <td></td>
+    <td>same-ip-address-is-used-by-different-macs-in-the-same-context</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>protocol-coop-adjacency-down</td>
+    <td></td>
+    <td>F1360</td>
+    <td>2</td>
+    <td>This fault occurs when the operational state of the coop adjacency is down</td>
+    <td>fltcode-F1360</td>
+    <td>access</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>coop-adj-ep-coop-adj-ep-down</td>
+    <td>warning</td>
+    <td></td>
+    <td>oper-state-down</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>configuration-failed</td>
+    <td></td>
+    <td>F0467</td>
+    <td>68</td>
+    <td>This fault occurs when an End Point Group / End Point Security Group is incompletely or incorrectly configured.</td>
+    <td>fltcode-F0467</td>
+    <td>tenant</td>
+    <td>68</td>
+    <td>34</td>
+    <td>34</td>
+    <td>fv-nw-issues-config-failed</td>
+    <td>minor</td>
+    <td></td>
+    <td>management</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F112296</td>
+    <td>22</td>
+    <td>Threshold crossing alert for class l2IngrPktsPart5min, property dropRate</td>
+    <td>fltcode-F112296</td>
+    <td>infra</td>
+    <td>22</td>
+    <td>0</td>
+    <td>0</td>
+    <td>tca-l2-ingr-pkts-part5min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>oper-state-change</td>
+    <td></td>
+    <td>F4149</td>
+    <td>1</td>
+    <td>This fault occurs when you remove LC/FM/SUP/SC from the slot</td>
+    <td>fltcode-F4149</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>eqpt-slot-oper-st-change</td>
+    <td>minor</td>
+    <td></td>
+    <td>lc-fm-sup-sc-removed</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F100264</td>
+    <td>20</td>
+    <td>Threshold crossing alert for class eqptIngrDropPkts5min, property bufferRate</td>
+    <td>fltcode-F100264</td>
+    <td>infra</td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>tca-eqpt-ingr-drop-pkts5min-buffer-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>configuration-failed</td>
+    <td></td>
+    <td>F0764</td>
+    <td>1</td>
+    <td>This fault occurs when a logical device is being configured in a way which is not compatible with the meta device information supplied by the device package.</td>
+    <td>fltcode-F0764</td>
+    <td>tenant</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>vns-aldev-conf-mismatch</td>
+    <td>minor</td>
+    <td></td>
+    <td>management</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>port-down</td>
+    <td></td>
+    <td>F0104</td>
+    <td>1</td>
+    <td>This fault occurs when a bond interface on a controller is in the link-down state.</td>
+    <td>fltcode-F0104</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>cnw-aggr-if-down</td>
+    <td>critical</td>
+    <td></td>
+    <td>equipment</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>resolution-failed</td>
+    <td></td>
+    <td>F0956</td>
+    <td>2</td>
+    <td>The object refers to an object that was not found.</td>
+    <td>fltcode-F0956</td>
+    <td>infra</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>fv-rs-dom-att-resolve-fail</td>
+    <td>warning</td>
+    <td></td>
+    <td>relation-resolution</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>resolution-failed</td>
+    <td></td>
+    <td>F1003</td>
+    <td>1</td>
+    <td>The object refers to an object that was not found.</td>
+    <td>fltcode-F1003</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>infra-rs-dom-presolve-fail</td>
+    <td>warning</td>
+    <td></td>
+    <td>relation-resolution</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>configuration-failure</td>
+    <td></td>
+    <td>F0721</td>
+    <td>1</td>
+    <td>This fault is raised when a VLAN/VxLAN/NVGRE pool cannot be deployed due to a missing or invalid configuration.</td>
+    <td>fltcode-F0721</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>fvns-ainst-pconfig-failed</td>
+    <td>minor</td>
+    <td></td>
+    <td>infra-policy</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F96976</td>
+    <td>20</td>
+    <td>Threshold crossing alert for class eqptEgrDropPkts5min, property errorRate</td>
+    <td>fltcode-F96976</td>
+    <td>infra</td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>tca-eqpt-egr-drop-pkts5min-error-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>configuration-failed</td>
+    <td></td>
+    <td>F1298</td>
+    <td>4</td>
+    <td>This fault occurs when deliverying EPg policies to a node has failed</td>
+    <td>fltcode-F1298</td>
+    <td>tenant</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
+    <td>fv-pol-delivery-status-configuration-failed</td>
+    <td>minor</td>
+    <td></td>
+    <td>epg</td>
+    <td>config</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F96760</td>
+    <td>20</td>
+    <td>Threshold crossing alert for class eqptEgrDropPkts5min, property bufferRate</td>
+    <td>fltcode-F96760</td>
+    <td>infra</td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>tca-eqpt-egr-drop-pkts5min-buffer-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F100480</td>
+    <td>20</td>
+    <td>Threshold crossing alert for class eqptIngrDropPkts5min, property errorRate</td>
+    <td>fltcode-F100480</td>
+    <td>infra</td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>tca-eqpt-ingr-drop-pkts5min-error-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F112425</td>
+    <td>4</td>
+    <td>Threshold crossing alert for class l2IngrPktsAg15min, property dropRate</td>
+    <td>fltcode-F112425</td>
+    <td>infra</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>tca-l2-ingr-pkts-ag15min-drop-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F103824</td>
+    <td>1</td>
+    <td>Threshold crossing alert for class eqptTemp5min, property normalizedLast</td>
+    <td>fltcode-F103824</td>
+    <td>infra</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>tca-eqpt-temp5min-normalized-last</td>
+    <td>critical</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+  <tr>
+    <td>threshold-crossed</td>
+    <td></td>
+    <td>F100696</td>
+    <td>20</td>
+    <td>Threshold crossing alert for class eqptIngrDropPkts5min, property forwardingRate</td>
+    <td>fltcode-F100696</td>
+    <td>infra</td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>tca-eqpt-ingr-drop-pkts5min-forwarding-rate</td>
+    <td>warning</td>
+    <td></td>
+    <td>counter</td>
+    <td>operational</td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

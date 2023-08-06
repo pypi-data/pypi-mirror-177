@@ -1,0 +1,222 @@
+imdata:
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/oobbrc-default/subj-default
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.367+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: default
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '0'
+      userdom: all
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-default/subj-default
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.367+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: default
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '0'
+      userdom: all
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-TEST_GK/brc-VERITAS_Ctr/subj-VERITAS_ALL_Subj
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T16:03:22.886+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: VERITAS_ALL_Subj
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-web/subj-http
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: http
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-sql/subj-sql-browser
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: sql-browser
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-web/subj-https
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: https
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-power_up/subj-app_ports
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: app_ports
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-common/brc-sql/subj-sql-server
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.369+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: sql-server
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-SnV/brc-database/subj-sql
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:50.147+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: sql
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+- vzSubj:
+    attributes:
+      accessPrivilege: USER
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      consMatchT: AtleastOne
+      descr: ''
+      dn: uni/tn-SnV/brc-web/subj-http
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:50.147+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      name: http
+      nameAlias: ''
+      prio: unspecified
+      provMatchT: AtleastOne
+      revFltPorts: 'yes'
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '10'

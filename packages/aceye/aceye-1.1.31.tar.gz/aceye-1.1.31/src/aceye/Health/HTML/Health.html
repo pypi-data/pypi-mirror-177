@@ -1,0 +1,255 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Tenant Health</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>DN</th>
+    <th>Change</th>
+    <th>Current</th>
+    <th>Previous</th>
+    <th>TW Score</th>
+    <th>Child Action</th>
+    <th>Max Severity</th>
+    <th>Last Modified</th>
+    <th>Status</th>
+    <th>Last Updated</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>uni/tn-infra/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:51.940+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-common/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:52.331+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-mgmt/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:52.686+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-ab/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:53.051+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-S2TBK_HOLDINGS-TN/health</td>
+    <td>1</td>
+    <td>97</td>
+    <td>96</td>
+    <td>97</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:07:34.833+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-TEST_GK/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:53.753+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-blue/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:54.130+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-green/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:54.511+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-oneaciapp/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:54.896+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-Heroes/health</td>
+    <td>-1</td>
+    <td>94</td>
+    <td>95</td>
+    <td>94</td>
+    <td></td>
+    <td>warning</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T18:41:37.883+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-SnV/health</td>
+    <td>-1</td>
+    <td>94</td>
+    <td>95</td>
+    <td>94</td>
+    <td></td>
+    <td>warning</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T20:01:23.970+00:00</td>
+  </tr>
+  <tr>
+    <td>uni/tn-Virg2/health</td>
+    <td>0</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td></td>
+    <td>cleared</td>
+    <td>never</td>
+    <td></td>
+    <td>2022-11-17T21:09:55.968+00:00</td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

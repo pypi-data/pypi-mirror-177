@@ -1,0 +1,110 @@
+{
+    "imdata": [
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "dn": "uni/phys-phys",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:20.483+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "name": "phys",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "dn": "uni/phys-GK_Phys_Dom",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:06:01.909+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "name": "GK_Phys_Dom",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:"
+                }
+            }
+        },
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "dn": "uni/phys-abdou",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T17:41:40.994+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "name": "abdou",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:"
+                }
+            }
+        },
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "dn": "uni/phys-SnV_phys",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T18:22:49.212+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "name": "SnV_phys",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:"
+                }
+            }
+        },
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "dn": "uni/phys-Heroes_phys",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T18:22:49.408+00:00",
+                    "monPolDn": "uni/fabric/monfab-default",
+                    "name": "Heroes_phys",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:"
+                }
+            }
+        }
+    ],
+    "totalCount": "5"
+}

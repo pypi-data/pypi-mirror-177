@@ -1,0 +1,8 @@
+Name,Name Alias,Access Privilege,Annotation,Child Action,Configuration Issues,Description,DN,Externally Managed By,Intent,Local Owner,Last Modified,Monitoring Policy DN,Owner Key,Owner Tag,Priority,Re Evaluate All,Scope,Status,Target DSCP,UID,User Domain
+default,,USER,,,,,uni/tn-common/brc-default,,install,local,2022-11-17T15:49:20.367+00:00,uni/tn-common/monepg-default,,,unspecified,no,context,,unspecified,0,all
+VERITAS_Ctr,,USER,,,,,uni/tn-TEST_GK/brc-VERITAS_Ctr,,install,local,2022-11-17T16:03:23.034+00:00,uni/tn-common/monepg-default,,,unspecified,no,application-profile,,unspecified,15374,:all:
+web,,USER,,,,,uni/tn-common/brc-web,,install,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,,,unspecified,no,context,,unspecified,15374,:all:
+sql,,USER,,,,,uni/tn-common/brc-sql,,install,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,,,unspecified,no,application-profile,,unspecified,15374,:all:
+power_up,,USER,,,,,uni/tn-common/brc-power_up,,install,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,,,unspecified,no,context,,unspecified,15374,:all:
+web,,USER,,,,,uni/tn-SnV/brc-web,,install,local,2022-11-17T18:22:50.147+00:00,uni/tn-common/monepg-default,,,unspecified,no,context,,unspecified,15374,:all:
+database,,USER,,,,,uni/tn-SnV/brc-database,,install,local,2022-11-17T18:22:50.147+00:00,uni/tn-common/monepg-default,,,unspecified,no,application-profile,,unspecified,15374,:all:

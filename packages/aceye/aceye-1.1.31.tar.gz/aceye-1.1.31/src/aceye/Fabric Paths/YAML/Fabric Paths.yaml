@@ -1,0 +1,22 @@
+imdata:
+- fabricPath:
+    attributes:
+      childAction: ''
+      dn: topology/pod-1/path-102-101
+      lcOwn: local
+      modTs: '2022-11-17T18:24:24.100+00:00'
+      monPolDn: uni/fabric/monfab-default
+      n1: '102'
+      n2: '101'
+      status: ''
+- fabricPath:
+    attributes:
+      childAction: ''
+      dn: topology/pod-1/path-101-102
+      lcOwn: local
+      modTs: '2022-11-17T18:24:24.100+00:00'
+      monPolDn: uni/fabric/monfab-default
+      n1: '101'
+      n2: '102'
+      status: ''
+totalCount: '2'

@@ -1,0 +1,164 @@
+imdata:
+- fabricNode:
+    attributes:
+      adSt: 'off'
+      address: 0.0.0.0
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-1142
+      extMngdBy: ''
+      fabricSt: undiscovered
+      id: '1142'
+      lastStateModTs: '1970-01-01T00:00:00.000+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T20:38:25.131+00:00'
+      model: ''
+      monPolDn: uni/fabric/monfab-default
+      name: dt1-lf1142
+      nameAlias: ''
+      nodeType: unspecified
+      role: unsupported
+      serial: FDO231008CH
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: ''
+- fabricNode:
+    attributes:
+      adSt: 'on'
+      address: 10.0.136.64
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-101
+      extMngdBy: ''
+      fabricSt: active
+      id: '101'
+      lastStateModTs: '2022-11-17T17:08:34.456+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.325+00:00'
+      model: N9K-C9396PX
+      monPolDn: uni/fabric/monfab-default
+      name: leaf-1
+      nameAlias: ''
+      nodeType: unspecified
+      role: leaf
+      serial: TEP-1-101
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: simsw-5.2(1g)
+- fabricNode:
+    attributes:
+      adSt: 'off'
+      address: 0.0.0.0
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-1141
+      extMngdBy: ''
+      fabricSt: undiscovered
+      id: '1141'
+      lastStateModTs: '1970-01-01T00:00:00.000+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T20:38:25.131+00:00'
+      model: ''
+      monPolDn: uni/fabric/monfab-default
+      name: dt1-lf1141
+      nameAlias: ''
+      nodeType: unspecified
+      role: unsupported
+      serial: FDO22252QK8
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: ''
+- fabricNode:
+    attributes:
+      adSt: 'on'
+      address: 10.0.136.66
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-102
+      extMngdBy: ''
+      fabricSt: active
+      id: '102'
+      lastStateModTs: '2022-11-17T18:24:21.990+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T18:24:23.475+00:00'
+      model: N9K-C9396PX
+      monPolDn: uni/fabric/monfab-default
+      name: leaf-2
+      nameAlias: ''
+      nodeType: unspecified
+      role: leaf
+      serial: TEP-1-102
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: simsw-5.2(1g)
+- fabricNode:
+    attributes:
+      adSt: 'on'
+      address: 10.0.0.1
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-1
+      extMngdBy: ''
+      fabricSt: unknown
+      id: '1'
+      lastStateModTs: '1970-01-01T00:00:00.000+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T15:52:30.138+00:00'
+      model: ''
+      monPolDn: uni/fabric/monfab-default
+      name: apic1
+      nameAlias: ''
+      nodeType: unspecified
+      role: controller
+      serial: TEP-1-1
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: 5.2(1g)
+- fabricNode:
+    attributes:
+      adSt: 'on'
+      address: 10.0.136.65
+      annotation: ''
+      apicType: apic
+      childAction: ''
+      delayedHeartbeat: 'no'
+      dn: topology/pod-1/node-201
+      extMngdBy: ''
+      fabricSt: active
+      id: '201'
+      lastStateModTs: '2022-11-17T18:23:44.357+00:00'
+      lcOwn: local
+      modTs: '2022-11-17T18:24:23.481+00:00'
+      model: N9K-C9508
+      monPolDn: uni/fabric/monfab-default
+      name: spine-1
+      nameAlias: ''
+      nodeType: unspecified
+      role: spine
+      serial: TEP-1-103
+      status: ''
+      uid: '0'
+      userdom: all
+      vendor: Cisco Systems, Inc
+      version: simsw-5.2(1g)
+totalCount: '6'

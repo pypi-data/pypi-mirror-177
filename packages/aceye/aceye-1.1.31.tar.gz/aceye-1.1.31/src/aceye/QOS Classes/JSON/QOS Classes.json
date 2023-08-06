@@ -1,0 +1,143 @@
+{
+    "imdata": [
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level6",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level6",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level1",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level1",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level3",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level3",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level2",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level2",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level5",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level5",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        },
+        {
+            "qosClass": {
+                "attributes": {
+                    "admin": "enabled",
+                    "annotation": "",
+                    "childAction": "",
+                    "descr": "",
+                    "dn": "uni/infra/qosinst-default/class-level4",
+                    "extMngdBy": "",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:49:25.666+00:00",
+                    "mtu": "9216",
+                    "name": "",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prio": "level4",
+                    "status": "",
+                    "uid": "0",
+                    "userdom": "all"
+                }
+            }
+        }
+    ],
+    "totalCount": "6"
+}

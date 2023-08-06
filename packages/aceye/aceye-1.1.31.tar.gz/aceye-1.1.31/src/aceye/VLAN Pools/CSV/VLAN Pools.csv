@@ -1,0 +1,6 @@
+Name,Name Alias,Allocation Mode,Annotation,Child Action,Configuration Issues,Description,DN,Externally Managed By,Local Owner,Last Modified,Monitoring Policy DN,Owner Key,Owner Tag,Status,UID,User Domain
+GK_VLAN_POOL,,static,,,,,uni/infra/vlanns-[GK_VLAN_POOL]-static,,local,2022-11-17T16:05:00.258+00:00,uni/fabric/monfab-default,,,,15374,:all:
+CSR_PHY_STATIC_VLP,,dynamic,,,missing-encapblk,Production VLANs,uni/infra/vlanns-[CSR_PHY_STATIC_VLP]-dynamic,,local,2022-11-17T16:43:12.033+00:00,uni/fabric/monfab-default,,,,15374,:all:
+CSR_PHY_STATIC_VLP,,static,,,,Production VLANs,uni/infra/vlanns-[CSR_PHY_STATIC_VLP]-static,,local,2022-11-17T16:54:37.816+00:00,uni/fabric/monfab-default,,,,15374,:all:
+SnV_general_pool,,static,,,,,uni/infra/vlanns-[SnV_general_pool]-static,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,15374,:all:
+Heroes_general_pool,,static,,,,,uni/infra/vlanns-[Heroes_general_pool]-static,,local,2022-11-17T18:22:48.961+00:00,uni/fabric/monfab-default,,,,15374,:all:

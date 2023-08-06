@@ -1,0 +1,626 @@
+{
+    "imdata": [
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan9_BD/subnet-[10.0.9.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.9.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:56:14.590+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan18_BD/subnet-[10.0.18.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.18.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:56:15.422+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan19_BD/subnet-[10.0.19.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.19.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:56:16.275+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan8_BD/subnet-[10.0.8.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.8.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T15:56:28.790+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-TEST_GK/BD-TEST_GK_VLAN201/subnet-[10.133.121.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.133.121.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:03:22.886+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-TEST_GK/BD-TEST_GK_VLAN203/subnet-[10.133.123.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.133.123.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:03:22.886+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-TEST_GK/BD-TEST_GK_VLAN202/subnet-[10.133.122.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.133.122.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:03:22.886+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan81_BD/subnet-[10.0.81.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.81.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:07.493+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan28_BD/subnet-[10.0.28.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.28.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:08.334+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan38_BD/subnet-[10.0.38.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.38.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:09.188+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan68_BD/subnet-[10.0.68.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.68.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:10.012+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan78_BD/subnet-[10.0.78.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.78.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:10.843+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan98_BD/subnet-[10.0.98.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.98.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:11.651+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan88_BD/subnet-[10.0.88.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.88.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:12.524+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-S2TBK_HOLDINGS-TN/BD-Vlan58_BD/subnet-[10.0.58.253/24]",
+                    "extMngdBy": "",
+                    "ip": "10.0.58.253/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:23:13.377+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public,shared",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-blue/BD-blue_web/subnet-[10.201.0.1/28]",
+                    "extMngdBy": "",
+                    "ip": "10.201.0.1/28",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:54:38.586+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "sub_blue_web_1",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-blue/BD-blue_web/subnet-[10.201.1.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.201.1.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:54:41.578+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "sub_blue_web_2",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-green/BD-green_web/subnet-[10.202.0.2/24]",
+                    "extMngdBy": "",
+                    "ip": "10.202.0.2/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:54:44.642+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-blue/BD-blue_db/subnet-[10.201.10.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.201.10.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:54:47.695+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-green/BD-green_db/subnet-[10.202.10.1/24]",
+                    "extMngdBy": "",
+                    "ip": "10.202.10.1/24",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T16:54:50.768+00:00",
+                    "monPolDn": "uni/tn-common/monepg-default",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-Heroes/BD-Hero_Land/subnet-[10.1.120.1/22]",
+                    "extMngdBy": "",
+                    "ip": "10.1.120.1/22",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T18:22:49.605+00:00",
+                    "monPolDn": "",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "public",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-Heroes/BD-Hero_Land/subnet-[192.168.120.1/22]",
+                    "extMngdBy": "",
+                    "ip": "192.168.120.1/22",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T18:22:49.605+00:00",
+                    "monPolDn": "",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        },
+        {
+            "fvSubnet": {
+                "attributes": {
+                    "annotation": "",
+                    "childAction": "",
+                    "configIssues": "",
+                    "ctrl": "nd",
+                    "debugMessage": "",
+                    "descr": "",
+                    "dn": "uni/tn-SnV/BD-antigravity/subnet-[10.2.10.1/23]",
+                    "extMngdBy": "",
+                    "ip": "10.2.10.1/23",
+                    "ipDPLearning": "enabled",
+                    "lcOwn": "local",
+                    "modTs": "2022-11-17T18:22:49.843+00:00",
+                    "monPolDn": "",
+                    "name": "",
+                    "nameAlias": "",
+                    "preferred": "no",
+                    "scope": "private",
+                    "status": "",
+                    "uid": "15374",
+                    "userdom": ":all:",
+                    "virtual": "no"
+                }
+            }
+        }
+    ],
+    "totalCount": "23"
+}

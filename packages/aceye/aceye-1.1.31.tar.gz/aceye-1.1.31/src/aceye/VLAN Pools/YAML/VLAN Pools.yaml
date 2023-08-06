@@ -1,0 +1,97 @@
+imdata:
+- fvnsVlanInstP:
+    attributes:
+      allocMode: static
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/vlanns-[GK_VLAN_POOL]-static
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T16:05:00.258+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: GK_VLAN_POOL
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- fvnsVlanInstP:
+    attributes:
+      allocMode: dynamic
+      annotation: ''
+      childAction: ''
+      configIssues: missing-encapblk
+      descr: Production VLANs
+      dn: uni/infra/vlanns-[CSR_PHY_STATIC_VLP]-dynamic
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T16:43:12.033+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: CSR_PHY_STATIC_VLP
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- fvnsVlanInstP:
+    attributes:
+      allocMode: static
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: Production VLANs
+      dn: uni/infra/vlanns-[CSR_PHY_STATIC_VLP]-static
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T16:54:37.816+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: CSR_PHY_STATIC_VLP
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- fvnsVlanInstP:
+    attributes:
+      allocMode: static
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/vlanns-[SnV_general_pool]-static
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: SnV_general_pool
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+- fvnsVlanInstP:
+    attributes:
+      allocMode: static
+      annotation: ''
+      childAction: ''
+      configIssues: ''
+      descr: ''
+      dn: uni/infra/vlanns-[Heroes_general_pool]-static
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:48.961+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: Heroes_general_pool
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '5'

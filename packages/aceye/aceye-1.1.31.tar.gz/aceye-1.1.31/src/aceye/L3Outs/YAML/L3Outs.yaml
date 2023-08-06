@@ -1,0 +1,42 @@
+imdata:
+- l3extOut:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/tn-common/out-default
+      enforceRtctrl: export
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:25.041+00:00'
+      monPolDn: ''
+      mplsEnabled: 'no'
+      name: default
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      targetDscp: unspecified
+      uid: '0'
+      userdom: all
+- l3extOut:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/tn-Heroes/out-Heroes_external_corporate
+      enforceRtctrl: export
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T18:22:49.779+00:00'
+      monPolDn: uni/tn-common/monepg-default
+      mplsEnabled: 'no'
+      name: Heroes_external_corporate
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      targetDscp: unspecified
+      uid: '15374'
+      userdom: ':all:'
+totalCount: '2'

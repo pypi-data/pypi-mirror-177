@@ -1,0 +1,4 @@
+# Device Packages
+| Vendor | Annotation | Audit On Busy | Child Action | DN | Externally Managed By | Function Mask | Local Owner | Managed | Last Modified | Model | Monitoring Policy DN | Status | UID | User Domain | Version |
+| ------ | ---------- | ------------- | ------------ | -- | --------------------- | ------------- | ----------- | ------- | ------------- | ----- | -------------------- | ------ | --- | ----------- | ------- |
+| CISCO |  | no |  | uni/infra/mDev-CISCO-CloudMode-1.0 |  | GoThrough,GoTo,L2 | local | yes | 2022-11-17T15:49:19.250+00:00 | CloudMode | uni/fabric/monfab-default |  | 0 | all | 1.0 |

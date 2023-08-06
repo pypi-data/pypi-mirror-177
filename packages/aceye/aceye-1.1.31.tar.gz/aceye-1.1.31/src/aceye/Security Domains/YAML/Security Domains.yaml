@@ -1,0 +1,53 @@
+imdata:
+- aaaDomain:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/userext/domain-common
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.766+00:00'
+      name: common
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      restrictedRbacDomain: 'no'
+      status: ''
+      uid: '0'
+      userdom: all
+- aaaDomain:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/userext/domain-mgmt
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.766+00:00'
+      name: mgmt
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      restrictedRbacDomain: 'no'
+      status: ''
+      uid: '0'
+      userdom: all
+- aaaDomain:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/userext/domain-all
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.766+00:00'
+      name: all
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      restrictedRbacDomain: 'no'
+      status: ''
+      uid: '0'
+      userdom: all
+totalCount: '3'

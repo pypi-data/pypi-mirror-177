@@ -1,0 +1,19 @@
+imdata:
+- infraSpineP:
+    attributes:
+      annotation: ''
+      childAction: ''
+      descr: ''
+      dn: uni/infra/spprof-default
+      extMngdBy: ''
+      lcOwn: local
+      modTs: '2022-11-17T15:49:20.955+00:00'
+      monPolDn: uni/fabric/monfab-default
+      name: default
+      nameAlias: ''
+      ownerKey: ''
+      ownerTag: ''
+      status: ''
+      uid: '0'
+      userdom: all
+totalCount: '1'

@@ -1,0 +1,11 @@
+Name,Name Alias,Access Privilege,Annotation,Child Action,Configuration Issues,Consumer Match T,Description,DN,Externally Managed By,Local Owner,Last Modified,Monitoring Policy DN,Priority,Provider Match T,Reverse Filter Ports,Status,Target DSCP,UID,User Domain
+default,,USER,,,,AtleastOne,,uni/tn-common/oobbrc-default/subj-default,,local,2022-11-17T15:49:20.367+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,0,all
+default,,USER,,,,AtleastOne,,uni/tn-common/brc-default/subj-default,,local,2022-11-17T15:49:20.367+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,0,all
+VERITAS_ALL_Subj,,USER,,,,AtleastOne,,uni/tn-TEST_GK/brc-VERITAS_Ctr/subj-VERITAS_ALL_Subj,,local,2022-11-17T16:03:22.886+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+http,,USER,,,,AtleastOne,,uni/tn-common/brc-web/subj-http,,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+sql-browser,,USER,,,,AtleastOne,,uni/tn-common/brc-sql/subj-sql-browser,,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+https,,USER,,,,AtleastOne,,uni/tn-common/brc-web/subj-https,,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+app_ports,,USER,,,,AtleastOne,,uni/tn-common/brc-power_up/subj-app_ports,,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+sql-server,,USER,,,,AtleastOne,,uni/tn-common/brc-sql/subj-sql-server,,local,2022-11-17T18:22:49.369+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+sql,,USER,,,,AtleastOne,,uni/tn-SnV/brc-database/subj-sql,,local,2022-11-17T18:22:50.147+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:
+http,,USER,,,,AtleastOne,,uni/tn-SnV/brc-web/subj-http,,local,2022-11-17T18:22:50.147+00:00,uni/tn-common/monepg-default,unspecified,AtleastOne,yes,,unspecified,15374,:all:

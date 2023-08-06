@@ -1,0 +1,5 @@
+# L3 Domains
+| Name | Name Alias | Annotation | Child Action | Configuration Issues | DN | Externally Managed By | Local Owner | Last Modified | Monitoring Policy DN | Owner Key | Owner Tag | Status | UID | User Domain |
+| ---- | ---------- | ---------- | ------------ | -------------------- | -- | --------------------- | ----------- | ------------- | -------------------- | --------- | --------- | ------ | --- | ----------- |
+| SnV_external_corporate |  |  |  |  | uni/l3dom-SnV_external_corporate |  | local | 2022-11-17T18:22:49.275+00:00 | uni/fabric/monfab-default |  |  |  | 15374 | :all: |
+| Heroes_external_corporate |  |  |  |  | uni/l3dom-Heroes_external_corporate |  | local | 2022-11-17T18:22:49.286+00:00 | uni/fabric/monfab-default |  |  |  | 15374 | :all: |
