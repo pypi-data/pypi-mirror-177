@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: dastyletools
+Version: 0.0.3
+Summary: 一些简单的工具方法
+Home-page: UNKNOWN
+Author: da
+Author-email: 3205727707@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# dastyletools
+
+## 使用dastyletools
+```
+pip install dastyletools
+```
+
+```python
+from dastyletools import tools
+
+# 加
+tools.add(1, 1)  # 2
+# 减
+tools.sub(1, 1)  # 0
+# 乘
+tools.mul(1, 1)  # 1
+# 除
+tools.div(1, 1)  # 1.0
+
+# 从列表1的n坐标处拼接列表2
+a = [i for i in range(10)]  # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+b = [i for i in range(5, 15)]  # [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+c = tools.rl1n_to_l2(a, b, 3)  # [0, 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# 返回拉平的多维数组
+a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+tools.flatten_list(a)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# 从源数组的值中随机分配出不重复的包含源数组值n个数组
+a = [i for i in range(10)]
+tools.random_list_n(a, 5) # [[6, 9], [1], [5, 0, 7], [2], [4, 3, 8]]
+```
+
+## 打包python模块
+
+### 安装必要的模块
+```
+pip install setuptools
+pip install wheel
+pip3 install twine
+```
+
+### 创建~/.pypirc文件并且进行一些配置
+在[pypi](https://pypi.org/)注册你的账号
+```
+[distutils]
+index-servers = pypi
+
+[pypi]
+username:xxx
+password:xxx
+```
+
+```
+# 生成gz压缩包跟wheel文件，可以直接用pip install安装
+python setup.py sdist bdist_wheel       
+# 直接源码编译与安装    
+python setup.py build install           
+```  
+
+### [上传源码到pypi](https://www.xiexianbin.cn/python/pypi/publish-python-package-to-pypi/index.html)
+```
+twine upload dist/*.whl
+```  
+
