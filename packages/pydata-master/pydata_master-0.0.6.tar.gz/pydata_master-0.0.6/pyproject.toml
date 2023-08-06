@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydata_master"
+description = "All frequently used functions in one package for the data operation in a daily basis."
+version = "0.0.6"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "df2gspread",
+    "pytube",
+    "nltk",
+    "trafilatura",
+    "google-auth-httplib2"
+]

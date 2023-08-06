@@ -1,0 +1,5 @@
+df2gspread
+pytube
+nltk
+trafilatura
+google-auth-httplib2
