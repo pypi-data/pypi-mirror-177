@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vcfiscal
+Version: 1.0.0
+Summary: VCFiscal Backend Flask REST service
+Home-page: https://gitlab.com/0RT1/vcfiscal-backend.git
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: AUTHORS
+Requires-Dist: viggocore (<2.0.0,>=1.0.0)
+Requires-Dist: vclocal (>=1.0.0)
+Requires-Dist: flask-cors
+
+UNKNOWN
+
