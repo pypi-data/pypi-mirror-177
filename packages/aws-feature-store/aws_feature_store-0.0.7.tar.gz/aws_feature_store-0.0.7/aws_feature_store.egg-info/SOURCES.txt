@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+aws_feature_store/__init__.py
+aws_feature_store/feature_definition.py
+aws_feature_store/feature_group.py
+aws_feature_store/inputs.py
+aws_feature_store.egg-info/PKG-INFO
+aws_feature_store.egg-info/SOURCES.txt
+aws_feature_store.egg-info/dependency_links.txt
+aws_feature_store.egg-info/requires.txt
+aws_feature_store.egg-info/top_level.txt
