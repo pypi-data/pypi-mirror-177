@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: py3gpp
+Version: 0.0.6
+Summary: functions for 5G NR signal processing
+Home-page: https://github.com/catkira/py3gpp
+Author: Benjamin Menküc
+Author-email: benjamin@menkuec.de
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Project-URL: Repository, https://github.com/catkira/py3gpp
+Description-Content-Type: text/markdown
+
+# py3gpp
