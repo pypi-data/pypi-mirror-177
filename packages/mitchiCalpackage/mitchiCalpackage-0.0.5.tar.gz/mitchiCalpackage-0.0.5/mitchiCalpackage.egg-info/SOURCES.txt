@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+mitchiCalpackage/__init__.py
+mitchiCalpackage/add.py
+mitchiCalpackage/subtract.py
+mitchiCalpackage.egg-info/PKG-INFO
+mitchiCalpackage.egg-info/SOURCES.txt
+mitchiCalpackage.egg-info/dependency_links.txt
+mitchiCalpackage.egg-info/top_level.txt
+mitchiCalpackage/extras/__init__.py
+mitchiCalpackage/extras/divide.py
+mitchiCalpackage/extras/multiply.py
