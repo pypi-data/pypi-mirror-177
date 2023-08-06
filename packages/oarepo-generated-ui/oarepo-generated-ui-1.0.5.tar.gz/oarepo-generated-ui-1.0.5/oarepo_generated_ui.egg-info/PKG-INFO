@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: oarepo-generated-ui
+Version: 1.0.5
+Summary: Generation of UI parts from a layout configuration
+Home-page: https://github.com/oarepo/oarepo-generated-ui
+Author: CESNET
+Author-email: bauer@cesnet.cz
+License: MIT
+Description: # oarepo-generated-ui
+        OARepo library that enables generation of UI parts from a layout configuration
+        
+Keywords: oarepo generated ui
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: tests

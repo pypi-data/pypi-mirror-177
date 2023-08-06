@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+#
+# This file is part of Invenio.
+# Copyright (C) 2015-2022 CERN.
+#
+# Invenio is free software; you can redistribute it and/or modify it
+# under the terms of the MIT License; see LICENSE file for more details.
+
+include *.rst
+include *.sh
+include *.txt
+include .dockerignore
+include .editorconfig
+include .tx/config
+include LICENSE
+include babel-js.ini
+include babel.ini
+exclude docs/requirements.txt
+exclude examples/requirements.txt
+include pytest.ini
+recursive-exclude .github/workflows *.yml
+recursive-exclude .vscode *
+recursive-exclude examples *
+recursive-include oarepo_generated_ui *.html
+recursive-include oarepo_generated_ui *.js
+recursive-include oarepo_generated_ui *.mo
+recursive-include oarepo_generated_ui *.po
+recursive-include oarepo_generated_ui *.pot
+recursive-include oarepo_generated_ui *.scss
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-include oarepo_generated_ui *.js
+recursive-include oarepo_generated_ui *.jsx
