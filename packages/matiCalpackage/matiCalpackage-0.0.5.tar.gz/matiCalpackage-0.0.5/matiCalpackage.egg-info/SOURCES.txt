@@ -1,0 +1,11 @@
+setup.py
+matiCalpackage/__init__.py
+matiCalpackage/add.py
+matiCalpackage/subtract.py
+matiCalpackage.egg-info/PKG-INFO
+matiCalpackage.egg-info/SOURCES.txt
+matiCalpackage.egg-info/dependency_links.txt
+matiCalpackage.egg-info/top_level.txt
+matiCalpackage/extras/__init__.py
+matiCalpackage/extras/divide.py
+matiCalpackage/extras/multiply.py
