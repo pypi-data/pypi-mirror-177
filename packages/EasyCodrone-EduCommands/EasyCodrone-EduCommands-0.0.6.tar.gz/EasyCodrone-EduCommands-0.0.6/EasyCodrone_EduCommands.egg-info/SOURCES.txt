@@ -1,0 +1,9 @@
+README.md
+setup.py
+EasyCodrone_EduCommands.egg-info/PKG-INFO
+EasyCodrone_EduCommands.egg-info/SOURCES.txt
+EasyCodrone_EduCommands.egg-info/dependency_links.txt
+EasyCodrone_EduCommands.egg-info/requires.txt
+EasyCodrone_EduCommands.egg-info/top_level.txt
+easycodronecommands/__init__.py
+easycodronecommands/easydrone.py
