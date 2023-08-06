@@ -1,0 +1,3 @@
+[console_scripts]
+volttron-sql-historian=volttron.historian.sql.historian:main
+
