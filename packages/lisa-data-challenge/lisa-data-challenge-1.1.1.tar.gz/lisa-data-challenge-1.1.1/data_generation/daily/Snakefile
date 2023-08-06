@@ -1,0 +1,89 @@
+"""
+Test a pipeline where the load is balanced across days of data for
+the TDI stage.
+"""
+
+myconfig = "config.yml"
+configfile: myconfig
+singularity: "ldcpipe.sif" 
+rundir = config["dirname"]
+
+rule all:
+    input: expand(rundir+"/L1-{day}.h5", day=range(1,10))
+
+rule orbits:
+    input: myconfig
+    output: rundir+"/orbits.h5"
+    shell:
+       """
+       build_orbits -o {output} -c {input}
+       """
+
+rule orbits_upsampling:
+    input:
+        orbits = rules.orbits.output,
+        cfg = myconfig,
+    output: rundir+"/orbits-upsampled.h5"
+    log:
+        "log/orbits-upsampling.log"
+    shell:
+        """
+        upsampleorbits -i {input.orbits} -c {input.cfg} -o {output} -l {log}
+        """
+
+rule lisanode_build:
+    input:
+        cfg = myconfig,
+        cfgln = "lisanode_config.py",
+    output:
+        s = rundir+"/lisanode/LISA",
+	d = directory(rundir+"/lisanode")
+    log:
+        "log/lisanode-compile.log"
+    params:
+        graph = "my_instrument.py",
+        optim = 0,
+    resources:
+        mem_mb = 60000
+    shell:
+        """
+        prep_lisanode -l {log} -o {output.d}/{params.graph} -c {input.cfgln} --pipe-config {input.cfg} 
+        cd {output.d}
+        lisanode run --build -O {params.optim} {params.graph}:LISA
+        """
+
+rule L0:
+    input:
+        exe = rundir+"/lisanode/LISA",
+	orbits = rules.orbits_upsampling.output
+    output: rundir+"/L0.h5"
+    log:
+        "log/lisanode-run.log"
+    params:
+        pipe_cfg = myconfig
+    resources:
+        mem_mb = 60000
+    shell:
+        """
+	export DURATION=`python3 -c "import ldc.io.yml as ymlio; cfg = ymlio.load_config('{params.pipe_cfg}');print(cfg['t_max'].to('s').value-cfg['t_min'].to('s').value)"`
+	export T0=`python3 -c "import ldc.io.yml as ymlio; cfg = ymlio.load_config('{params.pipe_cfg}');print(cfg['t_min'].to('s').value)"`
+        export READOUT_GAIN=`python3 -c "import ldc.io.yml as ymlio;from lisaconstants import SPEED_OF_LIGHT;cfg = ymlio.load_config('{params.pipe_cfg}');print(cfg['readoutnoise']/SPEED_OF_LIGHT);"`
+        chmod u+x {input.exe}
+        {input.exe} -o {output} --lasernoise-on-off 0 --backlinknoise-on-off 1 --telescopenoise-on-off 0 --accelnoise-on-off 1 --readoutnoise-on-off 1 --obpathlengthnoise-on-off 0 --usonoise-on-off 0 --modulationnoise-on-off 0 --rangingnoise-on-off 0 --orbit-path {input.orbits} -d $DURATION --time-origin $T0 --readoutnoise-isc-c-gain=$READOUT_GAIN 
+        """
+
+rule split_L1:
+    input: rules.L0.output
+    output: rundir+"/L1-{day}.h5"
+    log: "log/pytdi-{day}.log"
+    shell:
+        """ 
+        run_pytdi --L0 {input} -o {output} -l {log} --day {wildcards.day}
+        """
+
+rule merge_L1:
+    input: expand(rundir+"/L1-{day}.h5", day=range(1,10))
+    output: rundir+"/L1.h5"
+    shell:
+        """ merge_tdi 
+        """
