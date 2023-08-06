@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mytelegrambotlib/__init__.py
+mytelegrambotlib/my_telegram_bot.py
+mytelegrambotlib.egg-info/PKG-INFO
+mytelegrambotlib.egg-info/SOURCES.txt
+mytelegrambotlib.egg-info/dependency_links.txt
+mytelegrambotlib.egg-info/requires.txt
+mytelegrambotlib.egg-info/top_level.txt
