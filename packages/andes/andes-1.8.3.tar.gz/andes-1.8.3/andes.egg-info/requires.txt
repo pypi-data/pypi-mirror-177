@@ -1,0 +1,118 @@
+kvxopt>=1.3.0.0
+numpy
+scipy
+sympy!=1.10.0,<1.12,>=1.6
+pandas
+matplotlib
+openpyxl
+xlsxwriter
+dill
+pathos
+tqdm
+pyyaml
+coloredlogs
+chardet
+psutil
+texttable
+
+[all]
+coverage
+pypowsybl
+myst-nb==0.13.2
+flake8
+pydata-sphinx-theme
+ipython
+numpydoc
+pre-commit
+pandapower
+sphinx
+pytest==7.0.1
+myst-parser==0.15.2
+codecov
+ipywidgets==7.7
+sphinx-copybutton
+sphinx-panels
+numba
+
+[codecov ]
+codecov
+
+[coverage ]
+coverage
+
+[dev]
+coverage
+myst-nb==0.13.2
+flake8
+pydata-sphinx-theme
+ipython
+numpydoc
+pre-commit
+sphinx
+pytest==7.0.1
+myst-parser==0.15.2
+codecov
+sphinx-copybutton
+sphinx-panels
+numba
+
+[doc]
+myst-nb==0.13.2
+pydata-sphinx-theme
+numpydoc
+sphinx
+myst-parser==0.15.2
+sphinx-copybutton
+sphinx-panels
+
+[flake8 ]
+flake8
+
+[interop]
+pypowsybl
+pandapower
+
+[ipython ]
+ipython
+
+[ipywidgets]
+ipywidgets==7.7
+
+[myst-nb]
+myst-nb==0.13.2
+
+[myst-parser]
+myst-parser==0.15.2
+
+[numba ]
+numba
+
+[numpydoc ]
+numpydoc
+
+[pandapower ]
+pandapower
+
+[perf]
+numba
+
+[pre-commit ]
+pre-commit
+
+[pydata-sphinx-theme ]
+pydata-sphinx-theme
+
+[pytest]
+pytest==7.0.1
+
+[sphinx ]
+sphinx
+
+[sphinx-copybutton ]
+sphinx-copybutton
+
+[sphinx-panels ]
+sphinx-panels
+
+[web]
+ipywidgets==7.7
