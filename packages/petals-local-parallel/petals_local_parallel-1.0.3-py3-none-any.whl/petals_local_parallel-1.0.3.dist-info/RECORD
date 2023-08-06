@@ -1,0 +1,17 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/benchmark_manual.py,sha256=ou_VKbrhCBCUi0TB-KNXXAyv9WfZAfzVIIIGvza9XbA,5740
+src/benchmark_pipeline.py,sha256=ar_AdeJmza6PwT_DasKqAS6Em_LmHKe8GBfUq2U8qb8,4969
+src/experiment_utils.py,sha256=6u-o9tcwn-pB87kBvUVvCsg6kZxdw7NpEaDKuZXgmkI,957
+src/markbench.py,sha256=CWdzCss8zPqjDmuMfhg7JVo3b3YtcyHrE0zlVqHGVBA,8495
+src/parallel_blocks.py,sha256=ZR0GUBd0WyPmhO1z49Y0zq7h2E1scSVye8bpFPwFCx8,7552
+src/pipelineable_blocks.py,sha256=8IXpa5jGJaE3ON--TbY09B8DXD_yYNwa3Rna4e76zLQ,3275
+src/slicer_wrapper.py,sha256=KxhKyx-lRkX5cxdAdI-miOd1L5TtZ5SBusXKMfGW8SU,5640
+src/slicer_wrapper_interface.py,sha256=LqfakpvCpFpFfLLu75wAdZg4X4hZadETMqGFOXaQERk,1141
+src/slicer_wrapper_test.py,sha256=IwjmKAaSnExNr9veSfPOpc0PHwoiU_M06KKeDz2hWuQ,2014
+src/slicing_bloom.py,sha256=xjSXA6XmGdMWu7-V81rNN2Nw2M7eUgMN0XArXTxk_IY,4930
+src/slicing_configs.py,sha256=qEAVIRc_c5Nvoo1xqNBGGcBtbFD4x9q7oJrmQr8qBJg,2366
+petals_local_parallel-1.0.3.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+petals_local_parallel-1.0.3.dist-info/METADATA,sha256=i0wN9v6lTLnHMal6ZyVa0MJtQqCPjzzemVJgK0gJzcI,504
+petals_local_parallel-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+petals_local_parallel-1.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+petals_local_parallel-1.0.3.dist-info/RECORD,,
