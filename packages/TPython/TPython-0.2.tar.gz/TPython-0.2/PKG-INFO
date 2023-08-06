@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: TPython
+Version: 0.2
+Summary: A better python REPL
+Home-page: https://github.com/Techlord210/TPython
+Author: Techlord210
+Author-email: techlord210@gmail.com
+License: MIT
+Keywords: interactive,python,better,repl,tpython
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Other Audience
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# TPython
+TPython a better python REPL.
