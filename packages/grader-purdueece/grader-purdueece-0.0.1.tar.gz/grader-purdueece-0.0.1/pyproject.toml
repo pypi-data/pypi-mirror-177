@@ -1,0 +1,18 @@
+[project]
+name = "grader-purdueece"
+version = "0.0.1"
+authors = [
+  { name="Purdue ECE" },
+]
+description = "Python autograder for Purdue ECE department"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PurdueECE/auto-grader"
+"Bug Tracker" = "https://github.com/PurdueECE/auto-grader/issues"
