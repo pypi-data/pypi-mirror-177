@@ -1,0 +1,6 @@
+{
+  "kaneEtAl.py::test_sequence_two_back": true,
+  "kaneEtAl.py::test_three_back": true,
+  "kaneEtAl.py::test_two_back_real": true,
+  "kaneEtAl.py::test_two_back_csv": true
+}
