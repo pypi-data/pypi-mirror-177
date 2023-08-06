@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/urbanlivabilityscore.py
+src/urbanlivabilityscore.egg-info/PKG-INFO
+src/urbanlivabilityscore.egg-info/SOURCES.txt
+src/urbanlivabilityscore.egg-info/dependency_links.txt
+src/urbanlivabilityscore.egg-info/top_level.txt
