@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: uium
+Version: 0.2.1
+Summary: A package for enhancing pytest
+Author-email: Mark Hoo <markhoo@foxmail.com>
+Project-URL: Homepage, https://github.com/MarkHoo/uium
+Project-URL: Bug Tracker, https://github.com/MarkHoo/uium/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# uium
+
+#### Install
+
+```
+pip install -U uium
+```
+
+#### Use:
+
+```
+import uium
+```

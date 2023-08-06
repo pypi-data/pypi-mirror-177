@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/uium/__init__.py
+src/uium/uium.py
+src/uium.egg-info/PKG-INFO
+src/uium.egg-info/SOURCES.txt
+src/uium.egg-info/dependency_links.txt
+src/uium.egg-info/top_level.txt
