@@ -1,0 +1,13 @@
+airflow/providers/apache/pig/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/pig/get_provider_info.py,sha256=VTsxLyivlkPclO0D8RMX1yiP1KVFuVMMgjghxFti0fA,2287
+airflow/providers/apache/pig/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/pig/hooks/pig.py,sha256=NEUvfXe6oZEb_JVQkZ8Ssx-f0EOdC_L4txTy2ePj8y4,4251
+airflow/providers/apache/pig/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/pig/operators/pig.py,sha256=R-JIXfw8XSjG5_iyH-Kh4EB9SUSE8-Y_iDU9GoffPco,2978
+apache_airflow_providers_apache_pig-4.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_apache_pig-4.0.0.dist-info/METADATA,sha256=H_XM86dI6Fm3vODohlrrAIZ93VunkTkGIPeNVvolAHA,9783
+apache_airflow_providers_apache_pig-4.0.0.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_apache_pig-4.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_apache_pig-4.0.0.dist-info/entry_points.txt,sha256=9CuDYow4V9shpjiUsbB9U-GgFkKtZOIEZUpYFvJCCIY,108
+apache_airflow_providers_apache_pig-4.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_apache_pig-4.0.0.dist-info/RECORD,,
