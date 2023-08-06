@@ -1,0 +1,3 @@
+[console_scripts]
+comdaan_fetch=comdaan.comdaan_fetch:__main__
+
