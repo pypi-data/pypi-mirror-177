@@ -1,0 +1,2 @@
+songpy
+python-docx
