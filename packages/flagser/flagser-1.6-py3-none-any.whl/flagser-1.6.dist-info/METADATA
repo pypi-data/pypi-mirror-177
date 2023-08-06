@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flagser
+Version: 1.6
+Summary: Flag manager is a library that makes it easy to create flags for your program
+Home-page: https://github.com/spynetS/flagser
+Author: Alfred Roos
+Author-email: alfred@stensatter.se
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Flagser
+
+This is a library that makes args very easy to handle in python
+
+to add a new flag write
+```
+class NewFlag(Flag):
+  shortFlag = "-n"
+  longFlag = "--newFlag"
+  description="this is a discripton of what this flag does"
+  def onCall(self,args):
+    print("here you can do what you want")
+
+a = FlagManager([NewFlag()])
+a.check()
+
+```
+Then add the flags you have created as the constructor
+parameters for the FlagManager
+then call the check() of the flagmanager object
+and the flagmanager will check the flags
