@@ -1,0 +1,3 @@
+[console_scripts]
+energyplus_idd_idf = pyiddidf.cli:main_cli
+
