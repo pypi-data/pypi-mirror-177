@@ -1,0 +1,8 @@
+xata/__init__.py,sha256=yTOGBX1igdvhDBXJ51b69GB0SaCMb4HRa_Y-tKtL3S4,58
+xata/client.py,sha256=5eT4y-1OZ6f0EjWxk9Q7fP5ZCi5mw7WPHSzKEprJnfM,21547
+xata/client_test.py,sha256=YGsCqfFFPV7yZzyiWa2WJXpTXiuhtXrw-A5bxs8Sj2A,6289
+xata/errors.py,sha256=_hE-TLMKRRnnABjzqK2sfctWDqwlEzpg-4dzQSKvDhI,617
+xata-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xata-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+xata-0.1.3.dist-info/METADATA,sha256=x1uTq-AV3uoMFv4mHKP5080DGSoj_zAHpGVlWbpT5u8,1823
+xata-0.1.3.dist-info/RECORD,,
