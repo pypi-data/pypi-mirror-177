@@ -1,0 +1,3 @@
+[console_scripts]
+django-start = djstartlib.main:main
+django-version = djstartlib.version:main
