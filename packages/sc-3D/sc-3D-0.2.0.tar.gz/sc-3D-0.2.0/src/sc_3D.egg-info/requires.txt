@@ -1,0 +1,13 @@
+scipy
+numpy
+matplotlib
+pandas
+seaborn
+scikit-learn
+anndata
+transformations
+
+[testing]
+tox
+pytest
+pytest-cov
