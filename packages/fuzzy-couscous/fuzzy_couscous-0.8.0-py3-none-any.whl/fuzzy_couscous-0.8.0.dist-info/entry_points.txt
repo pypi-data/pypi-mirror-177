@@ -1,0 +1,3 @@
+[console_scripts]
+fuzzy-couscous=fuzzy_couscous.main:cli
+
