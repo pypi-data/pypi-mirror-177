@@ -1,0 +1,4 @@
+boto3
+jina[filelock]>=3.9.1
+paddlepaddle==2.3.2
+paddleocr>=2.0.1
