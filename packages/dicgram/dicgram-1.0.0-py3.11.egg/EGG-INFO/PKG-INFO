@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dicgram
+Version: 1.0.0
+Summary: Framework para criar bots do Telegram
+Home-page: https://github.com/marcellobatiista/dicgram
+Author: Marcelo Batista
+Author-email: batista.marcelo34@gmail.com
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE
