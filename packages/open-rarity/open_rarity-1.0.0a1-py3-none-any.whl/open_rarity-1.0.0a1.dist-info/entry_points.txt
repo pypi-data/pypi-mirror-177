@@ -1,0 +1,3 @@
+[console_scripts]
+openrarity=openrarity.cli.main:app
+
