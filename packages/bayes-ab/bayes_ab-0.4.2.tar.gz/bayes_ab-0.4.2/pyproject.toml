@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "bayes_ab"
+version = "0.4.2"
+description = "Bayesian A/B testing."
+authors = ["Nikita Bogdanov", "Matus Baniar"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/PlatosTwin/bayes_ab"
+repository = "https://github.com/PlatosTwin/bayes_ab"
+keywords = ["ab testing", "bayes", "bayesian statistics",]
+include = [
+    "LICENSE",
+]
+
+packages = [
+    {include = "bayes_ab"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+numpy = "^1.22.0"
+prettytable = "^3.5.0"
+scipy="^1.9.3"
+matplotlib="^3.6.2"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+jupyterlab = "^3.0.9"
+black = "^22.3"
+pytest = "^6.2.4"
+pytest-mpl = "^0.16.1"
+coverage = "^6.1.1"
+pandas = "^1.2.1"
+pre-commit = "^2.16.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
