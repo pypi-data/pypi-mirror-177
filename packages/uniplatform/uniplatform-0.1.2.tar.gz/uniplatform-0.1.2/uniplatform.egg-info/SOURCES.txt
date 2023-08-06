@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+uniplatform.py
+uniplatform.egg-info/PKG-INFO
+uniplatform.egg-info/SOURCES.txt
+uniplatform.egg-info/dependency_links.txt
+uniplatform.egg-info/top_level.txt
