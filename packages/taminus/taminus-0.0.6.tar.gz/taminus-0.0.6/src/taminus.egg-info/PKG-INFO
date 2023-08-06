@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: taminus
+Version: 0.0.6
+Summary: A lightwieght python web framework for building websites
+Author-email: Jonathan Felicity <jonathanfelicity@mail.com>
+Project-URL: homepage, http://jonathanfelicity.tech/
+Project-URL: documentation, https://taminus.readthedocs.io/en/latest/
+Project-URL: repository, https://github.com/jonathanfelicity/taminus
+Project-URL: changelog, https://github.com/jonathanfelicity/taminus/blob/main/CHANGELOG.md
+Keywords: framework,web,async,asgi,machine learning
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# Taminus is a simple WebFramwork that is intended to have support for (ASGI AND WSGI)
+
+
+## Setting up environment 
+```bash
+    pip install taminus
+
+```
+
+
