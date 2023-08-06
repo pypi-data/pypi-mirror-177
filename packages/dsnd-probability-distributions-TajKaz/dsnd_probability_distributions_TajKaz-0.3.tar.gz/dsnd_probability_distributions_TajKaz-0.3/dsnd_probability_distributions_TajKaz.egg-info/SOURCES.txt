@@ -1,0 +1,10 @@
+setup.py
+dsnd_probability_distributions_TajKaz/Binomialdistribution.py
+dsnd_probability_distributions_TajKaz/Gaussiandistribution.py
+dsnd_probability_distributions_TajKaz/Generaldistribution.py
+dsnd_probability_distributions_TajKaz/__init__.py
+dsnd_probability_distributions_TajKaz.egg-info/PKG-INFO
+dsnd_probability_distributions_TajKaz.egg-info/SOURCES.txt
+dsnd_probability_distributions_TajKaz.egg-info/dependency_links.txt
+dsnd_probability_distributions_TajKaz.egg-info/not-zip-safe
+dsnd_probability_distributions_TajKaz.egg-info/top_level.txt
