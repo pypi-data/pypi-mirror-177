@@ -1,0 +1,2 @@
+[console_scripts]
+tkp-finder = tkp_finder.tkp_finder:tkp_finder
