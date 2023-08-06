@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: djacc
+Version: 0.1.0
+Summary: An extensible user-accounts application for Django
+Home-page: https://github.com/ardevpk/djacc
+Author: Abdul Rehman
+Author-email: adnan1470369258@gmail.com
+Project-URL: Bug Tracker, https://github.com/ardevpk/djacc/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Django (>=3.8)
+Requires-Dist: django-crispy-forms (>=1.14.0)
+Requires-Dist: django-utils-six
+
+# Django Accounts
+
+
+## Add these lines in your INSTALLED_APPS of settings.py file!
+```
+
+# Third party apps!
+'accounts',
+'crispy_forms',
+
+```
+
+
+## Add these lines in your settings.py file!
+```
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'accounts.authentication.EmailOrUsernameModelBackend',
+)
+
+```
+
+
+## Add this line in urlpatterns of your root/core urls.py file!
+```
+
+path('accounts/', include('accounts.urls')),
+
+```
+
+## Default parameters which you can change in your settings.py
+```
+
+UNIQUE_EMAIL = False -> Default = True
+ACCOUNT_ACTIVATION = False -> Default = True
+SIGNUP_URL = 'register/' -> Default = 'signup'
+SIGNIN_URL = 'login/' -> Default = 'signin'
+
+SIGNUP_TEMPLATE = 'your-temp-path' -> Default = 'accounts/register.html'
+ACTIVATION_EMAIL_TEMPLATE = 'your-temp-path' -> Default = 'accounts/activate.html'
+LOGIN_TEMPLATE = 'your-temp-path' -> Default = 'accounts/login.html'
+FORGET_TEMPLATE = 'your-temp-path' -> Default = 'accounts/reset-password.html'
+PROFILE_TEMPLATE = 'your-temp-path' -> Default = 'accounts/profile.html'
+
+```
