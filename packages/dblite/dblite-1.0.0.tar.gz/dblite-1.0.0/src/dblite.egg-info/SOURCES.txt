@@ -1,0 +1,17 @@
+Doxyfile
+LICENSE.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/dblite/__init__.py
+src/dblite/api.py
+src/dblite.egg-info/PKG-INFO
+src/dblite.egg-info/SOURCES.txt
+src/dblite.egg-info/dependency_links.txt
+src/dblite.egg-info/top_level.txt
+src/dblite/engines/__init__.py
+src/dblite/engines/postgres.py
+src/dblite/engines/sqlite.py
+test/test_api.py
+test/test_transformers.py
