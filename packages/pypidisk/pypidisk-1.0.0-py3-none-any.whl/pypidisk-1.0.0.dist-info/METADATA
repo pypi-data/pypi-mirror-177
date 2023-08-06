@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pypidisk
+Version: 1.0.0
+Summary: CLI tool to know the amount of disk space PyPi packages are occupying.
+Home-page: https://github.com/karishmashuklaa/pypidisk
+Author: Karishma Shukla
+Author-email: karishmashuklaa@gmail.com
+License: MIT
+Keywords: diskspace,dependencies,pypi,cli,pydisk,memory,modules,packages
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## PyDisk
+
+Know the amount of space a PyPi package is occupying on your hard disk.
+
+### ? Why
+
+You may achieve the same by using various commands on your OS. 
+PyDisk is a just Pythonic way for the same - just in case you don't want to write commands :)
+
+### > Install
+
+```
+pip install pydisk
+```
+
+### ! Use
+
+Use the command `pydisk`
+
+**Output**
+
+1. In KB
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/76456498/202871813-a755e9d7-e372-49d3-94b9-217c89648a8c.png">
+
+
+2. In MB
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/76456498/202871856-7448ea2f-83d9-4e44-b30f-b7df285e14c0.png">
+
+
+<table>
+  <tr>
+     <td>Argument</td>
+     <td>Help</td>
+     <td>Required</td>
+     <td>Default</td>
+     <td>Type</td>
+  </tr>
+  <tr>
+    <td>--size or --s</td>
+    <td>Get size of package in KB or MB</td>
+    <td>False</td>
+    <td>KB</td>
+    <td>str</td>
+  </tr>
+ </table>

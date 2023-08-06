@@ -1,0 +1,2 @@
+[console_scripts]
+pypidisk = pypidisk.__init__.py:get_package_size
