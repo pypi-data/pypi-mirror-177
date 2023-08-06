@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pytubedata
+Version: 0.0.1
+Summary: A simple wrapper for YouTube Data API v3 written in Python
+Home-page: https://github.com/professor91/pytubedata
+Author: Keshav Saini
+Author-email: keshavandteam@gmail.com
+License: MIT
+Keywords: youtubedata,youtubedataapi,pytubedata,pytubedata.py,googleapi
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Pytubedata
+
+Pytubedata is a simple wrapper for [YouTube Data API](https://developers.google.com/youtube/v3) written in python
+
+## Installation
+
+```
+pip install pytubedata
+```
+
+## Usage
+This package requies a valid YT Data API Key. You can get one from [Google Cloud Console](https://console.cloud.google.com/apis/dashboard)
+
+## Documentation
+[Youtube Data API Documentation](https://developers.google.com/youtube/v3/docs/)
+
+## Quickstart
+Getting the `Client` class
+```py
+from Youtube import Client
+
+key= open("secret.txt", "r").read()
+client= Client(key)
+```
+
+## Contact
+Mail: [keshavandteam@gmail.com](mailto:keshavandteam@gmail.com?PyTubeData)
+
