@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tdfpy
+Version: 0.1.2
+Summary: Pip package to work with bruker tdf and tdf_bin files
+Home-page: https://github.com/pgarrett-scripps/tdfpy
+Author: Patrick Garrett
+Author-email: pgarrett@scripps.edu
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10

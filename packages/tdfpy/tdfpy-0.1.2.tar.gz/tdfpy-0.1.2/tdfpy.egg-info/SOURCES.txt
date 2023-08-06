@@ -1,0 +1,13 @@
+README.md
+setup.py
+tdfpy/__init__.py
+tdfpy/constants.py
+tdfpy/libtimsdata.so
+tdfpy/pandas_tdf.py
+tdfpy/timsdata.dll
+tdfpy/timsdata.py
+tdfpy.egg-info/PKG-INFO
+tdfpy.egg-info/SOURCES.txt
+tdfpy.egg-info/dependency_links.txt
+tdfpy.egg-info/requires.txt
+tdfpy.egg-info/top_level.txt
