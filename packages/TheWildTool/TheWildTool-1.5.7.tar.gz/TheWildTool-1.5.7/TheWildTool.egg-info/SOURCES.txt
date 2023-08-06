@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+TheWildTool/TWTErrors.py
+TheWildTool/WorkData.py
+TheWildTool/__init__.py
+TheWildTool.egg-info/PKG-INFO
+TheWildTool.egg-info/SOURCES.txt
+TheWildTool.egg-info/dependency_links.txt
+TheWildTool.egg-info/requires.txt
+TheWildTool.egg-info/top_level.txt
