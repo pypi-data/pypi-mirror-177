@@ -1,0 +1,15 @@
+---
+
+extra_includes:
+- frc2/command/Command.h
+
+classes:
+  Subsystem:
+    shared_ptr: true
+    methods:
+      Periodic:
+      SimulationPeriodic:
+      SetDefaultCommand:
+      GetDefaultCommand:
+      GetCurrentCommand:
+      Register:
