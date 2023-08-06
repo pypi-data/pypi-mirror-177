@@ -1,0 +1,121 @@
+# Torch model lancet
+A tool for non-invasive modification of pytorch model functions
+
+## install
+
+```
+pip install model_lancet
+```
+
+## usage
+1. function replace
+all you need is descorate your function with the `ModelLancet`, give it the model instance, the target Module class name and target function name.
+it can also deal with the inherite case see example NSubLayer
+```
+from model_lancet import ModelLancet
+@ModelLancet(model, target_module_class_name='SubLayer', target_function_name='forward', influence_child_class=True)
+def func(self, xxx):
+    pass
+
+2. make attribute to model's buffer
+
+from model_lancet import attribute2buffer
+
+attribute2buffer(model, name)
+    
+
+```
+
+## example:
+
+```
+    from torch_model_lancet import ModelLancet
+    import torch
+    x = torch.ones(3)
+    
+    class SubLayer(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+
+        def forward(self, x):
+            return self.fake_forward(x)
+
+        def fake_forward(self, x):
+            logger.info('forwarding origin sub layer\'s fake_forward function')
+            return x
+
+    class NSubLayer(SubLayer):
+
+        def __init__(self):
+            super().__init__()
+
+        def fake_forward(self, x):
+            logger.info('forwarding origin new sub layer\'s fake_forward function')
+            return x
+
+
+    class SubModule(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.sub_layer = NSubLayer()
+
+        def forward(self, x):
+            logger.info('forwarding origin sub module\'s forward function')
+            return self.sub_layer(x)
+
+        
+    class Model(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.sub_module = SubModule()
+
+        def forward(self, x):
+            return self.sub_module(x)
+
+    model = Model()
+    logger.info('origin model:')
+    logger.info(model)
+    logger.info('forwarding origin model')
+    out = model(x)
+
+    logger.info('-------\n')
+
+    # decorate the function to replace
+    @ModelLancet(model, 'SubModule')
+    def new_forward(self, x):
+        logger.info('forwarding new sub module\'s forward function')
+        return self.sub_layer.fake_forward(x)
+    # 
+    out = model(x)
+    logger.info('-------\n')
+
+
+    @ModelLancet(model, 'SubLayer', 'fake_forward')
+    def new_forward(self, x):
+        logger.info('forwarding new_forward for sub_layer')
+        return x + 1
+
+    out = model(x)
+
+
+output:
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - origin model:
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - Model(
+  (sub_module): SubModule(
+    (sub_layer): NSubLayer()
+  )
+)
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - forwarding origin model
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - forwarding origin sub module's forward function
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - forwarding origin new sub layer's fake_forward function
+2022-11-18 11:39:21,391 - torch_model_lancet - INFO - -------
+
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - replaced SubModule's fn "forward" with "new_forward"
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - forwarding new sub module's forward function
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - forwarding origin new sub layer's fake_forward function
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - -------
+
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - replaced NSubLayer's fn "fake_forward" with "new_forward"
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - forwarding new sub module's forward function
+2022-11-18 11:39:21,392 - torch_model_lancet - INFO - forwarding new_forward for sub_layer
+```
