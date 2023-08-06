@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyFlyt
+Version: 0.2.9
+Summary: Freestyle Quadcopter Flight in Pybullet with Gym and (soon) PettingZoo APIs
+Home-page: https://github.com/jjshoots/PyFlyt
+Author: jjshoots
+Author-email: taijunjet@hotmail.com
+Keywords: Reinforcement Learning,UAVs,drones,Quadcopter,AI,Gym,PettingZoo
+Requires-Python: >=3.8, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# [Docs](https://github.com/jjshoots/PyFlyt/blob/master/readme.md)
