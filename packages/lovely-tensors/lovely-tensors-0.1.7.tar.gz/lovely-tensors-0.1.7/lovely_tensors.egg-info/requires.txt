@@ -1,0 +1,9 @@
+torch
+pillow
+fastcore
+numpy
+ipython
+matplotlib
+
+[dev]
+scipy
