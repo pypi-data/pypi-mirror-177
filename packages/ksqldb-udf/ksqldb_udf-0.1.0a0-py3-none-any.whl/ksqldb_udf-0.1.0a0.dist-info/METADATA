@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: ksqldb-udf
+Version: 0.1.0a0
+Requires-Dist: fire (==0.4.*)
+Requires-Dist: wheel-inspect (==1.7.*)
+

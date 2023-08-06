@@ -1,0 +1,10 @@
+ksqldb_udf/__init__.py,sha256=_CmK__0NCH8eNK0dgTmz5ARgqpOgHpvigYdXwFDO-nk,345
+ksqldb_udf/java.py,sha256=XO-T20gz0zj5s8kJUQhlAO1UPwiRAWberUDul_uO02M,9349
+ksqldb_udf/ksqldb-udf-python-core-0.1.0-SNAPSHOT-jar-with-dependencies.jar,sha256=x0gg40eKW5P6hi_2PsGgdmeeHp2igs2SMGj4nV5IsFE,1441705
+ksqldb_udf/pom-template.xml,sha256=hmmzmiLgncwaWaK4-EHsDfTwe0FAHScjyozOFrazmpE,1625
+ksqldb_udf/wheel.py,sha256=t8hJ4F88kegj1tF959vdubFEbZceca_XjalMBMUsPiI,2670
+ksqldb_udf-0.1.0a0.dist-info/METADATA,sha256=rlq0CD-vvirtljtP_bEGYTrf7fhT6_-04ajLoiyiFKw,126
+ksqldb_udf-0.1.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ksqldb_udf-0.1.0a0.dist-info/entry_points.txt,sha256=vQcABEzlQRSzHaFvjF88IlKnrX_Bczxe2kSaLm-ST1M,54
+ksqldb_udf-0.1.0a0.dist-info/top_level.txt,sha256=i21QaRX9EjF2jRxiIyMngDBalszy8-u5woEMkHX7TtA,11
+ksqldb_udf-0.1.0a0.dist-info/RECORD,,
