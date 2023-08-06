@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+grub2_theme_preview/__init__.py
+grub2_theme_preview/__main__.py
+grub2_theme_preview/version.py
+grub2_theme_preview/which.py
+grub2_theme_preview/tests/__init__.py
+grub2_theme_preview/tests/test_main.py
+object3.egg-info/PKG-INFO
+object3.egg-info/SOURCES.txt
+object3.egg-info/dependency_links.txt
+object3.egg-info/entry_points.txt
+object3.egg-info/top_level.txt
