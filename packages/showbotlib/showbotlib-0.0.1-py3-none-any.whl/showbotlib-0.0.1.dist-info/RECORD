@@ -1,0 +1,9 @@
+showbotlib/__init__.py,sha256=gHqh8BFFoeM02ANxL4aHtX3UbkouNKFejSppYIhK2fc,481
+showbotlib/models.py,sha256=dWnji8fHRT_PFLeP8dTzwlUSDYNbucBxJ48oe3s-87Q,458
+showbotlib/showbot.py,sha256=bacaBoqcqD6HtLTiuCbGEBzDSllmZlVnZ0dIKMxhpZU,3847
+showbotlib/telegramclient.py,sha256=FpsTUHBQUFs8Kh4vozFXMUA6bcC4aT5099BMQIcqmA4,1777
+showbotlib/tv_program.py,sha256=EiVPbwl8Xu67h01MwFHL3GEqzgXxyKNgKwBlkcSMQiY,2649
+showbotlib-0.0.1.dist-info/METADATA,sha256=WY84LHbPVnKNVUc1pTWSKppIy-Bde3pAQmc5CGXl7ws,278
+showbotlib-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+showbotlib-0.0.1.dist-info/top_level.txt,sha256=YffLlENI4Ujqcb9unwS-qUrYvdMKvcQmHYm9y0zD-uk,11
+showbotlib-0.0.1.dist-info/RECORD,,

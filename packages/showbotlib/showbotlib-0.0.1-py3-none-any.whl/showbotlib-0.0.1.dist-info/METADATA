@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: showbotlib
+Version: 0.0.1
+Summary: Telegram bot library with TVShows data
+Home-page: UNKNOWN
+Author: Pavel Mokhliakov
+Author-email: <pmokhliakov@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pydantic
+Requires-Dist: requests
+
+UNKNOWN
+
+
