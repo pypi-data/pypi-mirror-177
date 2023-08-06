@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Tyclonie-Logger
+Version: 1.0
+Summary: A library designed to make logging easy. Well formatted and a lovely replacement to just print.
+Home-page: UNKNOWN
+Author: Tyclonie
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: colorama (==0.4.6)
+
+UNKNOWN
+
