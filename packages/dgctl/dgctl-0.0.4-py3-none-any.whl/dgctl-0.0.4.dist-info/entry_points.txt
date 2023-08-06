@@ -1,0 +1,3 @@
+[console_scripts]
+dgctl=dgctl.dgctl:cli
+

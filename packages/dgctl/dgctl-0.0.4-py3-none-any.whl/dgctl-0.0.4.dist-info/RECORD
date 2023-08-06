@@ -1,0 +1,10 @@
+dgctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgctl/aws.py,sha256=KBwZdpUKgaZfJPlp838BMfB0_l4OkXg8kvr_JGFfG8A,837
+dgctl/commands.py,sha256=knTOp6M-6zYxFW9FBxf_FFD7MXOqOSDlIKvmc9isP2U,1632
+dgctl/dgctl.py,sha256=FzZ717mGcQ5Vq-IErJL40HOhfFwc5wkmv8QiCEP_mPg,356
+dgctl/utils.py,sha256=Yi-1DUxvXnlLffMqd6BR9B4Jhc9FZQHa-ibUW3w9taU,654
+dgctl-0.0.4.dist-info/entry_points.txt,sha256=QDcVUFmNPTO_DbvoBCXB542WSP7i5Rj10RiawDH65Fw,41
+dgctl-0.0.4.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+dgctl-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dgctl-0.0.4.dist-info/METADATA,sha256=faoL3SrWuN4DW0hUXtWRMyF3k9jpqIzfdqaSvM3VeRo,532
+dgctl-0.0.4.dist-info/RECORD,,
