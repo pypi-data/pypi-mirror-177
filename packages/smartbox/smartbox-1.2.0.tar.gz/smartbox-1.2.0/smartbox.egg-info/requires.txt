@@ -1,0 +1,6 @@
+aiohttp
+Click
+jq
+python-socketio<5.0.0,>=4.6.0
+requests
+websocket_client
