@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pythonssl
+Version: 0.0.3a2
+Summary: Create a certificate file and a private key file in x509 framework.
+Home-page: https://github.com/phucbao9x/pyssl
+Download-URL: https://sourceforge.net/projects/pythonssl/files/pythonssl-0.0.3a1-py3-none-any.whl/download
+Author: Phuc Bao
+Author-email: kaioffrayce@gmail.com
+Requires-Dist: cryptography
+
+
+PySSL module
+
+Help for:
+    Create a certificate file and a private key file for TLS/SSL.
+
+Missing: 
+    Sure. Security is an important issue in IoT MQTT. Me too. I believe this module will meet your business needs with RSA algorithm (with 2048 bits or more)
+
+Feature:
+    Generate RSA key with key size greater than or equal by 2048 bits
+    Supported for SHA algorithms (SHA1, SHA244, SHA256, ... SHA512_256)
+
+Command:
+    !exit: for end the current action.
+    [enter] key: for pass the current input
+
+Documentation:
+    https://github.com/phucbao9x/pyssl/blob/main/README.md
+
+Issue:
+    https://github.com/phucbao9x/pyssl/issues
