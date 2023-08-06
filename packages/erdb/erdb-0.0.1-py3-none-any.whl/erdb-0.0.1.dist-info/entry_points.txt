@@ -1,0 +1,2 @@
+[console_scripts]
+erdb = erdb.main.cli:entrypoint

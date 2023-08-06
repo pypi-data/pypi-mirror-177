@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: erdb
+Version: 0.0.1
+Summary: parse ELDEN RING files into JSON
+Author: Filip Tomaszewski
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: jsonschema (>=4.5)
+Requires-Dist: Pillow (>=9.2)
+Requires-Dist: deepdiff (>=6.2)
+Requires-Dist: requests (>=2.28)
+Provides-Extra: testing
+Requires-Dist: pytest (>=7.1) ; extra == 'testing'
+
