@@ -1,0 +1,13 @@
+gender-classifier-cnn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gender-classifier-cnn/pipeline.py,sha256=Gn7IM4n8GisuXUtGsq0CkK4QjFYJ7zgBXRJ1odS-Zbo,643
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model/cnn.py,sha256=-VmjNJsfNNDO-SlDDIUdeiQrKCdd9aXlO1tx6G3uC8U,3321
+model/my_model.py,sha256=VU35aLXMHhp_k0nz0hHkmlIFtHJqucA40cKsp8c79Pw,5184
+preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preprocessing/my_dataloader.py,sha256=1_Z7JA3JWT_2eFsEijZi36941Xc9dRcJezbbP_Okh5s,1048
+preprocessing/task_dataset.py,sha256=eTcwwVHE89YU5KQW-tGM-_roX65GVOvByNgN1INodqY,2517
+gender_classifier_cnn_usoltsev37-0.0.1.dist-info/LICENSE,sha256=DHgs7GZCRq5cpdu_smNWYb6EQ8XgJG2T823YCnRgf4w,1061
+gender_classifier_cnn_usoltsev37-0.0.1.dist-info/METADATA,sha256=l9VM-btw7JOYlCx3F5zzvxJxT3IQKCTEb-BSi_Mlivo,1828
+gender_classifier_cnn_usoltsev37-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gender_classifier_cnn_usoltsev37-0.0.1.dist-info/top_level.txt,sha256=H-6k_h9QOqFXsf_iLk2YWFfVf-sDy1B5q4UhbjF8LMw,42
+gender_classifier_cnn_usoltsev37-0.0.1.dist-info/RECORD,,
