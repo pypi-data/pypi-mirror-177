@@ -1,0 +1,353 @@
+Metadata-Version: 2.1
+Name: stratosphere
+Version: 0.1.14
+Summary: A lightweight experimentation toolkit for data scientists.
+Home-page: https://github.com/elehcimd/stratosphere
+License: BSD-3
+Author: Michele Dallachiesa
+Author-email: michele.dallachiesa@sigforge.com
+Requires-Python: >=3.8.15,<3.11
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: cloudpickle (>=2.2.0,<3.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: dask[complete] (>=2022.11.0,<2023.0.0)
+Requires-Dist: ipywidgets (>=8.0.2,<9.0.0)
+Requires-Dist: joblib (>=1.2.0,<2.0.0)
+Requires-Dist: pandas (>=1.5.1,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.5,<3.0.0)
+Requires-Dist: scikit-learn (>=1.1.3,<2.0.0)
+Requires-Dist: sqlalchemy (>=1.4.44,<2.0.0)
+Requires-Dist: sqlalchemy-utils (>=0.38.3,<0.39.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Requires-Dist: ulid-py (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/elehcimd/stratosphere
+Description-Content-Type: text/markdown
+
+# Stratosphere
+
+*A lightweight experimentation toolkit for data scientists.*
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stratosphere)
+![PyPI - License](https://img.shields.io/pypi/l/stratosphere)
+![PyPI - Version](https://img.shields.io/pypi/v/stratosphere)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/stratosphere)
+![PyPI - Installs](https://img.shields.io/pypi/dm/stratosphere)
+![Black - Code style](https://img.shields.io/badge/code%20style-black-000000.svg)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dkKBwhm4L_MMoWWtfD0FAFgTFP1BV40c)
+
+Designed for simplicity, efficiency and robustness. `stratosphere` lets you:
+
+1. **Define** programmatically your experiments
+2. **Execute** them in parallel with different backends
+3. **Track** their real-time metrics and final results
+4. **Store** them as serialized objects and tabular data in your database(s)
+5. **Query** them with the best-suited interface: SQL, Pandas and Python
+
+Built on top of solid components: [SQLAlchemy](https://www.sqlalchemy.org/), [SQLite](https://www.sqlite.org/), [Pandas](https://pandas.pydata.org/), [Joblib](https://joblib.readthedocs.io/en/latest/) and [Dask](https://www.dask.org/).
+
+![Stratosphere](https://raw.githubusercontent.com/elehcimd/stratosphere/b6993093ae617b98bcabf5d1d3153a7c3e1383a5/logo.png)
+
+## Installation
+
+It officially requires `Python 3.8.15`, but it can be forced to work with `Python 3.7.15` just fine.
+
+* With PyPI: `pip install stratosphere --upgrade`
+* With Poetry: `poetry add stratosphere`
+
+To run it on [Google Colab](https://colab.research.google.com/), install it as follows:
+
+```
+# Install dependencies/update packages
+!pip install pandas joblib sqlalchemy sqlalchemy-utils ulid-py psycopg2-binary \
+  cloudpickle colorama tabulate ipywidgets tqdm scikit-learn "dask[complete]" --upgrade
+# Install the latest compatible stratosphere version, ignoring the python version and dependencies
+!pip install stratosphere==0.1.13 --ignore-requires-python --no-dependencies
+```
+
+## Documentation
+
+* Quick demo on [Colab](https://colab.research.google.com/drive/1dkKBwhm4L_MMoWWtfD0FAFgTFP1BV40c)
+* Follow the [tutorial notebooks](./notebooks/) to learn the basic concepts
+
+You can run the tutorial notebooks in Colab as follows:
+
+1. Open the notebook on Github, and substitute `github.com` with `githubtocolab.com` in the URLs
+2. Add a cell at the beginning, installing `stratosphere` following the Installation instructions for Colab
+
+
+## Project pages
+
+* [PyPI](https://pypi.org/project/stratosphere/)
+* [Github](https://github.com/elehcimd/stratosphere)
+
+## License
+
+This project is licensed under the terms of the [BSD 3-Clause License](https://github.com/elehcimd/stratosphere/blob/main/LICENSE).
+
+## Development
+
+In this section, I documented the creation and management of my dev environment for this project.
+These instructions have been tested on macOS Monterey @ MacBook Pro M2, `Python 3.8.10` and `Python 3.10.7`.
+
+### Set up the system
+
+1. Install command line tools
+
+```
+xcode-select --install
+```
+
+2. Install pyenv/pyenv-virtualenv
+```
+brew update
+brew install pyenv pyenv-virtualenv
+```
+
+Configure the shell, adding in `~/.zshrc`:
+```
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+5. List the installed Python versions:
+```
+pyenv versions
+```
+
+6. List the Python versions available for installation:
+```
+pyenv install --list
+```
+
+7. Install a specific Python version
+```
+pyenv install 3.10.7
+```
+
+8. (Optional) Set a global pyenv Python version
+```
+pyenv global 3.10.7
+```
+
+9. Install poetry
+```
+brew install poetry
+poetry config virtualenvs.in-project true
+```
+
+
+#### (Optional) Optimizing the Zsh shell
+The [powerlevel10k theme](https://github.com/romkatv/powerlevel10k) lets you customize the Zsh prompt,
+showing the current folder, git status, and active environment. My `.zshrc`:
+
+```
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source ~/bin/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Required, to display the active environment on the prompt (right side)
+plugins=(virtualenv)
+```
+
+Useful alises:
+```
+alias ll="/bin/ls -la"
+alias ls="/bin/ls -laG"
+```
+
+### Manage the project environment
+
+#### Creating and removing the environment
+
+To create it:
+
+1. List the available Python versions:
+```
+pyenv versions
+```
+
+2. Create the environment (`./venv`):
+```
+cd stratosphere
+poetry env use 3.10.7
+```
+
+3. Check the correct installation of the Poetry environment
+```
+poetry env info
+```
+
+To remove it:
+
+```
+cd stratosphere
+rm -rf .venv
+```
+
+#### Installing the project in development mode
+
+1. Activate the environment
+```
+cd stratosphere
+poetry shell
+```
+
+2. Install the project (edit mode) in the Poetry environment:
+```
+poetry install
+```
+
+3. Run the tests
+
+```
+poetry run pytest
+```
+
+#### Useful Poetry commands to maintain the environment
+
+
+Add a new package:
+```
+poetry add pandas
+```
+
+Add a new dev package:
+```
+poetry add --group dev jupyterlab
+```
+
+Update the lock file (to be done after changing packages):
+```
+poetry lock
+```
+
+List the available packages:
+```
+poetry show
+```
+
+Update packages to their latest compatible versions:
+```
+poetry update
+```
+
+Show the Poetry configuration:
+```
+poetry config --list
+```
+
+Show the path of the Poetry environment:
+```
+poetry env info -p
+```
+
+Check validity of pyproject.toml:
+```
+poetry check
+```
+
+Publish the package to PyPI, after buming the version (patch):
+
+```
+poetry version patch
+poetry "-u$PYPI_USERNAME" "-p$PYPI_PASSWORD" --build publish
+```
+
+### Advanced topics
+
+#### Running the project on Apple silicon
+
+##### Situation
+
+The project works fine with macOS Monterey @ MacBook Pro M2, with `Python >= 3.8`. All extras work with no issues.
+The problems start if we want to support on all platforms `Python 3.7.15` (latest version supported by Google Colab).
+The latest versions of pandas, scipy and numpy do not support anymore `Python 3.7`, meaning we must pin older versions.
+In particular, these are the latest versions supported on Colab:
+
+* `scipy`: `scipy==1.7.3`
+* `numpy`: `numpy==1.21.6`
+* `pandas`: `1.3.5`
+* `scikit-learn`: `scikit-learn==1.0.2`
+
+Progress so far:
+
+Once created an environment, we can install most of the packages without problems (wheels are mostly not available, so this is quite slow):
+
+```
+pip install joblib sqlalchemy pandas tqdm ulid-py sqlalchemy-utils cloudpickle colorama
+```
+
+The challenge is installing `scikit-learn`, wbich depends on `scipy==1.7.3`. 
+A pip install results in an `NotFoundError: No BLAS/LAPACK libraries found` error. Given:
+
+* https://stackoverflow.com/questions/74113427/install-numpy-with-pyhon-3-7-on-macbook-m1
+* https://stackoverflow.com/questions/65336789/numpy-build-fail-in-m1-big-sur-11-1
+* https://github.com/pypa/pipenv/issues/4564#issuecomment-865077698
+
+We can fix this error with:
+
+```
+brew install openblas lapack 
+export SYSTEM_VERSION_COMPAT=1
+pip install Cython pythran pybind11
+export LDFLAGS="-L/opt/homebrew/opt/openblas/lib -L/opt/homebrew/opt/lapack/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openblas/include -I/opt/homebrew/opt/lapack/include"
+export LAPACK=/opt/homebrew/opt/lapack/lib/liblapack.dylib
+export BLAS=/opt/homebrew/opt/openblas/lib/libopenblas.dylib
+export PKG_CONFIG_PATH="-L/opt/homebrew/opt/lapack/lib/pkgconfig -L/opt/homebrew/opt/openblas/lib/pkgconfig"
+pip install scipy==1.7.3 --no-use-pep517
+```
+
+However, we now have this new error: `Undefined symbols for architecture arm64 [...] "_PyArg_ParseTuple" [...]`.
+I didn't manage to fix this issue yet, and I'll likely just run tests in a virtualized x86_64 environment.
+
+##### (Optional) Working with pyenv-virtualenv
+
+We don't currently use pyenv-virtualenv, as Poetry is used to
+manage the project environment. Nevertheless, I am using it
+to investigate the compatibility issues with `Python 3.7`, 
+removing the Poetry layer from the equation.
+
+###### Creating and environment
+
+Create it, and auto-activate it inside the project directory
+
+```
+pyenv virtualenv 3.7.15 stratosphere37
+pyenv activate stratosphere37
+pip install --upgrade pip
+pip install wheel
+pyenv local stratosphere37
+```
+
+###### Removing an environment
+
+```
+pyenv uninstall 3.7.15/envs/stratosphere37
+rm -rf ~/.pyenv/versions/3.7.15/envs/stratosphere37
+```
+
+To unlink it from a project:
+
+```
+rm stratosphere37/.python-version
+```
+
