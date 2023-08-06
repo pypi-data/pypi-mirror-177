@@ -1,0 +1,14 @@
+collectivo/__init__.py,sha256=e0a0DH8zQay33cv91WzH8scrpHkUB5EBeSuour9DWUs,69
+collectivo/apps.py,sha256=JsMiHNVICNewaBNkQYUaxLmB3YBJ57f585z0igeW6FM,728
+collectivo/errors.py,sha256=13yHQBcUwtax5YwgpEtV4MaD6TiGikgn-zBOSZ12d3I,137
+collectivo/models.py,sha256=XAxxpIhXfkz3T8vqYIBYgSIj-NAl3wArHV9z-KWSZHM,40
+collectivo/routers.py,sha256=gvfEC4iRjrgXvQfSGH1BIBYc3h9HJp-89jh4Vj899DQ,572
+collectivo/urls.py,sha256=AlNHE-aT-FSPl6qz1UZLOTyXmMieqSSy5jrotK6b-1k,977
+collectivo/utils.py,sha256=OWl6w2udrAoyW2WNR3LlYUKVnD4IQ6iU_VUojKibjV8,2729
+collectivo/version.py,sha256=XyHI8GYMGhyNEhl_kKya-AzBVsCo6LkvVt6FH4qywOg,84
+collectivo/views.py,sha256=IGEOC0fNexpHSbOxHfelShoTUPPtKDdAzTBKBSXiXF0,418
+collectivo-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+collectivo-0.0.1.dist-info/METADATA,sha256=LShzKcRYJXdjK8g-NF2yB6Ut6cOXqKTjWKrzmfA3LWM,683
+collectivo-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+collectivo-0.0.1.dist-info/top_level.txt,sha256=Ti3kvK8y27iSs2fQ6wX7yeLEUVLbqSA3cK6HsUmw98o,11
+collectivo-0.0.1.dist-info/RECORD,,

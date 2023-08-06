@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: collectivo
+Version: 0.0.1
+License: GNU Affero General Public License v3
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: Django (<4.2,>=4.1.1)
+Requires-Dist: djangorestframework (<3.14,>=3.13.1)
+Requires-Dist: django-filter (==22.1)
+Requires-Dist: psycopg2 (<2.10,>=2.9.3)
+Requires-Dist: drf-spectacular (<0.25,>=0.24.2)
+Requires-Dist: python-keycloak (<2.6,>=2.5.0)
+Requires-Dist: PyJWT (>=2.5.0)
+Requires-Dist: django-cors-headers (==3.12.0)
+Requires-Dist: flake8 (<5.1,>=5.0.4)
+Requires-Dist: flake8-bandit (>=4.1.1)
+Requires-Dist: flake8-docstrings (>=1.6.0)
+
