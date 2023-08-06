@@ -1,0 +1,13 @@
+haunts/__init__.py,sha256=Ijcd9-v9pTSm9FhnLBSJb4TRaaFPEqSsC6RW3UcIyjs,248
+haunts/actions.py,sha256=PrY3CqV_CkUzk8SeSCKLo7diGTJ8axeYFe-TjsPXNJI,97
+haunts/calendars.py,sha256=2UyvvPQVrl1ZSAZKcu_4xYkT4jdajugNZiLD6uZeii8,5166
+haunts/cli.py,sha256=k-sYsgGP8iKo2cTxEIdx8QMGiDLjdcKvOjwJV5YG5E8,2246
+haunts/ini.py,sha256=MGp4O6Ij3ys1wYjpMYRgGQsMR3CC9WWV_iX1cQS1Gf8,948
+haunts/spreadsheet.py,sha256=D9txO9dRRvWEFgbdJVzwKdIErqkjEVKNrfp2XX70XcM,9321
+haunts-0.3.1.dist-info/AUTHORS.rst,sha256=-ArMwAuTysa7CAbi6sVg6E3D9qim-doN6HtzLT3-3ps,154
+haunts-0.3.1.dist-info/LICENSE,sha256=AJbwcdaVmXoODGoTpblV_cmMSzY9pxexlTF1UusUHf8,1520
+haunts-0.3.1.dist-info/METADATA,sha256=9jm8gc_MYy95W-CEC6Xdb5KCok25lpLnEHrpaC6s_0E,8189
+haunts-0.3.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+haunts-0.3.1.dist-info/entry_points.txt,sha256=-ydZwrzvZ2fglleXwpys96b_OKXglS0LkKDea_VSB-o,44
+haunts-0.3.1.dist-info/top_level.txt,sha256=k3kNyhtfhG0DdpzeIZr0tRsCjPT7vvsOk749FG0q9K4,7
+haunts-0.3.1.dist-info/RECORD,,
