@@ -1,0 +1,7 @@
+aiohttp
+kaitaistruct
+lxml
+pakler
+PySquashfsImage
+python-lzo
+ubi-reader
