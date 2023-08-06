@@ -1,0 +1,3 @@
+[console_scripts]
+aws-cognito-cli = aws_cognito_cli.cli:main
+
