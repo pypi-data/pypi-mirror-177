@@ -1,0 +1,5 @@
+oxpower
+youtube_search
+yt-dlp
+spotdl
+yt-dl
