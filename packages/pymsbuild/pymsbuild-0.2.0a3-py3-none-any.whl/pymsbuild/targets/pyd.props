@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <TargetExt Condition="$(__TargetExt) != ''">$(__TargetExt)</TargetExt>
+    <TargetPath>$([System.IO.Path]::Combine($(ProjectDir),$(OutDir),$(TargetName)$(TargetExt)))</TargetPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SourceRootDir.TrimEnd($(_Sep)));$(PythonIncludes);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(PythonLibs);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>True</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+</Project>
