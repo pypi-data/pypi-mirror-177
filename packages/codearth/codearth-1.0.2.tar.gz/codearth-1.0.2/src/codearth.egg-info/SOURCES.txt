@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/codearth.egg-info/PKG-INFO
+src/codearth.egg-info/SOURCES.txt
+src/codearth.egg-info/dependency_links.txt
+src/codearth.egg-info/requires.txt
+src/codearth.egg-info/top_level.txt
