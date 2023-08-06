@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_searchBiliInfo
+Version: 0.1.0
+Summary: A plugin for nonebot2. Query Bilibili user information
+Home-page: https://github.com/Ikaros-521/nonebot_plugin_searchBiliInfo
+Author: Ikaros-521
+Author-email: 327209194@qq.com
+License: MIT Licence
+Keywords: pip,searchBiliInfo,nonebot
+Platform: any
+Description-Content-Type: text/x-rst
+
+A plugin for nonebot2. Query Bilibili user information（一个Nonebot2的插件，查询b站用户粉丝、舰团信息查询插件）
