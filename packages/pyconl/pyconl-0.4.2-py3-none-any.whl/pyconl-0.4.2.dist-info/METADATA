@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyconl
+Version: 0.4.2
+Summary: Civiel Technisch ontwerpen in Python.
+Home-page: https://github.com/ornor/pyco
+Author: Jara van Veldhoven
+Author-email: jarav@nveldhoven.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Dutch
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pyco
+
+[https://pyco.nl](https://pyco.nl)
+
+Civiel Technisch ontwerpen in Python.
+
+Jara van Veldhoven 2020-2023.
+
+## Installatie
+
+Je kan de module installeren vanuit PyPi met `pip`.
+
+    pip install pyconl
+
+## Documenten
+
+Een API is via [deze link](https://github.com/ornor/pyco/blob/master/docs/api/pyco_API.md) beschikbaar.

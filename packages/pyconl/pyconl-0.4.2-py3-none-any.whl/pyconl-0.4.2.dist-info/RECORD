@@ -1,0 +1,16 @@
+pyco/__init__.py,sha256=HLWx-NwHDWqm0Ntb_WmZicvz2y7725WFQRAcdcTYSjE,10517
+pyco/basis.py,sha256=iAuuvIyDte--cfk70hR_v6SQ6isuFRjdwC2dtCmdYWw,2050
+pyco/cirkel.py,sha256=LZ-9pTGYeTBJieIXBZRZ82XDGEMNqt40Ysb3XHtObtI,1682
+pyco/doorsnede.py,sha256=efMesVYQhEAuxjz9gaNJGmPyGJeNlDku4k3YRiMQXbg,719
+pyco/knoop.py,sha256=-NVJQCRoY1egG0FTAwPyVTyQSJJ4o9JNdcw0QxC-q_Y,3292
+pyco/lijn.py,sha256=P7GPJzH6vcGbmyE2D9mkj1zgIHpnUcDBTPFJQdv4vhk,16330
+pyco/materiaal.py,sha256=9XdOE6kyDxGH31eNncW9BLNgxceSS97hjFBs8jKASfQ,4077
+pyco/rechthoek.py,sha256=YDlyIAc49XQMapWHFgwSYXZqbnuIQOyKz76ForJTJ6g,1073
+pyco/vector.py,sha256=LVXF-r_KPUzhpCsQ-sTsQPkx_H9aYx-0HE1mRimTrdY,33753
+pyco/vorm.py,sha256=QCCy5IXiVlD1OWEa3zPp0kRnBmztUPtLpeSPGlgnJwg,45981
+pyco/waarde.py,sha256=hgFUyQNFZyDk_Sk6AQgPwLLUeV6vmajynct2ZEOFT88,61985
+pyconl-0.4.2.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyconl-0.4.2.dist-info/METADATA,sha256=NOYj-C4svBA4PZIwqbrh9HlvOiDEQksZif1xE3hrJlk,833
+pyconl-0.4.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyconl-0.4.2.dist-info/top_level.txt,sha256=BEnpokHrEGktOM9UVOiOz0Niw8hTpkntFJ7ItoQIiv8,5
+pyconl-0.4.2.dist-info/RECORD,,
