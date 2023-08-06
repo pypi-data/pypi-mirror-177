@@ -1,0 +1,2 @@
+torch>=1.12
+torch-nets>=0.0.1
