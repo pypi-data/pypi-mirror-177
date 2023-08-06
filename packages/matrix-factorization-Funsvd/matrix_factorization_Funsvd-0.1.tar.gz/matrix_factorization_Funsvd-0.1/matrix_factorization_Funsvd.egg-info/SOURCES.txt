@@ -1,0 +1,8 @@
+setup.py
+matrix_factorization_Funsvd/__init__.py
+matrix_factorization_Funsvd/matrix_factorization.py
+matrix_factorization_Funsvd.egg-info/PKG-INFO
+matrix_factorization_Funsvd.egg-info/SOURCES.txt
+matrix_factorization_Funsvd.egg-info/dependency_links.txt
+matrix_factorization_Funsvd.egg-info/not-zip-safe
+matrix_factorization_Funsvd.egg-info/top_level.txt
