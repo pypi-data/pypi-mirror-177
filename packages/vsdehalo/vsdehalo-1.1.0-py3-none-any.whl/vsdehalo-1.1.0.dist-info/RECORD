@@ -1,0 +1,13 @@
+vsdehalo/__init__.py,sha256=CTlaYzu0v5Q53y9hYR5PQPkVZE74N76bEh1tfdBMiJo,135
+vsdehalo/_metadata.py,sha256=CMFMQnHwPqbje7OPok-6bXteMl19oMKokA6AKTt8NQw,376
+vsdehalo/alpha.py,sha256=NCE8mnFxeiShp4TpSOeF4-o_bynD54XaU1lKDfZ0YWs,19315
+vsdehalo/denoise.py,sha256=QpDKtFh2WAzGsTdHc25TEZ8Da6ws4J_5mqC-WK_SShg,13130
+vsdehalo/masks.py,sha256=_bWUnIrYUUtdIWqULuO8cNgMYdlpPKpwdCPtCF92qPw,4615
+vsdehalo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsdehalo/vine.py,sha256=vqcO0JDvdZUWt6J7P8tXzORzD0wXuCFiRBPvWX_HdKo,7467
+vsdehalo/warp.py,sha256=v0H-CRy-vqyZFKqNANv5Z-kXG6dB1Pj3Eh9a7zfrV-c,4796
+vsdehalo-1.1.0.dist-info/LICENSE,sha256=5RjlHF8gmwvOIb-XRF3E1C6U_lL1RjedcdtkuqZWRwQ,1085
+vsdehalo-1.1.0.dist-info/METADATA,sha256=nda3QQcDIOP_LkNFEbCbkRX3CqrHLZ6cVUHUl35lIfs,1397
+vsdehalo-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vsdehalo-1.1.0.dist-info/top_level.txt,sha256=PHexh6X9G901WmmnDTL4aQXhdOUIuGZoPagKLUbz4vk,9
+vsdehalo-1.1.0.dist-info/RECORD,,
