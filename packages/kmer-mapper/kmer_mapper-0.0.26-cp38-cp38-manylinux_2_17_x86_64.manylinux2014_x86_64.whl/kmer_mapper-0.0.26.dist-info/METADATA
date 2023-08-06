@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kmer-mapper
+Version: 0.0.26
+Summary: Kmer Mapper
+Home-page: http://github.com/ivargr/kmer_mapper
+Author: Ivar Grytten
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: bionumpy (>=0.2.7)
+Requires-Dist: cython
+Requires-Dist: graph-kmer-index (>=0.0.22)
+Requires-Dist: numpy
+Requires-Dist: shared-memory-wrapper (>=0.0.21)
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
