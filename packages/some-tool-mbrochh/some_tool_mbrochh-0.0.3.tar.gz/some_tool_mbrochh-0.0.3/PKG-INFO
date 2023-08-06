@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: some_tool_mbrochh
+Version: 0.0.3
+Summary: A small example package
+Project-URL: Homepage, https://github.com/mbrochh/some_tool_mbrochh
+Author-email: Martin <mbroc@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.6
