@@ -1,0 +1,11 @@
+beautifulsoup4
+html2image
+inquirerpy
+matplotlib
+numpy
+pandas
+prompt_toolkit
+pytrends
+requests
+scikit-learn
+tabulate
