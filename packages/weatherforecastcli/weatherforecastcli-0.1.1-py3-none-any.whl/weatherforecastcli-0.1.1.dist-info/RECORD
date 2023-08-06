@@ -1,0 +1,10 @@
+weatherforecastcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weatherforecastcli/config.py,sha256=G_irQmGeNtYqssuGDyzqfSytKJOfR4RCqCzEqyYRUH0,746
+weatherforecastcli/main.py,sha256=btdShjHXYRyaArun5w3jASPaD1w04HloGZY5UZpkw8s,3406
+weatherforecastcli/meteomatics.py,sha256=LPPRG-gCrof2ocILuLOq21NjtdxBp9S4x4JrLTTdFcs,4441
+weatherforecastcli/positionstack.py,sha256=QI-r1GQlyNBAgG-PCzGgzmhP4IgtETZMkbYMTQ_tSCA,1369
+weatherforecastcli/utils.py,sha256=zof1hs2eZ2C1oVoPUlWykDn3hFsLrhruO9u0BVSGgH4,1827
+weatherforecastcli-0.1.1.dist-info/entry_points.txt,sha256=4NoIQMdKesKxBogRp6jpoeAR3aY3YjdoaH5P_x-GIuU,56
+weatherforecastcli-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+weatherforecastcli-0.1.1.dist-info/METADATA,sha256=63rwfKAJcJy2_KPTG7ewR1FYsB_ql9keoPp8wOLrD_E,375
+weatherforecastcli-0.1.1.dist-info/RECORD,,
