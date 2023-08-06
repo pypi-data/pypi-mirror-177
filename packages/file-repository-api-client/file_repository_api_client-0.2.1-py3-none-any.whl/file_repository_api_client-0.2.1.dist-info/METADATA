@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: file-repository-api-client
+Version: 0.2.1
+Summary: UNKNOWN
+Home-page: https://file-repository-api-client.readthedocs.io/
+Author: Mfana Ronald Conco
+Author-email: ronald.conco@mlankatech.co.za
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+Text File Repository API client
+
