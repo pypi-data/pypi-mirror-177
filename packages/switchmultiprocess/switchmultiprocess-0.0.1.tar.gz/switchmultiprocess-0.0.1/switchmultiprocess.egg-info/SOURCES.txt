@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+switchmultiprocess/__init__.py
+switchmultiprocess/generate_config.py
+switchmultiprocess/helper.py
+switchmultiprocess.egg-info/PKG-INFO
+switchmultiprocess.egg-info/SOURCES.txt
+switchmultiprocess.egg-info/dependency_links.txt
+switchmultiprocess.egg-info/top_level.txt
