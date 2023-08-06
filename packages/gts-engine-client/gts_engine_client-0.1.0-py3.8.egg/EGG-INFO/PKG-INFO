@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gts-engine-client
+Version: 0.1.0
+Summary: gts_engine_client
+Home-page: https://idea.edu.cn
+Author: pankunhao
+Author-email: pankunhao@gmail.com
+License: MIT Licence
+Platform: any
+License-File: LICENSE
+
+client sdk for git_engine development suite
+
