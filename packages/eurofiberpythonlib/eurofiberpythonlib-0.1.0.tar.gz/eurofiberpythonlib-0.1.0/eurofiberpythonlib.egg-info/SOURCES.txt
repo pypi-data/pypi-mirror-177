@@ -1,0 +1,6 @@
+README.md
+setup.py
+eurofiberpythonlib.egg-info/PKG-INFO
+eurofiberpythonlib.egg-info/SOURCES.txt
+eurofiberpythonlib.egg-info/dependency_links.txt
+eurofiberpythonlib.egg-info/top_level.txt
