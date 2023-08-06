@@ -1,0 +1,9 @@
+click
+httpx
+appdirs
+
+[test]
+pytest
+pytest-httpx
+cogapp
+pytest-mock
