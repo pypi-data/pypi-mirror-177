@@ -1,0 +1,30 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=E0611,C0115,C0116,W0212,W0703
+
+
+"feeding rss into your irc channel"
+
+
+__version__ = "124"
+
+
+
+from rssbot.object import Wd, cdir
+from rssbot.util import wait
+
+
+from rssbot import irc, rss
+
+
+Wd.workdir = "/var/lib/rssbot/"
+
+
+def main():
+    cdir(Wd.workdir)
+    irc.init()
+    rss.init()
+    wait()
+
+
+main()
