@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: mwaah
+Version: 0.0.1
+Summary: Python Client for Apache CLI on AWS Managed Airflow
+Home-page: https://github.com/GregoryWiltshire/mwaah
+Author: Gregory Wiltshire
+Author-email: Gregory Wiltshire <mellon.greg@gmail.com>
+Project-URL: Homepage, https://github.com/GregoryWiltshire/mwaah
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: apache-airflow-client
+Requires-Dist: botocore (>=1.20.0)
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: pydantic
+Provides-Extra: socks
+Requires-Dist: PySocks (!=1.5.7,>=1.5.6) ; extra == 'socks'
+
+# AWS MWAA (Managed Workflows for Apache Airflow) CLI - Python
+Python Client for running Apache Airflow CLI commands on AWS MWAA (Managed Workflows for Apache Airflow) instances.  
+https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-cli-command-reference.html
+
+# (currently) Supported Apache Airflow CLI commands
+| Version | Command                  | API         | 
+|---------|--------------------------|-------------|
+| v2.2.2  | dags list                | get_dags    |
+| v2.0+   | dags pause               | pause_dag   |
+| v2.0+   | dags unpause             | unpause_dag |
+| v2.0+   | dags show                | show_dag    |
+| v2.0+   | dags state               | get_dag_state|
+| v2.0+   | dags trigger             | new_dagrun  |
+| v2.0+   | version                  | get_version |
+
+
+# Examples
+## Running CLI on a private VPC instance
+Test locally using the following ssh tunnel configuration  
+```shell
+ssh -D 8080 -C -N  user@example.com
+```
+Create a client with proxy config session  
+```python
+from mwaah import MWAAH
+cli = MWAAH(
+    'example-mwaa-environment',
+    boto3.client('mwaa'),
+    proxies={'https': 'socks5://0:8080'}
+)
+```
+
+## Setting up a new CLI session
+Create a client passing in your own session  
+```python
+from mwaah import MWAAH
+cli = MWAAH(
+    'example-mwaa-environment',
+    boto3.client('mwaa', region_name='example-region-1')
+)
+```
+
+## Get Version
+```python
+print(cli.get_version())
+```
+```
+2.2.2
+```
+
+## Triggering a New DAG Run
+```python
+date = datetime.now()
+run = DAGRun()._from_openapi_data(
+    dag_id='example_dag_id',
+    execution_date=date,
+    dag_run_id="dag_run_id_example"+date.__str__(),
+    conf={'key': 'val'},
+)
+cli.new_dagrun(run)
+```
