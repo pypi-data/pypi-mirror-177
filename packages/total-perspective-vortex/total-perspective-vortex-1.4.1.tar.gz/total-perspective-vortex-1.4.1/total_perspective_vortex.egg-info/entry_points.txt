@@ -1,0 +1,2 @@
+[console_scripts]
+tpv = tpv.core.shell:main
