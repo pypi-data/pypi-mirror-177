@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: algorithms-ai
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/ZYuliang/algorithms-ai
+Author: Yuliang Zhang
+Author-email: 1137379695@qq.com
+Maintainer: Yuliang Zhang
+Maintainer-email: 1137379695@qq.com
+License: UNKNOWN
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: wandb
+Requires-Dist: loguru
+Requires-Dist: typing
+Requires-Dist: nltk
+
+# algorithms-ai
+
