@@ -1,0 +1,15 @@
+Loading GRB sky maps.....
+Loading LVC sky maps.....
+Number of GRB sky maps: 107
+Number of LVC sky maps: 475
+Simulating 5 years
+Number of GRBs: 1550
+Number of GWs: 43800
+Using [-60,600] window
+Expected number of false coincidence events: 284
+Looking for coincidences...
+Number of found coincidences: 265
+Min/Max space-time coincidence FAR (Hz): 1.108650012183966e-08 / 55.113673691388385
+Expected number pass threshold: 5
+Number of temporal coincidences pass threshold: 5
+Number of space-time coincidences pass threshold: 2
