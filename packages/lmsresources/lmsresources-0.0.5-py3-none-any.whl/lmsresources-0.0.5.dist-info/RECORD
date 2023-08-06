@@ -1,0 +1,13 @@
+lmsresources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lmsresources/databases/__init__.py,sha256=17zgKE2MD0omsRFMzHBbKfNai-qUu9e_j6HPIeoXbvo,24
+lmsresources/databases/databases.py,sha256=Gi4R3qbqS0Rt3jMGowrnSSh3i-7szpvYIULMcYwbhDk,3829
+lmsresources/middlewares/__init__.py,sha256=tiaZbQXRXhdXWrtcaeNWlyVK_hDj9tGFmZbFBdhwOaA,59
+lmsresources/middlewares/middlewares.py,sha256=Kh2w7yG9X_eEaeRLh2zPThUye0XERMd4kE9N9ZqRhds,2534
+lmsresources/middlewares/middlewares_test.py,sha256=AYgPGI6CmY-t2AG7-IsycIMKM9aOoWl1u2NPtB9-IvY,2529
+lmsresources/services_interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lmsresources/services_interfaces/admin/__init__.py,sha256=4Jxeh4kyBMnFWiyRmOkRgn8606gjclTw5VBTAJhXph8,31
+lmsresources/services_interfaces/admin/taleemabad_admin.py,sha256=Jl8qEHbH7DeaUrhxSIlVBeXKagt6UyBWhQ0DwaayrhQ,636
+lmsresources-0.0.5.dist-info/METADATA,sha256=Jq8NDTQS2VWIxMTA3l_MiU5zqx3rVJ-Vwy8T7BmvXkE,180
+lmsresources-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lmsresources-0.0.5.dist-info/top_level.txt,sha256=Rkn09QLNO3sVUJGh2FmGrHY-qUqDfpu3TjJs0Qt3p90,13
+lmsresources-0.0.5.dist-info/RECORD,,
