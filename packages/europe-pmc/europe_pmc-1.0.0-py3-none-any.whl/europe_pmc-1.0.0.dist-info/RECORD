@@ -1,0 +1,12 @@
+europe_pmc/__init__.py,sha256=cXvEBlpZNIAI2mFFnuz3kE0k0h0DI_zmKVpnPEtC1Hg,231
+europe_pmc/version.json,sha256=BYUNqK1_J3ltoDUCOhioX-rJai4pv-yDP-0_LcTru6c,245
+europe_pmc/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+europe_pmc/bin/main.py,sha256=Fdg1smi4x64UvP9A6pCnRRDVd4e6Og7QU4C-Jz9Ya6M,3969
+europe_pmc/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+europe_pmc/core/api.py,sha256=4We9Yk-MNSdoTJOhAtBNvq6HoKVIA4tEjRNVlqPk8D0,2853
+europe_pmc/util/__init__.py,sha256=zIqhKx3QCtZ0dQFZkd4XEQf6lwLplot_PncSqd02YEc,1957
+europe_pmc-1.0.0.dist-info/METADATA,sha256=UUvxcPNBGmhFaAM3ZE_EWP-6_3Q35nuUi8yLBuN_ZRs,1790
+europe_pmc-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+europe_pmc-1.0.0.dist-info/entry_points.txt,sha256=tXAVwSvVDrzriD_kzVZ8efrUtGBo-uk1Hx82rW58ryY,51
+europe_pmc-1.0.0.dist-info/top_level.txt,sha256=B0bEdWQUBCqxSufGXQcndUr3nxwWNLsMcTh87SOIpZo,11
+europe_pmc-1.0.0.dist-info/RECORD,,
