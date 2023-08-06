@@ -1,0 +1,40 @@
+name: Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  amalgamation:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install requirements
+        run: |
+          pip install quom
+      - name: Generate amalgamated header/source files
+        run: |
+          mkdir build
+          cd build
+          cmake -DRTVAMP_ENABLE_AMALGAMATION=ON ..
+          cmake --build . --target rtvamp-pluginsdk-amalgamation
+      - uses: actions/upload-artifact@v3
+        with:
+          name: pluginsdk_amalgamated
+          path: build/amalgamation/pluginsdk/include/rtvamp/pluginsdk.hpp
+
+  release:
+    runs-on: ubuntu-20.04
+    needs: amalgamation
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: pluginsdk_amalgamated
+      - name: List files
+        run: ls -R
+      - name: Add assets to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            pluginsdk.hpp
