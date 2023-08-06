@@ -1,0 +1,8 @@
+autocvd/__init__.py,sha256=4Sqsn-_EW2aGPExtTHJX21gZAihlZ6GldddC0xKc1N0,34
+autocvd/main.py,sha256=nUPW3PjhZOtLNG5a1BlyVbkYML7hhTnFVF6n17ONxik,5317
+autocvd/nvidia_smi_calls.py,sha256=4b5SOaZq2rNsjOsMr6yqY9VfCs0-CfzSf8lDstXOTU0,880
+autocvd-0.0.1.dist-info/METADATA,sha256=XnBh9gFiyIsXzN86hjhRGODtIaiwoCbTa34mmj4zuaU,3527
+autocvd-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+autocvd-0.0.1.dist-info/entry_points.txt,sha256=J0PCeR6K9lXMg17lS1shWon7S9bHUjzK-eic4vFNxRM,45
+autocvd-0.0.1.dist-info/licenses/LICENSE,sha256=o3KmPdMNbsUbP1Q6by4xoDv_VBwHDG7Iv1gmYHgDfiM,1069
+autocvd-0.0.1.dist-info/RECORD,,
