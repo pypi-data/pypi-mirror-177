@@ -1,0 +1,2 @@
+[console_scripts]
+scora = scora:cli
