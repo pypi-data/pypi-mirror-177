@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: EasyCodrone-EduCommands
+Version: 0.0.5
+Summary: Creates simple commands to be used with Codrone-edu
+Home-page: https://github.com/burgerface627/EasyCodroneEduCommands
+Author: Alex Birdsall
+Author-email: burgerface627@outlook.com
+License: MIT
+Requires-Dist: codrone-edu
+
+Creates simple commands to be used with Codrone-edu in order to make movements and certain processes simpler and less tedious
