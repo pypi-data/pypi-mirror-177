@@ -1,0 +1,10 @@
+debianbts/__init__.py,sha256=HtU-dFfXOr-NEdmFSotfPpvn3OlcgGYYnN3snmSuxz0,107
+debianbts/__main__.py,sha256=Qw2jHbdzExn_lUPbffhNfw3k58y3yWqbT_808CMPwlw,279
+debianbts/debianbts.py,sha256=s1sipGMjjP7BmVOA1FqJI3lJIiBTlJTLzAzxsSZv5aQ,17956
+debianbts/version.py,sha256=3xOVIVnXQrr_Z0lS2Wbi2j5nJCjfCDb3R71BWLusKlg,212
+python_debianbts-4.0.0.dist-info/LICENSE,sha256=AJbfjScq_wYhU5spsW7LrjWrGu3XPJlbIRFebcZdHMo,1072
+python_debianbts-4.0.0.dist-info/METADATA,sha256=I3ErErpoSH6mBAiDLVJspqame4f3Wb1Ld9XWTcWFEqE,2920
+python_debianbts-4.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_debianbts-4.0.0.dist-info/entry_points.txt,sha256=bSftg1dW2tThl5h-r7ySZgZvN4gGG1fCP6BjSxKL0-Y,54
+python_debianbts-4.0.0.dist-info/top_level.txt,sha256=MWYwECey5t6I62ehHwv1wvNdTdZHkfm-5e_ooSPtWik,10
+python_debianbts-4.0.0.dist-info/RECORD,,
