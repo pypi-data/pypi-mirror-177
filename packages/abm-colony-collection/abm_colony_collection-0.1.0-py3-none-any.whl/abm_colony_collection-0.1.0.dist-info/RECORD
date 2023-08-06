@@ -1,0 +1,12 @@
+abm_colony_collection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_colony_collection/__main__.py,sha256=hcpMhLGsV_fNZFoo400zbbJ2BIZNhWTstHsCXa5Wpfs,52
+abm_colony_collection/neighbor/__init__.py,sha256=AW6lLJQD140GUWG4RGQR1JJxE-iXH8HAr89mq0Dpj5c,139
+abm_colony_collection/neighbor/get_depth_map.py,sha256=4Ny1UCOKA3pp7Atik2xobze7Aosp1HnBrLMvhGBzNgA,1733
+abm_colony_collection/neighbor/get_neighbors_map.py,sha256=Io_yqzgt1pgZ3H5cZmKU5vpPxI1hOd-POqZfxBqyk2s,2621
+abm_colony_collection/neighbor/make_voxels_array.py,sha256=3p7lzDhYD0VSfRnLmJi5r0R93e3h3KTE1-gJxMs4gN4,949
+abm_colony_collection/neighbor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_colony_collection/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abm_colony_collection-0.1.0.dist-info/LICENSE,sha256=yl2mZ8HTPRCGwew4fV5CNar9Y34y2qDiDhedEqADACQ,1519
+abm_colony_collection-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+abm_colony_collection-0.1.0.dist-info/METADATA,sha256=-T2fRj5EcDQu95-Hib-fagTeh7TSkbufN2ASHi7sdYA,1533
+abm_colony_collection-0.1.0.dist-info/RECORD,,
