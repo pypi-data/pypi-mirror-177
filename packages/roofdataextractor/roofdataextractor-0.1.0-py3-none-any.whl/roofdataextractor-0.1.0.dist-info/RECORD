@@ -1,0 +1,10 @@
+roofdata/__init__.py,sha256=xfpX5bJvLtqWUrkqR2OSc9tzBceLAHBYhySAFam5B94,91
+roofdata/check_format.py,sha256=oZYMlkLn3EXHujXtqtmQpGsF3nmZFe2Jetv3kTkZ-Gs,482
+roofdata/extract_roof_data.py,sha256=GvC1N97fEEAMtsu3uTvqem06dKqeJR2FO-ZWPrMI07Q,2765
+roofdata/roofdataextractor.py,sha256=kgNYF0nUhDQo7m9GJNgT65J31Gu0vJIwcPIi9K721PQ,264
+roofdata/xml_to_json.py,sha256=LN2yyYv407NTeHAOg0s7A2At-Qr-EeaLOx3uV9amhqo,325
+roofdataextractor-0.1.0.dist-info/LICENSE,sha256=qjrQXQCYOvleQnnPV5uC7Jqci6w9FVYzlm_Jx4U0CAU,1089
+roofdataextractor-0.1.0.dist-info/METADATA,sha256=dPvwfQ_ToXSqyJod8yHc_CkTNftBFk95nDy6J8A_Rv8,626
+roofdataextractor-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+roofdataextractor-0.1.0.dist-info/top_level.txt,sha256=RkMyg1F3sQBcsMni8qlaFZb3mDxCaucPeB7V9cLN30U,9
+roofdataextractor-0.1.0.dist-info/RECORD,,
