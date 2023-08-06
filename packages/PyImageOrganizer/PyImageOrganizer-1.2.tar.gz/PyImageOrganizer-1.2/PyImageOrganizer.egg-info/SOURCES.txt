@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyImageOrganizer.egg-info/PKG-INFO
+PyImageOrganizer.egg-info/SOURCES.txt
+PyImageOrganizer.egg-info/dependency_links.txt
+PyImageOrganizer.egg-info/requires.txt
+PyImageOrganizer.egg-info/top_level.txt
+py_image_organizer/__init__.py
+py_image_organizer/image_organizer.py
