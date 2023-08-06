@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: arthseg
+Version: 0.1.2
+Summary: Native library for arthropod segmentation
+Home-page: https://github.com/Arthropod-Describer/arthseg
+Author: Matej Pekar
+Author-email: matej.pekar120@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# Arthseg
+
+Python C++ extension for segmentation of arthropods.
