@@ -1,0 +1,2 @@
+[console_scripts]
+jchess = jchess.run:run
