@@ -1,0 +1,15 @@
+nglpy/EmptyRegionGraph.py,sha256=_p6hcCnfJuQ1Hi8VESsfvmPG1lfYYQ4jN7AsEfM0_Vc,6608
+nglpy/PrebuiltGraph.py,sha256=9TzK6M_Qn008YOsiwtQOprqb3-HTaBmaEWV3Xw0N3VE,2801
+nglpy/__init__.py,sha256=GjPPoe8YEAQavavKaTydbiZNpA8tMCI_8NKshi4HlbY,164
+nglpy/_ngl.cp38-win32.pyd,sha256=GD3OS7OcOGhL0JMuhzWjBqlekbG-d442SceVaq3FFLU,233984
+nglpy/ngl.py,sha256=P1hukm2RfwUEOJQfdVs3azE-AmTeVi9RQD9ZPoIoM9A,15678
+nglpy/utils.py,sha256=vJA0X7v_A1yd36IO1EI19joJsKq7PJuaNH7RoavoJKc,1029
+nglpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nglpy/tests/test_bskeleton.py,sha256=_n7g5pXEeTc7mLLMIyr_XO85zQpDShORsZqoiu46fus,5870
+nglpy/tests/test_prebuilt.py,sha256=AJFH3-fxqrUeFFXdh_wZ_JDko4SkLt5OoJ9y3cM-YWY,1952
+nglpy/tests/test_utils.py,sha256=jMi14hZttrrUPtbGhRrnw0kC12vK35htP-GCFIWWB7w,1250
+nglpy-1.1.3.dist-info/LICENSE,sha256=WUQOFTfOwxXN1OhRv3dJ4Jg4v67zkuTfhG-kyM0p3y4,1704
+nglpy-1.1.3.dist-info/METADATA,sha256=yVLXg-B0gRKvENnQLDYx3eiCXulN1US1RC_Ck7LaTBo,2894
+nglpy-1.1.3.dist-info/WHEEL,sha256=Q7KGyTRxVwi3WXoWZ0tr1_wclwXGEbxf3IXLj3MR-7U,96
+nglpy-1.1.3.dist-info/top_level.txt,sha256=HYVUemlO-33dE9clUt1x1xuiFjOk87-dDkPQJiawdEY,6
+nglpy-1.1.3.dist-info/RECORD,,
