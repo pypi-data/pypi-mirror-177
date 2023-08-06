@@ -1,0 +1,8 @@
+rest_typed_models/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_typed_models/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rest_typed_models/__version__.py,sha256=GgoXzb6Nec7vEBI5FKf2cFX7iqebyTTmXjZaTmxYr5c,305
+rest_typed_models/serializers.py,sha256=A3MClXGcs5erYZjI986_7XN4WCpkoQDasVWq_F54HfU,6129
+django_rest_typed_models-0.1.0.dist-info/LICENSE,sha256=UbjURh7w60jHKTt8Cop41jtLpEwr5VU8hgX7ZNI0CFU,1111
+django_rest_typed_models-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+django_rest_typed_models-0.1.0.dist-info/METADATA,sha256=JveRWszC7V80FtPhJRPel11GN5M3VWWSU8xMFlJvuZ8,5444
+django_rest_typed_models-0.1.0.dist-info/RECORD,,
