@@ -1,0 +1,2 @@
+class NoDifficultyError(IndexError):
+  pass
