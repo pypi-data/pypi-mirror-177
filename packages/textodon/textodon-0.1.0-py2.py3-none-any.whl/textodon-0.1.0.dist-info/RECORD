@@ -1,0 +1,10 @@
+textodon/__init__.py,sha256=sZXS0Iu37UmiQqZ8k3ynwcWkpD4s4MkbadkrP9c2YzY,164
+textodon/cli.py,sha256=8q4Drv1X3FySM3nTekQTY1i81jj7u-JR_3BhktnDZ2Q,402
+textodon/textodon.py,sha256=xQYn0lXS_0kWNrCaMHhdb0doOSGzmXsBS0-4GThs3ls,222
+textodon/welcome.py,sha256=1_8-fXBDCkLlS16iDk4mfGQhj1xTf9ctN-TKOnMPu-8,1959
+textodon-0.1.0.dist-info/LICENSE,sha256=FWd4BcNa2uW7lqNstZiR8UR0q7iKBNw5ycl1ynFY29I,1072
+textodon-0.1.0.dist-info/METADATA,sha256=chCRJ485a2Z_oqmQprWLlXSTemtXVgkbv_YmyUBfAo0,1485
+textodon-0.1.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+textodon-0.1.0.dist-info/entry_points.txt,sha256=HK5InuSDATKcOaB_h8ZYaXhSYT2pK9TBiNystQ1hH3Y,47
+textodon-0.1.0.dist-info/top_level.txt,sha256=Qxaxz_j4vO2s_FvnzN_RXUGq8_BSiCTxOkqsYVtGV8I,9
+textodon-0.1.0.dist-info/RECORD,,
