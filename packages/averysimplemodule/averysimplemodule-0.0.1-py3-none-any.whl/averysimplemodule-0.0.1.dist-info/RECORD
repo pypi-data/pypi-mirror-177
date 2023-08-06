@@ -1,0 +1,10 @@
+averysimplemodule/__init__.py,sha256=RYZLi-b5AOlupMYUM5aRCCGolDR0Ov28_bWFvjA9Vvs,52
+averysimplemodule/add.py,sha256=aA343j5cCV2SZgzsbbx7wlrwzNEVHWZmRBzKbx0ZpyU,34
+averysimplemodule/subtract.py,sha256=oprI7v0SuL4cG5YqCJcoKLdYznTEP-fALe28NvJfwP8,34
+averysimplemodule/extras/__init__.py,sha256=XTHSCT_9-eDje28KOeDfsIs7CxiDvs6YAAYXGBrWiEE,58
+averysimplemodule/extras/divide.py,sha256=VIYD6XyvRSoWAS2NJ9fLgPzgZDxVOInBqIn-8BmVJdg,86
+averysimplemodule/extras/multiply.py,sha256=F7Cy6VKCwEoedQt62IHIlGDlD0HjCWoOgO-LPMvJUuY,39
+averysimplemodule-0.0.1.dist-info/METADATA,sha256=S0hf7NVAkMYySbR00gWF12kO09XiSZlVSvxbCiZbWvU,581
+averysimplemodule-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+averysimplemodule-0.0.1.dist-info/top_level.txt,sha256=AAwfFwshTL8qHMO3kNvaQq4v0L90Vo0PuLnrLAwnrV4,18
+averysimplemodule-0.0.1.dist-info/RECORD,,
