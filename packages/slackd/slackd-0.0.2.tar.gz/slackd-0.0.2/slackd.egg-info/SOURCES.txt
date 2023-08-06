@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+slackd/__init__.py
+slackd/alert.py
+slackd.egg-info/PKG-INFO
+slackd.egg-info/SOURCES.txt
+slackd.egg-info/dependency_links.txt
+slackd.egg-info/top_level.txt
