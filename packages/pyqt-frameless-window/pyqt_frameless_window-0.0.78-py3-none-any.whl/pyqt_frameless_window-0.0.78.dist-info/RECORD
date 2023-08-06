@@ -1,0 +1,16 @@
+pyqt_frameless_window/__init__.py,sha256=IyjU1J6VNuKZN8D_POaYM0KsZq3j5cvscyvJ73mUquY,103
+pyqt_frameless_window/framelessWindow.py,sha256=3wUYekDVwVu03rpzOimEs9Y_QFjJ84SBi5LvIYfNFUA,1549
+pyqt_frameless_window/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_frameless_window/base/baseWidget.py,sha256=LBPhBLFs5HgIN--Yc0wF3BwkXpPjXOdVNzkRjsJQjoo,9003
+pyqt_frameless_window/windows/__init__.py,sha256=2WcGbiEQTccsVrU6vO_KAn_cJ24SfLZDDjB8aEa6ylg,124
+pyqt_frameless_window/windows/baseWidget.py,sha256=M4g-HWWlnIlB7eKJZlKr1hVO4Tnr23CC2NaALTDyUHA,6391
+pyqt_frameless_window/windows/titleBar.py,sha256=XRksm_TLtoKPLRbcTM9_PcwpRHfPVTCroprg0LQIvCc,5261
+pyqt_frameless_window/windows/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_frameless_window/windows/src/c.py,sha256=Js6S6PORJM3u5IXsrgswg1hQwVUkqmoaJm7YdITyqC4,795
+pyqt_frameless_window/windows/src/win32utils.py,sha256=vfPFFoKcT_yCF84ygFvdt2WsJv_sv-o1o-oPFwku73Y,4216
+pyqt_frameless_window/windows/src/windowEffect.py,sha256=Sgjit0u4KeA_tbbLd9ZKyylqrEa9yUVcPQ16XeBTK2M,1403
+pyqt_frameless_window-0.0.78.dist-info/LICENSE,sha256=NdUA-FJa74GDyG2rfMPtV1MtUep-MBhGh_u04CFToWE,1091
+pyqt_frameless_window-0.0.78.dist-info/METADATA,sha256=sX3TVmiM6_ZtLyDoU4OVYFeqSo1_YHr8OZGmwqCbTyc,7325
+pyqt_frameless_window-0.0.78.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyqt_frameless_window-0.0.78.dist-info/top_level.txt,sha256=XV2Y4oExDCs98NrGsIuJL77iRThQqD_VITkX3JlFxnc,22
+pyqt_frameless_window-0.0.78.dist-info/RECORD,,
