@@ -1,0 +1,5 @@
+setup.py
+sb_text_notification.egg-info/PKG-INFO
+sb_text_notification.egg-info/SOURCES.txt
+sb_text_notification.egg-info/dependency_links.txt
+sb_text_notification.egg-info/top_level.txt
