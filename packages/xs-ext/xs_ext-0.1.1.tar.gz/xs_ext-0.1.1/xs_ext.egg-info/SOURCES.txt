@@ -1,0 +1,5 @@
+xs_ext.egg-info/PKG-INFO
+xs_ext.egg-info/SOURCES.txt
+xs_ext.egg-info/dependency_links.txt
+xs_ext.egg-info/requires.txt
+xs_ext.egg-info/top_level.txt
