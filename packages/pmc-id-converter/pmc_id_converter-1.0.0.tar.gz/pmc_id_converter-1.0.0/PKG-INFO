@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pmc_id_converter
+Version: 1.0.0
+Summary: ID converter between PMID, PMCID and DOI
+Home-page: https://github.com/suqingdong/pmc_id_converter
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: MIT License
+Description: # ID converter between PMID, PMCID and DOI
+        > https://www.ncbi.nlm.nih.gov/pmc/tools/id-converter-api/
+        
+        ## Installation
+        ```bash
+        python3 -m pip install pmc-id-converter
+        ```
+        
+        ## Usage
+        ### Command Line
+        ```bash
+        pmc_idconv --help
+        
+        # PMID
+        pmc_idconv 30003000
+        # PMCID
+        pmc_idconv PMC6039336
+        # DOI
+        pmc_idconv 10.1007/s13205-018-1330-z
+        # Multiple IDs
+        pmc_idconv 30003000 30003001 30003002
+        # Output to a file
+        pmc_idconv 30003000 30003001 30003002 -o out.json
+        ```
+        
+        ### Python
+        ```python
+        from pmc_id_converter import API
+        
+        API.idconv('PMC3531190')
+        API.idconv('PMC3531190', 'PMC3531191123', 'PMC3531191')
+        API.idconv('23193287')
+        API.idconv('10.1093/nar/gks1195')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

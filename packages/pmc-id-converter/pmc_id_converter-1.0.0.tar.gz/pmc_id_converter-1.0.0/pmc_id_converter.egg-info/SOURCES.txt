@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pmc_id_converter/__init__.py
+pmc_id_converter/bin.py
+pmc_id_converter/core.py
+pmc_id_converter/version.json
+pmc_id_converter.egg-info/PKG-INFO
+pmc_id_converter.egg-info/SOURCES.txt
+pmc_id_converter.egg-info/dependency_links.txt
+pmc_id_converter.egg-info/entry_points.txt
+pmc_id_converter.egg-info/requires.txt
+pmc_id_converter.egg-info/top_level.txt
