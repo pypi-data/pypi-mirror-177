@@ -1,0 +1,5 @@
+setup.py
+tryalgorumour.egg-info/PKG-INFO
+tryalgorumour.egg-info/SOURCES.txt
+tryalgorumour.egg-info/dependency_links.txt
+tryalgorumour.egg-info/top_level.txt
