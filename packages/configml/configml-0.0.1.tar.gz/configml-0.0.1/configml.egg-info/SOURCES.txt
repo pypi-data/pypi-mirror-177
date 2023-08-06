@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+configml/__init__.py
+configml/backtest.py
+configml/datasets.py
+configml.egg-info/PKG-INFO
+configml.egg-info/SOURCES.txt
+configml.egg-info/dependency_links.txt
+configml.egg-info/top_level.txt
