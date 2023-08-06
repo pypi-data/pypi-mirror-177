@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+ash_prac/Binomialdistribution.py
+ash_prac/Gaussiandistribution.py
+ash_prac/Generaldistribution.py
+ash_prac/__init__.py
+ash_prac.egg-info/PKG-INFO
+ash_prac.egg-info/SOURCES.txt
+ash_prac.egg-info/dependency_links.txt
+ash_prac.egg-info/not-zip-safe
+ash_prac.egg-info/top_level.txt
