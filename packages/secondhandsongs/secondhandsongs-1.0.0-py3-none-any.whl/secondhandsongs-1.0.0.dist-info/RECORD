@@ -1,0 +1,11 @@
+secondhandsongs/__init__.py,sha256=QLWyS04GqbKF4h6JbVg9DC98Hi6lOFG3koJr7jhvIMo,354
+secondhandsongs/api.py,sha256=kr0Efuni15YL0MnmfWYQBqu5UUt0TGsKFdHBNBwsF_g,2242
+secondhandsongs/auth.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+secondhandsongs/dataset.py,sha256=QVvH3j_gHhZ9vo3NIv38n25iQVbQ2VaQWFkB7R-Ryag,2116
+secondhandsongs/download.py,sha256=kd6HO9EFF-XVMGqaJOvYNzxo1DWeeKp_O7qP3EPCJww,1622
+secondhandsongs/models.py,sha256=c4toOjkKwbciWuh6ojXFiEr423v-g5FVruZPCYRhqYg,2912
+secondhandsongs-1.0.0.dist-info/LICENSE.txt,sha256=bTk5dSr_GXEwHGc2I0WTcFK3tgR4fzlhsAyAH1gbW3s,1080
+secondhandsongs-1.0.0.dist-info/METADATA,sha256=cZJ65pCgVCKDQplUUMzhrG31SkB0NrNaTAntozIbqTk,6156
+secondhandsongs-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+secondhandsongs-1.0.0.dist-info/top_level.txt,sha256=I6-B4-4g2jjJ8J5r1fRXA28_bL_hKHEHiiuDo5XXEr0,16
+secondhandsongs-1.0.0.dist-info/RECORD,,
