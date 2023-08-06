@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: adtree-viz
+Version: 0.0.2
+Summary: adtree-viz
+Home-page: https://github.com/julianghionoiu/adtree-viz
+Download-URL: https://github.com/julianghionoiu/adtree-viz/archive/v0.0.2.tar.gz
+Author: Julian Ghionoiu
+Author-email: julian.ghionoiu@gmail.com
+Keywords: kata,activemq,rpc
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# adtree-viz
+
+## Getting started
+
+Requirements:
+- `Python 3.9`
+
+Create a venv
+```shell
+python3.9 -m venv venv
+```
+
+Activate 
+```shell
+ . venv/bin/activate
+```
+
+Install deps
+```shell
+pip install -r requirements.txt
+```
+
+## Release to Github and PyPi
+
+Run
+
+```
+./release.sh
+```
+
+## Manually build and release
+
+Run the below to generate a distributable archive:
+```bash
+python3 -m build
+```
+
+The `adtree-viz-x.xx.x.tar.gz` archive can be found in the `dist` folder.
+
+Deploy to PyPi
+```shell
+python3 -m twine upload -r pypi dist/*
+
+# Use __token__ as username
+# Use PyPi API TOKEN as password
+```
