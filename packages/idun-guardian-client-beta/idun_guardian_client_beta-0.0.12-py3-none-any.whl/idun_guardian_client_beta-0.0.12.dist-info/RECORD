@@ -1,0 +1,13 @@
+idun_guardian_client_beta/__init__.py,sha256=LhP8UCXlSg2e7If4tm7v86tE7BMPgdJtiC75LS3MzhA,339
+idun_guardian_client_beta/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idun_guardian_client_beta/client.py,sha256=-icI-aSkxZj8w7FewM-SNlKBppPoivikVJFROAQ2nzY,7104
+idun_guardian_client_beta/config.py,sha256=D0HkJpb3RRI_-X-eFHhMvZkIJR61bD88fKDLkTuRRaA,1838
+idun_guardian_client_beta/igeb_api.py,sha256=OIY2ful_SlXGTLY0Oc_Btb0ExVWWpUY5Q1MOZwSwxUs,13525
+idun_guardian_client_beta/igeb_bluetooth.py,sha256=FiOGS4TBPTJWd2uU1MbkW5_Sr6eBNuZrxf5sMUu1JZ8,30508
+idun_guardian_client_beta/igeb_utils.py,sha256=LDWPH3KznK_c77D2R0oRevr_7rzH84rJK-6qfA2ieFw,2602
+idun_guardian_client_beta/setup.py,sha256=okoMCgfGRJsSBdaZdklUPa1VC0q7l5-rA6wFfBX37kA,164
+idun_guardian_client_beta/test_producer_consumer.py,sha256=X4IkZwik2gjkk0uX79PjLtA1seLmPPNrjMsp3KtC4Z8,1214
+idun_guardian_client_beta-0.0.12.dist-info/METADATA,sha256=CAmAUimMJcUffbcecovPuMm54hj7pDe_kjlmo4OBXyU,9095
+idun_guardian_client_beta-0.0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+idun_guardian_client_beta-0.0.12.dist-info/top_level.txt,sha256=_L_E0u13R6mJ41ub_iA0rYrXtX8lrHDPDgcrwoTAgmU,26
+idun_guardian_client_beta-0.0.12.dist-info/RECORD,,
