@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Ezclient
+Version: 1.1.1
+Summary: P2P client library
+Author: Riccardo Viviano, Matteo Galdi
+Author-email: riccardoviviano@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+P2P EzSpark client libary
