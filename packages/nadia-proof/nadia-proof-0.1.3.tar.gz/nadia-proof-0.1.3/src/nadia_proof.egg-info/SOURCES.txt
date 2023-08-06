@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/nadia/__init__.py
+src/nadia/nadia_pt_fo.py
+src/nadia/nadia_pt_gui.py
+src/nadia_proof.egg-info/PKG-INFO
+src/nadia_proof.egg-info/SOURCES.txt
+src/nadia_proof.egg-info/dependency_links.txt
+src/nadia_proof.egg-info/requires.txt
+src/nadia_proof.egg-info/top_level.txt
