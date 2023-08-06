@@ -1,0 +1,59 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116,C0209,W0212,W0703,W1514,R1732
+
+
+"feeding rss into your irc channel"
+
+
+__version__ = "123"
+
+
+import os
+import sys
+
+
+from rssbot.obj import Wd, cdir, lower, permission
+from rssbot.hdl import Callback, Command, scan
+from rssbot.utl import wait
+
+
+from rssbot import irc, rss
+
+
+Wd.workdir = "/var/lib/rssbot/"
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open("/dev/null", 'r')
+    sos = open("/dev/null", 'a+')
+    ses = open("/dev/null", 'a+')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    os.dup2(sos.fileno(), sys.stdout.fileno())
+    os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def wrap(func):
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        for err in Callback.errors:
+            traceback.print_exc(err)
+
+
+def main():
+    daemon()
+    #lower("rssbot")
+    irc.init()
+    rss.init()
+    wait()
+
+
+wrap(main)

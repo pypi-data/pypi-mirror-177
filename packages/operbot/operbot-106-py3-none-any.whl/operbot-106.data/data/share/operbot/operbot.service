@@ -1,0 +1,20 @@
+# This file is placed in the Public Domain
+
+
+[Unit]
+Description=OPERBOT - write your own commands
+After=multi-user.target
+
+[Service]
+Type=forking
+KillMode=mixed
+PrivateTmp=true
+DynamicUser=True
+StateDirectory=operbot
+LogsDirectory=operbot
+CacheDirectory=operbot
+ExecStart=/usr/local/bin/operbotd
+CapabilityBoundingSet=CAP_NET_RAW
+
+[Install]
+WantedBy=multi-user.target
