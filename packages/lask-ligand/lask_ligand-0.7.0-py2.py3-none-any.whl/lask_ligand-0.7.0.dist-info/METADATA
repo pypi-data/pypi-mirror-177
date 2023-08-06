@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lask-ligand
+Version: 0.7.0
+Summary: A simple flask library for building microservices with RBAC JWT security, OpenAPI client and SQLAlchemy database support.
+Author: Ryan Gard
+Author-email: ryan@gardiancapitol.com
+License: GNU Affero General Public License v3
+Project-URL: Changelog, https://github.com/cowofevil/lask-ligand/blob/main/CHANGELOG.md
+Project-URL: Source, https://github.com/cowofevil/lask-ligand
+Project-URL: Tracker, https://github.com/cowofevil/lask-ligand/issues
+Keywords: flask
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Flask
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS
+
