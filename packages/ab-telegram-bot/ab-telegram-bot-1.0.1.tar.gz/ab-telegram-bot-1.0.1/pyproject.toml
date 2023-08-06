@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ab-telegram-bot"
+version = "1.0.1"
+description = "Sample telegram bot "
+authors = ["ash.blade <ashen.blade.dev@gmail.com>"]
+packages = [{include = "telegram_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
