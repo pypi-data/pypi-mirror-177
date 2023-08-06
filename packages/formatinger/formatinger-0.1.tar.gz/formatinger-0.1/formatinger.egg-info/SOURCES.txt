@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+formatinger/formatters.py
+formatinger.egg-info/PKG-INFO
+formatinger.egg-info/SOURCES.txt
+formatinger.egg-info/dependency_links.txt
+formatinger.egg-info/not-zip-safe
+formatinger.egg-info/top_level.txt
