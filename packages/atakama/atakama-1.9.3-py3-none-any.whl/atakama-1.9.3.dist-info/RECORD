@@ -1,0 +1,11 @@
+atakama/__init__.py,sha256=hkgfT-wstn13HnMStn6NhUU_oaOofXiakgjWRVTSIjQ,321
+atakama/packager.py,sha256=pRXfnfTLdB0Y7BDRKcf33HkdBGt1GLFvmwjTr6ydnhU,8650
+atakama/plugin_base.py,sha256=ZxstAg0oVw_lS9qD_tJHljqMIdwlxrg0Y0ZV-as6_rM,4419
+atakama/rule_engine.py,sha256=RBB21bzcJCLvUHNpwdnilJsu8q34_Eg7qZXxzlpi5So,14028
+atakama-1.9.3.dist-info/LICENSE,sha256=M-MRZYdCKNjxOIn8ewa-U5RwVU3XVZTWlSeVVy5MTas,8027
+atakama-1.9.3.dist-info/METADATA,sha256=FuKbxI7beE4rAgDM21EGqFR3mRMCMYZIYT2hsm8tbvc,2463
+atakama-1.9.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+atakama-1.9.3.dist-info/entry_points.txt,sha256=23NpCr61PI55QnI5yIkC5DRt4kmhKJcusIaCt8QtlWg,53
+atakama-1.9.3.dist-info/license_header.txt,sha256=NxrZNid-K8zsVvrpCgLNwDfXh_AJGhm371JzssIVIKI,105
+atakama-1.9.3.dist-info/top_level.txt,sha256=JkmOMUdgYkU9-n_zqEub2pNulb2d83Y3PyvlBys6GLQ,8
+atakama-1.9.3.dist-info/RECORD,,
