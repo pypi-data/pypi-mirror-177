@@ -1,0 +1,7 @@
+mo-dots
+mo-future==6.230.22310
+
+[tests]
+mo-files
+mo-logs
+zstandard
