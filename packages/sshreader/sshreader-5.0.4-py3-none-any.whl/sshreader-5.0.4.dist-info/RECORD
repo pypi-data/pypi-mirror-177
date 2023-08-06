@@ -1,0 +1,13 @@
+sshreader/__init__.py,sha256=Fpqwp2vxrtwLu9MaiqWcRk8rPkeg0nrmuOsUjfSe7xg,1453
+sshreader/ssh.py,sha256=29J1qV_QprmrOZajRzVNmTlO4vLq76M3jT4hQ5XCpLc,11150
+sshreader/types.py,sha256=bqlAQmnMH1cuItA3p82ex1hOqpMAW7jmqFqvhkydPLc,1218
+sshreader/utils.py,sha256=rwalDZb6Lg1bv5bKt3qVcVcR3CFXzjwhNqj0RoII8XM,18786
+sshreader/scripts/__init__.py,sha256=Ue_5DJlfyfP6pnM4vkh68mtmAhz2RlZWs3tP2icl1A8,873
+sshreader/scripts/pydsh.py,sha256=dLUZJfmwZoQWJMx-Xt3CsNM93FN1olULPSWuqdSNYaI,10136
+sshreader-5.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sshreader-5.0.4.dist-info/LICENSE.lesser,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+sshreader-5.0.4.dist-info/METADATA,sha256=zVS9OJ8rGnugLYrfXQI7iZcTSfbGrTHs4DSccymOMEA,4045
+sshreader-5.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sshreader-5.0.4.dist-info/entry_points.txt,sha256=4AcFVHpIWgS0HA2KCWKN43jRgywdcZx1vD73pZ2cT18,54
+sshreader-5.0.4.dist-info/top_level.txt,sha256=NJ-TrGT2BMG4HqHhrloULtL_ATAEwsZxllGshAQ9lGU,28
+sshreader-5.0.4.dist-info/RECORD,,
