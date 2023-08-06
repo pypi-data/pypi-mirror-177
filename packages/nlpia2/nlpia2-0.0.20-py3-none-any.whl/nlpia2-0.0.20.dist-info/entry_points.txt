@@ -1,0 +1,3 @@
+[console_scripts]
+cnn=nlpia2.ch07.cnn:main
+
