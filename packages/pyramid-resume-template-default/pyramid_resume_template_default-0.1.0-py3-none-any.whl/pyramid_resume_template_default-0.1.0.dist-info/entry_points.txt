@@ -1,0 +1,3 @@
+[console_scripts]
+pyramid_resume_template_default=pyramid_resume_template_default.cli:main
+
