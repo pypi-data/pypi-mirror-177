@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pcidevlib.egg-info/PKG-INFO
+pcidevlib.egg-info/SOURCES.txt
+pcidevlib.egg-info/dependency_links.txt
+pcidevlib.egg-info/top_level.txt
+src/__init__.py
