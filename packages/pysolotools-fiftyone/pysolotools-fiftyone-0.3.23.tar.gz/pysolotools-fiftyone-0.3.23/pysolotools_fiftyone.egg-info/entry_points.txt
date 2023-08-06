@@ -1,0 +1,2 @@
+[console_scripts]
+pysolotools-fiftyone = pysolotools_fiftyone.solo_fiftyone:cli
