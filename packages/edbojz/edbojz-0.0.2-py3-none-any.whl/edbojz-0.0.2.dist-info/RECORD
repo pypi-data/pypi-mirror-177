@@ -1,0 +1,12 @@
+edbojz/__init__.py,sha256=N3ie2l1kIvLVutfKVqtPLnJsP42IAZXg4H0dn2NO5LI,24
+edbojz/acquisition.py,sha256=emeyKuGeKko28L23V-BKpXGfC0mC2sjDRaH0kLl60Lc,3015
+edbojz/model.py,sha256=dwaqDuoZg0j3M6TN1Zk3kE9DEOhoQiB3TcJDEmP3lIM,3124
+edbojz/optimizer.py,sha256=X1Ib9mdadGviQZ5LDQpQmrdE_1qiw_ksRcjgwjMVBhQ,25034
+edbojz/optimizer_botorch.py,sha256=u7nwyxpjCAys7Zdqj_Ax5-qmBhAy5K3O8XDThSSoK6o,21486
+edbojz/scope_generator.py,sha256=NaREwPls10HwuVi2FdpW4oCsRru43_oF-2zIq6uLEOM,3222
+edbojz/utils.py,sha256=iYXvqVACwHPLW6rK0IbD0trLslY87tZ4pq3Ajzl0tjY,839
+edbojz-0.0.2.dist-info/LICENSE,sha256=FkBYODmAVU_ds4feJOMLjFMZzmB_9y0vZqhbes3FlCA,1079
+edbojz-0.0.2.dist-info/METADATA,sha256=R7X3utw9bEOVMIDTIPr1eH-_m7i9HsghPEzG2lnpts0,1322
+edbojz-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+edbojz-0.0.2.dist-info/top_level.txt,sha256=xww06mCVUbUdPIRMzWHkf_pYiDYT9m0jQbLHocF2xYQ,7
+edbojz-0.0.2.dist-info/RECORD,,
