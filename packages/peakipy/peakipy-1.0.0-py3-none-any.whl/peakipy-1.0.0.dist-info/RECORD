@@ -1,0 +1,15 @@
+peakipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peakipy/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peakipy/cli/edit.py,sha256=2fY-6uIwi4HP8sYeBeZ2lO6N8yoiYiRYKv5uko7J9DI,29360
+peakipy/cli/edit_fits_app/main.py,sha256=fN1NfuzXlkaClLZmNkzJOcE4DTeYfa4KYudiVToZqXU,18531
+peakipy/cli/edit_fits_app/templates/index.html,sha256=TXG1r9ZA6aU6r_PT6LslHbrI1D_o-i-dxWcdga8MgoE,375
+peakipy/cli/edit_fits_app/theme.yaml,sha256=bRes8PtikiI8_1ec6Rji87za6xWFjYP0UfPafveiEVA,463
+peakipy/cli/fit.py,sha256=ZT-Gj2ird7vvXdUV8URsEsjj0FHktdGqeKDJRfpXAxs,12809
+peakipy/cli/main.py,sha256=KR8JP9A5JVILz7dcYKlxHH227XS5PKIR5wc9BL9RQ10,48417
+peakipy/cli/spec.py,sha256=83NZnBtzouS3yv2CWLia562Q4zIIDp9FLKbY9EP2GVg,3448
+peakipy/core.py,sha256=KvPfcu3b0R_Nkk8XQ8BJX6S2sYyhkf9-KCs_PeiBWWA,63026
+peakipy-1.0.0.dist-info/entry_points.txt,sha256=jZKDzTPRGNT9I_1Aqf1R2UXhFJJ3A6k7FIpX1r_gCLQ,48
+peakipy-1.0.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+peakipy-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+peakipy-1.0.0.dist-info/METADATA,sha256=rEA1FWbdV8otwjT3oTsgSYvDHh-AgddUQAHqjZAuio4,6967
+peakipy-1.0.0.dist-info/RECORD,,
