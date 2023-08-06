@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: tslumen
+Version: 0.0.1
+Summary: A library for Time Series exploratory data analysis
+Home-page: https://github.com/hsbc/tslumen
+Author: HSBC
+Author-email: opensource@hsbc.com
+License: Apache Software License
+Project-URL: Homepage, https://hsbc.github.io/tslumen
+Project-URL: Repository, https://github.com/hsbc/tslumen
+Project-URL: BugTracker, https://github.com/hsbc/tslumen/issues
+Project-URL: Documentation, https://hsbc.github.io/tslumen/html
+Project-URL: Changelog, https://github.com/hsbc/tslumen/blob/main/CHANGELOG.md
+Keywords: timeseries,time-series,profiling,exploratory-data-analysis,time-series-analysis,forecasting,data-science,machine-learning,data-mining,jupyter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hydra-core (<2.0,>=1.1)
+Requires-Dist: hydra-colorlog
+Requires-Dist: typing-inspect (>=0.6.0)
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: pandas (!=1.4.0,<1.5.0,>=1.0.0)
+Requires-Dist: jinja2 (<3.1,>=3.0)
+Requires-Dist: matplotlib (<4.0.0,>=3.3.2)
+Requires-Dist: networkx
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: statsmodels (<0.14,>=0.12.0)
+Requires-Dist: supersmoother (==0.4)
+Requires-Dist: joblib (>=1.0.0<2.0.0)
+Requires-Dist: tqdm
+Requires-Dist: PyYAML (>=5.0.0)
+Provides-Extra: extras
+Requires-Dist: plotly (<6.0.0,>=4.12.0) ; extra == 'extras'
+Requires-Dist: jupyter-dash (<0.5,>=0.3) ; extra == 'extras'
+Requires-Dist: dash (<2.7,>=1.20) ; extra == 'extras'
+Requires-Dist: dash-bootstrap-components (>1.0.0) ; extra == 'extras'
+
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/logo-350.png)
+
+## A library for exploratory analysis of Time Series data
+
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_python.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_build.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_docs.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_tests.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_coverage.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_lint.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_mypy.svg)
+![](https://raw.githubusercontent.com/hsbc/tslumen/main/doc/source/_static/badge_style.svg)
+
+
+**tslumen** helps bring to light the key characteristics of your time
+series data with rich, pre-canned artifacts, packed with charts and
+statistical information. The primary goal of tslumen is to expedite and
+bring consistency to how time series EDA is performed, allowing you to
+uncover the fundamental aspects in seconds rather than hours or days.
+
+**Key features**
+ * Platform agnostic, integrates nicely with your datascience workspace
+ * Built on open source technology and research
+ * Highly customizable and extensible
+ * Data (profiling results) completely detached from the visuals
+ * Can be executed from the command line
+ * Efficient execution using parallel processing
+ * Includes a great number of statistical information, including descriptive statistics statistical tests like KPSS or ADF, correlation, tsfeatures, etc.
+ * Various plots specifically tailored to time series analysis
+ * Self-contained HTML report that can easily be shared with interested parties
+ * Fully interactive dashboard for a richer experience and detailed exploration
+
+See https://hsbc.github.io/tslumen/ for the complete documentation.
+
+
+## Installation
+
+From PyPI:
+
+```bash
+pip install -U tslumen
+```
+
+From source:
+
+```bash
+# cd into tslumen after cloning the repo
+make install
+```
+
+
+## Examples
+
+Refer to the [Quick Start](https://hsbc.github.io/tslumen/html/quickstart.html) 
+page of the documentation for a brief tour of the package.
+
+Complete example notebooks can be found on the **User Guide** section of the documentation.
+
+
+## Contributing
+
+Contributions to tslumen are welcome. Please see our [contribution guide](CONTRIBUTING.md) for more details.
+
+
+
+
