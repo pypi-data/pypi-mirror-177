@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: ecdysis
+Version: 0.3.0
+Summary: Interface to pyprocessmacro
+Home-page: https://github.com/datagazing/ecdysis
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com

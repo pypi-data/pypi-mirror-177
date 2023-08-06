@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "ecdysis"
+author = "Brendan Strejcek"
+author-email = "brendan@datagazing.com"
+home-page = "https://github.com/datagazing/ecdysis"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.rst"
+requires-python = ">=3.7"
+requires = ["numpy", "pandas", "pyprocessmacro", "optini", "pandect"]
+
+[tool.flit.scripts]
+ecdysis = "ecdysis:main"
