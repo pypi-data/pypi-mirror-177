@@ -1,0 +1,16 @@
+=========
+Changelog
+=========
+
+Version 0.1.0
+=============
+
+- Implemented tcp, udp and rtu modbus server
+- Implemented generating Context
+- Implemented Task decorator
+- Created examples of use of mbsim-core
+
+Version 0.1.1
+=============
+
+- Tasks are initialised or decorated
