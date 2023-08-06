@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyotm
+Version: 0.0.2
+Summary: Python connector for OTM
+Author-email: Gabriel Gomes <gomes@berkeley.edu>
+Project-URL: homepage, https://github.com/ggomes/otm-sim
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+OTM is a platform for simulating vehicular traffic scenarios. It offers multiple models that can be arbitrarily combined in a single simulation. You can use one of the native OTM models (CTM, 2Q, Newell), or you can create a plugin for your own model. You can similarly implement new controllers as plugins.
+
+Learn more [here.](https://ggomes.github.io/otm-sim/)
