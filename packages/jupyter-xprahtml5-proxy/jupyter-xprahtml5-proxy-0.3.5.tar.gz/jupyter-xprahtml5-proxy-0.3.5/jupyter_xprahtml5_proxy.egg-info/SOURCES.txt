@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter_xprahtml5_proxy/__init__.py
+jupyter_xprahtml5_proxy.egg-info/PKG-INFO
+jupyter_xprahtml5_proxy.egg-info/SOURCES.txt
+jupyter_xprahtml5_proxy.egg-info/dependency_links.txt
+jupyter_xprahtml5_proxy.egg-info/entry_points.txt
+jupyter_xprahtml5_proxy.egg-info/not-zip-safe
+jupyter_xprahtml5_proxy.egg-info/requires.txt
+jupyter_xprahtml5_proxy.egg-info/top_level.txt
+jupyter_xprahtml5_proxy/bin/xpra.in
+jupyter_xprahtml5_proxy/icons/xpra-logo.svg
+test/test_nothing.py
+test/test_setupcall.py
