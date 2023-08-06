@@ -1,0 +1,16 @@
+olca/__init__.py,sha256=YRH-JYc87yZ85aFrGqbYEnJ95CXvZ8uFm1Cmod3A_cc,13646
+olca/ipc.py,sha256=VUV_BDmCsy92OUnB4fw_QXM5eJ-No17sbjG2e-JhNVI,32769
+olca/pack.py,sha256=Gjf3wN0K_rGDdenxNOp7zjZQEdgtt4DGpsnrGjAq9KQ,2282
+olca/schema.py,sha256=6LQ2KhUlns0w5LxUhY2toS3xajiU8b-ixLGi5dI6iEg,115672
+olca/upstream_tree.py,sha256=hT4EhU3OVaUy7t4EcrceC6UJu80T5K1nJaOjdODY5q0,2231
+olca/units/__init__.py,sha256=y4kqt_EpQRaiPHK_AJqlUPvY2Ljh1Ne8vuU2o3CzCkQ,1598
+olca/units/units.csv,sha256=waoU68Ys8A3sYKXOnCTly3etSKnZzhsqAPHOh6ya0i4,39912
+scripts/__init__.py,sha256=dHgATqUc65MgAUtoWfs_fIInzqb8_mMVGoKNoW0o4os,131
+scripts/example.py,sha256=EFBVZMLzdHtnMj3HmyW3jhxLiotdtEM24PGpvEfaHmU,3117
+scripts/genmodel.py,sha256=qc1jsaHNxrUokW8Bi3Aw8onFnpNneSQoXhg7EfoCt5s,9877
+scripts/model.py,sha256=mtmY_6wr1LRo1AA2JZPgMREgv0yeZKSdtNhMWxQjHKE,4724
+olca_ipc-0.0.12.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+olca_ipc-0.0.12.dist-info/METADATA,sha256=OrbAPNJhzNfkL_Yg7b4rh34iNjZSVsOPEO7-Gk0z8oE,9835
+olca_ipc-0.0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+olca_ipc-0.0.12.dist-info/top_level.txt,sha256=I4CessjT_ry_XY3tjsYm8b8fyhcrblNXDTzbs7I8dZk,13
+olca_ipc-0.0.12.dist-info/RECORD,,
