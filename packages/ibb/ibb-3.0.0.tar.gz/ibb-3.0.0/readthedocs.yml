@@ -1,0 +1,19 @@
+version: 2
+
+build:
+  os: ubuntu-20.04
+  tools:
+    python: miniconda3-4.7
+  jobs:
+    pre_install:
+      - jupyter --version
+      - npm install -g yarn
+      - yarn install --frozen-lockfile
+      - yarn build
+      - pip install -e '.[examples,docs]'
+
+conda:
+  environment: docs/environment.yml
+
+sphinx:
+  configuration: docs/source/conf.py
