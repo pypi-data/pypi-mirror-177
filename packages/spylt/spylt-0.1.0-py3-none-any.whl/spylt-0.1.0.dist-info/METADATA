@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: spylt
+Version: 0.1.0
+Summary: Back up matplotlib's figure data for easy reproduction
+Home-page: https://github.com/TLouf/spylt
+License: BSD
+Author: Thomas Louf
+Author-email: tlouf+pro@pm.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.0,<4.0)
+Project-URL: Repository, https://github.com/TLouf/spylt
+Description-Content-Type: text/markdown
+
+# spylt
+
+Simple utility to back up the data necessary to reproduce a matplotlib figure.
+
