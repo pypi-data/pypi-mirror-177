@@ -1,0 +1,6 @@
+tensorflow==2.4.1
+deepface>=0.0.75
+yolov5==6.1.5
+PyMuPDF>=1.20.1
+dlib>=19.20.0
+mediapipe>=0.8.7.3
