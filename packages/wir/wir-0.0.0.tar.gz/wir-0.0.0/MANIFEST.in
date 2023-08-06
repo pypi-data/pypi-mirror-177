@@ -1,0 +1,5 @@
+include *.rst *.txt *.cfg *.ini *.json *.yaml
+recursive-include wir *.ico *.png *.gif *.jpg
+recursive-include wir *.less *.css *.js *.html *.hbs *.pt *.mak *.mako
+recursive-include wir *.json *.yaml *.xml
+graft wir/res

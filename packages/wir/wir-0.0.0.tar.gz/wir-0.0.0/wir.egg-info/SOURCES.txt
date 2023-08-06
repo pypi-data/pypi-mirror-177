@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+VERSION.txt
+setup.cfg
+setup.py
+wir.egg-info/PKG-INFO
+wir.egg-info/SOURCES.txt
+wir.egg-info/dependency_links.txt
+wir.egg-info/entry_points.txt
+wir.egg-info/top_level.txt
+wir.egg-info/zip-safe

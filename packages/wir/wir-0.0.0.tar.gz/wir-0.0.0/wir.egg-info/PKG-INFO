@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: wir
+Version: 0.0.0
+Summary: Wir (Web Interaction Recorder) records and graphically compares web UX
+Home-page: http://github.com/metagriffin/wir
+Author: metagriffin
+Author-email: mg.pypi@metagriffin.net
+License: GPLv3+
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Monitoring
