@@ -1,0 +1,15 @@
+specifipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/parsers/diagram_generator.py,sha256=-8ks6_WqcWxVhnlVcRPbIlWBPzPOwJsVYl7n6cprPuM,3286
+specifipy/parsers/generic_parser.py,sha256=zbI76z5WGfUsOU9m22cM43jl_PEd6wgGiuwzGzyWrIc,3632
+specifipy/parsers/results.py,sha256=bu2_lq_Y9BsV7MVHUo-o6qfHrZxyfBjev9vhRVJ4ews,361
+specifipy/parsers/structure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+specifipy/parsers/structure/code_structure_definitions.py,sha256=QI0A4C567nTSXyCQmtLR4smFr_jgMi2uVitNZz9a9G4,1214
+specifipy/resources/icons/class_icon.png,sha256=LbqXxnhFC6aJyRMpjXRYeW_9o5ipfnLhxjKx_dww2dE,702
+specifipy/resources/icons/field_icon.png,sha256=eTLDej-uqLyu9DasMW19OyJz-ZN-1fHqw8xnADoGCOY,657
+specifipy/resources/icons/function_icon.png,sha256=VK5w1iZdlZzwXAqtWEon73guqsfMQ-zAdcOO7a8MZ60,1058
+specifipy/resources/icons/param_icon.png,sha256=Lyx2ObVq4eTvf1-jjPha25a3f2AjEdk5i9f9UpEkM7M,1177
+specifipy-0.1.4.dist-info/LICENSE,sha256=wR-qrdW3h1q83aEP6Ej3jblFIWNKuUFKomED1KGkspI,784
+specifipy-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+specifipy-0.1.4.dist-info/METADATA,sha256=zp1tHxjgVTDw2OBEQPHfDOSbOkM90RllqVOYVfatJLE,530
+specifipy-0.1.4.dist-info/RECORD,,
