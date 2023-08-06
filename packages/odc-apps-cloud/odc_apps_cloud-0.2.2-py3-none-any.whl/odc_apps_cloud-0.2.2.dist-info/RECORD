@@ -1,0 +1,15 @@
+odc/apps/cloud/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+odc/apps/cloud/_version.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+odc/apps/cloud/azure_to_tar.py,sha256=WqsAmADgSSLV7q2Zrji0IpbBAe81FF-dtv9ZImB4OkY,1581
+odc/apps/cloud/gs_to_tar.py,sha256=x7bdKnvieErGn7cY6n3Ro2daPhL8DyonSIE7d18DBe0,2217
+odc/apps/cloud/redrive_to_queue.py,sha256=IcyLLsTHw6WfNIew2z54Sf_6e4cNUsqZe2cMjbffB_Q,1379
+odc/apps/cloud/s3_find.py,sha256=gDzPbdgk77WleeyTkU1wtEMlx1CV3iMIGi7EYr-6qAA,1800
+odc/apps/cloud/s3_inventory.py,sha256=tEt5yhpVEm-JOllN6ZMI4grg2OOFQdmq4Qxaz9Hu-wE,2879
+odc/apps/cloud/s3_to_tar.py,sha256=FsyemjC_fx2WyQMFEiOtNg-MAmMIElB_5u2b0G4yHiw,3040
+odc/apps/cloud/thredds_to_tar.py,sha256=5uiWd9QdyfBJncsE-rsD5lSEJEq1Ilw1_LaGqHQ2PBc,1885
+odc_apps_cloud-0.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+odc_apps_cloud-0.2.2.dist-info/METADATA,sha256=5qmx3C3t6ItwWkwlaQQufYoPr6B_15XaMV6u5Sgxhk4,863
+odc_apps_cloud-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odc_apps_cloud-0.2.2.dist-info/entry_points.txt,sha256=bc_wZaz-096gVC4En5OodBe250SwZWBLgbsZmNFwpD8,363
+odc_apps_cloud-0.2.2.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+odc_apps_cloud-0.2.2.dist-info/RECORD,,
