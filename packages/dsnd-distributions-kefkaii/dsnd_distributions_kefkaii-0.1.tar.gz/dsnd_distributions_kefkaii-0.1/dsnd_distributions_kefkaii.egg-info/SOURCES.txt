@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dsnd_distributions_kefkaii/Binomialdistribution.py
+dsnd_distributions_kefkaii/Gaussiandistribution.py
+dsnd_distributions_kefkaii/Generaldistribution.py
+dsnd_distributions_kefkaii/__init__.py
+dsnd_distributions_kefkaii.egg-info/PKG-INFO
+dsnd_distributions_kefkaii.egg-info/SOURCES.txt
+dsnd_distributions_kefkaii.egg-info/dependency_links.txt
+dsnd_distributions_kefkaii.egg-info/not-zip-safe
+dsnd_distributions_kefkaii.egg-info/top_level.txt
