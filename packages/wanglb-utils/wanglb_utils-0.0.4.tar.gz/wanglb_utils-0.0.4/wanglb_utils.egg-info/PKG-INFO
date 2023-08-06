@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: wanglb-utils
+Version: 0.0.4
+Summary: 常用函数方法汇总
+Home-page: https://pypi.org/project/wanglb_utils/
+Author: wanglb
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Description: #### wanglb_utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
