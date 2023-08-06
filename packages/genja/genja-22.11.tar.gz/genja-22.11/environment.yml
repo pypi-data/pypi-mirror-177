@@ -1,0 +1,21 @@
+# Conda environment for developing the genja command line tool. See the
+# comments below for some useful commands for this environment.
+#
+# Create the environment:      conda env create --file environment.yml
+# Activate the environment:    conda activate genja
+# Deactivate the environment:  conda deactivate
+# Remove the environment:      conda env remove --name genja
+
+name: genja
+
+dependencies:
+  - python
+  - flake8
+  - markdown
+  - jinja2
+  - ipython
+  - pytest
+  - pip
+  - pip:
+    - ipdb
+    - -e .
