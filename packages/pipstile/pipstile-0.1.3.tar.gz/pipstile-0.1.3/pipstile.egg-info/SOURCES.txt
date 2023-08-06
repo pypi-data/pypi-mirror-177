@@ -1,0 +1,9 @@
+setup.py
+./pipstile/__init__.py
+./pipstile/utils.py
+pipstile/__init__.py
+pipstile/utils.py
+pipstile.egg-info/PKG-INFO
+pipstile.egg-info/SOURCES.txt
+pipstile.egg-info/dependency_links.txt
+pipstile.egg-info/top_level.txt
