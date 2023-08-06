@@ -1,0 +1,10 @@
+derek/__init__.py,sha256=4rJYCA_zl_t8vHibQHaHYuIu6252kBDc_vK3PpbfT-U,80
+derek/_derek.py,sha256=Mn7Pn_3RpwdnAnCnQlSdaAYHpjy4MduDatcyJkfZA-Q,5238
+derek/_parse/__init__.py,sha256=YIM4Q-jxZ-noRsKACI8Zwoh_RKcnZelzgtC2gqBMqwY,29
+derek/_parse/_oas2.py,sha256=b6YxsWcBktZKvbiRh8YgjdXMO1g5GAAvtxVwaCpqXis,17683
+derek/_parse/_Parser.py,sha256=iQB67nCByfAI23pH5S_1hcTGEFh3SIneOpX-0pMC3cI,753
+derek/_typing.py,sha256=JPhMv5gLN6GdAbTPY4PxRYGhCZUrUmrVLlva2znEGBE,630
+derek_py-0.0.2.dist-info/LICENSE,sha256=9F_q2q4vef8YsIvpDkvJKkTHS_xxYzP3u-_bAYNiXfI,1080
+derek_py-0.0.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+derek_py-0.0.2.dist-info/METADATA,sha256=dafHeWutimtYBujm7eFHb7Jz2HR5rbw8QpxqcV6URVw,9913
+derek_py-0.0.2.dist-info/RECORD,,
