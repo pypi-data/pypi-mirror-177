@@ -1,0 +1,9 @@
+type_infer/__init__.py,sha256=s0dfqi9uMSxFaDkBN7OuIPYiyko5ZTAo2ItA3hvn4JQ,206
+type_infer/base.py,sha256=TRfjfQlwfZVFxgSA47BfO35UZnuY63Ek3yao6B2QxWY,1213
+type_infer/dtype.py,sha256=hbfFTXzcsJFDXM_jKk3euM0ltMAg49O0l3ks7TJoLaI,2304
+type_infer/helpers.py,sha256=VTtlwwr5p2D_xTiWD4f6dO7bC-EGVS8AFnUsDXtTr-Q,7054
+type_infer/infer.py,sha256=1XiLDYlWANQjbc6C_f3s1TnCSOGHlciIPBaEiG3cOcQ,15549
+type_infer-0.0.9.dist-info/LICENSE,sha256=aonISlK3JJsw3pPhfE9pRA8oc7A7XJYAaHL4ylPkNxM,35104
+type_infer-0.0.9.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+type_infer-0.0.9.dist-info/METADATA,sha256=dpJmpb90a3fCHIWGiu_-dJo4KshLzTfRxrE7E8xqGEQ,2651
+type_infer-0.0.9.dist-info/RECORD,,
