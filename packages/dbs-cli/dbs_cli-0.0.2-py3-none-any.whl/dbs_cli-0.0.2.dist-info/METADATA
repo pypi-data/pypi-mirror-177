@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dbs-cli
+Version: 0.0.2
+Summary: This package provides a unified command line interface to DeepNatural Brain Services.
+Home-page: https://brains.deepnatural.ai
+Author: DeepNatural, Inc.
+Author-email: anson@deepnatural.ai
+Requires-Python: >= 3.8
+Requires-Dist: click
+Requires-Dist: PyInquirer
+Requires-Dist: pyfiglet
+Requires-Dist: colorama
+Requires-Dist: termcolor
+Requires-Dist: six
+Requires-Dist: pytz
+Requires-Dist: requests
+

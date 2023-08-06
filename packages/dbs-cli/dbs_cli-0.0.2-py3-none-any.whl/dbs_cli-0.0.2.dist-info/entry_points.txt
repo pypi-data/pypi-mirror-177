@@ -1,0 +1,2 @@
+[console_scripts]
+dbs = dbscli.main:cli
