@@ -1,0 +1,11 @@
+prefix=/opt/_internal/cpython-3.10.6
+includedir=${prefix}/include
+libdir=${prefix}/lib64
+
+Name: themachinethatgoesping_navigation
+Description: Functions for interpolating and transforming ship navigation data
+URL: https://github.com/themachinethatgoesping/navigation
+Version: 0.6.6
+Requires: themachinethatgoesping_tools
+Libs: -L${libdir} -lthemachinethatgoesping_navigation -fopenmp -lGeographicLib
+Cflags: -I${includedir} -I/usr/local/include -DBOOST_ALL_NO_LIB -fopenmp -D_USE_MATH_DEFINES -DXTENSOR_USE_XSIMD
