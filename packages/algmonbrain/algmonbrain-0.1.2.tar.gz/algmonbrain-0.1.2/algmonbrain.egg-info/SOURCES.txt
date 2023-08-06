@@ -1,0 +1,6 @@
+README.md
+setup.py
+algmonbrain.egg-info/PKG-INFO
+algmonbrain.egg-info/SOURCES.txt
+algmonbrain.egg-info/dependency_links.txt
+algmonbrain.egg-info/top_level.txt
