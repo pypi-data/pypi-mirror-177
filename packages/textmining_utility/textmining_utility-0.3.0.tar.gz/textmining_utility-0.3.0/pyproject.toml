@@ -1,0 +1,37 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "textmining_utility"
+authors = [{name = "Roxanne El Baff", email = "roxanneelbaff@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+
+dependencies = [
+    "pandas",
+    "spacy_arguing_lexicon",
+    "numpy",
+    "nltk",
+    "gensim>=3.8.1",
+    "spacy",
+    "wordcloud",
+    "matplotlib",
+    "empath",
+    "pyLDAvis",
+    "scikit_learn",
+    "torchvision",
+    "pyarrow",
+    "simpletransformers",
+    "tqdm"
+]
+
+[project.urls]
+Home = "https://github.com/roxanneelbaff/textmining_tool"
+
+[tool.poetry]
+# ...
+include = ["lexicon"]
