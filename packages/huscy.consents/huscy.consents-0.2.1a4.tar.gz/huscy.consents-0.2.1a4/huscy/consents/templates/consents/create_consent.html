@@ -1,0 +1,119 @@
+{% extends "consents/base.html" %}
+
+
+{% block title %} - create consent{% endblock %}
+
+
+{% block body %}
+<div class="ui container">
+    <h1>Create consent</h1>
+
+    <div class="ui grid">
+        <div class="eight wide column">
+            <div class="ui list">
+                <div class="item">
+                    <form class="ui form" id="CreateConsentForm" method="post">
+                        {% csrf_token %}
+                        <div class="two fields">
+                            <div class="field">
+                                <input type="text" name="name" placeholder="Consent name" required>
+                            </div>
+                            <input type="hidden" name="template_text" value="{{ template_text_as_json }}">
+                            <button class="ui primary button">
+                                Create
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                {% for text_fragment in template_text %}
+                <div class="item TextFragment">
+                    <div class="ui secondary segment">
+                        <div class="ui grid">
+                            <div class="thirteen wide column">
+                                <textarea rows="4" style="width: 100%">{{ text_fragment.element.text }}</textarea>
+                                <p>
+                                    {% if text_fragment.element_type == "Paragraph" %}
+                                    <input type="checkbox" {% if text_fragment.element.boldface %}checked{% endif %}>boldface</input>
+                                    {% elif text_fragment.element_type == "Checkbox" %}
+                                    <input type="checkbox" {% if text_fragment.element.required %}checked{% endif %}>required</input>
+                                    {% endif %}
+                                </p>
+                            </div>
+                            <div class="three wide column">
+                                <div class="ui vertical buttons">
+                                    {% if not forloop.first %}
+                                    <a class="ui danger button MoveUpButton" href="{% url 'create-consent' %}?category={{ selected_category.id }}&action=move_up&index={{ forloop.counter0 }}&template_text={{ template_text_quoted }}">up</a>
+                                    {% endif %}
+                                    <a class="ui danger button RemoveButton" href="{% url 'create-consent' %}?category={{ selected_category.id }}&action=remove&index={{ forloop.counter0 }}&template_text={{ template_text_quoted }}">rm</a>
+                                    {% if not forloop.last %}
+                                    <a class="ui danger button MoveDownButton" href="{% url 'create-consent' %}?category={{ selected_category.id }}&action=move_down&index={{ forloop.counter0 }}&template_text={{ template_text_quoted }}">down</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% empty %}
+                <div class="item">
+                    no text fragments in this list.
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="eight wide column">
+            <div class="ui fluid search selection dropdown" id="ConsentCategoryDropdown">
+                <input type="hidden" name="user" {% if selected_category %}value="default"{% endif %}>
+                <i class="dropdown icon"></i>
+                <div class="default text">Select category</div>
+                <div class="menu">
+                    {% for category in categories %}
+                    <div class="item ConsentCategory" data-value="{% if category.id == selected_category.id %}default{% else %}{{ category.id }}{% endif %}">
+                        {{ category.name }}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="ui list">
+                {% for text_fragment in template_text_fragments %}
+                {% if text_fragment.id not in selected_template_text_fragment_ids %}
+                <div class="item TemplateTextFragment">
+                    <div class="ui secondary segment">
+                        <div class="ui center inverted dimmer">
+                            <div class="content">
+                                <a class="ui primary button AddTemplateTextFragmentButton" href="{% url 'create-consent' %}?category={{ selected_category.id }}&action=add&id={{ text_fragment.id }}&template_text={{ template_text_quoted }}">add</a>
+                            </div>
+                        </div>
+                        <p>
+                            {% include text_fragment.element.template_name %}
+                        </p>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block extra_js %}
+$('.ui.dropdown')
+    .dropdown()
+;
+
+$('.ui.dropdown').dropdown({
+    'onChange': function (value, text, $choice) {
+        location.href = '{% url 'create-consent' %}?category=' + value;
+    }
+});
+
+$('.dimmer')
+  .dimmer({
+      transition: 'fade up',
+      on: 'hover'
+  })
+;
+{% endblock %}
