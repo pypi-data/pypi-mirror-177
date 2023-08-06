@@ -1,0 +1,26 @@
+[project]
+name = "libhermes"
+version = "1.0.0"
+authors = [
+  { name="Phil", email="philestats@gmail.com" },
+]
+description = "A lib including some basic utilities (mqtt publisher, mysql connector, configuration loader...) for Hermes iot platform"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  'attrs == 22.1.0',
+  'iniconfig == 1.1.1',
+  'paho-mqtt',
+  'PyYAML ~= 5.0',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://framagit.org/hermes-ng"

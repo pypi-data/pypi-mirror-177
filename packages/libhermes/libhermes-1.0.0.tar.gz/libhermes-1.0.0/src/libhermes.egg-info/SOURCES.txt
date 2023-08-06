@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+src/libhermes/__init__.py
+src/libhermes/configManager.py
+src/libhermes/dbOperations.py
+src/libhermes/mqttPublisher.py
+src/libhermes.egg-info/PKG-INFO
+src/libhermes.egg-info/SOURCES.txt
+src/libhermes.egg-info/dependency_links.txt
+src/libhermes.egg-info/requires.txt
+src/libhermes.egg-info/top_level.txt
