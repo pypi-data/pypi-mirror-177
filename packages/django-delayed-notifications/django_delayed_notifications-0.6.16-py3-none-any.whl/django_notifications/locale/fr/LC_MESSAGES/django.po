@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-07 12:14+0100\n"
+"PO-Revision-Date: 2022-11-07 12:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: django_notifications/admin/__init__.py:58
+msgid "Notification"
+msgstr "Notification"
+
+#: django_notifications/admin/__init__.py:70
+#: django_notifications/admin/__init__.py:149
+msgid "Related object"
+msgstr "Objet associé"
+
+#: django_notifications/admin/__init__.py:74
+#: django_notifications/admin/__init__.py:195
+#: django_notifications/models/__init__.py:202
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: django_notifications/admin/__init__.py:82
+msgid "Delayed"
+msgstr "Envoi différé"
+
+#: django_notifications/admin/__init__.py:113
+#: django_notifications/models/__init__.py:150
+msgid "Subject"
+msgstr "Sujet"
+
+#: django_notifications/admin/__init__.py:131
+msgid "Dates"
+msgstr "Dates"
+
+#: django_notifications/admin/__init__.py:177
+msgid "States"
+msgstr "États"
+
+#: django_notifications/admin/__init__.py:216
+msgid "Send notifications"
+msgstr "Envoyer les notifications"
+
+#: django_notifications/admin/__init__.py:233
+#, python-brace-format
+msgid "A notification has been sent for {notification}."
+msgstr "Une notification a été envoyé pour {notification}."
+
+#: django_notifications/admin/__init__.py:239
+#, python-brace-format
+msgid "No notification sent for {notification}."
+msgstr "Aucune notification n'a été envoyé pour {notification}."
+
+#: django_notifications/admin/__init__.py:304
+#: django_notifications/admin/filters.py:76
+msgid "Delayed notifications"
+msgstr "Notifications retardées"
+
+#: django_notifications/admin/__init__.py:308
+msgid "Debug"
+msgstr "Débogage"
+
+#: django_notifications/admin/filters.py:26
+msgid "Sent status"
+msgstr "Statut d'envoi du courriel"
+
+#: django_notifications/admin/filters.py:38
+msgid "Sent notifications"
+msgstr "Notifications envoyées"
+
+#: django_notifications/admin/filters.py:39
+msgid "Unsent notifications"
+msgstr "Notifications non-envoyées"
+
+#: django_notifications/admin/filters.py:62
+msgid "Delayed status"
+msgstr "Statut de retardement"
+
+#: django_notifications/admin/filters.py:77
+msgid "Immediate notifications"
+msgstr "Envoi immédiat"
+
+#: django_notifications/apps.py:17
+msgid "Notifications"
+msgstr "Notifications"
+
+#: django_notifications/models/__init__.py:100
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: django_notifications/models/__init__.py:101
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: django_notifications/models/__init__.py:106
+#, python-brace-format
+msgid "{attachment_file_name} for {notification}"
+msgstr "{attachment_file_name} pour {notification}"
+
+#: django_notifications/models/__init__.py:122
+msgid "Created by"
+msgstr "Ajouté par"
+
+#: django_notifications/models/__init__.py:129
+#: django_notifications/templates/django_notifications/admin/snippets/dates.html:4
+msgid "Created at"
+msgstr "Ajouté le"
+
+#: django_notifications/models/__init__.py:134
+msgid "Delayed sending at"
+msgstr "Envoi retardé le"
+
+#: django_notifications/models/__init__.py:144
+msgid "Sent at"
+msgstr "Envoyé le"
+
+#: django_notifications/models/__init__.py:155
+msgid "Text body"
+msgstr "Corps du message, en texte"
+
+#: django_notifications/models/__init__.py:160
+msgid "HTML body"
+msgstr "Corps du message, en HTML"
+
+#: django_notifications/models/__init__.py:188
+#: django_notifications/templates/django_notifications/admin/snippets/states.html:5
+msgid "State from"
+msgstr "État de départ"
+
+#: django_notifications/models/__init__.py:196
+#: django_notifications/templates/django_notifications/admin/snippets/states.html:11
+msgid "State to"
+msgstr "État d'arrivée"
+
+#: django_notifications/models/__init__.py:209
+msgid "Email recipients"
+msgstr "Adresses électroniques de destinataires"
+
+#: django_notifications/models/__init__.py:211
+msgid "One email per line"
+msgstr "Une adresse par ligne"
+
+#: django_notifications/models/__init__.py:216
+msgid "From email"
+msgstr "Expéditeur"
+
+#: django_notifications/models/__init__.py:217
+msgid "Email address to use as sender"
+msgstr "Adresse électronique à utiliser comme expéditeur"
+
+#: django_notifications/models/config.py:24
+msgid "Delay notifications"
+msgstr "Retarder les notifications"
+
+#: django_notifications/models/config.py:26
+msgid "Delay the notifications, using a cron job."
+msgstr "Retarder les notifications en utilisant une tâche cron ."
+
+#: django_notifications/models/config.py:31
+msgid "Delay"
+msgstr "Délais"
+
+#: django_notifications/models/config.py:33
+msgid "Delay in seconds."
+msgstr "Délais en secondes."
+
+#: django_notifications/models/config.py:38
+msgid "Blocking notifications field"
+msgstr "Nom du champs bloquant les notifications"
+
+#: django_notifications/models/config.py:41
+msgid "Field to check if the user wants to receive notifications."
+msgstr ""
+"Champs à vérifier sur le profil utilisateur pour valider si l'utilisateur "
+"souhaite recevoir les notifications."
+
+#: django_notifications/models/config.py:46
+msgid "Blocking messages field"
+msgstr "Nom du champs bloquant les messages"
+
+#: django_notifications/models/config.py:49
+msgid "Field to check if the user wants to receive messages."
+msgstr ""
+"Champs à vérifier sur le profil utilisateur pour valider si l'utilisateur "
+"souhaite recevoir les messages."
+
+#: django_notifications/models/config.py:53
+msgid "Enable debug notifications"
+msgstr "Activer les débogage des notifications"
+
+#: django_notifications/models/config.py:56
+msgid "If enabled, notification copies will be sent to the provided email."
+msgstr ""
+"Si activé, une copie des notifications sera envoyé à l'adresse électronique "
+"fournie."
+
+#: django_notifications/models/config.py:61
+msgid "Debug notifications email"
+msgstr "Adresse électronique de débogage des notifications"
+
+#: django_notifications/models/config.py:64
+msgid "Email to send the notification copies to."
+msgstr "Adresse électronique d'envoi des copies des notifications."
+
+#: django_notifications/models/config.py:70
+#: django_notifications/models/config.py:75
+msgid "Notification configuration"
+msgstr "Configuration des notifications"
+
+#: django_notifications/models/config.py:71
+msgid "Notification configurations"
+msgstr "Configurations des notifications"
+
+#: django_notifications/templates/django_notifications/admin/snippets/dates.html:9
+msgid "Delayed seding"
+msgstr "Envoi retardé"
+
+#: django_notifications/templates/django_notifications/admin/snippets/recipients.html:5
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: django_notifications/templates/django_notifications/admin/snippets/recipients.html:15
+msgid "Emails"
+msgstr "Adresses électroniques"
+
+#: django_notifications/templates/django_notifications/admin/snippets/subject.html:5
+msgid "Sent"
+msgstr "Envoyé"
+
+#: django_notifications/templates/django_notifications/admin/snippets/subject.html:11
+msgid "Not sent"
+msgstr "Non envoyé"
+
+#~ msgid "Created"
+#~ msgstr "Ajouté le"
