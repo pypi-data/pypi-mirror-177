@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pack-cfacilito
+Version: 0.0.1
+Summary: Consume API de codigofacilito.com
+Home-page: https://github.com/fabenitez-dev/codigofacilito_package
+Author: Francisco Alejandro Benitez
+Author-email: fabenitez.dev@hotmail.com
+License: MIT
+Keywords: codigofacilito
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+### FrankSys powered by CodigoFacilito (MARKDOWN)
+
+Este paquete nos permite consumir el API de la plataforma codigofacilito.com
