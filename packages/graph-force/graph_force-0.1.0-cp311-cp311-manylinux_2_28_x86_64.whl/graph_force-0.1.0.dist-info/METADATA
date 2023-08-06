@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: graph_force
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Graph Force
+
+A python/rust library for embedding graphs in 2D space, using force-directed layouts.
+
+## Development
+
+### Setup
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Build
+```
+maturin develop
+```
+
+## Usage
+```python
+import graph_force
+
+edges = [(0, 1), (1, 2), (2, 3), (3, 0)]
+pos = graph_force.layout_from_edge_list(4, edges)
+```
