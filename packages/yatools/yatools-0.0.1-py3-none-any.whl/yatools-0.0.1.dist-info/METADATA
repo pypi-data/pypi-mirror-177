@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yatools
+Version: 0.0.1
+Summary: Tools for YaDraw and more
+Project-URL: Homepage, https://github.com/EmixD/yatools
+Project-URL: Bug Tracker, https://github.com/EmixD/yatools/issues
+Author-email: "Ivan I. Yakovkin" <yakovkinii@gmail.com>
+License-File: LICENCE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: coloredlogs
+Description-Content-Type: text/markdown
+
+# YaTools
+
+YaTools is a set of miscellaneous tools used in YaDraw project.
+[Github repo](https://github.com/EmixD/yatools).
