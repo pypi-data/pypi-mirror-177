@@ -1,0 +1,10 @@
+README.md
+setup.py
+dtBotSDK/__init__.py
+dtBotSDK/dingTalkBotSDK.py
+dtBotSDK.egg-info/PKG-INFO
+dtBotSDK.egg-info/SOURCES.txt
+dtBotSDK.egg-info/dependency_links.txt
+dtBotSDK.egg-info/not-zip-safe
+dtBotSDK.egg-info/requires.txt
+dtBotSDK.egg-info/top_level.txt

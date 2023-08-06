@@ -1,0 +1,4 @@
+import dingTalkBotSDK
+
+name = "dingTalkBotSDK"
+
