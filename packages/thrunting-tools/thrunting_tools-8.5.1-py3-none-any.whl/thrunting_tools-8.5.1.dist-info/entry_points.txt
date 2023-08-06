@@ -1,0 +1,4 @@
+[console_scripts]
+eql-query=elastic.thrunting_tools.eql_query:app
+lucene-query=elastic.thrunting_tools.lucene_query:app
+
