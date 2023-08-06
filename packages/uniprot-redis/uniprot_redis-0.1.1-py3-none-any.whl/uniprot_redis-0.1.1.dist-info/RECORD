@@ -1,0 +1,8 @@
+uniprot_redis/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+uniprot_redis/__main__.py,sha256=V3GYaYtW5B-sKekL5xG1aRuoHY9-NcOBVV4HrCda9LM,984
+uniprot_redis/server.py,sha256=PF4kvKrRzX3s5qW0J1YRWD0dOoPvM76S7Og8jFous4c,1132
+uniprot_redis/store/__init__.py,sha256=5NsSWFLX9PRID_TGUjBqEOCP1Eau-FjJBN_u0QA32Kk,5202
+uniprot_redis/store/schemas.py,sha256=aER_F3yag1FN_oG0u0epwo6KmcsU0HKn9PLLGHwK7Pw,1609
+uniprot_redis-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+uniprot_redis-0.1.1.dist-info/METADATA,sha256=pBiy1bqbYrB7AnWF8rDzJOXJ1fgdRg1csGqRaus7kwA,569
+uniprot_redis-0.1.1.dist-info/RECORD,,
