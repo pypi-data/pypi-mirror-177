@@ -1,0 +1,2 @@
+[tox]
+pipenv = tox_pin_deps.plugin
