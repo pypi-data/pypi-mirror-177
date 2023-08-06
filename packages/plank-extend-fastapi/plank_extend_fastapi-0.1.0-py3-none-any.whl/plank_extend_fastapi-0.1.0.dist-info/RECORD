@@ -1,0 +1,13 @@
+plank/decorator/fastapi.py,sha256=lwKPQ2ZvJsEt_9oRDYtpSg0mEapPSRoOZRQ6ilFcZTc,964
+plank/descriptor/fastapi.py,sha256=PJS6TsQzx66TT1EjCGcsT88WjM2CMAf7-SjSOINHDSA,4326
+plank/server/fastapi/__init__.py,sha256=zMCB28ulqq_FMwV8xLRRDre_DGd5mTr-w_G_Iry9MVE,3979
+plank/server/fastapi/action.py,sha256=Qdy9ypgTFGZDrZM_PVxShu4F5jEnm4z9e976EBkCbgg,6826
+plank/server/fastapi/interface.py,sha256=szOZgA_AswL6e7zKXy1MADuL62HVkgiG2akKuXVd7p4,1611
+plank/support/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plank/support/fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plank/support/fastapi/builtin.py,sha256=RgitaocTBB9_nFGrOFUFt20QLzuwhdMckTZ21ytX-lA,816
+plank/support/fastapi/settings.py,sha256=LlOP3PyNIaaqDDcavE79fi8QhtLYSTDiwHsr8_8V0ro,601
+plank/support/fastapi/swagger.py,sha256=prhr3rwqhEF71hAyNllMGhIgWkxPVcm1Q-STwIQd1qo,2488
+plank_extend_fastapi-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+plank_extend_fastapi-0.1.0.dist-info/METADATA,sha256=OJd1A_13vDChmGCZKTEAJskYDQp8HRJ62ZEi8pyBFdU,565
+plank_extend_fastapi-0.1.0.dist-info/RECORD,,
