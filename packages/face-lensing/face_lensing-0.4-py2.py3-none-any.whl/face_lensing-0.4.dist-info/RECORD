@@ -1,0 +1,11 @@
+face_lensing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_lensing/__main__.py,sha256=i5s2Gqyq-m-SEncr709_uD0SsMm1CjKAHxWYeftx-r0,7246
+face_lensing/camera.py,sha256=Mg5zYyjLRjHhr-qhOVlc4yGpiOtjAMtI0rPEWSDUKpw,1812
+face_lensing/dpl_xy_z1_elliptical.npz,sha256=Yrrywlx_AeMrM5RLAXwMt-JK-Q8I5oVFyI9w7HSnEjs,10122670
+face_lensing/morphing.py,sha256=6A3G6m3g9WXDTC12YvlQw72qMtsuJzfo7SjvcFe7zu0,2049
+face_lensing-0.4.dist-info/LICENSE,sha256=Hd6QnluIW4C4lPll7U809PZmtF8Y7ZZ5W0i_NZEAW00,1077
+face_lensing-0.4.dist-info/METADATA,sha256=AjwgAOj80wFSt2Jn9N_vV-c7RtjMvTgmM3eYNv7cx98,3287
+face_lensing-0.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+face_lensing-0.4.dist-info/entry_points.txt,sha256=dS_h2F30CvSP2b4rythVGn08sh7wy3fd4grhl7JLor0,65
+face_lensing-0.4.dist-info/top_level.txt,sha256=kHdF0mPF5z52TDqU9rt3jFk5tc0iNhfpuhtEyTdZPeg,13
+face_lensing-0.4.dist-info/RECORD,,
