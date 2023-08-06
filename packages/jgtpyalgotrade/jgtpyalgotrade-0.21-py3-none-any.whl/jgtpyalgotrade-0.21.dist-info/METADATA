@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jgtpyalgotrade
+Version: 0.21
+Summary: JGT Python Algorithmic Trading.  Based on work from : Gabriel Martin Becedillas Ruiz
+Home-page: http://github.com/jgwill/jgtpyalgotrade/
+Download-URL: https://github.com/jgwill/jgtpyalgotrade/archive/refs/tags/dummy.zip
+Author: Jean-Guillaume Isabelle
+Author-email: jgtpyalgotrade@guillaumeisabelle.com
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: retrying
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: tornado
+Requires-Dist: tweepy
+Requires-Dist: ws4py (>=0.3.4)
+Provides-Extra: talib
+Requires-Dist: Cython ; extra == 'talib'
+Requires-Dist: TA-Lib ; extra == 'talib'
+
+Python library for backtesting stock trading strategies.
