@@ -1,0 +1,9 @@
+README.md
+setup.py
+bebopjoepdf/__init__.py
+bebopjoepdf/pdf2image.py
+bebopjoepdf/pdf2text.py
+bebopjoepdf.egg-info/PKG-INFO
+bebopjoepdf.egg-info/SOURCES.txt
+bebopjoepdf.egg-info/dependency_links.txt
+bebopjoepdf.egg-info/top_level.txt
