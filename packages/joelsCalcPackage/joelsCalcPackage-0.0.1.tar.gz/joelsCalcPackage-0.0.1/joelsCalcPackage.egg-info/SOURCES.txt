@@ -1,0 +1,15 @@
+setup.py
+joelsCalcPackage/__init__.py
+joelsCalcPackage/add.py
+joelsCalcPackage/subtract.py
+joelsCalcPackage.egg-info/PKG-INFO
+joelsCalcPackage.egg-info/SOURCES.txt
+joelsCalcPackage.egg-info/dependency_links.txt
+joelsCalcPackage.egg-info/top_level.txt
+joelsCalcPackage/extras/__init__.py
+joelsCalcPackage/extras/divide.py
+joelsCalcPackage/extras/multiply.py
+matiCalpackage.egg-info/PKG-INFO
+matiCalpackage.egg-info/SOURCES.txt
+matiCalpackage.egg-info/dependency_links.txt
+matiCalpackage.egg-info/top_level.txt
