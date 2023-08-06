@@ -1,0 +1,13 @@
+README.md
+setup.py
+my_pip_package/__init__.py
+my_pip_package/math.py
+requestsping.egg-info/PKG-INFO
+requestsping.egg-info/SOURCES.txt
+requestsping.egg-info/dependency_links.txt
+requestsping.egg-info/entry_points.txt
+requestsping.egg-info/requires.txt
+requestsping.egg-info/top_level.txt
+tests/__init__.py
+tests/test_init.py
+tests/test_math.py
