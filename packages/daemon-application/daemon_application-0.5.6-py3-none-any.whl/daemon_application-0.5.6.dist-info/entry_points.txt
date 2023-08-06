@@ -1,0 +1,3 @@
+[console_scripts]
+srpcd = daemon_application.app:simple_rpcd_controller
+
