@@ -1,0 +1,2 @@
+[console_scripts]
+rcclab_gui = rcclab_gui.rcclab_gui:main
