@@ -1,0 +1,9 @@
+jacobi.cpython-37m-x86_64-linux-gnu.so,sha256=eSavmtbxT1IQvolS_EFYQPKgDmE7QPy8RniR3eaI4Qk,2503968
+libjacobi-base.a,sha256=etdAMt3skv_KyVR7yLuacsmbFJLd7hTWcCI5wvk87oU,2364920
+jacobi_motion.libs/libcrypto-d9af65bd.so.1.1.1k,sha256=B0tngMpnY6xJpSJwUBnfDyH88qLr38SDICsZXiaronc,3207744
+jacobi_motion.libs/libssl-9ad06800.so.1.1.1k,sha256=L0iWYhQIpj2lYPjC_Xg9gMPJDdFMeSYEPpHQZv1Z2kU,662768
+jacobi_motion.libs/libgomp-ef582021.so.1.0.0,sha256=eeaXOhsEQgO2W4GrZY0hvAMZ8PUCLTtJFGr-nCRuwRU,253288
+jacobi_motion-0.0.5.dist-info/top_level.txt,sha256=M5pPS4pWcqL_SdpABSUT59gsaIO3KAeA96Zp4BhvTSE,15
+jacobi_motion-0.0.5.dist-info/WHEEL,sha256=pgs4UwwFn2-1Gpw2J1Ebm85LO6_ixTHTYPzQCfSRL3I,113
+jacobi_motion-0.0.5.dist-info/RECORD,,
+jacobi_motion-0.0.5.dist-info/METADATA,sha256=ygAStd_TqE_6ASgT47jkmdhQ6Tz51MZ2Pqv5lmLG-XI,575
