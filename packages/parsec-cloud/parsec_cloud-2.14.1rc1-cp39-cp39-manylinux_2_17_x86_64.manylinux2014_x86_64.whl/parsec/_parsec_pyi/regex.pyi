@@ -1,0 +1,9 @@
+from __future__ import annotations
+
+class Regex:
+    @classmethod
+    def from_pattern(cls, pattern: str) -> Regex: ...
+    @classmethod
+    def from_regex_str(cls, regex_str: str) -> Regex: ...
+    @property
+    def pattern(self) -> str: ...
