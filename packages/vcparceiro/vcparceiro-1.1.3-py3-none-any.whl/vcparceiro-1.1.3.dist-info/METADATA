@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vcparceiro
+Version: 1.1.3
+Summary: VCParceiro Backend Flask REST service
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: AUTHORS
+Requires-Dist: viggocore (<2.0.0,>=1.0.0)
+Requires-Dist: vclocal (>=1.0.0)
+Requires-Dist: flask-cors
+
+UNKNOWN
+

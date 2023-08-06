@@ -1,0 +1,13 @@
+vcparceiro/__init__.py,sha256=EDZt5s0rLiWbvrv9Q3Q6vLhu9NHZ_AFM6Jmz3veVt6c,1711
+vcparceiro/resources.py,sha256=lqYWS9OzHxKfs3NvyLiHyaPtqNpFcn9yy9e0_kivCUg,165
+vcparceiro/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcparceiro/subsystem/parceiro/__init__.py,sha256=p1vC7ie6nmOo-ijLGkp9MAzAScYJvREKLRpidfw0AdI,151
+vcparceiro/subsystem/parceiro/resource.py,sha256=tW5td2r0WUsHtX7wDcZyXLnImqjDXy8lOmSCW9D_IEU,3829
+vcparceiro/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcparceiro/tests/functional/__init__.py,sha256=zoRDYMPYa-11-VkM5OVOIR3im_sywFGPKbMJlUyFHJg,337
+vcparceiro/tests/functional/fixtures.py,sha256=MUhfdPrzzF-vnKLDxBDLlz7lVi-zpQKkpQwAD2V8jxA,3376
+vcparceiro-1.1.3.dist-info/AUTHORS,sha256=eA0sItoxH1fco3B6_AM96bzJBsjPXxbz-m6sQBZ49Uc,53
+vcparceiro-1.1.3.dist-info/METADATA,sha256=bvEzq4-7ZTPM29RuGrTJOrAEHnmgat24kk5R0o3Tdvc,288
+vcparceiro-1.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vcparceiro-1.1.3.dist-info/top_level.txt,sha256=IW2sdDd6FrphO9CM1PmDuuI3JxvpA4D5Q_FI1e-ITxE,11
+vcparceiro-1.1.3.dist-info/RECORD,,
