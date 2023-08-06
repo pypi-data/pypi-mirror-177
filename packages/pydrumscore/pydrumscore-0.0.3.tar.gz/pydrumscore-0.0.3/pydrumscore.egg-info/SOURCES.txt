@@ -1,0 +1,89 @@
+.gitignore
+.pylintrc
+LICENSE.md
+README.md
+config.ini
+mypy.ini
+pyproject.toml
+.github/workflows/main.yml
+docs/.nojekyll
+docs/Makefile
+docs/conf.py
+docs/contentheader.rst
+docs/contributing.rst
+docs/hybridtoc.rst
+docs/index.html
+docs/index.rst
+docs/license.rst
+docs/make.bat
+docs/musescore.rst
+docs/philosophy.rst
+docs/requirements.txt
+docs/_static/custom.css
+docs/_static/python-logo-only.png
+docs/_templates/hybridtoc.html
+docs/images/plugin_manager_tab.png
+docs/images/plugin_manager_window.png
+docs/images/plugin_path.png
+docs/images/preferences_tab.png
+pydrumscore/__init__.py
+pydrumscore/__main__.py
+pydrumscore/__version__.py
+pydrumscore/requirements.txt
+pydrumscore.egg-info/PKG-INFO
+pydrumscore.egg-info/SOURCES.txt
+pydrumscore.egg-info/dependency_links.txt
+pydrumscore.egg-info/entry_points.txt
+pydrumscore.egg-info/requires.txt
+pydrumscore.egg-info/top_level.txt
+pydrumscore/core/__init__.py
+pydrumscore/core/beats.py
+pydrumscore/core/export.py
+pydrumscore/core/song.py
+pydrumscore/msplugins/RefreshScorePlugin.qml
+pydrumscore/refxml/PartXML.xml
+pydrumscore/test/__init__.py
+pydrumscore/test/test_base.py
+pydrumscore/test/test_beats.py
+pydrumscore/test/test_cli.py
+pydrumscore/test/test_full_songs.py
+pydrumscore/test/test_permutations_songs.py
+pydrumscore/test/test_time_signatures.py
+pydrumscore/test/test_utilities.py
+pydrumscore/test/data/Bass drum permutations.mscx
+pydrumscore/test/data/Flam_1b.mscx
+pydrumscore/test/data/Hi-hat open permutations.mscx
+pydrumscore/test/data/Highway to Hell.mscx
+pydrumscore/test/data/King Nothing.mscx
+pydrumscore/test/data/MoneyBeat_1b.mscx
+pydrumscore/test/data/MoneyBeat_Accents_1b.mscx
+pydrumscore/test/data/RockBeatWOpen_1b.mscx
+pydrumscore/test/data/RockBeat_1b.mscx
+pydrumscore/test/data/Rémy's Wonderful Song.mscx
+pydrumscore/test/data/Sextuplets.mscx
+pydrumscore/test/data/ShuffleBeat_1b.mscx
+pydrumscore/test/data/Silence_1b.mscx
+pydrumscore/test/data/Test tempo change.mscx
+pydrumscore/test/data/Text on first measure.mscx
+pydrumscore/test/data/Time Signature Simple Change.mscx
+pydrumscore/test/data/Uptown Funk (feat. Bruno Mars).mscx
+pydrumscore/test/songs/__init__.py
+pydrumscore/test/songs/bass_drum_permutations.py
+pydrumscore/test/songs/bass_drum_permutations_random.py
+pydrumscore/test/songs/flam_1b.py
+pydrumscore/test/songs/hihat_open_permutations.py
+pydrumscore/test/songs/sextuplets.py
+pydrumscore/test/songs/song_accented_metadata.py
+pydrumscore/test/songs/song_highway_to_hell.py
+pydrumscore/test/songs/song_king_nothing.py
+pydrumscore/test/songs/song_money_beat.py
+pydrumscore/test/songs/song_money_beat_accents.py
+pydrumscore/test/songs/song_rock_beat.py
+pydrumscore/test/songs/song_rock_beat_wopen.py
+pydrumscore/test/songs/song_shuffle_beat.py
+pydrumscore/test/songs/song_silence.py
+pydrumscore/test/songs/song_template
+pydrumscore/test/songs/song_tempo_change.py
+pydrumscore/test/songs/song_text.py
+pydrumscore/test/songs/song_uptown_funk.py
+pydrumscore/test/songs/time_sig_simple_change.py
