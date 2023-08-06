@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-wob-daemon"
+version = "0.1.0"
+description = ""
+authors = ["Manuel Brea <m.brea.carreras@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_wob_daemon"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
