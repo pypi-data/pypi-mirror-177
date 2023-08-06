@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: conditor
+Version: 0.0.1
+Summary: Project management utility.
+Author-email: Sophia Roger Hürzeler <srh@srhuerzeler.net>
+Project-URL: GitLab repository, https://gitlab.com/srhuerzeler/conditor
+Project-URL: PyPI package, https://pypi.org/project/conditor
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+.. _/main:
+
+********
+Conditor
+********
+
+Conditor provides an API and console tools to manage (develop, configure, build and deploy) Projects.
+
+.. ............................................................................
+.. _/main/use_cases:
+
+Use Cases
+=========
+
+Copy file tree while formating specified file's content.
+
+Build packages for different targets with scriptable build recipes.
+
+Manage project development with actions.
+
+.. ............................................................................
+.. _/main/installing:
+
+Installing
+==========
+
+Install with PyPI.
+
+.. code-block:: console
+
+   pip3 install conditor
+
+.. ............................................................................
+.. _/main/links:
+
+Links
+=====
+
+`GitLab repository <https://gitlab.com/srhuerzeler/conditor>`_
+
+`PyPI package <https://pypi.org/project/conditor>`_
+
