@@ -1,0 +1,10 @@
+DesignSpark/__init__.py,sha256=pQvQqZkHpZGLsAzKeEBT4qrkTTttAFy6XlVSJl4Nstw,182
+DesignSpark/Cloud/Metrics.py,sha256=-3BD_WnQY45b95SZ1X5eV7prs6NfngBfnasYGE-eUC4,5657
+DesignSpark/Cloud/__init__.py,sha256=YPS6ZKXamtB7BIR-6Vlhkna-d2M7cizRIZ67XHD46Ww,196
+DesignSpark/Cloud/prometheus_pb2.py,sha256=Yhlnng_tRtM-ErbUOifwIDDsjPHTB1Bgk-JhDIuKf18,20127
+DesignSpark/Cloud/validator.py,sha256=elyCw2CBkBTC2cAKQw5NetY0L1N4scqf1U_Q2bGWjmY,3187
+DesignSpark.Cloud-22.11.0.dist-info/LICENSE,sha256=fDLgR9oXME14TnXRfYoG8-2IMLaROzfuOIm34rkpHmw,1091
+DesignSpark.Cloud-22.11.0.dist-info/METADATA,sha256=b09gwxcU-lfaRRkXNe9TWVPkkzJQmt3Z-F8Fh_981Fg,2128
+DesignSpark.Cloud-22.11.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DesignSpark.Cloud-22.11.0.dist-info/top_level.txt,sha256=3EdTiKB3LlJ0GqPSPjSWhlVhGclG8dUzgPVKlXSkPEY,12
+DesignSpark.Cloud-22.11.0.dist-info/RECORD,,
