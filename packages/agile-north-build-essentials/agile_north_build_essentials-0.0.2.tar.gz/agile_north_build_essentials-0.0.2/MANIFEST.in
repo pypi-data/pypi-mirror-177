@@ -1,0 +1,3 @@
+git recursive-include build *.py
+recursive-include src *.py
+recursive-include tests *.py
