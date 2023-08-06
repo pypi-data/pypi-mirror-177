@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: html-index-maker
+Version: 0.1.2
+Summary: Scrape local HTML files and generate an index.
+Home-page: https://github.com/AlbertoV5/html-index-maker
+License: MIT
+Author: AlbertoV5
+Author-email: 58243333+AlbertoV5@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.11.1,<5.0.0)
+Requires-Dist: orgparse (>=0.3.1,<0.4.0)
+Requires-Dist: selenium (>=4.6.0,<5.0.0)
+Requires-Dist: webdriver-manager (>=3.8.5,<4.0.0)
+Project-URL: Repository, https://github.com/AlbertoV5/html-index-maker
+Description-Content-Type: text/markdown
+
+# HTML Index Maker
+
+Scrape local HTML files and generate an index.
+
+## Usage
+
+```shell
+python -m html-index-maker -i ./resources -f .html -o ./data.json
+```
+
+This will call the module on the resources directory, look for html files and store the result in a given json file.
+
+## Supported Reading Formats
+
+- HTML
+- ORG
+
+## Supported Writing Formats
+
+- JSON
+- JS
+- ORG
+- MARKDOWN
+
+## Changelog
+
+- 0.1.2 Fixed .org missing linebreak
+- 0.1.1 Added support for org, js, md, fixes.
+- 0.1.0 Initial Version
