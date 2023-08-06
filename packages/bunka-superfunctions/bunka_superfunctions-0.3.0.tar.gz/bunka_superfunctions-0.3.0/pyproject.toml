@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "bunka_superfunctions"
+version = "0.3.0"
+description = "some functions often used to do diverse Data Science Projects"
+authors = ["Charles De Dampierre <charles.de-dampierre@hec.edu>"]
+readme = "README.md"
+packages = [{include = "bunka_superfunctions"}]
+
+[tool.poetry.dependencies]
+# pip install gensim
+python = "^3.8"
+networkx = "^2.8.8"
+pandas = "^1.5.1"
+community = "^1.0.0b1"
+python-louvain = "^0.16"
+scikit-learn = "^1.1.3"
+node2vec = "^0.4.6"
+plotly = "^5.11.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
