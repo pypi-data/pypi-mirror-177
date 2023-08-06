@@ -1,0 +1,11 @@
+pylint
+black
+black[jupyter]
+pytest
+pytest-xdist
+flake8
+aiohttp
+control
+simpleeval
+pytest-depends
+pytest-xdist

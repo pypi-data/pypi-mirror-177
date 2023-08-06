@@ -1,0 +1,10 @@
+absl-py
+aiohttp
+control
+numpy
+pandas
+pytest
+pytest-depends
+pytest-xdist
+requests
+simpleeval
