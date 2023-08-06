@@ -1,0 +1,7 @@
+setup.py
+lexic/__init__.py
+lexic/lexic.py
+lexic.egg-info/PKG-INFO
+lexic.egg-info/SOURCES.txt
+lexic.egg-info/dependency_links.txt
+lexic.egg-info/top_level.txt
