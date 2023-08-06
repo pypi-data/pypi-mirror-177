@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+FlowIncomePredict.egg-info/PKG-INFO
+FlowIncomePredict.egg-info/SOURCES.txt
+FlowIncomePredict.egg-info/dependency_links.txt
+FlowIncomePredict.egg-info/requires.txt
+FlowIncomePredict.egg-info/top_level.txt
+dist/FlowIncomePredict-0.0.1-py3-none-any.whl
+dist/FlowIncomePredict-0.0.1.tar.gz
+income_predict/FlowIncomePredict.py
+income_predict/__init__.py

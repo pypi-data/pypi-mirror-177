@@ -1,0 +1,4 @@
+pandas>=1.2.4
+numpy>=1.21.6
+frechetdist>=0.6
+scikit_learn>=0.23.2
