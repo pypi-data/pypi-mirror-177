@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: datahub-metadata-sdk
+Version: 0.0.1
+Summary: Datahub metastore concept Simplified.
+Author: DP Technology
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Datahub Metastore SDK
+
+Datahub metastore concept Simplified.
