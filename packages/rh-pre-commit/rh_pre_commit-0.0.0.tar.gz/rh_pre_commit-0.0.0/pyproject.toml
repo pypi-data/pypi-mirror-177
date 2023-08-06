@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rh-pre-commit"
+version = "0.0.0"
+description = "Reserving the package name"
+authors = []
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/leaktk/pre-commit-hooks"
+"Bug Tracker" = "https://github.com/leaktk/pre-commit-hooks/issues"

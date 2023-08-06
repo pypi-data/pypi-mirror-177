@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rh-pre-commit
+Version: 0.0.0
+Summary: Reserving the package name
+Project-URL: Homepage, https://github.com/leaktk/pre-commit-hooks
+Project-URL: Bug Tracker, https://github.com/leaktk/pre-commit-hooks/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# rh-pre-commit
+
+This project is meant to reserve the package name.
