@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: boomboommm
+Version: 0.0.1
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: importlib-metadata ; python_version == "3.8"
+
