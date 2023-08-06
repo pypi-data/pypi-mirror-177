@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: imsis
+Version: 1.1
+Summary: image analysis in Python
+Home-page: https://github.com/rengezri
+Author: rengezri
+Author-email: rengezri@gmail.com
+License: MIT
+Download-URL: https://github.com/rengezri/imsis/archive/refs/tags/v1.0.0.tar.gz
+Keywords: image analysis,dialogs,batch processing
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: markdown
+
+UNKNOWN
+
+
