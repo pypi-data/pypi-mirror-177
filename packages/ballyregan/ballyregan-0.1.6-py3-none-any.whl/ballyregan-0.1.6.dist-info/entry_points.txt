@@ -1,0 +1,3 @@
+[console_scripts]
+ballyregan=src.cli.app:run
+
