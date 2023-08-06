@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: birman
+Version: 0.0.1
+Summary: Multipart formdata decoder
+Home-page: https://github.com/joegasewicz/birman
+Author: Joe Gasewicz
+Author-email: joegasewicz@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Birman
+Multipart formdata decoder
+
+### Install
+
+
+### Get started
+
+Decode multipart form data
+```python
+from birman import Decoder
+# multipart_data = b'---- ...etc'
+
+decoder = Decoder(multipart_data)
+result = decoder.decode()
+```
+This would return a normalized dict
+```python
+# example from params - ?email=test@test.com&password=wizard
+# result -
+# {
+#     "email": {
+#         "name": "email",
+#         "value": "test@test.com",
+#     },
+#     "password": {
+#         "name": "password",
+#         "value": "wizard",
+#     },
+# }
+```
+
+Parse URI form params
+```python
+from birman import Encoder
+
+arg = "?email=test@test.com&password=wizard"
+result = Encoder.parse_params(arg)
+```
+This would return a normalized dict
+```python
+# result -
+#  {
+#     "email": {
+#         "name": "email",
+#         "value": "test@test.com",
+#     },
+#     "password": {
+#         "name": "password",
+#         "value": "wizard",
+#     },
+# }
+```
