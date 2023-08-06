@@ -1,0 +1,14 @@
+highspy/highs.py,sha256=f0CLGT7bkduMIh-XHESAFsrckaOI8DDNOBczOr-Wtj8,861
+highspy/highs_bindings.cp39-win_amd64.pyd,sha256=BFVLN86UDEpKXS64-itLOOkyDuulJVCMYIRS8kyi4vo,398848
+highspy/highs_bindings.cpp,sha256=9IbGfIyII4k5oXYThWXtgEbaL5kW3pNQqEWzZOFmIF4,32282
+highspy/__init__.py,sha256=PITTGEvSRn9t9NBSSJDGX4nLNZicSi5Uof5uKtOo1XM,1658
+highspy/tests/test_highspy.py,sha256=pZgvU6Rb6gYKU0uMxrG1519QgNQeKvgnTaWC52tMzoQ,8747
+highspy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+highspy-1.4.0.dev0.dist-info/DELVEWHEEL,sha256=GFkkW9QG6QeZSRGsOmS2yGJZ2MW9x2DLh202maVbfcI,372
+highspy-1.4.0.dev0.dist-info/METADATA,sha256=iRJxVeFRTOSHV5b_JgLHcr3wj_eILZ9npmf4Ub01ZUI,594
+highspy-1.4.0.dev0.dist-info/RECORD,,
+highspy-1.4.0.dev0.dist-info/top_level.txt,sha256=CCLmVcJJAA7KzHtPuazFdg8oEynKmc1ROuTvyRJjH1E,8
+highspy-1.4.0.dev0.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
+highspy.libs/.load-order-highspy-1.4.0.dev0,sha256=L__y0LuMPw0zQh1k_ho4cJyXGopLytY-TGikqfasc64,58
+highspy.libs/highs-ddbe7fc642d28c4b7a796b7a71343b78.dll,sha256=3b5_xkLSjEt6eWt6cTQ7eK4VuN7wyJJUQOSl22PDiV8,3441664
+highspy.libs/msvcp140.dll,sha256=JWSS-7zz3GOYcxj4Pl9J6qzbtqmlvlTkA_DdtDdYKIE,565640
