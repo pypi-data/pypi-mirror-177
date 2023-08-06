@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: westat
+Version: 0.0.1
+Summary: A package for stat and data miner
+Project-URL: Homepage, http://www.pyminer.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: py2cn <aboutlong@qq.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
