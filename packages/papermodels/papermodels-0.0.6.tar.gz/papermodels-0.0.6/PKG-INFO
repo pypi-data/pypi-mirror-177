@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: papermodels
+Version: 0.0.6
+Summary: Load networks
+Author-email: Connor Ferster <connorferster@gmail.com>
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: shapely >= 1.8.0
+Requires-Dist: matplotlib
+Requires-Dist: pandas >= 1.4.0
+Requires-Dist: pdfrw
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: parse
+Requires-Dist: colour
+Requires-Dist: pytest
+Project-URL: Home, https://github.com/connorferster/papermodels
