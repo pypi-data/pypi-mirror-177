@@ -1,0 +1,9 @@
+breezy
+docutils
+dulwich
+jinja2
+merge3
+pygments
+twisted
+webob
+zope.interface
