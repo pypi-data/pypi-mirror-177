@@ -1,0 +1,10 @@
+tap_redcap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_redcap/client.py,sha256=w_pNHC_uVmR9F_Ueon5gRoz-IEVwc_PCvhjJstx6Bf0,4434
+tap_redcap/streams.py,sha256=YEJt9YIT0MV0hV_NSg_z0cSfi3sUNLRKdxo4XXX6u7c,3478
+tap_redcap/tap.py,sha256=DrsWtrCu2kKZrf_fXtrBAPvnVadyZQ90BFLH0ocx4n8,3160
+tap_redcap/tests/__init__.py,sha256=aQMNwhb9XsVBEmX1JN3i_K9JwgQ4H-BMttrIFywFj7U,33
+tap_redcap/tests/test_core.py,sha256=VjO-iqMujJYQbXD5eW5VKUWh1tfo1VtYbS5HBF91tG8,993
+tap_redcap-0.0.4.dist-info/entry_points.txt,sha256=aerEfrP7BlWZIRUzu1VBGC4eDcobPIFufSRqOR55rKQ,59
+tap_redcap-0.0.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tap_redcap-0.0.4.dist-info/METADATA,sha256=D9DtABH8ZAN-Vjl1-6xlU1xkvkCotIZPFbJahhTMvFM,574
+tap_redcap-0.0.4.dist-info/RECORD,,
