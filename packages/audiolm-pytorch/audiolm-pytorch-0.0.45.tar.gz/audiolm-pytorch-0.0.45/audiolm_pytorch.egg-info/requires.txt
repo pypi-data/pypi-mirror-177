@@ -1,0 +1,11 @@
+accelerate
+einops>=0.6
+ema-pytorch
+fairseq
+joblib
+torch>=1.6
+torchaudio
+transformers
+tqdm
+typeguard
+vector-quantize-pytorch>=0.10.11
