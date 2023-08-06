@@ -1,0 +1,8 @@
+README.md
+setup.py
+qr_fileautomator.egg-info/PKG-INFO
+qr_fileautomator.egg-info/SOURCES.txt
+qr_fileautomator.egg-info/dependency_links.txt
+qr_fileautomator.egg-info/entry_points.txt
+qr_fileautomator.egg-info/requires.txt
+qr_fileautomator.egg-info/top_level.txt
